@@ -10,7 +10,7 @@ declare global {
   }
 }
 
-const STORAGE_KEY = 'shona_assimil_user_progress_v1';
+const STORAGE_KEY = 'shona_assimil_user_progress_v2';
 
 export async function loadStoredProgress(): Promise<UserProgress> {
   // Try electron IPC first

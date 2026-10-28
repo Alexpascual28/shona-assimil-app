@@ -17,7 +17,7 @@ export interface DialogueLine {
 export interface NoteItem {
   title: string;
   content: string;
-  rule?: string;
+  rule?: string | null;
 }
 
 export interface ExerciseItem {
@@ -49,6 +49,7 @@ export interface RawLesson {
   title_english?: string;
   audio_url?: string | null;
   audio?: string;
+  duration_seconds?: number | null;
   shona_text?: string;
   english_translation?: string;
   literal_gloss?: (MorphemeGloss | string)[] | string;
@@ -69,6 +70,7 @@ export interface Lesson {
   title_english: string;
   type: 'standard' | 'review';
   audio: string;
+  duration_seconds: number | null;
   dialogue: DialogueLine[];
   shona_text: string;
   english_translation: string;

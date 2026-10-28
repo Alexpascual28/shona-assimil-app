@@ -41,13 +41,11 @@ const LessonContext = createContext<LessonContextType | undefined>(undefined);
 function normalizeLesson(raw: RawLesson, idx: number): Lesson {
   const num = raw.lesson_number || raw.num || (idx + 1);
   const isReview = raw.type === 'review' || num % 7 === 0;
+  const duration_seconds = typeof raw.duration_seconds === 'number' ? raw.duration_seconds : null;
 
-  // Title
-  let title_shona = raw.title || raw.title_shona || `Chidzidzo ${num}`;
-  if (title_shona.startsWith(`Chidzidzo ${num}: `)) {
-    title_shona = title_shona.replace(`Chidzidzo ${num}: `, '');
-  }
-  const title_english = raw.english_translation || raw.title_english || `Lesson ${num}`;
+  // Never include Shona transcript or English translation in titles
+  const title_shona = `Lesson ${num}`;
+  const title_english = duration_seconds !== null ? `${duration_seconds.toFixed(1)}s` : (isReview ? 'Review' : '');
 
   // Audio path (normalize /audio/ to audio/)
   let audio = raw.audio_url || raw.audio || `audio/lesson_${String(num).padStart(3, '0')}.mp3`;
@@ -60,7 +58,7 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
 
   // Morpheme Gloss formatting
   let formattedGlossStr = '';
-  let glossBreakdown: MorphemeGloss[] = [];
+  const glossBreakdown: MorphemeGloss[] = [];
   if (Array.isArray(raw.literal_gloss)) {
     const morphemes: string[] = [];
     raw.literal_gloss.forEach((g) => {
@@ -93,6 +91,13 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     } else {
       dialogue = [];
     }
+  } else {
+    // Ensure literal_gloss is populated if missing on dialogue lines
+    dialogue = dialogue.map((line) => ({
+      ...line,
+      literal_gloss: line.literal_gloss || formattedGlossStr || undefined,
+      gloss_breakdown: line.gloss_breakdown || (glossBreakdown.length > 0 ? glossBreakdown : undefined)
+    }));
   }
 
   // Grammar notes normalization
@@ -119,25 +124,28 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     });
   } else if (Array.isArray(raw.cultural_notes)) {
     raw.cultural_notes.forEach((cn) => {
-      if (typeof cn === 'object') cultural_notes.push(cn as NoteItem);
+      if (typeof cn === 'object' && cn !== null) cultural_notes.push(cn as NoteItem);
     });
   }
 
   // Exercises normalization
   const mapExercises = (exList?: Record<string, unknown>[]): ExerciseItem[] => {
     if (!exList || !Array.isArray(exList)) return [];
-    return exList.map((ex, exIdx) => ({
-      id: exIdx + 1,
-      type: (ex.exercise_type === 'translation' || ex.type === 'translate')
-        ? 'translate'
-        : (ex.options && Array.isArray(ex.options))
-        ? 'multiple_choice'
-        : 'fill_blank',
-      prompt: String(ex.prompt || ''),
-      options: Array.isArray(ex.options) ? (ex.options as string[]) : undefined,
-      correct_answer: String(ex.correct_answer || ''),
-      explanation: ex.explanation ? String(ex.explanation) : undefined
-    }));
+    return exList.map((ex, exIdx) => {
+      const hasOptions = Array.isArray(ex.options) && ex.options.length > 0;
+      return {
+        id: exIdx + 1,
+        type: hasOptions
+          ? 'multiple_choice'
+          : (ex.exercise_type === 'translation' || ex.type === 'translate')
+          ? 'translate'
+          : 'fill_blank',
+        prompt: String(ex.prompt || ''),
+        options: hasOptions ? (ex.options as string[]) : undefined,
+        correct_answer: String(ex.correct_answer || ''),
+        explanation: ex.explanation ? String(ex.explanation) : undefined
+      };
+    });
   };
 
   const active_exercises = mapExercises(raw.active_exercises);
@@ -147,7 +155,7 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
   let review_summary: ReviewSummary | undefined = undefined;
   if (typeof raw.review_summary === 'string') {
     review_summary = {
-      title: `Comprehensive Review (Chidzidzo ${num})`,
+      title: `Comprehensive Review (Lesson ${num})`,
       sections: [
         {
           heading: 'Core Grammatical Mastery & Concords',
@@ -165,6 +173,7 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     title_english,
     type: isReview ? 'review' : 'standard',
     audio,
+    duration_seconds,
     dialogue,
     shona_text,
     english_translation,
@@ -201,8 +210,8 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
         const normalizedData: CourseData = {
           course_title: rawData.course_title || 'Assimil Shona (ChiZezuru)',
-          version: rawData.version || '1.0.0',
-          dialect: rawData.target_dialect || rawData.dialect || 'Central Shona (Zezuru)',
+          version: rawData.version || '2.0.0',
+          dialect: rawData.target_dialect || rawData.dialect || 'Standard Shona (Zezuru)',
           total_lessons: normalizedLessons.length,
           active_wave_start_lesson: rawData.active_wave_start_lesson || 50,
           lessons: normalizedLessons
@@ -266,7 +275,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         },
         ACTIVE_CORRECTION: {
           title: `Active Wave: Translation Correction (Lesson ${activeLessonNum})`,
-          instruction: 'Self-Correction: Compare your translation against the original Central Shona transcript and listen to the audio.'
+          instruction: 'Self-Correction: Compare your translation against the original Shona transcript and listen to the audio.'
         },
         ACTIVE_FINAL_SHADOW: {
           title: `Active Wave: Final Shadowing Pass (Lesson ${activeLessonNum})`,
@@ -476,10 +485,14 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         if (targetActiveLesson) {
           setActiveLessonNum(targetActiveNum);
           setCurrentStep('ACTIVE_TRANSLATE');
+          // Clear any pre-existing translation for this active lesson so the user gets an empty textbox
+          const updatedTranslations = { ...progress.active_translations };
+          delete updatedTranslations[targetActiveNum];
           persist({
             ...progress,
             current_step: 'ACTIVE_TRANSLATE',
-            active_lesson_number: targetActiveNum
+            active_lesson_number: targetActiveNum,
+            active_translations: updatedTranslations
           });
           return;
         }

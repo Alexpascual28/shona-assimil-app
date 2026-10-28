@@ -61,7 +61,7 @@ export const ActiveSteps: React.FC = () => {
         badgeLabel={`Active Target: Lesson ${activeLessonNumber}`}
       />
 
-      {/* ACTIVE STEP 1: ACTIVE_TRANSLATE */}
+      {/* ACTIVE STEP 1: ACTIVE_TRANSLATE (English ONLY + Empty Textbox, no literal gloss) */}
       {currentStep === 'ACTIVE_TRANSLATE' && (
         <div className="space-y-6">
           <div className="bg-slate-900/90 border border-purple-500/30 rounded-2xl p-6 shadow-xl backdrop-blur">
@@ -69,7 +69,7 @@ export const ActiveSteps: React.FC = () => {
               <div className="flex items-center gap-2">
                 <Globe2 className="w-5 h-5 text-indigo-400" />
                 <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                  English Prompts (Lesson {activeLessonNumber})
+                  English Prompt (Lesson {activeLessonNumber})
                 </h3>
               </div>
               <span className="text-xs px-2.5 py-1 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/40 font-semibold">
@@ -83,11 +83,8 @@ export const ActiveSteps: React.FC = () => {
                   <span className="w-7 h-7 rounded-full bg-slate-800 text-slate-300 border border-slate-700 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {line.id}
                   </span>
-                  <div className="space-y-1">
+                  <div>
                     <p className="text-base font-medium text-slate-100">{line.english}</p>
-                    {line.literal_gloss && (
-                      <p className="text-xs text-amber-400/90 font-mono">Gloss: {line.literal_gloss}</p>
-                    )}
                   </div>
                 </div>
               ))}
@@ -97,7 +94,7 @@ export const ActiveSteps: React.FC = () => {
             <div className="space-y-2 pt-2 border-t border-slate-800">
               <label className="text-sm font-bold text-purple-300 flex items-center gap-2">
                 <Edit3 className="w-4 h-4 text-purple-400" />
-                Your Shona Translation (Type without looking at the Shona transcript):
+                Your Shona Translation (Type from memory based on the English sentence above):
               </label>
               <textarea
                 value={localTranslation}
@@ -107,7 +104,7 @@ export const ActiveSteps: React.FC = () => {
                 className="w-full bg-slate-950 border border-slate-700 focus:border-purple-400 focus:ring-2 focus:ring-purple-400/30 rounded-xl p-4 text-slate-100 font-sans text-base leading-relaxed placeholder-slate-600 focus:outline-none transition"
               />
               <p className="text-xs text-slate-400 italic">
-                * Your translation is automatically saved offline. You will inspect and compare your words against the native master in Step 4.
+                * Your translation is saved as you type. You will inspect and compare your words against the Shona transcript in Step 4.
               </p>
             </div>
           </div>

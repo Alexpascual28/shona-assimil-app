@@ -1,14 +1,22 @@
 import React from 'react';
 import { useLesson } from '../../context/LessonContext';
-import { Keyboard, CheckCircle } from 'lucide-react';
+import { Keyboard, CheckCircle, Clock } from 'lucide-react';
 
 export const Header: React.FC = () => {
-  const { currentLesson, currentStep, stepMetadata, activeLessonNumber } = useLesson();
+  const { currentLesson, activeTargetLesson, currentStep, stepMetadata, activeLessonNumber } = useLesson();
 
   if (!currentLesson) return null;
 
   const isReview = currentLesson.type === 'review' || currentLesson.num % 7 === 0;
   const isActiveWave = stepMetadata.phase === 'active';
+
+  const displayLesson = isActiveWave && activeTargetLesson ? activeTargetLesson : currentLesson;
+  const durationDisplay =
+    displayLesson.duration_seconds !== null
+      ? `${displayLesson.duration_seconds.toFixed(1)}s`
+      : isReview
+      ? 'Review Module'
+      : '';
 
   // Step names for visual breadcrumbs
   const getStepLabels = () => {
@@ -43,7 +51,7 @@ export const Header: React.FC = () => {
   return (
     <header className="bg-slate-900/90 border-b border-slate-800 px-6 py-3.5 backdrop-blur sticky top-0 z-20">
       <div className="flex flex-wrap items-center justify-between gap-4">
-        {/* Left: Lesson Title & Phase */}
+        {/* Left: Lesson Number & Audio Duration ONLY */}
         <div className="flex items-center gap-3">
           <div
             className={`w-10 h-10 rounded-xl flex items-center justify-center font-bold text-base shadow-md ${
@@ -57,30 +65,27 @@ export const Header: React.FC = () => {
             {isActiveWave ? `L${activeLessonNumber}` : `L${currentLesson.num}`}
           </div>
 
-          <div>
-            <div className="flex items-center gap-2">
-              <h2 className="text-base font-bold text-white tracking-wide">
-                {isActiveWave
-                  ? `Active Wave: Lesson ${activeLessonNumber}`
-                  : currentLesson.title_shona}
-              </h2>
-              <span
-                className={`text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full border ${
-                  isActiveWave
-                    ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
-                    : isReview
-                    ? 'bg-blue-500/20 text-blue-300 border-blue-500/40'
-                    : 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                }`}
-              >
-                {stepMetadata.phase} wave
-              </span>
-            </div>
-            <p className="text-xs text-slate-400">
-              {isActiveWave
-                ? `Active consolidation triggered from Lesson ${currentLesson.num}`
-                : currentLesson.title_english}
-            </p>
+          <div className="flex items-center gap-2.5">
+            <h2 className="text-base font-bold text-white tracking-wide flex items-center gap-2">
+              <span>{isActiveWave ? `Lesson ${activeLessonNumber}` : `Lesson ${currentLesson.num}`}</span>
+              {durationDisplay && (
+                <span className="text-xs font-mono text-slate-300 bg-slate-800/90 px-2 py-0.5 rounded-md border border-slate-700 flex items-center gap-1">
+                  {displayLesson.duration_seconds !== null && <Clock className="w-3 h-3 text-amber-400" />}
+                  {durationDisplay}
+                </span>
+              )}
+            </h2>
+            <span
+              className={`text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-full border ${
+                isActiveWave
+                  ? 'bg-purple-500/20 text-purple-300 border-purple-500/40'
+                  : isReview
+                  ? 'bg-blue-500/20 text-blue-300 border-blue-500/40'
+                  : 'bg-amber-500/20 text-amber-300 border-amber-500/40'
+              }`}
+            >
+              {stepMetadata.phase} wave
+            </span>
           </div>
         </div>
 

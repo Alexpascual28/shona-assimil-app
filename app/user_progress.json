@@ -1,21 +1,10 @@
 {
-  "completed_passive": [
-    1,
-    2
-  ],
-  "completed_active": [
-    1
-  ],
-  "current_lesson": 1,
-  "current_step": "PASSIVE_BLIND_1",
-  "active_translations": {
-    "1": "Huyai kuno nekukasira!"
-  },
-  "active_corrections": {
-    "1": "Huyai kuno nekukasira!"
-  },
-  "exercise_history": {
-    "lesson_1_ex_1": true
-  },
-  "last_saved": "2026-10-27T17:21:29.590Z"
+  "completed_passive": [],
+  "completed_active": [],
+  "current_lesson": 13,
+  "current_step": "PASSIVE_NOTES",
+  "active_translations": {},
+  "active_corrections": {},
+  "exercise_history": {},
+  "last_saved": "2026-10-28T07:22:59.307Z"
 }

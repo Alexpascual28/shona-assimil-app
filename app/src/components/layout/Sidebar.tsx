@@ -8,7 +8,8 @@ import {
   Search,
   RotateCcw,
   Trophy,
-  Zap
+  Zap,
+  Clock
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -36,15 +37,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   const completedActiveCount = progress.completed_active.length;
   const passivePercent = Math.round((completedPassiveCount / totalLessons) * 100);
 
-  // Filter lessons
+  // Filter lessons (only by lesson number so transcripts/translations are never exposed)
   const filteredLessons = courseData.lessons.filter((l) => {
-    // Search
     if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      const matchesSearch =
-        l.num.toString().includes(q) ||
-        l.title_shona.toLowerCase().includes(q) ||
-        l.title_english.toLowerCase().includes(q);
+      const q = searchQuery.toLowerCase().replace(/^lesson\s*/i, '');
+      const matchesSearch = l.num.toString().includes(q);
       if (!matchesSearch) return false;
     }
 
@@ -59,6 +56,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
     }
     return true;
   });
+
+  const formatDuration = (secs: number | null) => {
+    if (secs === null || isNaN(secs)) return 'Review';
+    return `${secs.toFixed(1)}s`;
+  };
 
   return (
     <aside
@@ -139,7 +141,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
               <Search className="w-3.5 h-3.5 text-slate-500 absolute left-3 top-2.5" />
               <input
                 type="text"
-                placeholder="Search lessons or topics..."
+                placeholder="Jump to lesson number..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full bg-slate-900 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-500/50"
@@ -191,7 +193,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
             </div>
           </div>
 
-          {/* Lessons List */}
+          {/* Lessons List — ONLY Lesson Number and Audio Duration */}
           <div className="flex-1 overflow-y-auto p-2 space-y-1.5 custom-scrollbar">
             {filteredLessons.map((l) => {
               const isSelected = currentLesson?.num === l.num;
@@ -199,13 +201,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
               const isActiveCompleted = progress.completed_active.includes(l.num);
               const isReview = l.type === 'review' || l.num % 7 === 0;
               const isWaveTrigger = l.num >= courseData.active_wave_start_lesson;
-              const activeTargetForThis = isWaveTrigger ? l.num - 49 : null;
+              const activeTargetForThis = isWaveTrigger ? (l.active_wave_target || l.num - 49) : null;
 
               return (
                 <button
                   key={l.num}
                   onClick={() => jumpToLesson(l.num)}
-                  className={`w-full text-left p-3 rounded-xl border transition group relative flex flex-col gap-1 ${
+                  className={`w-full text-left p-3 rounded-xl border transition group relative flex items-center justify-between gap-2 ${
                     isSelected
                       ? 'bg-slate-900 border-amber-500/60 shadow-lg shadow-amber-500/5 ring-1 ring-amber-500/30'
                       : isReview
@@ -213,55 +215,56 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                       : 'bg-slate-950/40 hover:bg-slate-900/70 border-slate-800/60 hover:border-slate-700'
                   }`}
                 >
-                  <div className="flex items-center justify-between gap-2">
-                    <div className="flex items-center gap-2">
-                      <span
-                        className={`w-6 h-6 rounded-md text-xs font-bold flex items-center justify-center shrink-0 ${
-                          isSelected
-                            ? 'bg-amber-500 text-slate-950'
-                            : isReview
-                            ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
-                            : 'bg-slate-800 text-slate-300'
-                        }`}
-                      >
-                        {l.num}
-                      </span>
-                      <span className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 transition truncate max-w-[170px]">
-                        {l.title_shona}
-                      </span>
-                    </div>
+                  <div className="flex items-center gap-3">
+                    <span
+                      className={`w-7 h-7 rounded-lg text-xs font-bold flex items-center justify-center shrink-0 ${
+                        isSelected
+                          ? 'bg-amber-500 text-slate-950'
+                          : isReview
+                          ? 'bg-blue-500/20 text-blue-300 border border-blue-500/40'
+                          : 'bg-slate-800 text-slate-300'
+                      }`}
+                    >
+                      {l.num}
+                    </span>
 
-                    {/* Status Badges */}
-                    <div className="flex items-center gap-1 shrink-0">
-                      {isPassiveCompleted && (
-                        <span
-                          className="w-4 h-4 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center"
-                          title="Passive Wave Completed"
-                        >
-                          <CheckCircle2 className="w-3 h-3" />
-                        </span>
-                      )}
-                      {isActiveCompleted && (
-                        <span
-                          className="w-4 h-4 rounded-full bg-purple-500/20 text-purple-400 border border-purple-500/40 flex items-center justify-center"
-                          title="Active Wave Completed"
-                        >
-                          <Zap className="w-3 h-3 fill-current" />
-                        </span>
-                      )}
-                      {isReview && (
-                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">
-                          Review
-                        </span>
-                      )}
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-semibold text-slate-200 group-hover:text-amber-300 transition">
+                        Lesson {l.num}
+                      </span>
+                      <span className="text-[11px] text-slate-400 font-mono flex items-center gap-1 bg-slate-900/80 px-2 py-0.5 rounded border border-slate-800">
+                        {l.duration_seconds !== null && <Clock className="w-3 h-3 text-amber-400/80" />}
+                        {formatDuration(l.duration_seconds)}
+                      </span>
                     </div>
                   </div>
 
-                  <div className="flex items-center justify-between text-[11px] text-slate-400 pl-8">
-                    <span className="truncate max-w-[180px]">{l.title_english}</span>
+                  {/* Status Badges */}
+                  <div className="flex items-center gap-1.5 shrink-0">
                     {isWaveTrigger && (
-                      <span className="text-[10px] text-purple-300 font-bold bg-purple-950/60 px-1.5 py-0.5 rounded border border-purple-800/60 shrink-0">
-                        ⚡ Active: L{activeTargetForThis}
+                      <span className="text-[10px] text-purple-300 font-bold bg-purple-950/60 px-1.5 py-0.5 rounded border border-purple-800/60">
+                        ⚡ L{activeTargetForThis}
+                      </span>
+                    )}
+                    {isPassiveCompleted && (
+                      <span
+                        className="w-4 h-4 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center"
+                        title="Passive Wave Completed"
+                      >
+                        <CheckCircle2 className="w-3 h-3" />
+                      </span>
+                    )}
+                    {isActiveCompleted && (
+                      <span
+                        className="w-4 h-4 rounded-full bg-purple-500/20 text-purple-400 border border-purple-500/40 flex items-center justify-center"
+                        title="Active Wave Completed"
+                      >
+                        <Zap className="w-3 h-3 fill-current" />
+                      </span>
+                    )}
+                    {isReview && (
+                      <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">
+                        Review
                       </span>
                     )}
                   </div>
@@ -325,7 +328,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                     ? 'bg-blue-950 text-blue-300 border border-blue-600/40'
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
-                title={`Lesson ${l.num}: ${l.title_shona}`}
+                title={`Lesson ${l.num} (${formatDuration(l.duration_seconds)})`}
               >
                 {l.num}
                 {isDone && (

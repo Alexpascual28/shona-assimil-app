@@ -48,7 +48,7 @@ export const PassiveSteps: React.FC = () => {
         </div>
       )}
 
-      {/* STEP 2: Global Comprehension (Audio + English translation & gloss ONLY, Shona hidden) */}
+      {/* STEP 2: Global Comprehension (Audio + English translation ONLY, Shona and literal gloss hidden) */}
       {currentStep === 'PASSIVE_GLOBAL' && (
         <div className="space-y-6">
           <AudioPlayer
@@ -64,7 +64,7 @@ export const PassiveSteps: React.FC = () => {
               <div className="flex items-center gap-2">
                 <Globe2 className="w-5 h-5 text-indigo-400" />
                 <h3 className="text-base font-bold text-white uppercase tracking-wider">
-                  English Translation & Literal Meaning
+                  English Translation
                 </h3>
               </div>
               <span className="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">
@@ -78,15 +78,10 @@ export const PassiveSteps: React.FC = () => {
                   <span className="w-7 h-7 rounded-full bg-slate-800 text-slate-300 border border-slate-700 text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
                     {line.id}
                   </span>
-                  <div className="space-y-1 flex-1">
+                  <div className="flex-1">
                     <p className="text-base font-medium text-slate-100 leading-relaxed">
                       {line.english}
                     </p>
-                    {line.literal_gloss && (
-                      <p className="text-xs text-amber-400/90 font-mono tracking-tight">
-                        Literal: {line.literal_gloss}
-                      </p>
-                    )}
                   </div>
                 </div>
               ))}
@@ -95,7 +90,7 @@ export const PassiveSteps: React.FC = () => {
         </div>
       )}
 
-      {/* STEP 3: Detailed Shadowing (Audio + Shona transcript AND English side-by-side) */}
+      {/* STEP 3: Detailed Shadowing (Audio + Shona transcript AND English translation side-by-side, no literal gloss) */}
       {currentStep === 'PASSIVE_DETAILED' && (
         <div className="space-y-6">
           <AudioPlayer
@@ -112,7 +107,7 @@ export const PassiveSteps: React.FC = () => {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-800">
                 <span className="w-3 h-3 rounded-full bg-amber-400 animate-ping"></span>
                 <h4 className="text-sm font-bold text-amber-400 uppercase tracking-wider">
-                  Shona Transcript
+                  Shona Transcript (ChiZezuru)
                 </h4>
               </div>
               <div className="divide-y divide-slate-800/60">
@@ -134,7 +129,7 @@ export const PassiveSteps: React.FC = () => {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-800">
                 <Globe2 className="w-4 h-4 text-indigo-400" />
                 <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
-                  English & Literal Meaning
+                  English Translation
                 </h4>
               </div>
               <div className="divide-y divide-slate-800/60">
@@ -147,11 +142,6 @@ export const PassiveSteps: React.FC = () => {
                       <p className="text-base text-slate-200 leading-relaxed">
                         {line.english}
                       </p>
-                      {line.literal_gloss && (
-                        <p className="text-xs text-amber-400/90 font-mono">
-                          {line.literal_gloss}
-                        </p>
-                      )}
                     </div>
                   </div>
                 ))}
@@ -161,19 +151,41 @@ export const PassiveSteps: React.FC = () => {
         </div>
       )}
 
-      {/* STEP 4: Grammar & Cultural Notes (Texts alongside notes; audio hidden/paused) */}
+      {/* STEP 4: Grammar & Cultural Notes (Texts + Literal Translation alongside notes; audio hidden/paused) */}
       {currentStep === 'PASSIVE_NOTES' && (
         <div className="space-y-6">
-          {/* Bilingual transcript summary */}
+          {/* Bilingual transcript summary with Literal Word-by-Word Breakdown */}
           <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5">
             <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
-              Reference Dialogue
+              Reference Dialogue & Word-by-Word Literal Breakdown
             </h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+            <div className="grid grid-cols-1 gap-3 text-sm">
               {currentLesson.dialogue.map((line) => (
-                <div key={line.id} className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 flex flex-col justify-between">
-                  <p className="font-semibold text-amber-300">{line.shona}</p>
-                  <p className="text-slate-300 text-xs mt-1">{line.english}</p>
+                <div key={line.id} className="p-4 bg-slate-950/60 rounded-xl border border-slate-800 space-y-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div>
+                      <span className="text-[11px] font-bold text-amber-500/80 uppercase tracking-wider block mb-0.5">
+                        Shona Transcript
+                      </span>
+                      <p className="font-semibold text-base text-amber-300">{line.shona}</p>
+                    </div>
+                    <div>
+                      <span className="text-[11px] font-bold text-indigo-400/80 uppercase tracking-wider block mb-0.5">
+                        English Translation
+                      </span>
+                      <p className="text-slate-200 text-base">{line.english}</p>
+                    </div>
+                  </div>
+                  {line.literal_gloss && (
+                    <div className="pt-2 border-t border-slate-800/80">
+                      <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-0.5">
+                        Literal Word-by-Word Translation
+                      </span>
+                      <p className="text-xs text-amber-400/90 font-mono leading-relaxed">
+                        {line.literal_gloss}
+                      </p>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -237,7 +249,7 @@ export const PassiveSteps: React.FC = () => {
             {/* Shona column */}
             <div className="bg-slate-900/90 border border-amber-500/30 rounded-2xl p-5 shadow-xl">
               <h4 className="text-sm font-bold text-amber-400 uppercase tracking-wider pb-3 mb-3 border-b border-slate-800">
-                Read Aloud (Shona)
+                Read Aloud (ChiZezuru)
               </h4>
               <div className="divide-y divide-slate-800/60">
                 {currentLesson.dialogue.map((line) => (
@@ -316,9 +328,13 @@ export const PassiveSteps: React.FC = () => {
                   <ArrowLeftRight className="w-5 h-5 text-amber-400" />
                   <div>
                     <h4 className="text-sm font-bold text-white">
-                      Reviewing Lesson {prevLesson.num}: {prevLesson.title_shona}
+                      Reviewing Lesson {prevLesson.num}
                     </h4>
-                    <p className="text-xs text-slate-400">{prevLesson.title_english}</p>
+                    <p className="text-xs text-slate-400">
+                      {prevLesson.duration_seconds !== null
+                        ? `Audio Duration: ${prevLesson.duration_seconds.toFixed(1)}s`
+                        : 'Consolidation Review'}
+                    </p>
                   </div>
                 </div>
                 <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30">
