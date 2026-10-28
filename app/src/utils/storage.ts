@@ -7,6 +7,8 @@ declare global {
       saveProgress: (data: UserProgress) => Promise<boolean>;
       loadExpandedCourse?: () => Promise<Record<string, unknown> | null>;
       generateMoreLessons?: (count: number) => Promise<Record<string, unknown> | null>;
+      verifyDevPassword?: (password: string) => Promise<boolean>;
+      onExpansionProgress?: (callback: (data: any) => void) => () => void;
       isElectron?: boolean;
     };
   }

@@ -12,7 +12,12 @@ import {
   Clock,
   Lock,
   PlusCircle,
-  Loader2
+  Loader2,
+  KeyRound,
+  ShieldCheck,
+  AlertCircle,
+  WifiOff,
+  X
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -29,12 +34,21 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
     resetProgress,
     allLessonsCompleted,
     isGeneratingLessons,
-    generateNextFiftyLessons
+    generateNextFiftyLessons,
+    isDevMode,
+    unlockDevMode,
+    completeAllLessons,
+    expansionProgress,
+    offlineNoticeDialog,
+    dismissOfflineNotice
   } = useLesson();
 
   const [filter, setFilter] = useState<'all' | 'standard' | 'reviews' | 'active'>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [showResetConfirm, setShowResetConfirm] = useState<boolean>(false);
+  const [showDevModal, setShowDevModal] = useState<boolean>(false);
+  const [devPasswordInput, setDevPasswordInput] = useState<string>('');
+  const [devError, setDevError] = useState<string>('');
 
   if (!courseData) return null;
 
@@ -283,40 +297,79 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
 
           {/* +50 New Lessons Expansion & Reset Progress Footer */}
           <div className="p-3 border-t border-slate-800/80 bg-slate-950 space-y-2">
-            {/* +50 New Lessons Button (Greyed out until all current Passive & Active lessons are completed) */}
+            {/* Dev Mode Banner & Complete All Lessons Button */}
+            {isDevMode && (
+              <div className="p-2.5 bg-amber-950/40 border border-amber-500/40 rounded-xl space-y-2">
+                <div className="flex items-center justify-between text-[11px] font-bold text-amber-400">
+                  <span className="flex items-center gap-1.5">
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    DEV MODE ACTIVE
+                  </span>
+                  <span className="text-[10px] text-amber-300/90 bg-amber-900/60 px-1.5 py-0.5 rounded border border-amber-700/50">
+                    Unlocked
+                  </span>
+                </div>
+                <button
+                  onClick={completeAllLessons}
+                  className="w-full py-1.5 px-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-xs rounded-lg shadow-sm flex items-center justify-center gap-1.5 transition cursor-pointer"
+                  title="Immediately complete all passive and active lessons to test the +50 New Lessons button"
+                >
+                  <Zap className="w-3.5 h-3.5 fill-current" />
+                  <span>⚡ Complete All Lessons (Dev Unlock)</span>
+                </button>
+              </div>
+            )}
+
+            {/* +50 New Lessons Button or Real-Time Progress Bar */}
             <div className="space-y-1">
-              <button
-                onClick={generateNextFiftyLessons}
-                disabled={!allLessonsCompleted || isGeneratingLessons}
-                title={
-                  allLessonsCompleted
-                    ? `Generate 50 brand-new lessons (Lessons ${totalLessons + 1}–${totalLessons + 50}) in Active Phase (reviewing Lessons ${totalLessons - 49}–${totalLessons})`
-                    : `Complete all ${totalLessons} Passive (${completedPassiveCount}/${totalLessons}) and ${totalActiveWaveLessons} Active (${completedActiveCount}/${totalActiveWaveLessons}) lessons to unlock +50 New Lessons`
-                }
-                className={`w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition border ${
-                  allLessonsCompleted && !isGeneratingLessons
-                    ? 'bg-gradient-to-r from-amber-500 via-amber-600 to-purple-600 hover:from-amber-400 hover:to-purple-500 text-white border-amber-400/50 shadow-lg shadow-amber-500/20 cursor-pointer'
-                    : 'bg-slate-900/60 text-slate-500 border-slate-800/80 opacity-55 cursor-not-allowed'
-                }`}
-              >
-                {isGeneratingLessons ? (
-                  <>
-                    <Loader2 className="w-4 h-4 animate-spin text-amber-300" />
-                    <span>Generating +50 New Lessons...</span>
-                  </>
-                ) : allLessonsCompleted ? (
-                  <>
-                    <PlusCircle className="w-4 h-4 text-white" />
-                    <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
-                  </>
-                ) : (
-                  <>
-                    <Lock className="w-3.5 h-3.5 text-slate-500" />
-                    <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
-                  </>
-                )}
-              </button>
-              {!allLessonsCompleted && (
+              {isGeneratingLessons || expansionProgress ? (
+                <div className="space-y-1.5 bg-slate-900/90 p-2.5 rounded-xl border border-amber-500/50 shadow-lg shadow-amber-500/10">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="font-bold text-amber-300 flex items-center gap-1.5 truncate max-w-[210px]">
+                      <Loader2 className="w-3.5 h-3.5 animate-spin text-amber-400 shrink-0" />
+                      <span className="truncate">{expansionProgress?.statusText || 'Expanding lessons...'}</span>
+                    </span>
+                    <span className="font-mono font-bold text-amber-400 shrink-0">
+                      {expansionProgress?.percent ?? 0}%
+                    </span>
+                  </div>
+                  <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                    <div
+                      className="bg-gradient-to-r from-amber-500 via-orange-500 to-purple-500 h-full rounded-full transition-all duration-300"
+                      style={{ width: `${Math.max(8, expansionProgress?.percent ?? 0)}%` }}
+                    />
+                  </div>
+                </div>
+              ) : (
+                <button
+                  onClick={generateNextFiftyLessons}
+                  disabled={!allLessonsCompleted || isGeneratingLessons}
+                  title={
+                    allLessonsCompleted
+                      ? `Generate 50 brand-new lessons (Lessons ${totalLessons + 1}–${totalLessons + 50}) in Active Phase (reviewing Lessons ${totalLessons - 49}–${totalLessons})`
+                      : `Complete all ${totalLessons} Passive (${completedPassiveCount}/${totalLessons}) and ${totalActiveWaveLessons} Active (${completedActiveCount}/${totalActiveWaveLessons}) lessons to unlock +50 New Lessons`
+                  }
+                  className={`w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition border ${
+                    allLessonsCompleted && !isGeneratingLessons
+                      ? 'bg-gradient-to-r from-amber-500 via-amber-600 to-purple-600 hover:from-amber-400 hover:to-purple-500 text-white border-amber-400/50 shadow-lg shadow-amber-500/20 cursor-pointer'
+                      : 'bg-slate-900/60 text-slate-500 border-slate-800/80 opacity-55 cursor-not-allowed'
+                  }`}
+                >
+                  {allLessonsCompleted ? (
+                    <>
+                      <PlusCircle className="w-4 h-4 text-white" />
+                      <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
+                    </>
+                  ) : (
+                    <>
+                      <Lock className="w-3.5 h-3.5 text-slate-500" />
+                      <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
+                    </>
+                  )}
+                </button>
+              )}
+
+              {!allLessonsCompleted && !isGeneratingLessons && !expansionProgress && (
                 <div className="text-[10px] text-slate-500 text-center leading-tight px-1">
                   Complete all {totalLessons} Passive ({completedPassiveCount}/{totalLessons}) &amp; {totalActiveWaveLessons} Active ({completedActiveCount}/{totalActiveWaveLessons}) lessons to unlock
                 </div>
@@ -353,6 +406,22 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                 <span>Reset Local Progress</span>
               </button>
             )}
+
+            {/* Footer metadata & Dev Mode toggle */}
+            <div className="flex items-center justify-between pt-1 px-1 text-[10px] text-slate-500">
+              <button
+                onClick={() => {
+                  setDevError('');
+                  setShowDevModal(true);
+                }}
+                className="flex items-center gap-1 hover:text-amber-400 transition"
+                title="Developer Mode: Unlock rapid completion testing"
+              >
+                <KeyRound className="w-3 h-3" />
+                <span>{isDevMode ? 'Dev Mode (Active)' : 'Dev Mode'}</span>
+              </button>
+              <span className="font-mono text-slate-600">v2.0.0</span>
+            </div>
           </div>
         </>
       ) : (
@@ -385,6 +454,124 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
               </button>
             );
           })}
+        </div>
+      )}
+
+      {/* Dev Mode Password Modal */}
+      {showDevModal && (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-sm w-full p-5 space-y-4 shadow-2xl">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 text-white font-bold text-sm">
+                <KeyRound className="w-4 h-4 text-amber-400" />
+                <span>Developer Authentication</span>
+              </div>
+              <button
+                onClick={() => {
+                  setShowDevModal(false);
+                  setDevPasswordInput('');
+                  setDevError('');
+                }}
+                className="text-slate-400 hover:text-white p-1"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <p className="text-xs text-slate-300">
+              Enter the developer password configured in <code className="bg-slate-950 px-1 py-0.5 rounded text-amber-300 font-mono">.env</code> to enable instant completion testing for course expansion.
+            </p>
+
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault();
+                setDevError('');
+                const success = await unlockDevMode(devPasswordInput);
+                if (success) {
+                  setShowDevModal(false);
+                  setDevPasswordInput('');
+                } else {
+                  setDevError('Incorrect password. Please verify DEV_MODE_PASSWORD in .env.');
+                }
+              }}
+              className="space-y-3"
+            >
+              <input
+                type="password"
+                placeholder="Enter DEV_MODE_PASSWORD..."
+                value={devPasswordInput}
+                onChange={(e) => setDevPasswordInput(e.target.value)}
+                autoFocus
+                className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"
+              />
+
+              {devError && (
+                <div className="text-[11px] text-rose-400 flex items-center gap-1.5">
+                  <AlertCircle className="w-3.5 h-3.5 shrink-0" />
+                  <span>{devError}</span>
+                </div>
+              )}
+
+              <div className="flex items-center gap-2 pt-1">
+                <button
+                  type="submit"
+                  className="flex-1 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs transition cursor-pointer"
+                >
+                  Unlock Dev Mode
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowDevModal(false);
+                    setDevPasswordInput('');
+                    setDevError('');
+                  }}
+                  className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition cursor-pointer"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Polite Audio Reserve Pool Notice Modal */}
+      {offlineNoticeDialog?.isOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-amber-500/40 rounded-2xl max-w-md w-full p-6 space-y-4 shadow-2xl">
+            <div className="flex items-start gap-3">
+              <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0">
+                <WifiOff className="w-5 h-5" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-sm font-bold text-white">Audio Reserve Pool Notice</h3>
+                <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+                  {offlineNoticeDialog.message}
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-slate-950/80 p-3 rounded-xl border border-slate-800 text-[11px] text-slate-400 space-y-1">
+              <div className="flex justify-between">
+                <span>Clips Remaining in Local Pool:</span>
+                <span className="font-bold text-amber-400 font-mono">{offlineNoticeDialog.remaining}</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Required for Batch Expansion:</span>
+                <span className="font-bold text-slate-200 font-mono">{offlineNoticeDialog.required}</span>
+              </div>
+            </div>
+
+            <div className="flex justify-end pt-2">
+              <button
+                onClick={dismissOfflineNotice}
+                className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-xl transition cursor-pointer"
+              >
+                Understood
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </aside>

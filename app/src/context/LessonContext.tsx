@@ -13,6 +13,18 @@ import {
 import { UserProgress, DEFAULT_USER_PROGRESS } from '../types/progress';
 import { loadStoredProgress, saveStoredProgress } from '../utils/storage';
 
+export interface ExpansionProgress {
+  percent: number;
+  statusText: string;
+}
+
+export interface OfflineNoticeDialog {
+  isOpen: boolean;
+  remaining: number;
+  required: number;
+  message: string;
+}
+
 interface LessonContextType {
   courseData: CourseData | null;
   loading: boolean;
@@ -36,6 +48,12 @@ interface LessonContextType {
   allLessonsCompleted: boolean;
   isGeneratingLessons: boolean;
   generateNextFiftyLessons: () => Promise<void>;
+  isDevMode: boolean;
+  unlockDevMode: (password: string) => Promise<boolean>;
+  completeAllLessons: () => void;
+  expansionProgress: ExpansionProgress | null;
+  offlineNoticeDialog: OfflineNoticeDialog | null;
+  dismissOfflineNotice: () => void;
 }
 
 const LessonContext = createContext<LessonContextType | undefined>(undefined);
@@ -202,6 +220,72 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const [activeLessonNum, setActiveLessonNum] = useState<number | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
   const [audioKey, setAudioKey] = useState<number>(0);
+  const [isDevMode, setIsDevMode] = useState<boolean>(false);
+  const [expansionProgress, setExpansionProgress] = useState<ExpansionProgress | null>(null);
+  const [offlineNoticeDialog, setOfflineNoticeDialog] = useState<OfflineNoticeDialog | null>(null);
+
+  // Subscribe to electron expansion progress events
+  useEffect(() => {
+    if (window.electronAPI?.onExpansionProgress) {
+      const cleanup = window.electronAPI.onExpansionProgress((p: any) => {
+        if (p && typeof p.percent === 'number') {
+          setExpansionProgress({
+            percent: p.percent,
+            statusText: p.statusText || 'Expanding lessons...',
+          });
+        }
+      });
+      return () => {
+        if (typeof cleanup === 'function') cleanup();
+      };
+    }
+  }, []);
+
+  const dismissOfflineNotice = useCallback(() => {
+    setOfflineNoticeDialog(null);
+  }, []);
+
+  const unlockDevMode = useCallback(async (password: string) => {
+    if (window.electronAPI?.verifyDevPassword) {
+      try {
+        const ok = await window.electronAPI.verifyDevPassword(password);
+        if (ok) {
+          setIsDevMode(true);
+          return true;
+        }
+      } catch (err) {
+        console.warn('verifyDevPassword call error:', err);
+      }
+    }
+    // Browser fallback
+    const expected = (import.meta as any).env?.VITE_DEV_MODE_PASSWORD || 'shona_dev_pass';
+    if (typeof password === 'string' && password.trim() === expected.trim()) {
+      setIsDevMode(true);
+      return true;
+    }
+    return false;
+  }, []);
+
+  // Save progress helper
+  const persist = useCallback((updated: UserProgress) => {
+    setProgress(updated);
+    saveStoredProgress(updated);
+  }, []);
+
+  const completeAllLessons = useCallback(() => {
+    if (!courseData) return;
+    const allPassive = Array.from({ length: courseData.total_lessons }, (_, i) => i + 1);
+    const activeStart = courseData.active_wave_start_lesson || 51;
+    const maxActive = Math.max(0, courseData.total_lessons - (activeStart - 1));
+    const allActive = Array.from({ length: maxActive }, (_, i) => i + 1);
+
+    const updated: UserProgress = {
+      ...progress,
+      completed_passive: allPassive,
+      completed_active: allActive,
+    };
+    persist(updated);
+  }, [courseData, progress, persist]);
 
   // Load course data from public/course_data.json (or expanded course if user already added +50 lessons)
   useEffect(() => {
@@ -271,12 +355,6 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       }
     }
     init();
-  }, []);
-
-  // Save progress helper
-  const persist = useCallback((updated: UserProgress) => {
-    setProgress(updated);
-    saveStoredProgress(updated);
   }, []);
 
   // Current lesson object
@@ -706,8 +784,24 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         }
       }
 
+      if (updatedRaw && typeof updatedRaw === 'object' && 'error' in updatedRaw && (updatedRaw as any).error === 'INSUFFICIENT_OFFLINE_RESERVE') {
+        const errObj = updatedRaw as any;
+        setOfflineNoticeDialog({
+          isOpen: true,
+          remaining: typeof errObj.remaining === 'number' ? errObj.remaining : 0,
+          required: typeof errObj.required === 'number' ? errObj.required : 50,
+          message:
+            errObj.message ||
+            'There are fewer than 50 reserve lessons left in the offline pool. An internet connection is required to fetch more lessons.',
+        });
+        setIsGeneratingLessons(false);
+        setExpansionProgress(null);
+        return;
+      }
+
       // Browser / fallback expansion using expansion_pool.json
       if (!updatedRaw) {
+        setExpansionProgress({ percent: 20, statusText: 'Checking offline reserve pool...' });
         const poolRes = await fetch('./expansion_pool.json');
         if (!poolRes.ok) throw new Error('Failed to load expansion_pool.json');
         const poolLessons: RawLesson[] = await poolRes.json();
@@ -724,6 +818,20 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
             !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
             Number(item.duration_seconds || 0) <= 120.0
         );
+
+        if (available.length < 50) {
+          setOfflineNoticeDialog({
+            isOpen: true,
+            remaining: available.length,
+            required: 50,
+            message: `There are currently only ${available.length} reserve lessons remaining in the offline pool (50 required for a complete new batch). Please connect to the internet to download additional audio clips or update your course pack.`,
+          });
+          setIsGeneratingLessons(false);
+          setExpansionProgress(null);
+          return;
+        }
+
+        setExpansionProgress({ percent: 45, statusText: 'Selecting and balancing clip progression...' });
 
         const startLessonNum = currentRawList.length + 1;
         const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
@@ -933,9 +1041,18 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           current_step: 'PASSIVE_BLIND_1',
           active_lesson_number: undefined
         });
+
+        setExpansionProgress({
+          percent: 100,
+          statusText: `Complete! Lessons 1–${normalizedLessons.length} are ready.`
+        });
+        setTimeout(() => {
+          setExpansionProgress(null);
+        }, 1600);
       }
     } catch (err) {
       console.error('Failed to generate +50 lessons:', err);
+      setExpansionProgress(null);
     } finally {
       setIsGeneratingLessons(false);
     }
@@ -965,7 +1082,13 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         resetProgress,
         allLessonsCompleted,
         isGeneratingLessons,
-        generateNextFiftyLessons
+        generateNextFiftyLessons,
+        isDevMode,
+        unlockDevMode,
+        completeAllLessons,
+        expansionProgress,
+        offlineNoticeDialog,
+        dismissOfflineNotice
       }}
     >
       {children}

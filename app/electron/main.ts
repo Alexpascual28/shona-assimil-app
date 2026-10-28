@@ -20,6 +20,41 @@ function getWorkspaceBackupPath(): string {
   return path.join(process.cwd(), 'user_progress.json');
 }
 
+function getDevModePassword(): string {
+  if (process.env.DEV_MODE_PASSWORD) return process.env.DEV_MODE_PASSWORD;
+  const envCandidates = [
+    path.join(process.cwd(), '.env'),
+    path.join(process.cwd(), 'app', '.env'),
+    path.join(__dirname, '../.env'),
+    path.join(__dirname, '../../.env'),
+    path.join(app.getAppPath(), '.env'),
+  ];
+  for (const envPath of envCandidates) {
+    if (fs.existsSync(envPath)) {
+      try {
+        const content = fs.readFileSync(envPath, 'utf-8');
+        for (const line of content.split('\n')) {
+          const trimmed = line.trim();
+          if (trimmed.startsWith('DEV_MODE_PASSWORD=')) {
+            return trimmed.split('=')[1].trim();
+          }
+        }
+      } catch {}
+    }
+  }
+  return 'shona_dev_pass';
+}
+
+function sendExpansionProgress(percent: number, statusText: string, details?: any) {
+  if (mainWindow && !mainWindow.isDestroyed()) {
+    mainWindow.webContents.send('expansion-progress', {
+      percent,
+      statusText,
+      ...details,
+    });
+  }
+}
+
 function resolvePublicAssetPath(filename: string): string | null {
   const candidates = [
     path.join(process.cwd(), 'public', filename),
@@ -226,8 +261,14 @@ ipcMain.handle('get-expanded-course', async () => {
   return null;
 });
 
+ipcMain.handle('verify-dev-password', async (_event, password: string) => {
+  const expected = getDevModePassword();
+  return typeof password === 'string' && password.trim() === expected.trim();
+});
+
 ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
   try {
+    sendExpansionProgress(5, 'Initializing lesson expansion pipeline...');
     const numToAdd = typeof count === 'number' && count > 0 ? count : 50;
     const expandedPath = getExpandedCoursePath();
     const baseCoursePath = resolvePublicAssetPath('course_data.json');
@@ -249,40 +290,8 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
       throw new Error('Could not load base course_data.json');
     }
 
-    // Try running pipeline/build_course.py --append --max-new-lessons 50 if available in workspace
-    const pipelineScriptCandidates = [
-      path.resolve(process.cwd(), '../pipeline/build_course.py'),
-      path.resolve(process.cwd(), 'pipeline/build_course.py'),
-    ];
-    const pipelineScript = pipelineScriptCandidates.find((p) => fs.existsSync(p));
-
-    if (pipelineScript) {
-      fs.writeFileSync(expandedPath, JSON.stringify(currentCourse, null, 2), 'utf-8');
-      await new Promise<void>((resolve, reject) => {
-        execFile(
-          'python',
-          [pipelineScript, '--append', '--max-new-lessons', String(numToAdd), '--output-json', expandedPath],
-          { timeout: 60000 },
-          (err) => {
-            if (err) reject(err);
-            else resolve();
-          }
-        );
-      }).catch((err) => {
-        console.warn('Python pipeline invocation fallback to reserve pool:', err);
-      });
-
-      if (fs.existsSync(expandedPath)) {
-        const updatedFromPy = JSON.parse(fs.readFileSync(expandedPath, 'utf-8'));
-        if (
-          updatedFromPy &&
-          Array.isArray(updatedFromPy.lessons) &&
-          updatedFromPy.lessons.length > currentCourse.lessons.length
-        ) {
-          return updatedFromPy;
-        }
-      }
-    }
+    sendExpansionProgress(15, 'Scanning available audio clips in reserve pool...');
+    await new Promise((r) => setTimeout(r, 100));
 
     // Reserve pool expansion (works 100% offline in standalone .exe and dev)
     if (!poolPath || !fs.existsSync(poolPath)) {
@@ -301,9 +310,23 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
         Number(item.duration_seconds || 0) <= 120.0
     );
 
+    // If reserve pool has fewer than 50 lessons left, return polite offline dialog notice
+    if (availableNew.length < numToAdd) {
+      sendExpansionProgress(0, 'Reserve pool below threshold.');
+      return {
+        error: 'INSUFFICIENT_OFFLINE_RESERVE',
+        remaining: availableNew.length,
+        required: numToAdd,
+        message: `There are currently only ${availableNew.length} reserve lessons remaining in the offline pool (${numToAdd} required for a new batch). Please connect to the internet to download additional audio clips or update your course pack.`,
+      };
+    }
+
+    sendExpansionProgress(35, `Selecting ${numToAdd} progressive clips (75% progressive + 25% short review)...`);
+    await new Promise((r) => setTimeout(r, 120));
+
     const startLessonNum = currentCourse.lessons.length + 1;
     const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
-    const sourcePool = availableNew.length >= numToAdd ? availableNew : poolLessons.filter((item) => Number(item.duration_seconds || 0) <= 120.0);
+    const sourcePool = availableNew;
 
     let orderedCandidates: Record<string, any>[] = [];
     if (bandIdx >= 6) {
@@ -400,6 +423,9 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
       }
     }
 
+    sendExpansionProgress(60, 'Assembling Active Wave metadata and translation pairs...');
+    await new Promise((r) => setTimeout(r, 120));
+
     const selectedBatch: Record<string, any>[] = [];
     for (let i = 0; i < numToAdd; i++) {
       if (i < orderedCandidates.length) {
@@ -417,6 +443,9 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
 
     const allLessons: Record<string, any>[] = [...currentCourse.lessons];
     const activeWaveStart = Number(currentCourse.active_wave_start_lesson || 51);
+
+    sendExpansionProgress(78, 'Synthesizing 7-lesson comprehensive review units and exercises...');
+    await new Promise((r) => setTimeout(r, 120));
 
     for (const rawNew of selectedBatch) {
       const nextNum = allLessons.length + 1;
@@ -453,6 +482,9 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
       }
     }
 
+    sendExpansionProgress(92, 'Saving expanded syllabus to persistent app storage...');
+    await new Promise((r) => setTimeout(r, 100));
+
     const updatedCourse = {
       ...currentCourse,
       generated_at: new Date().toISOString(),
@@ -464,9 +496,12 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
     };
 
     fs.writeFileSync(expandedPath, JSON.stringify(updatedCourse, null, 2), 'utf-8');
+
+    sendExpansionProgress(100, `Completed! Lessons 1–${allLessons.length} are now active.`);
     return updatedCourse;
   } catch (err) {
     console.error('Failed to generate +50 lessons:', err);
+    sendExpansionProgress(0, 'Failed to generate lessons.');
     return null;
   }
 });
