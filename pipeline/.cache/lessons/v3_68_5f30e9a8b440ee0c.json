@@ -1,0 +1,189 @@
+{
+  "english_translation": "Men used to sit at the village council settling disputes and teaching boys good customs.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Varume vaigara padare vachitonga mhosva nekudzidzisa vakomana tsika.",
+      "english": "Men used to sit at the village council settling disputes and teaching boys good customs.",
+      "literal_gloss": "Varume [men] • vaigara [people igara] • padare [on / at dare] • vachitonga [people chitonga] • mhosva [mhosva] • nekudzidzisa [and / with kudzidzisa] • vakomana [people komana] • tsika [tsika]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Varume",
+          "morpheme_breakdown": "va- + -rume (men)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "men",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaigara",
+          "morpheme_breakdown": "va- (plural people prefix) + -igara",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people igara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "padare",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -dare",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at dare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachitonga",
+          "morpheme_breakdown": "va- (plural people prefix) + -chitonga",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chitonga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhosva",
+          "morpheme_breakdown": "mhosva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhosva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekudzidzisa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kudzidzisa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kudzidzisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakomana",
+          "morpheme_breakdown": "va- (plural people prefix) + -komana",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people komana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsika",
+          "morpheme_breakdown": "tsika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsika",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Varume",
+      "morpheme_breakdown": "va- + -rume (men)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "men",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaigara",
+      "morpheme_breakdown": "va- (plural people prefix) + -igara",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people igara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "padare",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -dare",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at dare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachitonga",
+      "morpheme_breakdown": "va- (plural people prefix) + -chitonga",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chitonga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mhosva",
+      "morpheme_breakdown": "mhosva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mhosva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekudzidzisa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kudzidzisa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kudzidzisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakomana",
+      "morpheme_breakdown": "va- (plural people prefix) + -komana",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people komana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tsika",
+      "morpheme_breakdown": "tsika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tsika",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nekudzidzisa'",
+      "content": "Look closely at 'nekudzidzisa'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'kudzidzisa' forms 'nekudzidzisa'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('vaigara')",
+      "content": "In this sentence, 'vaigara' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('nekudzidzisa')",
+      "content": "Look at 'nekudzidzisa' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Traditional Village Council & Evening Men's Forum ('Padare')",
+      "content": "In a traditional Shona village, the 'dare' had two meanings: the public village court presided over by the headman ('sabhuku') or chief ('mambo') to resolve disputes ('kutonga mhosva') fairly, and the evening gathering place where elders mentored young men in craftsmanship, family responsibility, and good character ('tsika').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

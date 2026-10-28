@@ -71,8 +71,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--max-Lessons",
         dest="max_lessons",
         type=int,
-        default=65,
-        help="Maximum total lessons (regular + 7th-slot reviews) to generate (default: 65).",
+        default=100,
+        help="Maximum total lessons (regular + 7th-slot reviews) to generate (default: 100).",
+    )
+    parser.add_argument(
+        "--distribute-new",
+        type=int,
+        default=None,
+        help="Preserve all existing lessons in course_data.json as-is, enrich N new dataset clips, distribute/sort them together, and recalculate 7th-lesson reviews (1-7, 8-14, etc.) and Active Wave (51+).",
+    )
+    parser.add_argument(
+        "--max-new-lessons",
+        type=int,
+        default=50,
+        help="When used with --append, number of brand-new Active Phase lessons to append (default: 50).",
     )
     parser.add_argument(
         "--append",
@@ -144,7 +156,7 @@ def main(argv: list[str] | None = None) -> int:
 
     existing_lessons: list[Lesson] = []
     existing_sources: list[str] = []
-    if args.append:
+    if args.append or args.distribute_new:
         existing_lessons, existing_sources = load_existing_course(output_json_path)
 
     existing_clip_ids = {l.clip_id for l in existing_lessons if l.clip_id}
@@ -152,10 +164,28 @@ def main(argv: list[str] | None = None) -> int:
 
     # Every lesson (including every 7th review lesson) now receives its own dataset audio clip for the Passive Phase
     review_interval = int(config.get("sequencer", {}).get("review_interval", 7))
-    needed_regular_clips = args.max_lessons
+    if args.distribute_new:
+        needed_regular_clips = args.distribute_new
+    elif args.append:
+        needed_regular_clips = args.max_new_lessons
+    else:
+        needed_regular_clips = args.max_lessons
 
     collected_clips: list[NormalizedClip] = []
     source_datasets: list[str] = list(existing_sources)
+
+    cached_ingested_file = cache_dir / "all_ingested_clips.json"
+    if not args.mock and not args.local_dir and cached_ingested_file.exists():
+        try:
+            raw_cached = json.loads(cached_ingested_file.read_text(encoding="utf-8"))
+            collected_clips = [NormalizedClip.model_validate(item) for item in raw_cached]
+            for ds_name in config.get("default_datasets", []):
+                if ds_name not in source_datasets:
+                    source_datasets.append(ds_name)
+            logger.info("Loaded %d pre-ingested dataset clips from %s", len(collected_clips), cached_ingested_file)
+        except Exception as exc:
+            logger.warning("Failed to read cached clips (%s); falling back to live ingest.", exc)
+            collected_clips = []
 
     if args.mock:
         logger.info("Running in --mock mode: generating %d lessons (%d regular clips)...", args.max_lessons, needed_regular_clips)
@@ -167,7 +197,7 @@ def main(argv: list[str] | None = None) -> int:
         for ds_name in config.get("default_datasets", []):
             if ds_name not in source_datasets:
                 source_datasets.append(ds_name)
-    else:
+    elif not collected_clips:
         ingestor = DatasetIngestor(
             config_path=config_path,
             audio_output_dir=audio_dir,
@@ -202,14 +232,14 @@ def main(argv: list[str] | None = None) -> int:
                 logger.error("Failed to ingest local directory '%s': %s", local_path, exc)
 
         # If strict Zezuru + duration filtering across small sample datasets yields fewer clips than
-        # needed to reach --max-lessons (e.g., Lesson 50+ Active Wave), supplement with curated Zezuru clips.
+        # needed to reach --max-lessons (e.g., Lesson 51+ Active Wave), supplement with curated Zezuru clips.
         if args.fill_to_max and len(collected_clips) < needed_regular_clips:
             shortfall = needed_regular_clips - len(collected_clips)
             logger.info(
-                "Ingested %d live filtered Zezuru clips; supplementing with %d curated Zezuru clips to reach %d total lessons (Active Wave Lesson 50+).",
+                "Ingested %d live filtered Zezuru clips; supplementing with %d curated Zezuru clips to reach %d total lessons.",
                 len(collected_clips),
                 shortfall,
-                args.max_lessons,
+                needed_regular_clips,
             )
             supplement = generate_mock_clips(
                 audio_output_dir=audio_dir,
@@ -220,21 +250,76 @@ def main(argv: list[str] | None = None) -> int:
 
     # 3. Sequence & Score
     sequencer = AssimilSequencer(config)
-    sorted_clips = sequencer.score_and_deduplicate(
-        clips=collected_clips,
-        existing_clip_ids=existing_clip_ids,
-        existing_texts=existing_texts,
-        max_regular_clips=needed_regular_clips,
-    )
-    lessons = sequencer.build_lesson_skeleton(
-        sorted_clips=sorted_clips,
-        max_lessons=args.max_lessons,
-        existing_lessons=existing_lessons if args.append else None,
-    )
-
-    # 4. Linguistic Enrichment (Disk-cached in pipeline/.cache/)
     enricher = GeminiEnricher(config=config, cache_dir=cache_dir)
-    enriched_lessons = enricher.enrich_all_lessons(lessons, mock=args.mock)
+
+    if args.distribute_new and existing_lessons:
+        logger.info(
+            "Preserving %d existing enriched lessons and distributing %d brand-new lessons...",
+            len(existing_lessons),
+            args.distribute_new,
+        )
+        new_clips = sequencer.score_and_deduplicate(
+            clips=collected_clips,
+            existing_clip_ids=existing_clip_ids,
+            existing_texts=existing_texts,
+            max_regular_clips=args.distribute_new,
+        )
+        temp_new_lessons = sequencer.build_lesson_skeleton(
+            sorted_clips=new_clips,
+            max_lessons=len(new_clips),
+            existing_lessons=None,
+        )
+        # Enrich ONLY the newly added clips (existing 65 lessons are untouched!)
+        for idx, nl in enumerate(temp_new_lessons):
+            temp_new_lessons[idx] = enricher.enrich_regular_lesson(nl, mock=args.mock)
+
+        # Distribute new lessons with existing lessons, re-number 1..100, and compute 7-lesson reviews (1-7, 8-14, ...)
+        combined_lessons = sequencer.distribute_and_resequence(
+            existing_lessons=existing_lessons,
+            new_lessons=temp_new_lessons,
+        )
+        enriched_lessons = enricher.enrich_all_lessons(combined_lessons, mock=args.mock)
+
+        # Also export remaining unused dataset clips as pre-enriched reserve pool for "+50 New Lessons" button
+        used_ids = {l.clip_id for l in enriched_lessons if l.clip_id}
+        used_txts = {(l.shona_text or "").strip().lower() for l in enriched_lessons if l.shona_text}
+        reserve_clips = sequencer.score_and_deduplicate(
+            clips=collected_clips,
+            existing_clip_ids=used_ids,
+            existing_texts=used_txts,
+            max_regular_clips=None,
+        )
+        reserve_lessons = sequencer.build_lesson_skeleton(
+            sorted_clips=reserve_clips,
+            max_lessons=len(reserve_clips),
+            existing_lessons=None,
+        )
+        for idx, rl in enumerate(reserve_lessons):
+            reserve_lessons[idx] = enricher.enrich_regular_lesson(rl, mock=args.mock)
+            reserve_lessons[idx].type = "regular"
+            reserve_lessons[idx].review_summary = None
+            reserve_lessons[idx].review_exercises = []
+            reserve_lessons[idx].reviewed_lessons = []
+
+        expansion_pool_path = output_json_path.parent / "expansion_pool.json"
+        expansion_pool_path.write_text(
+            json.dumps([rl.model_dump() for rl in reserve_lessons], indent=2, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        logger.info("Exported %d pre-enriched reserve dataset lessons to %s", len(reserve_lessons), expansion_pool_path)
+    else:
+        sorted_clips = sequencer.score_and_deduplicate(
+            clips=collected_clips,
+            existing_clip_ids=existing_clip_ids,
+            existing_texts=existing_texts,
+            max_regular_clips=needed_regular_clips,
+        )
+        lessons = sequencer.build_lesson_skeleton(
+            sorted_clips=sorted_clips,
+            max_lessons=needed_regular_clips,
+            existing_lessons=existing_lessons if args.append else None,
+        )
+        enriched_lessons = enricher.enrich_all_lessons(lessons, mock=args.mock)
 
     regular_count = sum(1 for l in enriched_lessons if l.type == "regular")
     review_count = sum(1 for l in enriched_lessons if l.type == "review")
@@ -245,7 +330,7 @@ def main(argv: list[str] | None = None) -> int:
         regular_lessons_count=regular_count,
         review_lessons_count=review_count,
         active_wave_start_lesson=int(
-            config.get("sequencer", {}).get("active_wave_start_lesson", 50)
+            config.get("sequencer", {}).get("active_wave_start_lesson", 51)
         ),
         source_datasets=source_datasets,
         lessons=enriched_lessons,

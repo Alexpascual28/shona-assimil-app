@@ -1,0 +1,203 @@
+{
+  "english_translation": "The road had potholes, but the journey went well without any problem.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mugwagwa wangauine makomba asi rwendo rwazofamba zvakanaka; pasina dambudziko.",
+      "english": "The road had potholes, but the journey went well without any problem.",
+      "literal_gloss": "Mugwagwa [in / singular gwagwa] • wangauine [wangauine] • makomba [plural komba] • asi [but / however] • rwendo [rwendo] • rwazofamba [rwazofamba] • zvakanaka [well / nicely / very good] • pasina [on / at sina] • dambudziko [dambudziko]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wangauine",
+          "morpheme_breakdown": "wangauine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wangauine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "makomba",
+          "morpheme_breakdown": "ma- (plural prefix) + -komba",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural komba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwendo",
+          "morpheme_breakdown": "rwendo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwazofamba",
+          "morpheme_breakdown": "rwazofamba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwazofamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasina",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -sina",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at sina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dambudziko",
+          "morpheme_breakdown": "dambudziko (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dambudziko",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wangauine",
+      "morpheme_breakdown": "wangauine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wangauine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "makomba",
+      "morpheme_breakdown": "ma- (plural prefix) + -komba",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural komba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwendo",
+      "morpheme_breakdown": "rwendo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwazofamba",
+      "morpheme_breakdown": "rwazofamba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwazofamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasina",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -sina",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at sina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dambudziko",
+      "morpheme_breakdown": "dambudziko (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dambudziko",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'Mugwagwa'",
+      "content": "Notice how 'Mugwagwa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvakanaka')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvakanaka'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Navigating Rainy-Season Road Potholes ('Makomba') Safely",
+      "content": "After heavy summer rains, drivers watch carefully for potholes ('makomba') along rural and suburban roads, celebrating a smooth, incident-free arrival ('rwendo rwazofamba zvakanaka; pasina dambudziko').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "People are standing at the market waiting to board the bus.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In a Zimbabwean city, if a driver says 'Mota dzakamira parobhoti dzichimirira mwenje wegirinhi', where are the cars stopped?",
+      "options": [
+        "At a rural bus stop waiting for passengers",
+        "Inside a garage having their tyres repaired",
+        "At the traffic light waiting for the green light",
+        "Beside a river bridge that is under construction"
+      ],
+      "correct_answer": "At the traffic light waiting for the green light",
+      "explanation": "'Robhoti' (plural 'marobhotsi') is the standard Shona word for a traffic light, and 'mwenje wegirinhi' is the green light."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndeipi shangu yaunoda, nhema kana tsvuku?'",
+      "options": [
+        "Where did you put my white shirt and blue trousers?",
+        "These new shoes are very comfortable for walking.",
+        "She washed all the white clothes this morning.",
+        "Which shoe do you want, the black one or the red one?"
+      ],
+      "correct_answer": "Which shoe do you want, the black one or the red one?",
+      "explanation": "'Ndeipi shangu yaunoda' = 'Which shoe do you want', 'nhema kana tsvuku' = 'the black one or the red one'."
+    }
+  ]
+}

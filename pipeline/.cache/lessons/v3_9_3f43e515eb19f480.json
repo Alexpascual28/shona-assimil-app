@@ -1,0 +1,203 @@
+{
+  "english_translation": "This table needs to be wiped because the children spilled milk on it.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tafura iyi inoda kupukutwa nokuti vana varasira mukaka pairi.",
+      "english": "This table needs to be wiped because the children spilled milk on it.",
+      "literal_gloss": "Tafura [table] • iyi [iyi] • inoda [it da] • kupukutwa [to / at pukutwa] • nokuti [because] • vana [children] • varasira [people rasira] • mukaka [milk] • pairi [on / at iri]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tafura",
+          "morpheme_breakdown": "tafura (table)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "table",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoda",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -da",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupukutwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pukutwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pukutwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vana",
+          "morpheme_breakdown": "va- (plural) + -ana (children)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "children",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "varasira",
+          "morpheme_breakdown": "va- (plural people prefix) + -rasira",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people rasira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukaka",
+          "morpheme_breakdown": "mu- + -kaka (milk)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "milk",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pairi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -iri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at iri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tafura",
+      "morpheme_breakdown": "tafura (table)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "table",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inoda",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -da",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupukutwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pukutwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pukutwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vana",
+      "morpheme_breakdown": "va- (plural) + -ana (children)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "children",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "varasira",
+      "morpheme_breakdown": "va- (plural people prefix) + -rasira",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people rasira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukaka",
+      "morpheme_breakdown": "mu- + -kaka (milk)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "milk",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pairi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -iri",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at iri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('inoda')",
+      "content": "The verb 'inoda' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('vana')",
+      "content": "In Shona, number words like 'vana' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'kupukutwa'",
+      "content": "Notice how 'kupukutwa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Keeping the Family Dining Table ('Tafura') Spotless",
+      "content": "Cleanliness ('utsanana') in the kitchen and dining room is a point of pride in Shona homes: tables are wiped down ('kupukutwa') immediately before and after children have their morning milk ('mukaka') and porridge.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Add a little salt to the vegetables' in Shona?",
+      "options": [
+        "Tenga shuga zhinji kuchitoro.",
+        "Bika hupfu nemvura inopisa.",
+        " Cheka chingwa nebangwa.",
+        "Isa munyu mushoma mumuriwo."
+      ],
+      "correct_answer": "Isa munyu mushoma mumuriwo.",
+      "explanation": "'Isa' = 'Put/add', 'munyu mushoma' = 'a little salt', 'mumuriwo' = 'in the vegetables'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Hupfu hwapera mumba', why does 'hwapera' ('has run out') start with 'hwa-'?",
+      "options": [
+        "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+        "Because 'hwa-' always means tomorrow",
+        "Because it refers to a person cooking in the kitchen",
+        "Because 'mumba' starts with 'm-'"
+      ],
+      "correct_answer": "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+      "explanation": "Nouns starting with 'hu-' (like 'hupfu') use 'hu-' / 'hwa-' subject prefixes on the verb."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "mukicheni",
+        "kicheni",
+        "vakicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    }
+  ]
+}

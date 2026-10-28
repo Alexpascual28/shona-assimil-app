@@ -1,0 +1,189 @@
+{
+  "english_translation": "I forgot my pencil at home, but my friend helped me.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndakanganwa penzura yangu kumba asi shamwari yangu yandibatsira.",
+      "english": "I forgot my pencil at home, but my friend helped me.",
+      "literal_gloss": "Ndakanganwa [I (past) nganwa] • penzura [penzura] • yangu [yangu] • kumba [home / to the house] • asi [but / however] • shamwari [friend / friends] • yangu [yangu] • yandibatsira [yandibatsira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndakanganwa",
+          "morpheme_breakdown": "nda- (I) + -ka- (past) + -nganwa",
+          "noun_class_or_concord": "Past Tense Verb (I did ...)",
+          "literal_english": "I (past) nganwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "penzura",
+          "morpheme_breakdown": "penzura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "penzura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yangu",
+          "morpheme_breakdown": "yangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumba",
+          "morpheme_breakdown": "ku- (to/at) + imba (home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "home / to the house",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "shamwari",
+          "morpheme_breakdown": "shamwari (friend)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "friend / friends",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yangu",
+          "morpheme_breakdown": "yangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yandibatsira",
+          "morpheme_breakdown": "yandibatsira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yandibatsira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndakanganwa",
+      "morpheme_breakdown": "nda- (I) + -ka- (past) + -nganwa",
+      "noun_class_or_concord": "Past Tense Verb (I did ...)",
+      "literal_english": "I (past) nganwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "penzura",
+      "morpheme_breakdown": "penzura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "penzura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "yangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumba",
+      "morpheme_breakdown": "ku- (to/at) + imba (home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "home / to the house",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "shamwari",
+      "morpheme_breakdown": "shamwari (friend)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "friend / friends",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "yangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yandibatsira",
+      "morpheme_breakdown": "yandibatsira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yandibatsira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Ndakanganwa')",
+      "content": "The verb 'Ndakanganwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumba')",
+      "content": "Look at how location is expressed with 'kumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yangu')",
+      "content": "In Shona, possessive words like 'yangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Classroom Camaraderie & Sharing Stationery ('Penzura') at School",
+      "content": "In Zimbabwean primary and secondary schools, classmates readily share pencils ('penzura'), pens ('zvinyoreso'), and rulers when a friend forgets theirs at home, fostering lifelong school friendships ('ushamwari hwepachikoro').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "I left my mobile phone on the chair in the living room.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home.",
+        "We will buy cooking oil and tomatoes at the market."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

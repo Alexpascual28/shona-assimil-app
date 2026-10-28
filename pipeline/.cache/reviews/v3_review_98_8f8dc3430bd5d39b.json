@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 14 Comprehensive Review (Lessons 92–98)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 92–98)",
+        "points": [
+          "Lesson 92: \"Munhukadzi ari kugadzirwa musoro wake. Uso hwake hausi kuonekwa asi pane ruoko rwuri mumusor...\" — A woman is having her hair styled. Her face is not visible, but a stylist's hand can be seen...",
+          "Lesson 93: \"Pakati pevanhu vari kufamba muguta parutivi rwemugwagwae pane murume akapfeka hembe yeruvara...\" — Among the people walking along the city pavement is a man wearing a red shirt, white trouser...",
+          "Lesson 94: \"Turusi mana akagadzikwa pasi paneruvara rwekirimu uye pakasakara. Maturusi aya anosanganisir...\" — Four farm tools are laid out on a worn cream-coloured surface. These tools include a hoe wit...",
+          "Lesson 95: \"Vanhu vakaungana mubani vese vane migomo zvinove zvigubu zvekuratidza kuti varikucherera mvu...\" — People have gathered in an open field carrying buckets and containers to fetch water, beside...",
+          "Lesson 96: \"Munhukadzi mumwe chete akamira akabata muchiuno chake. Ane musoro une bvudzi rakawanda rakas...\" — One woman stands with her hands on her waist; she has thick dark hair and wears many bangles...",
+          "Lesson 97: \"Munhurume wechiAfrica akamira akabata machira ane ruvara rutatu achiratidza kudhekoreta panz...\" — An African man stands holding three-coloured cloths to decorate the place where he stands. T...",
+          "Lesson 98: \"Mushina unoshandiswa kunamirira mitengo kumadziro uye pazvinhu zviri kutengeswa. Marobhotsi ...\" — A pricing machine is used to stick price labels onto walls and goods for sale. In cities, tr..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('rakatsvukuruka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akapfeka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakaungana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('rima'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('akamira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Hair Braiding ('Kuruka Bvudzi') & Zimbabwe's Passion for Football ('Nhabvu'): This two-part passage highlights two pillars of contemporary Zimbabwean culture: intricate hairstyling ('kugadzirwa musoro' and twisting braids 'tumabhanzi'), which is both an art form and a social occasion, and football ('nhabvu' or 'bhora')—the country's most popular sport, played passionately in every neighbourhood and stadium..",
+          "Neighbourhood Tuckshops ('Matakishopu') & Local Furniture Makers: Across Zimbabwean suburbs, small painted corner shops called 'matakishopu' (tuckshops) provide convenient daily groceries within walking distance of home, while local carpentry workshops and furniture stores craft patterned kitchen cabinets ('makabati') and wardrobes for growing households..",
+          "Hand Tools of the Homestead ('Badza, Bhemba, Banga') & Open-Air Market Umbrellas: Notice the four classic tools found in every rural and suburban tool shed in Zimbabwe: the long-handled hoe ('badza') for cultivating, the curved slasher ('bhemba') for clearing tall grass, the utility knife ('banga'), and the grass-cutter—alongside the colourful shade umbrellas ('maamburera') under which women vendors trade at the local market ('pamusika')..",
+          "Community Water Points, 'Jojo' Storage Tanks & Backyard Mango Trees: In many Zimbabwean neighbourhoods, solar-powered boreholes ('zvibhorani') feed elevated plastic storage tanks ('Jojo tanks') where residents gather with buckets ('migomo') and containers ('zvigubu') to draw clean water, surrounded by suburban gardens planted with shady green mango trees ('miti yemimango') and bright border flowers.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('rakatsvukuruka')",
+    "Talking About the Past ('akapfeka')",
+    "Talking About the Past ('akagadzikwa')",
+    "Talking About the Past ('vakaungana')",
+    "Giving Commands & Polite Requests ('rima')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 14 — Wildlife & Augmentatives: In the passage about the three rhinos ('zvipembere zvitatu'), what does 'mazinyanga ekumberi kwazvo' mean?",
+      "options": [
+        "their small rear hooves",
+        "the green bushes behind them",
+        "their large front horns",
+        "their long tails"
+      ],
+      "correct_answer": "their large front horns",
+      "explanation": "The augmentative prefix 'mazi-' on 'nyanga' (horns) emphasizes 'large prominent horns', and 'ekumberi' means 'at the front'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 14 — Urban Vocabulary: What are 'zvikwangwari zvevanhu vanoshambadza zvinhu' along a city road?",
+      "options": [
+        "Traffic lights at an intersection",
+        "Streetlights illuminating the pavement",
+        "Multi-storey apartment buildings",
+        "Billboards / signs of people advertising goods"
+      ],
+      "correct_answer": "Billboards / signs of people advertising goods",
+      "explanation": "'Zvikwangwari' means signboards/billboards, and '-shambadza' means to advertise or market goods."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 14 — Farm & Homestead Tools: Which four tools are described in 'badza, bhemba, banga, nechekuchekesa sora'?",
+      "options": [
+        "A hoe, a slasher, a knife, and a grass-cutter",
+        "A hammer, a saw, a drill, and a spanner",
+        "A pot, a plate, a spoon, and a cup",
+        "A pen, a pencil, a book, and a ruler"
+      ],
+      "correct_answer": "A hoe, a slasher, a knife, and a grass-cutter",
+      "explanation": "'Badza' = hoe, 'bhemba' = slasher, 'banga' = knife, and 'chekuchekesa sora' = grass cutter."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 14 — Anatomy & Direction: In 'akabata mbozhanhare neruoko rwake rwerudyi', which hand is holding the mobile phone?",
+      "options": [
+        "Her left hand ('ruoko rweruboshwe')",
+        "Her right hand ('ruoko rwerudyi')",
+        "Both hands together",
+        "In her handbag"
+      ],
+      "correct_answer": "Her right hand ('ruoko rwerudyi')",
+      "explanation": "'Ruoko rwerudyi' means 'the right hand', while 'ruoko rweruboshwe' means 'the left hand'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 14 — Urban Architecture: What does 'zvivako zvakavakwa zvichikwira mudenga' describe in the city centre?",
+      "options": [
+        "Traditional round thatched huts",
+        "Underground mine shafts",
+        "High-rise / tall buildings built rising into the sky",
+        "Bridges crossing a wide river"
+      ],
+      "correct_answer": "High-rise / tall buildings built rising into the sky",
+      "explanation": "'Zvivako' = buildings, 'zvakavakwa' = built, 'zvichikwira mudenga' = rising up into the sky."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 14 — Translate this final cumulative sentence: 'Makorokoto! Wapedza zvidzidzo zana zveChiShona nemazvo!'",
+      "options": [
+        "Welcome to your very first lesson of the Shona course!",
+        "Please open your book and read the first sentence aloud.",
+        "We will start studying theShona language tomorrow morning.",
+        "Congratulations! You have successfully completed one hundred Shona lessons!"
+      ],
+      "correct_answer": "Congratulations! You have successfully completed one hundred Shona lessons!",
+      "explanation": "'Makorokoto!' = 'Congratulations!', 'Wapedza zvidzidzo zana zveChiShona nemazvo!' = 'You have completed 100 Shona lessons properly!'."
+    }
+  ]
+}

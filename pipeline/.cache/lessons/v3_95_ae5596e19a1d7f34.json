@@ -1,0 +1,329 @@
+{
+  "english_translation": "The first day at a new job is always intimidating for many people, but if you are brave and speak kindly with others, you quickly get used to the place in no time.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zuva rekutanga kubasa idzva, rinogara richityisa kune vanhu vazhinji; asi kana ukashinga, uye uchitaura nevamwe zvakanaka, unokurumidza kujaira nzvimbo yacho pasina nguva.",
+      "english": "The first day at a new job is always intimidating for many people, but if you are brave and speak kindly with others, you quickly get used to the place in no time.",
+      "literal_gloss": "Zuva [sun / day] • rekutanga [rekutanga] • kubasa [to/at work] • idzva [idzva] • rinogara [it gara] • richityisa [richityisa] • kune [to / at ne] • vanhu [people] • vazhinji [people zhinji] • asi [but / however] • kana [if / when / or] • ukashinga [ukashinga] • uye [and / furthermore] • uchitaura [uchitaura] • nevamwe [and / with vamwe] • zvakanaka [well / nicely / very good] • unokurumidza [you kurumidza] • kujaira [to / at jaira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zuva",
+          "morpheme_breakdown": "zuva (sun / day)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sun / day",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rekutanga",
+          "morpheme_breakdown": "rekutanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rekutanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubasa",
+          "morpheme_breakdown": "ku- (to/at) + basa (work)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "to/at work",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "idzva",
+          "morpheme_breakdown": "idzva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "idzva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rinogara",
+          "morpheme_breakdown": "ri- (it) + -no- (present) + -gara",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "richityisa",
+          "morpheme_breakdown": "richityisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "richityisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vazhinji",
+          "morpheme_breakdown": "va- (plural people prefix) + -zhinji",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people zhinji",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ukashinga",
+          "morpheme_breakdown": "ukashinga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ukashinga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uchitaura",
+          "morpheme_breakdown": "uchitaura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uchitaura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nevamwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -vamwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with vamwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unokurumidza",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -kurumidza",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you kurumidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kujaira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -jaira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at jaira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zuva",
+      "morpheme_breakdown": "zuva (sun / day)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sun / day",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rekutanga",
+      "morpheme_breakdown": "rekutanga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rekutanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubasa",
+      "morpheme_breakdown": "ku- (to/at) + basa (work)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "to/at work",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "idzva",
+      "morpheme_breakdown": "idzva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "idzva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rinogara",
+      "morpheme_breakdown": "ri- (it) + -no- (present) + -gara",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "richityisa",
+      "morpheme_breakdown": "richityisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "richityisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kune",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vazhinji",
+      "morpheme_breakdown": "va- (plural people prefix) + -zhinji",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people zhinji",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ukashinga",
+      "morpheme_breakdown": "ukashinga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ukashinga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uchitaura",
+      "morpheme_breakdown": "uchitaura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uchitaura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nevamwe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -vamwe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with vamwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unokurumidza",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -kurumidza",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you kurumidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kujaira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -jaira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at jaira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('rinogara')",
+      "content": "The verb 'rinogara' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kubasa')",
+      "content": "Look at how location is expressed with 'kubasa'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Starting a New Job ('Zuva Rekutanga kuBasa Idzva') & Building Workplace Rapport",
+      "content": "In Zimbabwean workplaces, courage ('kushinga') and speaking respectfully and warmly with colleagues ('kutaura nevamwe zvakanaka') are recognized as the quickest way to feel at home in a new environment.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "I left my mobile phone on the chair in the living room.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

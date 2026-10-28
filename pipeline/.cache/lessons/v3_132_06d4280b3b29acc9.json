@@ -1,0 +1,189 @@
+{
+  "english_translation": "I am going to work right now to start my shift.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kuenda kubasa izvozvi kuti ndinotanga mazuva angu.",
+      "english": "I am going to work right now to start my shift.",
+      "literal_gloss": "Ndiri [ndiri] • kuenda [to / at enda] • kubasa [to/at work] • izvozvi [izvozvi] • kuti [that / so that] • ndinotanga [I tanga] • mazuva [plural zuva] • angu [angu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubasa",
+          "morpheme_breakdown": "ku- (to/at) + basa (work)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "to/at work",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "izvozvi",
+          "morpheme_breakdown": "izvozvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "izvozvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndinotanga",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -tanga",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I tanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazuva",
+          "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "angu",
+          "morpheme_breakdown": "angu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "angu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubasa",
+      "morpheme_breakdown": "ku- (to/at) + basa (work)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "to/at work",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "izvozvi",
+      "morpheme_breakdown": "izvozvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "izvozvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndinotanga",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -tanga",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I tanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazuva",
+      "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "angu",
+      "morpheme_breakdown": "angu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "angu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('ndinotanga')",
+      "content": "The verb 'ndinotanga' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kubasa')",
+      "content": "Look at how location is expressed with 'kubasa'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Starting a Work Shift ('Kutanga Mazuva Angu') & Urban Livelihoods",
+      "content": "In Shona workplace idiom, 'kutanga mazuva angu' refers to starting one's scheduled workdays or shift rotation at a factory, mine, hospital, or office.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "patafura",
+        "kutafura",
+        "mutafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which phrase correctly translates 'three books' in Shona? (Hint: 'mabhuku' is a 'ma-' plural noun.)",
+      "options": [
+        "mabhuku maviri",
+        "mabhuku mana",
+        "mabhuku matatu",
+        "bhuku rimwe chete"
+      ],
+      "correct_answer": "mabhuku matatu",
+      "explanation": "The number stem '-tatu' (three) takes the 'ma-' prefix to match 'mabhuku' -> 'mabhuku matatu'."
+    }
+  ]
+}

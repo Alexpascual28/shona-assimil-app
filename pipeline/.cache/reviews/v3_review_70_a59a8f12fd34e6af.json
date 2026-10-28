@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 10 Comprehensive Review (Lessons 64–70)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 64–70)",
+        "points": [
+          "Lesson 64: \"Mureza wenyika une mavara matatu anoti, ruvara ruchena, rwakatsvukuruka uye ruvara rwebundo....\" — The national flag has three colours: white, light red, and green. It features a reddish circ...",
+          "Lesson 65: \"Chinanasi chakadyarwa uye chinoratidza kuti chakanatsoguta mvura chakasvika. Chinerurava ruc...\" — A pineapple has been planted and looks well-watered and ripe. It has a light-coloured body w...",
+          "Lesson 66: \"Mugwagwa wakapamhamha une tara unoratidza kuti une motokari dzirikupesana. Mujinga memugwagw...\" — A wide tarred road shows cars passing each other in opposite directions. Along the edge of t...",
+          "Lesson 67: \"Nzvimbo inoratidzika kuti mudhorobha. Pane zvivakwa zvokudurikidzwa zviri kubudikira necheku...\" — The place looks like a city centre. Multi-storey buildings rise further ahead in the distanc...",
+          "Lesson 68: \"Kombi chena iri kuratidza kuti yakatakura vanhu uye iri kufamba mumugwagwa. Padivi pekombi i...\" — A white commuter omnibus (kombi) is carrying passengers and driving along the road. Next to ...",
+          "Lesson 69: \"Mbatya dziri kutengeswa dzakaunganidzwa pasi. Munhu mumwe chete akapfeka hembe dzitema akami...\" — Clothes for sale are gathered on the ground. One person wearing black clothes is standing ne...",
+          "Lesson 70: \"Imba hombe yokutandarira yakashongedzwa. Ine chigaro chomutefetefe chirefu chine ruvara rwak...\" — A spacious living room is beautifully decorated. It has a long, comfortable sofa in a bright..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Present Tense & Everyday Actions ('anoti'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Talking About the Past ('chakadyarwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakapamhamha'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakatakura'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakaunganidzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Flag Colours, Design & the National Symbols of Zimbabwe: Adopted at Independence on 18 April 1980, Zimbabwe's national flag ('mureza weZimbabwe') is rich in symbolism: green represents agriculture and the land's flora, yellow stands for mineral wealth (gold, platinum, and diamonds), red commemorates the blood shed for independence, black represents the heritage of the majority population, white symbolizes peace, and the soapstone Zimbabwe Bird ('Hungwe') connects the modern nation to Great Zimbabwe..",
+          "Tropical Fruit Growing ('Chinanasi') in Zimbabwe's Eastern Highlands: Thanks to high rainfall, fertile red soils, and warm valleys in Manicaland's Rusitu Valley, Chipinge, and Honde Valley, Zimbabwe grows sweet tropical fruits ('michero') including pineapples ('zvinanasi'), bananas, avocados, macadamia nuts, and tea on lush mountain slopes..",
+          "Zimbabwe's Trunk Highways & Seasonal Savannah Grass ('Sora Rakaoma'): Major tarred highways ('migwagwa ine tara') link Harare with Bulawayo, Mutare, Masvingo, and Chirundu across the high savannah plateau.",
+          "Zimbabwean City Centres ('Mudhorobha'), High-Rises & Street Commerce: In Zimbabwean Shona, 'mudhorobha' (from 'dorp' / town) refers to the central business district of a town or city, characterized by multi-storey office buildings ('zvivakwa zvokudurikidzwa'), busy pedestrian pavements, retail stores, and lively street vendors ('vanotengesa') offering everyday wares.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Present Tense & Everyday Actions ('anoti')",
+    "Talking About the Past ('chakadyarwa')",
+    "Talking About the Past ('wakapamhamha')",
+    "Talking About the Past ('vakawanda')",
+    "Talking About the Past ('yakatakura')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Pre-Colonial History: Which title was borne by the rulers of the Mutapa Empire in northern Zimbabwe?",
+      "options": [
+        "Mambo Lobengula",
+        "Sabhuku weMusha",
+        "Mambo Munhumutapa",
+        "Chiremba Mukuru"
+      ],
+      "correct_answer": "Mambo Munhumutapa",
+      "explanation": "'Mambo Munhumutapa' was the royal title of the kings of the Mutapa state."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Traditional Crafts: What did skilled Shona blacksmiths ('mhizha') forge from iron ('masimbi')?",
+      "options": [
+        "Clay cooking pots ('hari dzevhu') only",
+        "Woven grass baskets ('tswanda') only",
+        "Plastic water tanks ('matangi')",
+        "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')"
+      ],
+      "correct_answer": "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')",
+      "explanation": "Ironworkers ('mhizha dzekupfura masimbi') forged metal tools and weapons such as hoes and spears."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Geography & Rivers: Which mighty river forms the northern border between Zimbabwe and Zambia?",
+      "options": [
+        "Rwizi rweZambezi (The Zambezi River)",
+        "Rwizi rweLimpopo",
+        "Makomo eMatobo",
+        "Guta reMasvingo"
+      ],
+      "correct_answer": "Rwizi rweZambezi (The Zambezi River)",
+      "explanation": "'Rwizi rweZambezi rwuri pamuganhu peZimbabwe neZambia' means 'The Zambezi River lies on the border of Zimbabwe and Zambia'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Habitual Past ('-ai-'): What does 'Madzitateguru edu aishandisa uta nemiseve' mean?",
+      "options": [
+        "Our ancestors are making bows today",
+        "Our ancestors used to use bows and arrows",
+        "Our ancestors will buy arrows tomorrow",
+        "Do not touch the bow and arrow"
+      ],
+      "correct_answer": "Our ancestors used to use bows and arrows",
+      "explanation": "The prefix '-ai-' expresses past habitual action ('used to use'), and 'uta nemiseve' means 'bows and arrows'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Polite Requests: Which verb form in 'Mungandibatsirawo here?' expresses 'Could you please help me?'",
+      "options": [
+        "ndaka- (past tense) + -batsira",
+        "regai kubatsira (negative command)",
+        "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+        "tiri kubatsira (present progressive)"
+      ],
+      "correct_answer": "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+      "explanation": "'Mu-nga-ndi-batsira-wo' combines polite plural address, potential mood, object marker, and the polite suffix '-wo'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 10 — Translate this new review sentence: 'VaShona vekare vaigona kuumba hari dzevhu nekupfura mapadza.'",
+      "options": [
+        "The children are swimming in the river near the village.",
+        "We will visit the caves in the Matobo Hills next month.",
+        "Please close the windows before the evening wind blows.",
+        "The ancient Shona people were skilled at molding clay pots and forging hoes."
+      ],
+      "correct_answer": "The ancient Shona people were skilled at molding clay pots and forging hoes.",
+      "explanation": "'Vaigona kuumba hari dzevhu' = 'were skilled at molding clay pots', 'nekupfura mapadza' = 'and forging hoes'."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "english_translation": "Fruits and vegetables are neatly arranged together in one place on a white surface. They include tomatoes and apples. Eating fresh fruits helps the body fight against illness.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Michero nemiriwo yakarogedzwa panzvimbo imwe chete.",
+      "english": "Fruits and vegetables are arranged together in one place.",
+      "literal_gloss": "Michero [michero] • nemiriwo [and / with miriwo] • yakarogedzwa [it (past) rogedzwa] • panzvimbo [on / at nzvimbo] • imwe [imwe] • chete [chete]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Michero",
+          "morpheme_breakdown": "michero (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "michero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemiriwo",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -miriwo",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with miriwo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakarogedzwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -rogedzwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) rogedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panzvimbo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nzvimbo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chete",
+          "morpheme_breakdown": "chete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chete",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Yakaiswa pauriri huchena.",
+      "english": "They are placed on a clean white surface.",
+      "literal_gloss": "Yakaiswa [it (past) iswa] • pauriri [on / at uriri] • huchena [huchena]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Yakaiswa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) iswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pauriri",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -uriri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at uriri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "huchena",
+          "morpheme_breakdown": "huchena (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "huchena",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Inosanganisira madomasi nemaapuro.",
+      "english": "They include tomatoes and apples.",
+      "literal_gloss": "Inosanganisira [it sanganisira] • madomasi [plural domasi] • nemaapuro [and / with maapuro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Inosanganisira",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -sanganisira",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it sanganisira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "madomasi",
+          "morpheme_breakdown": "ma- (plural prefix) + -domasi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural domasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemaapuro",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -maapuro",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with maapuro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "shona": "Michero inobatsira kurwisana nezvirwere mumuviri.",
+      "english": "Fruits help fight diseases in the body.",
+      "literal_gloss": "Michero [michero] • inobatsira [it batsira] • kurwisana [to / at rwisana] • nezvirwere [and / with zvirwere] • mumuviri [in / singular muviri]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Michero",
+          "morpheme_breakdown": "michero (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "michero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inobatsira",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -batsira",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it batsira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kurwisana",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwisana",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at rwisana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezvirwere",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zvirwere",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zvirwere",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumuviri",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -muviri",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular muviri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Michero",
+      "morpheme_breakdown": "michero (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "michero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemiriwo",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -miriwo",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with miriwo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakarogedzwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -rogedzwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) rogedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panzvimbo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -nzvimbo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwe",
+      "morpheme_breakdown": "imwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chete",
+      "morpheme_breakdown": "chete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakaiswa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) iswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pauriri",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -uriri",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at uriri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "huchena",
+      "morpheme_breakdown": "huchena (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "huchena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Inosanganisira",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -sanganisira",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it sanganisira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "madomasi",
+      "morpheme_breakdown": "ma- (plural prefix) + -domasi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural domasi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemaapuro",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -maapuro",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with maapuro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Michero",
+      "morpheme_breakdown": "michero (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "michero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inobatsira",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -batsira",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it batsira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kurwisana",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwisana",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at rwisana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezvirwere",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zvirwere",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zvirwere",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumuviri",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -muviri",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular muviri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakarogedzwa')",
+      "content": "The verb 'yakarogedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Inosanganisira')",
+      "content": "The verb 'Inosanganisira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('huchena')",
+      "content": "This passage uses colour vocabulary such as 'huchena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Fresh Market Produce ('Michero neMiriwo') & Healthy Nutrition",
+      "content": "Zimbabwe's varied altitudes allow farmers to grow both temperate fruits like apples ('maapuro') from Nyanga in the Eastern Highlands and rich red tomatoes ('madomasi') and leafy greens ('miriwo') across the highveld, prized for strengthening immunity ('kurwisana nezvirwere mumuviri').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

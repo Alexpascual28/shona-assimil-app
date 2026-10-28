@@ -1,0 +1,203 @@
+{
+  "english_translation": "Hello my friend. How was your trip yesterday; did you arrive safely?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhoro shamwari yangu. Wakafamba sei nezuro; wakasvika zvakanaka here?",
+      "english": "Hello my friend. How was your trip yesterday; did you arrive safely?",
+      "literal_gloss": "Mhoro [hello (to one person)] • shamwari [friend / friends] • yangu [yangu] • Wakafamba [you/he (past) famba] • sei [sei] • nezuro [yesterday] • wakasvika [you/he (past) svika] • zvakanaka [well / nicely / very good] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhoro",
+          "morpheme_breakdown": "mhoro (hello - singular)",
+          "noun_class_or_concord": "Greeting",
+          "literal_english": "hello (to one person)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "shamwari",
+          "morpheme_breakdown": "shamwari (friend)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "friend / friends",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yangu",
+          "morpheme_breakdown": "yangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Wakafamba",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -famba",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sei",
+          "morpheme_breakdown": "sei (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sei",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezuro",
+          "morpheme_breakdown": "nezuro (yesterday)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "yesterday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wakasvika",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -svika",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) svika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhoro",
+      "morpheme_breakdown": "mhoro (hello - singular)",
+      "noun_class_or_concord": "Greeting",
+      "literal_english": "hello (to one person)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "shamwari",
+      "morpheme_breakdown": "shamwari (friend)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "friend / friends",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "yangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Wakafamba",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -famba",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "sei (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sei",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezuro",
+      "morpheme_breakdown": "nezuro (yesterday)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "yesterday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wakasvika",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -svika",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) svika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('Mhoro')",
+      "content": "In this lesson you encounter 'Mhoro'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Talking About the Past ('Wakafamba')",
+      "content": "The verb 'Wakafamba' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Following Up on a Friend's Journey ('Wakafamba Sei?')",
+      "content": "Among friends ('shamwari'), asking 'Wakafamba sei nezuro; wakasvika zvakanaka here?' ('How did you travel yesterday; did you arrive safely?') is the standard warm follow-up the day after someone has taken an intercity bus or road trip.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today.",
+        "Good afternoon Mother, did you spend the day well?"
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Hupfu hwapera mumba', why does 'hwapera' ('has run out') start with 'hwa-'?",
+      "options": [
+        "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+        "Because 'hwa-' always means tomorrow",
+        "Because it refers to a person cooking in the kitchen",
+        "Because 'mumba' starts with 'm-'"
+      ],
+      "correct_answer": "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+      "explanation": "Nouns starting with 'hu-' (like 'hupfu') use 'hu-' / 'hwa-' subject prefixes on the verb."
+    }
+  ]
+}

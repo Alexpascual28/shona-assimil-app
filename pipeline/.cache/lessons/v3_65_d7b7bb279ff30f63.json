@@ -1,0 +1,175 @@
+{
+  "english_translation": "Wild loquat brew and marula fruit drink were popular beverages during the rainy summer season.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Doro remazhanje neremakumbi zvinwiwa zvaidiwa munguva yezhizha.",
+      "english": "Wild loquat brew and marula fruit drink were popular beverages during the rainy summer season.",
+      "literal_gloss": "Doro [doro] • remazhanje [remazhanje] • neremakumbi [and / with remakumbi] • zvinwiwa [things nwiwa] • zvaidiwa [zvaidiwa] • munguva [in / singular nguva] • yezhizha [yezhizha]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Doro",
+          "morpheme_breakdown": "doro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "doro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "remazhanje",
+          "morpheme_breakdown": "remazhanje (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "remazhanje",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neremakumbi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -remakumbi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with remakumbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinwiwa",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nwiwa",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nwiwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvaidiwa",
+          "morpheme_breakdown": "zvaidiwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaidiwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munguva",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yezhizha",
+          "morpheme_breakdown": "yezhizha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yezhizha",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Doro",
+      "morpheme_breakdown": "doro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "doro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "remazhanje",
+      "morpheme_breakdown": "remazhanje (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "remazhanje",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neremakumbi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -remakumbi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with remakumbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinwiwa",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nwiwa",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nwiwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvaidiwa",
+      "morpheme_breakdown": "zvaidiwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaidiwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munguva",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yezhizha",
+      "morpheme_breakdown": "yezhizha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yezhizha",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'neremakumbi'",
+      "content": "Look closely at 'neremakumbi'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'remakumbi' forms 'neremakumbi'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('zvaidiwa')",
+      "content": "In this sentence, 'zvaidiwa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Doro remazhanje neremakumbi zvinwiwa zvaidiwa munguva yezhizha.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Seasonal Woodland Beverages: Wild Loquat ('Mazhanje') & Marula ('Makumbi')",
+      "content": "During the rainy summer season ('munguva yezhizha'), rural communities traditionally prepared refreshing fruity beverages from abundant wild loquats ('mazhanje') in the miombo woodlands and vitamin-rich marula fruit ('mapfura', whose juice is called 'mukumbi' or 'makumbi').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

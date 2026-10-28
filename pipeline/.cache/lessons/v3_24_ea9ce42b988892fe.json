@@ -1,0 +1,203 @@
+{
+  "english_translation": "Our ancestors used bows and arrows when they went hunting in the forest.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Madzitateguru edu aishandisa uta nemiseve kana vachienda kunovhima musango.",
+      "english": "Our ancestors used bows and arrows when they went hunting in the forest.",
+      "literal_gloss": "Madzitateguru [plural dzitateguru] • edu [edu] • aishandisa [aishandisa] • uta [uta] • nemiseve [and / with miseve] • kana [if / when / or] • vachienda [people chienda] • kunovhima [to / at novhima] • musango [in / singular sango]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Madzitateguru",
+          "morpheme_breakdown": "ma- (plural prefix) + -dzitateguru",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dzitateguru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "edu",
+          "morpheme_breakdown": "edu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "edu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aishandisa",
+          "morpheme_breakdown": "aishandisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aishandisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uta",
+          "morpheme_breakdown": "uta (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uta",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemiseve",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -miseve",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with miseve",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachienda",
+          "morpheme_breakdown": "va- (plural people prefix) + -chienda",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunovhima",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -novhima",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at novhima",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musango",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sango",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sango",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Madzitateguru",
+      "morpheme_breakdown": "ma- (plural prefix) + -dzitateguru",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural dzitateguru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "edu",
+      "morpheme_breakdown": "edu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "edu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aishandisa",
+      "morpheme_breakdown": "aishandisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aishandisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uta",
+      "morpheme_breakdown": "uta (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uta",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemiseve",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -miseve",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with miseve",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachienda",
+      "morpheme_breakdown": "va- (plural people prefix) + -chienda",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunovhima",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -novhima",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at novhima",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musango",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sango",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sango",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('kunovhima')",
+      "content": "The verb 'kunovhima' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nemiseve'",
+      "content": "Look closely at 'nemiseve'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'miseve' forms 'nemiseve'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Traditional Woodland Hunting ('Kuvhima muSango') & Conservation Rules",
+      "content": "Historically, skilled hunters ('vavhimi') ventured into the forest ('musango') with bows and arrows ('uta nemiseve'), guided by strict customary ecological rules ('zviera') that forbade hunting sacred species or breeding animals.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You meet your neighbour at 7:00 PM in the evening. Which greeting is appropriate?",
+      "options": [
+        "Mangwanani, warara sei?",
+        "Masikati, waswera sei?",
+        "Manheru, makadini henyu?",
+        "Mhoro, ndiri kuenda kuchikoro."
+      ],
+      "correct_answer": "Manheru, makadini henyu?",
+      "explanation": "'Manheru' is the greeting used in the evening, paired with 'makadini henyu?' ('how are you?')."
+    }
+  ]
+}

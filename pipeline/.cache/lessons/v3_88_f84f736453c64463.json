@@ -1,0 +1,315 @@
+{
+  "english_translation": "Next month, we are planning to go to the rural home to visit our grandmother and grandfather, because it has been a long time since we last met them.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mwedzi unouya, tiri kuronga kuenda kumusha kunoona mbuya nasekuru vedu; nokuti pava nenguva refu tisati tasangana navo.",
+      "english": "Next month, we are planning to go to the rural home to visit our grandmother and grandfather, because it has been a long time since we last met them.",
+      "literal_gloss": "Mwedzi [mwedzi] • unouya [you uya] • tiri [tiri] • kuronga [to / at ronga] • kuenda [to / at enda] • kumusha [at/to the rural home] • kunoona [to / at noona] • mbuya [grandmother] • nasekuru [nasekuru] • vedu [vedu] • nokuti [because] • pava [on / at va] • nenguva [and / with nguva] • refu [refu] • tisati [tisati] • tasangana [tasangana] • navo [navo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mwedzi",
+          "morpheme_breakdown": "mwedzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mwedzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unouya",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -uya",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you uya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuronga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ronga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumusha",
+          "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "at/to the rural home",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunoona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -noona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at noona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mbuya",
+          "morpheme_breakdown": "mbuya (grandmother)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "grandmother",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nasekuru",
+          "morpheme_breakdown": "nasekuru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nasekuru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vedu",
+          "morpheme_breakdown": "vedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pava",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -va",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at va",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "refu",
+          "morpheme_breakdown": "refu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "refu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tasangana",
+          "morpheme_breakdown": "tasangana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tasangana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "navo",
+          "morpheme_breakdown": "navo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "navo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mwedzi",
+      "morpheme_breakdown": "mwedzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mwedzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unouya",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -uya",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you uya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuronga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ronga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumusha",
+      "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "at/to the rural home",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunoona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -noona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at noona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mbuya",
+      "morpheme_breakdown": "mbuya (grandmother)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "grandmother",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nasekuru",
+      "morpheme_breakdown": "nasekuru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nasekuru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vedu",
+      "morpheme_breakdown": "vedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pava",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -va",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at va",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "refu",
+      "morpheme_breakdown": "refu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "refu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tasangana",
+      "morpheme_breakdown": "tasangana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tasangana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "navo",
+      "morpheme_breakdown": "navo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "navo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unouya')",
+      "content": "The verb 'unouya' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumusha')",
+      "content": "Look at how location is expressed with 'kumusha'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Visiting Grandparents ('Mbuya naSekuru') at the Rural Homestead ('Kumusha')",
+      "content": "For Zimbabweans living in cities, travelling 'kumusha' (the family rural home) to visit grandmother ('mbuya') and grandfather ('sekuru'), bring groceries, and help with seasonal farm work is the heart of family life.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Patafura pane kapu yemvura.",
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "I left my mobile phone on the chair in the living room.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya vedu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    }
+  ]
+}

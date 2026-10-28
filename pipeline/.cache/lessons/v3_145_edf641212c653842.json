@@ -1,0 +1,147 @@
+{
+  "english_translation": "The Zambezi River lies on the border between Zimbabwe and Zambia.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwizi rweZambezi rwuripamuganhu peZimbabwe neZambia",
+      "english": "The Zambezi River lies on the border between Zimbabwe and Zambia.",
+      "literal_gloss": "Rwizi [river] • rweZambezi [rwezambezi] • rwuripamuganhu [rwuripamuganhu] • peZimbabwe [pezimbabwe] • neZambia [and / with zambia]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwizi",
+          "morpheme_breakdown": "ru- + -izi (river)",
+          "noun_class_or_concord": "Noun (ru-)",
+          "literal_english": "river",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rweZambezi",
+          "morpheme_breakdown": "rwezambezi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwezambezi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwuripamuganhu",
+          "morpheme_breakdown": "rwuripamuganhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwuripamuganhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "peZimbabwe",
+          "morpheme_breakdown": "pezimbabwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pezimbabwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neZambia",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zambia",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zambia",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwizi",
+      "morpheme_breakdown": "ru- + -izi (river)",
+      "noun_class_or_concord": "Noun (ru-)",
+      "literal_english": "river",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rweZambezi",
+      "morpheme_breakdown": "rwezambezi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwezambezi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwuripamuganhu",
+      "morpheme_breakdown": "rwuripamuganhu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwuripamuganhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "peZimbabwe",
+      "morpheme_breakdown": "pezimbabwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pezimbabwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neZambia",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zambia",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zambia",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'neZambia'",
+      "content": "Look closely at 'neZambia'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'Zambia' forms 'neZambia'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Rwizi rweZambezi rwuripamuganhu peZimbabwe neZambia', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Mighty Zambezi River ('Rwizi rweZambezi') & Victoria Falls ('Mosi-oa-Tunya')",
+      "content": "Forming the entire northern border between Zimbabwe and Zambia ('pamuganhu peZimbabwe neZambia'), the Zambezi River plunges over Victoria Falls ('Mosi-oa-Tunya' / 'Mapopoma eVictoria') and fills Lake Kariba, one of the world's largest man-made lakes.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

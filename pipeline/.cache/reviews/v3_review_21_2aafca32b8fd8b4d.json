@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 3 Comprehensive Review (Lessons 15–21)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 15–21)",
+        "points": [
+          "Lesson 15: \"Ndichamuka mangwanani kuti ndiwache hembe dzose dzasara.\" — I will wake up in the morning to wash all the remaining clothes.",
+          "Lesson 16: \"Mangwanani. Ndamuka zvakanaka nhasi; ndirikugadzirira kuenda kusvondo.\" — Good morning. I woke up well today; I am getting ready to go to church.",
+          "Lesson 17: \"Takatenga hupfu, shuga, mafuta, nemuriwo.\" — We bought maize meal, sugar, cooking oil, and vegetables.",
+          "Lesson 18: \"Nyama iyi yakaoma chaizvo pakubikwa kwayo.\" — This meat became very tough when it was cooked.",
+          "Lesson 19: \"Ndeipi mota yaunoda kutenga, tsvuku kana nhema?\" — Which car do you want to buy, the red one or the black one?",
+          "Lesson 20: \"Ndinoda kudya sadza neusavi hwakanaka nhasi.\" — I want to eat sadza with delicious relish today.",
+          "Lesson 21: \"Mudzidzisi akati tiunze mabhuku edu mangwana.\" — The teacher told us to bring our books tomorrow."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Shona Greetings & Time of Day ('mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Shona Greetings & Time of Day ('Mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('Takatenga'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakaoma'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Colours & Describing Objects in Shona ('tsvuku'): Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)",
+          "Present Tense & Everyday Actions ('Ndinoda'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Early Morning Laundry ('Kuwacha Hembe') & Sunshine Drying: In most Zimbabwean households, washing clothes ('kuwacha hembe') is done early in the morning ('mangwanani') so that garments hung on the outdoor washing line ('waya yembatya') catch the full warmth of the morning sun and breeze..",
+          "Sunday Worship ('Svondo' / 'Chechi') & Choral Traditions in Zimbabwe: Note how the word 'svondo' means both 'week' and 'Sunday church service'! On Sunday mornings across Zimbabwe, neighbourhoods come alive as families walk to church wearing distinctive congregational uniforms ('machira echechi') in bright white, blue, green, or red, accompanied by rich four-part vocal harmonies, shakers ('hosho'), and drums ('ngoma')..",
+          "The Four Pantry Staples of Every Zimbabwean Kitchen: This single sentence names the four most essential grocery items in any Zimbabwean household: white maize meal ('hupfu') for cooking 'sadza', sugar ('shuga') for morning and afternoon tea, cooking oil ('mafuta') for sautéing relishes, and fresh leafy greens ('muriwo'—such as 'chomolia', rape, or mustard greens 'tsunga') harvested daily from the garden or market..",
+          "Slow-Braised Traditional Meats & 'Gocho' (Braai) Culture: In Zimbabwean cooking, free-range rural chicken ('huku yechivanhu' or 'roadrunner') and pasture-raised beef ('nyama yemombe') or goat ('nyama yembudzi') have a firmer texture and deeper flavour than commercial meats."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Shona Greetings & Time of Day ('mangwanani')",
+    "Shona Greetings & Time of Day ('Mangwanani')",
+    "Talking About the Past ('Takatenga')",
+    "Talking About the Past ('yakaoma')",
+    "Colours & Describing Objects in Shona ('tsvuku')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Family & Present Progressive: How do you say 'My friends are studying in the house'?",
+      "options": [
+        "Shamwari yangu yakadzidza nezuro.",
+        "Shamwari dzangu dziri kudzidza mumba.",
+        "Vana vari kutamba panze.",
+        "Mudzidzisi ari kunyora pachidziro."
+      ],
+      "correct_answer": "Shamwari dzangu dziri kudzidza mumba.",
+      "explanation": "Plural 'shamwari dzangu' ('my friends') takes 'dziri ku-' + '-dzidza' ('are studying') + 'mumba' ('in the house')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — 'Before' Clauses ('-sati'): How do you say 'Let me rest a little before I cook'?",
+      "options": [
+        "Ndiri kubika sadza kana ndazorora.",
+        "Ndapedza kubika saka ndiri kuzorora.",
+        "Rega ndimbozorora zvishoma ndisati ndabika.",
+        "Usabike sadza tisati tasvika."
+      ],
+      "correct_answer": "Rega ndimbozorora zvishoma ndisati ndabika.",
+      "explanation": "'Ndisati ndabika' literally means 'before I have cooked'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — School & Exams: What does 'kupasa bvunzo dzekupedzisira' mean?",
+      "options": [
+        "to read a short story in class",
+        "to bring our books to school tomorrow",
+        "to ask the teacher a question",
+        "to pass the final examinations"
+      ],
+      "correct_answer": "to pass the final examinations",
+      "explanation": "'Kupasa' = 'to pass', 'bvunzo' = 'examinations', and 'dzekupedzisira' = 'final / last'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Giving Reasons ('nokuti'): Complete the sentence: 'Tiri kutaura tichizevezera ______ mwana akarara.' (We are speaking in whispers because the baby is asleep.)",
+      "options": [
+        "nokuti",
+        "kuti",
+        "asi",
+        "kana"
+      ],
+      "correct_answer": "nokuti",
+      "explanation": "'Nokuti' (or 'nekuti') means 'because'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Laundry & Household Chores: If you say 'Mbatya dzangu dzaoma panze', what happened to your clothes?",
+      "options": [
+        "My clothes are still wet in the house",
+        "My clothes have dried outside",
+        "I will wash my clothes tomorrow morning",
+        "I bought new clothes at the market"
+      ],
+      "correct_answer": "My clothes have dried outside",
+      "explanation": "'Mbatya dzangu' = 'my clothes', 'dzaoma' = 'have dried', 'panze' = 'outside'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 3 — Translate this new review sentence: 'Tichasangana naBaba kumusha svondo rinouya.'",
+      "options": [
+        "We visited Grandmother at the clinic yesterday.",
+        "Mother is buying vegetables at the market today.",
+        "We will meet Father at the rural home next week.",
+        "My sibling is writing an essay at school."
+      ],
+      "correct_answer": "We will meet Father at the rural home next week.",
+      "explanation": "'Tichasangana naBaba' = 'We will meet Father', 'kumusha' = 'at the rural home', 'svondo rinouya' = 'next week'."
+    }
+  ]
+}

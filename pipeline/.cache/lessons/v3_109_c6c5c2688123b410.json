@@ -1,0 +1,175 @@
+{
+  "english_translation": "We are reviewing what we learned yesterday before we write the exam.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tiri kudzokorora zvatakadzidza nezuro tisati tanyora bvunzo.",
+      "english": "We are reviewing what we learned yesterday before we write the exam.",
+      "literal_gloss": "Tiri [tiri] • kudzokorora [to / at dzokorora] • zvatakadzidza [zvatakadzidza] • nezuro [yesterday] • tisati [tisati] • tanyora [tanyora] • bvunzo [bvunzo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudzokorora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokorora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dzokorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvatakadzidza",
+          "morpheme_breakdown": "zvatakadzidza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvatakadzidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezuro",
+          "morpheme_breakdown": "nezuro (yesterday)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "yesterday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tanyora",
+          "morpheme_breakdown": "tanyora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tanyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bvunzo",
+          "morpheme_breakdown": "bvunzo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bvunzo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudzokorora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokorora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dzokorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvatakadzidza",
+      "morpheme_breakdown": "zvatakadzidza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvatakadzidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezuro",
+      "morpheme_breakdown": "nezuro (yesterday)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "yesterday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tanyora",
+      "morpheme_breakdown": "tanyora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tanyora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bvunzo",
+      "morpheme_breakdown": "bvunzo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bvunzo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kudzokorora')",
+      "content": "Look at 'kudzokorora' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Group Study & Exam Revision ('Kudzokorora') in Zimbabwean Schools",
+      "content": "Before sitting school or university examinations ('kunyora bvunzo'), Zimbabwean students frequently form study groups to review previous lessons together ('kudzokorora zvatakadzidza'), testing each other aloud.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The children are practicing to write examinations at school.",
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "english_translation": "It started raining while we were still on the way, so we ran into the house.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mvura yakatanga kunaya tichiri munzira saka takamhanya kupinda mumba.",
+      "english": "It started raining while we were still on the way, so we ran into the house.",
+      "literal_gloss": "Mvura [water / rain] • yakatanga [it (past) tanga] • kunaya [to / at naya] • tichiri [tichiri] • munzira [in / singular nzira] • saka [so / therefore] • takamhanya [we (past) mhanya] • kupinda [to / at pinda] • mumba [in the house / indoors]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakatanga",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) tanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunaya",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -naya",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at naya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichiri",
+          "morpheme_breakdown": "tichiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tichiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munzira",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nzira",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "takamhanya",
+          "morpheme_breakdown": "ta- (we) + -ka- (past) + -mhanya",
+          "noun_class_or_concord": "Past Tense Verb (we did ...)",
+          "literal_english": "we (past) mhanya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupinda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pinda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pinda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumba",
+          "morpheme_breakdown": "mu- (inside) + imba (house)",
+          "noun_class_or_concord": "Locative Noun (mu-)",
+          "literal_english": "in the house / indoors",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakatanga",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) tanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunaya",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -naya",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at naya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichiri",
+      "morpheme_breakdown": "tichiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tichiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munzira",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nzira",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "takamhanya",
+      "morpheme_breakdown": "ta- (we) + -ka- (past) + -mhanya",
+      "noun_class_or_concord": "Past Tense Verb (we did ...)",
+      "literal_english": "we (past) mhanya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupinda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pinda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pinda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumba",
+      "morpheme_breakdown": "mu- (inside) + imba (house)",
+      "noun_class_or_concord": "Locative Noun (mu-)",
+      "literal_english": "in the house / indoors",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakatanga')",
+      "content": "The verb 'yakatanga' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumba')",
+      "content": "Look at how location is expressed with 'mumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kunaya')",
+      "content": "Look at 'kunaya' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Sudden Afternoon Cloudbursts & Dashing Indoors ('Kumhanya Kupinda Mumba')",
+      "content": "Summer rains in Zimbabwe can arrive with sudden intensity while people are walking home ('tichiri munzira'), sending everyone running for the shelter of the nearest veranda or house.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You meet your neighbour at 7:00 PM in the evening. Which greeting is appropriate?",
+      "options": [
+        "Manheru, makadini henyu?",
+        "Mangwanani, warara sei?",
+        "Masikati, waswera sei?",
+        "Mhoro, ndiri kuenda kuchikoro."
+      ],
+      "correct_answer": "Manheru, makadini henyu?",
+      "explanation": "'Manheru' is the greeting used in the evening, paired with 'makadini henyu?' ('how are you?')."
+    }
+  ]
+}

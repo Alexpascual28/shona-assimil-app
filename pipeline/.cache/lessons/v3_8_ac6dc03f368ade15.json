@@ -1,0 +1,203 @@
+{
+  "english_translation": "Please send the message again because I did not read it properly.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndapota tumira mashoko acho zvakare nokuti handina kuaverenga zvakanaka.",
+      "english": "Please send the message again because I did not read it properly.",
+      "literal_gloss": "Ndapota [ndapota] • tumira [tumira] • mashoko [plural shoko] • acho [acho] • zvakare [zvakare] • nokuti [because] • handina [I do not na] • kuaverenga [to / at averenga] • zvakanaka [well / nicely / very good]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndapota",
+          "morpheme_breakdown": "ndapota (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndapota",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tumira",
+          "morpheme_breakdown": "tumira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tumira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashoko",
+          "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural shoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "acho",
+          "morpheme_breakdown": "acho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "acho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "handina",
+          "morpheme_breakdown": "ha- (not) + ndi- (I) + -na",
+          "noun_class_or_concord": "Negative Verb (I do not ...)",
+          "literal_english": "I do not na",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuaverenga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -averenga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at averenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndapota",
+      "morpheme_breakdown": "ndapota (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndapota",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tumira",
+      "morpheme_breakdown": "tumira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tumira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashoko",
+      "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural shoko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "acho",
+      "morpheme_breakdown": "acho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "acho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakare",
+      "morpheme_breakdown": "zvakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "handina",
+      "morpheme_breakdown": "ha- (not) + ndi- (I) + -na",
+      "noun_class_or_concord": "Negative Verb (I do not ...)",
+      "literal_english": "I do not na",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuaverenga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -averenga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at averenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakare')",
+      "content": "The verb 'zvakare' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuaverenga')",
+      "content": "Look at 'kuaverenga' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvakanaka')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvakanaka'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Mobile Messaging ('Kutumira Mashoko') Across Urban & Rural Zimbabwe",
+      "content": "SMS and WhatsApp messages ('mashoko') are the lifeblood of daily communication across Zimbabwe, connecting relatives in Harare, Bulawayo, and Mutare with family members at rural homesteads.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Good morning Father, how did you wake up?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    }
+  ]
+}

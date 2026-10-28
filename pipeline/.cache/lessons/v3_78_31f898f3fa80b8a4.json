@@ -1,0 +1,203 @@
+{
+  "english_translation": "I left my bag in the back of the car, so I have to go back and get it.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndasiya bhegi rangu kumashure kwemota saka ndinofanira kudzokera kunoritora.",
+      "english": "I left my bag in the back of the car, so I have to go back and get it.",
+      "literal_gloss": "Ndasiya [ndasiya] • bhegi [bhegi] • rangu [rangu] • kumashure [to / at mashure] • kwemota [kwemota] • saka [so / therefore] • ndinofanira [I fanira] • kudzokera [to / at dzokera] • kunoritora [to / at noritora]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndasiya",
+          "morpheme_breakdown": "ndasiya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndasiya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bhegi",
+          "morpheme_breakdown": "bhegi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bhegi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rangu",
+          "morpheme_breakdown": "rangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumashure",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mashure",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mashure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwemota",
+          "morpheme_breakdown": "kwemota (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwemota",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndinofanira",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -fanira",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I fanira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudzokera",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokera",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dzokera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunoritora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -noritora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at noritora",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndasiya",
+      "morpheme_breakdown": "ndasiya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndasiya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bhegi",
+      "morpheme_breakdown": "bhegi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bhegi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rangu",
+      "morpheme_breakdown": "rangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumashure",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -mashure",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at mashure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwemota",
+      "morpheme_breakdown": "kwemota (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwemota",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndinofanira",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -fanira",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I fanira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudzokera",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokera",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dzokera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunoritora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -noritora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at noritora",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Ndasiya')",
+      "content": "The verb 'Ndasiya' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('ndinofanira')",
+      "content": "The verb 'ndinofanira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('rangu')",
+      "content": "In Shona, possessive words like 'rangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Car Boot / Trunk ('Kumashure kweMota') & Everyday Errands",
+      "content": "In Shona, the trunk or back seat of a car is simply called 'kumashure kwemota' ('at the back of the car'), where bags ('mabhegi') and parcels are stowed during trips.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    }
+  ]
+}

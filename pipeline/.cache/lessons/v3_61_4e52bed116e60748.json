@@ -1,0 +1,189 @@
+{
+  "english_translation": "Today it is foggy, so we must travel while watching our path carefully.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nhasi kwaita mhute saka titochafamba tichinyatsotarisa nzira yedu.",
+      "english": "Today it is foggy, so we must travel while watching our path carefully.",
+      "literal_gloss": "Nhasi [today] • kwaita [kwaita] • mhute [mhute] • saka [so / therefore] • titochafamba [titochafamba] • tichinyatsotarisa [tichinyatsotarisa] • nzira [nzira] • yedu [yedu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwaita",
+          "morpheme_breakdown": "kwaita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwaita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhute",
+          "morpheme_breakdown": "mhute (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhute",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "titochafamba",
+          "morpheme_breakdown": "titochafamba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "titochafamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichinyatsotarisa",
+          "morpheme_breakdown": "tichinyatsotarisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tichinyatsotarisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzira",
+          "morpheme_breakdown": "nzira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yedu",
+          "morpheme_breakdown": "yedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yedu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwaita",
+      "morpheme_breakdown": "kwaita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwaita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mhute",
+      "morpheme_breakdown": "mhute (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mhute",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "titochafamba",
+      "morpheme_breakdown": "titochafamba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "titochafamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichinyatsotarisa",
+      "morpheme_breakdown": "tichinyatsotarisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tichinyatsotarisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzira",
+      "morpheme_breakdown": "nzira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yedu",
+      "morpheme_breakdown": "yedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yedu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yedu')",
+      "content": "In Shona, possessive words like 'yedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'saka'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'saka'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Nhasi kwaita mhute saka titochafamba tichinyatsotarisa nzira yedu.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Morning Mist ('Mhute') in the Eastern Highlands & Highveld Valleys",
+      "content": "Thick morning mist and fog ('mhute') frequently blanket Zimbabwe's Eastern Highlands—around Nyanga, Vumba, and Chimanimani—as well as highveld river valleys after rain, requiring travellers to watch the road with extra care.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    }
+  ]
+}

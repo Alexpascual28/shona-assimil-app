@@ -1,0 +1,231 @@
+{
+  "english_translation": "Please take all the documents on the table and put them in the file on the bed.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinokumbira kuti utore magwaro ose ari patafura, uwaise mufaira riri pamubhedha.",
+      "english": "Please take all the documents on the table and put them in the file on the bed.",
+      "literal_gloss": "Ndinokumbira [I kumbira] • kuti [that / so that] • utore [utore] • magwaro [plural gwaro] • ose [ose] • ari [ari] • patafura [on the table] • uwaise [uwaise] • mufaira [in / singular faira] • riri [riri] • pamubhedha [on / at mubhedha]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinokumbira",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbira",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I kumbira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "utore",
+          "morpheme_breakdown": "utore (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "utore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "magwaro",
+          "morpheme_breakdown": "ma- (plural prefix) + -gwaro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural gwaro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ose",
+          "morpheme_breakdown": "ose (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ose",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "patafura",
+          "morpheme_breakdown": "pa- (on) + tafura (table)",
+          "noun_class_or_concord": "Locative Noun (pa-)",
+          "literal_english": "on the table",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uwaise",
+          "morpheme_breakdown": "uwaise (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uwaise",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mufaira",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -faira",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular faira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riri",
+          "morpheme_breakdown": "riri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "riri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamubhedha",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mubhedha",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mubhedha",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinokumbira",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbira",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I kumbira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "utore",
+      "morpheme_breakdown": "utore (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "utore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "magwaro",
+      "morpheme_breakdown": "ma- (plural prefix) + -gwaro",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural gwaro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ose",
+      "morpheme_breakdown": "ose (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ose",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "patafura",
+      "morpheme_breakdown": "pa- (on) + tafura (table)",
+      "noun_class_or_concord": "Locative Noun (pa-)",
+      "literal_english": "on the table",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uwaise",
+      "morpheme_breakdown": "uwaise (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uwaise",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mufaira",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -faira",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular faira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "riri",
+      "morpheme_breakdown": "riri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "riri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamubhedha",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mubhedha",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mubhedha",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinokumbira')",
+      "content": "The verb 'Ndinokumbira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('patafura')",
+      "content": "Look at how location is expressed with 'patafura'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Organizing Study & Office Documents ('Magwaro') at Home",
+      "content": "The word 'gwaro' (plural 'magwaro') refers to any written document, certificate, letter, or book—keeping important papers neatly filed ('mufaira') is an everyday part of home and school organization.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "kicheni",
+        "vakicheni",
+        "mukicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Patafura pane kapu yemvura.",
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "english_translation": "May I please ask you to open the window so some fresh air can come into the room.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndikumbirewo kuti uvhura hwindo mhepo imbopinda mumba muno.",
+      "english": "May I please ask you to open the window so some fresh air can come into the room.",
+      "literal_gloss": "Ndikumbirewo [ndikumbirewo] • kuti [that / so that] • uvhura [uvhura] • hwindo [hwindo] • mhepo [wind / fresh air] • imbopinda [imbopinda] • mumba [in the house / indoors] • muno [in / singular no]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndikumbirewo",
+          "morpheme_breakdown": "ndikumbirewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndikumbirewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uvhura",
+          "morpheme_breakdown": "uvhura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uvhura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwindo",
+          "morpheme_breakdown": "hwindo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwindo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhepo",
+          "morpheme_breakdown": "mhepo (wind / air)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "wind / fresh air",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imbopinda",
+          "morpheme_breakdown": "imbopinda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imbopinda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumba",
+          "morpheme_breakdown": "mu- (inside) + imba (house)",
+          "noun_class_or_concord": "Locative Noun (mu-)",
+          "literal_english": "in the house / indoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muno",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -no",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular no",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndikumbirewo",
+      "morpheme_breakdown": "ndikumbirewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndikumbirewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uvhura",
+      "morpheme_breakdown": "uvhura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uvhura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwindo",
+      "morpheme_breakdown": "hwindo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwindo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mhepo",
+      "morpheme_breakdown": "mhepo (wind / air)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "wind / fresh air",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imbopinda",
+      "morpheme_breakdown": "imbopinda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imbopinda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumba",
+      "morpheme_breakdown": "mu- (inside) + imba (house)",
+      "noun_class_or_concord": "Locative Noun (mu-)",
+      "literal_english": "in the house / indoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muno",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -no",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular no",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumba')",
+      "content": "Look at how location is expressed with 'mumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('muno' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'muno') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Fresh Highveld Breeze ('Mhepo') & Home Ventilation",
+      "content": "Because most of Zimbabwe sits on a sunny subtropical plateau between 1,200 and 1,600 metres above sea level, homes are designed with wide windows ('mahwindo') that are opened during the day to let in cool, refreshing breezes ('mhepo').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "iri kuverenga",
+        "yakaverenga",
+        "ichaverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    }
+  ]
+}

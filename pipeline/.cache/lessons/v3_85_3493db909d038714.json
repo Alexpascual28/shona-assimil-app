@@ -1,0 +1,217 @@
+{
+  "english_translation": "My parents were overjoyed when I told them that I had passed my final examinations.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vabereki vangu vakafara zvikuru, pandakavaudza kuti ndapasa bvunzo dzangu dzekupedzisira.",
+      "english": "My parents were overjoyed when I told them that I had passed my final examinations.",
+      "literal_gloss": "Vabereki [people bereki] • vangu [people ngu] • vakafara [they (past) fara] • zvikuru [very much / greatly] • pandakavaudza [on / at ndakavaudza] • kuti [that / so that] • ndapasa [ndapasa] • bvunzo [bvunzo] • dzangu [dzangu] • dzekupedzisira [dzekupedzisira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vabereki",
+          "morpheme_breakdown": "va- (plural people prefix) + -bereki",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people bereki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vangu",
+          "morpheme_breakdown": "va- (plural people prefix) + -ngu",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ngu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakafara",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -fara",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) fara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pandakavaudza",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ndakavaudza",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ndakavaudza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndapasa",
+          "morpheme_breakdown": "ndapasa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndapasa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bvunzo",
+          "morpheme_breakdown": "bvunzo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bvunzo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzangu",
+          "morpheme_breakdown": "dzangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzekupedzisira",
+          "morpheme_breakdown": "dzekupedzisira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzekupedzisira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vabereki",
+      "morpheme_breakdown": "va- (plural people prefix) + -bereki",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people bereki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vangu",
+      "morpheme_breakdown": "va- (plural people prefix) + -ngu",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ngu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakafara",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -fara",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) fara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pandakavaudza",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ndakavaudza",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ndakavaudza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndapasa",
+      "morpheme_breakdown": "ndapasa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndapasa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bvunzo",
+      "morpheme_breakdown": "bvunzo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bvunzo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzangu",
+      "morpheme_breakdown": "dzangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzekupedzisira",
+      "morpheme_breakdown": "dzekupedzisira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzekupedzisira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakafara')",
+      "content": "The verb 'vakafara' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('vangu')",
+      "content": "In Shona, possessive words like 'vangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Family Celebrations When Examination Results ('Kupasa Bvunzo') Come Out",
+      "content": "When national O-Level, A-Level, or university final exam results are released in Zimbabwe, passing ('kupasa bvunzo dzekupedzisira') brings immense pride and ululation ('kupururudza') from parents ('vabereki') and extended family.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The children are practicing to write examinations at school.",
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

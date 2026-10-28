@@ -1,0 +1,175 @@
+{
+  "english_translation": "Today's work is a lot, but I will finish it little by little.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Basa ranhasi rakawanda asi ndicharipedza zvishoma nezvishoma.",
+      "english": "Today's work is a lot, but I will finish it little by little.",
+      "literal_gloss": "Basa [work / job] • ranhasi [ranhasi] • rakawanda [it (past) wanda] • asi [but / however] • ndicharipedza [I will ripedza] • zvishoma [things shoma] • nezvishoma [and / with zvishoma]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ranhasi",
+          "morpheme_breakdown": "ranhasi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ranhasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakawanda",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndicharipedza",
+          "morpheme_breakdown": "ndi- (I) + -cha- (will) + -ripedza",
+          "noun_class_or_concord": "Future Tense Verb (I will ...)",
+          "literal_english": "I will ripedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvishoma",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things shoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezvishoma",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zvishoma",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zvishoma",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ranhasi",
+      "morpheme_breakdown": "ranhasi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ranhasi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakawanda",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndicharipedza",
+      "morpheme_breakdown": "ndi- (I) + -cha- (will) + -ripedza",
+      "noun_class_or_concord": "Future Tense Verb (I will ...)",
+      "literal_english": "I will ripedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvishoma",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things shoma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezvishoma",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zvishoma",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zvishoma",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakawanda')",
+      "content": "The verb 'rakawanda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('ndicharipedza')",
+      "content": "Look at 'ndicharipedza' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nezvishoma'",
+      "content": "Look closely at 'nezvishoma'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'zvishoma' forms 'nezvishoma'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Patience & Steady Effort: 'Zvishoma Nezvishoma' ('Little by Little')",
+      "content": "The reduplicated phrase 'zvishoma nezvishoma' ('little by little / step by step') echoes the famous Shona proverb 'Chitsva chiri murutsoka' and 'Mviromviro yemhanza mapfeka'—teaching that even the largest workload ('basa rakawanda') is conquered through steady persistence.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "english_translation": "I tried calling him many times this afternoon, but his mobile phone kept saying it was unreachable.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndaedza kumufonera kakawanda nhasi masikati, asi nharembozha yake yairamba ichiti haina kubatika.",
+      "english": "I tried calling him many times this afternoon, but his mobile phone kept saying it was unreachable.",
+      "literal_gloss": "Ndaedza [ndaedza] • kumufonera [to / at mufonera] • kakawanda [kakawanda] • nhasi [today] • masikati [good afternoon / midday] • asi [but / however] • nharembozha [nharembozha] • yake [yake] • yairamba [yairamba] • ichiti [ichiti] • haina [haina] • kubatika [to / at batika]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndaedza",
+          "morpheme_breakdown": "ndaedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndaedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumufonera",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mufonera",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mufonera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kakawanda",
+          "morpheme_breakdown": "kakawanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kakawanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "masikati",
+          "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good afternoon / midday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nharembozha",
+          "morpheme_breakdown": "nharembozha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nharembozha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yake",
+          "morpheme_breakdown": "yake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yairamba",
+          "morpheme_breakdown": "yairamba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yairamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichiti",
+          "morpheme_breakdown": "ichiti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichiti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "haina",
+          "morpheme_breakdown": "haina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "haina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubatika",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -batika",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at batika",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndaedza",
+      "morpheme_breakdown": "ndaedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndaedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumufonera",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -mufonera",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at mufonera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kakawanda",
+      "morpheme_breakdown": "kakawanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kakawanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "masikati",
+      "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good afternoon / midday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nharembozha",
+      "morpheme_breakdown": "nharembozha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nharembozha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yake",
+      "morpheme_breakdown": "yake (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yake",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yairamba",
+      "morpheme_breakdown": "yairamba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yairamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichiti",
+      "morpheme_breakdown": "ichiti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichiti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "haina",
+      "morpheme_breakdown": "haina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "haina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubatika",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -batika",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at batika",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('masikati')",
+      "content": "In this lesson you encounter 'masikati'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yake')",
+      "content": "In Shona, possessive words like 'yake' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('yairamba')",
+      "content": "In this sentence, 'yairamba' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Mobile Phones ('Nharembozha') & Network Coverage idioms",
+      "content": "Look at the pure Shona coinage 'nharembozha' ('mobile phone')! When a phone is out of network range or switched off, automated voice prompts and speakers say 'nharembozha haina kubatika' ('the mobile phone could not be reached').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

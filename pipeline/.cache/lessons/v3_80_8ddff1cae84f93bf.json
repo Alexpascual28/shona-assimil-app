@@ -1,0 +1,189 @@
+{
+  "english_translation": "Forging iron required great craftsmanship, which was used to make spears.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kugadzira masimbi kwaida hunyanzvi hukuru, hwaishandiswa kugadzira mapfumo.",
+      "english": "Forging iron required great craftsmanship, which was used to make spears.",
+      "literal_gloss": "Kugadzira [to / at gadzira] • masimbi [plural simbi] • kwaida [kwaida] • hunyanzvi [hunyanzvi] • hukuru [hukuru] • hwaishandiswa [hwaishandiswa] • kugadzira [to / at gadzira] • mapfumo [plural pfumo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kugadzira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at gadzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "masimbi",
+          "morpheme_breakdown": "ma- (plural prefix) + -simbi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural simbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwaida",
+          "morpheme_breakdown": "kwaida (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwaida",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hunyanzvi",
+          "morpheme_breakdown": "hunyanzvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hunyanzvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hukuru",
+          "morpheme_breakdown": "hukuru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hukuru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwaishandiswa",
+          "morpheme_breakdown": "hwaishandiswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwaishandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kugadzira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at gadzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mapfumo",
+          "morpheme_breakdown": "ma- (plural prefix) + -pfumo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural pfumo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kugadzira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at gadzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "masimbi",
+      "morpheme_breakdown": "ma- (plural prefix) + -simbi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural simbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwaida",
+      "morpheme_breakdown": "kwaida (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwaida",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hunyanzvi",
+      "morpheme_breakdown": "hunyanzvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hunyanzvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hukuru",
+      "morpheme_breakdown": "hukuru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hukuru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwaishandiswa",
+      "morpheme_breakdown": "hwaishandiswa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwaishandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kugadzira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at gadzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mapfumo",
+      "morpheme_breakdown": "ma- (plural prefix) + -pfumo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural pfumo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('hwaishandiswa')",
+      "content": "In this sentence, 'hwaishandiswa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'hwaishandiswa'",
+      "content": "Notice how 'hwaishandiswa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('Kugadzira')",
+      "content": "Look at 'Kugadzira' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Pre-Colonial Iron Smelting ('Kupfura Masimbi') & Master Blacksmiths",
+      "content": "Archaeological sites across Zimbabwe reveal clay blast furnaces ('mavruko') where master Shona blacksmiths ('mhizha dzekupfura simbi') smelted high-grade iron ore to forge agricultural hoes ('mapadza'), axes ('matemo'), and ceremonial spears ('mapfumo').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Good morning Father, how did you wake up?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    }
+  ]
+}

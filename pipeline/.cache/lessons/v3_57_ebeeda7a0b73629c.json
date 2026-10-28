@@ -1,0 +1,189 @@
+{
+  "english_translation": "Women used to go to the well to fetch water while sharing their stories with one another.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vakadzi vaienda kutsime kunotora mvura vachitaurirana nyaya dzavo.",
+      "english": "Women used to go to the well to fetch water while sharing their stories with one another.",
+      "literal_gloss": "Vakadzi [women] • vaienda [people ienda] • kutsime [to / at tsime] • kunotora [to / at notora] • mvura [water / rain] • vachitaurirana [people chitaurirana] • nyaya [nyaya] • dzavo [dzavo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vakadzi",
+          "morpheme_breakdown": "va- + -kadzi (women)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "women",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaienda",
+          "morpheme_breakdown": "va- (plural people prefix) + -ienda",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutsime",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsime",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tsime",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunotora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -notora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at notora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachitaurirana",
+          "morpheme_breakdown": "va- (plural people prefix) + -chitaurirana",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chitaurirana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyaya",
+          "morpheme_breakdown": "nyaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzavo",
+          "morpheme_breakdown": "dzavo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzavo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vakadzi",
+      "morpheme_breakdown": "va- + -kadzi (women)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "women",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaienda",
+      "morpheme_breakdown": "va- (plural people prefix) + -ienda",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutsime",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsime",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tsime",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunotora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -notora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at notora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachitaurirana",
+      "morpheme_breakdown": "va- (plural people prefix) + -chitaurirana",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chitaurirana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyaya",
+      "morpheme_breakdown": "nyaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzavo",
+      "morpheme_breakdown": "dzavo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzavo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Vakadzi')",
+      "content": "The verb 'Vakadzi' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('kunotora')",
+      "content": "The verb 'kunotora' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzavo')",
+      "content": "In Shona, possessive words like 'dzavo' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Village Well ('Tsime') as a Space of Fellowship and Storytelling",
+      "content": "In rural communities, walking together to fetch cool water from the village spring or well ('kutsime') was a cherished daily social hour where women shared news, advice, and laughter along the footpath.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Tall trees and green grass' in Shona?",
+      "options": [
+        "makomo makuru nerwizi rwurefu",
+        "maruva machena nemashizha matema",
+        "munda mukuru nemvura zhinji",
+        "miti mirefu neuswa hwegirinhi"
+      ],
+      "correct_answer": "miti mirefu neuswa hwegirinhi",
+      "explanation": "'Miti mirefu' = 'tall trees' (plural 'mi-' agreement on '-refu'), and 'neuswa hwegirinhi' = 'and green grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    }
+  ]
+}

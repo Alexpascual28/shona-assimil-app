@@ -1,0 +1,231 @@
+{
+  "english_translation": "I heard through rumors that the prices of goods in the shops keep rising nowadays.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndanzwa nerunyerekupe kuti mitengo yezvinhu muzvitoro iri kuramba ichikwira mazuva ano.",
+      "english": "I heard through rumors that the prices of goods in the shops keep rising nowadays.",
+      "literal_gloss": "Ndanzwa [ndanzwa] • nerunyerekupe [and / with runyerekupe] • kuti [that / so that] • mitengo [mitengo] • yezvinhu [yezvinhu] • muzvitoro [in / singular zvitoro] • iri [iri] • kuramba [to / at ramba] • ichikwira [ichikwira] • mazuva [plural zuva] • ano [ano]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndanzwa",
+          "morpheme_breakdown": "ndanzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndanzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerunyerekupe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -runyerekupe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with runyerekupe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitengo",
+          "morpheme_breakdown": "mitengo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitengo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yezvinhu",
+          "morpheme_breakdown": "yezvinhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yezvinhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muzvitoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvitoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular zvitoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuramba",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ramba",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ramba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichikwira",
+          "morpheme_breakdown": "ichikwira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichikwira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazuva",
+          "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ano",
+          "morpheme_breakdown": "ano (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ano",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndanzwa",
+      "morpheme_breakdown": "ndanzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndanzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nerunyerekupe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -runyerekupe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with runyerekupe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitengo",
+      "morpheme_breakdown": "mitengo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitengo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yezvinhu",
+      "morpheme_breakdown": "yezvinhu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yezvinhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muzvitoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvitoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular zvitoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuramba",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ramba",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ramba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichikwira",
+      "morpheme_breakdown": "ichikwira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichikwira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazuva",
+      "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ano",
+      "morpheme_breakdown": "ano (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ano",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nerunyerekupe'",
+      "content": "Look closely at 'nerunyerekupe'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'runyerekupe' forms 'nerunyerekupe'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shop Prices ('Mitengo yeZvinhu') & Word-of-Mouth News ('Runyerekupe')",
+      "content": "Notice the expressive noun 'runyerekupe' ('word-of-mouth rumour / grapevine news'). Comparing shop prices ('mitengo yezvinhu muzvitoro') and sharing tips on affordable wholesalers is a staple of everyday conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    }
+  ]
+}

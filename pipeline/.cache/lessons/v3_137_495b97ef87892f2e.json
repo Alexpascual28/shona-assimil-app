@@ -1,0 +1,175 @@
+{
+  "english_translation": "I am very happy to see you again after so many days.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndafara zvikuru kukuona zvakare mushure memazuva akawanda.",
+      "english": "I am very happy to see you again after so many days.",
+      "literal_gloss": "Ndafara [ndafara] • zvikuru [very much / greatly] • kukuona [to / at kuona] • zvakare [zvakare] • mushure [in / singular shure] • memazuva [memazuva] • akawanda [he/she (past) wanda]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndafara",
+          "morpheme_breakdown": "ndafara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndafara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kukuona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -kuona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at kuona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mushure",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular shure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "memazuva",
+          "morpheme_breakdown": "memazuva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "memazuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akawanda",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) wanda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndafara",
+      "morpheme_breakdown": "ndafara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndafara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kukuona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -kuona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at kuona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakare",
+      "morpheme_breakdown": "zvakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mushure",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular shure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "memazuva",
+      "morpheme_breakdown": "memazuva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "memazuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akawanda",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) wanda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakare')",
+      "content": "The verb 'zvakare' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kukuona')",
+      "content": "Look at 'kukuona' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvikuru')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvikuru'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Warm Reunions ('Ndafara Zvikuru Kukuona') After Time Apart",
+      "content": "Reuniting with a relative or old friend after a long absence ('mushure memazuva akawanda') is celebrated with warm handshakes, smiles, and the heartfelt greeting 'Ndafara zvikuru kukuona zvakare!' ('I am overjoyed to see you again!').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

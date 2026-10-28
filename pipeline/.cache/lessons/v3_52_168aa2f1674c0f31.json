@@ -1,0 +1,217 @@
+{
+  "english_translation": "Do you think life in the old days was better than life today?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Unofunga kuti kurarama kwemazuva ekare kwaive nani pane kwanhasi here?",
+      "english": "Do you think life in the old days was better than life today?",
+      "literal_gloss": "Unofunga [you funga] • kuti [that / so that] • kurarama [to / at rarama] • kwemazuva [kwemazuva] • ekare [ekare] • kwaive [kwaive] • nani [nani] • pane [on / at ne] • kwanhasi [kwanhasi] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Unofunga",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -funga",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you funga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kurarama",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -rarama",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at rarama",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwemazuva",
+          "morpheme_breakdown": "kwemazuva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwemazuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ekare",
+          "morpheme_breakdown": "ekare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ekare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwaive",
+          "morpheme_breakdown": "kwaive (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwaive",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nani",
+          "morpheme_breakdown": "nani (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nani",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwanhasi",
+          "morpheme_breakdown": "kwanhasi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwanhasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Unofunga",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -funga",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you funga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kurarama",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -rarama",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at rarama",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwemazuva",
+      "morpheme_breakdown": "kwemazuva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwemazuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ekare",
+      "morpheme_breakdown": "ekare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ekare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwaive",
+      "morpheme_breakdown": "kwaive (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwaive",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nani",
+      "morpheme_breakdown": "nani (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nani",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwanhasi",
+      "morpheme_breakdown": "kwanhasi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwanhasi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('Unofunga')",
+      "content": "The verb 'Unofunga' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Intergenerational Conversations: Comparing Life Long Ago ('Mazuva Ekare') and Today",
+      "content": "Around the evening hearth or dinner table, elders and youth often debate how traditional life ('kurarama kwemazuva ekare')—with its organic foods, unhurried pace, and close-knit village solidarity—compares with modern technological life ('kwanhasi').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    }
+  ]
+}

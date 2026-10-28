@@ -1,0 +1,175 @@
+{
+  "english_translation": "The car broke down on the trip, so we are looking for help.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mota yafa parwendo saka tiri kutsvaga rubatsiro.",
+      "english": "The car broke down on the trip, so we are looking for help.",
+      "literal_gloss": "Mota [car] • yafa [yafa] • parwendo [on / at rwendo] • saka [so / therefore] • tiri [tiri] • kutsvaga [to / at tsvaga] • rubatsiro [rubatsiro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mota",
+          "morpheme_breakdown": "mota (car)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yafa",
+          "morpheme_breakdown": "yafa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yafa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "parwendo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rwendo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutsvaga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvaga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tsvaga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rubatsiro",
+          "morpheme_breakdown": "rubatsiro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rubatsiro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mota",
+      "morpheme_breakdown": "mota (car)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yafa",
+      "morpheme_breakdown": "yafa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yafa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "parwendo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rwendo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutsvaga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvaga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tsvaga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rubatsiro",
+      "morpheme_breakdown": "rubatsiro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rubatsiro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yafa')",
+      "content": "The verb 'yafa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kutsvaga')",
+      "content": "Look at 'kutsvaga' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Roadside Solidarity ('Kutsvaga Rubatsiro') When a Vehicle Breaks Down",
+      "content": "Note how Shona idioms say a broken-down car has 'died' ('mota yafa')! Along Zimbabwean highways, fellow motorists and local villagers readily stop to offer tools, water, or mechanical help ('rubatsiro') to stranded travellers.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our journey was very good' in Shona?",
+      "options": [
+        "Rwendo rwedu rwakanga rwakanaka kwazvo.",
+        "Mugwagwa uyu murefu zvikuru.",
+        "Bhazi richasimuka mangwanani-ngwanani.",
+        "Vanhu vazhinji vanoshandisa makombi muguta."
+      ],
+      "correct_answer": "Rwendo rwedu rwakanga rwakanaka kwazvo.",
+      "explanation": "'Rwendo rwedu' = 'Our journey' (taking 'rw-' agreement), 'rwakanga rwakanaka kwazvo' = 'was very good'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "mukicheni",
+        "kicheni",
+        "vakicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    }
+  ]
+}

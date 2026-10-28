@@ -1,0 +1,189 @@
+{
+  "english_translation": "The meeting started on time and everyone was prepared.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Musangano watanga nenguva uye munhu wese anga akagadzirira.",
+      "english": "The meeting started on time and everyone was prepared.",
+      "literal_gloss": "Musangano [in / singular sangano] • watanga [watanga] • nenguva [and / with nguva] • uye [and / furthermore] • munhu [person] • wese [wese] • anga [anga] • akagadzirira [he/she (past) gadzirira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Musangano",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sangano",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sangano",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "watanga",
+          "morpheme_breakdown": "watanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "watanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munhu",
+          "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "person",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wese",
+          "morpheme_breakdown": "wese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anga",
+          "morpheme_breakdown": "anga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "anga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akagadzirira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gadzirira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) gadzirira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Musangano",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sangano",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sangano",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "watanga",
+      "morpheme_breakdown": "watanga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "watanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munhu",
+      "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "person",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wese",
+      "morpheme_breakdown": "wese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anga",
+      "morpheme_breakdown": "anga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "anga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akagadzirira",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gadzirira",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) gadzirira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akagadzirira')",
+      "content": "The verb 'akagadzirira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nenguva'",
+      "content": "Look closely at 'nenguva'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'nguva' forms 'nenguva'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'uye'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'uye'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Community & Workplace Meetings ('Musangano') and Preparedness",
+      "content": "Whether at a workplace briefing, a school parent-teacher association, or a neighbourhood development committee, starting a meeting on time ('watanga nenguva') with everyone well prepared ('akagadzirira') sets a tone of mutual respect.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

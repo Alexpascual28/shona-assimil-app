@@ -1,0 +1,203 @@
+{
+  "english_translation": "The child woke up happy and now wants to go to school.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mwana amuka achifara uye ave kuda kuenda kuchikoro manje.",
+      "english": "The child woke up happy and now wants to go to school.",
+      "literal_gloss": "Mwana [child] • amuka [amuka] • achifara [achifara] • uye [and / furthermore] • ave [ave] • kuda [to / at da] • kuenda [to / at enda] • kuchikoro [to/at school] • manje [plural nje]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mwana",
+          "morpheme_breakdown": "mu- + -ana (child)",
+          "noun_class_or_concord": "Noun (mu-/va-)",
+          "literal_english": "child",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "amuka",
+          "morpheme_breakdown": "amuka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "amuka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achifara",
+          "morpheme_breakdown": "achifara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achifara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ave",
+          "morpheme_breakdown": "ave (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ave",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchikoro",
+          "morpheme_breakdown": "ku- (to/at) + chikoro (school)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "to/at school",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "manje",
+          "morpheme_breakdown": "ma- (plural prefix) + -nje",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural nje",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mwana",
+      "morpheme_breakdown": "mu- + -ana (child)",
+      "noun_class_or_concord": "Noun (mu-/va-)",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "amuka",
+      "morpheme_breakdown": "amuka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "amuka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "achifara",
+      "morpheme_breakdown": "achifara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "achifara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ave",
+      "morpheme_breakdown": "ave (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ave",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchikoro",
+      "morpheme_breakdown": "ku- (to/at) + chikoro (school)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "to/at school",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "manje",
+      "morpheme_breakdown": "ma- (plural prefix) + -nje",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural nje",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kuchikoro')",
+      "content": "Look at how location is expressed with 'kuchikoro'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuenda')",
+      "content": "Look at 'kuenda' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'uye'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'uye'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Morning School Routines & Early Enthusiasm for Learning",
+      "content": "Across towns and villages in Zimbabwe, mornings begin early as schoolchildren wake up cheerfully ('amuka achifara'), put on their pressed school uniforms, and set off on foot or by bus to arrive before morning assembly.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Father is in the house, but the children are playing outside.",
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vaviri nevarume vana",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "english_translation": "There are two donkeys. These donkeys are pulling a cart. Inside the cart sits a man wearing a hat, and the cart is travelling along an unpaved dirt road.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Madhongi pane madhongi maviri.",
+      "english": "There are two donkeys.",
+      "literal_gloss": "Madhongi [plural dhongi] • pane [on / at ne] • madhongi [plural dhongi] • maviri [plural viri]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Madhongi",
+          "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dhongi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "madhongi",
+          "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dhongi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maviri",
+          "morpheme_breakdown": "ma- (plural prefix) + -viri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural viri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Madhongi aya arikudhonza ngoro.",
+      "english": "These donkeys are pulling a cart.",
+      "literal_gloss": "Madhongi [plural dhongi] • aya [aya] • arikudhonza [he/she is dhonza] • ngoro [ngoro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Madhongi",
+          "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dhongi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aya",
+          "morpheme_breakdown": "aya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arikudhonza",
+          "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -dhonza",
+          "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+          "literal_english": "he/she is dhonza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngoro",
+          "morpheme_breakdown": "ngoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngoro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Mungoro munemurume akagara akapfeka ngohwani uye ngoro irikufamba pamugwagwa usina tara.",
+      "english": "In the cart sits a man wearing a hat, and the cart is moving along an untarred road.",
+      "literal_gloss": "Mungoro [in / singular ngoro] • munemurume [in / singular nemurume] • akagara [he/she (past) gara] • akapfeka [he/she (past) pfeka] • ngohwani [ngohwani] • uye [and / furthermore] • ngoro [ngoro] • irikufamba [it is kufamba]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mungoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ngoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ngoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munemurume",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nemurume",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nemurume",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akagara",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gara",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngohwani",
+          "morpheme_breakdown": "ngohwani (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngohwani",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngoro",
+          "morpheme_breakdown": "ngoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "irikufamba",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -kufamba",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is kufamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamugwagwa",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mugwagwa",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mugwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "usina",
+          "morpheme_breakdown": "usina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "usina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tara",
+          "morpheme_breakdown": "tara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tara",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Madhongi",
+      "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural dhongi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "madhongi",
+      "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural dhongi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maviri",
+      "morpheme_breakdown": "ma- (plural prefix) + -viri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Madhongi",
+      "morpheme_breakdown": "ma- (plural prefix) + -dhongi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural dhongi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aya",
+      "morpheme_breakdown": "aya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "arikudhonza",
+      "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -dhonza",
+      "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+      "literal_english": "he/she is dhonza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ngoro",
+      "morpheme_breakdown": "ngoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ngoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mungoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ngoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ngoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munemurume",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nemurume",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nemurume",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akagara",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gara",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akapfeka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) pfeka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ngohwani",
+      "morpheme_breakdown": "ngohwani (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ngohwani",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ngoro",
+      "morpheme_breakdown": "ngoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ngoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "irikufamba",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -kufamba",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is kufamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamugwagwa",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mugwagwa",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mugwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "usina",
+      "morpheme_breakdown": "usina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "usina",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akagara')",
+      "content": "The verb 'akagara' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('maviri')",
+      "content": "In Shona, number words like 'maviri' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Donkey-Drawn Carts ('Ngoro yeMadhongi') in Rural Transport",
+      "content": "Across rural Zimbabwe—especially in drier regions—two-wheeled carts ('zvigochikari' or 'ngoro') pulled by pairs of hardy donkeys ('madhongi maviri') or oxen are indispensable for transporting grain sacks to the grinding mill ('chigayo'), firewood, and water drums along unpaved country roads ('mugwagwa usina tara').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'miti mitatu' for 'three trees' but 'zvigaro zvitatu' for 'three chairs'?",
+      "options": [
+        "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+        "Because trees are taller than chairs",
+        "Because 'mitatu' means thirty and 'zvitatu' means three",
+        "Because 'miti' is singular and 'zvigaro' is plural"
+      ],
+      "correct_answer": "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+      "explanation": "Numbers 1–5 mirror the prefix of the noun they count: 'miti mitatu', 'zvigaro zvitatu', 'vanhu vatatu'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "The train will arrive after five minutes.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    }
+  ]
+}

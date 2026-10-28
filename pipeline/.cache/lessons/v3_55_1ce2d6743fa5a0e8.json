@@ -1,0 +1,189 @@
+{
+  "english_translation": "Did you hear the folktale about the hare and the baboon that grandmother used to tell us?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Wakanzwa nyaya yengano yetsuro negudo yataitaurirwa naambuya here?",
+      "english": "Did you hear the folktale about the hare and the baboon that grandmother used to tell us?",
+      "literal_gloss": "Wakanzwa [you/he (past) nzwa] • nyaya [nyaya] • yengano [yengano] • yetsuro [yetsuro] • negudo [and / with gudo] • yataitaurirwa [yataitaurirwa] • naambuya [naambuya] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Wakanzwa",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -nzwa",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) nzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyaya",
+          "morpheme_breakdown": "nyaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yengano",
+          "morpheme_breakdown": "yengano (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yengano",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yetsuro",
+          "morpheme_breakdown": "yetsuro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yetsuro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "negudo",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -gudo",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with gudo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yataitaurirwa",
+          "morpheme_breakdown": "yataitaurirwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yataitaurirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "naambuya",
+          "morpheme_breakdown": "naambuya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "naambuya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Wakanzwa",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -nzwa",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) nzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyaya",
+      "morpheme_breakdown": "nyaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yengano",
+      "morpheme_breakdown": "yengano (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yengano",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yetsuro",
+      "morpheme_breakdown": "yetsuro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yetsuro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "negudo",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -gudo",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with gudo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yataitaurirwa",
+      "morpheme_breakdown": "yataitaurirwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yataitaurirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "naambuya",
+      "morpheme_breakdown": "naambuya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "naambuya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Wakanzwa')",
+      "content": "The verb 'Wakanzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'negudo'",
+      "content": "Look closely at 'negudo'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'gudo' forms 'negudo'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Fireside Folktales ('Ngano') of Tsuro Magen'a (the Clever Hare) & Gudo (the Baboon)",
+      "content": "On evenings during the dry harvest season, grandmothers ('ambuya') gathered children by the fire to tell 'ngano' (folktales with call-and-response songs). The most beloved characters are 'Tsuro Magen'a' (the quick-witted hare) and his larger, easily outsmarted uncle 'Gudo' (the baboon).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    }
+  ]
+}

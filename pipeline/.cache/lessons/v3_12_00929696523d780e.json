@@ -1,0 +1,175 @@
+{
+  "english_translation": "Please help me with this work; it is giving me a lot of trouble.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinokumbirawo undibatsire basa iri, riri kundinetsa zvikuru.",
+      "english": "Please help me with this work; it is giving me a lot of trouble.",
+      "literal_gloss": "Ndinokumbirawo [I kumbirawo] • undibatsire [undibatsire] • basa [work / job] • iri [iri] • riri [riri] • kundinetsa [to / at ndinetsa] • zvikuru [very much / greatly]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinokumbirawo",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbirawo",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I kumbirawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "undibatsire",
+          "morpheme_breakdown": "undibatsire (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "undibatsire",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riri",
+          "morpheme_breakdown": "riri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "riri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kundinetsa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ndinetsa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ndinetsa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinokumbirawo",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbirawo",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I kumbirawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "undibatsire",
+      "morpheme_breakdown": "undibatsire (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "undibatsire",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "riri",
+      "morpheme_breakdown": "riri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "riri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kundinetsa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ndinetsa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ndinetsa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinokumbirawo')",
+      "content": "The verb 'Ndinokumbirawo' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Polite Requests for Help ('Ndinokumbirawo') with Difficult Tasks",
+      "content": "Adding the suffix '-wo' ('please / kindly') to 'ndinokumbira' ('I ask') creates 'Ndinokumbirawo'—the most natural, polite way in Shona to ask a colleague, mentor, or family member for guidance when a task proves challenging.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    }
+  ]
+}

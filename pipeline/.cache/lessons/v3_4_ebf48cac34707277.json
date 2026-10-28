@@ -1,0 +1,175 @@
+{
+  "english_translation": "Close the door gently because the baby is still asleep.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vhara musuwo zvinyoronyoro nokuti mwana achiri akarara.",
+      "english": "Close the door gently because the baby is still asleep.",
+      "literal_gloss": "Vhara [close! / shut!] • musuwo [door / doorway] • zvinyoronyoro [things nyoronyoro] • nokuti [because] • mwana [child] • achiri [achiri] • akarara [he/she (past) rara]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vhara",
+          "morpheme_breakdown": "vhara (close/shut)",
+          "noun_class_or_concord": "Imperative Verb",
+          "literal_english": "close! / shut!",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musuwo",
+          "morpheme_breakdown": "mu- (singular) + -suwo (door)",
+          "noun_class_or_concord": "Noun (mu-/mi-)",
+          "literal_english": "door / doorway",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinyoronyoro",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nyoronyoro",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nyoronyoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mwana",
+          "morpheme_breakdown": "mu- + -ana (child)",
+          "noun_class_or_concord": "Noun (mu-/va-)",
+          "literal_english": "child",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achiri",
+          "morpheme_breakdown": "achiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akarara",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rara",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) rara",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vhara",
+      "morpheme_breakdown": "vhara (close/shut)",
+      "noun_class_or_concord": "Imperative Verb",
+      "literal_english": "close! / shut!",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musuwo",
+      "morpheme_breakdown": "mu- (singular) + -suwo (door)",
+      "noun_class_or_concord": "Noun (mu-/mi-)",
+      "literal_english": "door / doorway",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinyoronyoro",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nyoronyoro",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nyoronyoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- + -ana (child)",
+      "noun_class_or_concord": "Noun (mu-/va-)",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "achiri",
+      "morpheme_breakdown": "achiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "achiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akarara",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rara",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) rara",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Vhara')",
+      "content": "Notice the command verb 'Vhara' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About the Past ('akarara')",
+      "content": "The verb 'akarara' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvinyoronyoro')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvinyoronyoro'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Caring for Sleeping Infants ('Mwana Achiri Akarara') at Home",
+      "content": "When a baby or toddler ('mwana') is resting inside the house after being carried on their mother's back in a 'mbereko' sling, everyone in the household moves gently ('zvinyoronyoro') and closes doors quietly so the child can sleep undisturbed.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    }
+  ]
+}

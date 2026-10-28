@@ -313,12 +313,12 @@ class GeminiEnricher:
                 logger.warning("Could not initialize google-genai Client: %s", exc)
 
     def _lesson_cache_file(self, clip_id: str, lesson_number: int) -> Path:
-        return self.lessons_cache_dir / f"v2_{lesson_number}_{clip_id}.json"
+        return self.lessons_cache_dir / f"v3_{lesson_number}_{clip_id}.json"
 
     def _review_cache_file(self, preceding_clip_ids: list[str], lesson_number: int) -> Path:
-        joined = f"v2_review_{lesson_number}::" + "_".join(preceding_clip_ids)
+        joined = f"v3_review_7lessons_{lesson_number}::" + "_".join(preceding_clip_ids)
         digest = hashlib.sha256(joined.encode("utf-8")).hexdigest()[:16]
-        return self.reviews_cache_dir / f"v2_review_{lesson_number}_{digest}.json"
+        return self.reviews_cache_dir / f"v3_review_{lesson_number}_{digest}.json"
 
     def enrich_regular_lesson(self, lesson: Lesson, mock: bool = False) -> Lesson:
         """Populates idiomatic translation, multi-line dialogue, textbook grammar/cultural notes, and 3 new-sentence exercises."""
@@ -416,14 +416,13 @@ class GeminiEnricher:
 
         for idx, lesson in enumerate(lessons):
             if lesson.type == "review" or lesson.lesson_number % 7 == 0:
-                if lesson.review_summary and len(lesson.review_exercises) == 6:
-                    continue
-                preceding = [
+                covered_seven = [
                     l
-                    for l in lessons[max(0, idx - 6) : idx]
+                    for l in lessons[max(0, idx - 6) : idx + 1]
                 ]
+                lessons[idx].reviewed_lessons = [l.lesson_number for l in covered_seven]
                 lessons[idx] = self.enrich_review_lesson(
-                    lessons[idx], preceding, mock=mock
+                    lessons[idx], covered_seven, mock=mock
                 )
 
         return lessons

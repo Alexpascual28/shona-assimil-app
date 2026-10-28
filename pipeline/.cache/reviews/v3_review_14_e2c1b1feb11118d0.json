@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 2 Comprehensive Review (Lessons 8–14)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 8–14)",
+        "points": [
+          "Lesson 8: \"Tora kapu iyi uiise pedyo nefafitera usati wabuda.\" — Take this cup and put it near the window before you go out.",
+          "Lesson 9: \"Ndinonzwa nzara mangwanani kana ndisina kudya.\" — I feel hungry in the morning if I have not eaten.",
+          "Lesson 10: \"Tora bhuku riri patafura undipe ndimboverenga.\" — Take the book on the table and give it to me so I can read for a bit.",
+          "Lesson 11: \"Makadini mose muri mumba ndinovimba makasimba.\" — How are you all in the house? I hope you are doing well.",
+          "Lesson 12: \"Uyai kuno mundibatsire kusimudza zvinhu zvinorema izvi.\" — Come here and help me lift these heavy things.",
+          "Lesson 13: \"Chigara pano womirira kusvika ndadzoka kubva kuchechi.\" — Sit right here and wait until I return from church.",
+          "Lesson 14: \"Kune makore akawanda saka kunogona kungonaya manheru.\" — There are many clouds, so it might rain this evening."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Giving Commands & Polite Requests ('Tora'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Shona Greetings & Time of Day ('mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Shona Greetings & Time of Day ('Makadini'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Giving Commands & Polite Requests ('Uyai'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Giving Commands & Polite Requests ('Chigara'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Shona Greetings & Time of Day ('manheru'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Kitchen Orderliness & Borrowed Household Words ('Fafitera' vs 'Hwindo'): Notice the word 'fafitera' ('window') alongside 'kapu' ('cup')! Shona has enriched its everyday household vocabulary over the past century by adapting words from both Afrikaans ('venster' -> 'fafitera', 'tafel' -> 'tafura') and English ('window' -> 'hwindo', 'cup' -> 'kapu'), all seamlessly fitted into Shona syllable structure where every word ends in a vowel..",
+          "Traditional & Modern Zimbabwean Breakfasts ('Chikafu cheMangwanani'): A hearty morning meal is essential before starting school or farm work.",
+          "Sharing Books & Reading Culture in Zimbabwean Homes: Reading aloud and sharing books ('mabhuku') at the family table is a cherished part of home life in Zimbabwe, which consistently ranks among Africa's highest-literacy nations.",
+          "Greeting the Whole Household ('Mose Muri Mumba') & 'Makasimba': When entering a Zimbabwean home, a visitor never greets only one person in isolation—instead, they address everyone present with 'Makadini mose muri mumba?' ('How are you all in the house?')."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Giving Commands & Polite Requests ('Tora')",
+    "Shona Greetings & Time of Day ('mangwanani')",
+    "Shona Greetings & Time of Day ('Makadini')",
+    "Giving Commands & Polite Requests ('Uyai')",
+    "Giving Commands & Polite Requests ('Chigara')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Food & Shopping: How do you say 'I bought bread and milk at the shop' in Shona?",
+      "options": [
+        "Ndichabika sadza nemuriwo kumba.",
+        "Tiri kutsvaga shuga nemunyu patafura.",
+        "Ndakatenga chingwa nemukaka kuchitoro.",
+        "Vana vanoda kunwa mvura inodziya."
+      ],
+      "correct_answer": "Ndakatenga chingwa nemukaka kuchitoro.",
+      "explanation": "'Ndakatenga' = 'I bought', 'chingwa nemukaka' = 'bread and milk', 'kuchitoro' = 'at the shop'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Colours & Questions: Complete the question: '______ hembe yaunoda kupfeka, chena kana tsvuku?' (Which shirt do you want to wear, the white one or the red one?)",
+      "options": [
+        "Sei",
+        "Here",
+        "Kupi",
+        "Ndeipi"
+      ],
+      "correct_answer": "Ndeipi",
+      "explanation": "'Ndeipi' asks 'Which one?' for nouns like 'mota' (car) or 'hembe' (shirt)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Talking About Time: If someone says 'Chimirira kwemaminitsi mashanu chete', how long are they asking you to wait?",
+      "options": [
+        "For only five minutes",
+        "Until tomorrow morning",
+        "For three whole days",
+        "Until the end of the month"
+      ],
+      "correct_answer": "For only five minutes",
+      "explanation": "'Maminitsi mashanu' = 'five minutes', and 'chete' = 'only'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Future Plans ('-cha-'): Which verb correctly completes 'Mangwana ______ sadza nenyama' ('Tomorrow we will cook sadza and meat')?",
+      "options": [
+        "takabika",
+        "tichabika",
+        "tiri kubika",
+        "vanobika"
+      ],
+      "correct_answer": "tichabika",
+      "explanation": "'Ti-' (we) + '-cha-' (will) + '-bika' (cook) = 'tichabika'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Negative Present: In 'Ndiri kutsvaga makiyi angu asi handisi kuawona', what does 'handisi kuawona' mean?",
+      "options": [
+        "I left them in the car",
+        "I found them on the table",
+        "I do not see them",
+        "I will buy new ones tomorrow"
+      ],
+      "correct_answer": "I do not see them",
+      "explanation": "'Handisi' ('I am not') + 'ku-a-wona' ('seeing them [the keys]') means 'I do not see them'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 2 — Translate this new review sentence: 'Wedzera shuga shoma mukapu yetii.'",
+      "options": [
+        "Put the warm water on the table please.",
+        "We bought maize meal and cooking oil yesterday.",
+        "I feel hungry when I wake up early.",
+        "Add a little sugar into the cup of tea."
+      ],
+      "correct_answer": "Add a little sugar into the cup of tea.",
+      "explanation": "'Wedzera' = 'Add', 'shuga shoma' = 'a little sugar', 'mukapu yetii' = 'into the cup of tea'."
+    }
+  ]
+}

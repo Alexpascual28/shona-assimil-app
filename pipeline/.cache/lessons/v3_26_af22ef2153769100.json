@@ -1,0 +1,175 @@
+{
+  "english_translation": "Ancient kings lived in royal courts surrounded by stone walls.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Madzimambo ekare aigara mumizinda yakakomberedzwa nemadziro ematombo.",
+      "english": "Ancient kings lived in royal courts surrounded by stone walls.",
+      "literal_gloss": "Madzimambo [plural dzimambo] • ekare [ekare] • aigara [aigara] • mumizinda [in / singular mizinda] • yakakomberedzwa [it (past) komberedzwa] • nemadziro [and / with madziro] • ematombo [ematombo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Madzimambo",
+          "morpheme_breakdown": "ma- (plural prefix) + -dzimambo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dzimambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ekare",
+          "morpheme_breakdown": "ekare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ekare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aigara",
+          "morpheme_breakdown": "aigara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aigara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumizinda",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mizinda",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mizinda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakakomberedzwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -komberedzwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) komberedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemadziro",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -madziro",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with madziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ematombo",
+          "morpheme_breakdown": "ematombo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ematombo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Madzimambo",
+      "morpheme_breakdown": "ma- (plural prefix) + -dzimambo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural dzimambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ekare",
+      "morpheme_breakdown": "ekare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ekare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aigara",
+      "morpheme_breakdown": "aigara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aigara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumizinda",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mizinda",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mizinda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakakomberedzwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -komberedzwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) komberedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemadziro",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -madziro",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with madziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ematombo",
+      "morpheme_breakdown": "ematombo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ematombo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakakomberedzwa')",
+      "content": "The verb 'yakakomberedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nemadziro'",
+      "content": "Look closely at 'nemadziro'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'madziro' forms 'nemadziro'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('aigara')",
+      "content": "In this sentence, 'aigara' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Royal Capitals ('Mizinda yaMadzimambo') & Dry-Stone Architecture",
+      "content": "Across the Zimbabwean plateau—at Great Zimbabwe, Khami, Danamombe (Dhlodhlo), and Naletale—ancient rulers lived in elevated royal courts ('mizinda') encircled by intricately patterned granite stone walls ('madziro ematombo').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    }
+  ]
+}

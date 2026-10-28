@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 9 Comprehensive Review (Lessons 57–63)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 57–63)",
+        "points": [
+          "Lesson 57: \"Rima munda wako zvakanaka kuti uwane goho guru.\" — Cultivate your field well so that you get a big harvest.",
+          "Lesson 58: \"Gore rino kuchange kuine gohwo rakanaka, handiti?\" — This year there will be a good harvest, won't there?",
+          "Lesson 59: \"Nekuda kwekushanda nesimba, akawana mubayiro.\" — Because of working hard, he received a reward.",
+          "Lesson 60: \"Tichasangana naamai kumusika kana tapedza kutenga miriwo.\" — We will meet Mother at the market when we finish buying vegetables.",
+          "Lesson 61: \"Humambo hweRozvi hwaizivikanwa neuto ravo raigona kurwa hondo.\" — The Rozvi Empire was renowned for its army that was skilled in warfare.",
+          "Lesson 62: \"Vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure.\" — People traded ivory and gold with foreign merchants who came from afar.",
+          "Lesson 63: \"Nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semaShona.\" — Ancient history teaches us where we came from and our traditions as Shona people."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Giving Commands & Polite Requests ('Rima'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('rakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akawana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Future with '-cha-' ('Tichasangana'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)",
+          "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('ravo'): Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]",
+          "Joining Words with 'ne-' ('and / with') in 'nendarama': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Thorough Field Preparation ('Kurima Munda') for a Bountiful Harvest: Good farming ('kurima munda zvakanaka')—winter ploughing, adding organic compost or manure ('mupfudze'), and timely weeding ('kusakura')—is celebrated across Zimbabwe as the secret to achieving a bumper harvest ('goho guru')..",
+          "Predicting the Harvest ('Gohwo Rakanaka') & Conversational 'Handiti?': When the rains fall evenly through December and January, farmers look across green fields of waist-high maize and optimism rises for a strong harvest ('gohwo rakanaka').",
+          "Honouring Hard Work ('Kushanda Nesimba') & Academic/Work Awards ('Mubayiro'): Schools, churches, and workplaces in Zimbabwe hold annual prize-giving days to award prizes ('mubayiro') to students and workers who have distinguished themselves through diligence ('kushanda nesimba')..",
+          "Open-Air Farmer's Markets ('Musika') & Community Meeting Points: From Harare's famous Mbare Musika to Sakubva in Mutare and Renkini in Bulawayo, the 'musika' (open-air market) is both the primary source of farm-fresh vegetables ('miriwo') and a central landmark where family members arrange to meet up ('kusangana') before travelling home together.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Giving Commands & Polite Requests ('Rima')",
+    "Talking About the Past ('rakanaka')",
+    "Talking About the Past ('akawana')",
+    "Talking About the Future with '-cha-' ('Tichasangana')",
+    "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('ravo')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — History & Heritage: Why is Great Zimbabwe called 'Masvingo eGreat Zimbabwe'?",
+      "options": [
+        "Because 'masvingo' means tall green trees",
+        "Because it is located beside the Indian Ocean",
+        "Because 'masvingo' means modern glass buildings",
+        "Because 'masvingo' means fortified dry-stone walls or enclosures"
+      ],
+      "correct_answer": "Because 'masvingo' means fortified dry-stone walls or enclosures",
+      "explanation": "'Masvingo' refers to the monumental stone enclosures built by ancestors of the Shona people."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Wildlife & Nature: In 'zvipembere zviviri zviri kufura uswa', what are the two rhinoceroses doing?",
+      "options": [
+        "Grazing on grass",
+        "Drinking water from the river",
+        "Sleeping under a shady tree",
+        "Running across the mountain"
+      ],
+      "correct_answer": "Grazing on grass",
+      "explanation": "'Zviri kufura' means 'are grazing', and 'uswa' (or 'huswa') means 'grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — National Flag Colours: Which five colours appear on the national flag of Zimbabwe ('mureza weZimbabwe')?",
+      "options": [
+        "Blue, purple, orange, pink, and grey",
+        "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+        "Only green and white",
+        "Red, blue, and gold only"
+      ],
+      "correct_answer": "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+      "explanation": "The Zimbabwean flag features horizontal stripes of green, yellow, red, and black with a white triangle bearing the Zimbabwe Bird."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Water Storage & Households: Why are Jojo tanks ('matangi emvura eJojo') placed on elevated brick or steel stands?",
+      "options": [
+        "To serve as watchtowers for wildlife",
+        "To dry maize and groundnuts in the sun",
+        "To store household water and provide gravity pressure for taps",
+        "To shelter livestock during the rainy season"
+      ],
+      "correct_answer": "To store household water and provide gravity pressure for taps",
+      "explanation": "Elevated water tanks store borehole or municipal water so households have a reliable supply."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Ordinal Numbers: How do you say 'the first person, the second person, and the third person'?",
+      "options": [
+        "vanhu vatatu vari mumba",
+        "munhu mumwe nevanhu vaviri",
+        "wekupedzisira chete",
+        "munhu wekutanga, wechipiri, newechitatu"
+      ],
+      "correct_answer": "munhu wekutanga, wechipiri, newechitatu",
+      "explanation": "'Wekutanga' = 'first' (of beginning), 'wechipiri' = 'second', and 'wechitatu' = 'third'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 9 — Translate this new cumulative sentence: 'Nzvimbo iyi inoratidza nhoroondo yakakosha yevanhu vekare nemagariro avo.'",
+      "options": [
+        "This place shows the important history of the ancient people and their way of life.",
+        "These mountains have many green trees and clean rivers.",
+        "The visitors took photographs of the two rhinoceroses.",
+        "We learned many Shona words, proverbs, and grammar rules."
+      ],
+      "correct_answer": "This place shows the important history of the ancient people and their way of life.",
+      "explanation": "'Nzvimbo iyi inoratidza' = 'This place shows', 'nhoroondo yakakosha' = 'important history', 'yevanhu vekare nemagariro avo' = 'of the ancient people and their way of life'."
+    }
+  ]
+}

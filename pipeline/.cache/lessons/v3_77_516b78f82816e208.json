@@ -1,0 +1,203 @@
+{
+  "english_translation": "Was it permitted for a person to marry multiple wives in traditional times?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zvaibvumidzwa kuti munhu aroore vakadzi vakawanda munguva yechinyakare here?",
+      "english": "Was it permitted for a person to marry multiple wives in traditional times?",
+      "literal_gloss": "Zvaibvumidzwa [zvaibvumidzwa] • kuti [that / so that] • munhu [person] • aroore [aroore] • vakadzi [women] • vakawanda [they (past) wanda] • munguva [in / singular nguva] • yechinyakare [yechinyakare] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvaibvumidzwa",
+          "morpheme_breakdown": "zvaibvumidzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaibvumidzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munhu",
+          "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "person",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aroore",
+          "morpheme_breakdown": "aroore (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aroore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakadzi",
+          "morpheme_breakdown": "va- + -kadzi (women)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "women",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakawanda",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munguva",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yechinyakare",
+          "morpheme_breakdown": "yechinyakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yechinyakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zvaibvumidzwa",
+      "morpheme_breakdown": "zvaibvumidzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaibvumidzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munhu",
+      "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "person",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aroore",
+      "morpheme_breakdown": "aroore (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aroore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakadzi",
+      "morpheme_breakdown": "va- + -kadzi (women)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "women",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakawanda",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munguva",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yechinyakare",
+      "morpheme_breakdown": "yechinyakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yechinyakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakadzi')",
+      "content": "The verb 'vakadzi' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Traditional Marriage Customs ('Roora') & Historical Family Structures",
+      "content": "Historical discussions in Shona classes often examine how marriage customs evolved from pre-colonial polygynous homesteads ('barika'—primarily among chiefs and wealthy farmers) to modern monogamous family life, while preserving respectful bridewealth traditions ('roora').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

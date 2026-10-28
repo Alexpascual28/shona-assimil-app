@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 5 Comprehensive Review (Lessons 29–35)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 29–35)",
+        "points": [
+          "Lesson 29: \"Ko ukawedzera munyu zvishoma hazvibudi zvakanaka here.\" — What if you add a little bit of salt—won't it turn out well?",
+          "Lesson 30: \"Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.\" — Find the money to pay the workers at the end of the month.",
+          "Lesson 31: \"Chingwa chapera saka ndichapfuura nekuchitoro pandinobva kubasa.\" — The bread has run out, so I will pass by the store when I leave work.",
+          "Lesson 32: \"Tine maminitsi mashanu chete saka ngatikurumidze kupedza zvatirikuita.\" — We only have five minutes, so let us hurry and finish what we are doing.",
+          "Lesson 33: \"Vakuru vanoti, \"Chara chimwe hachitswanyi inda.\"\" — The elders say, \"One finger cannot crush a louse.\"",
+          "Lesson 34: \"Mwana ari kuchema mumba nokuti arumwa nenyuchi.\" — The child is crying in the house because he was stung by a bee.",
+          "Lesson 35: \"Baba vakaenda kuHarare, asi vachadzoka mangwana.\" — Father went to Harare, but he will return tomorrow."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('zvakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('Tsvaga'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('chapera'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Counting & Numbers in Shona ('mashanu'): Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)",
+          "Present Tense & Everyday Actions ('vanoti'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Polite Indirect Suggestions in Shona Conversation: Notice how the speaker does not say 'This food lacks salt!' Instead, they ask gently: 'Ko ukawedzera munyu zvishoma, hazvibudi zvakanaka here?' ('What if you added a little salt—wouldn't it turn out well?').",
+          "Work, Month-End ('Kupera Kwemwedzi') & Economic Life in Zimbabwe: In Zimbabwe, 'kupera kwemwedzi' (month-end) is the liveliest time in every town and city as salaried workers ('vashandi') receive their monthly pay.",
+          "Neighbourhood Grocery Stores ('Zvitoro') & Fresh Daily Bread: Freshly baked loaves of bread ('chingwa') from local bakeries like Lobels or Proton are a daily staple in Zimbabwean homes.",
+          "Cooperative Teamwork ('Ngatikurumidze') & Shared Responsibility: In Shona, when time is short ('maminitsi mashanu chete' — only five minutes), speakers rarely issue bossy commands to peers; instead, they use the inclusive first-person plural 'ngati-' ('ngatikurumidze' — 'let us hurry together'), emphasizing shared effort and mutual encouragement.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('zvakanaka')",
+    "Giving Commands & Polite Requests ('Tsvaga')",
+    "Talking About the Past ('chapera')",
+    "Counting & Numbers in Shona ('mashanu')",
+    "Present Tense & Everyday Actions ('vanoti')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Concessive Clauses ('Kunyangwe'): Which sentence means 'Even though the river is wide, they crossed safely'?",
+      "options": [
+        "Kana rwizi rwuzere, hatigoni kuyambuka nhasi.",
+        "Rwizi urwu runoyerera ruchienda kumabvazuva.",
+        "Vana vari kutamba pedyo nerwizi.",
+        "Kunyangwe rwizi rwakafara, vakayambuka zvakanaka."
+      ],
+      "correct_answer": "Kunyangwe rwizi rwakafara, vakayambuka zvakanaka.",
+      "explanation": "'Kunyangwe' introduces an 'although / even though' clause, followed by 'vakayambuka zvakanaka' ('they crossed safely')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Relative Clauses: What does ' nzira inoenda kumunda' mean?",
+      "options": [
+        "the path that goes to the field",
+        "we are walking along the path",
+        "the field is far from the road",
+        "go to the field tomorrow morning"
+      ],
+      "correct_answer": "the path that goes to the field",
+      "explanation": "'Inoenda' acts as a relative verb modifying 'nzira' ('path') -> 'the path which goes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Passive Voice ('-wa'): How do you say 'The maize was planted in November'?",
+      "options": [
+        "Varimi vanodyara chibage muna Mbudzi.",
+        "Chibage chakadyarwa muna Mbudzi.",
+        "Tichadyara chibage kana mvura yanaya.",
+        "Chibage chiri kukura zvakanaka mumunda."
+      ],
+      "correct_answer": "Chibage chakadyarwa muna Mbudzi.",
+      "explanation": "Adding '-wa' to '-dyara' (plant) forms the passive '-dyarwa' ('was planted')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Reflexive Prefix ('-zvi-'): In 'Anofanira kuzvibata zvakanaka', what does '-zvi-' do?",
+      "options": [
+        "It makes the verb negative",
+        "It refers to plural objects on the table",
+        "It means 'himself / herself / oneself' (to conduct oneself well)",
+        "It indicates the distant past tense"
+      ],
+      "correct_answer": "It means 'himself / herself / oneself' (to conduct oneself well)",
+      "explanation": "The reflexive prefix '-zvi-' placed right before the verb stem means 'oneself' ('kuzvibata' = to behave/control oneself)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Farming & Harvest: What is the meaning of 'Tarisiro yedu ndeyekuwana goho guru gore rino'?",
+      "options": [
+        "We already sold all our harvest at the market",
+        "Last year the rain was very scarce in our village",
+        "The farmers are repairing their tools in the yard",
+        "Our hope is to obtain a bountiful harvest this year"
+      ],
+      "correct_answer": "Our hope is to obtain a bountiful harvest this year",
+      "explanation": "'Tarisiro yedu' = 'Our hope/expectation', 'ndeyekuwana goho guru' = 'is to obtain a big harvest', 'gore rino' = 'this year'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 5 — Translate this new review sentence: 'Mvura yakanaya usiku hwese saka ivhu rakanyorova.'",
+      "options": [
+        "It rained all night long, so the soil is moist.",
+        "The sun shone brightly all day and dried the grass.",
+        "We will plant groundnuts and maize next week.",
+        "The river water is clean and cool in the morning."
+      ],
+      "correct_answer": "It rained all night long, so the soil is moist.",
+      "explanation": "'Mvura yakanaya usiku hwese' = 'It rained the whole night', 'saka' = 'so', 'ivhu rakanyorova' = 'the soil is wet/moist'."
+    }
+  ]
+}

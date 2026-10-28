@@ -1,0 +1,203 @@
+{
+  "english_translation": "I am writing a short essay about the work I did this week.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kunyora rondedzero pfupi pamusoro pebasa randakaita svondo rino.",
+      "english": "I am writing a short essay about the work I did this week.",
+      "literal_gloss": "Ndiri [ndiri] • kunyora [to / at nyora] • rondedzero [rondedzero] • pfupi [pfupi] • pamusoro [on / at musoro] • pebasa [pebasa] • randakaita [randakaita] • svondo [svondo] • rino [rino]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunyora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rondedzero",
+          "morpheme_breakdown": "rondedzero (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rondedzero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pfupi",
+          "morpheme_breakdown": "pfupi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pfupi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pebasa",
+          "morpheme_breakdown": "pebasa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pebasa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "randakaita",
+          "morpheme_breakdown": "randakaita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "randakaita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "svondo",
+          "morpheme_breakdown": "svondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "svondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rino",
+          "morpheme_breakdown": "rino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rino",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunyora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nyora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rondedzero",
+      "morpheme_breakdown": "rondedzero (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rondedzero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pfupi",
+      "morpheme_breakdown": "pfupi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pfupi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pebasa",
+      "morpheme_breakdown": "pebasa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pebasa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "randakaita",
+      "morpheme_breakdown": "randakaita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "randakaita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "svondo",
+      "morpheme_breakdown": "svondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "svondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rino",
+      "morpheme_breakdown": "rino (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rino",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pamusoro')",
+      "content": "Look at how location is expressed with 'pamusoro'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kunyora')",
+      "content": "Look at 'kunyora' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Writing Essays & Reports ('Rondedzero') in Shona",
+      "content": "The word 'rondedzero' (from '-rondedzera', 'to narrate or explain in order') means an essay, composition, or structured report—a staple of Shona language classes and workplace reporting.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    }
+  ]
+}

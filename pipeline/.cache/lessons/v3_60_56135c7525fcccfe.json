@@ -1,0 +1,175 @@
+{
+  "english_translation": "If the headache keeps hurting, I will go to the clinic tomorrow.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kana musoro ukaramba uchirwadza ndichaenda kukiriniki mangwana.",
+      "english": "If the headache keeps hurting, I will go to the clinic tomorrow.",
+      "literal_gloss": "Kana [if / when / or] • musoro [in / singular soro] • ukaramba [ukaramba] • uchirwadza [uchirwadza] • ndichaenda [I will enda] • kukiriniki [to / at kiriniki] • mangwana [tomorrow]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ukaramba",
+          "morpheme_breakdown": "ukaramba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ukaramba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uchirwadza",
+          "morpheme_breakdown": "uchirwadza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uchirwadza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndichaenda",
+          "morpheme_breakdown": "ndi- (I) + -cha- (will) + -enda",
+          "noun_class_or_concord": "Future Tense Verb (I will ...)",
+          "literal_english": "I will enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kukiriniki",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -kiriniki",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at kiriniki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwana",
+          "morpheme_breakdown": "mangwana (tomorrow)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "tomorrow",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ukaramba",
+      "morpheme_breakdown": "ukaramba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ukaramba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uchirwadza",
+      "morpheme_breakdown": "uchirwadza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uchirwadza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndichaenda",
+      "morpheme_breakdown": "ndi- (I) + -cha- (will) + -enda",
+      "noun_class_or_concord": "Future Tense Verb (I will ...)",
+      "literal_english": "I will enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kukiriniki",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -kiriniki",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at kiriniki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwana",
+      "morpheme_breakdown": "mangwana (tomorrow)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "tomorrow",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Future with '-cha-' ('ndichaenda')",
+      "content": "Look at 'ndichaenda' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Kana musoro ukaramba uchirwadza ndichaenda kukiriniki mangwana.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Seeking Timely Medical Care ('Kuenda kuKiriniki') When Unwell",
+      "content": "In Shona, aches and pains are expressed with the verb '-rwadza' ('musoro uri kurwadza'—'the head is aching'), and persistent symptoms prompt a visit to the local clinic ('kiriniki') or doctor ('chiremba').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 12 Comprehensive Review (Lessons 78–84)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 78–84)",
+        "points": [
+          "Lesson 78: \"Michero nemiriwo yakarogedzwa panzvimbo imwe chete. Yakaiswa pauriri huchena. Inosanganisira...\" — Fruits and vegetables are neatly arranged together in one place on a white surface. They inc...",
+          "Lesson 79: \"Mbatya dziri kutengeswa dzakaunganidzwa pasi. Munhu mumwe chete akapfeka hembe dzitema akami...\" — Clothes for sale are gathered on the ground. One person wearing black clothes is standing ne...",
+          "Lesson 80: \"Imba hombe yokutandarira yakashongedzwa. Ine chigaro chomutefetefe chirefu chine ruvara rwak...\" — A spacious living room is beautifully decorated. It has a long, comfortable sofa in a bright...",
+          "Lesson 81: \"Rori huru ine musoro muchena nekumasure kutema. Rori iyi inoratidza kuti inonyanya kushanda ...\" — A large truck has a white cab in front and a black rear body. This truck appears to work pri...",
+          "Lesson 82: \"Tebhuro yekagadzikwawo girazi pamusoro payo iro rakaiswawo dhiringi mukati pamwe chete nerim...\" — A table has a glass placed upon it containing a drink, alongside another drink still in a bo...",
+          "Lesson 83: \"Zvipembere zvirikufamba zviri zvitatatu. Zvese zvakakura asi panechimwe chirikurutivi rwekur...\" — Three rhinoceroses are walking together. All of them are large, though the one on the left i...",
+          "Lesson 84: \"Pane mahara maviri nefoko ine musoro mutema imwechete. Zvose zvine mibato yemuti. Parutivi p...\" — There are two rakes and one garden fork with a black head. All of them have wooden handles. ..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakarogedzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakaunganidzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakashongedzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('inoratidza'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Talking About the Past ('rakaiswawo'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('zvakakura'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Fresh Market Produce ('Michero neMiriwo') & Healthy Nutrition: Zimbabwe's varied altitudes allow farmers to grow both temperate fruits like apples ('maapuro') from Nyanga in the Eastern Highlands and rich red tomatoes ('madomasi') and leafy greens ('miriwo') across the highveld, prized for strengthening immunity ('kurwisana nezvirwere mumuviri')..",
+          "Open-Air Clothing Markets ('Mabhero' / 'Kotamai') & Local Fashion: Across Zimbabwean towns and growth points, open-air clothing markets are popular places to shop for affordable, stylish garments ('mbatya' or 'hembe') and hats ('ngowani').",
+          "The Sitting Room ('Imba Yokutandarira') & Zimbabwean Wood & Stone Carvings: Literally meaning 'the room for relaxing and conversing together', the 'imba yokutandarira' is the pride of a Zimbabwean home.",
+          "Mining Tipper Trucks ('Rori Huru') & Zimbabwe's Great Dyke Mineral Belt: Heavy tipper trucks ('marori makuru anozvitutunura') are a familiar sight at mines ('kumamaini') along Zimbabwe's famous Great Dyke—a 550-kilometre geological feature holding some of the world's richest deposits of platinum, chrome, gold, and lithium.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakarogedzwa')",
+    "Talking About the Past ('dzakaunganidzwa')",
+    "Talking About the Past ('yakashongedzwa')",
+    "Present Tense & Everyday Actions ('inoratidza')",
+    "Talking About the Past ('rakaiswawo')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Origin of 'Zimbabwe': What Shona phrase gives the country 'Zimbabwe' its name?",
+      "options": [
+        "Dzimba dzaMabwe / Zvivakwa zvematombo ('Houses / Structures of Stone')",
+        "Rwizi rweZambezi ('River of Zambezi')",
+        "Minda yeChibage ('Fields of Maize')",
+        "Makomo eMatobo ('Hills of Matobo')"
+      ],
+      "correct_answer": "Dzimba dzaMabwe / Zvivakwa zvematombo ('Houses / Structures of Stone')",
+      "explanation": "The name Zimbabwe derives from 'Dzimba dzaMabwe' ('houses of stone'), referring to Great Zimbabwe."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Traditional Healing: What natural plant parts are mentioned in 'midzi nemakwati emiti'?",
+      "options": [
+        "Flowers and ripe fruits",
+        "Roots ('midzi') and tree bark ('makwati emiti')",
+        "Grass and river stones",
+        "Seeds and maize cobs"
+      ],
+      "correct_answer": "Roots ('midzi') and tree bark ('makwati emiti')",
+      "explanation": "'Midzi' means 'roots' and 'makwati emiti' means 'bark of trees'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Healthcare Vocabulary: In 'Ndiri kunwa mushonga sezvandakaudzwa nachiremba', who is 'chiremba'?",
+      "options": [
+        "The bus driver",
+        "The schoolteacher",
+        "The doctor / physician",
+        "The shopkeeper"
+      ],
+      "correct_answer": "The doctor / physician",
+      "explanation": "'Chiremba' is the respected Shona noun for a medical doctor or healer."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Weather & Travel: What weather condition does 'mhute' describe in 'Nhasi kwaita mhute'?",
+      "options": [
+        "Bright sunshine",
+        "Heavy hailstones",
+        "Strong whirlwind",
+        "Fog / mist"
+      ],
+      "correct_answer": "Fog / mist",
+      "explanation": "'Mhute' means mist or fog, which reduces visibility along mountain and morning roads."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Reciprocal & Causative Verbs: What does 'ndinobvumirana newe' mean?",
+      "options": [
+        "I agree with you",
+        "I am waiting for you",
+        "I forgot to call you",
+        "I gave you the book"
+      ],
+      "correct_answer": "I agree with you",
+      "explanation": "'-bvuma' (accept/agree) + '-ir-' + '-an-' (each other) + 'newe' (with you) = 'I agree with you'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 12 — Translate this new review sentence: 'Chiremba akandiudza kuti ndinwe mushonga uyu mushure mekudya.'",
+      "options": [
+        "The teacher told us to read the history book before the exam.",
+        "The doctor told me to take this medicine after eating.",
+        "My parents were very happy when I passed my final exams.",
+        "Please put all the documents on the table into the file."
+      ],
+      "correct_answer": "The doctor told me to take this medicine after eating.",
+      "explanation": "'Chiremba akandiudza' = 'The doctor told me', 'kuti ndinwe mushonga uyu' = 'to take this medicine', 'mushure mekudya' = 'after eating'."
+    }
+  ]
+}

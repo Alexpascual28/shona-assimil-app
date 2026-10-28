@@ -1,0 +1,147 @@
+{
+  "english_translation": "The wind blew strongly, and the trees swayed.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhepo yakavhuvhuta nesimba, miti ikazununguka.",
+      "english": "The wind blew strongly, and the trees swayed.",
+      "literal_gloss": "Mhepo [wind / fresh air] • yakavhuvhuta [it (past) vhuvhuta] • nesimba [and / with simba] • miti [trees] • ikazununguka [ikazununguka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhepo",
+          "morpheme_breakdown": "mhepo (wind / air)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "wind / fresh air",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakavhuvhuta",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhuvhuta",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vhuvhuta",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimba",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ikazununguka",
+          "morpheme_breakdown": "ikazununguka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ikazununguka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhepo",
+      "morpheme_breakdown": "mhepo (wind / air)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "wind / fresh air",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakavhuvhuta",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhuvhuta",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vhuvhuta",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimba",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ikazununguka",
+      "morpheme_breakdown": "ikazununguka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ikazununguka",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakavhuvhuta')",
+      "content": "The verb 'yakavhuvhuta' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nesimba'",
+      "content": "Look closely at 'nesimba'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'simba' forms 'nesimba'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Mhepo yakavhuvhuta nesimba, miti ikazununguka.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "August Winds ('Mhepo yaNyamavhuvhu') & Swaying Indigenous Trees",
+      "content": "The Shona name for the month of August is 'Nyamavhuvhu'—named directly after the verb '-vhuvhuta' ('to blow strongly'), because swirling winds sweep across the plateau in August, shaking the trees ('miti ikazununguka') and blowing away dry winter leaves.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Tall trees and green grass' in Shona?",
+      "options": [
+        "makomo makuru nerwizi rwurefu",
+        "miti mirefu neuswa hwegirinhi",
+        "maruva machena nemashizha matema",
+        "munda mukuru nemvura zhinji"
+      ],
+      "correct_answer": "miti mirefu neuswa hwegirinhi",
+      "explanation": "'Miti mirefu' = 'tall trees' (plural 'mi-' agreement on '-refu'), and 'neuswa hwegirinhi' = 'and green grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Singing at the top of the tree",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why is 'white' written as 'chena' in 'hembe chena' (white shirt), but 'machena' in 'mabhuku machena' (white books)?",
+      "options": [
+        "'Machena' means light grey while 'chena' means bright white",
+        "Only clothing can use the word 'chena'",
+        "'Machena' is only used in the past tense",
+        "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')"
+      ],
+      "correct_answer": "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+      "explanation": "In Shona, traditional colour stems (-chena, -tema, -tsvuku) take the prefix of the noun they describe."
+    }
+  ]
+}

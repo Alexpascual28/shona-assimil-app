@@ -1,0 +1,161 @@
+{
+  "english_translation": "The river is full of water after yesterday's rain.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwizi rwuzere nemvura mushure mekunaya kwanezuro.",
+      "english": "The river is full of water after yesterday's rain.",
+      "literal_gloss": "Rwizi [river] • rwuzere [rwuzere] • nemvura [and / with mvura] • mushure [in / singular shure] • mekunaya [mekunaya] • kwanezuro [kwanezuro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwizi",
+          "morpheme_breakdown": "ru- + -izi (river)",
+          "noun_class_or_concord": "Noun (ru-)",
+          "literal_english": "river",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwuzere",
+          "morpheme_breakdown": "rwuzere (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwuzere",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemvura",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mvura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mushure",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular shure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mekunaya",
+          "morpheme_breakdown": "mekunaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mekunaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwanezuro",
+          "morpheme_breakdown": "kwanezuro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwanezuro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwizi",
+      "morpheme_breakdown": "ru- + -izi (river)",
+      "noun_class_or_concord": "Noun (ru-)",
+      "literal_english": "river",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwuzere",
+      "morpheme_breakdown": "rwuzere (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwuzere",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemvura",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mvura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mushure",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular shure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mekunaya",
+      "morpheme_breakdown": "mekunaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mekunaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwanezuro",
+      "morpheme_breakdown": "kwanezuro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwanezuro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nemvura'",
+      "content": "Look closely at 'nemvura'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'mvura' forms 'nemvura'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Rwizi rwuzere nemvura mushure mekunaya kwanezuro.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Rivers Filling After Heavy Overnight Rain ('Mushure Mekunaya')",
+      "content": "After a night of heavy summer rainfall ('kunaya kwanezuro'), rural streams and rivers ('rwizi') fill bank-to-bank with fresh water, replenishing village wells, dams, and grazing pastures.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "Large mountains can be seen far away beyond the river.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'miti mitatu' for 'three trees' but 'zvigaro zvitatu' for 'three chairs'?",
+      "options": [
+        "Because trees are taller than chairs",
+        "Because 'mitatu' means thirty and 'zvitatu' means three",
+        "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+        "Because 'miti' is singular and 'zvigaro' is plural"
+      ],
+      "correct_answer": "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+      "explanation": "Numbers 1–5 mirror the prefix of the noun they count: 'miti mitatu', 'zvigaro zvitatu', 'vanhu vatatu'."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "english_translation": "Could you please help me lift this heavy box?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mungandibatsirawo here kusimudza bhokisi ririkurema iri?",
+      "english": "Could you please help me lift this heavy box?",
+      "literal_gloss": "Mungandibatsirawo [in / singular ngandibatsirawo] • here [(yes/no question marker)] • kusimudza [to / at simudza] • bhokisi [bhokisi] • ririkurema [it is kurema] • iri [iri]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mungandibatsirawo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ngandibatsirawo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ngandibatsirawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusimudza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -simudza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at simudza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bhokisi",
+          "morpheme_breakdown": "bhokisi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bhokisi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ririkurema",
+          "morpheme_breakdown": "ri- (it) + -ri (is) + -kurema",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is kurema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mungandibatsirawo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ngandibatsirawo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ngandibatsirawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kusimudza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -simudza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at simudza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bhokisi",
+      "morpheme_breakdown": "bhokisi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bhokisi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ririkurema",
+      "morpheme_breakdown": "ri- (it) + -ri (is) + -kurema",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is kurema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Using Potential Mood ('Mungandibatsirawo Here?') for Ultra-Polite Requests",
+      "content": "Combining the respectful plural 'mu-', the potential marker '-nga-' ('could/would'), the object '-ndi-' ('me'), and '-wo' ('please') in 'Mungandibatsirawo here?' is the gold standard of polite Shona when asking someone to help lift a heavy box.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

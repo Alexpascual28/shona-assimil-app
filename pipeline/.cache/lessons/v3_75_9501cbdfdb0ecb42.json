@@ -1,0 +1,189 @@
+{
+  "english_translation": "King Munhumutapa was a deeply respected leader throughout the entire land.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mambo Munhumutapa aiva mutungamiri airemekedzwa zvikuru munyika yese.",
+      "english": "King Munhumutapa was a deeply respected leader throughout the entire land.",
+      "literal_gloss": "Mambo [plural mbo] • Munhumutapa [in / singular nhumutapa] • aiva [aiva] • mutungamiri [in / singular tungamiri] • airemekedzwa [airemekedzwa] • zvikuru [very much / greatly] • munyika [in / singular nyika] • yese [yese]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mambo",
+          "morpheme_breakdown": "ma- (plural prefix) + -mbo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural mbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Munhumutapa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhumutapa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nhumutapa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aiva",
+          "morpheme_breakdown": "aiva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aiva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutungamiri",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tungamiri",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tungamiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "airemekedzwa",
+          "morpheme_breakdown": "airemekedzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "airemekedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munyika",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yese",
+          "morpheme_breakdown": "yese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yese",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mambo",
+      "morpheme_breakdown": "ma- (plural prefix) + -mbo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural mbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Munhumutapa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhumutapa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nhumutapa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aiva",
+      "morpheme_breakdown": "aiva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aiva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutungamiri",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tungamiri",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tungamiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "airemekedzwa",
+      "morpheme_breakdown": "airemekedzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "airemekedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munyika",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yese",
+      "morpheme_breakdown": "yese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yese",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('munyika')",
+      "content": "Look at how location is expressed with 'munyika'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('airemekedzwa')",
+      "content": "In this sentence, 'airemekedzwa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvikuru')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvikuru'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Title 'Munhumutapa' & the Mutapa State",
+      "content": "Adopted by King Nyatsimba Mutota and his successors in the 1400s, the royal title 'Munhumutapa' (adapted by early Portuguese chroniclers as 'Monomotapa') became famous across the world as a symbol of sovereignty in Southern Africa.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    }
+  ]
+}

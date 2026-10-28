@@ -1,0 +1,203 @@
+{
+  "english_translation": "Mbuya Nehanda led the people in fighting for their land.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mbuya Nehanda vakatungamirira vanhu pakurwira nyika yavo kubva kuvachena.",
+      "english": "Mbuya Nehanda led the people in fighting for their land.",
+      "literal_gloss": "Mbuya [grandmother] • Nehanda [and / with handa] • vakatungamirira [they (past) tungamirira] • vanhu [people] • pakurwira [on / at kurwira] • nyika [nyika] • yavo [yavo] • kubva [to / at bva] • kuvachena [to / at vachena]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mbuya",
+          "morpheme_breakdown": "mbuya (grandmother)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "grandmother",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Nehanda",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -handa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with handa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakatungamirira",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -tungamirira",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) tungamirira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakurwira",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kurwira",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kurwira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyika",
+          "morpheme_breakdown": "nyika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yavo",
+          "morpheme_breakdown": "yavo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yavo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at bva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuvachena",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -vachena",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at vachena",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mbuya",
+      "morpheme_breakdown": "mbuya (grandmother)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "grandmother",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Nehanda",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -handa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with handa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakatungamirira",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -tungamirira",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) tungamirira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakurwira",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kurwira",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kurwira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyika",
+      "morpheme_breakdown": "nyika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yavo",
+      "morpheme_breakdown": "yavo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yavo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at bva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuvachena",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -vachena",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at vachena",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakatungamirira')",
+      "content": "The verb 'vakatungamirira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('kuvachena')",
+      "content": "This passage uses colour vocabulary such as 'kuvachena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yavo')",
+      "content": "In Shona, possessive words like 'yavo' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Mbuya Nehanda (Charwe Nyakasikana) & the First Chimurenga (1896–1897)",
+      "content": "Nyakasikana, revered as the medium of the ancestral spirit Nehanda ('Mbuya Nehanda'), was one of the foremost spiritual and resistance leaders of the First Chimurenga (1896–1897) in Mashonaland, inspiring generations in the struggle for land and self-determination.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "The children are practicing to write examinations at school.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    }
+  ]
+}

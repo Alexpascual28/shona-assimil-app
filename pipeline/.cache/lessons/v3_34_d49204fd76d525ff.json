@@ -1,0 +1,161 @@
+{
+  "english_translation": "I am creating a new program that will help people.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kugadzira chirongwa chitsva chichabatsira vanhu.",
+      "english": "I am creating a new program that will help people.",
+      "literal_gloss": "Ndiri [ndiri] • kugadzira [to / at gadzira] • chirongwa [thing rongwa] • chitsva [thing tsva] • chichabatsira [thing chabatsira] • vanhu [people]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kugadzira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at gadzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chirongwa",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -rongwa",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing rongwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chitsva",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -tsva",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing tsva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chichabatsira",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -chabatsira",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing chabatsira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kugadzira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at gadzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chirongwa",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -rongwa",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing rongwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chitsva",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -tsva",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing tsva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chichabatsira",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -chabatsira",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing chabatsira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('chichabatsira')",
+      "content": "Look at 'chichabatsira' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'chirongwa'",
+      "content": "Notice how 'chirongwa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Community Development Projects ('Zvirongwa Zvinobatsira Vanhu')",
+      "content": "Local innovation and community-led projects ('zvirongwa zvitsva')—from neighbourhood nutrition gardens and youth tech hubs to clean-water cooperatives—play a vital role in uplifting communities across Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    }
+  ]
+}

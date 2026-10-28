@@ -1,0 +1,175 @@
+{
+  "english_translation": "I have found a nice place to live that is close to work.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndawana nzvimbo yakanaka yekugara iri pedyo nebasa.",
+      "english": "I have found a nice place to live that is close to work.",
+      "literal_gloss": "Ndawana [ndawana] • nzvimbo [nzvimbo] • yakanaka [it (past) naka] • yekugara [yekugara] • iri [iri] • pedyo [pedyo] • nebasa [and / with basa]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndawana",
+          "morpheme_breakdown": "ndawana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndawana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzvimbo",
+          "morpheme_breakdown": "nzvimbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakanaka",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -naka",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) naka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekugara",
+          "morpheme_breakdown": "yekugara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekugara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pedyo",
+          "morpheme_breakdown": "pedyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pedyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nebasa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -basa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with basa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndawana",
+      "morpheme_breakdown": "ndawana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndawana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzvimbo",
+      "morpheme_breakdown": "nzvimbo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakanaka",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -naka",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) naka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekugara",
+      "morpheme_breakdown": "yekugara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekugara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pedyo",
+      "morpheme_breakdown": "pedyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pedyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nebasa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -basa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with basa",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakanaka')",
+      "content": "The verb 'yakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo')",
+      "content": "Look at how location is expressed with 'pedyo'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nebasa'",
+      "content": "Look closely at 'nebasa'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'basa' forms 'nebasa'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Finding Housing ('Nzvimbo Yekugara') Near Workplace Hubs",
+      "content": "Living within walking distance or a short bus ride of one's workplace ('pedyo nebasa') is highly prized in Zimbabwean towns, saving daily transport fares and leaving more evening time for family.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

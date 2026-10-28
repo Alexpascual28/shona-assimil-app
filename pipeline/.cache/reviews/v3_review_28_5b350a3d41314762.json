@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 4 Comprehensive Review (Lessons 22–28)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 22–28)",
+        "points": [
+          "Lesson 22: \"Nyama iyi yakaoma chaizvo pakubikwa kwayo.\" — This meat became very tough when it was cooked.",
+          "Lesson 23: \"Ndeipi mota yaunoda kutenga, tsvuku kana nhema?\" — Which car do you want to buy, the red one or the black one?",
+          "Lesson 24: \"Ndinoda kudya sadza neusavi hwakanaka nhasi.\" — I want to eat sadza with delicious relish today.",
+          "Lesson 25: \"Mudzidzisi akati tiunze mabhuku edu mangwana.\" — The teacher told us to bring our books tomorrow.",
+          "Lesson 26: \"Ndaisa mvura patafura; ndangomirira vamwe kuti vauye.\" — I have put water on the table; I am just waiting for the others to come.",
+          "Lesson 27: \"Wamboona bhuku rangu here? ndarisiya pedyo nepahwindo.\" — Have you seen my book? I left it near the window.",
+          "Lesson 28: \"Nhasi ndichabika sadza nemuriwo kuti tidye tese kumba.\" — Today I will cook sadza and vegetables so that we can eat together at home."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakaoma'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Colours & Describing Objects in Shona ('tsvuku'): Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)",
+          "Present Tense & Everyday Actions ('Ndinoda'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Talking About the Past ('akati'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('Ndaisa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Slow-Braised Traditional Meats & 'Gocho' (Braai) Culture: In Zimbabwean cooking, free-range rural chicken ('huku yechivanhu' or 'roadrunner') and pasture-raised beef ('nyama yemombe') or goat ('nyama yembudzi') have a firmer texture and deeper flavour than commercial meats.",
+          "Car Ownership, Trans-African Imports & Colour Choices: Buying a family car ('mota' or 'motokari') is a major milestone in Zimbabwe.",
+          "How 'Sadza' and 'Usavi' (Relish) Are Eaten Together: In Shona cuisine, 'sadza' is never eaten plain—it is always paired with 'usavi' (a savoury relish of vegetables, beans, meat, or fish in gravy).",
+          "Zimbabwe's High Literacy Rate & Respect for the 'Mudzidzisi': Zimbabwe boasts one of the highest literacy rates in Africa (over 90%), a legacy of massive community investment in primary and secondary schools ('zvikoro') across both rural districts and urban centres."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakaoma')",
+    "Colours & Describing Objects in Shona ('tsvuku')",
+    "Present Tense & Everyday Actions ('Ndinoda')",
+    "Talking About the Past ('akati')",
+    "Talking About the Past ('Ndaisa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Proverbs & Wisdom: In the proverb 'Chara chimwe hachitswanyi inda', why does 'chimwe' ('one') start with 'chi-'?",
+      "options": [
+        "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+        "Because all numbers in Shona start with 'chi-'",
+        "Because it is in the past tense",
+        "Because 'inda' starts with 'i-'"
+      ],
+      "correct_answer": "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+      "explanation": "'Chara' belongs to the 'chi-' noun group, so 'one finger' is 'chara chimwe' and the negative verb is 'hachi-tswanyi'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Weather & Directions: How do you say 'A strong wind is blowing from the east'?",
+      "options": [
+        "Mvura zhinji ichanaya manheru ano.",
+        "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+        "Zuva riri kubuda pamusoro pemakomo.",
+        "Rwizi rwuzere nemvura inotonhora."
+      ],
+      "correct_answer": "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+      "explanation": "'Mhepo ine simba' = 'A strong wind', 'iri kuvhuvhuta' = 'is blowing', 'ichibva kumabvazuva' = 'coming from the east'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Consecutive Past ('-ka-'): In 'Zuva rakabuda mbatya dzikaoma', why does the second verb use '-ka-' ('dzikaoma')?",
+      "options": [
+        "It expresses a negative command",
+        "It means the clothes will dry next week",
+        "It expresses a consecutive result ('and consequently dried')",
+        "It asks a question about the clothes"
+      ],
+      "correct_answer": "It expresses a consecutive result ('and consequently dried')",
+      "explanation": "After a past verb ('rakabuda'), '-ka-' on the following verb ('dzikaoma') means 'and then / and as a result'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 —Polite Requests: What does 'ndinokumbirawo undibatsire kusimudza tafura' mean?",
+      "options": [
+        "Please put the books on top of the table",
+        "I already cleaned the table in the kitchen",
+        "Do not sit on the small table outside",
+        "I kindly ask that you help me lift the table"
+      ],
+      "correct_answer": "I kindly ask that you help me lift the table",
+      "explanation": "'Ndinokumbirawo' = 'I kindly request', 'undibatsire' = 'that you help me', 'kusimudza tafura' = 'to lift the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Feelings & Conditions: How do you say 'We felt very happy when we saw our grandmother'?",
+      "options": [
+        "Takafara chose patakaona mbuya vedu.",
+        "Ticharara panze kana zuva radoka.",
+        "Vana vanonzwa nzara mangwanani.",
+        "Imbwa iri kuhukura pamusuwo."
+      ],
+      "correct_answer": "Takafara chose patakaona mbuya vedu.",
+      "explanation": "'Takafara chose' = 'We were very happy', and 'patakaona' ('pa-' = when) = 'when we saw'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 4 — Translate this new review sentence: 'Kana tikashanda pamwe chete, tichapedza basa racho nekukurumidza.'",
+      "options": [
+        "Although the work was hard, we finished it yesterday.",
+        "If we work together, we will finish the work quickly.",
+        "Please help me carry these tools to the field.",
+        "The elders taught us many wise proverbs at home."
+      ],
+      "correct_answer": "If we work together, we will finish the work quickly.",
+      "explanation": "'Kana tikashanda pamwe chete' = 'If we work together', 'tichapedza basa racho' = 'we will finish the work', 'nekukurumidza' = 'quickly'."
+    }
+  ]
+}

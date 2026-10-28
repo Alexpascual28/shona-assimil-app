@@ -1,0 +1,189 @@
+{
+  "english_translation": "My sibling is reading, so we are speaking in whispers.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Hanzvadzi yangu iri kuverenga saka tiri kutaura tichizevezera.",
+      "english": "My sibling is reading, so we are speaking in whispers.",
+      "literal_gloss": "Hanzvadzi [hanzvadzi] • yangu [yangu] • iri [iri] • kuverenga [to / at verenga] • saka [so / therefore] • tiri [tiri] • kutaura [to / at taura] • tichizevezera [tichizevezera]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Hanzvadzi",
+          "morpheme_breakdown": "hanzvadzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hanzvadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yangu",
+          "morpheme_breakdown": "yangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuverenga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -verenga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at verenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutaura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -taura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at taura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichizevezera",
+          "morpheme_breakdown": "tichizevezera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tichizevezera",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Hanzvadzi",
+      "morpheme_breakdown": "hanzvadzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hanzvadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "yangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuverenga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -verenga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at verenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutaura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -taura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at taura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichizevezera",
+      "morpheme_breakdown": "tichizevezera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tichizevezera",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yangu')",
+      "content": "In Shona, possessive words like 'yangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Respecting Study Time at Home & Speaking in Whispers ('Kuzevezera')",
+      "content": "Notice the word 'hanzvadzi'—which means a brother to a sister, or a sister to a brother! When a sibling is studying or reading for exams ('iri kuverenga'), family members lower their voices to a whisper ('tichizevezera') to support their concentration.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom.",
+        "My sibling works in the city of Harare."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "iri kuverenga",
+        "yakaverenga",
+        "ichaverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good afternoon Mother, did you spend the day well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today."
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    }
+  ]
+}

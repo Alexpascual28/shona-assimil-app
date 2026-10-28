@@ -94,7 +94,7 @@ class AssimilSequencer:
         self.word_count_weight: float = float(seq_cfg.get("word_count_weight", 2.0))
         self.avg_word_length_weight: float = float(seq_cfg.get("avg_word_length_weight", 3.0))
         self.review_interval: int = int(seq_cfg.get("review_interval", 7))
-        self.active_wave_start: int = int(seq_cfg.get("active_wave_start_lesson", 50))
+        self.active_wave_start: int = int(seq_cfg.get("active_wave_start_lesson", 51))
 
     def score_and_deduplicate(
         self,
@@ -151,13 +151,22 @@ class AssimilSequencer:
             else:
                 stg_list.sort(key=lambda c: (c.difficulty_score, c.duration_seconds))
 
-        stage_quotas = {
-            1: 10,
-            2: 12,
-            3: 11,
-            4: 11,
-            5: max(21, max_regular_clips - 44),
-        }
+        if max_regular_clips <= 40:
+            stage_quotas = {
+                1: 6,
+                2: 5,
+                3: 7,
+                4: max(1, max_regular_clips - 26),
+                5: 8,
+            }
+        else:
+            stage_quotas = {
+                1: 10,
+                2: 12,
+                3: 11,
+                4: 11,
+                5: max(21, max_regular_clips - 44),
+            }
 
         selected: list[NormalizedClip] = []
         leftovers: list[NormalizedClip] = []
@@ -236,10 +245,10 @@ class AssimilSequencer:
                 preview_words += "..."
 
             if next_lesson_num % self.review_interval == 0:
-                preceding_six = [
+                reviewed_seven = [
                     l.lesson_number
                     for l in lessons[max(0, len(lessons) - (self.review_interval - 1)) :]
-                ]
+                ] + [next_lesson_num]
                 review_block_num = next_lesson_num // self.review_interval
                 lessons.append(
                     Lesson(
@@ -260,7 +269,7 @@ class AssimilSequencer:
                         dialect_confidence=clip.dialect_confidence,
                         code_switching_ratio=clip.code_switching_ratio,
                         shona_text=clip.shona_text,
-                        reviewed_lessons=preceding_six,
+                        reviewed_lessons=reviewed_seven,
                     )
                 )
             else:
@@ -297,3 +306,59 @@ class AssimilSequencer:
             sum(1 for l in lessons if l.phase == "active"),
         )
         return lessons
+
+    def distribute_and_resequence(
+        self,
+        existing_lessons: list[Lesson],
+        new_lessons: list[Lesson],
+    ) -> list[Lesson]:
+        """Preserves all existing enriched lessons as-is, distributes the newly enriched lessons
+        among them by (pedagogical_stage, difficulty/duration), re-numbers 1..N, shifts Active Wave
+        to start at self.active_wave_start (51 -> 1, ..., 100 -> 50), and assigns every 7th slot
+        as a 7-lesson review (covering num-6..num).
+        """
+        combined = list(existing_lessons) + list(new_lessons)
+        combined.sort(
+            key=lambda l: (
+                l.pedagogical_stage or 3,
+                (l.duration_seconds or 0.0)
+                if (l.pedagogical_stage or 3) == 5
+                else (l.difficulty_score or 0.0),
+                l.duration_seconds or 0.0,
+                l.clip_id or "",
+            )
+        )
+
+        for idx, lesson in enumerate(combined):
+            new_num = idx + 1
+            lesson.lesson_number = new_num
+            lesson.phase = "active" if new_num >= self.active_wave_start else "passive"
+            lesson.active_wave_review_lesson = (
+                new_num - (self.active_wave_start - 1)
+                if new_num >= self.active_wave_start
+                else None
+            )
+
+            words = (lesson.shona_text or "").split()
+            preview_words = " ".join(words[:6]) + ("..." if len(words) > 6 else "")
+
+            if new_num % self.review_interval == 0:
+                review_block_num = new_num // self.review_interval
+                lesson.type = "review"
+                lesson.title = f"Chidzidzo {new_num}: {preview_words} (Dzokororo {review_block_num})"
+                lesson.reviewed_lessons = list(
+                    range(max(1, new_num - (self.review_interval - 1)), new_num + 1)
+                )
+                # Clear stale review summary so enrich_all_lessons synthesizes the exact 7-lesson block (new_num-6..new_num)
+                lesson.review_summary = None
+                lesson.key_noun_classes_covered = []
+                lesson.review_exercises = []
+            else:
+                lesson.type = "regular"
+                lesson.title = f"Chidzidzo {new_num}: {preview_words}"
+                lesson.review_summary = None
+                lesson.key_noun_classes_covered = []
+                lesson.review_exercises = []
+                lesson.reviewed_lessons = []
+
+        return combined

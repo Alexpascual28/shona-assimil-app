@@ -1,0 +1,189 @@
+{
+  "english_translation": "Lobengula was the Ndebele king who lived in Bulawayo at that time.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Lobengula aiva mambo wemaNdevere aigara muBulawayo panguva iyoyo.",
+      "english": "Lobengula was the Ndebele king who lived in Bulawayo at that time.",
+      "literal_gloss": "Lobengula [lobengula] • aiva [aiva] • mambo [plural mbo] • wemaNdevere [wemandevere] • aigara [aigara] • muBulawayo [in / singular bulawayo] • panguva [on / at nguva] • iyoyo [iyoyo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Lobengula",
+          "morpheme_breakdown": "lobengula (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "lobengula",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aiva",
+          "morpheme_breakdown": "aiva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aiva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mambo",
+          "morpheme_breakdown": "ma- (plural prefix) + -mbo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural mbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemaNdevere",
+          "morpheme_breakdown": "wemandevere (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemandevere",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aigara",
+          "morpheme_breakdown": "aigara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aigara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muBulawayo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -bulawayo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular bulawayo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panguva",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nguva",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyoyo",
+          "morpheme_breakdown": "iyoyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyoyo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Lobengula",
+      "morpheme_breakdown": "lobengula (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "lobengula",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aiva",
+      "morpheme_breakdown": "aiva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aiva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mambo",
+      "morpheme_breakdown": "ma- (plural prefix) + -mbo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural mbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wemaNdevere",
+      "morpheme_breakdown": "wemandevere (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wemandevere",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aigara",
+      "morpheme_breakdown": "aigara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aigara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muBulawayo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -bulawayo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular bulawayo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panguva",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -nguva",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyoyo",
+      "morpheme_breakdown": "iyoyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyoyo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('aigara')",
+      "content": "In this sentence, 'aigara' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Lobengula aiva mambo wemaNdevere aigara muBulawayo panguva iyoyo.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "King Lobengula & the Royal Capital of Bulawayo ('KoBulawayo')",
+      "content": "King Lobengula (son of King Mzilikazi, founder of the Ndebele Kingdom) ruled from his royal capital at Bulawayo in southwestern Zimbabwe during the late 19th century, a site preserved today at Old Bulawayo and the State House grounds.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Good morning Father, how did you wake up?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    }
+  ]
+}

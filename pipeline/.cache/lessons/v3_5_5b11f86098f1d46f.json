@@ -1,0 +1,175 @@
+{
+  "english_translation": "Come here and help me lift these heavy things.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Uyai kuno mundibatsire kusimudza zvinhu zvinorema izvi.",
+      "english": "Come here and help me lift these heavy things.",
+      "literal_gloss": "Uyai [come! (polite/plural)] • kuno [here / to this place] • mundibatsire [in / singular ndibatsire] • kusimudza [to / at simudza] • zvinhu [things nhu] • zvinorema [things norema] • izvi [izvi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Uyai",
+          "morpheme_breakdown": "uya (come) + -i (plural/polite command)",
+          "noun_class_or_concord": "Imperative Verb",
+          "literal_english": "come! (polite/plural)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuno",
+          "morpheme_breakdown": "ku- (locative) + -no (right here)",
+          "noun_class_or_concord": "Location Word",
+          "literal_english": "here / to this place",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mundibatsire",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ndibatsire",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ndibatsire",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusimudza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -simudza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at simudza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinhu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinorema",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -norema",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things norema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "izvi",
+          "morpheme_breakdown": "izvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "izvi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Uyai",
+      "morpheme_breakdown": "uya (come) + -i (plural/polite command)",
+      "noun_class_or_concord": "Imperative Verb",
+      "literal_english": "come! (polite/plural)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuno",
+      "morpheme_breakdown": "ku- (locative) + -no (right here)",
+      "noun_class_or_concord": "Location Word",
+      "literal_english": "here / to this place",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mundibatsire",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ndibatsire",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ndibatsire",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kusimudza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -simudza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at simudza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinhu",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinorema",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -norema",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things norema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "izvi",
+      "morpheme_breakdown": "izvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "izvi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Uyai')",
+      "content": "Notice the command verb 'Uyai' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('zvinorema')",
+      "content": "The verb 'zvinorema' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('kuno' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'kuno') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Lending a Hand ('Kubatsirana') with Heavy Loads",
+      "content": "In Zimbabwean neighbourhoods and rural homesteads alike, nobody is left to carry heavy loads ('zvinhu zvinorema') alone. Calling out 'Uyai kuno mundibatsire!' ('Come here and help me!') invites younger relatives or neighbours to share the weight—embodying the proverb 'Rume rimwe harikombi churu' ('One person alone cannot surround an anthill').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

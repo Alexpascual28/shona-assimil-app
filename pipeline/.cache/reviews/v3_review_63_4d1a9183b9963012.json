@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 9 Comprehensive Review (Lessons 57–63)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 57–63)",
+        "points": [
+          "Lesson 57: \"Vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure.\" — People traded ivory and gold with foreign merchants who came from afar.",
+          "Lesson 58: \"Nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semaShona.\" — Ancient history teaches us where we came from and our traditions as Shona people.",
+          "Lesson 59: \"Misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marata.\" — Traditional homesteads were built with wooden poles and thatched with grass rather than meta...",
+          "Lesson 60: \"Wakamboenda kunzvimbo dzinochengetedza nhoroondo dzenyika yedu yekare here?\" — Have you ever visited the heritage sites that preserve the ancient history of our country?",
+          "Lesson 61: \"Waswera sei; ndanga ndichifona kuti ndibvunze kuti tinogona kusangana here nhasi.\" — How has your day been? I was calling to ask if we can meet today.",
+          "Lesson 62: \"Kirasi yanhasi yakanga yakanaka uye mudzidzisi akatsanangura zvose zvakanaka.\" — Today's class was great and the teacher explained everything clearly.",
+          "Lesson 63: \"Masvingo eKare akavakwa nemadzitateguru edu achishandisa matombo asina dhaka.\" — The ancient walls of Great Zimbabwe were built by our ancestors using stones without mortar."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Joining Words with 'ne-' ('and / with') in 'nendarama': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)",
+          "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu'): Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]",
+          "Joining Words with 'ne-' ('and / with') in 'nembariro': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)",
+          "Talking About the Past ('Wakamboenda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('Waswera'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('yakanga'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Pre-Colonial Gold ('Ndarama') & Ivory ('Nyanga dzeNzou') Trade Routes: For over a millennium before colonial rule, Shona kingdoms—including Mapungubwe, Great Zimbabwe, Mutapa, and Torwa—conducted thriving international commerce.",
+          "Oral History ('Nhoroondo'), Totems ('Mitupo') & Shona Identity: Knowledge of family and national history ('nhoroondo dzekare') is passed down through clan praise poetry ('nhetembo dzorudzi') and totems ('mitupo'—such as 'Mhofu' Eland, 'Shumba' Lion, 'Soko' Vervet Monkey, 'Nzou' Elephant, and 'Gumbo' Leg).",
+          "Traditional Shona Architecture: Pole, Dagga & Thatch ('Mbariro neHuswa'): Traditional rural homesteads ('misha yechinyakare') feature round kitchens ('imba yekubikira') and sleeping huts built with earthen brick or clay walls, roofed with a conical framework of sturdy wooden poles ('mbariro') tied with bark fibre ('rwodzi') and expertly thatched with bundled savannah grass ('huswa').",
+          "Zimbabwe's UNESCO Heritage Sites & Historical Monuments: Zimbabwe preserves extraordinary ancient heritage sites ('nzvimbo dzinochengetedza nhoroondo') across the country: Great Zimbabwe in Masvingo, the terraced stone platforms of Khami near Bulawayo, the ancient agricultural stone terraces and pit structures ('matanga') of Ziwa in Nyanga, and thousands of San and Shona rock art sites in the Matobo Hills.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Joining Words with 'ne-' ('and / with') in 'nendarama'",
+    "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu')",
+    "Joining Words with 'ne-' ('and / with') in 'nembariro'",
+    "Talking About the Past ('Wakamboenda')",
+    "Shona Greetings & Time of Day ('Waswera')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — History & Heritage: Why is Great Zimbabwe called 'Masvingo eGreat Zimbabwe'?",
+      "options": [
+        "Because 'masvingo' means tall green trees",
+        "Because it is located beside the Indian Ocean",
+        "Because 'masvingo' means modern glass buildings",
+        "Because 'masvingo' means fortified dry-stone walls or enclosures"
+      ],
+      "correct_answer": "Because 'masvingo' means fortified dry-stone walls or enclosures",
+      "explanation": "'Masvingo' refers to the monumental stone enclosures built by ancestors of the Shona people."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Wildlife & Nature: In 'zvipembere zviviri zviri kufura uswa', what are the two rhinoceroses doing?",
+      "options": [
+        "Grazing on grass",
+        "Drinking water from the river",
+        "Sleeping under a shady tree",
+        "Running across the mountain"
+      ],
+      "correct_answer": "Grazing on grass",
+      "explanation": "'Zviri kufura' means 'are grazing', and 'uswa' (or 'huswa') means 'grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — National Flag Colours: Which five colours appear on the national flag of Zimbabwe ('mureza weZimbabwe')?",
+      "options": [
+        "Blue, purple, orange, pink, and grey",
+        "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+        "Only green and white",
+        "Red, blue, and gold only"
+      ],
+      "correct_answer": "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+      "explanation": "The Zimbabwean flag features horizontal stripes of green, yellow, red, and black with a white triangle bearing the Zimbabwe Bird."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Water Storage & Households: Why are Jojo tanks ('matangi emvura eJojo') placed on elevated brick or steel stands?",
+      "options": [
+        "To serve as watchtowers for wildlife",
+        "To dry maize and groundnuts in the sun",
+        "To store household water and provide gravity pressure for taps",
+        "To shelter livestock during the rainy season"
+      ],
+      "correct_answer": "To store household water and provide gravity pressure for taps",
+      "explanation": "Elevated water tanks store borehole or municipal water so households have a reliable supply."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Ordinal Numbers: How do you say 'the first person, the second person, and the third person'?",
+      "options": [
+        "vanhu vatatu vari mumba",
+        "munhu mumwe nevanhu vaviri",
+        "wekupedzisira chete",
+        "munhu wekutanga, wechipiri, newechitatu"
+      ],
+      "correct_answer": "munhu wekutanga, wechipiri, newechitatu",
+      "explanation": "'Wekutanga' = 'first' (of beginning), 'wechipiri' = 'second', and 'wechitatu' = 'third'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 9 — Translate this new cumulative sentence: 'Nzvimbo iyi inoratidza nhoroondo yakakosha yevanhu vekare nemagariro avo.'",
+      "options": [
+        "This place shows the important history of the ancient people and their way of life.",
+        "These mountains have many green trees and clean rivers.",
+        "The visitors took photographs of the two rhinoceroses.",
+        "We learned many Shona words, proverbs, and grammar rules."
+      ],
+      "correct_answer": "This place shows the important history of the ancient people and their way of life.",
+      "explanation": "'Nzvimbo iyi inoratidza' = 'This place shows', 'nhoroondo yakakosha' = 'important history', 'yevanhu vekare nemagariro avo' = 'of the ancient people and their way of life'."
+    }
+  ]
+}

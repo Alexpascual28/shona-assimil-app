@@ -1,0 +1,245 @@
+{
+  "english_translation": "Your speech today carries deep wisdom, and I agree with you on most of what you have said.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kutaura kwako nhasi kune hungwaru mukati, uye ndinobvumirana newe pane zvizhinji zvawataura.",
+      "english": "Your speech today carries deep wisdom, and I agree with you on most of what you have said.",
+      "literal_gloss": "Kutaura [to / at taura] • kwako [kwako] • nhasi [today] • kune [to / at ne] • hungwaru [hungwaru] • mukati [in / singular kati] • uye [and / furthermore] • ndinobvumirana [I bvumirana] • newe [and / with we] • pane [on / at ne] • zvizhinji [things zhinji] • zvawataura [zvawataura]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kutaura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -taura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at taura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwako",
+          "morpheme_breakdown": "kwako (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwako",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hungwaru",
+          "morpheme_breakdown": "hungwaru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hungwaru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukati",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndinobvumirana",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -bvumirana",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I bvumirana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "newe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -we",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with we",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvizhinji",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -zhinji",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things zhinji",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvawataura",
+          "morpheme_breakdown": "zvawataura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvawataura",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kutaura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -taura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at taura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwako",
+      "morpheme_breakdown": "kwako (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwako",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kune",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hungwaru",
+      "morpheme_breakdown": "hungwaru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hungwaru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukati",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndinobvumirana",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -bvumirana",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I bvumirana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "newe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -we",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with we",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvizhinji",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -zhinji",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things zhinji",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvawataura",
+      "morpheme_breakdown": "zvawataura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvawataura",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('ndinobvumirana')",
+      "content": "The verb 'ndinobvumirana' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mukati')",
+      "content": "Look at how location is expressed with 'mukati'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('kwako')",
+      "content": "In Shona, possessive words like 'kwako' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Praising Eloquent & Wise Speech ('Kutaura Kune Hungwaru') in Shona",
+      "content": "Thoughtful, measured speech ('kutaura kune hungwaru mukati') is deeply respected in Shona discussions; affirming someone's insight with 'ndinobvumirana newe' ('I agree with you') builds consensus.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    }
+  ]
+}

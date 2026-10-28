@@ -1,0 +1,189 @@
+{
+  "english_translation": "Can you hear me well, or should I speak louder?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Uri kunzwa zvakanaka here kana kuti ndoita zvekudaidzira?",
+      "english": "Can you hear me well, or should I speak louder?",
+      "literal_gloss": "Uri [uri] • kunzwa [to / at nzwa] • zvakanaka [well / nicely / very good] • here [(yes/no question marker)] • kana [if / when / or] • kuti [that / so that] • ndoita [ndoita] • zvekudaidzira [zvekudaidzira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Uri",
+          "morpheme_breakdown": "uri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndoita",
+          "morpheme_breakdown": "ndoita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndoita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekudaidzira",
+          "morpheme_breakdown": "zvekudaidzira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekudaidzira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Uri",
+      "morpheme_breakdown": "uri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunzwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndoita",
+      "morpheme_breakdown": "ndoita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndoita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekudaidzira",
+      "morpheme_breakdown": "zvekudaidzira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekudaidzira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Clear Communication Across Open Spaces & Mobile Calls",
+      "content": "Whether speaking across a breezy homestead courtyard or over a mobile phone line with faint reception, checking 'Uri kunzwa zvakanaka here?' ('Can you hear clearly?') ensures nothing is lost in conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo.",
+        "The train will arrive after five minutes."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    }
+  ]
+}

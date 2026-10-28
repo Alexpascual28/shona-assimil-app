@@ -1,0 +1,231 @@
+{
+  "english_translation": "How has your day been? I was calling to ask if we can meet today.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Waswera sei; ndanga ndichifona kuti ndibvunze kuti tinogona kusangana here nhasi.",
+      "english": "How has your day been? I was calling to ask if we can meet today.",
+      "literal_gloss": "Waswera [how did you spend the day?] • sei [sei] • ndanga [ndanga] • ndichifona [ndichifona] • kuti [that / so that] • ndibvunze [ndibvunze] • kuti [that / so that] • tinogona [we gona] • kusangana [to / at sangana] • here [(yes/no question marker)] • nhasi [today]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Waswera",
+          "morpheme_breakdown": "wa- (you past) + -swera (spend the day)",
+          "noun_class_or_concord": "Past Greeting Verb",
+          "literal_english": "how did you spend the day?",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sei",
+          "morpheme_breakdown": "sei (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sei",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndanga",
+          "morpheme_breakdown": "ndanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndichifona",
+          "morpheme_breakdown": "ndichifona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndichifona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndibvunze",
+          "morpheme_breakdown": "ndibvunze (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndibvunze",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tinogona",
+          "morpheme_breakdown": "ti- (we) + -no- (present) + -gona",
+          "noun_class_or_concord": "Present Tense Verb (we ...)",
+          "literal_english": "we gona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusangana",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -sangana",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at sangana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Waswera",
+      "morpheme_breakdown": "wa- (you past) + -swera (spend the day)",
+      "noun_class_or_concord": "Past Greeting Verb",
+      "literal_english": "how did you spend the day?",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "sei (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sei",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndanga",
+      "morpheme_breakdown": "ndanga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndichifona",
+      "morpheme_breakdown": "ndichifona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndichifona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndibvunze",
+      "morpheme_breakdown": "ndibvunze (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndibvunze",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tinogona",
+      "morpheme_breakdown": "ti- (we) + -no- (present) + -gona",
+      "noun_class_or_concord": "Present Tense Verb (we ...)",
+      "literal_english": "we gona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kusangana",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -sangana",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at sangana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('Waswera')",
+      "content": "In this lesson you encounter 'Waswera'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('tinogona')",
+      "content": "The verb 'tinogona' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Phone Etiquette in Shona: Always Starting with 'Waswera Sei?'",
+      "content": "Even when making a quick phone call to arrange a meeting ('kusangana nhasi'), a Shona speaker never jumps straight to the request—they always open warmly with 'Waswera sei?' ('How have you spent the day?').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!",
+        "Makorokoto nekubudirira kwako!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

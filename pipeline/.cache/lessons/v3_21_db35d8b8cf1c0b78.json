@@ -1,0 +1,189 @@
+{
+  "english_translation": "Cultivate your field well so that you get a big harvest.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rima munda wako zvakanaka kuti uwane goho guru.",
+      "english": "Cultivate your field well so that you get a big harvest.",
+      "literal_gloss": "Rima [rima] • munda [in / singular nda] • wako [wako] • zvakanaka [well / nicely / very good] • kuti [that / so that] • uwane [uwane] • goho [goho] • guru [guru]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rima",
+          "morpheme_breakdown": "rima (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rima",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munda",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nda",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wako",
+          "morpheme_breakdown": "wako (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wako",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uwane",
+          "morpheme_breakdown": "uwane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uwane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "goho",
+          "morpheme_breakdown": "goho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "goho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "guru",
+          "morpheme_breakdown": "guru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "guru",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rima",
+      "morpheme_breakdown": "rima (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rima",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munda",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nda",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wako",
+      "morpheme_breakdown": "wako (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wako",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uwane",
+      "morpheme_breakdown": "uwane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uwane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "goho",
+      "morpheme_breakdown": "goho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "goho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "guru",
+      "morpheme_breakdown": "guru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "guru",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Rima')",
+      "content": "Notice the command verb 'Rima' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Thorough Field Preparation ('Kurima Munda') for a Bountiful Harvest",
+      "content": "Good farming ('kurima munda zvakanaka')—winter ploughing, adding organic compost or manure ('mupfudze'), and timely weeding ('kusakura')—is celebrated across Zimbabwe as the secret to achieving a bumper harvest ('goho guru').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Tall trees and green grass' in Shona?",
+      "options": [
+        "makomo makuru nerwizi rwurefu",
+        "maruva machena nemashizha matema",
+        "munda mukuru nemvura zhinji",
+        "miti mirefu neuswa hwegirinhi"
+      ],
+      "correct_answer": "miti mirefu neuswa hwegirinhi",
+      "explanation": "'Miti mirefu' = 'tall trees' (plural 'mi-' agreement on '-refu'), and 'neuswa hwegirinhi' = 'and green grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "mukicheni",
+        "kicheni",
+        "vakicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    }
+  ]
+}

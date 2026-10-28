@@ -162,15 +162,15 @@ class ReviewEnrichment(BaseModel):
     """Comprehensive synthesis and brand-new exercises for every 7th Review Lesson."""
 
     review_summary: ReviewSummaryModel = Field(
-        description="Structured 3-section textbook review covering vocabulary, grammar rules, and cultural context from the preceding 6 lessons."
+        description="Structured 3-section textbook review covering vocabulary, grammar rules, and cultural context from the 7 lessons in this unit (including the current 7th lesson)."
     )
     key_noun_classes_covered: list[str] = Field(
-        description="List of core grammar topics and noun classes practiced in this 6-lesson block."
+        description="List of core grammar topics and noun classes practiced in this 7-lesson block."
     )
     review_exercises: list[ActiveExercise] = Field(
         min_length=6,
         max_length=6,
-        description="6 brand-new review exercises testing retention across the preceding 6 lessons on fresh sentences.",
+        description="6 brand-new review exercises testing retention across the 7 lessons in this unit on fresh sentences.",
     )
 
 
@@ -180,11 +180,11 @@ class Lesson(BaseModel):
     lesson_number: int = Field(ge=1)
     type: Literal["regular", "review"]
     phase: Literal["passive", "active"] = Field(
-        description="'passive' for Lessons 1-49; 'active' for Lesson 50+ (triggers Active Wave dual-lesson mode)."
+        description="'passive' for Lessons 1-50; 'active' for Lesson 51+ (triggers Active Wave dual-lesson mode)."
     )
     active_wave_review_lesson: int | None = Field(
         default=None,
-        description="When lesson_number >= 50, points to (lesson_number - 49) for the Assimil Second Wave active production drill.",
+        description="When lesson_number >= 51, points to (lesson_number - 50) for the Assimil Second Wave active production drill.",
     )
     title: str
     source_dataset: str | None = None
@@ -223,6 +223,6 @@ class CourseData(BaseModel):
     total_lessons: int
     regular_lessons_count: int
     review_lessons_count: int
-    active_wave_start_lesson: int = 50
+    active_wave_start_lesson: int = 51
     source_datasets: list[str]
     lessons: list[Lesson]

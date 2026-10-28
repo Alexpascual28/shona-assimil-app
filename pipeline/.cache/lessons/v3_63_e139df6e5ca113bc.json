@@ -1,0 +1,175 @@
+{
+  "english_translation": "I am taking medicine after eating, just as I was told by the doctor.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kunwa mushonga mushure mekudya sezvandakaudzwa nachiremba.",
+      "english": "I am taking medicine after eating, just as I was told by the doctor.",
+      "literal_gloss": "Ndiri [ndiri] • kunwa [to / at nwa] • mushonga [in / singular shonga] • mushure [in / singular shure] • mekudya [mekudya] • sezvandakaudzwa [sezvandakaudzwa] • nachiremba [nachiremba]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mushonga",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shonga",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular shonga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mushure",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular shure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mekudya",
+          "morpheme_breakdown": "mekudya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mekudya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sezvandakaudzwa",
+          "morpheme_breakdown": "sezvandakaudzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sezvandakaudzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nachiremba",
+          "morpheme_breakdown": "nachiremba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nachiremba",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mushonga",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shonga",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular shonga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mushure",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shure",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular shure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mekudya",
+      "morpheme_breakdown": "mekudya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mekudya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sezvandakaudzwa",
+      "morpheme_breakdown": "sezvandakaudzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sezvandakaudzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nachiremba",
+      "morpheme_breakdown": "nachiremba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nachiremba",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ndiri kunwa mushonga mushure mekudya sezvandakaudzwa nachiremba.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Following the Doctor's Advice ('Chiremba') & Taking Medicine After Meals",
+      "content": "Notice two natural Shona expressions here: 'kunwa mushonga' (literally 'to drink medicine', used for both liquid medicine and swallowing tablets) and 'chiremba' (the respected traditional and modern title for a qualified medical doctor).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

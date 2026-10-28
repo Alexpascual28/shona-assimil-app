@@ -1,0 +1,329 @@
+{
+  "english_translation": "If we work hard and help one another on this project, we can finish the work on time and then get a chance to rest before starting another lesson.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kana tikashanda nesimba, tichibatsirana pachirongwa ichi, tinogona kupedza basa racho nenguva; tozowana mukana wekumbozorora tisati tatanga chimwe chidzidzo.",
+      "english": "If we work hard and help one another on this project, we can finish the work on time and then get a chance to rest before starting another lesson.",
+      "literal_gloss": "Kana [if / when / or] • tikashanda [tikashanda] • nesimba [and / with simba] • tichibatsirana [tichibatsirana] • pachirongwa [on / at chirongwa] • ichi [ichi] • tinogona [we gona] • kupedza [to / at pedza] • basa [work / job] • racho [racho] • nenguva [and / with nguva] • tozowana [tozowana] • mukana [in / singular kana] • wekumbozorora [wekumbozorora] • tisati [tisati] • tatanga [tatanga] • chimwe [thing mwe] • chidzidzo [thing dzidzo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tikashanda",
+          "morpheme_breakdown": "tikashanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tikashanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimba",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichibatsirana",
+          "morpheme_breakdown": "tichibatsirana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tichibatsirana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pachirongwa",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -chirongwa",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at chirongwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichi",
+          "morpheme_breakdown": "ichi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tinogona",
+          "morpheme_breakdown": "ti- (we) + -no- (present) + -gona",
+          "noun_class_or_concord": "Present Tense Verb (we ...)",
+          "literal_english": "we gona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupedza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pedza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "racho",
+          "morpheme_breakdown": "racho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "racho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tozowana",
+          "morpheme_breakdown": "tozowana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tozowana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wekumbozorora",
+          "morpheme_breakdown": "wekumbozorora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wekumbozorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tatanga",
+          "morpheme_breakdown": "tatanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tatanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chimwe",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chidzidzo",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dzidzo",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dzidzo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tikashanda",
+      "morpheme_breakdown": "tikashanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tikashanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimba",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichibatsirana",
+      "morpheme_breakdown": "tichibatsirana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tichibatsirana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pachirongwa",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -chirongwa",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at chirongwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichi",
+      "morpheme_breakdown": "ichi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tinogona",
+      "morpheme_breakdown": "ti- (we) + -no- (present) + -gona",
+      "noun_class_or_concord": "Present Tense Verb (we ...)",
+      "literal_english": "we gona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupedza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pedza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "racho",
+      "morpheme_breakdown": "racho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "racho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tozowana",
+      "morpheme_breakdown": "tozowana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tozowana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukana",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kana",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wekumbozorora",
+      "morpheme_breakdown": "wekumbozorora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wekumbozorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tatanga",
+      "morpheme_breakdown": "tatanga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tatanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chimwe",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chidzidzo",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dzidzo",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dzidzo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('tinogona')",
+      "content": "The verb 'tinogona' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('chimwe')",
+      "content": "In Shona, number words like 'chimwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Teamwork ('Kushanda Tichibatsirana') & Collaborative Study",
+      "content": "Notice the reciprocal suffix '-an-' in 'tichibatsirana' ('helping one another'): working together as a team so everyone can finish on time and rest before the next lesson is a hallmark of Shona cooperative culture.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vaviri nevarume vana",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "We have four books on the table.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    }
+  ]
+}

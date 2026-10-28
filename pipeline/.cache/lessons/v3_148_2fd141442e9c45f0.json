@@ -1,0 +1,231 @@
+{
+  "english_translation": "I heard through rumors that the prices of goods in the shops keep rising nowadays.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndanzwa nerunyerekupe kuti mitengo yezvinhu muzvitoro iri kuramba ichikwira mazuva ano.",
+      "english": "I heard through rumors that the prices of goods in the shops keep rising nowadays.",
+      "literal_gloss": "Ndanzwa [ndanzwa] • nerunyerekupe [and / with runyerekupe] • kuti [that / so that] • mitengo [mitengo] • yezvinhu [yezvinhu] • muzvitoro [in / singular zvitoro] • iri [iri] • kuramba [to / at ramba] • ichikwira [ichikwira] • mazuva [plural zuva] • ano [ano]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndanzwa",
+          "morpheme_breakdown": "ndanzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndanzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerunyerekupe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -runyerekupe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with runyerekupe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitengo",
+          "morpheme_breakdown": "mitengo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitengo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yezvinhu",
+          "morpheme_breakdown": "yezvinhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yezvinhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muzvitoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvitoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular zvitoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuramba",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ramba",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ramba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichikwira",
+          "morpheme_breakdown": "ichikwira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichikwira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazuva",
+          "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ano",
+          "morpheme_breakdown": "ano (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ano",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndanzwa",
+      "morpheme_breakdown": "ndanzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndanzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nerunyerekupe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -runyerekupe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with runyerekupe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitengo",
+      "morpheme_breakdown": "mitengo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitengo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yezvinhu",
+      "morpheme_breakdown": "yezvinhu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yezvinhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muzvitoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvitoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular zvitoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuramba",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ramba",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ramba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichikwira",
+      "morpheme_breakdown": "ichikwira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichikwira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazuva",
+      "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ano",
+      "morpheme_breakdown": "ano (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ano",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nerunyerekupe'",
+      "content": "Look closely at 'nerunyerekupe'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'runyerekupe' forms 'nerunyerekupe'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shop Prices ('Mitengo yeZvinhu') & Word-of-Mouth News ('Runyerekupe')",
+      "content": "Notice the expressive noun 'runyerekupe' ('word-of-mouth rumour / grapevine news'). Comparing shop prices ('mitengo yezvinhu muzvitoro') and sharing tips on affordable wholesalers is a staple of everyday conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    }
+  ]
+}

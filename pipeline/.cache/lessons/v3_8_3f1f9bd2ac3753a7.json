@@ -1,0 +1,189 @@
+{
+  "english_translation": "Today is the third day and the work is still going very well.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nhasi izuva rechitatu basa richiri kufamba zvakanaka chose.",
+      "english": "Today is the third day and the work is still going very well.",
+      "literal_gloss": "Nhasi [today] • izuva [izuva] • rechitatu [rechitatu] • basa [work / job] • richiri [richiri] • kufamba [to / at famba] • zvakanaka [well / nicely / very good] • chose [chose]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "izuva",
+          "morpheme_breakdown": "izuva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "izuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rechitatu",
+          "morpheme_breakdown": "rechitatu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rechitatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "richiri",
+          "morpheme_breakdown": "richiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "richiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufamba",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -famba",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chose",
+          "morpheme_breakdown": "chose (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chose",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "izuva",
+      "morpheme_breakdown": "izuva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "izuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rechitatu",
+      "morpheme_breakdown": "rechitatu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rechitatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "richiri",
+      "morpheme_breakdown": "richiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "richiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kufamba",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -famba",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chose",
+      "morpheme_breakdown": "chose (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chose",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kufamba')",
+      "content": "Look at 'kufamba' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('zvakanaka')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'zvakanaka'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Counting Workdays ('Zuva Rechitatu') & Steady Progress",
+      "content": "Tracking multi-day projects—whether building a house, planting a field, or starting a new contract—by ordinal days ('zuva rekutanga', 'zuva rechipiri', 'zuva rechitatu') is a common way to celebrate steady, trouble-free progress.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    }
+  ]
+}

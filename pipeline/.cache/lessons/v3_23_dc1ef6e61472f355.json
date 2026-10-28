@@ -1,0 +1,175 @@
+{
+  "english_translation": "When we finish this, we will rest and then eat well together.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kana tapedza izvi tichazorora todya zvakanaka tese.",
+      "english": "When we finish this, we will rest and then eat well together.",
+      "literal_gloss": "Kana [if / when / or] • tapedza [tapedza] • izvi [izvi] • tichazorora [we will zorora] • todya [todya] • zvakanaka [well / nicely / very good] • tese [tese]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tapedza",
+          "morpheme_breakdown": "tapedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tapedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "izvi",
+          "morpheme_breakdown": "izvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "izvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichazorora",
+          "morpheme_breakdown": "ti- (we) + -cha- (will) + -zorora",
+          "noun_class_or_concord": "Future Tense Verb (we will ...)",
+          "literal_english": "we will zorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "todya",
+          "morpheme_breakdown": "todya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "todya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tese",
+          "morpheme_breakdown": "tese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tese",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tapedza",
+      "morpheme_breakdown": "tapedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tapedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "izvi",
+      "morpheme_breakdown": "izvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "izvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichazorora",
+      "morpheme_breakdown": "ti- (we) + -cha- (will) + -zorora",
+      "noun_class_or_concord": "Future Tense Verb (we will ...)",
+      "literal_english": "we will zorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "todya",
+      "morpheme_breakdown": "todya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "todya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tese",
+      "morpheme_breakdown": "tese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tese",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('tichazorora')",
+      "content": "Look at 'tichazorora' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Sharing a Meal Together ('Todya Zvakanaka Tese') After Collective Work",
+      "content": "In both family life and traditional communal work parties ('nhimbe' or 'humwe'), completing a shared task is always followed by resting in the shade and sharing a hearty meal together ('todya zvakanaka tese').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

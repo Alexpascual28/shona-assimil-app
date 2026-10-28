@@ -1,0 +1,175 @@
+{
+  "english_translation": "The sun has come out brightly today; the clothes are drying quickly.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zuva ranyatsobuda nhasi; mbatya dziri kuoma nekukurumidza.",
+      "english": "The sun has come out brightly today; the clothes are drying quickly.",
+      "literal_gloss": "Zuva [sun / day] • ranyatsobuda [ranyatsobuda] • nhasi [today] • mbatya [clothes] • dziri [dziri] • kuoma [to / at oma] • nekukurumidza [quickly / rapidly]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zuva",
+          "morpheme_breakdown": "zuva (sun / day)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sun / day",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ranyatsobuda",
+          "morpheme_breakdown": "ranyatsobuda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ranyatsobuda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mbatya",
+          "morpheme_breakdown": "mbatya (clothes)",
+          "noun_class_or_concord": "Plural Noun",
+          "literal_english": "clothes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuoma",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -oma",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at oma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekukurumidza",
+          "morpheme_breakdown": "ne- (with) + ku- (to) + -kurumidza (hurry)",
+          "noun_class_or_concord": "Adverbial Infinitive",
+          "literal_english": "quickly / rapidly",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zuva",
+      "morpheme_breakdown": "zuva (sun / day)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sun / day",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ranyatsobuda",
+      "morpheme_breakdown": "ranyatsobuda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ranyatsobuda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mbatya",
+      "morpheme_breakdown": "mbatya (clothes)",
+      "noun_class_or_concord": "Plural Noun",
+      "literal_english": "clothes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuoma",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -oma",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at oma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekukurumidza",
+      "morpheme_breakdown": "ne- (with) + ku- (to) + -kurumidza (hurry)",
+      "noun_class_or_concord": "Adverbial Infinitive",
+      "literal_english": "quickly / rapidly",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nekukurumidza'",
+      "content": "Look closely at 'nekukurumidza'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'kukurumidza' forms 'nekukurumidza'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('nekukurumidza')",
+      "content": "Look at 'nekukurumidza' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Describing How Actions Are Done: Adverbs & Intensifiers ('nekukurumidza')",
+      "content": "To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like 'nekukurumidza'. Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), 'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero').",
+      "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwe's Abundant Sunshine ('Zuva') & Line-Drying Laundry",
+      "content": "With over 3,000 hours of bright sunshine a year across Zimbabwe, clothes washed in the morning and hung outside dry crisp and fresh in a matter of hours ('mbatya dziri kuoma nekukurumidza') whenever the sun comes out ('zuva ranyatsobuda').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndeipi shangu yaunoda, nhema kana tsvuku?'",
+      "options": [
+        "Where did you put my white shirt and blue trousers?",
+        "Which shoe do you want, the black one or the red one?",
+        "These new shoes are very comfortable for walking.",
+        "She washed all the white clothes this morning."
+      ],
+      "correct_answer": "Which shoe do you want, the black one or the red one?",
+      "explanation": "'Ndeipi shangu yaunoda' = 'Which shoe do you want', 'nhema kana tsvuku' = 'the black one or the red one'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Singing at the top of the tree",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "english_translation": "The 'kurova guva' memorial ceremony was an important tradition for welcoming the spirit of the deceased back into the homestead.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kurova guva yaiva tsika yakakosha yekudzosa mweya wemufi mumusha.",
+      "english": "The 'kurova guva' memorial ceremony was an important tradition for welcoming the spirit of the deceased back into the homestead.",
+      "literal_gloss": "Kurova [to / at rova] • guva [guva] • yaiva [yaiva] • tsika [tsika] • yakakosha [it (past) kosha] • yekudzosa [yekudzosa] • mweya [mweya] • wemufi [wemufi] • mumusha [in / singular musha]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kurova",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -rova",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at rova",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "guva",
+          "morpheme_breakdown": "guva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "guva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yaiva",
+          "morpheme_breakdown": "yaiva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yaiva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsika",
+          "morpheme_breakdown": "tsika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakakosha",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -kosha",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) kosha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekudzosa",
+          "morpheme_breakdown": "yekudzosa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekudzosa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mweya",
+          "morpheme_breakdown": "mweya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mweya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemufi",
+          "morpheme_breakdown": "wemufi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemufi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumusha",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -musha",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular musha",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kurova",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -rova",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at rova",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "guva",
+      "morpheme_breakdown": "guva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "guva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yaiva",
+      "morpheme_breakdown": "yaiva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yaiva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tsika",
+      "morpheme_breakdown": "tsika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tsika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakakosha",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -kosha",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) kosha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekudzosa",
+      "morpheme_breakdown": "yekudzosa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekudzosa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mweya",
+      "morpheme_breakdown": "mweya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mweya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wemufi",
+      "morpheme_breakdown": "wemufi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wemufi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumusha",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -musha",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular musha",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakakosha')",
+      "content": "The verb 'yakakosha' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumusha')",
+      "content": "Look at how location is expressed with 'mumusha'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('Kurova')",
+      "content": "Look at 'Kurova' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Traditional Memorial Ceremony ('Kurova Guva' / 'Magadziko')",
+      "content": "In traditional Shona heritage, 'kurova guva' (also called 'magadziko' or 'chenura') was a solemn ceremony held about a year after an adult's passing to end the mourning period and symbolically welcome their protective ancestral spirit back to watch over the family homestead ('mumusha').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    }
+  ]
+}

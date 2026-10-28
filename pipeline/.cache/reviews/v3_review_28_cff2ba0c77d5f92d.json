@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 4 Comprehensive Review (Lessons 22–28)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 22–28)",
+        "points": [
+          "Lesson 22: \"Ndaisa mvura patafura; ndangomirira vamwe kuti vauye.\" — I have put water on the table; I am just waiting for the others to come.",
+          "Lesson 23: \"Wamboona bhuku rangu here? ndarisiya pedyo nepahwindo.\" — Have you seen my book? I left it near the window.",
+          "Lesson 24: \"Nhasi ndichabika sadza nemuriwo kuti tidye tese kumba.\" — Today I will cook sadza and vegetables so that we can eat together at home.",
+          "Lesson 25: \"Ko ukawedzera munyu zvishoma hazvibudi zvakanaka here.\" — What if you add a little bit of salt—won't it turn out well?",
+          "Lesson 26: \"Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.\" — Find the money to pay the workers at the end of the month.",
+          "Lesson 27: \"Ndiri kutsvaga makiyi angu asi handisi kuawona patafura.\" — I am looking for my keys, but I do not see them on the table.",
+          "Lesson 28: \"Nhasi izuva rechitatu basa richiri kufamba zvakanaka chose.\" — Today is the third day and the work is still going very well."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('Ndaisa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)",
+          "Talking About the Future with '-cha-' ('ndichabika'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)",
+          "Talking About the Past ('zvakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('Tsvaga'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Hospitality Etiquette: Offering Water First & Waiting for Others: When hosting family or visitors in a Shona household, setting water on the table ('kuisa mvura patafura')—both cool drinking water and warm water for washing hands before a meal—is the first act of hospitality.",
+          "Reading Culture & the History of Written Shona Literature: Shona has a vibrant literary heritage! Beginning with Solomon Mutswairo's pioneering 1956 novel 'Feso' and Bernard Chidzero's 'Nzvengamutsvairo', generations of Zimbabwean novelists and poets—such as Patrick Chakaipa, Charles Mungoshi, and Mordikai Hamutyinei—created classic Shona books ('mabhuku') studied and cherished in homes across the country..",
+          "Home Kitchen Gardens ('Bindu') & Preparing 'Muriwo': Almost every suburban yard and rural homestead in Zimbabwe features a 'bindu'—a lush kitchen vegetable patch growing leafy greens ('muriwo') alongside tomatoes and onions.",
+          "Polite Indirect Suggestions in Shona Conversation: Notice how the speaker does not say 'This food lacks salt!' Instead, they ask gently: 'Ko ukawedzera munyu zvishoma, hazvibudi zvakanaka here?' ('What if you added a little salt—wouldn't it turn out well?')."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('Ndaisa')",
+    "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo')",
+    "Talking About the Future with '-cha-' ('ndichabika')",
+    "Talking About the Past ('zvakanaka')",
+    "Giving Commands & Polite Requests ('Tsvaga')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Proverbs & Wisdom: In the proverb 'Chara chimwe hachitswanyi inda', why does 'chimwe' ('one') start with 'chi-'?",
+      "options": [
+        "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+        "Because all numbers in Shona start with 'chi-'",
+        "Because it is in the past tense",
+        "Because 'inda' starts with 'i-'"
+      ],
+      "correct_answer": "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+      "explanation": "'Chara' belongs to the 'chi-' noun group, so 'one finger' is 'chara chimwe' and the negative verb is 'hachi-tswanyi'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Weather & Directions: How do you say 'A strong wind is blowing from the east'?",
+      "options": [
+        "Mvura zhinji ichanaya manheru ano.",
+        "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+        "Zuva riri kubuda pamusoro pemakomo.",
+        "Rwizi rwuzere nemvura inotonhora."
+      ],
+      "correct_answer": "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+      "explanation": "'Mhepo ine simba' = 'A strong wind', 'iri kuvhuvhuta' = 'is blowing', 'ichibva kumabvazuva' = 'coming from the east'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Consecutive Past ('-ka-'): In 'Zuva rakabuda mbatya dzikaoma', why does the second verb use '-ka-' ('dzikaoma')?",
+      "options": [
+        "It expresses a negative command",
+        "It means the clothes will dry next week",
+        "It expresses a consecutive result ('and consequently dried')",
+        "It asks a question about the clothes"
+      ],
+      "correct_answer": "It expresses a consecutive result ('and consequently dried')",
+      "explanation": "After a past verb ('rakabuda'), '-ka-' on the following verb ('dzikaoma') means 'and then / and as a result'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 —Polite Requests: What does 'ndinokumbirawo undibatsire kusimudza tafura' mean?",
+      "options": [
+        "Please put the books on top of the table",
+        "I already cleaned the table in the kitchen",
+        "Do not sit on the small table outside",
+        "I kindly ask that you help me lift the table"
+      ],
+      "correct_answer": "I kindly ask that you help me lift the table",
+      "explanation": "'Ndinokumbirawo' = 'I kindly request', 'undibatsire' = 'that you help me', 'kusimudza tafura' = 'to lift the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Feelings & Conditions: How do you say 'We felt very happy when we saw our grandmother'?",
+      "options": [
+        "Takafara chose patakaona mbuya vedu.",
+        "Ticharara panze kana zuva radoka.",
+        "Vana vanonzwa nzara mangwanani.",
+        "Imbwa iri kuhukura pamusuwo."
+      ],
+      "correct_answer": "Takafara chose patakaona mbuya vedu.",
+      "explanation": "'Takafara chose' = 'We were very happy', and 'patakaona' ('pa-' = when) = 'when we saw'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 4 — Translate this new review sentence: 'Kana tikashanda pamwe chete, tichapedza basa racho nekukurumidza.'",
+      "options": [
+        "Although the work was hard, we finished it yesterday.",
+        "If we work together, we will finish the work quickly.",
+        "Please help me carry these tools to the field.",
+        "The elders taught us many wise proverbs at home."
+      ],
+      "correct_answer": "If we work together, we will finish the work quickly.",
+      "explanation": "'Kana tikashanda pamwe chete' = 'If we work together', 'tichapedza basa racho' = 'we will finish the work', 'nekukurumidza' = 'quickly'."
+    }
+  ]
+}

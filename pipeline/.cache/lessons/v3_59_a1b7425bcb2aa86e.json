@@ -1,0 +1,189 @@
+{
+  "english_translation": "Are there books written about the Mutapa kingdom at your school?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kune magwaro akanyorwa nezveumambo hweMutapa kuchikoro kwenyu here?",
+      "english": "Are there books written about the Mutapa kingdom at your school?",
+      "literal_gloss": "Kune [to / at ne] • magwaro [plural gwaro] • akanyorwa [he/she (past) nyorwa] • nezveumambo [and / with zveumambo] • hweMutapa [hwemutapa] • kuchikoro [to/at school] • kwenyu [kwenyu] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "magwaro",
+          "morpheme_breakdown": "ma- (plural prefix) + -gwaro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural gwaro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akanyorwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) nyorwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezveumambo",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zveumambo",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zveumambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hweMutapa",
+          "morpheme_breakdown": "hwemutapa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwemutapa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchikoro",
+          "morpheme_breakdown": "ku- (to/at) + chikoro (school)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "to/at school",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwenyu",
+          "morpheme_breakdown": "kwenyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwenyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kune",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "magwaro",
+      "morpheme_breakdown": "ma- (plural prefix) + -gwaro",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural gwaro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akanyorwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) nyorwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezveumambo",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zveumambo",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zveumambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hweMutapa",
+      "morpheme_breakdown": "hwemutapa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwemutapa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchikoro",
+      "morpheme_breakdown": "ku- (to/at) + chikoro (school)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "to/at school",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwenyu",
+      "morpheme_breakdown": "kwenyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwenyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akanyorwa')",
+      "content": "The verb 'akanyorwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kuchikoro')",
+      "content": "Look at how location is expressed with 'kuchikoro'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Studying the Mutapa Empire ('Umambo hweMutapa') in Zimbabwean Schools",
+      "content": "The Mutapa Empire ('Umambo hweMutapa'), founded in the 15th century in northern Zimbabwe and stretching toward the Zambezi Valley and Indian Ocean trade routes, is a centrepiece of history textbooks ('magwaro') in Zimbabwean schools.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "I left my mobile phone on the chair in the living room.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndeipi shangu yaunoda, nhema kana tsvuku?'",
+      "options": [
+        "Where did you put my white shirt and blue trousers?",
+        "These new shoes are very comfortable for walking.",
+        "She washed all the white clothes this morning.",
+        "Which shoe do you want, the black one or the red one?"
+      ],
+      "correct_answer": "Which shoe do you want, the black one or the red one?",
+      "explanation": "'Ndeipi shangu yaunoda' = 'Which shoe do you want', 'nhema kana tsvuku' = 'the black one or the red one'."
+    }
+  ]
+}

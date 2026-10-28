@@ -1,0 +1,203 @@
+{
+  "english_translation": "Has the journey of learning history helped you understand our culture?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwendo rwekudzidza nhoroondo rwabatsira kuti unzwisise tsika dzedu here?",
+      "english": "Has the journey of learning history helped you understand our culture?",
+      "literal_gloss": "Rwendo [rwendo] • rwekudzidza [rwekudzidza] • nhoroondo [nhoroondo] • rwabatsira [rwabatsira] • kuti [that / so that] • unzwisise [unzwisise] • tsika [tsika] • dzedu [dzedu] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwendo",
+          "morpheme_breakdown": "rwendo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwekudzidza",
+          "morpheme_breakdown": "rwekudzidza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwekudzidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhoroondo",
+          "morpheme_breakdown": "nhoroondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhoroondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwabatsira",
+          "morpheme_breakdown": "rwabatsira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwabatsira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unzwisise",
+          "morpheme_breakdown": "unzwisise (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "unzwisise",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsika",
+          "morpheme_breakdown": "tsika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzedu",
+          "morpheme_breakdown": "dzedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwendo",
+      "morpheme_breakdown": "rwendo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwekudzidza",
+      "morpheme_breakdown": "rwekudzidza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwekudzidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhoroondo",
+      "morpheme_breakdown": "nhoroondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nhoroondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwabatsira",
+      "morpheme_breakdown": "rwabatsira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwabatsira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unzwisise",
+      "morpheme_breakdown": "unzwisise (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "unzwisise",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tsika",
+      "morpheme_breakdown": "tsika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tsika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzedu",
+      "morpheme_breakdown": "dzedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu')",
+      "content": "In Shona, possessive words like 'dzedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Connecting Language, History ('Nhoroondo') & Cultural Identity ('Tsika')",
+      "content": "In Shona thought, language and history ('nhoroondo') are inseparable: understanding how ancestral communities lived, farmed, built, and governed illuminates the deeper meaning behind everyday Shona expressions and customs ('tsika dzedu').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our journey was very good' in Shona?",
+      "options": [
+        "Mugwagwa uyu murefu zvikuru.",
+        "Bhazi richasimuka mangwanani-ngwanani.",
+        "Rwendo rwedu rwakanga rwakanaka kwazvo.",
+        "Vanhu vazhinji vanoshandisa makombi muguta."
+      ],
+      "correct_answer": "Rwendo rwedu rwakanga rwakanaka kwazvo.",
+      "explanation": "'Rwendo rwedu' = 'Our journey' (taking 'rw-' agreement), 'rwakanga rwakanaka kwazvo' = 'was very good'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya vedu",
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    }
+  ]
+}

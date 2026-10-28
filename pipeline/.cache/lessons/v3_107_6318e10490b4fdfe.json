@@ -1,0 +1,175 @@
+{
+  "english_translation": "Please come in quietly because the patient has just fallen asleep.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndapota huyai muchinyararire nokuti murwere achangobatwa nehope.",
+      "english": "Please come in quietly because the patient has just fallen asleep.",
+      "literal_gloss": "Ndapota [ndapota] • huyai [come! (polite/plural)] • muchinyararire [in / singular chinyararire] • nokuti [because] • murwere [in / singular rwere] • achangobatwa [achangobatwa] • nehope [and / with hope]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndapota",
+          "morpheme_breakdown": "ndapota (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndapota",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "huyai",
+          "morpheme_breakdown": "huya (come) + -i (plural/polite command)",
+          "noun_class_or_concord": "Imperative Verb",
+          "literal_english": "come! (polite/plural)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muchinyararire",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -chinyararire",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular chinyararire",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "murwere",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -rwere",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular rwere",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achangobatwa",
+          "morpheme_breakdown": "achangobatwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achangobatwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nehope",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -hope",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with hope",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndapota",
+      "morpheme_breakdown": "ndapota (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndapota",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "huyai",
+      "morpheme_breakdown": "huya (come) + -i (plural/polite command)",
+      "noun_class_or_concord": "Imperative Verb",
+      "literal_english": "come! (polite/plural)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muchinyararire",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -chinyararire",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular chinyararire",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "murwere",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -rwere",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular rwere",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "achangobatwa",
+      "morpheme_breakdown": "achangobatwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "achangobatwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nehope",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -hope",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with hope",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('huyai')",
+      "content": "Notice the command verb 'huyai' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('achangobatwa')",
+      "content": "Look at 'achangobatwa' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nehope'",
+      "content": "Look closely at 'nehope'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'hope' forms 'nehope'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Visiting the Sick ('ushanya Murwere') & Quiet Consideration",
+      "content": "Visiting an ill relative or neighbour ('murwere') to offer comfort is a core duty in Shona culture ('kubata maoko' / 'kutarisa murwere'), and visitors enter quietly ('muchinyararire') whenever the patient has just fallen asleep ('achangobatwa nehope').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo.",
+        "The train will arrive after five minutes."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    }
+  ]
+}

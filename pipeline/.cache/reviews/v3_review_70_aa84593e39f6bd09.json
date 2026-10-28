@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 10 Comprehensive Review (Lessons 64–70)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 64–70)",
+        "points": [
+          "Lesson 64: \"Misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marata.\" — Traditional homesteads were built with wooden poles and thatched with grass rather than meta...",
+          "Lesson 65: \"Wakamboenda kunzvimbo dzinochengetedza nhoroondo dzenyika yedu yekare here?\" — Have you ever visited the heritage sites that preserve the ancient history of our country?",
+          "Lesson 66: \"Madzitateguru edu aishandisa uta nemiseve kana vachienda kunovhima musango.\" — Our ancestors used bows and arrows when they went hunting in the forest.",
+          "Lesson 67: \"Waswera sei; ndanga ndichifona kuti ndibvunze kuti tinogona kusangana here nhasi.\" — How has your day been? I was calling to ask if we can meet today.",
+          "Lesson 68: \"Madzimambo ekare aigara mumizinda yakakomberedzwa nemadziro ematombo.\" — Ancient kings lived in royal courts surrounded by stone walls.",
+          "Lesson 69: \"Chaminuka aive svikiro guru raiporofita zvaizoitika munyika mazuva aizouya.\" — Chaminuka was a great spirit medium who prophesied what would happen in the land in future d...",
+          "Lesson 70: \"Kirasi yanhasi yakanga yakanaka uye mudzidzisi akatsanangura zvose zvakanaka.\" — Today's class was great and the teacher explained everything clearly."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Joining Words with 'ne-' ('and / with') in 'nembariro': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)",
+          "Talking About the Past ('Wakamboenda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('kunovhima'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Shona Greetings & Time of Day ('Waswera'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('yakakomberedzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('munyika'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Traditional Shona Architecture: Pole, Dagga & Thatch ('Mbariro neHuswa'): Traditional rural homesteads ('misha yechinyakare') feature round kitchens ('imba yekubikira') and sleeping huts built with earthen brick or clay walls, roofed with a conical framework of sturdy wooden poles ('mbariro') tied with bark fibre ('rwodzi') and expertly thatched with bundled savannah grass ('huswa').",
+          "Zimbabwe's UNESCO Heritage Sites & Historical Monuments: Zimbabwe preserves extraordinary ancient heritage sites ('nzvimbo dzinochengetedza nhoroondo') across the country: Great Zimbabwe in Masvingo, the terraced stone platforms of Khami near Bulawayo, the ancient agricultural stone terraces and pit structures ('matanga') of Ziwa in Nyanga, and thousands of San and Shona rock art sites in the Matobo Hills..",
+          "Traditional Woodland Hunting ('Kuvhima muSango') & Conservation Rules: Historically, skilled hunters ('vavhimi') ventured into the forest ('musango') with bows and arrows ('uta nemiseve'), guided by strict customary ecological rules ('zviera') that forbade hunting sacred species or breeding animals..",
+          "Phone Etiquette in Shona: Always Starting with 'Waswera Sei?': Even when making a quick phone call to arrange a meeting ('kusangana nhasi'), a Shona speaker never jumps straight to the request—they always open warmly with 'Waswera sei?' ('How have you spent the day?').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Joining Words with 'ne-' ('and / with') in 'nembariro'",
+    "Talking About the Past ('Wakamboenda')",
+    "Present Tense & Everyday Actions ('kunovhima')",
+    "Shona Greetings & Time of Day ('Waswera')",
+    "Talking About the Past ('yakakomberedzwa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Pre-Colonial History: Which title was borne by the rulers of the Mutapa Empire in northern Zimbabwe?",
+      "options": [
+        "Mambo Lobengula",
+        "Sabhuku weMusha",
+        "Mambo Munhumutapa",
+        "Chiremba Mukuru"
+      ],
+      "correct_answer": "Mambo Munhumutapa",
+      "explanation": "'Mambo Munhumutapa' was the royal title of the kings of the Mutapa state."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Traditional Crafts: What did skilled Shona blacksmiths ('mhizha') forge from iron ('masimbi')?",
+      "options": [
+        "Clay cooking pots ('hari dzevhu') only",
+        "Woven grass baskets ('tswanda') only",
+        "Plastic water tanks ('matangi')",
+        "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')"
+      ],
+      "correct_answer": "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')",
+      "explanation": "Ironworkers ('mhizha dzekupfura masimbi') forged metal tools and weapons such as hoes and spears."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Geography & Rivers: Which mighty river forms the northern border between Zimbabwe and Zambia?",
+      "options": [
+        "Rwizi rweZambezi (The Zambezi River)",
+        "Rwizi rweLimpopo",
+        "Makomo eMatobo",
+        "Guta reMasvingo"
+      ],
+      "correct_answer": "Rwizi rweZambezi (The Zambezi River)",
+      "explanation": "'Rwizi rweZambezi rwuri pamuganhu peZimbabwe neZambia' means 'The Zambezi River lies on the border of Zimbabwe and Zambia'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Habitual Past ('-ai-'): What does 'Madzitateguru edu aishandisa uta nemiseve' mean?",
+      "options": [
+        "Our ancestors are making bows today",
+        "Our ancestors used to use bows and arrows",
+        "Our ancestors will buy arrows tomorrow",
+        "Do not touch the bow and arrow"
+      ],
+      "correct_answer": "Our ancestors used to use bows and arrows",
+      "explanation": "The prefix '-ai-' expresses past habitual action ('used to use'), and 'uta nemiseve' means 'bows and arrows'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Polite Requests: Which verb form in 'Mungandibatsirawo here?' expresses 'Could you please help me?'",
+      "options": [
+        "ndaka- (past tense) + -batsira",
+        "regai kubatsira (negative command)",
+        "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+        "tiri kubatsira (present progressive)"
+      ],
+      "correct_answer": "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+      "explanation": "'Mu-nga-ndi-batsira-wo' combines polite plural address, potential mood, object marker, and the polite suffix '-wo'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 10 — Translate this new review sentence: 'VaShona vekare vaigona kuumba hari dzevhu nekupfura mapadza.'",
+      "options": [
+        "The children are swimming in the river near the village.",
+        "We will visit the caves in the Matobo Hills next month.",
+        "Please close the windows before the evening wind blows.",
+        "The ancient Shona people were skilled at molding clay pots and forging hoes."
+      ],
+      "correct_answer": "The ancient Shona people were skilled at molding clay pots and forging hoes.",
+      "explanation": "'Vaigona kuumba hari dzevhu' = 'were skilled at molding clay pots', 'nekupfura mapadza' = 'and forging hoes'."
+    }
+  ]
+}

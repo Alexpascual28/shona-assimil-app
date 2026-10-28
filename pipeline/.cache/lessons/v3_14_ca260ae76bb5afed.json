@@ -1,0 +1,175 @@
+{
+  "english_translation": "Father is repairing the kitchen stove that is not working.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Baba vari kugadzirisa chitofu chemumba chisiri kushanda.",
+      "english": "Father is repairing the kitchen stove that is not working.",
+      "literal_gloss": "Baba [father] • vari [people ri] • kugadzirisa [to / at gadzirisa] • chitofu [thing tofu] • chemumba [chemumba] • chisiri [thing siri] • kushanda [to / at shanda]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Baba",
+          "morpheme_breakdown": "baba (father)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "father",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vari",
+          "morpheme_breakdown": "va- (plural people prefix) + -ri",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kugadzirisa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzirisa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at gadzirisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chitofu",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -tofu",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing tofu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chemumba",
+          "morpheme_breakdown": "chemumba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chemumba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chisiri",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -siri",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing siri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kushanda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -shanda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at shanda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Baba",
+      "morpheme_breakdown": "baba (father)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "father",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vari",
+      "morpheme_breakdown": "va- (plural people prefix) + -ri",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kugadzirisa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -gadzirisa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at gadzirisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chitofu",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -tofu",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing tofu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chemumba",
+      "morpheme_breakdown": "chemumba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chemumba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chisiri",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -siri",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing siri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kushanda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -shanda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at shanda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kugadzirisa')",
+      "content": "Look at 'kugadzirisa' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Baba vari kugadzirisa chitofu chemumba chisiri kushanda.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Home Maintenance & Fixing Kitchen Appliances ('Chitofu')",
+      "content": "Practical self-reliance around the home—such as repairing a kitchen electric or gas stove ('kugadzirisa chitofu chemumba')—is an everyday skill valued in Zimbabwean households.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "The children are practicing to write examinations at school.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    }
+  ]
+}

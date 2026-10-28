@@ -1,0 +1,175 @@
+{
+  "english_translation": "We are planning to wash the car in the afternoon when the sun comes out.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tiri kuronga kuzogeza mota masikati zuva rikabuda.",
+      "english": "We are planning to wash the car in the afternoon when the sun comes out.",
+      "literal_gloss": "Tiri [tiri] • kuronga [to / at ronga] • kuzogeza [to / at zogeza] • mota [car] • masikati [good afternoon / midday] • zuva [sun / day] • rikabuda [rikabuda]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuronga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ronga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuzogeza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -zogeza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at zogeza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mota",
+          "morpheme_breakdown": "mota (car)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "masikati",
+          "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good afternoon / midday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zuva",
+          "morpheme_breakdown": "zuva (sun / day)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sun / day",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rikabuda",
+          "morpheme_breakdown": "rikabuda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rikabuda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuronga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ronga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuzogeza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -zogeza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at zogeza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mota",
+      "morpheme_breakdown": "mota (car)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "masikati",
+      "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good afternoon / midday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zuva",
+      "morpheme_breakdown": "zuva (sun / day)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sun / day",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rikabuda",
+      "morpheme_breakdown": "rikabuda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rikabuda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('masikati')",
+      "content": "In this lesson you encounter 'masikati'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuronga')",
+      "content": "Look at 'kuronga' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Weekend Car Washing ('Kugeza Mota') in the Afternoon Sun",
+      "content": "On sunny weekend afternoons, washing the family car ('kugeza mota') in the yard or at a local neighbourhood car wash is a popular routine across Zimbabwean towns.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon.",
+        "Large mountains can be seen far away beyond the river."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "The train will arrive after five minutes.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    }
+  ]
+}

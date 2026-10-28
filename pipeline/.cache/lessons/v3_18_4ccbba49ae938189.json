@@ -1,0 +1,161 @@
+{
+  "english_translation": "Nowadays it is very hot outside in the afternoon.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mazuvano kunze kuri kupisa zvakanyanya masikati.",
+      "english": "Nowadays it is very hot outside in the afternoon.",
+      "literal_gloss": "Mazuvano [plural zuvano] • kunze [outside / outdoors] • kuri [to / at ri] • kupisa [to / at pisa] • zvakanyanya [zvakanyanya] • masikati [good afternoon / midday]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mazuvano",
+          "morpheme_breakdown": "ma- (plural prefix) + -zuvano",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zuvano",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunze",
+          "morpheme_breakdown": "ku- (area) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "outside / outdoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuri",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ri",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupisa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pisa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanyanya",
+          "morpheme_breakdown": "zvakanyanya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakanyanya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "masikati",
+          "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good afternoon / midday",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mazuvano",
+      "morpheme_breakdown": "ma- (plural prefix) + -zuvano",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zuvano",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunze",
+      "morpheme_breakdown": "ku- (area) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "outside / outdoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuri",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ri",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupisa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pisa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanyanya",
+      "morpheme_breakdown": "zvakanyanya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakanyanya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "masikati",
+      "morpheme_breakdown": "ma- (plural) + -sikati (daytime)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good afternoon / midday",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('masikati')",
+      "content": "In this lesson you encounter 'masikati'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Talking About the Past ('zvakanyanya')",
+      "content": "The verb 'zvakanyanya' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "October Heat ('Mwedzi waGumiguru') Before the First Rains",
+      "content": "October ('Gumiguru') is the hottest month of the year in Zimbabwe ('chirimo'), when midday temperatures soar ('kuri kupisa zvakanyanya masikati') and jacaranda and flame trees bloom across the cities just before the November rains break.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this new sentence in the past tense: 'Nezuro amai ______ sadza nenyama.' (Yesterday Mother cooked sadza and meat.)",
+      "options": [
+        "vakabika",
+        "vanozobika",
+        "vari kubika",
+        "ndichabika"
+      ],
+      "correct_answer": "vakabika",
+      "explanation": "'Amai' takes the respectful plural past prefix 'vaka-' + '-bika' (cook) -> 'vakabika' ('cooked')."
+    }
+  ]
+}

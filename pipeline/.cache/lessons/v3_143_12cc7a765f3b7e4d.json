@@ -1,0 +1,203 @@
+{
+  "english_translation": "Today the weather is fairly pleasant, though a strong breeze is blowing.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nhasi zuva ririnani zvaro; asi mhepo iri kufefetera zvakasimba.",
+      "english": "Today the weather is fairly pleasant, though a strong breeze is blowing.",
+      "literal_gloss": "Nhasi [today] • zuva [sun / day] • ririnani [it is nani] • zvaro [zvaro] • asi [but / however] • mhepo [wind / fresh air] • iri [iri] • kufefetera [to / at fefetera] • zvakasimba [zvakasimba]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zuva",
+          "morpheme_breakdown": "zuva (sun / day)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sun / day",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ririnani",
+          "morpheme_breakdown": "ri- (it) + -ri (is) + -nani",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is nani",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvaro",
+          "morpheme_breakdown": "zvaro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhepo",
+          "morpheme_breakdown": "mhepo (wind / air)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "wind / fresh air",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufefetera",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -fefetera",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at fefetera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakasimba",
+          "morpheme_breakdown": "zvakasimba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakasimba",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zuva",
+      "morpheme_breakdown": "zuva (sun / day)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sun / day",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ririnani",
+      "morpheme_breakdown": "ri- (it) + -ri (is) + -nani",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is nani",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvaro",
+      "morpheme_breakdown": "zvaro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mhepo",
+      "morpheme_breakdown": "mhepo (wind / air)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "wind / fresh air",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kufefetera",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -fefetera",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at fefetera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakasimba",
+      "morpheme_breakdown": "zvakasimba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakasimba",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakasimba')",
+      "content": "The verb 'zvakasimba' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Mild Highveld Days & Refreshing Breezes ('Kufefetera')",
+      "content": "Notice the expressive verb '-fefetera'—used specifically for a steady, cooling breeze blowing across the landscape on a pleasant, mild day ('zuva riri nani zvaro').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "Large mountains can be seen far away beyond the river.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "rakabuda",
+        "riri kubuda",
+        "richabuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

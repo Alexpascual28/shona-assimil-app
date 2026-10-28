@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 18 Comprehensive Review (Lessons 120–126)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 120–126)",
+        "points": [
+          "Lesson 120: \"Ndawana nzvimbo yakanaka yekugara iri pedyo nebasa.\" — I have found a nice place to live that is close to work.",
+          "Lesson 121: \"Rwizi rwuri kuyerera zvine simba saka musayambuke.\" — The river is flowing with strong currents, so do not cross.",
+          "Lesson 122: \"Tsvaga nzira iri nani yekugadzirisa dambudziko iri.\" — Find a better way to solve this problem.",
+          "Lesson 123: \"Kana tapedza izvi tichazorora todya zvakanaka tese.\" — When we finish this, we will rest and then eat well together.",
+          "Lesson 124: \"Tiri kuronga rwendo rwemangwana rwekuenda Harare.\" — We are planning tomorrow's trip to Harare.",
+          "Lesson 125: \"Tiri kuronga kuzogeza mota masikati zuva rikabuda.\" — We are planning to wash the car in the afternoon when the sun comes out.",
+          "Lesson 126: \"Pane tsvimbo yadonha pasi saka ndinokumbira uyinhonge.\" — There is a walking stick that fell on the ground, so I ask that you pick it up."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Giving Commands & Polite Requests ('Tsvaga'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('zvakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('masikati'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Present Tense & Everyday Actions ('ndinokumbira'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Finding Housing ('Nzvimbo Yekugara') Near Workplace Hubs: Living within walking distance or a short bus ride of one's workplace ('pedyo nebasa') is highly prized in Zimbabwean towns, saving daily transport fares and leaving more evening time for family..",
+          "Flooded Rivers ('Rwizi Rwuri Kuyerera Zvine Simba') in the Rainy Season: During heavy summer rains, Zimbabwe's seasonal and perennial rivers swell rapidly with powerful currents ('kuyerera zvine simba').",
+          "Constructive Problem-Solving ('Kugadzirisa Dambudziko') Through Dialogue: Shona culture prizes calm deliberation and ingenuity when facing a challenge ('dambudziko')—looking for a wiser, more peaceful solution ('nzira iri nani') rather than acting in haste..",
+          "Sharing a Meal Together ('Todya Zvakanaka Tese') After Collective Work: In both family life and traditional communal work parties ('nhimbe' or 'humwe'), completing a shared task is always followed by resting in the shade and sharing a hearty meal together ('todya zvakanaka tese').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakanaka')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Giving Commands & Polite Requests ('Tsvaga')",
+    "Talking About the Past ('zvakanaka')",
+    "Shona Greetings & Time of Day ('masikati')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "shangu nhema mbiri nehembe tsvuku imwe",
+        "marori machena matatu nemotokari nhema mbiri"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Mundiro yemuti mune madora akakangwa.",
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "when they finished working at the market",
+        "if we work hard helping one another",
+        "because he worked alone in the field",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "modern traffic lights at city intersections",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 18 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "We are planning to visit our grandparents next month.",
+        "Many people are selling fruits and vegetables at the market."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

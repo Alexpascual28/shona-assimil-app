@@ -1,0 +1,329 @@
+{
+  "english_translation": "While you are reading this book, pay close attention to the words used by the author, because they have depth and offer valuable lessons that apply to our everyday lives.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Paunenge uchiverenga bhuku iri, nyatsoteerera mazwi akashandiswa nemunyori; nokuti ane udzamu, uye anopa dzidziso yakakosha inoshanda muupenyu hwedu hwemazuva ose.",
+      "english": "While you are reading this book, pay close attention to the words used by the author, because they have depth and offer valuable lessons that apply to our everyday lives.",
+      "literal_gloss": "Paunenge [on / at unenge] • uchiverenga [uchiverenga] • bhuku [book] • iri [iri] • nyatsoteerera [nyatsoteerera] • mazwi [plural zwi] • akashandiswa [he/she (past) shandiswa] • nemunyori [and / with munyori] • nokuti [because] • ane [ane] • udzamu [udzamu] • uye [and / furthermore] • anopa [he/she pa] • dzidziso [dzidziso] • yakakosha [it (past) kosha] • inoshanda [it shanda] • muupenyu [in / singular upenyu] • hwedu [hwedu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Paunenge",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -unenge",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at unenge",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uchiverenga",
+          "morpheme_breakdown": "uchiverenga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uchiverenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bhuku",
+          "morpheme_breakdown": "bhuku (book)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "book",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyatsoteerera",
+          "morpheme_breakdown": "nyatsoteerera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyatsoteerera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazwi",
+          "morpheme_breakdown": "ma- (plural prefix) + -zwi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zwi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akashandiswa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -shandiswa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) shandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemunyori",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -munyori",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with munyori",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "udzamu",
+          "morpheme_breakdown": "udzamu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "udzamu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anopa",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -pa",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she pa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzidziso",
+          "morpheme_breakdown": "dzidziso (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzidziso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakakosha",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -kosha",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) kosha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoshanda",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -shanda",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it shanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muupenyu",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -upenyu",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular upenyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwedu",
+          "morpheme_breakdown": "hwedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwedu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Paunenge",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -unenge",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at unenge",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uchiverenga",
+      "morpheme_breakdown": "uchiverenga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uchiverenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bhuku",
+      "morpheme_breakdown": "bhuku (book)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "book",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyatsoteerera",
+      "morpheme_breakdown": "nyatsoteerera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyatsoteerera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazwi",
+      "morpheme_breakdown": "ma- (plural prefix) + -zwi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zwi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akashandiswa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -shandiswa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) shandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemunyori",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -munyori",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with munyori",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "udzamu",
+      "morpheme_breakdown": "udzamu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "udzamu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anopa",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -pa",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she pa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzidziso",
+      "morpheme_breakdown": "dzidziso (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzidziso",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakakosha",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -kosha",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) kosha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inoshanda",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -shanda",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it shanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muupenyu",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -upenyu",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular upenyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwedu",
+      "morpheme_breakdown": "hwedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwedu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akashandiswa')",
+      "content": "The verb 'akashandiswa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('anopa')",
+      "content": "The verb 'anopa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('muupenyu')",
+      "content": "In Shona, possessive words like 'muupenyu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Appreciating Literary Depth ('Udzamu') & Moral Lessons ('Dzidziso') in Shona Books",
+      "content": "Shona literature prizes 'udzamu' (linguistic depth and richness of expression) and 'dzidziso yakakosha' (practical moral wisdom that enriches everyday life).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house.",
+        "I left my mobile phone on the chair in the living room."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    }
+  ]
+}

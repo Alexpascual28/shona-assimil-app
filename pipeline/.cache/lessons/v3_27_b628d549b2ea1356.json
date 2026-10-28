@@ -1,0 +1,203 @@
+{
+  "english_translation": "Chaminuka was a great spirit medium who prophesied what would happen in the land in future days.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chaminuka aive svikiro guru raiporofita zvaizoitika munyika mazuva aizouya.",
+      "english": "Chaminuka was a great spirit medium who prophesied what would happen in the land in future days.",
+      "literal_gloss": "Chaminuka [chaminuka] • aive [aive] • svikiro [svikiro] • guru [guru] • raiporofita [raiporofita] • zvaizoitika [zvaizoitika] • munyika [in / singular nyika] • mazuva [plural zuva] • aizouya [aizouya]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chaminuka",
+          "morpheme_breakdown": "chaminuka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chaminuka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aive",
+          "morpheme_breakdown": "aive (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aive",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "svikiro",
+          "morpheme_breakdown": "svikiro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "svikiro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "guru",
+          "morpheme_breakdown": "guru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "guru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "raiporofita",
+          "morpheme_breakdown": "raiporofita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "raiporofita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvaizoitika",
+          "morpheme_breakdown": "zvaizoitika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaizoitika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munyika",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazuva",
+          "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aizouya",
+          "morpheme_breakdown": "aizouya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aizouya",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chaminuka",
+      "morpheme_breakdown": "chaminuka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chaminuka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aive",
+      "morpheme_breakdown": "aive (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aive",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "svikiro",
+      "morpheme_breakdown": "svikiro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "svikiro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "guru",
+      "morpheme_breakdown": "guru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "guru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "raiporofita",
+      "morpheme_breakdown": "raiporofita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "raiporofita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvaizoitika",
+      "morpheme_breakdown": "zvaizoitika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaizoitika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munyika",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazuva",
+      "morpheme_breakdown": "ma- (plural prefix) + -zuva",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aizouya",
+      "morpheme_breakdown": "aizouya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aizouya",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('munyika')",
+      "content": "Look at how location is expressed with 'munyika'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('raiporofita')",
+      "content": "In this sentence, 'raiporofita' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Chaminuka aive svikiro guru raiporofita zvaizoitika munyika mazuva aiz...', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Legend of Chaminuka (Pasipamire), Poet, Musician & Prophet",
+      "content": "Celebrated in Shona oral literature and song, the 19th-century medium of Chaminuka (Pasipamire, based at Chitungwiza near Harare) was renowned as a master mbira player, peacemaker, and visionary who foretold major historical transformations.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    }
+  ]
+}

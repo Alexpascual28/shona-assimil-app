@@ -1,0 +1,175 @@
+{
+  "english_translation": "It is still quite difficult, but I know that things will get better.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zvichiri zvakaoma zvikuru; asi ndinoziva kuti zvichanaka.",
+      "english": "It is still quite difficult, but I know that things will get better.",
+      "literal_gloss": "Zvichiri [things chiri] • zvakaoma [zvakaoma] • zvikuru [very much / greatly] • asi [but / however] • ndinoziva [I ziva] • kuti [that / so that] • zvichanaka [things chanaka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvichiri",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -chiri",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things chiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakaoma",
+          "morpheme_breakdown": "zvakaoma (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakaoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndinoziva",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -ziva",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I ziva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvichanaka",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -chanaka",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things chanaka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zvichiri",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -chiri",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things chiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakaoma",
+      "morpheme_breakdown": "zvakaoma (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakaoma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndinoziva",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -ziva",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I ziva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvichanaka",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -chanaka",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things chanaka",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakaoma')",
+      "content": "The verb 'zvakaoma' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('ndinoziva')",
+      "content": "The verb 'ndinoziva' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('zvichanaka')",
+      "content": "Look at 'zvichanaka' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Optimism & Resilience: 'Zvichanaka' ('Things Will Be Well')",
+      "content": "Few words capture the spirit of everyday Zimbabwean resilience better than 'Zvichanaka!' ('It will be well / Things will get better!'), used to encourage friends and family through challenging times.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    }
+  ]
+}

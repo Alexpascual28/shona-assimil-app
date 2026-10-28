@@ -1,0 +1,161 @@
+{
+  "english_translation": "Proverbs and idioms were used to share deep advice with one another.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zvirevo nemadimikira zvaishandiswa kupanana mazano akadzama.",
+      "english": "Proverbs and idioms were used to share deep advice with one another.",
+      "literal_gloss": "Zvirevo [things revo] • nemadimikira [and / with madimikira] • zvaishandiswa [zvaishandiswa] • kupanana [to / at panana] • mazano [plural zano] • akadzama [he/she (past) dzama]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvirevo",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -revo",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things revo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemadimikira",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -madimikira",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with madimikira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvaishandiswa",
+          "morpheme_breakdown": "zvaishandiswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaishandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupanana",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -panana",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at panana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazano",
+          "morpheme_breakdown": "ma- (plural prefix) + -zano",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zano",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akadzama",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -dzama",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) dzama",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zvirevo",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -revo",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things revo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemadimikira",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -madimikira",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with madimikira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvaishandiswa",
+      "morpheme_breakdown": "zvaishandiswa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaishandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupanana",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -panana",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at panana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazano",
+      "morpheme_breakdown": "ma- (plural prefix) + -zano",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zano",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akadzama",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -dzama",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) dzama",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akadzama')",
+      "content": "The verb 'akadzama' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nemadimikira'",
+      "content": "Look closely at 'nemadimikira'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'madimikira' forms 'nemadimikira'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('zvaishandiswa')",
+      "content": "In this sentence, 'zvaishandiswa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Treasury of Shona Proverbs ('Zvirevo') & Idioms ('Madimikira')",
+      "content": "Shona is famous for its thousands of proverbs ('zvirevo' / 'tsumo') and figurative idioms ('madimikira'). Elders calls proverbs 'the salt of speech'—using them to offer gentle counsel ('mazano akadzama') without harshness.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    }
+  ]
+}

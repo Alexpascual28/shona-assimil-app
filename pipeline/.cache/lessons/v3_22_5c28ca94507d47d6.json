@@ -1,0 +1,175 @@
+{
+  "english_translation": "This year there will be a good harvest, won't there?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Gore rino kuchange kuine gohwo rakanaka, handiti?",
+      "english": "This year there will be a good harvest, won't there?",
+      "literal_gloss": "Gore [gore] • rino [rino] • kuchange [to / at change] • kuine [to / at ine] • gohwo [gohwo] • rakanaka [it (past) naka] • handiti [I do not ti]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Gore",
+          "morpheme_breakdown": "gore (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "gore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rino",
+          "morpheme_breakdown": "rino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchange",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -change",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at change",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuine",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ine",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "gohwo",
+          "morpheme_breakdown": "gohwo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "gohwo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakanaka",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -naka",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) naka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "handiti",
+          "morpheme_breakdown": "ha- (not) + ndi- (I) + -ti",
+          "noun_class_or_concord": "Negative Verb (I do not ...)",
+          "literal_english": "I do not ti",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Gore",
+      "morpheme_breakdown": "gore (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "gore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rino",
+      "morpheme_breakdown": "rino (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rino",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchange",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -change",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at change",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuine",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ine",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "gohwo",
+      "morpheme_breakdown": "gohwo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "gohwo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakanaka",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -naka",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) naka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "handiti",
+      "morpheme_breakdown": "ha- (not) + ndi- (I) + -ti",
+      "noun_class_or_concord": "Negative Verb (I do not ...)",
+      "literal_english": "I do not ti",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakanaka')",
+      "content": "The verb 'rakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('kuchange')",
+      "content": "Look at 'kuchange' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Gore rino kuchange kuine gohwo rakanaka, handiti?', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Predicting the Harvest ('Gohwo Rakanaka') & Conversational 'Handiti?'",
+      "content": "When the rains fall evenly through December and January, farmers look across green fields of waist-high maize and optimism rises for a strong harvest ('gohwo rakanaka'). Notice 'handiti?' at the end—Shona's universal tag question meaning 'isn't it? / right?'.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Singing at the top of the tree",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon.",
+        "Large mountains can be seen far away beyond the river."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya vedu",
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    }
+  ]
+}

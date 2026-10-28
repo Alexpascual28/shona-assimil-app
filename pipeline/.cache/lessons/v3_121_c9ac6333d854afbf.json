@@ -1,0 +1,175 @@
+{
+  "english_translation": "The river is flowing with strong currents, so do not cross.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwizi rwuri kuyerera zvine simba saka musayambuke.",
+      "english": "The river is flowing with strong currents, so do not cross.",
+      "literal_gloss": "Rwizi [river] • rwuri [rwuri] • kuyerera [to / at yerera] • zvine [things ne] • simba [simba] • saka [so / therefore] • musayambuke [in / singular sayambuke]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwizi",
+          "morpheme_breakdown": "ru- + -izi (river)",
+          "noun_class_or_concord": "Noun (ru-)",
+          "literal_english": "river",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwuri",
+          "morpheme_breakdown": "rwuri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwuri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuyerera",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -yerera",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at yerera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvine",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ne",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "simba",
+          "morpheme_breakdown": "simba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "simba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musayambuke",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sayambuke",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sayambuke",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwizi",
+      "morpheme_breakdown": "ru- + -izi (river)",
+      "noun_class_or_concord": "Noun (ru-)",
+      "literal_english": "river",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwuri",
+      "morpheme_breakdown": "rwuri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwuri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuyerera",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -yerera",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at yerera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvine",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -ne",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "simba",
+      "morpheme_breakdown": "simba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "simba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musayambuke",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sayambuke",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sayambuke",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuyerera')",
+      "content": "Look at 'kuyerera' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'saka'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'saka'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Flooded Rivers ('Rwizi Rwuri Kuyerera Zvine Simba') in the Rainy Season",
+      "content": "During heavy summer rains, Zimbabwe's seasonal and perennial rivers swell rapidly with powerful currents ('kuyerera zvine simba'). Elders and safety campaigns always warn travellers: 'Musayambuke rwizi rwuzere!' ('Never cross a flooded river!').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "english_translation": "The Chimurenga struggle began when the people refused to be oppressed.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Hondo yeChimurenga yakatanga apo vanhu vakaramba kudzvanyirirwa.",
+      "english": "The Chimurenga struggle began when the people refused to be oppressed.",
+      "literal_gloss": "Hondo [hondo] • yeChimurenga [yechimurenga] • yakatanga [it (past) tanga] • apo [apo] • vanhu [people] • vakaramba [they (past) ramba] • kudzvanyirirwa [to / at dzvanyirirwa]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Hondo",
+          "morpheme_breakdown": "hondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yeChimurenga",
+          "morpheme_breakdown": "yechimurenga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yechimurenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakatanga",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) tanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "apo",
+          "morpheme_breakdown": "apo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "apo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakaramba",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -ramba",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) ramba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudzvanyirirwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzvanyirirwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dzvanyirirwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Hondo",
+      "morpheme_breakdown": "hondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yeChimurenga",
+      "morpheme_breakdown": "yechimurenga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yechimurenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakatanga",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) tanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "apo",
+      "morpheme_breakdown": "apo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "apo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakaramba",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -ramba",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) ramba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudzvanyirirwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzvanyirirwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dzvanyirirwa",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakatanga')",
+      "content": "The verb 'yakatanga' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'kudzvanyirirwa'",
+      "content": "Notice how 'kudzvanyirirwa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('apo' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'apo') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Meaning of 'Chimurenga' & the Struggle Against Oppression",
+      "content": "The Shona word 'Chimurenga'—derived from the name of the legendary ancestor Murenga Sororenzou—signifies a collective struggle for justice, land, and freedom when people refuse to be oppressed ('vakaramba kudzvanyirirwa').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    }
+  ]
+}

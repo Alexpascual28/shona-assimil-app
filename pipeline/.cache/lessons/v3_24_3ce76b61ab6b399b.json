@@ -1,0 +1,161 @@
+{
+  "english_translation": "We are planning tomorrow's trip to Harare.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tiri kuronga rwendo rwemangwana rwekuenda Harare.",
+      "english": "We are planning tomorrow's trip to Harare.",
+      "literal_gloss": "Tiri [tiri] • kuronga [to / at ronga] • rwendo [rwendo] • rwemangwana [rwemangwana] • rwekuenda [rwekuenda] • Harare [harare]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuronga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ronga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwendo",
+          "morpheme_breakdown": "rwendo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwemangwana",
+          "morpheme_breakdown": "rwemangwana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwemangwana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwekuenda",
+          "morpheme_breakdown": "rwekuenda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwekuenda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Harare",
+          "morpheme_breakdown": "harare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "harare",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuronga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ronga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ronga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwendo",
+      "morpheme_breakdown": "rwendo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwemangwana",
+      "morpheme_breakdown": "rwemangwana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwemangwana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwekuenda",
+      "morpheme_breakdown": "rwekuenda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwekuenda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Harare",
+      "morpheme_breakdown": "harare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "harare",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuronga')",
+      "content": "Look at 'kuronga' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Tiri kuronga rwendo rwemangwana rwekuenda Harare.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Travelling to Harare ('Guta guru reZimbabwe')",
+      "content": "Harare—Zimbabwe's capital and largest commercial hub, historically known as 'Harare' after Chief Neharawa—is the focal point for business, university study, and intercity travel from every province of the country.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In a Zimbabwean city, if a driver says 'Mota dzakamira parobhoti dzichimirira mwenje wegirinhi', where are the cars stopped?",
+      "options": [
+        "At the traffic light waiting for the green light",
+        "At a rural bus stop waiting for passengers",
+        "Inside a garage having their tyres repaired",
+        "Beside a river bridge that is under construction"
+      ],
+      "correct_answer": "At the traffic light waiting for the green light",
+      "explanation": "'Robhoti' (plural 'marobhotsi') is the standard Shona word for a traffic light, and 'mwenje wegirinhi' is the green light."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tichakwira",
+        "tiri kukwira",
+        "kwirai"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "english_translation": "Can you name the kings who ruled in this land?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Unogona kududza mazita emadzimambo akatonga munyika ino here?",
+      "english": "Can you name the kings who ruled in this land?",
+      "literal_gloss": "Unogona [you gona] • kududza [to / at dudza] • mazita [plural zita] • emadzimambo [emadzimambo] • akatonga [he/she (past) tonga] • munyika [in / singular nyika] • ino [ino] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Unogona",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -gona",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you gona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kududza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dudza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dudza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazita",
+          "morpheme_breakdown": "ma- (plural prefix) + -zita",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "emadzimambo",
+          "morpheme_breakdown": "emadzimambo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "emadzimambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akatonga",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tonga",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) tonga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munyika",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ino",
+          "morpheme_breakdown": "ino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Unogona",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -gona",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you gona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kududza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dudza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dudza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazita",
+      "morpheme_breakdown": "ma- (plural prefix) + -zita",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "emadzimambo",
+      "morpheme_breakdown": "emadzimambo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "emadzimambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akatonga",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tonga",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) tonga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munyika",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nyika",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ino",
+      "morpheme_breakdown": "ino (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ino",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akatonga')",
+      "content": "The verb 'akatonga' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Unogona')",
+      "content": "The verb 'Unogona' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('munyika')",
+      "content": "Look at how location is expressed with 'munyika'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Royal Dynasties & Great Kings ('Madzimambo') of Zimbabwean History",
+      "content": "Students of Zimbabwean history learn the names of the great pre-colonial rulers ('madzimambo') who governed the plateau over the centuries—including Nyatsimba Mutota and Nyanhehwe Matope of the Mutapa state, Changamire Dombo of the Rozvi Empire, and King Mzilikazi and King Lobengula.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    }
+  ]
+}

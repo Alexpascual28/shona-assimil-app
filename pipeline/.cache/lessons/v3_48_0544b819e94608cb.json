@@ -1,0 +1,203 @@
+{
+  "english_translation": "The Matobo Hills have caves with rock paintings drawn long ago.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Makomo ekumatobo ane mapako ane mifananidzo yakatarwa kare kare.",
+      "english": "The Matobo Hills have caves with rock paintings drawn long ago.",
+      "literal_gloss": "Makomo [mountains] • ekumatobo [ekumatobo] • ane [ane] • mapako [plural pako] • ane [ane] • mifananidzo [mifananidzo] • yakatarwa [it (past) tarwa] • kare [kare] • kare [kare]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Makomo",
+          "morpheme_breakdown": "ma- (plural) + -komo (mountains)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "mountains",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ekumatobo",
+          "morpheme_breakdown": "ekumatobo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ekumatobo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mapako",
+          "morpheme_breakdown": "ma- (plural prefix) + -pako",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural pako",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mifananidzo",
+          "morpheme_breakdown": "mifananidzo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mifananidzo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakatarwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -tarwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) tarwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kare",
+          "morpheme_breakdown": "kare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kare",
+          "morpheme_breakdown": "kare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kare",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Makomo",
+      "morpheme_breakdown": "ma- (plural) + -komo (mountains)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "mountains",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ekumatobo",
+      "morpheme_breakdown": "ekumatobo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ekumatobo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mapako",
+      "morpheme_breakdown": "ma- (plural prefix) + -pako",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural pako",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mifananidzo",
+      "morpheme_breakdown": "mifananidzo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mifananidzo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakatarwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -tarwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) tarwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kare",
+      "morpheme_breakdown": "kare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kare",
+      "morpheme_breakdown": "kare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kare",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakatarwa')",
+      "content": "The verb 'yakatarwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('mapako')",
+      "content": "In Shona, possessive words like 'mapako' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Expressing 'Has/Have' and 'There Is/Are' ('-ne' & 'pane / kune')",
+      "content": "Shona does not use a separate verb like 'have'; instead, it combines a subject prefix with '-ne' ('with'). For people: 'ndine' (I have), 'une' (you have), 'ane' (he/she has), 'tine' (we have), 'vane' (they have). For things, the prefix matches the object: 'imba ine...' ('the house has...'), 'rori rine...' ('the truck has...'). When combined with the location prefixes 'pa-', 'ku-', and 'mu-', it means 'there is / there are': 'pane' ('there is right here'), 'kune' ('there is in that area'), and 'mune' ('there is inside').",
+      "rule": "Person/Thing + -ne = has/have (tine = we have, ine = it has) | pane / kune / mune = there is / there are"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Ancient San Rock Art in the Caves of the Matobo Hills ('Makomo eMatobo')",
+      "content": "A UNESCO World Heritage Site south of Bulawayo, the Matobo Hills ('Makomo eMatobo') feature dramatic balancing granite boulders and hundreds of rock shelters ('mapako') adorned with sacred paintings ('mifananidzo yakatarwa kare kare') created by San hunter-gatherers thousands of years ago.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "They obtained a big harvest from their field this year",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    }
+  ]
+}

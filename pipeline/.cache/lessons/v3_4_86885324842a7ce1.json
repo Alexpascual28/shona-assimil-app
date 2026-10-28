@@ -1,0 +1,203 @@
+{
+  "english_translation": "I want warm water because it is cold outside this morning.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinoda mvura inodziya nokuti kunze kuri kutonhora mangwanani ano.",
+      "english": "I want warm water because it is cold outside this morning.",
+      "literal_gloss": "Ndinoda [I da] • mvura [water / rain] • inodziya [it dziya] • nokuti [because] • kunze [outside / outdoors] • kuri [to / at ri] • kutonhora [to / at tonhora] • mangwanani [good morning / morning] • ano [ano]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinoda",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -da",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inodziya",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -dziya",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it dziya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunze",
+          "morpheme_breakdown": "ku- (area) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "outside / outdoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuri",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ri",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutonhora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tonhora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tonhora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwanani",
+          "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good morning / morning",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ano",
+          "morpheme_breakdown": "ano (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ano",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinoda",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -da",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inodziya",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -dziya",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it dziya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunze",
+      "morpheme_breakdown": "ku- (area) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "outside / outdoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuri",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ri",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutonhora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tonhora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tonhora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwanani",
+      "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good morning / morning",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ano",
+      "morpheme_breakdown": "ano (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ano",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('mangwanani')",
+      "content": "In this lesson you encounter 'mangwanani'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinoda')",
+      "content": "The verb 'Ndinoda' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Crisp Winter Mornings ('Chando') & Warm Bathing Water ('Mvura Inodziya')",
+      "content": "From May to July—the Zimbabwean winter season ('chando')—early mornings on the highveld around Harare, Marondera, and Gweru are brisk and chilly ('kuri kutonhora'), making warm water ('mvura inodziya') heated on the stove or outdoor fire essential at dawn.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good afternoon Mother, did you spend the day well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today."
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    }
+  ]
+}

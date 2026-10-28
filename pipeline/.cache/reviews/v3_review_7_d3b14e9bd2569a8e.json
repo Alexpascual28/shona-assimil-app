@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 1 Comprehensive Review (Lessons 1–7)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 1–7)",
+        "points": [
+          "Lesson 1: \"Huyai kuno nekukasira!\" — Come here quickly!",
+          "Lesson 2: \"Amai vakati, \"Chiuya kuno undibatsire.\"\" — Mother said, \"Come here now and help me.\"",
+          "Lesson 3: \"Makorokoto nekubudirira kwenyu!\" — Congratulations on your success!",
+          "Lesson 4: \"Vhara musuwo zvakasimba kana uchibuda mumba.\" — Close the door firmly when you leave the house.",
+          "Lesson 5: \"Tora bhuku riri patafura undipe ndimboverenga.\" — Take the book on the table and give it to me so I can read for a bit.",
+          "Lesson 6: \"Makadini mose muri mumba ndinovimba makasimba.\" — How are you all in the house? I hope you are doing well.",
+          "Lesson 7: \"Svika kumba nenguva nhasi tisati tadya manheru.\" — Arrive home on time today before we eat dinner."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Giving Commands & Polite Requests ('Huyai'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Giving Commands & Polite Requests ('Chiuya'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Celebrating Milestones with 'Makorokoto!': Makorokoto + ne- + ku-[verb] = Congratulations on [doing something]! (e.g., Makorokoto nekubudirira!)",
+          "Giving Commands & Polite Requests ('Vhara'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Giving Commands & Polite Requests ('Tora'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Shona Greetings & Time of Day ('Makadini'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Respectful Plural Address ('-i') & Calling Etiquette in Shona: When calling someone over in Zimbabwe ('Huyai kuno!'), both grammar and body language express respect.",
+          "Children's Role & Helping Parents ('Kubatsira Vabereki') at Home: In Shona family life, children grow up participating in daily household tasks alongside their mother ('amai') and father ('baba')—from fetching utensils and sweeping the yard ('kutsvaira chivanze') to helping prepare meals.",
+          "Celebrating Shared Milestones ('Makorokoto!') in the Community: Whenever someone graduates, starts a new job, welcomes a baby, or achieves a life goal, relatives and neighbours gather to say 'Makorokoto nekubudirira kwenyu!' ('Congratulations on your success!').",
+          "Home Security, Evening Breezes & the Highveld Climate: Much of Zimbabwe sits on a high central plateau ('Highveld') between 1,200 and 1,500 metres above sea level."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Giving Commands & Polite Requests ('Huyai')",
+    "Giving Commands & Polite Requests ('Chiuya')",
+    "Celebrating Milestones with 'Makorokoto!'",
+    "Giving Commands & Polite Requests ('Vhara')",
+    "Giving Commands & Polite Requests ('Tora')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 1 — Greeting & Politeness: How do you say 'Good morning, did you wake up well?' to an elder?",
+      "options": [
+        "Manheru, waswera zvakanaka here?",
+        "Masikati, uri kuenda kupi?",
+        "Mhoro, ndapedza basa rangu.",
+        "Mangwanani, mamuka zvakanaka here?"
+      ],
+      "correct_answer": "Mangwanani, mamuka zvakanaka here?",
+      "explanation": "'Mangwanani' is used in the morning and 'mamuka zvakanaka here?' politely asks if they woke up well."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 1 — Polite Commands: Change the singular command 'Uya kuno!' ('Come here!') into the polite/plural form:",
+      "options": [
+        "Uyai kuno!",
+        "Kuuya kuno!",
+        "Ndauya kuno!",
+        " rega kuuya!"
+      ],
+      "correct_answer": "Uyai kuno!",
+      "explanation": "Adding '-i' to an imperative verb stem ('uya' -> 'uyai') makes it plural or respectful."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 1 — Household Actions: Which verb means 'Close the window gently'?",
+      "options": [
+        "Tora hwindo nekukasira.",
+        "Vhara hwindo zvinyoronyoro.",
+        "Vhura musuwo zvakasimba.",
+        "Gara pedyo nehwindo."
+      ],
+      "correct_answer": "Vhara hwindo zvinyoronyoro.",
+      "explanation": "'Vhara' means 'close', 'hwindo' is 'window', and 'zvinyoronyoro' means 'gently / quietly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 1 — Expressing Purpose: What does 'kuti tidye tese' mean in 'Ugosvika manheru kuti tidye tese'?",
+      "options": [
+        "because we already ate",
+        "before you cook dinner",
+        "so that we may eat together",
+        "if you want to drink water"
+      ],
+      "correct_answer": "so that we may eat together",
+      "explanation": "'Kuti' + subjunctive 'tidye' ('that we eat') + 'tese' ('all of us / together') expresses purpose."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 1 — Sequence Commands: In 'Tora bhuku undipe', what does 'undipe' mean?",
+      "options": [
+        "and read it outside",
+        "and put it on the bed",
+        "before you go to school",
+        "and give it to me"
+      ],
+      "correct_answer": "and give it to me",
+      "explanation": "'U-' (you) + '-ndi-' (me) + '-pe' (give) means 'and give me'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 1 — Translate this new review sentence: 'Ndapota gara pasi umirire amai.'",
+      "options": [
+        "Please sit down and wait for Mother.",
+        "Please open the door and help Father.",
+        "Congratulations on finishing your work today.",
+        "Return home quickly before it rains."
+      ],
+      "correct_answer": "Please sit down and wait for Mother.",
+      "explanation": "'Ndapota' = 'Please', 'gara pasi' = 'sit down', 'umirire amai' = 'and wait for Mother'."
+    }
+  ]
+}

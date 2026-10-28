@@ -1,0 +1,175 @@
+{
+  "english_translation": "Children used to play house, practicing the skilled chores of adults.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vana vaitamba mahumbwe vachidzidzira mabasa ehunyanzvi hwevakuru.",
+      "english": "Children used to play house, practicing the skilled chores of adults.",
+      "literal_gloss": "Vana [children] • vaitamba [people itamba] • mahumbwe [plural humbwe] • vachidzidzira [people chidzidzira] • mabasa [plural basa] • ehunyanzvi [ehunyanzvi] • hwevakuru [hwevakuru]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vana",
+          "morpheme_breakdown": "va- (plural) + -ana (children)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "children",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaitamba",
+          "morpheme_breakdown": "va- (plural people prefix) + -itamba",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people itamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mahumbwe",
+          "morpheme_breakdown": "ma- (plural prefix) + -humbwe",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural humbwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachidzidzira",
+          "morpheme_breakdown": "va- (plural people prefix) + -chidzidzira",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chidzidzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mabasa",
+          "morpheme_breakdown": "ma- (plural prefix) + -basa",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural basa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ehunyanzvi",
+          "morpheme_breakdown": "ehunyanzvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ehunyanzvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwevakuru",
+          "morpheme_breakdown": "hwevakuru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwevakuru",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vana",
+      "morpheme_breakdown": "va- (plural) + -ana (children)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "children",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaitamba",
+      "morpheme_breakdown": "va- (plural people prefix) + -itamba",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people itamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mahumbwe",
+      "morpheme_breakdown": "ma- (plural prefix) + -humbwe",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural humbwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachidzidzira",
+      "morpheme_breakdown": "va- (plural people prefix) + -chidzidzira",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chidzidzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mabasa",
+      "morpheme_breakdown": "ma- (plural prefix) + -basa",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural basa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ehunyanzvi",
+      "morpheme_breakdown": "ehunyanzvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ehunyanzvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwevakuru",
+      "morpheme_breakdown": "hwevakuru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwevakuru",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Counting & Numbers in Shona ('Vana')",
+      "content": "In Shona, number words like 'Vana' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('vaitamba')",
+      "content": "In this sentence, 'vaitamba' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Vana vaitamba mahumbwe vachidzidzira mabasa ehunyanzvi hwevakuru.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Traditional Childhood Play ('Mahumbwe') as Practical Life Education",
+      "content": "In traditional Shona upbringing, children played 'mahumbwe' after the harvest season—a structured role-playing game where boys and girls built miniature huts, cooked small portions of food gathered from the fields, and practiced the real-life responsibilities and skills of adulthood ('mabasa ehunyanzvi hwevakuru').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

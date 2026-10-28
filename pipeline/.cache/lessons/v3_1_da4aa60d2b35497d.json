@@ -1,0 +1,161 @@
+{
+  "english_translation": "How are you all in the house? I hope you are doing well.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Makadini mose muri mumba ndinovimba makasimba.",
+      "english": "How are you all in the house? I hope you are doing well.",
+      "literal_gloss": "Makadini [how are you all?] • mose [mose] • muri [in / singular ri] • mumba [in the house / indoors] • ndinovimba [I vimba] • makasimba [plural kasimba]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Makadini",
+          "morpheme_breakdown": "ma- (you plural/polite) + -kadini (how are)",
+          "noun_class_or_concord": "Polite Greeting Verb",
+          "literal_english": "how are you all?",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mose",
+          "morpheme_breakdown": "mose (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mose",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muri",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ri",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumba",
+          "morpheme_breakdown": "mu- (inside) + imba (house)",
+          "noun_class_or_concord": "Locative Noun (mu-)",
+          "literal_english": "in the house / indoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndinovimba",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -vimba",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I vimba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "makasimba",
+          "morpheme_breakdown": "ma- (plural prefix) + -kasimba",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural kasimba",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Makadini",
+      "morpheme_breakdown": "ma- (you plural/polite) + -kadini (how are)",
+      "noun_class_or_concord": "Polite Greeting Verb",
+      "literal_english": "how are you all?",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mose",
+      "morpheme_breakdown": "mose (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mose",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muri",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ri",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumba",
+      "morpheme_breakdown": "mu- (inside) + imba (house)",
+      "noun_class_or_concord": "Locative Noun (mu-)",
+      "literal_english": "in the house / indoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndinovimba",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -vimba",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I vimba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "makasimba",
+      "morpheme_breakdown": "ma- (plural prefix) + -kasimba",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural kasimba",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('Makadini')",
+      "content": "In this lesson you encounter 'Makadini'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Talking About the Past ('Makadini')",
+      "content": "The verb 'Makadini' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('ndinovimba')",
+      "content": "The verb 'ndinovimba' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Greeting the Whole Household ('Mose Muri Mumba') & 'Makasimba'",
+      "content": "When entering a Zimbabwean home, a visitor never greets only one person in isolation—instead, they address everyone present with 'Makadini mose muri mumba?' ('How are you all in the house?'). In Shona, asking 'Makasimba here?' literally asks 'Are you strong/healthy?', reflecting how physical vitality and family wellbeing go hand in hand.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!",
+        "Makorokoto nekubudirira kwako!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

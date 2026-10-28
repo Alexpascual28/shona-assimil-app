@@ -1,0 +1,189 @@
+{
+  "english_translation": "It has rained today, so we should delay going to the field.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mvura yanaya nhasi, saka tinofanira kunonoka kuenda kumunda.",
+      "english": "It has rained today, so we should delay going to the field.",
+      "literal_gloss": "Mvura [water / rain] • yanaya [yanaya] • nhasi [today] • saka [so / therefore] • tinofanira [we fanira] • kunonoka [to / at nonoka] • kuenda [to / at enda] • kumunda [to / at munda]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yanaya",
+          "morpheme_breakdown": "yanaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yanaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tinofanira",
+          "morpheme_breakdown": "ti- (we) + -no- (present) + -fanira",
+          "noun_class_or_concord": "Present Tense Verb (we ...)",
+          "literal_english": "we fanira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunonoka",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nonoka",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nonoka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumunda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -munda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at munda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yanaya",
+      "morpheme_breakdown": "yanaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yanaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tinofanira",
+      "morpheme_breakdown": "ti- (we) + -no- (present) + -fanira",
+      "noun_class_or_concord": "Present Tense Verb (we ...)",
+      "literal_english": "we fanira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunonoka",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nonoka",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nonoka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumunda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -munda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at munda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yanaya')",
+      "content": "The verb 'yanaya' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('tinofanira')",
+      "content": "The verb 'tinofanira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kunonoka')",
+      "content": "Look at 'kunonoka' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Working with Heavy Clay Soils ('Ivhu Rinomira Mvura') After Rain",
+      "content": "When heavy rain falls at dawn ('mvura yanaya nhasi'), farmers wait a little before entering the field ('kunonoka kuenda kumunda') so the wet topsoil drains slightly and does not cling heavily to hoes and boots.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon.",
+        "Large mountains can be seen far away beyond the river."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good afternoon Mother, did you spend the day well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today."
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    }
+  ]
+}

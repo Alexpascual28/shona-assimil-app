@@ -1,0 +1,175 @@
+{
+  "english_translation": "I want to rest a little before I continue forward.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kuda kuzorora zvishoma ndisati ndaenderera mberi.",
+      "english": "I want to rest a little before I continue forward.",
+      "literal_gloss": "Ndiri [ndiri] • kuda [to / at da] • kuzorora [to / at zorora] • zvishoma [things shoma] • ndisati [ndisati] • ndaenderera [ndaenderera] • mberi [mberi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuzorora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -zorora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at zorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvishoma",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things shoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndisati",
+          "morpheme_breakdown": "ndisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndaenderera",
+          "morpheme_breakdown": "ndaenderera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndaenderera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mberi",
+          "morpheme_breakdown": "mberi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mberi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuzorora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -zorora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at zorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvishoma",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things shoma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndisati",
+      "morpheme_breakdown": "ndisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndaenderera",
+      "morpheme_breakdown": "ndaenderera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndaenderera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mberi",
+      "morpheme_breakdown": "mberi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mberi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kuzorora')",
+      "content": "Look at 'kuzorora' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Pacing Yourself on a Long Task ('Kuzorora Zvishoma')",
+      "content": "Taking a brief breather ('kuzorora zvishoma') before continuing forward ('ndisati ndaenderera mberi') reflects a balanced approach to long journeys and demanding physical work.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

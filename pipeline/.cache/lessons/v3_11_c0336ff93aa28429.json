@@ -1,0 +1,147 @@
+{
+  "english_translation": "Even though it was difficult, she managed to finish school.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kunyangwe zvainetsa, akakwanisa kupedza chikoro.",
+      "english": "Even though it was difficult, she managed to finish school.",
+      "literal_gloss": "Kunyangwe [to / at nyangwe] • zvainetsa [zvainetsa] • akakwanisa [he/she (past) kwanisa] • kupedza [to / at pedza] • chikoro [school]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kunyangwe",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyangwe",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nyangwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvainetsa",
+          "morpheme_breakdown": "zvainetsa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvainetsa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akakwanisa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -kwanisa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) kwanisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupedza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pedza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chikoro",
+          "morpheme_breakdown": "chi- + -koro (school)",
+          "noun_class_or_concord": "Noun (chi-/zvi-)",
+          "literal_english": "school",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kunyangwe",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyangwe",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nyangwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvainetsa",
+      "morpheme_breakdown": "zvainetsa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvainetsa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akakwanisa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -kwanisa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) kwanisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupedza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pedza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chikoro",
+      "morpheme_breakdown": "chi- + -koro (school)",
+      "noun_class_or_concord": "Noun (chi-/zvi-)",
+      "literal_english": "school",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akakwanisa')",
+      "content": "The verb 'akakwanisa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('zvainetsa')",
+      "content": "In this sentence, 'zvainetsa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Perseverance in Education ('Kupedza Chikoro') Against the Odds",
+      "content": "Completing one's education ('kupedza chikoro') despite financial or practical hardships ('kunyangwe zvainetsa') is deeply admired across Zimbabwe, where families make immense sacrifices to see their children graduate.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "yakaverenga",
+        "ichaverenga",
+        "iri kuverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndeipi shangu yaunoda, nhema kana tsvuku?'",
+      "options": [
+        "Where did you put my white shirt and blue trousers?",
+        "These new shoes are very comfortable for walking.",
+        "She washed all the white clothes this morning.",
+        "Which shoe do you want, the black one or the red one?"
+      ],
+      "correct_answer": "Which shoe do you want, the black one or the red one?",
+      "explanation": "'Ndeipi shangu yaunoda' = 'Which shoe do you want', 'nhema kana tsvuku' = 'the black one or the red one'."
+    }
+  ]
+}

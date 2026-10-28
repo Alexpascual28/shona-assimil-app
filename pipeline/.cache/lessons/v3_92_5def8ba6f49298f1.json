@@ -1,0 +1,329 @@
+{
+  "english_translation": "The football match we watched yesterday evening was thrilling, and the players played with amazing skill, making everyone in the stadium rejoice.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mutambo webhora watakaona nezuro manheru waipisa zvikuru, uye vatambi vaitamba nehunyanzvi hunoshamisa; zvichiita kuti vanhu vese vaiva munhandare vafare.",
+      "english": "The football match we watched yesterday evening was thrilling, and the players played with amazing skill, making everyone in the stadium rejoice.",
+      "literal_gloss": "Mutambo [in / singular tambo] • webhora [webhora] • watakaona [watakaona] • nezuro [yesterday] • manheru [good evening / evening] • waipisa [waipisa] • zvikuru [very much / greatly] • uye [and / furthermore] • vatambi [people tambi] • vaitamba [people itamba] • nehunyanzvi [and / with hunyanzvi] • hunoshamisa [hunoshamisa] • zvichiita [things chiita] • kuti [that / so that] • vanhu [people] • vese [vese] • vaiva [people iva] • munhandare [in / singular nhandare]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mutambo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tambo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "webhora",
+          "morpheme_breakdown": "webhora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "webhora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "watakaona",
+          "morpheme_breakdown": "watakaona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "watakaona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezuro",
+          "morpheme_breakdown": "nezuro (yesterday)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "yesterday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "manheru",
+          "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good evening / evening",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "waipisa",
+          "morpheme_breakdown": "waipisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "waipisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vatambi",
+          "morpheme_breakdown": "va- (plural people prefix) + -tambi",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people tambi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaitamba",
+          "morpheme_breakdown": "va- (plural people prefix) + -itamba",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people itamba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nehunyanzvi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -hunyanzvi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with hunyanzvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hunoshamisa",
+          "morpheme_breakdown": "hunoshamisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hunoshamisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvichiita",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -chiita",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things chiita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vese",
+          "morpheme_breakdown": "vese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaiva",
+          "morpheme_breakdown": "va- (plural people prefix) + -iva",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people iva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munhandare",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhandare",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nhandare",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mutambo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tambo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "webhora",
+      "morpheme_breakdown": "webhora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "webhora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "watakaona",
+      "morpheme_breakdown": "watakaona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "watakaona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezuro",
+      "morpheme_breakdown": "nezuro (yesterday)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "yesterday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "manheru",
+      "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good evening / evening",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "waipisa",
+      "morpheme_breakdown": "waipisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "waipisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvikuru",
+      "morpheme_breakdown": "zvi- + -kuru (greatly)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / greatly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vatambi",
+      "morpheme_breakdown": "va- (plural people prefix) + -tambi",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people tambi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaitamba",
+      "morpheme_breakdown": "va- (plural people prefix) + -itamba",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people itamba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nehunyanzvi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -hunyanzvi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with hunyanzvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hunoshamisa",
+      "morpheme_breakdown": "hunoshamisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hunoshamisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvichiita",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -chiita",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things chiita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vese",
+      "morpheme_breakdown": "vese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaiva",
+      "morpheme_breakdown": "va- (plural people prefix) + -iva",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people iva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munhandare",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhandare",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nhandare",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('manheru')",
+      "content": "In this lesson you encounter 'manheru'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('munhandare')",
+      "content": "Look at how location is expressed with 'munhandare'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Thrilling Football Matches ('Mutambo weBhora Waipisa') in the Stadium",
+      "content": "In Shona sports commentary, an exciting, fast-paced football match is described as 'waipisa zvikuru' (literally 'it was very hot / thrilling!'), drawing roaring cheers from supporters across the stadium ('munhandare').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

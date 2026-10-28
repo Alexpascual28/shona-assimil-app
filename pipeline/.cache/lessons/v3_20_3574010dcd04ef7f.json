@@ -1,0 +1,161 @@
+{
+  "english_translation": "The journey itself is long, but we will get there safely.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwendo rwacho rwakareba asi tichasvika hedu.",
+      "english": "The journey itself is long, but we will get there safely.",
+      "literal_gloss": "Rwendo [rwendo] • rwacho [rwacho] • rwakareba [rwakareba] • asi [but / however] • tichasvika [we will svika] • hedu [hedu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwendo",
+          "morpheme_breakdown": "rwendo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwacho",
+          "morpheme_breakdown": "rwacho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwacho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakareba",
+          "morpheme_breakdown": "rwakareba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakareba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tichasvika",
+          "morpheme_breakdown": "ti- (we) + -cha- (will) + -svika",
+          "noun_class_or_concord": "Future Tense Verb (we will ...)",
+          "literal_english": "we will svika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hedu",
+          "morpheme_breakdown": "hedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hedu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwendo",
+      "morpheme_breakdown": "rwendo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwacho",
+      "morpheme_breakdown": "rwacho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwacho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakareba",
+      "morpheme_breakdown": "rwakareba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakareba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tichasvika",
+      "morpheme_breakdown": "ti- (we) + -cha- (will) + -svika",
+      "noun_class_or_concord": "Future Tense Verb (we will ...)",
+      "literal_english": "we will svika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hedu",
+      "morpheme_breakdown": "hedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hedu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Future with '-cha-' ('tichasvika')",
+      "content": "Look at 'tichasvika' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('hedu')",
+      "content": "In Shona, possessive words like 'hedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'asi'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'asi'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Long-Distance Highway Journeys ('Rwendo Rwakareba') Across Zimbabwe",
+      "content": "Travelling across Zimbabwe—from Harare to Victoria Falls, Bulawayo, Kariba, or Chipinge—involves long scenic journeys ('rwendo rwakareba'), and speakers use the reassuring particle 'hedu' ('tichasvika hedu'—'we will get there fine') to keep spirits high.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Kombi chena iri kufamba pamugwagwa mukuru.'",
+      "options": [
+        "The white minibus is travelling along the main road.",
+        "The large red truck is parked at the fuel station.",
+        "Two people are standing beside the shop in town.",
+        "Our journey to the mountains was long but enjoyable."
+      ],
+      "correct_answer": "The white minibus is travelling along the main road.",
+      "explanation": "'Kombi chena' = 'The white minibus', 'iri kufamba' = 'is travelling', 'pamugwagwa mukuru' = 'along the main road'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Beside the road / on the side of the road",
+        "Inside the city parking building",
+        "Across the railway tracks"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "We have four books on the table.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "english_translation": "I still have not fully understood what is wrong with this phone, because I have tried turning it on since morning, but it keeps refusing to power on.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Handisati ndanyatsonzwisisa kuti chii chirikunetsa pafoni iyi, nokuti ndayedza kuibatidza kubvira mangwanani; asi iri kungoramba kubaka.",
+      "english": "I still have not fully understood what is wrong with this phone, because I have tried turning it on since morning, but it keeps refusing to power on.",
+      "literal_gloss": "Handisati [I do not sati] • ndanyatsonzwisisa [ndanyatsonzwisisa] • kuti [that / so that] • chii [chii] • chirikunetsa [thing rikunetsa] • pafoni [on / at foni] • iyi [iyi] • nokuti [because] • ndayedza [ndayedza] • kuibatidza [to / at ibatidza] • kubvira [to / at bvira] • mangwanani [good morning / morning] • asi [but / however] • iri [iri] • kungoramba [to / at ngoramba] • kubaka [to / at baka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Handisati",
+          "morpheme_breakdown": "ha- (not) + ndi- (I) + -sati",
+          "noun_class_or_concord": "Negative Verb (I do not ...)",
+          "literal_english": "I do not sati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndanyatsonzwisisa",
+          "morpheme_breakdown": "ndanyatsonzwisisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndanyatsonzwisisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chii",
+          "morpheme_breakdown": "chii (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chii",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chirikunetsa",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -rikunetsa",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing rikunetsa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pafoni",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -foni",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at foni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndayedza",
+          "morpheme_breakdown": "ndayedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndayedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuibatidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ibatidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ibatidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubvira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -bvira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at bvira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwanani",
+          "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good morning / morning",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kungoramba",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ngoramba",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ngoramba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubaka",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -baka",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at baka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Handisati",
+      "morpheme_breakdown": "ha- (not) + ndi- (I) + -sati",
+      "noun_class_or_concord": "Negative Verb (I do not ...)",
+      "literal_english": "I do not sati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndanyatsonzwisisa",
+      "morpheme_breakdown": "ndanyatsonzwisisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndanyatsonzwisisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chii",
+      "morpheme_breakdown": "chii (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chii",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chirikunetsa",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -rikunetsa",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing rikunetsa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pafoni",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -foni",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at foni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndayedza",
+      "morpheme_breakdown": "ndayedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndayedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuibatidza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ibatidza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ibatidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubvira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -bvira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at bvira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwanani",
+      "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good morning / morning",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kungoramba",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ngoramba",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ngoramba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubaka",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -baka",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at baka",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('mangwanani')",
+      "content": "In this lesson you encounter 'mangwanani'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Troubleshooting Electronics & Phone Repair ('Chii Chiri Kunetsa paFoni')",
+      "content": "Notice how Shona uses the verb '-batidza' ('to switch on / light') and '-baka' ('to catch fire / power on') for both lamps and electronic devices like phones ('foni') and computers!",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today.",
+        "Good afternoon Mother, did you spend the day well?"
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You meet your neighbour at 7:00 PM in the evening. Which greeting is appropriate?",
+      "options": [
+        "Manheru, makadini henyu?",
+        "Mangwanani, warara sei?",
+        "Masikati, waswera sei?",
+        "Mhoro, ndiri kuenda kuchikoro."
+      ],
+      "correct_answer": "Manheru, makadini henyu?",
+      "explanation": "'Manheru' is the greeting used in the evening, paired with 'makadini henyu?' ('how are you?')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

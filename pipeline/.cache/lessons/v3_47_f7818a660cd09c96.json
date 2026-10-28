@@ -1,0 +1,175 @@
+{
+  "english_translation": "Please show me the way to the nearest clinic.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinokumbira undiratidze nzira inoenda kukiriniki iri pedyo.",
+      "english": "Please show me the way to the nearest clinic.",
+      "literal_gloss": "Ndinokumbira [I kumbira] • undiratidze [undiratidze] • nzira [nzira] • inoenda [it enda] • kukiriniki [to / at kiriniki] • iri [iri] • pedyo [pedyo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinokumbira",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbira",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I kumbira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "undiratidze",
+          "morpheme_breakdown": "undiratidze (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "undiratidze",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzira",
+          "morpheme_breakdown": "nzira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoenda",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -enda",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kukiriniki",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -kiriniki",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at kiriniki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pedyo",
+          "morpheme_breakdown": "pedyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pedyo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinokumbira",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -kumbira",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I kumbira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "undiratidze",
+      "morpheme_breakdown": "undiratidze (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "undiratidze",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzira",
+      "morpheme_breakdown": "nzira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inoenda",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -enda",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kukiriniki",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -kiriniki",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at kiriniki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pedyo",
+      "morpheme_breakdown": "pedyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pedyo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinokumbira')",
+      "content": "The verb 'Ndinokumbira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo')",
+      "content": "Look at how location is expressed with 'pedyo'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Community Clinics ('Kiriniki') & Asking Directions in Zimbabwe",
+      "content": "Local health clinics ('kiriniki') serve every urban suburb and rural ward across Zimbabwe, and passersby will gladly walk part of the way with a stranger to point out the clearest path ('kuratidza nzira').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

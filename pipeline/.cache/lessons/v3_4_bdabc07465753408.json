@@ -1,0 +1,175 @@
+{
+  "english_translation": "Sit right here and wait until I return from church.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chigara pano womirira kusvika ndadzoka kubva kuchechi.",
+      "english": "Sit right here and wait until I return from church.",
+      "literal_gloss": "Chigara [thing gara] • pano [right here (at this spot)] • womirira [womirira] • kusvika [to / at svika] • ndadzoka [ndadzoka] • kubva [to / at bva] • kuchechi [to / at chechi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chigara",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -gara",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pano",
+          "morpheme_breakdown": "pa- (at) + -no (right here)",
+          "noun_class_or_concord": "Location Word",
+          "literal_english": "right here (at this spot)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "womirira",
+          "morpheme_breakdown": "womirira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "womirira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusvika",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -svika",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at svika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndadzoka",
+          "morpheme_breakdown": "ndadzoka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndadzoka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at bva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchechi",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -chechi",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at chechi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chigara",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -gara",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pano",
+      "morpheme_breakdown": "pa- (at) + -no (right here)",
+      "noun_class_or_concord": "Location Word",
+      "literal_english": "right here (at this spot)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "womirira",
+      "morpheme_breakdown": "womirira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "womirira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kusvika",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -svika",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at svika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndadzoka",
+      "morpheme_breakdown": "ndadzoka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndadzoka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at bva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchechi",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -chechi",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at chechi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Chigara')",
+      "content": "Notice the command verb 'Chigara' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('pano' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'pano') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kusvika')",
+      "content": "Look at 'kusvika' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Hospitality While Waiting at Home & Sunday Church ('Kuchechi')",
+      "content": "When a host or family member steps out to attend a church service ('kuchechi'), an arriving guest or younger sibling is always invited to sit comfortably ('Chigara pano womirira'—'Sit right here and wait') rather than standing outside at the gate.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    }
+  ]
+}

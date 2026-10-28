@@ -1,0 +1,175 @@
+{
+  "english_translation": "We are reviewing what we learned yesterday before we write the exam.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tiri kudzokorora zvatakadzidza nezuro tisati tanyora bvunzo.",
+      "english": "We are reviewing what we learned yesterday before we write the exam.",
+      "literal_gloss": "Tiri [tiri] • kudzokorora [to / at dzokorora] • zvatakadzidza [zvatakadzidza] • nezuro [yesterday] • tisati [tisati] • tanyora [tanyora] • bvunzo [bvunzo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudzokorora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokorora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dzokorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvatakadzidza",
+          "morpheme_breakdown": "zvatakadzidza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvatakadzidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezuro",
+          "morpheme_breakdown": "nezuro (yesterday)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "yesterday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tanyora",
+          "morpheme_breakdown": "tanyora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tanyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bvunzo",
+          "morpheme_breakdown": "bvunzo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bvunzo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudzokorora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dzokorora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dzokorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvatakadzidza",
+      "morpheme_breakdown": "zvatakadzidza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvatakadzidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezuro",
+      "morpheme_breakdown": "nezuro (yesterday)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "yesterday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tanyora",
+      "morpheme_breakdown": "tanyora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tanyora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bvunzo",
+      "morpheme_breakdown": "bvunzo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bvunzo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Infinitive Verbs & Action Nouns with 'ku-' ('kudzokorora')",
+      "content": "Look at 'kudzokorora' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: 'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing').",
+      "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Group Study & Exam Revision ('Kudzokorora') in Zimbabwean Schools",
+      "content": "Before sitting school or university examinations ('kunyora bvunzo'), Zimbabwean students frequently form study groups to review previous lessons together ('kudzokorora zvatakadzidza'), testing each other aloud.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya vedu",
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    }
+  ]
+}

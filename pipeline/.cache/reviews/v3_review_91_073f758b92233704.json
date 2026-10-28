@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 13 Comprehensive Review (Lessons 85–91)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 85–91)",
+        "points": [
+          "Lesson 85: \"Maruva ane ruvara rwegirinhi yakachenuruka akadyarwa mugaba rine ruvara rwegirinhi yakachenu...\" — Plants with pale green leaves are planted in a light-green pot. This pot is set upon a cemen...",
+          "Lesson 86: \"Vanhu varikutengesa vakawarira pasi zvinhu zvakawanda zvakafanana namaheti , namapegisi, mab...\" — Vendors are selling many items spread out on the ground, such as hats, pegs, brushes, and ot...",
+          "Lesson 87: \"Mugwagwa wetara urikupfuura motokari. Dzimwe dzinopesana dzichienda kune rumwe rutivi dzimwe...\" — Cars are travelling along a tarred road, some heading in one direction and others in the opp...",
+          "Lesson 88: \"Shangu yakagadzikwa parutivi rwematayera ndeye bhurauni mukati mayowo muri bhurauni ine kasi...\" — A brown shoe is placed beside the tiles; its interior is also brown and it has a small metal...",
+          "Lesson 89: \"Nzvimbo inogona kuwanikwa muguta ine mugwagwa wakaiswa tara uyewo pane motokari dzakati wand...\" — An urban scene features a tarred road with several cars, street lights, and billboards where...",
+          "Lesson 90: \"Musha wakapakwa mota yerudzi rutema, pane muti wemupichisi une mashizha akasvibira uyewo pam...\" — At a homestead, a black car is parked near a peach tree with green leaves, and on top of the...",
+          "Lesson 91: \"Vanhu vazhinji, varume nevakadzi varikuratidza kuti varikufamba vachipinda nepasi pemudhuri,...\" — Many people—men and women—are walking past a wall; a woman in front is wearing white shoes a..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakachenuruka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakawarira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakaiswa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakapakwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Veranda Container Gardening & Ornamental Plants in Zimbabwe: Container gardening—planting ornamental foliage and flowers ('maruva') in painted pots and tins ('magaba') arranged along smooth cement verandas ('pamusoro peuriri hwesimende')—is a cherished tradition in Zimbabwean homes, bringing greenery right to the doorstep even during the dry season..",
+          "Household Wares Markets & Woven Carrier Bags ('Mashangani'): At bustling community markets, vendors spread out practical household goods—sun hats, clothes pegs ('mapegisi'), scrubbing brushes ('mabhurashi'), and basins.",
+          "Springtime 'Kupfumvutira' of Indigenous Trees & School Stationery Shops: Notice the expressive verb 'kupfumvutira'—the bursting forth of fresh new leaves on roadside trees in spring (September–October), when Zimbabwe's 'musasa' trees flush in brilliant shades of bronze, crimson, and fresh green before the rains! Meanwhile, town shops ('zvitoro') stock up on books ('mabhuku'), pens ('zvinyoreso'), and glue for the school term..",
+          "Footwear Craftsmanship ('Shangu') & Bustling Town Walkways: Zimbabwe has a long tradition of leatherwork and footwear manufacturing (centered historically in Gweru with companies like Bata), alongside skilled roadside cobblers who keep leather shoes ('shangu') polished and repaired for busy city life.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakachenuruka')",
+    "Talking About the Past ('vakawarira')",
+    "Talking About the Past ('dzakawanda')",
+    "Talking About the Past ('yakagadzikwa')",
+    "Talking About the Past ('wakaiswa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Rural Kinship: Who are 'mbuya nasekuru' when you travel 'kumusha' to visit them?",
+      "options": [
+        "Brother and Sister",
+        "Teacher and Principal",
+        "Friends and Neighbours",
+        "Grandmother and Grandfather"
+      ],
+      "correct_answer": "Grandmother and Grandfather",
+      "explanation": "'Mbuya' is Grandmother and 'sekuru' is Grandfather (or maternal uncle)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Concessive Clauses: Which Shona conjunction introduces 'Although / Even though we encountered heavy rain along the way'?",
+      "options": [
+        "kunyangwe zvazvo",
+        "nokuti",
+        "saka",
+        "pamwe"
+      ],
+      "correct_answer": "kunyangwe zvazvo",
+      "explanation": "'Kunyangwe' (or 'kunyangwe zvazvo') means 'although / even though'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Rural Transport: In 'Madhongi maviri ari kudhonza ngoro pamugwagwa usina tara', what is 'mugwagwa usina tara'?",
+      "options": [
+        "A wide city highway with streetlights",
+        "An unpaved / untarred dirt road",
+        "A narrow wooden bridge over a river",
+        "A railway line for passenger trains"
+      ],
+      "correct_answer": "An unpaved / untarred dirt road",
+      "explanation": "'Mugwagwa' = 'road', 'usina' = 'that does not have / without', 'tara' = 'tar'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Teamwork & Conditionals: In 'Kana tikashanda nesimba, tichibatsirana', what does 'tichibatsirana' express?",
+      "options": [
+        "before starting the work",
+        "without talking to anyone",
+        "while helping one another",
+        "after finishing the lesson"
+      ],
+      "correct_answer": "while helping one another",
+      "explanation": "Participial 'tichi-' ('while we...') + '-batsirana' ('help each other') = 'while helping one another'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Mining & Industry: What does 'kunocherwa zvicherwa' mean in the passage about the large tipper truck?",
+      "options": [
+        "where fresh fruits and vegetables are sold",
+        "where buses pick up passengers in town",
+        "where clothes are washed and dried",
+        "where minerals are mined / dug from the earth"
+      ],
+      "correct_answer": "where minerals are mined / dug from the earth",
+      "explanation": "'-cherwa' is the passive of '-chera' (dig/mine), and 'zvicherwa' means 'minerals'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 13 — Translate this new review sentence: 'Kunyangwe mugwagwa waiva nemakomba, takasvika kumusha kwambuya zvakanaka.'",
+      "options": [
+        "Although the road had potholes, we arrived safely at Grandmother's rural home.",
+        "Next month we will travel to the mountains with our friends.",
+        "The two donkeys are pulling a heavy cart along the dirt road.",
+        "If we work hard together, we will finish the project on time."
+      ],
+      "correct_answer": "Although the road had potholes, we arrived safely at Grandmother's rural home.",
+      "explanation": "'Kunyangwe mugwagwa waiva nemakomba' = 'Although the road had potholes', 'takasvika kumusha kwambuya zvakanaka' = 'we arrived safely at Grandmother's rural home'."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "english_translation": "Our dog started barking in the middle of the night, startling everyone who was asleep, which made me wake up and go outside to see if there was a thief.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Imbwa yedu yakatanga kuhukura pakati pehusiku, ichivhundutsa vanhu vese vanga vakarara; zvakazoita kuti ndimuke, ndibude panze kuti ndione kana paiva nembavha.",
+      "english": "Our dog started barking in the middle of the night, startling everyone who was asleep, which made me wake up and go outside to see if there was a thief.",
+      "literal_gloss": "Imbwa [imbwa] • yedu [yedu] • yakatanga [it (past) tanga] • kuhukura [to / at hukura] • pakati [on / at kati] • pehusiku [pehusiku] • ichivhundutsa [ichivhundutsa] • vanhu [people] • vese [vese] • vanga [people nga] • vakarara [they (past) rara] • zvakazoita [zvakazoita] • kuti [that / so that] • ndimuke [ndimuke] • ndibude [ndibude] • panze [outside] • kuti [that / so that] • ndione [ndione]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imbwa",
+          "morpheme_breakdown": "imbwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imbwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yedu",
+          "morpheme_breakdown": "yedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakatanga",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) tanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuhukura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -hukura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at hukura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pehusiku",
+          "morpheme_breakdown": "pehusiku (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pehusiku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichivhundutsa",
+          "morpheme_breakdown": "ichivhundutsa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichivhundutsa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vese",
+          "morpheme_breakdown": "vese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanga",
+          "morpheme_breakdown": "va- (plural people prefix) + -nga",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people nga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakarara",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -rara",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) rara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakazoita",
+          "morpheme_breakdown": "zvakazoita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakazoita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndimuke",
+          "morpheme_breakdown": "ndimuke (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndimuke",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndibude",
+          "morpheme_breakdown": "ndibude (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndibude",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panze",
+          "morpheme_breakdown": "pa- (at) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (pa-)",
+          "literal_english": "outside",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndione",
+          "morpheme_breakdown": "ndione (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndione",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Imbwa",
+      "morpheme_breakdown": "imbwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imbwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yedu",
+      "morpheme_breakdown": "yedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakatanga",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -tanga",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) tanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuhukura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -hukura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at hukura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pehusiku",
+      "morpheme_breakdown": "pehusiku (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pehusiku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichivhundutsa",
+      "morpheme_breakdown": "ichivhundutsa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichivhundutsa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vese",
+      "morpheme_breakdown": "vese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanga",
+      "morpheme_breakdown": "va- (plural people prefix) + -nga",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people nga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakarara",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -rara",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) rara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakazoita",
+      "morpheme_breakdown": "zvakazoita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakazoita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndimuke",
+      "morpheme_breakdown": "ndimuke (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndimuke",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndibude",
+      "morpheme_breakdown": "ndibude (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndibude",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panze",
+      "morpheme_breakdown": "pa- (at) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (pa-)",
+      "literal_english": "outside",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndione",
+      "morpheme_breakdown": "ndione (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndione",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakatanga')",
+      "content": "The verb 'yakatanga' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pakati')",
+      "content": "Look at how location is expressed with 'pakati'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Nighttime Vigilance ('Pakati peHusiku') & Protecting the Homestead",
+      "content": "When the family dog barks urgently in the middle of the night ('pakati pehusiku'), the head of the household wakes up to check the yard and ensure the home is secure.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "kicheni",
+        "vakicheni",
+        "mukicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Patafura pane kapu yemvura.",
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    }
+  ]
+}

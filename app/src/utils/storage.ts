@@ -5,6 +5,8 @@ declare global {
     electronAPI?: {
       loadProgress: () => Promise<UserProgress | null>;
       saveProgress: (data: UserProgress) => Promise<boolean>;
+      loadExpandedCourse?: () => Promise<Record<string, unknown> | null>;
+      generateMoreLessons?: (count: number) => Promise<Record<string, unknown> | null>;
       isElectron?: boolean;
     };
   }

@@ -1,0 +1,203 @@
+{
+  "english_translation": "This child reads well and enjoys writing short stories.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mwana uyu anoverenga zvakanaka uye anofarira kunyora nyaya pfupi.",
+      "english": "This child reads well and enjoys writing short stories.",
+      "literal_gloss": "Mwana [child] • uyu [uyu] • anoverenga [he/she verenga] • zvakanaka [well / nicely / very good] • uye [and / furthermore] • anofarira [he/she farira] • kunyora [to / at nyora] • nyaya [nyaya] • pfupi [pfupi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mwana",
+          "morpheme_breakdown": "mu- + -ana (child)",
+          "noun_class_or_concord": "Noun (mu-/va-)",
+          "literal_english": "child",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyu",
+          "morpheme_breakdown": "uyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anoverenga",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -verenga",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she verenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anofarira",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -farira",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she farira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunyora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyaya",
+          "morpheme_breakdown": "nyaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pfupi",
+          "morpheme_breakdown": "pfupi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pfupi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mwana",
+      "morpheme_breakdown": "mu- + -ana (child)",
+      "noun_class_or_concord": "Noun (mu-/va-)",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyu",
+      "morpheme_breakdown": "uyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anoverenga",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -verenga",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she verenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anofarira",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -farira",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she farira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunyora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nyora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyaya",
+      "morpheme_breakdown": "nyaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pfupi",
+      "morpheme_breakdown": "pfupi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pfupi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('anoverenga')",
+      "content": "The verb 'anoverenga' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('uyu' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'uyu') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Creative Writing & Short Stories ('Nyaya Pfupi') in Shona Literature",
+      "content": "Shona has a vibrant literary tradition of novels and short stories ('nyaya pfupi') pioneered by authors like Solomon Mutswairo, Patrick Chakaipa, and Charles Mungoshi, and schools actively encourage pupils to read and compose their own stories.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "iri kuverenga",
+        "yakaverenga",
+        "ichaverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which phrase correctly translates 'three books' in Shona? (Hint: 'mabhuku' is a 'ma-' plural noun.)",
+      "options": [
+        "mabhuku maviri",
+        "mabhuku mana",
+        "mabhuku matatu",
+        "bhuku rimwe chete"
+      ],
+      "correct_answer": "mabhuku matatu",
+      "explanation": "The number stem '-tatu' (three) takes the 'ma-' prefix to match 'mabhuku' -> 'mabhuku matatu'."
+    }
+  ]
+}

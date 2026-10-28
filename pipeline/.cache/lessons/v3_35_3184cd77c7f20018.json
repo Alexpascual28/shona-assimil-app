@@ -1,0 +1,203 @@
+{
+  "english_translation": "My phone battery died, so I did not see your message.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Foni yangu yakadzima bhatiri saka handina kuona mashoko ako.",
+      "english": "My phone battery died, so I did not see your message.",
+      "literal_gloss": "Foni [foni] • yangu [yangu] • yakadzima [it (past) dzima] • bhatiri [bhatiri] • saka [so / therefore] • handina [I do not na] • kuona [to / at ona] • mashoko [plural shoko] • ako [ako]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Foni",
+          "morpheme_breakdown": "foni (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "foni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yangu",
+          "morpheme_breakdown": "yangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakadzima",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -dzima",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) dzima",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bhatiri",
+          "morpheme_breakdown": "bhatiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bhatiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "handina",
+          "morpheme_breakdown": "ha- (not) + ndi- (I) + -na",
+          "noun_class_or_concord": "Negative Verb (I do not ...)",
+          "literal_english": "I do not na",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashoko",
+          "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural shoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ako",
+          "morpheme_breakdown": "ako (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ako",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Foni",
+      "morpheme_breakdown": "foni (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "foni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "yangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakadzima",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -dzima",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) dzima",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bhatiri",
+      "morpheme_breakdown": "bhatiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bhatiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "handina",
+      "morpheme_breakdown": "ha- (not) + ndi- (I) + -na",
+      "noun_class_or_concord": "Negative Verb (I do not ...)",
+      "literal_english": "I do not na",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashoko",
+      "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural shoko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ako",
+      "morpheme_breakdown": "ako (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ako",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakadzima')",
+      "content": "The verb 'yakadzima' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yangu')",
+      "content": "In Shona, possessive words like 'yangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Linking Ideas Smoothly with 'saka'",
+      "content": "Longer Shona sentences flow naturally by linking two clauses with connectors like 'saka'. The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), 'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because').",
+      "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Mobile Phone Batteries ('Bhatiri reFoni') & Solar Charging",
+      "content": "When a mobile phone battery runs flat ('foni yakadzima bhatiri'), people politely explain why they missed messages ('mashoko'), and many households across urban and rural Zimbabwe use rooftop solar panels to keep phones and lights charged.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo.",
+        "The train will arrive after five minutes."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    }
+  ]
+}

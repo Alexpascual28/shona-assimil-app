@@ -34,7 +34,7 @@ export const ReviewSteps: React.FC = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-white">
-                  {reviewSummary?.title || `Comprehensive Review of Lessons ${currentLesson.num - 6} to ${currentLesson.num - 1}`}
+                  {reviewSummary?.title || `Comprehensive Review of Lessons ${Math.max(1, currentLesson.num - 6)} to ${currentLesson.num}`}
                 </h3>
                 <p className="text-xs text-slate-400 mt-0.5">
                   Assimil 7th-Lesson Consolidation: Synthesizing core grammar, noun classes, and conversational fluency

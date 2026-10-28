@@ -1,0 +1,189 @@
+{
+  "english_translation": "I am looking for my keys, but I do not see them on the table.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kutsvaga makiyi angu asi handisi kuawona patafura.",
+      "english": "I am looking for my keys, but I do not see them on the table.",
+      "literal_gloss": "Ndiri [ndiri] • kutsvaga [to / at tsvaga] • makiyi [plural kiyi] • angu [angu] • asi [but / however] • handisi [I do not si] • kuawona [to / at awona] • patafura [on the table]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutsvaga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvaga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tsvaga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "makiyi",
+          "morpheme_breakdown": "ma- (plural prefix) + -kiyi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural kiyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "angu",
+          "morpheme_breakdown": "angu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "angu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "handisi",
+          "morpheme_breakdown": "ha- (not) + ndi- (I) + -si",
+          "noun_class_or_concord": "Negative Verb (I do not ...)",
+          "literal_english": "I do not si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuawona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -awona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at awona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "patafura",
+          "morpheme_breakdown": "pa- (on) + tafura (table)",
+          "noun_class_or_concord": "Locative Noun (pa-)",
+          "literal_english": "on the table",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutsvaga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvaga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tsvaga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "makiyi",
+      "morpheme_breakdown": "ma- (plural prefix) + -kiyi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural kiyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "angu",
+      "morpheme_breakdown": "angu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "angu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "handisi",
+      "morpheme_breakdown": "ha- (not) + ndi- (I) + -si",
+      "noun_class_or_concord": "Negative Verb (I do not ...)",
+      "literal_english": "I do not si",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuawona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -awona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at awona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "patafura",
+      "morpheme_breakdown": "pa- (on) + tafura (table)",
+      "noun_class_or_concord": "Locative Noun (pa-)",
+      "literal_english": "on the table",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('patafura')",
+      "content": "Look at how location is expressed with 'patafura'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('angu')",
+      "content": "In Shona, possessive words like 'angu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Household Keys ('Makiyi') & Leaving Items on the Hall Table",
+      "content": "Before heading out to work or the market, families keep house and gate keys ('makiyi') in a central spot on the dining or living room table ('patafura') so everyone knows where to find them.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    }
+  ]
+}

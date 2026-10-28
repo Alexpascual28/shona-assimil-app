@@ -1,0 +1,189 @@
+{
+  "english_translation": "Has your father ever told you the history of your family's lineage?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Baba vako vakambokutaurira nhoroondo yedzinza remhuri yenyu here?",
+      "english": "Has your father ever told you the history of your family's lineage?",
+      "literal_gloss": "Baba [father] • vako [people ko] • vakambokutaurira [they (past) mbokutaurira] • nhoroondo [nhoroondo] • yedzinza [yedzinza] • remhuri [remhuri] • yenyu [yenyu] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Baba",
+          "morpheme_breakdown": "baba (father)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "father",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vako",
+          "morpheme_breakdown": "va- (plural people prefix) + -ko",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakambokutaurira",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -mbokutaurira",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) mbokutaurira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhoroondo",
+          "morpheme_breakdown": "nhoroondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhoroondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yedzinza",
+          "morpheme_breakdown": "yedzinza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yedzinza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "remhuri",
+          "morpheme_breakdown": "remhuri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "remhuri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yenyu",
+          "morpheme_breakdown": "yenyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yenyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Baba",
+      "morpheme_breakdown": "baba (father)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "father",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vako",
+      "morpheme_breakdown": "va- (plural people prefix) + -ko",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakambokutaurira",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -mbokutaurira",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) mbokutaurira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhoroondo",
+      "morpheme_breakdown": "nhoroondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nhoroondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yedzinza",
+      "morpheme_breakdown": "yedzinza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yedzinza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "remhuri",
+      "morpheme_breakdown": "remhuri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "remhuri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yenyu",
+      "morpheme_breakdown": "yenyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yenyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakambokutaurira')",
+      "content": "The verb 'vakambokutaurira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('vako')",
+      "content": "In Shona, possessive words like 'vako' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Family Lineage ('Dzinza'), Totems ('Mitupo') & Oral Family History",
+      "content": "In Shona culture, fathers, uncles, and grandfathers pass down the oral history of the family lineage ('nhoroondo yedzinza') and clan totem ('mutupo'—such as 'Shumba' Lion, 'Mhofu' Eland, 'Soko' Monkey, or 'Nzou' Elephant), teaching children their ancestral origins and praise poetry ('nhetembo dzemadzinza').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya vedu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "english_translation": "The bus was late today; I had to run to get to work on time.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Bhazi ranonoka nhasi; ndatozomhanya kuti ndisvike kubasa nenguva.",
+      "english": "The bus was late today; I had to run to get to work on time.",
+      "literal_gloss": "Bhazi [bus] • ranonoka [ranonoka] • nhasi [today] • ndatozomhanya [ndatozomhanya] • kuti [that / so that] • ndisvike [ndisvike] • kubasa [to/at work] • nenguva [and / with nguva]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Bhazi",
+          "morpheme_breakdown": "bhazi (bus)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "bus",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ranonoka",
+          "morpheme_breakdown": "ranonoka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ranonoka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndatozomhanya",
+          "morpheme_breakdown": "ndatozomhanya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndatozomhanya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndisvike",
+          "morpheme_breakdown": "ndisvike (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndisvike",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubasa",
+          "morpheme_breakdown": "ku- (to/at) + basa (work)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "to/at work",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Bhazi",
+      "morpheme_breakdown": "bhazi (bus)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "bus",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ranonoka",
+      "morpheme_breakdown": "ranonoka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ranonoka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndatozomhanya",
+      "morpheme_breakdown": "ndatozomhanya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndatozomhanya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndisvike",
+      "morpheme_breakdown": "ndisvike (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndisvike",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubasa",
+      "morpheme_breakdown": "ku- (to/at) + basa (work)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "to/at work",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('ranonoka')",
+      "content": "The verb 'ranonoka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kubasa')",
+      "content": "Look at how location is expressed with 'kubasa'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Morning Bus Commutes ('Bhazi') & Punctuality at Work",
+      "content": "When a morning commuter bus ('bhazi') is delayed by traffic, dedicated workers briskly hurry the final blocks ('ndatozomhanya') to clock in on time.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Father is in the house, but the children are playing outside.",
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

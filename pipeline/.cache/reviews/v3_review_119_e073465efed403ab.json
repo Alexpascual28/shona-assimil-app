@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 17 Comprehensive Review (Lessons 113–119)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 113–119)",
+        "points": [
+          "Lesson 113: \"Vana vaitamba mahumbwe vachidzidzira mabasa ehunyanzvi hwevakuru.\" — Children used to play house, practicing the skilled chores of adults.",
+          "Lesson 114: \"Mbuya Nehanda vakatungamirira vanhu pakurwira nyika yavo kubva kuvachena.\" — Mbuya Nehanda led the people in fighting for their land.",
+          "Lesson 115: \"Tichabuda nenguva kuti tisazononoka kutanga musangano wedu wemangwanani.\" — We will leave on time so that we are not late to start our morning meeting.",
+          "Lesson 116: \"Mudzidzisi wepachikoro akakutsanangurirai nezvekutama kwemaBantu here?\" — Did the schoolteacher explain the Bantu migration to you?",
+          "Lesson 117: \"Mota yafa parwendo saka tiri kutsvaga rubatsiro.\" — The car broke down on the trip, so we are looking for help.",
+          "Lesson 118: \"Mazuvano kunze kuri kupisa zvakanyanya masikati.\" — Nowadays it is very hot outside in the afternoon.",
+          "Lesson 119: \"Dzidza zvakawanda mazuva ose kuti uwedzere ruzivo.\" — Study a lot every day so that you increase your knowledge."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Counting & Numbers in Shona ('Vana'): Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)",
+          "Talking About the Past ('vakatungamirira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Future with '-cha-' ('Tichabuda'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)",
+          "Talking About the Past ('akakutsanangurirai'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yafa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('masikati'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Traditional Childhood Play ('Mahumbwe') as Practical Life Education: In traditional Shona upbringing, children played 'mahumbwe' after the harvest season—a structured role-playing game where boys and girls built miniature huts, cooked small portions of food gathered from the fields, and practiced the real-life responsibilities and skills of adulthood ('mabasa ehunyanzvi hwevakuru')..",
+          "Mbuya Nehanda (Charwe Nyakasikana) & the First Chimurenga (1896–1897): Nyakasikana, revered as the medium of the ancestral spirit Nehanda ('Mbuya Nehanda'), was one of the foremost spiritual and resistance leaders of the First Chimurenga (1896–1897) in Mashonaland, inspiring generations in the struggle for land and self-determination..",
+          "Early Morning Departures ('Kubuda Nenguva') to Beat Commuter Traffic: In cities like Harare and Bulawayo, commuters set out early from home ('kubuda nenguva') to catch morning transport and arrive ahead of schedule for early-morning workplace meetings..",
+          "The Great Bantu Migration ('Kutama kwemaBantu') into Southern Africa: History lessons in Zimbabwean schools trace how Iron Age Bantu-speaking communities ('maBantu') migrated southward across the Zambezi River nearly two thousand years ago, bringing iron smelting, cattle keeping, crop cultivation, and the ancestral roots of the Shona language.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Counting & Numbers in Shona ('Vana')",
+    "Talking About the Past ('vakatungamirira')",
+    "Talking About the Future with '-cha-' ('Tichabuda')",
+    "Talking About the Past ('akakutsanangurirai')",
+    "Talking About the Past ('yafa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 17 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 17 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "marori machena matatu nemotokari nhema mbiri",
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "shangu nhema mbiri nehembe tsvuku imwe"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 17 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Mundiro yemuti mune madora akakangwa.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 17 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "when they finished working at the market",
+        "because he worked alone in the field",
+        "if we work hard helping one another",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 17 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "modern traffic lights at city intersections",
+        "plastic tanks mounted beside houses to store water",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 17 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Many people are selling fruits and vegetables at the market.",
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "We are planning to visit our grandparents next month."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

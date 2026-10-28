@@ -1,0 +1,161 @@
+{
+  "english_translation": "The wind is blowing strongly from the east.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhepo iri kuvhuvhuta zvakasimba kubva kumabvazuva.",
+      "english": "The wind is blowing strongly from the east.",
+      "literal_gloss": "Mhepo [wind / fresh air] • iri [iri] • kuvhuvhuta [to / at vhuvhuta] • zvakasimba [zvakasimba] • kubva [to / at bva] • kumabvazuva [to / at mabvazuva]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhepo",
+          "morpheme_breakdown": "mhepo (wind / air)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "wind / fresh air",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuvhuvhuta",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -vhuvhuta",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at vhuvhuta",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakasimba",
+          "morpheme_breakdown": "zvakasimba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakasimba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at bva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumabvazuva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mabvazuva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mabvazuva",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhepo",
+      "morpheme_breakdown": "mhepo (wind / air)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "wind / fresh air",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuvhuvhuta",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -vhuvhuta",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at vhuvhuta",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakasimba",
+      "morpheme_breakdown": "zvakasimba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakasimba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at bva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumabvazuva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -mabvazuva",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at mabvazuva",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakasimba')",
+      "content": "The verb 'zvakasimba' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('iri' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'iri') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Cardinal Directions in Shona: East ('Mabvazuva') & West ('Madokero')",
+      "content": "Notice how poetic Shona cardinal directions are! East is 'mabvazuva'—literally 'where the sun comes from' ('kubva' + 'zuva')—while West is 'madokero' ('where the sun sets'). Prevailing moist winds from the Indian Ocean blow inland from the east ('kubva kumabvazuva').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "rakabuda",
+        "riri kubuda",
+        "richabuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "iri kuverenga",
+        "yakaverenga",
+        "ichaverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    }
+  ]
+}

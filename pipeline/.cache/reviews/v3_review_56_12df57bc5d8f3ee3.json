@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 8 Comprehensive Review (Lessons 50–56)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 50–56)",
+        "points": [
+          "Lesson 50: \"Gore rino kuchange kuine gohwo rakanaka, handiti?\" — This year there will be a good harvest, won't there?",
+          "Lesson 51: \"Mhepo yakavhuvhuta nesimba, miti ikazununguka.\" — The wind blew strongly, and the trees swayed.",
+          "Lesson 52: \"Pane tsvimbo yadonha pasi saka ndinokumbira uyinhonge.\" — There is a walking stick that fell on the ground, so I ask that you pick it up.",
+          "Lesson 53: \"Mungandibatsirawo here kusimudza bhokisi ririkurema iri?\" — Could you please help me lift this heavy box?",
+          "Lesson 54: \"Mvura yanaya nhasi, saka tinofanira kunonoka kuenda kumunda.\" — It has rained today, so we should delay going to the field.",
+          "Lesson 55: \"Tichasangana naamai kumusika kana tapedza kutenga miriwo.\" — We will meet Mother at the market when we finish buying vegetables.",
+          "Lesson 56: \"Humambo hweRozvi hwaizivikanwa neuto ravo raigona kurwa hondo.\" — The Rozvi Empire was renowned for its army that was skilled in warfare."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('rakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakavhuvhuta'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('ndinokumbira'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Talking About the Past ('yanaya'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Future with '-cha-' ('Tichasangana'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Predicting the Harvest ('Gohwo Rakanaka') & Conversational 'Handiti?': When the rains fall evenly through December and January, farmers look across green fields of waist-high maize and optimism rises for a strong harvest ('gohwo rakanaka').",
+          "August Winds ('Mhepo yaNyamavhuvhu') & Swaying Indigenous Trees: The Shona name for the month of August is 'Nyamavhuvhu'—named directly after the verb '-vhuvhuta' ('to blow strongly'), because swirling winds sweep across the plateau in August, shaking the trees ('miti ikazununguka') and blowing away dry winter leaves..",
+          "The Cultural Significance of an Elder's Walking Stick ('Tsvimbo'): In Shona tradition, a carved walking stick or staff ('tsvimbo') is not merely a walking aid—it is a symbol of elderhood, dignity, and family authority.",
+          "Using Potential Mood ('Mungandibatsirawo Here?') for Ultra-Polite Requests: Combining the respectful plural 'mu-', the potential marker '-nga-' ('could/would'), the object '-ndi-' ('me'), and '-wo' ('please') in 'Mungandibatsirawo here?' is the gold standard of polite Shona when asking someone to help lift a heavy box.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('rakanaka')",
+    "Talking About the Past ('yakavhuvhuta')",
+    "Present Tense & Everyday Actions ('ndinokumbira')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Talking About the Past ('yanaya')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Transport & City Vocabulary: What does the word 'marobhotsi' mean when driving in Harare or Bulawayo?",
+      "options": [
+        "Traffic lights",
+        "Roundabouts",
+        "Pedestrian bridges",
+        "Bus terminals"
+      ],
+      "correct_answer": "Traffic lights",
+      "explanation": "In Zimbabwean usage, 'robhoti' (singular) / 'marobhotsi' (plural) refers to traffic lights."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Vehicles & Numbers: How do you say 'two white commuter minibuses and one large haulage truck'?",
+      "options": [
+        "mabhazi matatu matsvuku nemotokari nhema mbiri",
+        "makombi machena maviri negonyeti guru rimwe chete",
+        "ngoro yemadhongi nemabhasikoro mana",
+        "chitima chirefu nemarori mashanu"
+      ],
+      "correct_answer": "makombi machena maviri negonyeti guru rimwe chete",
+      "explanation": "'Makombi machena maviri' = 'two white minibuses', and 'negonyeti guru rimwe chete' = 'and one large haulage truck'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Rural Transport: What is 'ngoro yemadhongi'?",
+      "options": [
+        "A passenger train",
+        "A wooden canoe on the river",
+        "A donkey-drawn cart",
+        "A mountain bicycle"
+      ],
+      "correct_answer": "A donkey-drawn cart",
+      "explanation": "'Ngoro' is a cart/wagon and 'yemadhongi' means 'of donkeys' (donkey-drawn)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Participles ('-chi-'): In 'Vanhu vakamira parutivi pemugwagwa vachimirira bhazi', what does 'vachimirira' mean?",
+      "options": [
+        "after they boarded",
+        "because they missed",
+        "they will never wait for",
+        "while waiting for (they waiting for)"
+      ],
+      "correct_answer": "while waiting for (they waiting for)",
+      "explanation": "The participial marker '-chi-' in 'vachimirira' means 'while waiting for'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Location Phrases: What does 'parutivi pemugwagwa' mean?",
+      "options": [
+        "beside the road / on the side of the road",
+        "in the middle of the bridge",
+        "at the end of the journey",
+        "inside the bus station"
+      ],
+      "correct_answer": "beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'at the side of / beside', and 'mugwagwa' is 'road'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 8 — Translate this new review sentence: ' Motokari dzakamira parobhoti nokuti mwenje mutsvuku wakabaka.'",
+      "options": [
+        "The white minibus is turning left near the big shop.",
+        "The cars are stopped at the traffic light because the red light is on.",
+        "People are crossing the street in the city centre.",
+        "The haulage truck is carrying goods to the market."
+      ],
+      "correct_answer": "The cars are stopped at the traffic light because the red light is on.",
+      "explanation": "'Motokari dzakamira parobhoti' = 'The cars are stopped at the traffic light', 'nokuti mwenje mutsvuku wakabaka' = 'because the red light is lit/on'."
+    }
+  ]
+}

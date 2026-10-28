@@ -1,0 +1,189 @@
+{
+  "english_translation": "In the time of the kings, did people pay tribute using livestock?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Munguva yamadzimambo vanhu vaibvisa mutero vachishandisa zvipfuyo here?",
+      "english": "In the time of the kings, did people pay tribute using livestock?",
+      "literal_gloss": "Munguva [in / singular nguva] • yamadzimambo [yamadzimambo] • vanhu [people] • vaibvisa [people ibvisa] • mutero [in / singular tero] • vachishandisa [people chishandisa] • zvipfuyo [things pfuyo] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Munguva",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yamadzimambo",
+          "morpheme_breakdown": "yamadzimambo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yamadzimambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaibvisa",
+          "morpheme_breakdown": "va- (plural people prefix) + -ibvisa",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ibvisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutero",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tero",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachishandisa",
+          "morpheme_breakdown": "va- (plural people prefix) + -chishandisa",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chishandisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvipfuyo",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -pfuyo",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things pfuyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Munguva",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nguva",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yamadzimambo",
+      "morpheme_breakdown": "yamadzimambo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yamadzimambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaibvisa",
+      "morpheme_breakdown": "va- (plural people prefix) + -ibvisa",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ibvisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutero",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tero",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachishandisa",
+      "morpheme_breakdown": "va- (plural people prefix) + -chishandisa",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chishandisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvipfuyo",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -pfuyo",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things pfuyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Talking About How Things Used to Be: The '-ai-' Past Habitual ('vaibvisa')",
+      "content": "In this sentence, 'vaibvisa' uses the past habitual/imperfect marker '-ai-'. Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), 'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known').",
+      "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Munguva yamadzimambo vanhu vaibvisa mutero vachishandisa zvipfuyo here...', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Tribute ('Mutero') & Livestock ('Zvipfuyo') in Pre-Colonial Kingdoms",
+      "content": "In the pre-colonial Mutapa and Rozvi states, outlying provinces acknowledged the king ('mambo') through periodic tribute ('mutero') paid in cattle and livestock ('zvipfuyo'), grain, iron hoes, or ivory—part of which was stored in royal granaries ('zunde ramambo') to feed communities in times of drought.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You meet your neighbour at 7:00 PM in the evening. Which greeting is appropriate?",
+      "options": [
+        "Mangwanani, warara sei?",
+        "Masikati, waswera sei?",
+        "Manheru, makadini henyu?",
+        "Mhoro, ndiri kuenda kuchikoro."
+      ],
+      "correct_answer": "Manheru, makadini henyu?",
+      "explanation": "'Manheru' is the greeting used in the evening, paired with 'makadini henyu?' ('how are you?')."
+    }
+  ]
+}

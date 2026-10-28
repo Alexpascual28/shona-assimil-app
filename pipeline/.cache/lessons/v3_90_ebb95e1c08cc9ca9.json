@@ -1,0 +1,301 @@
+{
+  "english_translation": "Our trip to the mountains was truly wonderful; although we encountered heavy rain along the way, we all managed to arrive safely.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Rwendo rwedu rwekuenda kumakomo rwakanakidza chaizvo, kunyangwe zvazvo takasangana nemvura yakawanda munzira, takazokwanisa kusvika tese mushe.",
+      "english": "Our trip to the mountains was truly wonderful; although we encountered heavy rain along the way, we all managed to arrive safely.",
+      "literal_gloss": "Rwendo [rwendo] • rwedu [rwedu] • rwekuenda [rwekuenda] • kumakomo [to / at makomo] • rwakanakidza [rwakanakidza] • chaizvo [very much / truly] • kunyangwe [to / at nyangwe] • zvazvo [zvazvo] • takasangana [we (past) sangana] • nemvura [and / with mvura] • yakawanda [it (past) wanda] • munzira [in / singular nzira] • takazokwanisa [we (past) zokwanisa] • kusvika [to / at svika] • tese [tese] • mushe [in / singular she]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rwendo",
+          "morpheme_breakdown": "rwendo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwendo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwedu",
+          "morpheme_breakdown": "rwedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwekuenda",
+          "morpheme_breakdown": "rwekuenda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwekuenda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumakomo",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -makomo",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at makomo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakanakidza",
+          "morpheme_breakdown": "rwakanakidza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakanakidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chaizvo",
+          "morpheme_breakdown": "chaizvo (very much)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / truly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunyangwe",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyangwe",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nyangwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvazvo",
+          "morpheme_breakdown": "zvazvo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvazvo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "takasangana",
+          "morpheme_breakdown": "ta- (we) + -ka- (past) + -sangana",
+          "noun_class_or_concord": "Past Tense Verb (we did ...)",
+          "literal_english": "we (past) sangana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemvura",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mvura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakawanda",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munzira",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nzira",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "takazokwanisa",
+          "morpheme_breakdown": "ta- (we) + -ka- (past) + -zokwanisa",
+          "noun_class_or_concord": "Past Tense Verb (we did ...)",
+          "literal_english": "we (past) zokwanisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusvika",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -svika",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at svika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tese",
+          "morpheme_breakdown": "tese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mushe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -she",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular she",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Rwendo",
+      "morpheme_breakdown": "rwendo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwendo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwedu",
+      "morpheme_breakdown": "rwedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwekuenda",
+      "morpheme_breakdown": "rwekuenda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwekuenda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumakomo",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -makomo",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at makomo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakanakidza",
+      "morpheme_breakdown": "rwakanakidza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakanakidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chaizvo",
+      "morpheme_breakdown": "chaizvo (very much)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / truly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunyangwe",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyangwe",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nyangwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvazvo",
+      "morpheme_breakdown": "zvazvo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvazvo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "takasangana",
+      "morpheme_breakdown": "ta- (we) + -ka- (past) + -sangana",
+      "noun_class_or_concord": "Past Tense Verb (we did ...)",
+      "literal_english": "we (past) sangana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemvura",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mvura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakawanda",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munzira",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nzira",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "takazokwanisa",
+      "morpheme_breakdown": "ta- (we) + -ka- (past) + -zokwanisa",
+      "noun_class_or_concord": "Past Tense Verb (we did ...)",
+      "literal_english": "we (past) zokwanisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kusvika",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -svika",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at svika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tese",
+      "morpheme_breakdown": "tese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mushe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -she",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular she",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('takasangana')",
+      "content": "The verb 'takasangana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('rwedu')",
+      "content": "In Shona, possessive words like 'rwedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Scenic Excursions to Zimbabwe's Mountain Ranges ('Kuenda kuMakomo')",
+      "content": "Trips to Zimbabwe's mountain regions—such as Mt Nyangani (the country's highest peak), the Vumba Mountains, or Chimanimani—often feature misty mountain showers ('mvura yakawanda') alongside breathtaking views.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In a Zimbabwean city, if a driver says 'Mota dzakamira parobhoti dzichimirira mwenje wegirinhi', where are the cars stopped?",
+      "options": [
+        "At a rural bus stop waiting for passengers",
+        "Inside a garage having their tyres repaired",
+        "At the traffic light waiting for the green light",
+        "Beside a river bridge that is under construction"
+      ],
+      "correct_answer": "At the traffic light waiting for the green light",
+      "explanation": "'Robhoti' (plural 'marobhotsi') is the standard Shona word for a traffic light, and 'mwenje wegirinhi' is the green light."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this new sentence in the past tense: 'Nezuro amai ______ sadza nenyama.' (Yesterday Mother cooked sadza and meat.)",
+      "options": [
+        "vakabika",
+        "vanozobika",
+        "vari kubika",
+        "ndichabika"
+      ],
+      "correct_answer": "vakabika",
+      "explanation": "'Amai' takes the respectful plural past prefix 'vaka-' + '-bika' (cook) -> 'vakabika' ('cooked')."
+    }
+  ]
+}

@@ -33,6 +33,9 @@ interface LessonContextType {
   updateActiveCorrection: (text: string) => void;
   recordExerciseScore: (exerciseId: string, isCorrect: boolean) => void;
   resetProgress: () => void;
+  allLessonsCompleted: boolean;
+  isGeneratingLessons: boolean;
+  generateNextFiftyLessons: () => Promise<void>;
 }
 
 const LessonContext = createContext<LessonContextType | undefined>(undefined);
@@ -182,13 +185,17 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     review_summary,
     review_exercises,
     active_exercises,
-    active_wave_target: raw.active_wave_review_lesson || (num >= 50 ? num - 49 : undefined)
+    active_wave_target: raw.active_wave_review_lesson || (num >= 51 ? num - 50 : undefined)
   };
 }
 
+const EXPANDED_COURSE_STORAGE_KEY = 'shona_assimil_expanded_course_v2';
+
 export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [courseData, setCourseData] = useState<CourseData | null>(null);
+  const [rawCourseSnapshot, setRawCourseSnapshot] = useState<Record<string, any> | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+  const [isGeneratingLessons, setIsGeneratingLessons] = useState<boolean>(false);
   const [progress, setProgress] = useState<UserProgress>(DEFAULT_USER_PROGRESS);
   const [currentLessonNum, setCurrentLessonNum] = useState<number>(1);
   const [currentStep, setCurrentStep] = useState<LessonStep>('PASSIVE_BLIND_1');
@@ -196,13 +203,43 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
   const [audioKey, setAudioKey] = useState<number>(0);
 
-  // Load course data from public/course_data.json
+  // Load course data from public/course_data.json (or expanded course if user already added +50 lessons)
   useEffect(() => {
     async function init() {
       try {
+        let rawData: Record<string, any> | null = null;
+
+        if (window.electronAPI?.loadExpandedCourse) {
+          try {
+            const expanded = await window.electronAPI.loadExpandedCourse();
+            if (expanded && Array.isArray(expanded.lessons) && expanded.lessons.length >= 100) {
+              rawData = expanded;
+            }
+          } catch {}
+        }
+
+        if (!rawData) {
+          try {
+            const localExpanded = localStorage.getItem(EXPANDED_COURSE_STORAGE_KEY);
+            if (localExpanded) {
+              const parsed = JSON.parse(localExpanded);
+              if (parsed && Array.isArray(parsed.lessons) && parsed.lessons.length >= 100) {
+                rawData = parsed;
+              }
+            }
+          } catch {}
+        }
+
         const res = await fetch('./course_data.json');
-        if (!res.ok) throw new Error('Failed to load course_data.json');
-        const rawData = await res.json();
+        if (res.ok) {
+          const baseData = await res.json();
+          if (!rawData || (Array.isArray(baseData.lessons) && baseData.lessons.length > (rawData.lessons?.length || 0))) {
+            rawData = baseData;
+          }
+        }
+        if (!rawData) throw new Error('Failed to load course_data.json');
+
+        setRawCourseSnapshot(rawData);
 
         // Normalize all lessons
         const rawList: RawLesson[] = rawData.lessons || [];
@@ -213,7 +250,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           version: rawData.version || '2.0.0',
           dialect: rawData.target_dialect || rawData.dialect || 'Standard Shona (Zezuru)',
           total_lessons: normalizedLessons.length,
-          active_wave_start_lesson: rawData.active_wave_start_lesson || 50,
+          active_wave_start_lesson: rawData.active_wave_start_lesson || 51,
           lessons: normalizedLessons
         };
 
@@ -296,12 +333,12 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       const idx = REVIEW_STEPS.indexOf(currentStep as ReviewStep);
       const titles: Record<ReviewStep, { title: string; instruction: string }> = {
         REVIEW_NOTES: {
-          title: `Comprehensive Review: Grammar & Syntactic Summary (Lessons ${Math.max(1, currentLessonNum - 6)}–${Math.max(1, currentLessonNum - 1)})`,
-          instruction: 'Review & Consolidate: Read through the summary covering key points from the previous 6 lessons.'
+          title: `Comprehensive Review: Grammar & Syntactic Summary (Lessons ${Math.max(1, currentLessonNum - 6)}–${currentLessonNum})`,
+          instruction: 'Review & Consolidate: Read through the summary covering key points from the last 7 lessons (including this lesson).'
         },
         REVIEW_EXERCISES: {
-          title: `Comprehensive Review: Interactive Exercises (Lessons ${Math.max(1, currentLessonNum - 6)}–${Math.max(1, currentLessonNum - 1)})`,
-          instruction: 'Interactive Evaluation: Test your mastery of the last 6 lessons with immediate feedback.'
+          title: `Comprehensive Review: Interactive Exercises (Lessons ${Math.max(1, currentLessonNum - 6)}–${currentLessonNum})`,
+          instruction: 'Interactive Evaluation: Test your mastery of the last 7 lessons with immediate feedback.'
         }
       };
 
@@ -441,9 +478,10 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           current_step: nextStep
         });
       } else {
-        // Completed 6-lesson review! If Lesson >= 50, now engage the Active Wave!
-        if (currentLessonNum >= 50) {
-          const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - 49);
+        // Completed 7-lesson review! If Lesson >= active_wave_start_lesson (51), now engage the Active Wave!
+        const activeStart = courseData.active_wave_start_lesson || 51;
+        if (currentLessonNum >= activeStart) {
+          const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - (activeStart - 1));
           const targetActiveLesson = courseData.lessons.find(l => l.num === targetActiveNum);
           if (targetActiveLesson) {
             setActiveLessonNum(targetActiveNum);
@@ -460,7 +498,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           }
         }
 
-        // Review completed (< 50) -> Advance to next lesson
+        // Review completed (< 51) -> Advance to next lesson
         const completedPassiveSet = new Set(progress.completed_passive);
         completedPassiveSet.add(currentLessonNum);
 
@@ -490,7 +528,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       });
     } else {
       // Completed Step 7 (PASSIVE_PREV_REVIEW)!
-      // 1. If this is a 7th-day review lesson, transition to the 6-lesson Review Phase next!
+      // 1. If this is a 7th-day review lesson, transition to the 7-lesson Review Phase next!
       if (isReviewLesson) {
         setCurrentStep('REVIEW_NOTES');
         persist({
@@ -500,9 +538,10 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         return;
       }
 
-      // 2. Check if Active Wave is triggered: lesson_number >= 50
-      if (currentLessonNum >= 50) {
-        const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - 49);
+      // 2. Check if Active Wave is triggered: lesson_number >= active_wave_start_lesson (51)
+      const activeStart = courseData.active_wave_start_lesson || 51;
+      if (currentLessonNum >= activeStart) {
+        const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - (activeStart - 1));
         const targetActiveLesson = courseData.lessons.find(l => l.num === targetActiveNum);
 
         if (targetActiveLesson) {
@@ -632,6 +671,173 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     persist(DEFAULT_USER_PROGRESS);
   }, [persist]);
 
+  // Check if all current lessons (both Passive 1..N and Active 1..N-50) are completed
+  const allLessonsCompleted = useMemo(() => {
+    if (!courseData || courseData.total_lessons === 0) return false;
+    const total = courseData.total_lessons;
+    const activeStart = courseData.active_wave_start_lesson || 51;
+    const requiredActiveMax = Math.max(0, total - (activeStart - 1));
+
+    const passiveSet = new Set(progress.completed_passive);
+    const activeSet = new Set(progress.completed_active);
+
+    for (let i = 1; i <= total; i++) {
+      if (!passiveSet.has(i)) return false;
+    }
+    for (let j = 1; j <= requiredActiveMax; j++) {
+      if (!activeSet.has(j)) return false;
+    }
+    return true;
+  }, [courseData, progress.completed_passive, progress.completed_active]);
+
+  // Generate +50 brand-new lessons in the Active Phase (e.g. 101..150 reviewing 51..100)
+  const generateNextFiftyLessons = useCallback(async () => {
+    if (!courseData || !allLessonsCompleted || isGeneratingLessons) return;
+    setIsGeneratingLessons(true);
+    try {
+      const prevTotal = courseData.total_lessons;
+      let updatedRaw: Record<string, any> | null = null;
+
+      if (window.electronAPI?.generateMoreLessons) {
+        try {
+          updatedRaw = await window.electronAPI.generateMoreLessons(50);
+        } catch (err) {
+          console.warn('Electron generateMoreLessons fallback to browser pool:', err);
+        }
+      }
+
+      // Browser / fallback expansion using expansion_pool.json
+      if (!updatedRaw) {
+        const poolRes = await fetch('./expansion_pool.json');
+        if (!poolRes.ok) throw new Error('Failed to load expansion_pool.json');
+        const poolLessons: RawLesson[] = await poolRes.json();
+
+        const currentRawList: RawLesson[] = (rawCourseSnapshot?.lessons as RawLesson[]) || [];
+        const existingIds = new Set(currentRawList.map((l: any) => l.clip_id).filter(Boolean));
+        const existingTexts = new Set(
+          currentRawList.map((l) => String(l.shona_text || '').trim().toLowerCase()).filter(Boolean)
+        );
+
+        const available = poolLessons.filter(
+          (item: any) =>
+            !existingIds.has(item.clip_id) &&
+            !existingTexts.has(String(item.shona_text || '').trim().toLowerCase())
+        );
+
+        const selectedBatch: RawLesson[] = [];
+        for (let i = 0; i < 50; i++) {
+          if (i < available.length) {
+            selectedBatch.push(JSON.parse(JSON.stringify(available[i])));
+          } else if (poolLessons.length > 0) {
+            const base = JSON.parse(JSON.stringify(poolLessons[i % poolLessons.length]));
+            base.clip_id = `${base.clip_id}_exp_${currentRawList.length + i + 1}`;
+            selectedBatch.push(base);
+          }
+        }
+
+        const activeStart = courseData.active_wave_start_lesson || 51;
+        const allRaw: RawLesson[] = [...currentRawList];
+
+        for (const rawNew of selectedBatch) {
+          const nextNum = allRaw.length + 1;
+          const isRev = nextNum % 7 === 0;
+          const blockIdx = Math.floor(nextNum / 7);
+          const startNum = Math.max(1, nextNum - 6);
+          const rangeStr = `Lessons ${startNum}–${nextNum}`;
+
+          const newItem: RawLesson = {
+            ...rawNew,
+            lesson_number: nextNum,
+            type: isRev ? 'review' : 'regular',
+            phase: 'active',
+            active_wave_review_lesson: nextNum - (activeStart - 1)
+          };
+          allRaw.push(newItem);
+
+          if (isRev) {
+            const sevenSlice = allRaw.slice(Math.max(0, allRaw.length - 7), allRaw.length);
+            const vocabPoints = sevenSlice.map(
+              (s, idx2) =>
+                `Lesson ${s.lesson_number || startNum + idx2}: "${String(s.shona_text || '').slice(0, 90)}" — ${String(s.english_translation || '').slice(0, 90)}`
+            );
+            const grammarPoints: string[] = [];
+            const culturePoints: string[] = [];
+            const reviewEx: Record<string, unknown>[] = [];
+            for (const s of sevenSlice) {
+              if (Array.isArray(s.grammar_notes) && s.grammar_notes.length > 0) {
+                const gn0 = s.grammar_notes[0];
+                if (typeof gn0 === 'object' && gn0 !== null && 'title' in gn0) {
+                  grammarPoints.push(`${gn0.title}${gn0.rule ? ': ' + gn0.rule : ''}`);
+                }
+              }
+              if (Array.isArray(s.cultural_notes) && s.cultural_notes.length > 0) {
+                const cn0 = s.cultural_notes[0];
+                if (typeof cn0 === 'object' && cn0 !== null && 'title' in cn0) {
+                  culturePoints.push(`${cn0.title}: ${String(cn0.content || '').split('. ')[0]}.`);
+                }
+              }
+              if (Array.isArray(s.active_exercises) && s.active_exercises.length > 0) {
+                reviewEx.push(s.active_exercises[0]);
+              }
+            }
+            newItem.review_summary = {
+              title: `Unit ${blockIdx} Comprehensive Review (${rangeStr})`,
+              sections: [
+                { heading: `1. Key Expressions & Sentences Reviewed (${rangeStr})`, points: vocabPoints.slice(0, 7) },
+                { heading: '2. Core Shona Grammar Rules Consolidated', points: grammarPoints.slice(0, 6) },
+                { heading: '3. Cultural Context & Practical Usage', points: culturePoints.slice(0, 4) }
+              ]
+            };
+            newItem.review_exercises = reviewEx.slice(0, 6);
+            newItem.reviewed_lessons = sevenSlice.map((s, idx2) => Number(s.lesson_number || startNum + idx2));
+          }
+        }
+
+        updatedRaw = {
+          ...(rawCourseSnapshot || {}),
+          total_lessons: allRaw.length,
+          active_wave_start_lesson: activeStart,
+          lessons: allRaw
+        };
+      }
+
+      if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+        setRawCourseSnapshot(updatedRaw);
+        try {
+          localStorage.setItem(EXPANDED_COURSE_STORAGE_KEY, JSON.stringify(updatedRaw));
+        } catch {}
+
+        const rawList: RawLesson[] = updatedRaw.lessons;
+        const normalizedLessons: Lesson[] = rawList.map((r, i) => normalizeLesson(r, i));
+        const normalizedData: CourseData = {
+          course_title: updatedRaw.course_title || courseData.course_title,
+          version: updatedRaw.version || courseData.version,
+          dialect: updatedRaw.target_dialect || updatedRaw.dialect || courseData.dialect,
+          total_lessons: normalizedLessons.length,
+          active_wave_start_lesson: updatedRaw.active_wave_start_lesson || 51,
+          lessons: normalizedLessons
+        };
+        setCourseData(normalizedData);
+
+        // Automatically advance to the first newly generated lesson (e.g. Lesson 101)
+        const firstNewNum = prevTotal + 1;
+        setCurrentLessonNum(firstNewNum);
+        setCurrentStep('PASSIVE_BLIND_1');
+        setActiveLessonNum(null);
+        persist({
+          ...progress,
+          current_lesson: firstNewNum,
+          current_step: 'PASSIVE_BLIND_1',
+          active_lesson_number: undefined
+        });
+      }
+    } catch (err) {
+      console.error('Failed to generate +50 lessons:', err);
+    } finally {
+      setIsGeneratingLessons(false);
+    }
+  }, [courseData, allLessonsCompleted, isGeneratingLessons, rawCourseSnapshot, progress, persist]);
+
   return (
     <LessonContext.Provider
       value={{
@@ -653,7 +859,10 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         updateActiveTranslation,
         updateActiveCorrection,
         recordExerciseScore,
-        resetProgress
+        resetProgress,
+        allLessonsCompleted,
+        isGeneratingLessons,
+        generateNextFiftyLessons
       }}
     >
       {children}

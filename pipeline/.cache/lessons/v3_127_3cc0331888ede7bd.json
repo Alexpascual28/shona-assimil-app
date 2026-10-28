@@ -1,0 +1,147 @@
+{
+  "english_translation": "The wind blew strongly, and the trees swayed.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhepo yakavhuvhuta nesimba, miti ikazununguka.",
+      "english": "The wind blew strongly, and the trees swayed.",
+      "literal_gloss": "Mhepo [wind / fresh air] • yakavhuvhuta [it (past) vhuvhuta] • nesimba [and / with simba] • miti [trees] • ikazununguka [ikazununguka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhepo",
+          "morpheme_breakdown": "mhepo (wind / air)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "wind / fresh air",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakavhuvhuta",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhuvhuta",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vhuvhuta",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimba",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ikazununguka",
+          "morpheme_breakdown": "ikazununguka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ikazununguka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhepo",
+      "morpheme_breakdown": "mhepo (wind / air)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "wind / fresh air",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakavhuvhuta",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhuvhuta",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vhuvhuta",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimba",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simba",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ikazununguka",
+      "morpheme_breakdown": "ikazununguka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ikazununguka",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakavhuvhuta')",
+      "content": "The verb 'yakavhuvhuta' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nesimba'",
+      "content": "Look closely at 'nesimba'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'simba' forms 'nesimba'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Mhepo yakavhuvhuta nesimba, miti ikazununguka.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "August Winds ('Mhepo yaNyamavhuvhu') & Swaying Indigenous Trees",
+      "content": "The Shona name for the month of August is 'Nyamavhuvhu'—named directly after the verb '-vhuvhuta' ('to blow strongly'), because swirling winds sweep across the plateau in August, shaking the trees ('miti ikazununguka') and blowing away dry winter leaves.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "They obtained a big harvest from their field this year",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The wind is blowing and it will rain in the evening.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    }
+  ]
+}

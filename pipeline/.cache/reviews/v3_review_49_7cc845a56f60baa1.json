@@ -1,0 +1,119 @@
+{
+  "review_summary": {
+    "title": "Unit 7 Comprehensive Review (Lessons 43–49)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 43–49)",
+        "points": [
+          "Lesson 43: \"Kunyangwe zvainetsa, akakwanisa kupedza chikoro.\" — Even though it was difficult, she managed to finish school.",
+          "Lesson 44: \"Mwana amuka achifara uye ave kuda kuenda kuchikoro manje.\" — The child woke up happy and now wants to go to school.",
+          "Lesson 45: \"Baba vari kugadzirisa chitofu chemumba chisiri kushanda.\" — Father is repairing the kitchen stove that is not working.",
+          "Lesson 46: \"Musangano watanga nenguva uye munhu wese anga akagadzirira.\" — The meeting started on time and everyone was prepared.",
+          "Lesson 47: \"Zuva ranyatsobuda nhasi; mbatya dziri kuoma nekukurumidza.\" — The sun has come out brightly today; the clothes are drying quickly.",
+          "Lesson 48: \"Hanzvadzi yangu iri kuverenga saka tiri kutaura tichizevezera.\" — My sibling is reading, so we are speaking in whispers.",
+          "Lesson 49: \"Ndinokumbirawo undibatsire basa iri, riri kundinetsa zvikuru.\" — Please help me with this work; it is giving me a lot of trouble."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('akakwanisa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kuchikoro'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Talking About the Past ('akagadzirira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Joining Words with 'ne-' ('and / with') in 'nekukurumidza': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Perseverance in Education ('Kupedza Chikoro') Against the Odds: Completing one's education ('kupedza chikoro') despite financial or practical hardships ('kunyangwe zvainetsa') is deeply admired across Zimbabwe, where families make immense sacrifices to see their children graduate..",
+          "Morning School Routines & Early Enthusiasm for Learning: Across towns and villages in Zimbabwe, mornings begin early as schoolchildren wake up cheerfully ('amuka achifara'), put on their pressed school uniforms, and set off on foot or by bus to arrive before morning assembly..",
+          "Home Maintenance & Fixing Kitchen Appliances ('Chitofu'): Practical self-reliance around the home—such as repairing a kitchen electric or gas stove ('kugadzirisa chitofu chemumba')—is an everyday skill valued in Zimbabwean households..",
+          "Community & Workplace Meetings ('Musangano') and Preparedness: Whether at a workplace briefing, a school parent-teacher association, or a neighbourhood development committee, starting a meeting on time ('watanga nenguva') with everyone well prepared ('akagadzirira') sets a tone of mutual respect.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('akakwanisa')",
+    "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kuchikoro')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Talking About the Past ('akagadzirira')",
+    "Joining Words with 'ne-' ('and / with') in 'nekukurumidza'"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Home & Living Room Vocabulary: What is 'imba yokutandarira' in English?",
+      "options": [
+        "The kitchen where food is prepared",
+        "The living room / sitting room (room for socializing)",
+        "The outdoor granary for storing maize",
+        "The classroom at a secondary school"
+      ],
+      "correct_answer": "The living room / sitting room (room for socializing)",
+      "explanation": "From '-tandara' (spend time chatting/socializing), 'imba yokutandarira' is the living room."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Spatial Prepositions: How do you say 'in the middle of the room' in Shona?",
+      "options": [
+        "pamusoro peimba",
+        "parutivi peimba",
+        "pakati peimba",
+        "seri kweimba"
+      ],
+      "correct_answer": "pakati peimba",
+      "explanation": "'Pakati pe-' means 'in the middle / centre of'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Kitchen Appliances: Which Shona sentence describes 'a white refrigerator and brown cupboards'?",
+      "options": [
+        "tebhuro diki nezvigaro zviviri",
+        "gaba remaruva nemabhuku matatu",
+        "hwindo guru nemusuwo muchena",
+        "firiji chena nemakabati ebhurauni"
+      ],
+      "correct_answer": "firiji chena nemakabati ebhurauni",
+      "explanation": "'Firiji chena' = 'white refrigerator', and 'nemakabati ebhurauni' = 'and brown cupboards'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Describing Objects: In 'gaba remaruva rine ruvara rwebhuruu', what is blue?",
+      "options": [
+        "The flower vase",
+        "The flowers inside the garden",
+        "The wooden table in the corner",
+        "The curtain on the window"
+      ],
+      "correct_answer": "The flower vase",
+      "explanation": "'Gaba remaruva' means 'flower vase / pot of flowers', and 'rine ruvara rwebhuruu' means 'it has a blue colour'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Garden Tools: What are 'badza, foshoro, nehara' used for?",
+      "options": [
+        "Cooking sadza and relish in the kitchen",
+        "Cultivating the field and tending the garden (hoe, shovel, and rake)",
+        "Writing examinations in a school classroom",
+        "Repairing minibuses and trucks in town"
+      ],
+      "correct_answer": "Cultivating the field and tending the garden (hoe, shovel, and rake)",
+      "explanation": "'Badza' is a hand hoe, 'foshoro' is a shovel/spade, and 'hara' is a garden rake."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 7 — Translate this new review sentence: 'Pamusoro petebhuro pane gaba remaruva machena.'",
+      "options": [
+        "Beside the house there is a large green water tank.",
+        "Inside the kitchen there are four chairs and a stove.",
+        "On top of the table there is a vase of white flowers.",
+        "Underneath the tree there are farm tools and buckets."
+      ],
+      "correct_answer": "On top of the table there is a vase of white flowers.",
+      "explanation": "'Pamusoro petebhuro' = 'On top of the table', 'pane' = 'there is', 'gaba remaruva machena' = 'a vase of white flowers'."
+    }
+  ]
+}

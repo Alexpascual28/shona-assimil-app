@@ -1,0 +1,217 @@
+{
+  "english_translation": "Does anyone know that the name Zimbabwe came from the houses of stone?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Pane anoziva kuti zita rekuti Zimbabwe rakabva pazvivakwa zvematombo here?",
+      "english": "Does anyone know that the name Zimbabwe came from the houses of stone?",
+      "literal_gloss": "Pane [on / at ne] • anoziva [he/she ziva] • kuti [that / so that] • zita [zita] • rekuti [rekuti] • Zimbabwe [zimbabwe] • rakabva [it (past) bva] • pazvivakwa [on / at zvivakwa] • zvematombo [zvematombo] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anoziva",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -ziva",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she ziva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zita",
+          "morpheme_breakdown": "zita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rekuti",
+          "morpheme_breakdown": "rekuti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rekuti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Zimbabwe",
+          "morpheme_breakdown": "zimbabwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zimbabwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakabva",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -bva",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) bva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pazvivakwa",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -zvivakwa",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at zvivakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvematombo",
+          "morpheme_breakdown": "zvematombo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvematombo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anoziva",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -ziva",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she ziva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zita",
+      "morpheme_breakdown": "zita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rekuti",
+      "morpheme_breakdown": "rekuti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rekuti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Zimbabwe",
+      "morpheme_breakdown": "zimbabwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zimbabwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakabva",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -bva",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) bva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pazvivakwa",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -zvivakwa",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at zvivakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvematombo",
+      "morpheme_breakdown": "zvematombo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvematombo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakabva')",
+      "content": "The verb 'rakabva' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('anoziva')",
+      "content": "The verb 'anoziva' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Origin of the Name 'Zimbabwe': 'Dzimba dzaMabwe' ('Houses of Stone')",
+      "content": "The name of the country 'Zimbabwe' comes directly from the Shona phrase 'Dzimba dzaMabwe' (or 'Dzimba weMabwe'), meaning 'Houses of Stone' ('zvivakwa zvematombo')—honouring the monumental dry-stone architecture of Great Zimbabwe near Masvingo.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    }
+  ]
+}

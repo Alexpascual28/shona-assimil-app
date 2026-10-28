@@ -1,0 +1,175 @@
+{
+  "english_translation": "When the settlers arrived, they seized the fertile farmlands by force.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Varungu pavakasvika vakatora minda yakanaka yevatema nechisimba.",
+      "english": "When the settlers arrived, they seized the fertile farmlands by force.",
+      "literal_gloss": "Varungu [people rungu] • pavakasvika [on / at vakasvika] • vakatora [they (past) tora] • minda [minda] • yakanaka [it (past) naka] • yevatema [yevatema] • nechisimba [and / with chisimba]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Varungu",
+          "morpheme_breakdown": "va- (plural people prefix) + -rungu",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people rungu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pavakasvika",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -vakasvika",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at vakasvika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakatora",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -tora",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) tora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "minda",
+          "morpheme_breakdown": "minda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "minda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakanaka",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -naka",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) naka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yevatema",
+          "morpheme_breakdown": "yevatema (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yevatema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechisimba",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chisimba",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chisimba",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Varungu",
+      "morpheme_breakdown": "va- (plural people prefix) + -rungu",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people rungu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pavakasvika",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -vakasvika",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at vakasvika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakatora",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -tora",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) tora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "minda",
+      "morpheme_breakdown": "minda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "minda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakanaka",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -naka",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) naka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yevatema",
+      "morpheme_breakdown": "yevatema (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yevatema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechisimba",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chisimba",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chisimba",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakatora')",
+      "content": "The verb 'vakatora' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('yevatema')",
+      "content": "This passage uses colour vocabulary such as 'yevatema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nechisimba'",
+      "content": "Look closely at 'nechisimba'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'chisimba' forms 'nechisimba'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Colonial Land Dispossession & the History of the Highveld Farmlands",
+      "content": "A pivotal chapter of Zimbabwean history was the 1890s colonial expropriation of fertile plateau farmlands ('minda yakanaka'), which became the central grievance driving both the First and Second Chimurenga liberation struggles.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

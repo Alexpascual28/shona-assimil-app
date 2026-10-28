@@ -1,0 +1,117 @@
+{
+  "review_summary": {
+    "title": "Unit 6 Comprehensive Review (Lessons 36–42)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 36–42)",
+        "points": [
+          "Lesson 36: \"Baba vakaenda kuHarare, asi vachadzoka mangwana.\" — Father went to Harare, but he will return tomorrow.",
+          "Lesson 37: \"Mbuya vari kurwara nhasi saka tiri kuenda kuvawona.\" — Grandmother is feeling unwell today, so we are going to visit her.",
+          "Lesson 38: \"Mbuya vangu, avo vanogara kumusha, vanorima nzungu.\" — My grandmother, who lives at the rural home, grows groundnuts.",
+          "Lesson 39: \"Ndapedza basa rese saka rega ndimbozorora zvishoma.\" — I have finished all the work, so let me rest for a little while.",
+          "Lesson 40: \"Ndiri kufara nekuona shamwari dzangu dzepachikoro.\" — I am happy to see my friends from school.",
+          "Lesson 41: \"Ndiri kunyora bvunzo dzangu dzekupedzisira svondo rino.\" — I am writing my final examinations this week.",
+          "Lesson 42: \"Mbatya dzangu dziri panze saka ndiri kuda kudziunganidza.\" — My clothes are outside, so I want to gather them in."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('vakaenda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Present Tense & Everyday Actions ('vanogara'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Talking About the Past ('Ndapedza'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Harare ('Guta reHarare') — Geography & History of Zimbabwe's Capital: Founded in 1890 and named after Chief Neharawa at renaming in 1982, Harare is Zimbabwe's capital and largest city.",
+          "Visiting Unwell Relatives ('Kushanyira Varwere') & Reverence for Grandmothers: In Shona culture, a grandmother ('mbuya') is revered as the matriarchal heart and storyteller of the extended family.",
+          "Groundnuts ('Nzungu'), Grinding Stones ('Guyo') & Homemade 'Dovi': Groundnuts ('nzungu') are one of the most important crops grown by grandmothers at the rural home ('kumusha').",
+          "Daily Rhythms: Early Morning Labour & Midday Rest ('Kuzorora'): In rural and peri-urban Zimbabwe, outdoor work begins at dawn when the air is cool and fresh."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('vakaenda')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Present Tense & Everyday Actions ('vanogara')",
+    "Talking About the Past ('Ndapedza')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Describing Clothing & Colours: How do you say 'The woman is wearing a green dress and white shoes'?",
+      "options": [
+        "Murume akatenga hembe tsvuku neshangu nhema.",
+        "Musikana ane bvudzi refu nemhete chena.",
+        "Mukadzi akapfeka rokwe regirinhi neshangu chena.",
+        "Vana vakapfeka mbatya dzekuchikoro nhasi."
+      ],
+      "correct_answer": "Mukadzi akapfeka rokwe regirinhi neshangu chena.",
+      "explanation": "'Akapfeka' = 'is wearing (state)', 'rokwe regirinhi' = 'a green dress', 'neshangu chena' = 'and white shoes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Stative Verbs ('-ka-'): Why does 'akapfeka' (using '-ka-') translate as 'is wearing' in the present?",
+      "options": [
+        "Because Shona has no present tense for clothing",
+        "Because it only refers to clothes worn last year",
+        "Because '-ka-' is the future marker",
+        "With posture and clothing verbs (-pfeka, -gara, -mira), '-ka-' describes a present resulting state"
+      ],
+      "correct_answer": "With posture and clothing verbs (-pfeka, -gara, -mira), '-ka-' describes a present resulting state",
+      "explanation": "Verbs of state like '-pfeka' (put on -> be wearing), '-gara' (sit -> be seated), and '-mira' (stand -> be standing) use '-ka-' for the current state."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Market Scenes: In 'Vakadzi vaviri vakagara pasi peamburera', where are the two women seated?",
+      "options": [
+        "Underneath an umbrella",
+        "Inside a grocery shop",
+        "On top of a wooden bench",
+        "Beside a large bus"
+      ],
+      "correct_answer": "Underneath an umbrella",
+      "explanation": "'Pasi pe-' means 'underneath / below', so 'pasi peamburera' is 'under an umbrella'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Containers & Produce: What does 'migomo miviri izere nemichero' mean?",
+      "options": [
+        "three bowls of cooked vegetables",
+        "two buckets full of fruit",
+        "four bags of white maize meal",
+        "two cups of fresh milk"
+      ],
+      "correct_answer": "two buckets full of fruit",
+      "explanation": "'Migomo miviri' = 'two buckets', 'izere ne-' = 'full of', and 'michero' = 'fruits'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Traditional Delicacies: What are 'madora' in Zimbabwean cuisine?",
+      "options": [
+        "Sweet pastries served with morning tea",
+        "Clay pots used for storing cool drinking water",
+        "Protein-rich mopane caterpillars, often roasted or cooked with tomatoes and onions",
+        "Woven baskets used for winnowing grain"
+      ],
+      "correct_answer": "Protein-rich mopane caterpillars, often roasted or cooked with tomatoes and onions",
+      "explanation": "'Madora' (mopane worms) are a prized, nutritious traditional delicacy across Zimbabwe."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 6 — Translate this new review sentence: 'Pamusika pane vanhu vazhinji vari kutenga mbatatisi nemadomasi.'",
+      "options": [
+        "Inside the shop there are red shirts and black shoes.",
+        "Two girls are walking along the road carrying baskets.",
+        "My mother cooked rice and chicken for our guests.",
+        "At the market there are many people buying potatoes and tomatoes."
+      ],
+      "correct_answer": "At the market there are many people buying potatoes and tomatoes.",
+      "explanation": "'Pamusika pane' = 'At the market there are', 'vanhu vazhinji vari kutenga' = 'many people buying', 'mbatatisi nemadomasi' = 'potatoes and tomatoes'."
+    }
+  ]
+}

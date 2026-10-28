@@ -9,7 +9,10 @@ import {
   RotateCcw,
   Trophy,
   Zap,
-  Clock
+  Clock,
+  Lock,
+  PlusCircle,
+  Loader2
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -23,7 +26,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
     currentLesson,
     progress,
     jumpToLesson,
-    resetProgress
+    resetProgress,
+    allLessonsCompleted,
+    isGeneratingLessons,
+    generateNextFiftyLessons
   } = useLesson();
 
   const [filter, setFilter] = useState<'all' | 'standard' | 'reviews' | 'active'>('all');
@@ -33,8 +39,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   if (!courseData) return null;
 
   const totalLessons = courseData.total_lessons;
-  const completedPassiveCount = progress.completed_passive.length;
-  const completedActiveCount = progress.completed_active.length;
+  const activeWaveStart = courseData.active_wave_start_lesson || 51;
+  const totalActiveWaveLessons = Math.max(1, totalLessons - (activeWaveStart - 1));
+  const completedPassiveCount = progress.completed_passive.filter((n) => n >= 1 && n <= totalLessons).length;
+  const completedActiveCount = progress.completed_active.filter((n) => n >= 1 && n <= totalActiveWaveLessons).length;
   const passivePercent = Math.round((completedPassiveCount / totalLessons) * 100);
 
   // Filter lessons (only by lesson number so transcripts/translations are never exposed)
@@ -129,7 +137,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                 <Sparkles className="w-3.5 h-3.5 text-purple-400" />
                 <div>
                   <div className="text-slate-400">Active Wave</div>
-                  <div className="font-bold text-slate-200">{completedActiveCount} / {Math.max(1, totalLessons - 49)}</div>
+                  <div className="font-bold text-slate-200">{completedActiveCount} / {totalActiveWaveLessons}</div>
                 </div>
               </div>
             </div>
@@ -188,7 +196,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
               >
-                Active Wave (50+)
+                Active Wave ({activeWaveStart}+)
               </button>
             </div>
           </div>
@@ -200,8 +208,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
               const isPassiveCompleted = progress.completed_passive.includes(l.num);
               const isActiveCompleted = progress.completed_active.includes(l.num);
               const isReview = l.type === 'review' || l.num % 7 === 0;
-              const isWaveTrigger = l.num >= courseData.active_wave_start_lesson;
-              const activeTargetForThis = isWaveTrigger ? (l.active_wave_target || l.num - 49) : null;
+              const isWaveTrigger = l.num >= activeWaveStart;
+              const activeTargetForThis = isWaveTrigger ? (l.active_wave_target || l.num - (activeWaveStart - 1)) : null;
 
               return (
                 <button
@@ -273,8 +281,48 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
             })}
           </div>
 
-          {/* Reset Progress Confirmation Footer */}
-          <div className="p-3 border-t border-slate-800/80 bg-slate-950">
+          {/* +50 New Lessons Expansion & Reset Progress Footer */}
+          <div className="p-3 border-t border-slate-800/80 bg-slate-950 space-y-2">
+            {/* +50 New Lessons Button (Greyed out until all current Passive & Active lessons are completed) */}
+            <div className="space-y-1">
+              <button
+                onClick={generateNextFiftyLessons}
+                disabled={!allLessonsCompleted || isGeneratingLessons}
+                title={
+                  allLessonsCompleted
+                    ? `Generate 50 brand-new lessons (Lessons ${totalLessons + 1}–${totalLessons + 50}) in Active Phase (reviewing Lessons ${totalLessons - 49}–${totalLessons})`
+                    : `Complete all ${totalLessons} Passive (${completedPassiveCount}/${totalLessons}) and ${totalActiveWaveLessons} Active (${completedActiveCount}/${totalActiveWaveLessons}) lessons to unlock +50 New Lessons`
+                }
+                className={`w-full flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs font-bold transition border ${
+                  allLessonsCompleted && !isGeneratingLessons
+                    ? 'bg-gradient-to-r from-amber-500 via-amber-600 to-purple-600 hover:from-amber-400 hover:to-purple-500 text-white border-amber-400/50 shadow-lg shadow-amber-500/20 cursor-pointer'
+                    : 'bg-slate-900/60 text-slate-500 border-slate-800/80 opacity-55 cursor-not-allowed'
+                }`}
+              >
+                {isGeneratingLessons ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin text-amber-300" />
+                    <span>Generating +50 New Lessons...</span>
+                  </>
+                ) : allLessonsCompleted ? (
+                  <>
+                    <PlusCircle className="w-4 h-4 text-white" />
+                    <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
+                  </>
+                ) : (
+                  <>
+                    <Lock className="w-3.5 h-3.5 text-slate-500" />
+                    <span>+50 New Lessons (L{totalLessons + 1}–L{totalLessons + 50})</span>
+                  </>
+                )}
+              </button>
+              {!allLessonsCompleted && (
+                <div className="text-[10px] text-slate-500 text-center leading-tight px-1">
+                  Complete all {totalLessons} Passive ({completedPassiveCount}/{totalLessons}) &amp; {totalActiveWaveLessons} Active ({completedActiveCount}/{totalActiveWaveLessons}) lessons to unlock
+                </div>
+              )}
+            </div>
+
             {showResetConfirm ? (
               <div className="space-y-2 p-2 bg-rose-950/40 rounded-xl border border-rose-500/30 text-xs">
                 <p className="text-rose-200 font-medium">Reset all lesson progress and active notes?</p>

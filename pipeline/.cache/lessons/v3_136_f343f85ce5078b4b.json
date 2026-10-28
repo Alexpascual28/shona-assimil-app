@@ -1,0 +1,175 @@
+{
+  "english_translation": "Let us start now before our time is taken up by other things.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ngatitangei zvino tisati tapedzerwa nguva nezvimwe zvinhu.",
+      "english": "Let us start now before our time is taken up by other things.",
+      "literal_gloss": "Ngatitangei [ngatitangei] • zvino [things no] • tisati [tisati] • tapedzerwa [tapedzerwa] • nguva [nguva] • nezvimwe [and / with zvimwe] • zvinhu [things nhu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ngatitangei",
+          "morpheme_breakdown": "ngatitangei (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngatitangei",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvino",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -no",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things no",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tapedzerwa",
+          "morpheme_breakdown": "tapedzerwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tapedzerwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nguva",
+          "morpheme_breakdown": "nguva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezvimwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zvimwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zvimwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinhu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nhu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ngatitangei",
+      "morpheme_breakdown": "ngatitangei (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ngatitangei",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvino",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -no",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things no",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tapedzerwa",
+      "morpheme_breakdown": "tapedzerwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tapedzerwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nguva",
+      "morpheme_breakdown": "nguva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezvimwe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zvimwe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zvimwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinhu",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nhu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nezvimwe'",
+      "content": "Look closely at 'nezvimwe'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'zvimwe' forms 'nezvimwe'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "The Passive Voice ('-wa' / '-iwa') in 'tapedzerwa'",
+      "content": "Notice how 'tapedzerwa' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done')  simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), '-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'.",
+      "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Valuing Time ('Nguva') & Collective Initiative ('Ngatitangei!')",
+      "content": "Using the inclusive exhortative prefix 'Nga-ti-...-i' ('Ngatitangei!'—'Let us begin right now!') rallies a group to make the most of the morning hours before other duties demand attention.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    }
+  ]
+}

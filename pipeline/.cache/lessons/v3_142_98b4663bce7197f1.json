@@ -1,0 +1,203 @@
+{
+  "english_translation": "My body feels tired and heavy, so I want to rest today.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Muviri wangu unonzwa kuremerwa saka ndiri kuda kuzorora nhasi.",
+      "english": "My body feels tired and heavy, so I want to rest today.",
+      "literal_gloss": "Muviri [in / singular viri] • wangu [wangu] • unonzwa [you nzwa] • kuremerwa [to / at remerwa] • saka [so / therefore] • ndiri [ndiri] • kuda [to / at da] • kuzorora [to / at zorora] • nhasi [today]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Muviri",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -viri",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wangu",
+          "morpheme_breakdown": "wangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unonzwa",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -nzwa",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you nzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuremerwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -remerwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at remerwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuzorora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -zorora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at zorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Muviri",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -viri",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "wangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unonzwa",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -nzwa",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you nzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuremerwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -remerwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at remerwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuzorora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -zorora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at zorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unonzwa')",
+      "content": "The verb 'unonzwa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('wangu')",
+      "content": "In Shona, possessive words like 'wangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Listening to the Body ('Muviri Unonzwa Kuremerwa') & Rest",
+      "content": "In Shona, physical fatigue is vividly described as the body 'feeling weighed down' ('muviri unonzwa kuremerwa'), a signal to take a day of rest and recovery at home.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    }
+  ]
+}

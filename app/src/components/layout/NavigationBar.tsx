@@ -21,20 +21,20 @@ export const NavigationBar: React.FC = () => {
   const isLastActiveStep = currentStep === 'ACTIVE_FINAL_SHADOW';
   const triggersReviewPhase = isLastPassiveStep && isReviewLesson;
   const triggersActiveWave =
-    (isLastPassiveStep && !isReviewLesson && currentLesson.num >= 50) ||
-    (isReviewCompleteStep && currentLesson.num >= 50);
+    (isLastPassiveStep && !isReviewLesson && currentLesson.num >= 51) ||
+    (isReviewCompleteStep && currentLesson.num >= 51);
 
   const getNextButtonConfig = () => {
     if (triggersReviewPhase) {
       return {
-        label: `Start 6-Lesson Review (Lessons ${Math.max(1, currentLesson.num - 6)}–${currentLesson.num - 1})`,
+        label: `Start 7-Lesson Review (Lessons ${Math.max(1, currentLesson.num - 6)}–${currentLesson.num})`,
         icon: <ArrowRight className="w-4 h-4 text-blue-200" />,
         className: 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-blue-600/30'
       };
     }
     if (triggersActiveWave) {
       return {
-        label: `Engage Active Wave (Lesson ${currentLesson.num - 49})`,
+        label: `Engage Active Wave (Lesson ${currentLesson.active_wave_target || (currentLesson.num - 50)})`,
         icon: <Zap className="w-4 h-4 fill-current text-purple-200" />,
         className: 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-purple-600/30'
       };
