@@ -815,6 +815,112 @@ def generate_textbook_grammar_notes(
             "rule": "Person/Thing + -ne = has/have (tine = we have, ine = it has) | pane / kune / mune = there is / there are",
         })
 
+    # 17. Past Habitual / Imperfect Tense ('-ai-' = 'used to / was ...-ing')
+    ai_matches = [
+        w for w in words
+        if re.match(r"^(nd|w|v|t|m|y|r|ch|zv|dz|hw|kw)?ai[a-z]{2,}a$", w.lower())
+        and w.lower() not in {"chaizvo", "pairi", "kwaita", "maitiro"}
+    ]
+    if ai_matches and len(notes) < 3:
+        ai_w = ai_matches[0]
+        notes.append({
+            "title": f"Talking About How Things Used to Be: The '-ai-' Past Habitual ('{ai_w}')",
+            "content": (
+                f"In this sentence, '{ai_w}' uses the past habitual/imperfect marker '-ai-'. "
+                "Whenever you talk about how people used to live in historical times, or an ongoing state in the past ('used to do', 'was/were doing'), "
+                "Shona combines the subject prefix with '-ai-' + the verb stem: for example, 'vaigara' ('they used to live'), "
+                "'vaitengeserana' ('they used to trade with one another'), 'yaivakwa' ('it used to be built'), and 'hwaizivikanwa' ('it was renowned/known')."
+            ),
+            "rule": "Subject Prefix + -ai- + Verb Stem = 'used to [verb] / was [verb]-ing' (va- + -ai- + -bva = vaibva, 'they came from')",
+        })
+
+    # 18. Passive Voice ('-wa' / '-iwa' = 'is/was done')
+    passive_matches = [
+        w for w in words
+        if re.search(r"(ikw|irw|isw|erw|urw|orw|nzw|tw|kw|rw|mw|dw|gw|pw|tsv|zvw)a$", w.lower())
+        and w.lower() not in {"mvura", "nyama", "shuga", "tafura", "nguva", "mbavha", "nhasi", "mangwana", "enzou"}
+    ]
+    if passive_matches and len(notes) < 3:
+        pw = passive_matches[0]
+        notes.append({
+            "title": f"The Passive Voice ('-wa' / '-iwa') in '{pw}'",
+            "content": (
+                f"Notice how '{pw}' ends in '-wa' right before the final '-a'. In Shona, you turn an active verb into a passive verb ('is done / was done') "
+                " simply by inserting '-w-' (or '-iw-' / '-ew-') before the final vowel '-a'! "
+                "For example: '-bika' (cook) becomes '-bikwa' ('be cooked', as in 'pakubikwa'), '-vaka' (build) becomes '-vakwa' ('be built'), "
+                "'-ruma' (bite/sting) becomes '-rumwa' ('be stung', as in 'arumwa nenyuchi'), and '-zivikanwa' means 'be known'."
+            ),
+            "rule": "Verb Root + -wa / -iwa = Passive ('be [verb]-ed') -> -bika (cook) -> -bikwa (be cooked); -vaka (build) -> -vakwa (be built)",
+        })
+
+    # 19. Demonstratives ('this / these / that / those')
+    dem_matches = [
+        w for w in words
+        if w.lower() in {"uyu", "uyo", "ava", "avo", "iyi", "iyo", "iri", "iro", "aya", "ayo", "ichi", "icho", "izvi", "izvo", "idzi", "idzo", "urwu", "uhwu", "uku", "uko", "apa", "apo", "umu", "muno", "pano", "kuno"}
+    ]
+    if dem_matches and len(notes) < 3:
+        dw = dem_matches[0]
+        notes.append({
+            "title": f"Pointing Out Things: Demonstratives ('{dw}' = 'this / that / here')",
+            "content": (
+                f"In Shona, words for 'this/these' and 'that/those' (like '{dw}') come AFTER the noun they point to and mirror the noun's group! "
+                "Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), "
+                "'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). "
+                "Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there)."
+            ),
+            "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)",
+        })
+
+    # 20. Infinitives with 'ku-' ('to do / doing')
+    inf_matches = [
+        w for w in words
+        if re.match(r"^(ne|pa|mu|ye|we|re|che|zve|dze)?ku[a-z]{3,}a$", w.lower())
+        and w.lower() not in {"kumba", "kumusha", "kunze", "kure", "kuno"}
+    ]
+    if inf_matches and len(notes) < 3:
+        iw = inf_matches[0]
+        notes.append({
+            "title": f"Infinitive Verbs & Action Nouns with 'ku-' ('{iw}')",
+            "content": (
+                f"Look at '{iw}' in this sentence. Every Shona verb in its dictionary ('to do') form begins with 'ku-': "
+                "for example, 'kudya' (to eat), 'kutenga' (to buy), 'kubhadhara' (to pay), 'kuona' (to see), and 'kurwa' (to fight). "
+                "Because 'ku-' verbs also behave as action nouns ('eating', 'paying', 'working'), you can attach linking prefixes directly to them: "
+                "'yekubhadhara' ('for paying'), 'pakubikwa' ('in the cooking'), and 'nekuona' ('by/with seeing')."
+            ),
+            "rule": "ku- + Verb Stem = 'to [verb] / [verb]-ing' (ku- + -tenga = kutenga, 'to buy'; ye- + kubhadhara = yekubhadhara, 'for paying')",
+        })
+
+    # 21. Adverbs of Manner & Degree ('zvakanaka', 'zvakasimba', 'zvishoma', 'chaizvo', 'zvikuru')
+    adv_matches = [
+        w for w in words
+        if w.lower() in {"zvakanaka", "zvakasimba", "zvishoma", "chaizvo", "zvikuru", "nekukurumidza", "nekukasira", "zvinyoronyoro", "zvakanyanya", "chose"}
+    ]
+    if adv_matches and len(notes) < 3:
+        aw = adv_matches[0]
+        notes.append({
+            "title": f"Describing How Actions Are Done: Adverbs & Intensifiers ('{aw}')",
+            "content": (
+                f"To describe HOW an action is performed, Shona frequently uses the prefix 'zva-' / 'zvi-' or intensifiers like '{aw}'. "
+                "Compare these high-frequency expressions you will hear every day: 'zvakanaka' ('well / nicely'), 'zvakasimba' ('firmly / strongly'), "
+                "'zvishoma' ('a little bit'), 'zvinyoronyoro' ('gently / softly'), and 'chaizvo' or 'zvikuru' ('very much / davvero')."
+            ),
+            "rule": "Verb + Adverb of Manner/Degree (zvakanaka = well, zvakasimba = firmly, zvishoma = a little, chaizvo/zvikuru = very much)",
+        })
+
+    # 22. Clause Connectors ('asi', 'saka', 'uye', 'nokuti')
+    conn_matches = [w for w in words if w.lower() in {"asi", "saka", "uye", "nokuti", "nekuti", "pamwe"}]
+    if conn_matches and len(notes) < 3:
+        cw = conn_matches[0]
+        notes.append({
+            "title": f"Linking Ideas Smoothly with '{cw}'",
+            "content": (
+                f"Longer Shona sentences flow naturally by linking two clauses with connectors like '{cw}'. "
+                "The four essential connectors to master are: 'uye' ('and / furthermore' between two clauses), "
+                "'asi' ('but / however'), 'saka' ('so / therefore'), and 'nokuti' / 'nekuti' ('because')."
+            ),
+            "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2",
+        })
+
     # Fill any remaining slot up to 3 notes with relevant sentence-building insights
     if len(notes) < 3:
         notes.append({
@@ -842,192 +948,419 @@ def generate_textbook_grammar_notes(
     return notes[:3]
 
 
+# Sentence-specific Cultural, Historical, Geographical & Environmental Notes
+# Every lesson receives a unique, deeply informative note directly tied to its text.
+SENTENCE_CULTURAL_NOTES: list[tuple[str, str, str]] = [
+    (
+        "huyai kuno nekukasira",
+        "Respectful Plural Address ('-i') & Calling Etiquette in Shona",
+        "When calling someone over in Zimbabwe ('Huyai kuno!'), both grammar and body language express respect. Adding '-i' to 'huya' ('huyai') honors an elder, parent, or group. Culturally, when gesturing for someone to come closer with your hand, you always beckon with your palm facing downward—beckoning with the palm facing upward or curling a single index finger is considered impolite.",
+    ),
+    (
+        'amai vakati, "chiuya kuno undibatsire',
+        "Children's Role & Helping Parents ('Kubatsira Vabereki') at Home",
+        "In Shona family life, children grow up participating in daily household tasks alongside their mother ('amai') and father ('baba')—from fetching utensils and sweeping the yard ('kutsvaira chivanze') to helping prepare meals. Learning to respond warmly when a parent says 'Chiuya kuno undibatsire' ('Come here now and help me') is considered a cornerstone of 'hunhu' (good character and upbringing).",
+    ),
+    (
+        "makorokoto nekubudirira kwenyu",
+        "Celebrating Shared Milestones ('Makorokoto!') in the Community",
+        "Whenever someone graduates, starts a new job, welcomes a baby, or achieves a life goal, relatives and neighbours gather to say 'Makorokoto nekubudirira kwenyu!' ('Congratulations on your success!'). In Zimbabwean culture, an individual's success belongs to the whole extended family, and celebrations are often accompanied by joyful ululation ('kupururudza' by women) and rhythmic clapping ('kuuchira' by men).",
+    ),
+    (
+        "vhara musuwo zvakasimba kana uchibuda",
+        "Home Security, Evening Breezes & the Highveld Climate",
+        "Much of Zimbabwe sits on a high central plateau ('Highveld') between 1,200 and 1,500 metres above sea level. Because of this elevation, brisk winds and cool evening air are common even after warm afternoons, and households habitually remind one another to close the door firmly ('vhara musuwo zvakasimba') when stepping outside.",
+    ),
+    (
+        "svika kumba nenguva nhasi tisati tadya manheru",
+        "The Evening Family Meal ('Chirairo') & Shared Dining Etiquette",
+        "In Zimbabwean homes, the evening meal ('chirairo' or 'kudya kwemanheru') is the main social gathering of the day. Family members make a special effort to return home before dinner ('tisati tadya manheru') so everyone can sit together, wash hands from a shared water jug and basin ('chirongo nedhishi'), and exchange news of the day.",
+    ),
+    (
+        "dzoka kumusha nekukurumidza kana wapedza basa",
+        "The Rural Homestead ('Kumusha') & Urban–Rural Family Ties",
+        "The word 'musha' (locative 'kumusha') means both 'home' and the ancestral rural homestead. Most Zimbabweans who work in towns or cities maintain deep roots in their rural 'kumusha', returning regularly on weekends and holidays after finishing work ('kana wapedza basa') to tend family land and visit elders.",
+    ),
+    (
+        "mangwanani. ndamuka zvakanaka nhasi; ndirikugadzirira kuenda kusvondo",
+        "Sunday Worship ('Svondo' / 'Chechi') & Choral Traditions in Zimbabwe",
+        "Note how the word 'svondo' means both 'week' and 'Sunday church service'! On Sunday mornings across Zimbabwe, neighbourhoods come alive as families walk to church wearing distinctive congregational uniforms ('machira echechi') in bright white, blue, green, or red, accompanied by rich four-part vocal harmonies, shakers ('hosho'), and drums ('ngoma').",
+    ),
+    (
+        "makorokoto, wabudirira",
+        "Peer Encouragement & Celebrating Personal Achievements",
+        "While 'Makorokoto nekubudirira kwenyu' uses the respectful plural 'kwenyu', saying 'Makorokoto, wabudirira!' uses the warm singular prefix 'wa-' ('you have succeeded') used between close friends, classmates, or by a parent praising a child who has just passed a test or mastered a new skill.",
+    ),
+    (
+        "tora kapu iyi uiise pedyo nefafitera",
+        "Kitchen Orderliness & Borrowed Household Words ('Fafitera' vs 'Hwindo')",
+        "Notice the word 'fafitera' ('window') alongside 'kapu' ('cup')! Shona has enriched its everyday household vocabulary over the past century by adapting words from both Afrikaans ('venster' -> 'fafitera', 'tafel' -> 'tafura') and English ('window' -> 'hwindo', 'cup' -> 'kapu'), all seamlessly fitted into Shona syllable structure where every word ends in a vowel.",
+    ),
+    (
+        "ndinonzwa nzara mangwanani kana ndisina kudya",
+        "Traditional & Modern Zimbabwean Breakfasts ('Chikafu cheMangwanani')",
+        "A hearty morning meal is essential before starting school or farm work. Alongside tea and bread, the classic Zimbabwean breakfast is 'bota'—a smooth, thinner maize or finger-millet porridge ('bota rezviyo') stirred with a dollop of rich homemade roasted peanut butter ('dovi'), or boiled sweet potatoes ('mbambaira') and pumpkin ('manhanga').",
+    ),
+    (
+        "takatenga hupfu, shuga, mafuta, nemuriwo",
+        "The Four Pantry Staples of Every Zimbabwean Kitchen",
+        "This single sentence names the four most essential grocery items in any Zimbabwean household: white maize meal ('hupfu') for cooking 'sadza', sugar ('shuga') for morning and afternoon tea, cooking oil ('mafuta') for sautéing relishes, and fresh leafy greens ('muriwo'—such as 'chomolia', rape, or mustard greens 'tsunga') harvested daily from the garden or market.",
+    ),
+    (
+        "nyama iyi yakaoma chaizvo pakubikwa kwayo",
+        "Slow-Braised Traditional Meats & 'Gocho' (Braai) Culture",
+        "In Zimbabwean cooking, free-range rural chicken ('huku yechivanhu' or 'roadrunner') and pasture-raised beef ('nyama yemombe') or goat ('nyama yembudzi') have a firmer texture and deeper flavour than commercial meats. Cooks simmer the meat slowly with water and salt until tender before letting it brown in its own natural fat ('kukanga').",
+    ),
+    (
+        "ndeipi mota yaunoda kutenga, tsvuku kana nhema",
+        "Car Ownership, Trans-African Imports & Colour Choices",
+        "Buying a family car ('mota' or 'motokari') is a major milestone in Zimbabwe. Most personal vehicles on Zimbabwean roads are fuel-efficient Japanese sedans and small trucks imported via ports in Dar es Salaam (Tanzania), Durban (South Africa), or Beira (Mozambique) and driven across the border posts at Chirundu, Beitbridge, or Forbes.",
+    ),
+    (
+        "chingwa chapera saka ndichapfuura nekuchitoro",
+        "Neighbourhood Grocery Stores ('Zvitoro') & Fresh Daily Bread",
+        "Freshly baked loaves of bread ('chingwa') from local bakeries like Lobels or Proton are a daily staple in Zimbabwean homes. Commuters returning from work ('pandinobva kubasa') routinely stop by their neighbourhood 'chitoro' (shop) in the late afternoon to pick up a fresh loaf for the next morning's breakfast.",
+    ),
+    (
+        "ndinoda kudya sadza neusavi hwakanaka nhasi",
+        "How 'Sadza' and 'Usavi' (Relish) Are Eaten Together",
+        "In Shona cuisine, 'sadza' is never eaten plain—it is always paired with 'usavi' (a savoury relish of vegetables, beans, meat, or fish in gravy). Traditionally eaten with the right hand after washing at the table, a small portion of 'sadza' is pinched off, rolled effortlessly in the palm into a smooth ball ('musuva'), and dipped into the 'usavi'.",
+    ),
+    (
+        "mudzidzisi akati tiunze mabhuku edu mangwana",
+        "Zimbabwe's High Literacy Rate & Respect for the 'Mudzidzisi'",
+        "Zimbabwe boasts one of the highest literacy rates in Africa (over 90%), a legacy of massive community investment in primary and secondary schools ('zvikoro') across both rural districts and urban centres. A teacher ('mudzidzisi') is addressed with deep respect by parents and students alike.",
+    ),
+    (
+        "ndaisa mvura patafura; ndangomirira vamwe kuti vauye",
+        "Hospitality Etiquette: Offering Water First & Waiting for Others",
+        "When hosting family or visitors in a Shona household, setting water on the table ('kuisa mvura patafura')—both cool drinking water and warm water for washing hands before a meal—is the first act of hospitality. Equally important is patience: hosts wait until everyone has arrived before serving the meal.",
+    ),
+    (
+        "wamboona bhuku rangu here? ndarisiya pedyo nepahwindo",
+        "Reading Culture & the History of Written Shona Literature",
+        "Shona has a vibrant literary heritage! Beginning with Solomon Mutswairo's pioneering 1956 novel 'Feso' and Bernard Chidzero's 'Nzvengamutsvairo', generations of Zimbabwean novelists and poets—such as Patrick Chakaipa, Charles Mungoshi, and Mordikai Hamutyinei—created classic Shona books ('mabhuku') studied and cherished in homes across the country.",
+    ),
+    (
+        "nhasi ndichabika sadza nemuriwo kuti tidye tese kumba",
+        "Home Kitchen Gardens ('Bindu') & Preparing 'Muriwo'",
+        "Almost every suburban yard and rural homestead in Zimbabwe features a 'bindu'—a lush kitchen vegetable patch growing leafy greens ('muriwo') alongside tomatoes and onions. To prepare 'muriwo', the greens are finely sliced with a knife in the hand without a chopping board and sautéed briefly with onions, tomatoes, and oil or peanut butter ('muriwo unedovi').",
+    ),
+    (
+        "ko ukawedzera munyu zvishoma hazvibudi zvakanaka here",
+        "Polite Indirect Suggestions in Shona Conversation",
+        "Notice how the speaker does not say 'This food lacks salt!' Instead, they ask gently: 'Ko ukawedzera munyu zvishoma, hazvibudi zvakanaka here?' ('What if you added a little salt—wouldn't it turn out well?'). Framing suggestions as polite questions preserves harmony and shows appreciation for the cook's effort.",
+    ),
+    (
+        "tine maminitsi mashanu chete saka ngatikurumidze",
+        "Cooperative Teamwork ('Ngatikurumidze') & Shared Responsibility",
+        "In Shona, when time is short ('maminitsi mashanu chete' — only five minutes), speakers rarely issue bossy commands to peers; instead, they use the inclusive first-person plural 'ngati-' ('ngatikurumidze' — 'let us hurry together'), emphasizing shared effort and mutual encouragement.",
+    ),
+    (
+        "tsvaga mari yekubhadhara vashandi pakupera kwemwedzi",
+        "Work, Month-End ('Kupera Kwemwedzi') & Economic Life in Zimbabwe",
+        "In Zimbabwe, 'kupera kwemwedzi' (month-end) is the liveliest time in every town and city as salaried workers ('vashandi') receive their monthly pay. Fulfilling the duty to pay workers promptly at the end of the month—whether farm hands, domestic helpers, or company staff—is a deeply held ethical obligation.",
+    ),
+    (
+        'vakuru vanoti, "chara chimwe hachitswanyi inda',
+        "Wisdom of the Elders: Shona Proverbs ('Tsumo') & 'Nhimbe' Cooperation",
+        "Proverbs ('tsumo') are quoted by elders ('vakuru') to teach timeless lessons. 'Chara chimwe hachitswanyi inda' ('One finger cannot crush a louse') embodies the traditional practice of 'nhimbe' (or 'humwe'), where an entire village gathers at one family's field to plough, weed, or harvest together in a single day.",
+    ),
+    (
+        "mwana ari kuchema mumba nokuti arumwa nenyuchi",
+        "Honeybees ('Nyuchi'), Wild Honey ('Uchi') & Miombo Woodlands",
+        "Zimbabwe's indigenous 'musasa' and 'munhondo' (miombo) woodlands blossom richly in spring, supporting abundant populations of African honeybees ('nyuchi'). Rural beekeepers craft cylindrical bark or log beehives ('mikoko') hung high in trees to harvest golden wild honey ('uchi'), while children playing outdoors quickly learn to respect buzzing bees!",
+    ),
+    (
+        "baba vakaenda kuharare, asi vachadzoka mangwana",
+        "Harare ('Guta reHarare') — Geography & History of Zimbabwe's Capital",
+        "Founded in 1890 and named after Chief Neharawa at renaming in 1982, Harare is Zimbabwe's capital and largest city. Situated on the central Highveld plateau at 1,490 metres elevation, Harare is famous for its sunny climate, wide avenues lined with purple jacaranda and red flamboyant trees, and bustling intercity bus and business terminals.",
+    ),
+    (
+        "mbuya vari kurwara nhasi saka tiri kuenda kuvawona",
+        "Visiting Unwell Relatives ('Kushanyira Varwere') & Reverence for Grandmothers",
+        "In Shona culture, a grandmother ('mbuya') is revered as the matriarchal heart and storyteller of the extended family. When an elder feels unwell ('vari kurwara'), family members do not merely send a message—they travel in person ('kuenda kuvawona') to sit beside them, inquire after their health, and help with household chores.",
+    ),
+    (
+        "mbuya vangu, avo vanogara kumusha, vanorima nzungu",
+        "Groundnuts ('Nzungu'), Grinding Stones ('Guyo') & Homemade 'Dovi'",
+        "Groundnuts ('nzungu') are one of the most important crops grown by grandmothers at the rural home ('kumusha'). After harvesting and drying the shells in the sun, the shelled nuts are roasted in a clay pot ('chbikiro') and ground on a flat granite stone ('guyo') using a round handstone ('huyo') into smooth, aromatic peanut butter ('dovi').",
+    ),
+    (
+        "tichasangana naamai kumusika kana tapedza kutenga miriwo",
+        "Open-Air Farmer's Markets ('Musika') & Community Meeting Points",
+        "From Harare's famous Mbare Musika to Sakubva in Mutare and Renkini in Bulawayo, the 'musika' (open-air market) is both the primary source of farm-fresh vegetables ('miriwo') and a central landmark where family members arrange to meet up ('kusangana') before travelling home together.",
+    ),
+    (
+        "ndapedza basa rese saka rega ndimbozorora zvishoma",
+        "Daily Rhythms: Early Morning Labour & Midday Rest ('Kuzorora')",
+        "In rural and peri-urban Zimbabwe, outdoor work begins at dawn when the air is cool and fresh. By early afternoon, once the day's main tasks are completed ('ndapedza basa rese'), taking a quiet rest ('kuzorora zvishoma') in the shade of a tree or veranda is a natural part of the daily rhythm.",
+    ),
+    (
+        "ndiri kufara nekuona shamwari dzangu dzepachikoro",
+        "Lifelong School Friendships ('Shamwari Dzepachikoro') in Zimbabwe",
+        "Zimbabwe's school year is divided into three terms separated by April, August, and December holidays. Because many students attend boarding schools or walk long distances together to day schools, 'shamwari dzepachikoro' (school friends) form remarkably close, lifelong bonds.",
+    ),
+    (
+        "ndiri kunyora bvunzo dzangu dzekupedzisira svondo rino",
+        "ZIMSEC National Examinations ('Bvunzo Dzekupedzisira') & Academic Pride",
+        "Final school examinations ('bvunzo dzekupedzisira')—administered nationally at Grade 7, Ordinary Level (Form 4), and Advanced Level (Form 6)—are a defining moment for young Zimbabweans. During exam week ('svondo rino'), younger siblings keep the house quiet so candidates can revise undisturbed.",
+    ),
+    (
+        "mbatya dzangu dziri panze saka ndiri kuda kudziunganidza",
+        "Outdoor Washing Lines & Zimbabwe's Sunny Highveld Skies",
+        "With over 300 days of sunshine a year across Zimbabwe, almost all household laundry ('mbatya' or 'nhumbi') is washed by hand and hung outdoors ('panze') on taut wire lines ('pawaya'). In late afternoon—or whenever dark summer clouds gather—someone calls out to gather ('kuunganidza') the crisp, sun-dried clothes indoors.",
+    ),
+    (
+        'akadanidzira achiti, "batai mbavha iyo',
+        "Community Vigilance & Neighbourhood Solidarity in Zimbabwe",
+        "In Zimbabwean townships ('marukisheni') and villages alike, neighbours know one another well and look out for each other's homes. Raising the alarm aloud ('kudanidzira') immediately rallies passersby to help recover stolen property and keep the street safe.",
+    ),
+    (
+        "unofunga kuti mvura ichanaya here mangwana",
+        "Zimbabwe's Three Seasons & Reading the Signs of Rain ('Mvura')",
+        "Because rain-fed agriculture sustains millions of livelihoods, predicting whether it will rain tomorrow ('kuti mvura ichanaya here mangwana') is a national pastime from October to March. Traditional weather lore watches for the cicadas ('nyenze') singing in the 'musasa' trees and humid north-easterly winds as sure signs of approaching rain.",
+    ),
+    (
+        "kirasi yanhasi yakanga yakanaka uye mudzidzisi akatsanangura",
+        "Bilingual Education & Studying 'ChiShona' in Zimbabwean Schools",
+        "In Zimbabwean classrooms ('mukirasi'), Shona is taught as an official examined subject right through secondary school and university, alongside English, science, and history. Students analyze Shona grammar, proverbs ('tsumo'), idioms ('madimikira'), and literature with the guidance of their teacher ('mudzidzisi').",
+    ),
+    (
+        "kwedu kune makomo marefu anonakidza kuona",
+        "Zimbabwe's Dramatic Mountain Landscapes ('Makomo Marefu')",
+        "From the mist-covered peaks of the Eastern Highlands—Mount Nyangani (2,592m), the Chimanimani Mountains, and the Bvumba—to the ancient granite inselbergs ('makomo') and balancing rocks of Matobo, Domboshava, and Epworth, mountain landscapes hold deep scenic and historical significance across Zimbabwe.",
+    ),
+    (
+        "ugosvika pano manhero kuti tigozodya tese",
+        "Evening Hospitality & Saving a Plate ('Kuchengetera Munhu Chikafu')",
+        "Communal eating ('kudya tese' — eating together) cements family bonds in Shona culture. Even if a relative is delayed until late evening ('manhero'), the cook always sets aside a generous covered portion near the hearth so no member of the home ever goes hungry.",
+    ),
+    (
+        "mvura iri kunaya zvakanyanya kunze uko nhasi",
+        "Summer Thunderstorms ('Mvura Iri Kunaya Zvakanyanya') on the Plateau",
+        "During the peak rainy months of December, January ('Ndira'), and February ('Kukadzi'), intense afternoon downpours sweep across the Zimbabwean plateau. While heavy rain ('mvura iri kunaya zvakanyanya') keeps people indoors for an hour or two, it is celebrated as a blessing ('makomborero') that fills rivers and nourishes the maize crop.",
+    ),
+    (
+        "humambo hwerozvi hwaizivikanwa neuto ravo raigona kurwa hondo",
+        "The Rozvi Empire ('Humambo hweRozvi') & Changamire Dombo",
+        "Founded in the late 17th century by the military strategist Changamire Dombo, the Rozvi Empire ('Humambo hweRozvi') ruled much of the Zimbabwean plateau until the 1830s. Renowned for its disciplined army ('uto') that expelled Portuguese forces in the 1690s, the Rozvi built magnificent patterned dry-stone capitals at Danangombe (Dhlo-Dhlo) and Naletale.",
+    ),
+    (
+        "vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure",
+        "Pre-Colonial Gold ('Ndarama') & Ivory ('Nyanga dzeNzou') Trade Routes",
+        "For over a millennium before colonial rule, Shona kingdoms—including Mapungubwe, Great Zimbabwe, Mutapa, and Torwa—conducted thriving international commerce. Gold ('ndarama') panned from rivers and mined from quartz reefs, along with elephant ivory ('nyanga dzenzou'), was traded along the Save and Zambezi valleys to Indian Ocean merchants ('vatorwa') from Kilwa, Sofala, Arabia, and Asia.",
+    ),
+    (
+        "nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semashona",
+        "Oral History ('Nhoroondo'), Totems ('Mitupo') & Shona Identity",
+        "Knowledge of family and national history ('nhoroondo dzekare') is passed down through clan praise poetry ('nhetembo dzorudzi') and totems ('mitupo'—such as 'Mhofu' Eland, 'Shumba' Lion, 'Soko' Vervet Monkey, 'Nzou' Elephant, and 'Gumbo' Leg). Knowing one's history and totem teaches kinship ties, marriage exogamy rules, and shared cultural values ('tsika dzedu semaShona').",
+    ),
+    (
+        "masvingo ekare akavakwa nemadzitateguru edu achishandisa matombo asina dhaka",
+        "The Mortarless Stone Engineering of Great Zimbabwe ('Masvingo eKare')",
+        "Built by Shona ancestors ('madzitateguru edu') between 1100 and 1450 AD, the Great Enclosure at Great Zimbabwe features granite walls rising up to 11 metres high and 250 metres around, constructed from nearly a million hand-dressed granite blocks laid without a single drop of mortar ('matombo asina dhaka'). Its chevron wall patterns and conical tower remain marvels of African engineering.",
+    ),
+    (
+        "misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marata",
+        "Traditional Shona Architecture: Pole, Dagga & Thatch ('Mbariro neHuswa')",
+        "Traditional rural homesteads ('misha yechinyakare') feature round kitchens ('imba yekubikira') and sleeping huts built with earthen brick or clay walls, roofed with a conical framework of sturdy wooden poles ('mbariro') tied with bark fibre ('rwodzi') and expertly thatched with bundled savannah grass ('huswa'). Unlike corrugated iron sheets ('marata'), grass thatch keeps the room naturally cool in summer and warm in winter.",
+    ),
+    (
+        "wakamboenda kunzvimbo dzinochengetedza nhoroondo dzenyika yedu yekare here",
+        "Zimbabwe's UNESCO Heritage Sites & Historical Monuments",
+        "Zimbabwe preserves extraordinary ancient heritage sites ('nzvimbo dzinochengetedza nhoroondo') across the country: Great Zimbabwe in Masvingo, the terraced stone platforms of Khami near Bulawayo, the ancient agricultural stone terraces and pit structures ('matanga') of Ziwa in Nyanga, and thousands of San and Shona rock art sites in the Matobo Hills.",
+    ),
+    (
+        "mureza wenyika une mavara matatu",
+        "Flag Colours, Design & the National Symbols of Zimbabwe",
+        "Adopted at Independence on 18 April 1980, Zimbabwe's national flag ('mureza weZimbabwe') is rich in symbolism: green represents agriculture and the land's flora, yellow stands for mineral wealth (gold, platinum, and diamonds), red commemorates the blood shed for independence, black represents the heritage of the majority population, white symbolizes peace, and the soapstone Zimbabwe Bird ('Hungwe') connects the modern nation to Great Zimbabwe.",
+    ),
+    (
+        "chinanasi chakadyarwa uye chinoratidza",
+        "Tropical Fruit Growing ('Chinanasi') in Zimbabwe's Eastern Highlands",
+        "Thanks to high rainfall, fertile red soils, and warm valleys in Manicaland's Rusitu Valley, Chipinge, and Honde Valley, Zimbabwe grows sweet tropical fruits ('michero') including pineapples ('zvinanasi'), bananas, avocados, macadamia nuts, and tea on lush mountain slopes.",
+    ),
+    (
+        "mugwagwa wakapamhamha une tara unoratidza",
+        "Zimbabwe's Trunk Highways & Seasonal Savannah Grass ('Sora Rakaoma')",
+        "Major tarred highways ('migwagwa ine tara') link Harare with Bulawayo, Mutare, Masvingo, and Chirundu across the high savannah plateau. During the dry winter and spring months from June to October, the roadside savannah grass ('sora') turns golden and dry ('rakaoma') beneath deep-rooted indigenous trees that stay green all year round.",
+    ),
+    (
+        "kombi chena iri kuratidza kuti yakatakura",
+        "Urban Commuter Minibuses ('Makombi') & Suburban Transit",
+        "In Harare, Bulawayo, Gweru, and Mutare, white commuter minibuses known as 'makombi' (singular: 'kombi') are the lifeblood of daily urban transit, shuttling commuters between tree-lined residential suburbs and the central business district from early morning until evening.",
+    ),
+    (
+        "nzvimbo inoratidzika kuti mudhorobha",
+        "Zimbabwean City Centres ('Mudhorobha'), High-Rises & Street Commerce",
+        "In Zimbabwean Shona, 'mudhorobha' (from 'dorp' / town) refers to the central business district of a town or city, characterized by multi-storey office buildings ('zvivakwa zvokudurikidzwa'), busy pedestrian pavements, retail stores, and lively street vendors ('vanotengesa') offering everyday wares.",
+    ),
+    (
+        "mbatya dziri kutengeswa dzakaunganidzwa pasi",
+        "Open-Air Clothing Markets ('Mabhero' / 'Kotamai') & Local Fashion",
+        "Across Zimbabwean towns and growth points, open-air clothing markets are popular places to shop for affordable, stylish garments ('mbatya' or 'hembe') and hats ('ngowani'). Because shoppers often bend down to inspect neatly stacked piles of clothing on clean groundsheets, such markets are affectionately nicknamed 'kotamai' ('bend down and choose!').",
+    ),
+    (
+        "imba hombe yokutandarira yakashongedzwa",
+        "The Sitting Room ('Imba Yokutandarira') & Zimbabwean Wood & Stone Carvings",
+        "Literally meaning 'the room for relaxing and conversing together', the 'imba yokutandarira' is the pride of a Zimbabwean home. Alongside upholstered sofas ('zvigaro zvomutefetefe') and cushions ('mitsago'), many families decorate their coffee tables with hand-carved wooden or serpentine stone sculptures ('zvivezwa') crafted by local Zimbabwean artists.",
+    ),
+    (
+        "tebhuro yekagadzikwawo girazi pamusoro payo",
+        "Cold Drinks ('Zvinwiwa'), Mazoe Orange Crush & Afternoon Hospitality",
+        "On warm afternoons in Zimbabwe, welcoming a guest to the table with a cold glass of cordial—most famously Zimbabwe's iconic Mazoe Orange Crush diluted with chilled water and ice cubes ('magodo echando' from the 'firiji')—or a bottled soft drink ('chigubhu chedhiringi') is a beloved tradition of home hospitality.",
+    ),
+    (
+        "pane mahara maviri nefoko ine musoro mutema",
+        "Homestead Garden Tools ('Maturusi') & Local Blacksmith Craftsmanship",
+        "Every rural and suburban household in Zimbabwe keeps a set of sturdy hand tools—hoes ('mabadza'), rakes ('mahara'), digging forks ('mafoko'), and shovels ('mafoshoro')—fitted with carved hardwood handles ('mibato yemuti') to prepare vegetable beds and clear stony yard paths.",
+    ),
+    (
+        "maruva ane ruvara rwegirinhi yakachenuruka",
+        "Veranda Container Gardening & Ornamental Plants in Zimbabwe",
+        "Container gardening—planting ornamental foliage and flowers ('maruva') in painted pots and tins ('magaba') arranged along smooth cement verandas ('pamusoro peuriri hwesimende')—is a cherished tradition in Zimbabwean homes, bringing greenery right to the doorstep even during the dry season.",
+    ),
+    (
+        "mugwagwa wetara urikupfuura motokari",
+        "Springtime 'Kupfumvutira' of Indigenous Trees & School Stationery Shops",
+        "Notice the expressive verb 'kupfumvutira'—the bursting forth of fresh new leaves on roadside trees in spring (September–October), when Zimbabwe's 'musasa' trees flush in brilliant shades of bronze, crimson, and fresh green before the rains! Meanwhile, town shops ('zvitoro') stock up on books ('mabhuku'), pens ('zvinyoreso'), and glue for the school term.",
+    ),
+    (
+        "vanhu varikutengesa vakawarira pasi zvinhu zvakawanda",
+        "Household Wares Markets & Woven Carrier Bags ('Mashangani')",
+        "At bustling community markets, vendors spread out practical household goods—sun hats, clothes pegs ('mapegisi'), scrubbing brushes ('mabhurashi'), and basins. Shoppers carry their purchases home in colourful woven checkered carrier bags colloquially known across Southern Africa as 'mashangani' bags.",
+    ),
+    (
+        "shangu yakagadzikwa parutivi rwematayera",
+        "Footwear Craftsmanship ('Shangu') & Bustling Town Walkways",
+        "Zimbabwe has a long tradition of leatherwork and footwear manufacturing (centered historically in Gweru with companies like Bata), alongside skilled roadside cobblers who keep leather shoes ('shangu') polished and repaired for busy city life.",
+    ),
+    (
+        "musha wakapakwa mota yerudzi rutema",
+        "Backyard Peach Trees ('Mupichisi'), Brick Stacking & Haulage 'Magonyeti'",
+        "This vivid passage captures three everyday sights in Zimbabwean peri-urban neighbourhoods: a fruiting peach tree ('muti wemupichisi') in the yard, stacks of clay bricks ('zvidhinha') ready for home extensions, and a massive intercity haulage truck—universally called a 'gonyeti'—parked along the main road.",
+    ),
+    (
+        "munhukadzi ari kugadzirwa musoro wake",
+        "Hair Braiding ('Kuruka Bvudzi') & Zimbabwe's Passion for Football ('Nhabvu')",
+        "This two-part passage highlights two pillars of contemporary Zimbabwean culture: intricate hairstyling ('kugadzirwa musoro' and twisting braids 'tumabhanzi'), which is both an art form and a social occasion, and football ('nhabvu' or 'bhora')—the country's most popular sport, played passionately in every neighbourhood and stadium.",
+    ),
+    (
+        "pakati pevanhu vari kufamba muguta parutivi",
+        "Neighbourhood Tuckshops ('Matakishopu') & Local Furniture Makers",
+        "Across Zimbabwean suburbs, small painted corner shops called 'matakishopu' (tuckshops) provide convenient daily groceries within walking distance of home, while local carpentry workshops and furniture stores craft patterned kitchen cabinets ('makabati') and wardrobes for growing households.",
+    ),
+    (
+        "vanhu vakaungana mubani vese vane migomo",
+        "Community Water Points, 'Jojo' Storage Tanks & Backyard Mango Trees",
+        "In many Zimbabwean neighbourhoods, solar-powered boreholes ('zvibhorani') feed elevated plastic storage tanks ('Jojo tanks') where residents gather with buckets ('migomo') and containers ('zvigubu') to draw clean water, surrounded by suburban gardens planted with shady green mango trees ('miti yemimango') and bright border flowers.",
+    ),
+    (
+        "munhurume wechiafrica akamira akabata machira",
+        "Mopane Caterpillars ('Madora'), Irish Potatoes & Zimbabwe's Mineral Wealth",
+        "This rich passage connects three icons of Zimbabwean life: golden locally grown potatoes ('mbatatisi'), a wooden bowl ('ndiro yemuti') brimming with protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions, and the mineral-rich soils ('zvicherwa') of the Great Dyke that make mining a cornerstone of Zimbabwe's economy.",
+    ),
+    (
+        "munhukadzi mumwe chete akamira akabata muchiuno",
+        "Evening Potato Markets ('Musika weMbatatisi') & Earning a Livelihood ('Pundutso')",
+        "As dusk falls in Zimbabwean towns, evening produce markets ('musika wembatatisi') stay busy so commuters walking home can buy potatoes, tomatoes, and onions. Notice the expressive word 'pundutso'—meaning meaningful progress, advancement, and a dignified livelihood earned through hard work.",
+    ),
+    (
+        "mushina unoshandiswa kunamirira mitengo",
+        "City Traffic Lights ('Marobhotsi') & Stadium Football Culture ('Munhandare')",
+        "Notice two classic Zimbabwean terms in this passage: 'marobhotsi' (traffic lights, painted with black-and-white striped poles at city intersections to prevent collisions) and 'nhandare' (a sports stadium), where thousands of supporters ('vaokeri') gather on weekends to cheer their favourite football clubs!",
+    ),
+    (
+        "rori huru kwazvo rakamira zvaro",
+        "From City 'Makombi' & Freight Trucks to the Stone Walls of Great Zimbabwe",
+        "Our final passage brings together modern and ancient Zimbabwe: heavy freight lorries refuelling along the highway, bustling city 'makombi' minibuses beneath illuminated high-rises, and the timeless granite enclosures of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), where visitors from around the world walk in the footsteps of the ancient Shona builders.",
+    ),
+]
+
+
 def generate_textbook_cultural_notes(
     shona_text: str, english_translation: str, lesson_number: int
 ) -> list[dict[str, str]]:
-    """Generates rich, topic-specific cultural notes directly related to the lesson's conversation or scene."""
-    lower = shona_text.lower()
-    words = set(re.findall(r"[a-z']+", lower))
+    """Generates rich, unique cultural, historical, geographical, or environmental notes
+    directly tied to the lesson's exact sentence or passage (with zero boilerplate fallbacks).
+    """
+    normalized = re.sub(r"\s+", " ", shona_text).strip().lower()
+    words = set(re.findall(r"[a-z']+", normalized))
 
-    if words & {"mangwanani", "masikati", "manheru", "mhoro", "makadini", "waswera"}:
+    # 1. Exact/prefix match against the comprehensive per-sentence Cultural & Historical Encyclopedia
+    for prefix_key, title, content in SENTENCE_CULTURAL_NOTES:
+        if normalized.startswith(prefix_key) or prefix_key in normalized:
+            return [{"title": title, "content": content}]
+
+    # 2. Historical & Heritage Topics (for any additional historical sentences from datasets)
+    if words & {"rozvi", "munhumutapa", "mutapa", "lobengula", "madzimambo", "mambo", "chimurenga", "nehanda", "chaminuka"}:
         return [{
-            "title": "The Art of Greeting in Shona Culture",
+            "title": "Pre-Colonial Kingdoms & Historical Leaders of Zimbabwe",
+            "content": (
+                f"In connection with '{english_translation}', Zimbabwe's history spans great pre-colonial states—including Great Zimbabwe (1100–1450), "
+                "the Mutapa Kingdom ('Humambo hwaMunhumutapa') in the north, the Torwa and Rozvi Empires ('Humambo hweRozvi') in the south-west, "
+                "and the Ndebele Kingdom under King Lobengula—as well as revered spiritual and liberation figures such as Chaminuka and Mbuya Nehanda."
+            ),
+        }]
+
+    if words & {"nguzozo", "zviyo", "mapfunde", "mhizha", "hari", "masimbi", "mapfumo", "uta", "miseve"}:
+        return [{
+            "title": "Traditional Grain Storage ('Nguzozo'), Pottery ('Hari') & Ironworking ('Mhizha')",
+            "content": (
+                f"Relating to '{english_translation}', traditional Shona communities cultivated drought-resistant indigenous grains like finger millet ('zviyo') "
+                "and sorghum ('mapfunde'), storing the harvest in raised, sealed granaries ('nguzozo' or 'dura'). Skilled artisans ('mhizha') smelted iron to forge "
+                "hoes and spears ('mapfumo'), while women molded decorated clay pots ('hari') for cooking and water storage."
+            ),
+        }]
+
+    if words & {"matobo", "zambezi", "makomo", "rwizi", "mapako"}:
+        return [{
+            "title": "Geography of Zimbabwe: The Zambezi, Matobo Hills & Highveld Rivers",
+            "content": (
+                f"In the context of '{english_translation}', Zimbabwe's geography is defined by the mighty Zambezi River ('Rwizi rweZambezi') in the north, "
+                "the Limpopo River in the south, the granite caves and ancient rock paintings of the Matobo Hills ('Makomo eMatobo') in the southwest, "
+                "and the lush Eastern Highlands along the border with Mozambique."
+            ),
+        }]
+
+    if words & {"mangwanani", "masikati", "manheru", "manhero", "mhoro", "makadini", "waswera"}:
+        return [{
+            "title": "The Art of Greeting & 'Hunhu' in Shona Culture",
             "content": (
                 "In Zimbabwe, greetings are never rushed—they are the foundation of every social interaction. Before asking a question, "
                 "entering a room, or starting business, people always exchange time-of-day greetings ('Mangwanani', 'Masikati', or 'Manheru') "
-                "and ask after the wellbeing of the other person's household ('Makadini mose muri mumba?'). Even when speaking to a single adult, "
+                "and ask after the wellbeing of the other person's household. Even when speaking to a single adult, "
                 "using the plural form ('ma-') is a sign of warmth and mutual respect known as 'hunhu' (ubuntu)."
             ),
         }]
 
-    if "makorokoto" in words:
+    if words & {"sadza", "hupfu", "muriwo", "nemuriwo", "neusavi", "nyama", "madora", "mbatatisi", "nyemba", "nzungu", "doro", "mazhanje", "makumbi"}:
         return [{
-            "title": "Celebrating Shared Success ('Makorokoto!')",
+            "title": "Zimbabwean Cuisine, Indigenous Fruits & Traditional Hospitality",
             "content": (
-                "Whenever someone passes an exam, starts a new job, welcomes a child, or achieves a goal, friends, neighbours, and family gather "
-                "to say 'Makorokoto!' ('Congratulations!'). Success in Shona culture is celebrated as a shared achievement for the whole family and community, "
-                "often accompanied by handshakes, ululation ('kupururudza'), and words of encouragement."
+                "Zimbabwean food culture blends staple farm produce—white maize meal ('hupfu') cooked into 'sadza', leafy greens ('muriwo'), "
+                "groundnuts ('nzungu'), and cowpeas ('nyemba')—with seasonal wild harvests from indigenous woodlands, including wild loquats ('mazhanje'), "
+                "marula fruit ('mapfura' / 'makumbi'), and mopane caterpillars ('madora')."
             ),
         }]
 
-    if words & {"chara", "inda", "vakuru", "zvirevo", "ngano"}:
+    if words & {"mvura", "munda", "kumunda", "goho", "gohwo", "rima", "vanorima", "badza", "turusi", "maturusi", "mafoshoro", "mahara", "mhepo", "zuva", "makore", "mhute"}:
         return [{
-            "title": "Wisdom of the Elders: Shona Proverbs ('Tsumo')",
+            "title": "Highveld Weather, the Rainy Season ('Zhizha') & Farming Life",
             "content": (
-                "Proverbs ('tsumo') are prized in Shona conversation as a way to pass down practical wisdom from elders ('vakuru'). "
-                "The famous proverb 'Chara chimwe hachitswanyi inda' ('One finger cannot crush a louse') teaches that no single person can solve "
-                "life's challenges alone—just as you need two thumbnails working together, people must cooperate and support one another in family and community life."
+                "Daily conversation in Zimbabwe closely follows the rhythm of the seasons: the cool dry winter ('chando') from May to August, "
+                "the hot dry spring ('chirimo') in September and October, and the main rainy and planting season ('zhizha') from November to March, "
+                "when rainfall ('mvura') and sunshine ('zuva') determine the year's harvest ('goho')."
             ),
         }]
 
-    if words & {"sadza", "hupfu", "muriwo", "nemuriwo", "neusavi", "nyama", "madora", "mbatatisi", "nyemba", "nzungu"}:
-        return [{
-            "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
-            "content": (
-                "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. "
-                "Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with "
-                "tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), "
-                "cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions."
-            ),
-        }]
-
-    if words & {"chingwa", "kapu", "shuga", "mukaka", "munyu"}:
-        return [{
-            "title": "Morning Tea, Bread & Hospitality at Home",
-            "content": (
-                "Breakfast in many Zimbabwean households centres around hot tea with milk ('mukaka') and sugar ('shuga') served alongside fresh bread ('chingwa') "
-                "or home-grown sweet potatoes and groundnut butter. When a visitor arrives at any time of day, offering a cup ('kapu') of tea or cool drinking water ('mvura') "
-                "at the table ('patafura') is an essential expression of household hospitality."
-            ),
-        }]
-
-    if words & {"kumusha", "mbuya", "sekuru", "nhoroondo", "masvingo", "munhumutapa", "great"}:
-        return [{
-            "title": "Ancestral Roots ('Kumusha') & Great Zimbabwe Heritage",
-            "content": (
-                "Even for families who live and work in cities like Harare, the rural family homestead ('kumusha')—where grandparents ('mbuya' and 'sekuru') often live—"
-                "remains the spiritual and cultural heart of the family. Travelling 'kumusha' during holidays strengthens family bonds. "
-                "On a national scale, the dry-stone walls of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), built centuries ago without mortar, gave modern Zimbabwe its name ('Dzimba dzemabwe' — Houses of Stone)."
-            ),
-        }]
-
-    if words & {"mvura", "munda", "kumunda", "goho", "gohwo", "rima", "vanorima", "badza", "turusi", "maturusi", "mafoshoro", "mahara"}:
-        return [{
-            "title": "Farming ('Kurima'), Rain & the Harvest Season",
-            "content": (
-                "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). "
-                "Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. "
-                "A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation."
-            ),
-        }]
-
-    if words & {"pamusika", "kumusika", "musika", "kutengesa", "varikutengesa", "muchitoro", "kuchitoro", "matakishopu", "michero", "chinanasi"}:
-        return [{
-            "title": "Bustling Open-Air Markets ('Musika') & Neighbourhood Shops",
-            "content": (
-                "Open-air markets ('pamusika') are vibrant community hubs across Zimbabwean towns and suburbs. Vendors sit beneath colourful umbrellas ('amburera') "
-                "selling fresh fruits ('michero') like pineapples ('chinanasi'), bananas, tomatoes, and potatoes alongside clothing and household goods. "
-                "For quick daily essentials close to home, residents also visit neighbourhood grocery stores ('zvitoro') and small corner tuckshops ('matakishopu')."
-            ),
-        }]
-
-    if words & {"bhazi", "kombi", "makombi", "mota", "motokari", "rori", "gonyeti", "madhongi", "ngoro", "marobhotsi", "robhoti", "mugwagwa"}:
-        return [{
-            "title": "Getting Around: Kombis, Buses, Rural Carts & 'Robots'",
-            "content": (
-                "Daily transport in Zimbabwe features unique local vocabulary! In towns and cities, most commuters travel by white commuter minibuses universally called 'makombi' (singular: 'kombi'), "
-                "while long-distance intercity trips use large buses ('bhazi') and heavy haulage trucks are affectionately nicknamed 'magonyeti'. "
-                "In rural areas, donkey-drawn carts ('ngoro yemadhongi') are widely used to carry goods. And if someone tells you to turn at the 'robhoti' (plural: 'marobhotsi'), "
-                "they don't mean a machine person—in Zimbabwe and Southern Africa, traffic lights are called 'robots'!"
-            ),
-        }]
-
-    if words & {"chikoro", "kuchikoro", "mudzidzisi", "bvunzo", "mabhuku", "penzura", "kirasi"}:
-        return [{
-            "title": "Education, School Life & Respect for Teachers",
-            "content": (
-                "Education ('dzidzo') is deeply valued by Zimbabwean families, who invest great pride in seeing children study hard ('kudzidza nesimba') "
-                "and pass their school examinations ('kupasa bvunzo'). Teachers ('vadzidzisi', singular: 'mudzidzisi') are addressed with high respect in the community, "
-                "and schoolmates ('shamwari dzepachikoro') often form lifelong friendships."
-            ),
-        }]
-
-    if words & {"jojo", "migomo", "zvigubu", "kucherera"}:
-        return [{
-            "title": "Water Conservation & Community Water Collection",
-            "content": (
-                "Across urban and peri-urban neighbourhoods in Zimbabwe, households commonly install large green or tan plastic water storage tanks—universally known as 'Jojo tanks'—"
-                "mounted on elevated brick or steel stands beside the house to store borehole or rainwater. At community water points, neighbours gather with buckets ('migomo') "
-                "and containers ('zvigubu'), turning water collection into a lively time for catching up with neighbours."
-            ),
-        }]
-
-    if words & {"zvipembere", "shiri", "imbwa", "makomo", "rwizi", "mhepo", "zuva"}:
-        return [{
-            "title": "Zimbabwe's Natural Landscape & Wildlife",
-            "content": (
-                "Zimbabwe is renowned for its dramatic landscapes—from the eastern highlands and balancing granite hills ('makomo') to great rivers ('rwizi') like the Zambezi "
-                "and rich wildlife parks home to rhinoceroses ('zvipembere'), elephants ('nzou'), and diverse birdlife ('shiri'). In both rural and suburban homes, "
-                "dogs ('imbwa') are kept as loyal watchdogs that alert the household at night."
-            ),
-        }]
-
-    if words & {"yokutandarira", "chigaro", "zvigaro", "tebhuro", "firiji", "makabati", "kicheni", "patafura", "tafura"}:
-        return [{
-            "title": "The Zimbabwean Home: Living Room ('Imba Yokutandarira') & Kitchen",
-            "content": (
-                "In Zimbabwean homes, the living room is called 'imba yokutandarira'—literally 'the room for spending social time and chatting together' (from 'kutandara', to socialize). "
-                "Welcoming guests into a neat, well-arranged sitting room with comfortable chairs ('zvigaro') and a central table ('tafura' or 'tebhuro'), or into a bright kitchen "
-                "with modern cupboards ('makabati') and a refrigerator ('firiji'), is a point of household pride."
-            ),
-        }]
-
-    if words & {"hembe", "shangu", "bvudzi", "mhete", "ngowani", "mbatya", "kupfeka", "akapfeka", "vakapfeka"}:
-        return [{
-            "title": "Dress, Grooming & Personal Presentation in Zimbabwe",
-            "content": (
-                "Neat personal presentation ('kuchena') is highly valued in everyday Zimbabwean life—whether dressing for work, church, school, or visiting family. "
-                "Notice how 'hembe' refers broadly to a shirt or top, 'mbatya' (or 'nhumbi') means clothes in general, and 'shangu' means shoes. "
-                "Braided hairstyles ('bvudzi rakarukwa'), earrings ('mhete'), and sun hats ('ngowani') are also everyday topics of compliment and description."
-            ),
-        }]
-
-    if words & {"maruva", "gaba", "mashizha", "miti", "muti", "uswa", "huswa"}:
-        return [{
-            "title": "Gardens, Trees & Appreciation of Nature Around the Home",
-            "content": (
-                "Both urban and rural households in Zimbabwe take great care of the yard ('chivanze') surrounding the home—planting shade and fruit trees ('miti'), "
-                "tending flower beds, and placing cut flowers ('maruva') in vases ('magaba emaruva') indoors. Shade trees around the yard also serve as cool gathering spots "
-                "where family members sit and converse during warm afternoons."
-            ),
-        }]
-
-    if words & {"mureza", "nyika"}:
-        return [{
-            "title": "National Symbols & Colours of Zimbabwe ('Mureza weZimbabwe')",
-            "content": (
-                "Every colour on the national flag of Zimbabwe ('mureza weZimbabwe') carries historical and natural meaning taught in schools across the country: "
-                "green ('girinhi') represents the land's agriculture and vegetation, yellow ('yero') stands for mineral wealth, red ('tsvuku') honours the blood shed during the liberation struggle, "
-                "black ('tema') represents the heritage of the majority people, and the white ('chena') triangle symbolizes peace."
-            ),
-        }]
-
-    if words & {"musuwo", "hwindo", "undibatsire", "kusimudza", "zevezera", "akarara", "zorora", "ndimbozorora", "makiyi"}:
-        return [{
-            "title": "Household Cooperation, Politeness & Consideration at Home",
-            "content": (
-                "Daily home life in Shona culture revolves around mutual assistance ('kubatsirana') and consideration for others in the household. "
-                "When asking a family member to help lift something heavy ('undibatsire kusimudza'), open or close a door ('musuwo') or window ('hwindo'), "
-                "or speak softly ('kuzevezera') while a child is sleeping ('mwana akarara'), polite phrasing keeps household life warm and harmonious."
-            ),
-        }]
-
+    # Specific contextual synthesis for any new custom sentence added in the future (never a generic politeness cliché)
     return [{
-        "title": "Everyday Communication, Politeness & Community Life",
+        "title": f"Shona Cultural & Everyday Context (Lesson {lesson_number})",
         "content": (
-            f"In everyday Shona conversation (as in '{english_translation[:80]}{'...' if len(english_translation) > 80 else ''}'), "
-            "speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), "
-            "speaking quietly when someone is resting or studying, or sharing news with family at the end of the day."
+            f"This expression ('{shona_text.strip()}' — \"{english_translation.strip()}\") reflects how Shona speakers connect daily family life, "
+            "work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe."
         ),
     }]
 

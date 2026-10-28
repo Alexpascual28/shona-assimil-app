@@ -150,9 +150,9 @@ def main(argv: list[str] | None = None) -> int:
     existing_clip_ids = {l.clip_id for l in existing_lessons if l.clip_id}
     existing_texts = {l.shona_text.strip().lower() for l in existing_lessons if l.shona_text}
 
-    # Calculate how many regular clips are needed to reach max_lessons (since every 7th slot is a review)
+    # Every lesson (including every 7th review lesson) now receives its own dataset audio clip for the Passive Phase
     review_interval = int(config.get("sequencer", {}).get("review_interval", 7))
-    needed_regular_clips = args.max_lessons - (args.max_lessons // review_interval)
+    needed_regular_clips = args.max_lessons
 
     collected_clips: list[NormalizedClip] = []
     source_datasets: list[str] = list(existing_sources)

@@ -256,8 +256,6 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   // Determine current step metadata
   const stepMetadata = useMemo((): StepMetadata => {
-    const isReviewLesson = currentLesson?.type === 'review' || (currentLesson && currentLesson.num % 7 === 0);
-
     if (ACTIVE_STEPS.includes(currentStep as ActiveStep)) {
       const idx = ACTIVE_STEPS.indexOf(currentStep as ActiveStep);
       const titles: Record<ActiveStep, { title: string; instruction: string }> = {
@@ -294,16 +292,16 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       };
     }
 
-    if (isReviewLesson) {
+    if (REVIEW_STEPS.includes(currentStep as ReviewStep)) {
       const idx = REVIEW_STEPS.indexOf(currentStep as ReviewStep);
       const titles: Record<ReviewStep, { title: string; instruction: string }> = {
         REVIEW_NOTES: {
-          title: `Comprehensive Review: Grammar & Syntactic Summary (Lesson ${currentLessonNum})`,
+          title: `Comprehensive Review: Grammar & Syntactic Summary (Lessons ${Math.max(1, currentLessonNum - 6)}–${Math.max(1, currentLessonNum - 1)})`,
           instruction: 'Review & Consolidate: Read through the summary covering key points from the previous 6 lessons.'
         },
         REVIEW_EXERCISES: {
-          title: `Comprehensive Review: Interactive Exercises (Lesson ${currentLessonNum})`,
-          instruction: 'Interactive Evaluation: Test your mastery with immediate feedback.'
+          title: `Comprehensive Review: Interactive Exercises (Lessons ${Math.max(1, currentLessonNum - 6)}–${Math.max(1, currentLessonNum - 1)})`,
+          instruction: 'Interactive Evaluation: Test your mastery of the last 6 lessons with immediate feedback.'
         }
       };
 
@@ -318,7 +316,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       };
     }
 
-    // Standard passive lesson
+    // Standard passive lesson steps (also used as Phase 1 of every 7th Review Lesson)
     const idx = PASSIVE_STEPS.indexOf(currentStep as PassiveStep);
     const titles: Record<PassiveStep, { title: string; instruction: string }> = {
       PASSIVE_BLIND_1: {
@@ -360,7 +358,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       title: meta?.title || 'Passive Phase',
       instruction: meta?.instruction || ''
     };
-  }, [currentStep, currentLesson, currentLessonNum, activeLessonNum]);
+  }, [currentStep, currentLessonNum, activeLessonNum]);
 
   // Audio helpers
   const replayAudio = useCallback(() => {
@@ -368,14 +366,13 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     setIsAudioPlaying(true);
   }, []);
 
-  // Jump to specific lesson
+  // Jump to specific lesson (all lessons, including 7th review lessons, begin with Passive Phase)
   const jumpToLesson = useCallback((targetNum: number) => {
     if (!courseData) return;
     const target = courseData.lessons.find(l => l.num === targetNum);
     if (!target) return;
 
-    const isReview = target.type === 'review' || targetNum % 7 === 0;
-    const firstStep: LessonStep = isReview ? 'REVIEW_NOTES' : 'PASSIVE_BLIND_1';
+    const firstStep: LessonStep = 'PASSIVE_BLIND_1';
 
     setCurrentLessonNum(targetNum);
     setCurrentStep(firstStep);
@@ -415,9 +412,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         completedPassiveSet.add(currentLessonNum);
 
         const nextLessonNum = Math.min(courseData.total_lessons, currentLessonNum + 1);
-        const nextLessonObj = courseData.lessons.find(l => l.num === nextLessonNum);
-        const nextIsReview = nextLessonObj?.type === 'review' || nextLessonNum % 7 === 0;
-        const nextInitialStep: LessonStep = nextIsReview ? 'REVIEW_NOTES' : 'PASSIVE_BLIND_1';
+        const nextInitialStep: LessonStep = 'PASSIVE_BLIND_1';
 
         setCurrentLessonNum(nextLessonNum);
         setCurrentStep(nextInitialStep);
@@ -435,8 +430,8 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       return;
     }
 
-    // B. Inside Review Lesson
-    if (isReviewLesson) {
+    // B. Inside Review Phase (after Passive Phase on every 7th lesson)
+    if (REVIEW_STEPS.includes(currentStep as ReviewStep)) {
       const currentReviewIdx = REVIEW_STEPS.indexOf(currentStep as ReviewStep);
       if (currentReviewIdx < REVIEW_STEPS.length - 1) {
         const nextStep = REVIEW_STEPS[currentReviewIdx + 1];
@@ -446,7 +441,26 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           current_step: nextStep
         });
       } else {
-        // Review completed -> Advance to next lesson
+        // Completed 6-lesson review! If Lesson >= 50, now engage the Active Wave!
+        if (currentLessonNum >= 50) {
+          const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - 49);
+          const targetActiveLesson = courseData.lessons.find(l => l.num === targetActiveNum);
+          if (targetActiveLesson) {
+            setActiveLessonNum(targetActiveNum);
+            setCurrentStep('ACTIVE_TRANSLATE');
+            const updatedTranslations = { ...progress.active_translations };
+            delete updatedTranslations[targetActiveNum];
+            persist({
+              ...progress,
+              current_step: 'ACTIVE_TRANSLATE',
+              active_lesson_number: targetActiveNum,
+              active_translations: updatedTranslations
+            });
+            return;
+          }
+        }
+
+        // Review completed (< 50) -> Advance to next lesson
         const completedPassiveSet = new Set(progress.completed_passive);
         completedPassiveSet.add(currentLessonNum);
 
@@ -464,7 +478,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       return;
     }
 
-    // C. Inside Standard Passive Lesson
+    // C. Inside Passive Phase (Steps 1-7)
     const currentPassiveIdx = PASSIVE_STEPS.indexOf(currentStep as PassiveStep);
     if (currentPassiveIdx < PASSIVE_STEPS.length - 1) {
       // Advance to next passive step
@@ -476,16 +490,24 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       });
     } else {
       // Completed Step 7 (PASSIVE_PREV_REVIEW)!
-      // Check if Active Wave is triggered: lesson_number >= 50
+      // 1. If this is a 7th-day review lesson, transition to the 6-lesson Review Phase next!
+      if (isReviewLesson) {
+        setCurrentStep('REVIEW_NOTES');
+        persist({
+          ...progress,
+          current_step: 'REVIEW_NOTES'
+        });
+        return;
+      }
+
+      // 2. Check if Active Wave is triggered: lesson_number >= 50
       if (currentLessonNum >= 50) {
-        // Trigger Active Wave!
         const targetActiveNum = currentLesson.active_wave_target || (currentLessonNum - 49);
         const targetActiveLesson = courseData.lessons.find(l => l.num === targetActiveNum);
 
         if (targetActiveLesson) {
           setActiveLessonNum(targetActiveNum);
           setCurrentStep('ACTIVE_TRANSLATE');
-          // Clear any pre-existing translation for this active lesson so the user gets an empty textbox
           const updatedTranslations = { ...progress.active_translations };
           delete updatedTranslations[targetActiveNum];
           persist({
@@ -498,29 +520,27 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         }
       }
 
-      // Normal completion of passive lesson (lesson < 50)
+      // 3. Normal completion of passive lesson (lesson < 50)
       const completedPassiveSet = new Set(progress.completed_passive);
       completedPassiveSet.add(currentLessonNum);
 
       const nextLessonNum = Math.min(courseData.total_lessons, currentLessonNum + 1);
-      const nextLessonObj = courseData.lessons.find(l => l.num === nextLessonNum);
-      const nextIsReview = nextLessonObj?.type === 'review' || nextLessonNum % 7 === 0;
-      const nextInitialStep: LessonStep = nextIsReview ? 'REVIEW_NOTES' : 'PASSIVE_BLIND_1';
-
       setCurrentLessonNum(nextLessonNum);
-      setCurrentStep(nextInitialStep);
+      setCurrentStep('PASSIVE_BLIND_1');
 
       persist({
         ...progress,
         completed_passive: Array.from(completedPassiveSet),
         current_lesson: nextLessonNum,
-        current_step: nextInitialStep
+        current_step: 'PASSIVE_BLIND_1'
       });
     }
   }, [currentLesson, courseData, currentStep, progress, activeLessonNum, currentLessonNum, persist]);
 
   // Prev Step Transition
   const goToPrevStep = useCallback(() => {
+    const isReviewLesson = currentLesson?.type === 'review' || (currentLesson && currentLesson.num % 7 === 0);
+
     // Inside Active Phase
     if (ACTIVE_STEPS.includes(currentStep as ActiveStep)) {
       const idx = ACTIVE_STEPS.indexOf(currentStep as ActiveStep);
@@ -529,37 +549,42 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         setCurrentStep(prevStep);
         persist({ ...progress, current_step: prevStep });
       } else {
-        // If at ACTIVE_TRANSLATE, step back to PASSIVE_PREV_REVIEW of current lesson
-        setCurrentStep('PASSIVE_PREV_REVIEW');
+        // If at ACTIVE_TRANSLATE, step back to REVIEW_EXERCISES (if 7th lesson) or PASSIVE_PREV_REVIEW
+        const prevPhaseStep: LessonStep = isReviewLesson ? 'REVIEW_EXERCISES' : 'PASSIVE_PREV_REVIEW';
+        setCurrentStep(prevPhaseStep);
         setActiveLessonNum(null);
         persist({
           ...progress,
-          current_step: 'PASSIVE_PREV_REVIEW',
+          current_step: prevPhaseStep,
           active_lesson_number: undefined
         });
       }
       return;
     }
 
-    // Inside Review Lesson
+    // Inside Review Phase
     if (REVIEW_STEPS.includes(currentStep as ReviewStep)) {
       const idx = REVIEW_STEPS.indexOf(currentStep as ReviewStep);
       if (idx > 0) {
         const prevStep = REVIEW_STEPS[idx - 1];
         setCurrentStep(prevStep);
         persist({ ...progress, current_step: prevStep });
+      } else {
+        // Step back from REVIEW_NOTES to PASSIVE_PREV_REVIEW of this 7th lesson
+        setCurrentStep('PASSIVE_PREV_REVIEW');
+        persist({ ...progress, current_step: 'PASSIVE_PREV_REVIEW' });
       }
       return;
     }
 
-    // Inside Standard Passive Lesson
+    // Inside Standard Passive Phase
     const idx = PASSIVE_STEPS.indexOf(currentStep as PassiveStep);
     if (idx > 0) {
       const prevStep = PASSIVE_STEPS[idx - 1];
       setCurrentStep(prevStep);
       persist({ ...progress, current_step: prevStep });
     }
-  }, [currentStep, progress, persist]);
+  }, [currentStep, currentLesson, progress, persist]);
 
   // Save user's active translation
   const updateActiveTranslation = useCallback((text: string) => {

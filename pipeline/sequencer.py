@@ -152,11 +152,11 @@ class AssimilSequencer:
                 stg_list.sort(key=lambda c: (c.difficulty_score, c.duration_seconds))
 
         stage_quotas = {
-            1: 9,
-            2: 10,
-            3: 9,
-            4: 10,
-            5: max(18, max_regular_clips - 38),
+            1: 10,
+            2: 12,
+            3: 11,
+            4: 11,
+            5: max(21, max_regular_clips - 44),
         }
 
         selected: list[NormalizedClip] = []
@@ -229,11 +229,16 @@ class AssimilSequencer:
                 else None
             )
 
+            clip = sorted_clips[clip_cursor]
+            clip_cursor += 1
+            preview_words = " ".join(clip.shona_text.split()[:6])
+            if len(clip.shona_text.split()) > 6:
+                preview_words += "..."
+
             if next_lesson_num % self.review_interval == 0:
-                preceding_regular = [
+                preceding_six = [
                     l.lesson_number
                     for l in lessons[max(0, len(lessons) - (self.review_interval - 1)) :]
-                    if l.type == "regular"
                 ]
                 review_block_num = next_lesson_num // self.review_interval
                 lessons.append(
@@ -242,17 +247,23 @@ class AssimilSequencer:
                         type="review",
                         phase=phase,
                         active_wave_review_lesson=active_wave_ref,
-                        title=f"Chidzidzo {next_lesson_num}: Dzokororo {review_block_num} (Comprehensive Review)",
+                        title=f"Chidzidzo {next_lesson_num}: {preview_words} (Dzokororo {review_block_num})",
+                        source_dataset=clip.source_dataset,
+                        clip_id=clip.clip_id,
+                        audio_url=clip.audio_path,
+                        duration_seconds=clip.duration_seconds,
+                        difficulty_score=clip.difficulty_score,
+                        pedagogical_stage=clip.pedagogical_stage,
+                        word_count=clip.word_count,
+                        avg_word_length=clip.avg_word_length,
                         dialect="Standard Shona",
-                        reviewed_lessons=preceding_regular,
+                        dialect_confidence=clip.dialect_confidence,
+                        code_switching_ratio=clip.code_switching_ratio,
+                        shona_text=clip.shona_text,
+                        reviewed_lessons=preceding_six,
                     )
                 )
             else:
-                clip = sorted_clips[clip_cursor]
-                clip_cursor += 1
-                preview_words = " ".join(clip.shona_text.split()[:6])
-                if len(clip.shona_text.split()) > 6:
-                    preview_words += "..."
                 lessons.append(
                     Lesson(
                         lesson_number=next_lesson_num,
@@ -277,37 +288,8 @@ class AssimilSequencer:
 
             next_lesson_num += 1
 
-        if (
-            next_lesson_num <= total_target
-            and next_lesson_num % self.review_interval == 0
-            and len(lessons) >= (self.review_interval - 1)
-        ):
-            phase = "active" if next_lesson_num >= self.active_wave_start else "passive"
-            active_wave_ref = (
-                next_lesson_num - (self.active_wave_start - 1)
-                if next_lesson_num >= self.active_wave_start
-                else None
-            )
-            preceding_regular = [
-                l.lesson_number
-                for l in lessons[max(0, len(lessons) - (self.review_interval - 1)) :]
-                if l.type == "regular"
-            ]
-            review_block_num = next_lesson_num // self.review_interval
-            lessons.append(
-                Lesson(
-                    lesson_number=next_lesson_num,
-                    type="review",
-                    phase=phase,
-                    active_wave_review_lesson=active_wave_ref,
-                    title=f"Chidzidzo {next_lesson_num}: Dzokororo {review_block_num} (Comprehensive Review)",
-                    dialect="Standard Shona",
-                    reviewed_lessons=preceding_regular,
-                )
-            )
-
         logger.info(
-            "Sequenced %d total lessons (%d regular, %d review; Active Wave lessons >= %d: %d).",
+            "Sequenced %d total lessons (%d regular, %d review with passive audio; Active Wave lessons >= %d: %d).",
             len(lessons),
             sum(1 for l in lessons if l.type == "regular"),
             sum(1 for l in lessons if l.type == "review"),

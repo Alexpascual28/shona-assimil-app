@@ -80,7 +80,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                 Shona Assimil
               </h1>
               <p className="text-[11px] text-amber-400 font-medium truncate">
-                ChiZezuru (Harare Standard)
+                Shona With Ease
               </p>
             </div>
           </div>

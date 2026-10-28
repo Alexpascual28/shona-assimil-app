@@ -8,6 +8,7 @@ export const Header: React.FC = () => {
   if (!currentLesson) return null;
 
   const isReview = currentLesson.type === 'review' || currentLesson.num % 7 === 0;
+  const isReviewPhase = stepMetadata.phase === 'review';
   const isActiveWave = stepMetadata.phase === 'active';
 
   const displayLesson = isActiveWave && activeTargetLesson ? activeTargetLesson : currentLesson;
@@ -18,7 +19,7 @@ export const Header: React.FC = () => {
       ? 'Review Module'
       : '';
 
-  // Step names for visual breadcrumbs
+  // Step names for visual breadcrumbs based on the active phase of the lesson
   const getStepLabels = () => {
     if (isActiveWave) {
       return [
@@ -29,7 +30,7 @@ export const Header: React.FC = () => {
         { key: 'ACTIVE_FINAL_SHADOW', label: '5. Shadow' }
       ];
     }
-    if (isReview) {
+    if (isReviewPhase) {
       return [
         { key: 'REVIEW_NOTES', label: '1. Review Summary' },
         { key: 'REVIEW_EXERCISES', label: '2. Interactive Quiz' }

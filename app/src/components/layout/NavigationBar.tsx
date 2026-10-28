@@ -13,28 +13,37 @@ export const NavigationBar: React.FC = () => {
 
   if (!currentLesson) return null;
 
-  const isFirstStep =
-    currentStep === 'PASSIVE_BLIND_1' ||
-    currentStep === 'REVIEW_NOTES';
+  const isFirstStep = currentStep === 'PASSIVE_BLIND_1';
 
+  const isReviewLesson = currentLesson.type === 'review' || currentLesson.num % 7 === 0;
   const isLastPassiveStep = currentStep === 'PASSIVE_PREV_REVIEW';
   const isReviewCompleteStep = currentStep === 'REVIEW_EXERCISES';
   const isLastActiveStep = currentStep === 'ACTIVE_FINAL_SHADOW';
-  const triggersActiveWave = isLastPassiveStep && currentLesson.num >= 50;
+  const triggersReviewPhase = isLastPassiveStep && isReviewLesson;
+  const triggersActiveWave =
+    (isLastPassiveStep && !isReviewLesson && currentLesson.num >= 50) ||
+    (isReviewCompleteStep && currentLesson.num >= 50);
 
   const getNextButtonConfig = () => {
+    if (triggersReviewPhase) {
+      return {
+        label: `Start 6-Lesson Review (Lessons ${Math.max(1, currentLesson.num - 6)}–${currentLesson.num - 1})`,
+        icon: <ArrowRight className="w-4 h-4 text-blue-200" />,
+        className: 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white shadow-blue-600/30'
+      };
+    }
     if (triggersActiveWave) {
       return {
         label: `Engage Active Wave (Lesson ${currentLesson.num - 49})`,
         icon: <Zap className="w-4 h-4 fill-current text-purple-200" />,
-        className: 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-purple-600/30'
+        className: 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-purple-600/30'
       };
     }
     if (isLastActiveStep) {
       return {
         label: `Complete Active Wave & Next Lesson`,
         icon: <CheckCircle2 className="w-4 h-4 text-emerald-200" />,
-        className: 'bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30'
+        className: 'bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-emerald-600/30'
       };
     }
     if (isLastPassiveStep || isReviewCompleteStep) {

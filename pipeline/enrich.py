@@ -405,24 +405,25 @@ class GeminiEnricher:
     def enrich_all_lessons(
         self, lessons: list[Lesson], mock: bool = False
     ) -> list[Lesson]:
-        """Enriches all regular lessons first, then synthesizes every 7th review lesson."""
+        """Enriches all lessons (including 7th review lessons with their own audio clips) first,
+        then synthesizes the 6-lesson review summary and review exercises for every 7th lesson.
+        """
         for idx, lesson in enumerate(lessons):
-            if lesson.type == "regular":
-                if lesson.english_translation and lesson.grammar_notes and lesson.active_exercises:
-                    continue
+            if lesson.shona_text and not (
+                lesson.english_translation and lesson.grammar_notes and lesson.active_exercises
+            ):
                 lessons[idx] = self.enrich_regular_lesson(lesson, mock=mock)
 
         for idx, lesson in enumerate(lessons):
-            if lesson.type == "review":
+            if lesson.type == "review" or lesson.lesson_number % 7 == 0:
                 if lesson.review_summary and len(lesson.review_exercises) == 6:
                     continue
                 preceding = [
                     l
                     for l in lessons[max(0, idx - 6) : idx]
-                    if l.type == "regular"
                 ]
                 lessons[idx] = self.enrich_review_lesson(
-                    lesson, preceding, mock=mock
+                    lessons[idx], preceding, mock=mock
                 )
 
         return lessons
@@ -446,28 +447,31 @@ class GeminiEnricher:
         lesson.review_summary = enrichment.review_summary
         lesson.key_noun_classes_covered = enrichment.key_noun_classes_covered
         lesson.review_exercises = enrichment.review_exercises
-        lesson.shona_text = (
-            lesson.shona_text
-            or f"Dzokororo: Chidzidzo {lesson.reviewed_lessons[0]} kusvika {lesson.reviewed_lessons[-1]}"
-        )
-        lesson.english_translation = (
-            lesson.english_translation
-            or f"Comprehensive Review of Lessons {', '.join(map(str, lesson.reviewed_lessons))}"
-        )
-        lesson.grammar_notes = [
-            NoteItemModel(
-                title=sec.heading,
-                content=" | ".join(sec.points),
+        if not lesson.shona_text:
+            lesson.shona_text = (
+                f"Dzokororo: Chidzidzo {lesson.reviewed_lessons[0]} kusvika {lesson.reviewed_lessons[-1]}"
             )
-            for sec in enrichment.review_summary.sections
-        ]
-        lesson.cultural_notes = [
-            NoteItemModel(
-                title="Unit Cultural & Practical Consolidation",
-                content=" ".join(enrichment.review_summary.sections[-1].points),
+        if not lesson.english_translation:
+            lesson.english_translation = (
+                f"Comprehensive Review of Lessons {', '.join(map(str, lesson.reviewed_lessons))}"
             )
-        ]
-        lesson.active_exercises = enrichment.review_exercises[:3]
+        if not lesson.grammar_notes:
+            lesson.grammar_notes = [
+                NoteItemModel(
+                    title=sec.heading,
+                    content=" | ".join(sec.points),
+                )
+                for sec in enrichment.review_summary.sections
+            ]
+        if not lesson.cultural_notes:
+            lesson.cultural_notes = [
+                NoteItemModel(
+                    title="Unit Cultural & Practical Consolidation",
+                    content=" ".join(enrichment.review_summary.sections[-1].points),
+                )
+            ]
+        if not lesson.active_exercises:
+            lesson.active_exercises = enrichment.review_exercises[:3]
         return lesson
 
 
