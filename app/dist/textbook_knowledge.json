@@ -1361,6 +1361,256 @@
         "The lower walls are painted red, accented above in yellow.",
         "Some partitions are finished with white mouldings while others feature exposed brickwork."
       ]
+    },
+    {
+      "match": "Maruva emhando yakasiyana ayo anoratidza",
+      "english": "Flowers of different varieties show signs of drying out from lack of water, causing them to wither. Beside them stand large trees with green leaves that provide cool shade for people.",
+      "sentences": [
+        [
+          "Maruva emhando yakasiyana ayo anoratidza kuti avakuoma nenhau yakushaya mvura izvo zvinoita kuti ange achifa.",
+          "Flowers of different varieties show signs of drying out from lack of water, causing them to wither."
+        ],
+        [
+          "Parutivi pacho pane miti mihombe ine mashizha egirini inoratidza kuti inopa vanhu mumvuri.",
+          "Beside them stand large trees with green leaves that provide cool shade for people."
+        ]
+      ]
+    },
+    {
+      "match": "Shangu ine ruvara ruchena nerutsvuku ruri padumbu",
+      "english": "A white and red shoe features red detailing along the arch and a raised heel. It has a grey inner lining. It has eyelets where shoelaces are threaded, though it currently has no laces. It is resting on a clean white surface.",
+      "sentences": [
+        [
+          "Shangu ine ruvara ruchena nerutsvuku ruri padumbu nechitsiko chakakwirira.",
+          "A white and red shoe features red detailing along the arch and a raised heel."
+        ],
+        [
+          "Ine mukati mune ruvara rupfumbu.",
+          "It has a grey inner lining."
+        ],
+        [
+          "Ine maburi panoiswa tambo uye haina tambo.",
+          "It has eyelets where shoelaces are threaded, though it currently has no laces."
+        ],
+        [
+          "Yakatsvetwa pasi pane ruvara ruchena.",
+          "It is resting on a clean white surface."
+        ]
+      ]
+    },
+    {
+      "match": "Kanzira kaduku kasina kuratidza kupfumba",
+      "english": "A narrow, lightly trodden footpath winds past a tree growing at the base of a large boulder. This flourishing tree is covered in lush green foliage. To the left stands another tree that has been felled. A walled house with a perimeter fence is surrounded by a row of trees, dry fallen leaves, green foliage, and beverage containers.",
+      "sentences": [
+        [
+          "Kanzira kaduku kasina kuratidza kupfumba karikuenda nepakati pomuti wakamera mujinga medombo hombe.",
+          "A narrow, lightly trodden footpath winds past a tree growing at the base of a large boulder."
+        ],
+        [
+          "Wakapfumbira muti uyu unemashizha egirini.",
+          "This flourishing tree is covered in lush green foliage."
+        ],
+        [
+          "Nechokuruboshwe kunemumwe wakatemwa.",
+          "To the left stands another tree that has been felled."
+        ],
+        [
+          "Imba ine jurawo paine fenzi pandandira miti ne mashizha awoma nemamwe akasvibira zvigubhu zvezvimwiwa.",
+          "A walled house with a perimeter fence is surrounded by a row of trees, dry fallen leaves, green foliage, and beverage containers."
+        ]
+      ]
+    },
+    {
+      "match": "Mifananidzo mitatu yomusikana mutema akanyorwa",
+      "english": "Three photographs show a dark-complexioned young woman with artistic markings on her shoulder. In one portrait she is photographed from behind. Another captures her facing forward. Another is a close-up of a section of her braided hair. Her hair is neatly braided with black yarn. Yellow earthmoving caterpillars with massive tyres sit parked beside the road, overgrown with tall green grass showing they have stood there for a long time. In the background stands a large tree with many branches and green leaves.",
+      "sentences": [
+        [
+          "Mifananidzo mitatu yomusikana mutema akanyorwa nyorwa pabendekete pake.",
+          "Three photographs show a dark-complexioned young woman with artistic markings on her shoulder."
+        ],
+        [
+          "Kuimwe wakatorwa akafuratira.",
+          "In one portrait she is photographed from behind."
+        ],
+        [
+          "Umwe akatorwa akatarisa kumberi.",
+          "Another captures her facing forward."
+        ],
+        [
+          "Umwe akangotorwa chibande chezvirukwa zvake.",
+          "Another is a close-up of a section of her braided hair."
+        ],
+        [
+          "Uye akarukwa musoro neshinda tema.",
+          "Her hair is neatly braided with black yarn."
+        ],
+        [
+          "Makatapira ane ruvara rweyero ane mavhiri mazihombe ari parutivi pemugwagwa anoratidza kuti agarisa pane sora akasvibira.",
+          "Yellow earthmoving caterpillars with massive tyres sit parked beside the road, overgrown with tall green grass showing they have stood there for a long time."
+        ],
+        [
+          "Kumashure kune muti muhombe une mapazi akawanda nemashizha egirinhi.",
+          "In the background stands a large tree with many branches and green leaves."
+        ]
+      ]
+    },
+    {
+      "match": "Vanhu vanoita basa remaoko rekupisira rinozikanwa",
+      "english": "Craftspeople are engaged in skilled metalworking widely known as welding. These workers are dressed in blue work overalls, while one wears a red work suit. Several wear protective aprons to keep clean while a fellow artisan welds metal. A solitary pangolin stands upright. It has two pectoral mammae. It has long, sharp claws for digging. Its body is covered in overlapping protective scales. It has small, observant eyes.",
+      "sentences": [
+        [
+          "Vanhu vanoita basa remaoko rekupisira rinozikanwa nevazhinji kuti kuweredha.",
+          "Craftspeople are engaged in skilled metalworking widely known as welding."
+        ],
+        [
+          "Vanhu ava vakapfeka hembe dzebasa dzineruvara rwebhuruu, umwe akapfeka ineruvara rutsvuku.",
+          "These workers are dressed in blue work overalls, while one wears a red work suit."
+        ],
+        [
+          "Vamwe vakapfeka mahapuroni kuti vasasvibe uye panemumwe mushandi arikuweredha.",
+          "Several wear protective aprons to keep clean while a fellow artisan welds metal."
+        ],
+        [
+          "Haka imwechete yakamira.",
+          "A solitary pangolin stands upright."
+        ],
+        [
+          "Inemazamhu maviri.",
+          "It has two pectoral mammae."
+        ],
+        [
+          "Inenzara dzakareba uye dzakapidza.",
+          "It has long, sharp claws for digging."
+        ],
+        [
+          "Inemakwapa makwapa.",
+          "Its body is covered in overlapping protective scales."
+        ],
+        [
+          "Ine tuziso tuduku.",
+          "It has small, observant eyes."
+        ]
+      ]
+    },
+    {
+      "match": "Munhukadzi akagara pachigaro. Ane musoro une bvudzi",
+      "english": "A woman is seated on a chair. She has dark hair styled in dreadlocks, with some locks hanging freely and others braided close to her scalp. She is wearing a colourful patterned top. A mother and her four children walk ahead with their backs turned, facing their destination; the mother wears a long dress and headwrap, and ahead of them a car is also travelling forward.",
+      "sentences": [
+        [
+          "Munhukadzi akagara pachigaro.",
+          "A woman is seated on a chair."
+        ],
+        [
+          "Ane musoro une bvudzi rakasvibira uye rakarukwa nemadhiredzi amwe anorembera zvimwe zvakanamirana nemusoro.",
+          "She has dark hair styled in dreadlocks, with some locks hanging freely and others braided close to her scalp."
+        ],
+        [
+          "Akapfeka hembe ine mavara mavara.",
+          "She is wearing a colourful patterned top."
+        ],
+        [
+          "Mai nevana vana vakafuratira vachifamba vakatarisa kwavari kuenda mai vacho vakapfeka hembe refu uye vakafukidza makadzi nemusoro wavo kumberi kwavo kune mota iri kuendawo mberi.",
+          "A mother and her four children walk ahead with their backs turned, facing their destination; the mother wears a long dress and headwrap, and ahead of them a car is also travelling forward."
+        ]
+      ]
+    },
+    {
+      "match": "Musoro wakarukwa zvakanaka. Warukwa nyarutatu",
+      "english": "Her hair is beautifully braided. It is plaited in three-strand braids using hair extensions. The braids are gathered into a circular crown coil in the centre of the head. A large tree with lush green foliage stands nearby. This tree is a mature avocado tree that has grown tall enough to brush against overhead power lines. It poses a hazard of falling onto the power lines and disrupting electricity. Below it stands a perimeter fence enclosure.",
+      "sentences": [
+        [
+          "Musoro wakarukwa zvakanaka.",
+          "Her hair is beautifully braided."
+        ],
+        [
+          "Warukwa nyarutatu nebvudzi rekuwedzerwa.",
+          "It is plaited in three-strand braids using hair extensions."
+        ],
+        [
+          "Zvirukwa zvazoitwa hata pakati pemusoro.",
+          "The braids are gathered into a circular crown coil in the centre of the head."
+        ],
+        [
+          "Muti wakakura une ruvara rwegirini.",
+          "A large tree with lush green foliage stands nearby."
+        ],
+        [
+          "Muti uyu unoratidza kuti muti wemukotopeya uyezve wakakura wakanobata pane tambo dzamagetsi.",
+          "This tree is a mature avocado tree that has grown tall enough to brush against overhead power lines."
+        ],
+        [
+          "Unogona kuita njodzi yekuzodonhera tambo dzemagetsi ukakuvadza magetsi.",
+          "It poses a hazard of falling onto the power lines and disrupting electricity."
+        ],
+        [
+          "Pasi pakuratidza kuti pane ruzhowa rwefenzi ruripo.",
+          "Below it stands a perimeter fence enclosure."
+        ]
+      ]
+    },
+    {
+      "match": "Mabhuku ekunyorera akawaridzwa pasi pane jira",
+      "english": "Exercise notebooks are spread out on a red and black cloth. These notebooks have black lettering on their covers along with colourful patterns in purple, blue, orange, and white. A cow is showing its teeth. Its muzzle and nostrils are clearly visible, along with its eyes and horns. The head of this cow is a rich brown colour. Its drooping ears are also clearly visible.",
+      "sentences": [
+        [
+          "Mabhuku ekunyorera akawaridzwa pasi pane jira rine ruvara rutsvuku neruvara rutema.",
+          "Exercise notebooks are spread out on a red and black cloth."
+        ],
+        [
+          "Mabhuku aya akanyorwa pamusoro pawo neruvara rutema uyezve rine makara makara anosanganisira pepuro, bhuruu, orenji nechena.",
+          "These notebooks have black lettering on their covers along with colourful patterns in purple, blue, orange, and white."
+        ],
+        [
+          "Mombe yakabuditsa mazino panze.",
+          "A cow is showing its teeth."
+        ],
+        [
+          "Inoonekwa nhimo yayo, inoonekwa maziso ayo nenyanga.",
+          "Its muzzle and nostrils are clearly visible, along with its eyes and horns."
+        ],
+        [
+          "Mombe iyi musoro wayo ndewerudzi rwebhurauni.",
+          "The head of this cow is a rich brown colour."
+        ],
+        [
+          "Uyewo inoonekwa nzeve dzakarembera.",
+          "Its drooping ears are also clearly visible."
+        ]
+      ]
+    },
+    {
+      "match": "Gwatara rakasvipira rinoratidza kuti rinoyerera mvura",
+      "english": "A lush drainage channel shows that water flows through it regularly, as thick green grass and banana trees flourish lower down where they receive steady moisture. Beside it lies a plot where maize has recently been harvested. Many people can be seen going about various activities. Some are men and some are women. Some are standing while others are seated on the ground. Others are walking along and crossing the street. Around this area stand tall, attractive multi-storey buildings, showing clearly that this scene is in a city.",
+      "sentences": [
+        [
+          "Gwatara rakasvipira rinoratidza kuti rinoyerera mvura sezvo pane bundo rakasvibira chose nemiti yemibhanana nechekuzasi inoratidza kuti zvinowana mwando nemvura.",
+          "A lush drainage channel shows that water flows through it regularly, as thick green grass and banana trees flourish lower down where they receive steady moisture."
+        ],
+        [
+          "Parutivi wacho kune nzvimbo iyo inoratidza kuti yakakohwewa chibahwe.",
+          "Beside it lies a plot where maize has recently been harvested."
+        ],
+        [
+          "Vanhu vazhinji vari kuratidza kuti vari kuita zvakasiyana.",
+          "Many people can be seen going about various activities."
+        ],
+        [
+          "Vamwe varume vamwe vakadzi.",
+          "Some are men and some are women."
+        ],
+        [
+          "Vamwe vakamira vamwe vakagara pasi.",
+          "Some are standing while others are seated on the ground."
+        ],
+        [
+          "Vamwe ndovari kufamba zvavovachikirosa mugwagwa.",
+          "Others are walking along and crossing the street."
+        ],
+        [
+          "Panzvimbo iyi pane midhuri mikuru yemuturikidzanwa yakanaka zvichibva zvaita kuti tizive kuti nzvimbo iyi iri mudhorobha.",
+          "Around this area stand tall, attractive multi-storey buildings, showing clearly that this scene is in a city."
+        ]
+      ]
     }
   ],
   "BEGINNER_WORD_GLOSS": {

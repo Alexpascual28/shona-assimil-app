@@ -1,5 +1,16 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Play, Pause, RotateCcw, Volume2, VolumeX, Gauge, AlertCircle } from 'lucide-react';
+import {
+  Play,
+  Pause,
+  RotateCcw,
+  Volume2,
+  VolumeX,
+  Gauge,
+  AlertCircle,
+  Search,
+  Loader2
+} from 'lucide-react';
+import { useLesson } from '../../context/LessonContext';
 
 interface AudioPlayerProps {
   src: string;
@@ -11,11 +22,12 @@ interface AudioPlayerProps {
 
 export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   src,
-  lessonNumber: _lessonNumber,
+  lessonNumber,
   autoPlay: _autoPlay = false,
   label = 'Lesson Audio Recording',
   forcePlayKey = 0
 }) => {
+  const { isDevMode, findOrRecoverAudio, isDevActionRunning, lessonCardProgress } = useLesson();
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [currentTime, setCurrentTime] = useState<number>(0);
@@ -23,29 +35,59 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   const [playbackRate, setPlaybackRate] = useState<number>(1.0);
   const [isMuted, setIsMuted] = useState<boolean>(false);
   const [audioError, setAudioError] = useState<string | null>(null);
+  const [resolvedSrc, setResolvedSrc] = useState<string>('');
+  const [attemptedElectronResolve, setAttemptedElectronResolve] = useState<boolean>(false);
 
-  // Normalize path for web/electron: if relative, ensure './' or clean url
   const normalizedSrc = !src
     ? ''
-    : src.startsWith('http') || src.startsWith('./')
+    : src.startsWith('http') || src.startsWith('./') || src.startsWith('data:')
     ? src
     : src.startsWith('/')
     ? `.${src}`
     : `./${src}`;
 
-  // Reset player state when audio source changes (no autoplay)
+  const cardProg = lessonCardProgress[lessonNumber];
+
+  // Resolve audio source (checks Electron userData/audio and public/audio first)
   useEffect(() => {
+    let cancelled = false;
     setIsPlaying(false);
     setCurrentTime(0);
     setAudioError(null);
+    setAttemptedElectronResolve(false);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
     }
-  }, [normalizedSrc]);
+
+    async function resolveAudio() {
+      if (!src) {
+        if (!cancelled) setResolvedSrc('');
+        return;
+      }
+      if (window.electronAPI?.resolveAudioUrl) {
+        try {
+          const dataUrl = await window.electronAPI.resolveAudioUrl(src);
+          if (!cancelled && dataUrl) {
+            setResolvedSrc(dataUrl);
+            setAttemptedElectronResolve(true);
+            return;
+          }
+        } catch {}
+      }
+      if (!cancelled) {
+        setResolvedSrc(normalizedSrc);
+      }
+    }
+
+    resolveAudio();
+    return () => {
+      cancelled = true;
+    };
+  }, [src, normalizedSrc, lessonNumber]);
 
   const handlePlay = useCallback(() => {
-    if (!normalizedSrc) {
+    if (!resolvedSrc) {
       setIsPlaying(false);
       setAudioError('No audio file is linked to this lesson.');
       return;
@@ -59,14 +101,14 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           setIsPlaying(true);
         })
         .catch((err) => {
-          console.error('Audio playback error for:', normalizedSrc, err);
+          console.error('Audio playback error for:', src, err);
           setIsPlaying(false);
           setAudioError(
             `Audio file unavailable or could not be loaded (${src || 'missing source'}).`
           );
         });
     }
-  }, [normalizedSrc, playbackRate, src]);
+  }, [resolvedSrc, playbackRate, src]);
 
   const handlePause = useCallback(() => {
     if (audioRef.current) {
@@ -92,10 +134,10 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
 
   // Handle explicit Spacebar replay trigger from user
   useEffect(() => {
-    if (forcePlayKey > 0) {
+    if (forcePlayKey > 0 && resolvedSrc && !audioError) {
       handleReplay();
     }
-  }, [forcePlayKey, handleReplay]);
+  }, [forcePlayKey, handleReplay, resolvedSrc, audioError]);
 
   // Cycle speeds: 1.0x -> 0.8x -> 1.25x
   const cyclePlaybackRate = () => {
@@ -121,34 +163,47 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
     return `${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
+  const handleAudioLoadError = async () => {
+    setIsPlaying(false);
+    if (!attemptedElectronResolve && window.electronAPI?.resolveAudioUrl && src) {
+      setAttemptedElectronResolve(true);
+      try {
+        const dataUrl = await window.electronAPI.resolveAudioUrl(src);
+        if (dataUrl) {
+          setResolvedSrc(dataUrl);
+          setAudioError(null);
+          return;
+        }
+      } catch {}
+    }
+    setAudioError(`Audio recording could not be loaded (${src || 'missing file'}).`);
+  };
+
   return (
     <div className="bg-slate-800/90 border border-slate-700/80 rounded-2xl p-5 shadow-xl backdrop-blur max-w-2xl mx-auto my-4 transition-all hover:border-amber-500/30">
-      <audio
-        ref={audioRef}
-        src={normalizedSrc}
-        preload="metadata"
-        onTimeUpdate={() => {
-          if (audioRef.current) {
-            setCurrentTime(audioRef.current.currentTime);
-          }
-        }}
-        onLoadedMetadata={() => {
-          if (audioRef.current) {
-            setDuration(audioRef.current.duration);
-            setAudioError(null);
-          }
-        }}
-        onEnded={() => {
-          setIsPlaying(false);
-          setCurrentTime(0);
-        }}
-        onError={() => {
-          setIsPlaying(false);
-          setAudioError(
-            `Audio recording could not be loaded (${src || 'missing file'}).`
-          );
-        }}
-      />
+      {resolvedSrc && (
+        <audio
+          ref={audioRef}
+          src={resolvedSrc}
+          preload="metadata"
+          onTimeUpdate={() => {
+            if (audioRef.current) {
+              setCurrentTime(audioRef.current.currentTime);
+            }
+          }}
+          onLoadedMetadata={() => {
+            if (audioRef.current) {
+              setDuration(audioRef.current.duration);
+              setAudioError(null);
+            }
+          }}
+          onEnded={() => {
+            setIsPlaying(false);
+            setCurrentTime(0);
+          }}
+          onError={handleAudioLoadError}
+        />
+      )}
 
       <div className="flex items-center justify-between gap-4 mb-4">
         <div className="flex items-center gap-3">
@@ -185,9 +240,50 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
       </div>
 
       {audioError && (
-        <div className="mb-4 p-3 rounded-xl bg-rose-950/50 border border-rose-500/40 text-rose-200 text-xs flex items-center gap-2.5">
-          <AlertCircle className="w-4 h-4 text-rose-400 shrink-0" />
-          <span>{audioError}</span>
+        <div className="mb-4 p-3.5 rounded-xl bg-rose-950/50 border border-rose-500/40 text-rose-200 text-xs space-y-2.5">
+          <div className="flex items-center justify-between gap-3 flex-wrap">
+            <div className="flex items-center gap-2.5">
+              <AlertCircle className="w-4 h-4 text-rose-400 shrink-0" />
+              <span>{audioError}</span>
+            </div>
+
+            {isDevMode && (
+              <button
+                type="button"
+                disabled={isDevActionRunning}
+                onClick={() => findOrRecoverAudio(lessonNumber)}
+                title="Search local folders for this audio file; if missing, download from Hugging Face or regenerate Lesson with matching length & complexity"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 disabled:opacity-50 text-slate-950 font-bold text-xs shadow transition shrink-0 cursor-pointer"
+              >
+                {isDevActionRunning ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    <span>Recovering Audio...</span>
+                  </>
+                ) : (
+                  <>
+                    <Search className="w-3.5 h-3.5" />
+                    <span>Find Audio File</span>
+                  </>
+                )}
+              </button>
+            )}
+          </div>
+
+          {cardProg && (
+            <div className="space-y-1 pt-1">
+              <div className="flex items-center justify-between text-[11px] text-amber-300">
+                <span>{cardProg.message}</span>
+                <span className="font-mono font-bold">{cardProg.percent}%</span>
+              </div>
+              <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                <div
+                  className="bg-gradient-to-r from-amber-500 to-emerald-400 h-full rounded-full transition-all duration-300"
+                  style={{ width: `${Math.max(5, cardProg.percent)}%` }}
+                />
+              </div>
+            </div>
+          )}
         </div>
       )}
 

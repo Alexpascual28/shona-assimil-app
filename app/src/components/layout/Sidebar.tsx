@@ -42,9 +42,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
     allLessonsCompleted,
     isGeneratingLessons,
     generationProgress,
+    lessonCardProgress,
     insufficientReserveNotice,
     dismissInsufficientReserveNotice,
     generateNextFiftyLessons,
+    cancelGenerateLessons,
     isDevMode,
     unlockDevMode,
     lockDevMode,
@@ -377,6 +379,30 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                       </div>
                     </div>
 
+                    {/* Per-Lesson Download / Regeneration Progress Bar */}
+                    {lessonCardProgress[l.num] && (
+                      <div
+                        className="p-2 rounded-lg bg-slate-950/90 border border-amber-500/40 space-y-1"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <div className="flex items-center justify-between text-[10px]">
+                          <span className="text-amber-300 font-medium truncate pr-1.5 flex items-center gap-1">
+                            <Loader2 className="w-2.5 h-2.5 animate-spin text-amber-400 shrink-0" />
+                            <span className="truncate">{lessonCardProgress[l.num].message}</span>
+                          </span>
+                          <span className="text-amber-400 font-mono font-bold shrink-0">
+                            {lessonCardProgress[l.num].percent}%
+                          </span>
+                        </div>
+                        <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                          <div
+                            className="bg-gradient-to-r from-amber-500 via-amber-400 to-emerald-400 h-full rounded-full transition-all duration-300"
+                            style={{ width: `${Math.max(5, lessonCardProgress[l.num].percent)}%` }}
+                          />
+                        </div>
+                      </div>
+                    )}
+
                     {/* 3 Per-Lesson Dev Mode Action Buttons */}
                     {isDevMode && (
                       <div
@@ -464,9 +490,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                   )}
                 </button>
 
-                {/* Interactive Progress Bar (0% -> 100%) & Step-by-Step Status Tracker */}
+                {/* Interactive Progress Bar (0% -> 100%) & Step-by-Step Status Tracker + Safe Cancel Button */}
                 {isGeneratingLessons && (
-                  <div className="p-2.5 rounded-xl bg-slate-900/90 border border-amber-500/30 space-y-1.5">
+                  <div className="p-2.5 rounded-xl bg-slate-900/90 border border-amber-500/30 space-y-2">
                     <div className="flex items-center justify-between text-[11px]">
                       <span className="text-amber-300 font-semibold truncate pr-2">
                         {generationProgress.message || 'Generating & enriching lessons...'}
@@ -480,6 +506,15 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                         className="bg-gradient-to-r from-amber-500 via-amber-400 to-purple-500 h-full rounded-full transition-all duration-300"
                         style={{ width: `${Math.max(4, generationProgress.percent)}%` }}
                       />
+                    </div>
+                    <div className="flex justify-end pt-0.5">
+                      <button
+                        type="button"
+                        onClick={cancelGenerateLessons}
+                        className="px-2.5 py-1 rounded-lg bg-rose-950/70 hover:bg-rose-900/80 text-rose-300 border border-rose-500/40 text-[10px] font-bold transition cursor-pointer"
+                      >
+                        Cancel Generation
+                      </button>
                     </div>
                   </div>
                 )}

@@ -36,9 +36,11 @@ interface LessonContextType {
   allLessonsCompleted: boolean;
   isGeneratingLessons: boolean;
   generationProgress: { percent: number; message: string };
+  lessonCardProgress: Record<number, { percent: number; message: string }>;
   insufficientReserveNotice: { remaining: number; required: number } | null;
   dismissInsufficientReserveNotice: () => void;
   generateNextFiftyLessons: () => Promise<void>;
+  cancelGenerateLessons: () => Promise<void>;
   isDevMode: boolean;
   unlockDevMode: (password: string) => Promise<boolean>;
   lockDevMode: () => void;
@@ -47,6 +49,7 @@ interface LessonContextType {
   deleteSingleLessonProgress: (lessonNum: number) => void;
   fixSingleLesson: (lessonNum: number) => Promise<void>;
   regenerateSingleLesson: (lessonNum: number) => Promise<void>;
+  findOrRecoverAudio: (lessonNum: number) => Promise<void>;
   regenerateLessonField: (
     lessonNum: number,
     field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
@@ -224,6 +227,9 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     percent: 0,
     message: ''
   });
+  const [lessonCardProgress, setLessonCardProgress] = useState<
+    Record<number, { percent: number; message: string }>
+  >({});
   const [insufficientReserveNotice, setInsufficientReserveNotice] = useState<{
     remaining: number;
     required: number;
@@ -243,6 +249,26 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     if (window.electronAPI?.onGenerationProgress) {
       return window.electronAPI.onGenerationProgress((data) => {
         setGenerationProgress(data);
+      });
+    }
+  }, []);
+
+  // Subscribe to per-lesson card progress bar events
+  useEffect(() => {
+    if (window.electronAPI?.onLessonCardProgress) {
+      return window.electronAPI.onLessonCardProgress((data) => {
+        setLessonCardProgress((prev) => {
+          const next = { ...prev };
+          if (!data.message || data.percent <= 0) {
+            delete next[data.lessonNumber];
+          } else {
+            next[data.lessonNumber] = {
+              percent: data.percent,
+              message: data.message
+            };
+          }
+          return next;
+        });
       });
     }
   }, []);
@@ -907,7 +933,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const regenerateSingleLesson = useCallback(
     async (lessonNum: number) => {
       setIsDevActionRunning(true);
-      setDevActionStatus(`Fully regenerating Lesson ${lessonNum} with new audio & enriched data...`);
+      setDevActionStatus(`Regenerating Lesson ${lessonNum} with matching length, pedagogy & complexity...`);
       try {
         if (window.electronAPI?.devRegenerateLesson) {
           const updatedRaw = await window.electronAPI.devRegenerateLesson(lessonNum);
@@ -923,6 +949,41 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     },
     [applyUpdatedRawCourse]
   );
+
+  // Dev Mode: Find Audio File locally, or download from Hugging Face, or regenerate lesson with matching length & complexity
+  const findOrRecoverAudio = useCallback(
+    async (lessonNum: number) => {
+      setIsDevActionRunning(true);
+      setDevActionStatus(`Locating or downloading audio file for Lesson ${lessonNum}...`);
+      try {
+        if (window.electronAPI?.devFindOrRecoverAudio) {
+          const res = await window.electronAPI.devFindOrRecoverAudio(lessonNum);
+          if (res && res.course && Array.isArray((res.course as any).lessons)) {
+            applyUpdatedRawCourse(res.course as Record<string, any>);
+            setAudioKey((prev) => prev + 1);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse]
+  );
+
+  // Safely cancel +50 lesson generation at any time
+  const cancelGenerateLessons = useCallback(async () => {
+    setGenerationProgress((prev) => ({
+      percent: prev.percent,
+      message: 'Cancelling lesson generation...'
+    }));
+    if (window.electronAPI?.cancelGenerateMoreLessons) {
+      try {
+        await window.electronAPI.cancelGenerateMoreLessons();
+      } catch {}
+    }
+  }, []);
 
   // Dev Mode: Regenerate individual field ('translation' | 'grammar_notes' | 'cultural_notes' | 'exercises')
   const regenerateLessonField = useCallback(
@@ -966,6 +1027,9 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       if (window.electronAPI?.generateMoreLessons) {
         try {
           updatedRaw = await window.electronAPI.generateMoreLessons(50);
+          if (updatedRaw && (updatedRaw as any).cancelled) {
+            return;
+          }
           if (updatedRaw && (updatedRaw as any).error === 'INSUFFICIENT_OFFLINE_RESERVE') {
             setInsufficientReserveNotice({
               remaining: Number((updatedRaw as any).remaining ?? 0),
@@ -1229,9 +1293,11 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         allLessonsCompleted,
         isGeneratingLessons,
         generationProgress,
+        lessonCardProgress,
         insufficientReserveNotice,
         dismissInsufficientReserveNotice,
         generateNextFiftyLessons,
+        cancelGenerateLessons,
         isDevMode,
         unlockDevMode,
         lockDevMode,
@@ -1240,6 +1306,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         deleteSingleLessonProgress,
         fixSingleLesson,
         regenerateSingleLesson,
+        findOrRecoverAudio,
         regenerateLessonField,
         isDevActionRunning,
         devActionStatus

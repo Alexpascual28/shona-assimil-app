@@ -6,14 +6,22 @@ declare global {
       loadProgress: () => Promise<UserProgress | null>;
       saveProgress: (data: UserProgress) => Promise<boolean>;
       loadExpandedCourse?: () => Promise<Record<string, unknown> | null>;
+      resolveAudioUrl?: (audioRelPath: string) => Promise<string | null>;
       generateMoreLessons?: (count: number) => Promise<Record<string, unknown> | null>;
+      cancelGenerateMoreLessons?: () => Promise<boolean>;
       onGenerationProgress?: (
         callback: (data: { percent: number; message: string }) => void
+      ) => () => void;
+      onLessonCardProgress?: (
+        callback: (data: { lessonNumber: number; percent: number; message: string }) => void
       ) => () => void;
       verifyDevPassword?: (password: string) => Promise<boolean>;
       removeLast50Lessons?: () => Promise<Record<string, unknown> | null>;
       devFixLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
       devRegenerateLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
+      devFindOrRecoverAudio?: (
+        lessonNumber: number
+      ) => Promise<{ status: string; course: Record<string, unknown> } | null>;
       devRegenerateField?: (
         lessonNumber: number,
         field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'

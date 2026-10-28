@@ -9,9 +9,19 @@ const fs_1 = __importDefault(require("fs"));
 const https_1 = __importDefault(require("https"));
 const enricher_1 = require("./enricher");
 let mainWindow = null;
+let cancelGenerationRequested = false;
 function emitGenerationProgress(percent, message) {
     if (mainWindow && !mainWindow.isDestroyed()) {
         mainWindow.webContents.send('generation-progress', {
+            percent: Math.max(0, Math.min(100, Math.round(percent))),
+            message,
+        });
+    }
+}
+function emitLessonCardProgress(lessonNumber, percent, message) {
+    if (mainWindow && !mainWindow.isDestroyed()) {
+        mainWindow.webContents.send('lesson-card-progress', {
+            lessonNumber: Number(lessonNumber),
             percent: Math.max(0, Math.min(100, Math.round(percent))),
             message,
         });
@@ -25,15 +35,25 @@ function getExpandedCoursePath() {
     const userDataDir = electron_1.app.getPath('userData');
     return path_1.default.join(userDataDir, 'course_data_expanded.json');
 }
+function getUserExpansionPoolPath() {
+    const userDataDir = electron_1.app.getPath('userData');
+    return path_1.default.join(userDataDir, 'expansion_pool.json');
+}
+function getUserAudioDir() {
+    const userDataDir = electron_1.app.getPath('userData');
+    return path_1.default.join(userDataDir, 'audio');
+}
 function getWorkspaceBackupPath() {
     return path_1.default.join(process.cwd(), 'user_progress.json');
 }
 function resolvePublicAssetPath(filename) {
+    const cleanRel = filename.replace(/^[./\\]+/, '');
     const candidates = [
-        path_1.default.join(process.cwd(), 'public', filename),
-        path_1.default.join(process.cwd(), 'app', 'public', filename),
-        path_1.default.join(__dirname, '../dist', filename),
-        path_1.default.join(__dirname, '../public', filename),
+        path_1.default.join(electron_1.app.getPath('userData'), cleanRel),
+        path_1.default.join(process.cwd(), 'public', cleanRel),
+        path_1.default.join(process.cwd(), 'app', 'public', cleanRel),
+        path_1.default.join(__dirname, '../dist', cleanRel),
+        path_1.default.join(__dirname, '../public', cleanRel),
     ];
     for (const cand of candidates) {
         if (fs_1.default.existsSync(cand)) {
@@ -43,14 +63,146 @@ function resolvePublicAssetPath(filename) {
     return null;
 }
 function getAllPublicAssetPaths(filename) {
+    const cleanRel = filename.replace(/^[./\\]+/, '');
     const candidates = [
-        path_1.default.join(process.cwd(), 'public', filename),
-        path_1.default.join(process.cwd(), 'app', 'public', filename),
-        path_1.default.join(__dirname, '../dist', filename),
-        path_1.default.join(__dirname, '../public', filename),
+        path_1.default.join(electron_1.app.getPath('userData'), cleanRel),
+        path_1.default.join(process.cwd(), 'public', cleanRel),
+        path_1.default.join(process.cwd(), 'app', 'public', cleanRel),
+        path_1.default.join(__dirname, '../dist', cleanRel),
+        path_1.default.join(__dirname, '../public', cleanRel),
     ];
     const unique = Array.from(new Set(candidates.map((p) => path_1.default.resolve(p))));
-    return unique.filter((p) => fs_1.default.existsSync(path_1.default.dirname(p)));
+    return unique.filter((p) => {
+        try {
+            return !p.includes('app.asar') && fs_1.default.existsSync(path_1.default.dirname(p));
+        }
+        catch {
+            return false;
+        }
+    });
+}
+function findLocalAudioFile(audioRelPath) {
+    if (!audioRelPath)
+        return null;
+    const cleanRel = audioRelPath.replace(/^[./\\]+/, '');
+    const baseName = path_1.default.basename(cleanRel);
+    const candidates = [
+        path_1.default.join(getUserAudioDir(), baseName),
+        path_1.default.join(electron_1.app.getPath('userData'), cleanRel),
+        path_1.default.join(process.cwd(), 'public', cleanRel),
+        path_1.default.join(process.cwd(), 'app', 'public', cleanRel),
+        path_1.default.join(__dirname, '../dist', cleanRel),
+        path_1.default.join(__dirname, '../public', cleanRel),
+    ];
+    if (process.env.PORTABLE_EXECUTABLE_DIR) {
+        candidates.push(path_1.default.join(process.env.PORTABLE_EXECUTABLE_DIR, 'audio', baseName));
+    }
+    for (const cand of candidates) {
+        try {
+            if (fs_1.default.existsSync(cand)) {
+                const stat = fs_1.default.statSync(cand);
+                if (stat.isFile() && stat.size >= 200) {
+                    return cand;
+                }
+            }
+        }
+        catch { }
+    }
+    return null;
+}
+function saveAudioBufferLocally(clipId, wavBuffer) {
+    const cleanClipId = String(clipId).replace(/^clip_/, '');
+    const fileName = `clip_${cleanClipId}.wav`;
+    const relPath = `audio/${fileName}`;
+    // 1. Always save to persistent writable userData/audio directory
+    try {
+        const userAudioDir = getUserAudioDir();
+        fs_1.default.mkdirSync(userAudioDir, { recursive: true });
+        fs_1.default.writeFileSync(path_1.default.join(userAudioDir, fileName), wavBuffer);
+    }
+    catch (err) {
+        console.error('Failed saving audio to userData/audio:', err);
+    }
+    // 2. Also save to workspace public/audio and dist/audio if writable (outside app.asar)
+    const extraDirs = [
+        path_1.default.join(process.cwd(), 'public', 'audio'),
+        path_1.default.join(process.cwd(), 'app', 'public', 'audio'),
+        path_1.default.join(__dirname, '../dist/audio'),
+        path_1.default.join(__dirname, '../public/audio'),
+    ];
+    const uniqueDirs = Array.from(new Set(extraDirs.map((d) => path_1.default.resolve(d))));
+    for (const dir of uniqueDirs) {
+        if (!dir.includes('app.asar') && fs_1.default.existsSync(path_1.default.dirname(dir))) {
+            try {
+                fs_1.default.mkdirSync(dir, { recursive: true });
+                fs_1.default.writeFileSync(path_1.default.join(dir, fileName), wavBuffer);
+            }
+            catch { }
+        }
+    }
+    return relPath;
+}
+function loadMergedExpansionPool() {
+    const byClipId = new Map();
+    const baseCandidates = [
+        path_1.default.join(process.cwd(), 'public', 'expansion_pool.json'),
+        path_1.default.join(process.cwd(), 'app', 'public', 'expansion_pool.json'),
+        path_1.default.join(__dirname, '../dist/expansion_pool.json'),
+        path_1.default.join(__dirname, '../public/expansion_pool.json'),
+    ];
+    for (const bp of baseCandidates) {
+        if (fs_1.default.existsSync(bp)) {
+            try {
+                const arr = JSON.parse(fs_1.default.readFileSync(bp, 'utf-8'));
+                if (Array.isArray(arr)) {
+                    for (const item of arr) {
+                        const cid = String(item?.clip_id || '');
+                        if (cid && (0, enricher_1.isValidZezuruTranscript)(String(item?.shona_text || ''))) {
+                            byClipId.set(cid, item);
+                        }
+                    }
+                    break;
+                }
+            }
+            catch { }
+        }
+    }
+    const userPoolPath = getUserExpansionPoolPath();
+    if (fs_1.default.existsSync(userPoolPath)) {
+        try {
+            const userArr = JSON.parse(fs_1.default.readFileSync(userPoolPath, 'utf-8'));
+            if (Array.isArray(userArr)) {
+                for (const item of userArr) {
+                    const cid = String(item?.clip_id || '');
+                    if (cid && (0, enricher_1.isValidZezuruTranscript)(String(item?.shona_text || ''))) {
+                        byClipId.set(cid, item);
+                    }
+                }
+            }
+        }
+        catch { }
+    }
+    return Array.from(byClipId.values());
+}
+function saveMergedExpansionPool(poolLessons) {
+    const validPool = poolLessons.filter((item) => (0, enricher_1.isValidZezuruTranscript)(String(item?.shona_text || '')));
+    const serialized = JSON.stringify(validPool, null, 2);
+    // Always write to userData/expansion_pool.json
+    try {
+        fs_1.default.writeFileSync(getUserExpansionPoolPath(), serialized, 'utf-8');
+    }
+    catch (err) {
+        console.error('Failed writing userData expansion_pool.json:', err);
+    }
+    // Also write to workspace public/expansion_pool.json if outside app.asar
+    for (const pPath of getAllPublicAssetPaths('expansion_pool.json')) {
+        if (!pPath.includes('app.asar')) {
+            try {
+                fs_1.default.writeFileSync(pPath, serialized, 'utf-8');
+            }
+            catch { }
+        }
+    }
 }
 function readDevModePassword() {
     const envCandidates = [
@@ -59,6 +211,9 @@ function readDevModePassword() {
         path_1.default.resolve(__dirname, '../../.env'),
         path_1.default.resolve(__dirname, '../.env'),
     ];
+    if (process.env.PORTABLE_EXECUTABLE_DIR) {
+        envCandidates.unshift(path_1.default.resolve(process.env.PORTABLE_EXECUTABLE_DIR, '.env'));
+    }
     for (const envPath of envCandidates) {
         if (fs_1.default.existsSync(envPath)) {
             try {
@@ -73,15 +228,15 @@ function readDevModePassword() {
     }
     return process.env.DEV_MODE_PASSWORD || process.env.VITE_DEV_MODE_PASSWORD || 'shona_dev_pass';
 }
-function fetchHttpsBuffer(url, timeoutMs = 15000) {
+function fetchHttpsBufferOnce(url, timeoutMs = 15000) {
     return new Promise((resolve, reject) => {
         const req = https_1.default.get(url, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ShonaAssimilApp/1.0',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ShonaAssimilApp/2.0',
             },
         }, (res) => {
             if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-                fetchHttpsBuffer(res.headers.location, timeoutMs).then(resolve).catch(reject);
+                fetchHttpsBufferOnce(res.headers.location, timeoutMs).then(resolve).catch(reject);
                 return;
             }
             if (res.statusCode !== 200) {
@@ -98,6 +253,21 @@ function fetchHttpsBuffer(url, timeoutMs = 15000) {
         });
     });
 }
+async function fetchHttpsBuffer(url, timeoutMs = 15000, retries = 3) {
+    let lastErr;
+    for (let attempt = 0; attempt < retries; attempt++) {
+        try {
+            return await fetchHttpsBufferOnce(url, timeoutMs);
+        }
+        catch (err) {
+            lastErr = err;
+            if (attempt < retries - 1) {
+                await new Promise((r) => setTimeout(r, 700 * (attempt + 1)));
+            }
+        }
+    }
+    throw lastErr;
+}
 async function checkHuggingFaceConnection() {
     try {
         const buf = await fetchHttpsBuffer('https://datasets-server.huggingface.co/is-valid?dataset=takuM23/shona-vibevoice-corpus', 6000);
@@ -112,7 +282,6 @@ function parseWavDurationSeconds(buf) {
         if (buf.length >= 44 && buf.toString('ascii', 0, 4) === 'RIFF') {
             const byteRate = buf.readUInt32LE(28);
             if (byteRate > 0) {
-                // Find 'data' chunk
                 let offset = 12;
                 while (offset + 8 <= buf.length) {
                     const chunkId = buf.toString('ascii', offset, offset + 4);
@@ -128,20 +297,6 @@ function parseWavDurationSeconds(buf) {
     }
     catch { }
     return 0;
-}
-const NON_ZEZURU_MARKERS = new Set([
-    'unjani', 'ngiyabonga', 'siyabonga', 'yebo', 'sawubona', 'kunjani', 'umntwana', 'inkosi',
-]);
-function isValidZezuruTranscript(text) {
-    const cleaned = text.trim();
-    if (cleaned.length < 6)
-        return false;
-    const words = (cleaned.toLowerCase().match(/[a-z']+/g) || []);
-    if (words.length < 2)
-        return false;
-    if (words.some((w) => NON_ZEZURU_MARKERS.has(w)))
-        return false;
-    return true;
 }
 function getBandConstraints(lessonNumber, batchSize) {
     const bandIdx = Math.floor((lessonNumber - 1) / 100);
@@ -213,36 +368,110 @@ function evaluateReservePoolForBatch(availableNew, startLessonNum, numToAdd) {
         constraints,
     };
 }
-function saveAudioBufferLocally(clipId, wavBuffer) {
-    const relPath = `audio/clip_${clipId}.wav`;
-    const audioDirs = [
-        path_1.default.join(process.cwd(), 'public', 'audio'),
-        path_1.default.join(process.cwd(), 'app', 'public', 'audio'),
-        path_1.default.join(__dirname, '../dist/audio'),
-        path_1.default.join(__dirname, '../public/audio'),
-    ];
-    const uniqueDirs = Array.from(new Set(audioDirs.map((d) => path_1.default.resolve(d))));
-    for (const dir of uniqueDirs) {
-        if (fs_1.default.existsSync(path_1.default.dirname(dir))) {
-            try {
-                fs_1.default.mkdirSync(dir, { recursive: true });
-                fs_1.default.writeFileSync(path_1.default.join(dir, `clip_${clipId}.wav`), wavBuffer);
+async function downloadSpecificClipAudioFromHF(clipId, shonaText, lessonNumber) {
+    try {
+        let repo = 'takuM23/shona-vibevoice-corpus';
+        let rowIdx = null;
+        const mVibe = clipId.match(/hf_shona_vibevoic_(\d+)/i);
+        const mMana = clipId.match(/hf_sna_manasseh_[a-z0-9_]*?_(\d+)$/i);
+        const mInzwi = clipId.match(/hf_inzwi_shona_[a-z0-9_]*?_(\d+)$/i);
+        if (mVibe) {
+            repo = 'takuM23/shona-vibevoice-corpus';
+            rowIdx = parseInt(mVibe[1], 10);
+        }
+        else if (mMana) {
+            repo = 'manassehzw/sna-manasseh-150-raw';
+            rowIdx = parseInt(mMana[1], 10);
+        }
+        else if (mInzwi) {
+            repo = 'nigeLbasa/inzwi-shona-sample';
+            rowIdx = parseInt(mInzwi[1], 10);
+        }
+        emitLessonCardProgress(lessonNumber, 25, `Locating ${clipId} on Hugging Face...`);
+        if (rowIdx !== null && !isNaN(rowIdx)) {
+            const pageOffset = Math.floor(rowIdx / 100) * 100;
+            const urlsToTry = [
+                `https://datasets-server.huggingface.co/rows?dataset=${encodeURIComponent(repo)}&config=default&split=train&offset=${pageOffset}&length=100`,
+                `https://datasets-server.huggingface.co/rows?dataset=${encodeURIComponent(repo)}&config=default&split=train&offset=${rowIdx}&length=1`,
+            ];
+            for (const apiUrl of urlsToTry) {
+                try {
+                    const buf = await fetchHttpsBuffer(apiUrl, 15000);
+                    const json = JSON.parse(buf.toString('utf-8'));
+                    const rows = Array.isArray(json?.rows) ? json.rows : [];
+                    const matchedEntry = rows.find((r) => Number(r.row_idx) === rowIdx) ||
+                        (rows.length === 1 ? rows[0] : null);
+                    const row = matchedEntry?.row;
+                    if (row) {
+                        const audioField = row.audio || row.file || row.sound;
+                        let audioSrc = '';
+                        if (Array.isArray(audioField) && audioField.length > 0 && audioField[0]?.src) {
+                            audioSrc = String(audioField[0].src);
+                        }
+                        else if (audioField && typeof audioField === 'object' && audioField.src) {
+                            audioSrc = String(audioField.src);
+                        }
+                        if (audioSrc) {
+                            emitLessonCardProgress(lessonNumber, 60, `Downloading audio for Lesson ${lessonNumber}...`);
+                            const wavBuf = await fetchHttpsBuffer(audioSrc, 20000);
+                            if (wavBuf.length >= 200) {
+                                const savedRel = saveAudioBufferLocally(clipId, wavBuf);
+                                emitLessonCardProgress(lessonNumber, 100, 'Audio file recovered!');
+                                return savedRel;
+                            }
+                        }
+                    }
+                }
+                catch { }
             }
-            catch { }
+        }
+        // Fallback: search by normalized Shona text across datasets
+        const targetNorm = (0, enricher_1.normalizeTextKey)(shonaText);
+        if (targetNorm) {
+            for (const offset of [0, 100, 200, 300, 400, 500]) {
+                const apiUrl = `https://datasets-server.huggingface.co/rows?dataset=takuM23%2Fshona-vibevoice-corpus&config=default&split=train&offset=${offset}&length=100`;
+                const buf = await fetchHttpsBuffer(apiUrl, 12000);
+                const json = JSON.parse(buf.toString('utf-8'));
+                const rows = Array.isArray(json.rows) ? json.rows : [];
+                for (const r of rows) {
+                    const row = r.row || {};
+                    const transcript = String(row.text || row.sentence || row.transcription || row.transcript || '').trim();
+                    if ((0, enricher_1.normalizeTextKey)(transcript) === targetNorm) {
+                        const audioField = row.audio || row.file || row.sound;
+                        const audioSrc = Array.isArray(audioField) && audioField[0]?.src
+                            ? String(audioField[0].src)
+                            : audioField?.src
+                                ? String(audioField.src)
+                                : '';
+                        if (audioSrc) {
+                            emitLessonCardProgress(lessonNumber, 65, `Downloading matched audio for Lesson ${lessonNumber}...`);
+                            const wavBuf = await fetchHttpsBuffer(audioSrc, 20000);
+                            if (wavBuf.length >= 200) {
+                                const savedRel = saveAudioBufferLocally(clipId, wavBuf);
+                                emitLessonCardProgress(lessonNumber, 100, 'Audio file recovered!');
+                                return savedRel;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
-    return relPath;
+    catch (err) {
+        console.warn(`Failed to recover specific audio ${clipId} from HF:`, err);
+    }
+    return null;
 }
-async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existingIds, existingTexts, startLessonNum) {
-    // Download enough clips to satisfy the current requirement + 15 extra buffer clips for future offline reserve
-    const targetDownloadCount = Math.max(neededCount + 15, 20);
+async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existingIds, existingTexts, startLessonNum, options) {
+    const isSingleLesson = neededCount === 1 && options?.lessonCardNum !== undefined;
+    const targetDownloadCount = isSingleLesson ? 1 : Math.max(neededCount + 12, 16);
     const rawCandidates = [];
     const datasetsToQuery = [
         {
             repo: 'takuM23/shona-vibevoice-corpus',
             config: 'default',
             split: 'train',
-            offsets: [300, 400, 500, 600, 700, 200],
+            offsets: [300, 400, 500, 600, 700, 200, 100, 0],
         },
         {
             repo: 'manassehzw/sna-manasseh-150-raw',
@@ -257,11 +486,20 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
             offsets: [0],
         },
     ];
-    emitGenerationProgress(8, 'Connecting to Hugging Face Shona audio datasets...');
+    if (options?.lessonCardNum) {
+        emitLessonCardProgress(options.lessonCardNum, 15, 'Searching Hugging Face for matching duration & complexity...');
+    }
+    else {
+        emitGenerationProgress(8, 'Connecting to Hugging Face Shona audio datasets...');
+    }
     for (const ds of datasetsToQuery) {
+        if (cancelGenerationRequested && !isSingleLesson)
+            break;
         if (rawCandidates.length >= targetDownloadCount)
             break;
         for (const offset of ds.offsets) {
+            if (cancelGenerationRequested && !isSingleLesson)
+                break;
             if (rawCandidates.length >= targetDownloadCount)
                 break;
             try {
@@ -275,7 +513,7 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
                     const row = r.row || {};
                     const rowIdx = r.row_idx ?? Math.floor(Math.random() * 100000);
                     const transcript = String(row.text || row.sentence || row.transcription || row.transcript || '').trim();
-                    if (!isValidZezuruTranscript(transcript))
+                    if (!(0, enricher_1.isValidZezuruTranscript)(transcript))
                         continue;
                     const normText = (0, enricher_1.normalizeTextKey)(transcript);
                     if (existingTexts.has(normText))
@@ -298,6 +536,13 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
                     const estDur = Number((row.duration || row.duration_seconds || Math.max(2.5, wordCount * 0.48)).toFixed(2));
                     if (estDur > 120.0)
                         continue;
+                    // If we are looking for a specific targetDuration for single-lesson regeneration, filter closely
+                    if (options?.targetDuration !== undefined) {
+                        const tol = Math.max(6.0, options.targetDuration * 0.35);
+                        if (Math.abs(estDur - options.targetDuration) > tol) {
+                            continue;
+                        }
+                    }
                     rawCandidates.push({
                         clip_id: clipId,
                         shona_text: transcript,
@@ -317,9 +562,17 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
     const enrichedResults = [];
     const totalToProcess = rawCandidates.length;
     for (let i = 0; i < totalToProcess; i++) {
+        if (cancelGenerationRequested && !isSingleLesson) {
+            break;
+        }
         const item = rawCandidates[i];
-        const fetchPct = 12 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
-        emitGenerationProgress(fetchPct, `Fetching audio ${i + 1}/${totalToProcess} (${item.clip_id})...`);
+        if (options?.lessonCardNum) {
+            emitLessonCardProgress(options.lessonCardNum, 45, `Downloading audio (${item.clip_id})...`);
+        }
+        else {
+            const fetchPct = 12 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
+            emitGenerationProgress(fetchPct, `Fetching audio ${i + 1}/${totalToProcess} (${item.clip_id})...`);
+        }
         try {
             const wavBuf = await fetchHttpsBuffer(item.audio_src, 20000);
             if (wavBuf.length < 200)
@@ -328,8 +581,13 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
             if (realDuration > 120.0)
                 continue;
             const localAudioUrl = saveAudioBufferLocally(item.clip_id, wavBuf);
-            const enrichPct = 47 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
-            emitGenerationProgress(enrichPct, `Enriching Lesson ${startLessonNum + enrichedResults.length} translation, grammar & cultural notes (${i + 1}/${totalToProcess})...`);
+            if (options?.lessonCardNum) {
+                emitLessonCardProgress(options.lessonCardNum, 75, `Enriching Lesson ${options.lessonCardNum} translation, grammar & cultural notes...`);
+            }
+            else {
+                const enrichPct = 47 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
+                emitGenerationProgress(enrichPct, `Enriching Lesson ${startLessonNum + enrichedResults.length} translation, grammar & cultural notes (${i + 1}/${totalToProcess})...`);
+            }
             const enriched = await (0, enricher_1.enrichClipObject)({
                 clip_id: item.clip_id,
                 audio_url: localAudioUrl,
@@ -338,6 +596,13 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
                 dataset_source: item.dataset_source,
                 speaker_id: 'zezuru_hf',
             }, startLessonNum + enrichedResults.length, 0);
+            // Double-check no single-letter or gibberish dialogue lines
+            if (!(0, enricher_1.isValidZezuruTranscript)(String(enriched.shona_text || '')) ||
+                !Array.isArray(enriched.dialogue) ||
+                enriched.dialogue.length === 0 ||
+                enriched.dialogue.some((d) => String(d.shona || '').trim().length < 2)) {
+                continue;
+            }
             enrichedResults.push(enriched);
         }
         catch (err) {
@@ -472,25 +737,29 @@ function persistModifiedCourse(course, modifiedLessonNum) {
     course.total_lessons = course.lessons.length;
     course.regular_lessons_count = course.lessons.filter((l) => l.type !== 'review').length;
     course.review_lessons_count = course.lessons.filter((l) => l.type === 'review').length;
-    // Save to expanded course path if > 100 lessons or if expanded file already exists
     if (course.lessons.length > 100 || fs_1.default.existsSync(expandedPath)) {
         fs_1.default.writeFileSync(expandedPath, JSON.stringify(course, null, 2), 'utf-8');
     }
-    // If a base lesson (1..100) was modified in Dev Mode, also persist to base course_data.json files
     if (modifiedLessonNum && modifiedLessonNum <= 100) {
         const baseCoursePaths = getAllPublicAssetPaths('course_data.json');
         const baseCourseSlice = {
             ...course,
             total_lessons: Math.min(100, course.lessons.length),
-            regular_lessons_count: course.lessons.slice(0, 100).filter((l) => l.type !== 'review').length,
-            review_lessons_count: course.lessons.slice(0, 100).filter((l) => l.type === 'review').length,
+            regular_lessons_count: course.lessons
+                .slice(0, 100)
+                .filter((l) => l.type !== 'review').length,
+            review_lessons_count: course.lessons
+                .slice(0, 100)
+                .filter((l) => l.type === 'review').length,
             lessons: course.lessons.slice(0, 100),
         };
         for (const bp of baseCoursePaths) {
-            try {
-                fs_1.default.writeFileSync(bp, JSON.stringify(baseCourseSlice, null, 2), 'utf-8');
+            if (!bp.includes('app.asar')) {
+                try {
+                    fs_1.default.writeFileSync(bp, JSON.stringify(baseCourseSlice, null, 2), 'utf-8');
+                }
+                catch { }
             }
-            catch { }
         }
     }
 }
@@ -506,6 +775,104 @@ function updateAffectedSevenLessonReview(allLessons, modifiedLessonNum) {
         allLessons[reviewIdx].review_exercises = revData.review_exercises;
         allLessons[reviewIdx].reviewed_lessons = revData.reviewed_lessons;
     }
+}
+async function regenerateLessonWithMatchingLengthAndPedagogy(lessonNumber) {
+    const { course } = loadActiveCourseObject();
+    const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+    if (idx < 0)
+        return null;
+    const oldLesson = course.lessons[idx];
+    const oldClipId = String(oldLesson.clip_id || '');
+    const oldAudioUrl = String(oldLesson.audio_url || '');
+    const targetDuration = Number(oldLesson.duration_seconds || 15);
+    const targetDifficulty = Number(oldLesson.difficulty_score || 40);
+    emitLessonCardProgress(lessonNumber, 10, `Finding replacement matching ~${targetDuration.toFixed(1)}s & pedagogy level...`);
+    // 1. Delete old audio file from writable directories if desired
+    if (oldAudioUrl) {
+        for (const p of getAllPublicAssetPaths(oldAudioUrl)) {
+            if (!p.includes('app.asar') && fs_1.default.existsSync(p)) {
+                try {
+                    fs_1.default.unlinkSync(p);
+                }
+                catch { }
+            }
+        }
+    }
+    // 2. Load merged expansion pool and remove the old clip
+    let poolLessons = loadMergedExpansionPool().filter((p) => String(p.clip_id || '') !== oldClipId);
+    const existingIds = new Set(course.lessons.map((l) => String(l.clip_id || '')).filter(Boolean));
+    const existingTexts = new Set(course.lessons
+        .map((l) => (0, enricher_1.normalizeTextKey)(String(l.shona_text || '')))
+        .filter(Boolean));
+    // Filter pool candidates that have valid transcripts AND existing local audio files
+    const validAvailablePool = poolLessons.filter((item) => {
+        const cid = String(item.clip_id || '');
+        const sText = String(item.shona_text || '');
+        const audioRel = String(item.audio_url || `audio/clip_${cid}.wav`);
+        return (!existingIds.has(cid) &&
+            !existingTexts.has((0, enricher_1.normalizeTextKey)(sText)) &&
+            (0, enricher_1.isValidZezuruTranscript)(sText) &&
+            Boolean(findLocalAudioFile(audioRel)));
+    });
+    // Sort by closeness to targetDuration and targetDifficulty
+    const scoreDistance = (item) => {
+        const d = Number(item.duration_seconds || 15);
+        const diff = Number(item.difficulty_score || 40);
+        return Math.abs(d - targetDuration) * 2.5 + Math.abs(diff - targetDifficulty) * 0.4;
+    };
+    const closePoolMatches = validAvailablePool
+        .filter((item) => {
+        const d = Number(item.duration_seconds || 0);
+        return Math.abs(d - targetDuration) <= Math.max(5.5, targetDuration * 0.30);
+    })
+        .sort((a, b) => scoreDistance(a) - scoreDistance(b));
+    let candidateReplacement = closePoolMatches[0];
+    // If no close-duration match exists in the local pool, download a matching-duration clip from Hugging Face
+    if (!candidateReplacement) {
+        const isOnline = await checkHuggingFaceConnection();
+        if (isOnline) {
+            const constraints = getBandConstraints(Number(lessonNumber), 50);
+            const downloaded = await downloadAndEnrichFromHuggingFace(1, constraints, existingIds, existingTexts, Number(lessonNumber), {
+                targetDuration,
+                lessonCardNum: Number(lessonNumber),
+            });
+            if (downloaded.length > 0) {
+                candidateReplacement = downloaded[0];
+                poolLessons.push(candidateReplacement);
+            }
+        }
+    }
+    // Fallback to closest available clip in pool if offline or HF had no exact duration match
+    if (!candidateReplacement && validAvailablePool.length > 0) {
+        const sortedAll = [...validAvailablePool].sort((a, b) => scoreDistance(a) - scoreDistance(b));
+        candidateReplacement = sortedAll[0];
+    }
+    if (!candidateReplacement) {
+        emitLessonCardProgress(lessonNumber, 0, '');
+        throw new Error('No replacement clip available in reserve pool or online.');
+    }
+    saveMergedExpansionPool(poolLessons);
+    emitLessonCardProgress(lessonNumber, 85, `Enriching Lesson ${lessonNumber} grammar, cultural context & exercises...`);
+    const enrichedReplacement = await (0, enricher_1.enrichClipObject)(candidateReplacement, Number(lessonNumber), Number(oldLesson.variation_seed || 0) + 1);
+    const words = String(enrichedReplacement.shona_text || '').split(/\s+/).filter(Boolean);
+    const previewWords = words.slice(0, 6).join(' ') + (words.length > 6 ? '...' : '');
+    const isReviewSlot = Number(lessonNumber) % 7 === 0;
+    const reviewBlockNum = Math.floor(Number(lessonNumber) / 7);
+    course.lessons[idx] = {
+        ...enrichedReplacement,
+        lesson_number: Number(lessonNumber),
+        type: oldLesson.type,
+        phase: oldLesson.phase,
+        active_wave_review_lesson: oldLesson.active_wave_review_lesson,
+        title: isReviewSlot
+            ? `Chidzidzo ${lessonNumber}: ${previewWords} (Dzokororo ${reviewBlockNum})`
+            : `Chidzidzo ${lessonNumber}: ${previewWords}`,
+    };
+    updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+    persistModifiedCourse(course, Number(lessonNumber));
+    emitLessonCardProgress(lessonNumber, 100, `Lesson ${lessonNumber} regenerated!`);
+    setTimeout(() => emitLessonCardProgress(lessonNumber, 0, ''), 900);
+    return course;
 }
 function createWindow() {
     mainWindow = new electron_1.BrowserWindow({
@@ -598,23 +965,48 @@ electron_1.ipcMain.handle('get-expanded-course', async () => {
     }
     return null;
 });
+electron_1.ipcMain.handle('resolve-audio-url', async (_event, audioRelPath) => {
+    try {
+        const foundPath = findLocalAudioFile(audioRelPath);
+        if (foundPath && fs_1.default.existsSync(foundPath)) {
+            const ext = path_1.default.extname(foundPath).toLowerCase();
+            const mime = ext === '.mp3' ? 'audio/mpeg' : 'audio/wav';
+            const buf = fs_1.default.readFileSync(foundPath);
+            return `data:${mime};base64,${buf.toString('base64')}`;
+        }
+    }
+    catch (err) {
+        console.warn('resolve-audio-url error:', err);
+    }
+    return null;
+});
+electron_1.ipcMain.handle('cancel-generate-more-lessons', async () => {
+    cancelGenerationRequested = true;
+    emitGenerationProgress(0, 'Cancelling lesson generation...');
+    return true;
+});
 electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
     try {
+        cancelGenerationRequested = false;
         const numToAdd = typeof count === 'number' && count > 0 ? count : 50;
         emitGenerationProgress(2, 'Checking local audio reserve pool & duration bands...');
         const { course: currentCourse, expandedPath } = loadActiveCourseObject();
-        const poolPath = resolvePublicAssetPath('expansion_pool.json');
-        if (!poolPath || !fs_1.default.existsSync(poolPath)) {
-            throw new Error('Could not locate expansion_pool.json');
-        }
-        let poolLessons = JSON.parse(fs_1.default.readFileSync(poolPath, 'utf-8'));
+        let poolLessons = loadMergedExpansionPool();
         const existingIds = new Set(currentCourse.lessons.map((l) => String(l.clip_id || '')).filter(Boolean));
         const existingTexts = new Set(currentCourse.lessons
             .map((l) => (0, enricher_1.normalizeTextKey)(String(l.shona_text || '')))
             .filter(Boolean));
-        let availableNew = poolLessons.filter((item) => !existingIds.has(String(item.clip_id || '')) &&
-            !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
-            Number(item.duration_seconds || 0) <= 120.0);
+        const filterAvailableWithLocalAudio = (pool) => pool.filter((item) => {
+            const cid = String(item.clip_id || '');
+            const sText = String(item.shona_text || '');
+            const audioRel = String(item.audio_url || `audio/clip_${cid}.wav`);
+            return (!existingIds.has(cid) &&
+                !existingTexts.has((0, enricher_1.normalizeTextKey)(sText)) &&
+                (0, enricher_1.isValidZezuruTranscript)(sText) &&
+                Number(item.duration_seconds || 0) <= 120.0 &&
+                Boolean(findLocalAudioFile(audioRel)));
+        });
+        let availableNew = filterAvailableWithLocalAudio(poolLessons);
         const startLessonNum = currentCourse.lessons.length + 1;
         const bandEval = evaluateReservePoolForBatch(availableNew, startLessonNum, numToAdd);
         if (!bandEval.satisfied) {
@@ -642,15 +1034,12 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 const newlyDownloaded = await downloadAndEnrichFromHuggingFace(missingCount, bandEval.constraints, allPoolIds, allPoolTexts, startLessonNum);
                 if (newlyDownloaded.length > 0) {
                     poolLessons = [...poolLessons, ...newlyDownloaded];
-                    for (const pPath of getAllPublicAssetPaths('expansion_pool.json')) {
-                        try {
-                            fs_1.default.writeFileSync(pPath, JSON.stringify(poolLessons, null, 2), 'utf-8');
-                        }
-                        catch { }
-                    }
-                    availableNew = poolLessons.filter((item) => !existingIds.has(String(item.clip_id || '')) &&
-                        !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
-                        Number(item.duration_seconds || 0) <= 120.0);
+                    saveMergedExpansionPool(poolLessons);
+                    availableNew = filterAvailableWithLocalAudio(poolLessons);
+                }
+                if (cancelGenerationRequested) {
+                    emitGenerationProgress(0, '');
+                    return { cancelled: true };
                 }
                 if (availableNew.length < numToAdd) {
                     emitGenerationProgress(0, '');
@@ -662,16 +1051,27 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 }
             }
         }
+        if (cancelGenerationRequested) {
+            emitGenerationProgress(0, '');
+            return { cancelled: true };
+        }
         emitGenerationProgress(55, `Selecting & ordering ${numToAdd} lessons by duration band & pedagogical complexity...`);
         const orderedCandidates = selectBatchByBandAndPedagogy(availableNew, startLessonNum, numToAdd);
         const selectedBatch = [];
         for (let i = 0; i < numToAdd; i++) {
+            if (cancelGenerationRequested) {
+                emitGenerationProgress(0, '');
+                return { cancelled: true };
+            }
             const candidate = orderedCandidates[i];
             if (!candidate)
                 break;
             const copy = JSON.parse(JSON.stringify(candidate));
-            // Verify enrichment completeness on every selected lesson
-            const needsEnrich = !copy.english_translation ||
+            const hasBrokenDialogue = !Array.isArray(copy.dialogue) ||
+                copy.dialogue.length === 0 ||
+                copy.dialogue.some((d) => String(d.shona || '').trim().length < 2);
+            const needsEnrich = hasBrokenDialogue ||
+                !copy.english_translation ||
                 (0, enricher_1.normalizeTextKey)(copy.english_translation) === (0, enricher_1.normalizeTextKey)(copy.shona_text) ||
                 !Array.isArray(copy.grammar_notes) ||
                 copy.grammar_notes.length === 0 ||
@@ -686,6 +1086,10 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 ? await (0, enricher_1.enrichClipObject)(copy, lessonNum, 0)
                 : copy;
             selectedBatch.push(verifiedClip);
+        }
+        if (cancelGenerationRequested) {
+            emitGenerationProgress(0, '');
+            return { cancelled: true };
         }
         const allLessons = [...currentCourse.lessons];
         const activeWaveStart = Number(currentCourse.active_wave_start_lesson || 51);
@@ -750,6 +1154,19 @@ electron_1.ipcMain.handle('verify-dev-password', async (_event, passwordInput) =
 electron_1.ipcMain.handle('remove-last-50-lessons', async () => {
     try {
         const { course: currentCourse, expandedPath, baseCoursePath } = loadActiveCourseObject();
+        // Ensure any removed lessons that already have local audio remain saved in the reserve pool so +50 reuses them immediately
+        const removedLessons = currentCourse.lessons.slice(Math.max(100, currentCourse.lessons.length - 50));
+        if (removedLessons.length > 0) {
+            const poolLessons = loadMergedExpansionPool();
+            const poolMap = new Map(poolLessons.map((p) => [String(p.clip_id || ''), p]));
+            for (const rem of removedLessons) {
+                const cid = String(rem.clip_id || '');
+                if (cid && (0, enricher_1.isValidZezuruTranscript)(String(rem.shona_text || ''))) {
+                    poolMap.set(cid, rem);
+                }
+            }
+            saveMergedExpansionPool(Array.from(poolMap.values()));
+        }
         if (currentCourse.lessons.length <= 100) {
             if (fs_1.default.existsSync(expandedPath)) {
                 try {
@@ -794,6 +1211,7 @@ electron_1.ipcMain.handle('dev-fix-lesson', async (_event, lessonNumber) => {
         const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
         if (idx < 0)
             return null;
+        emitLessonCardProgress(lessonNumber, 25, `Re-enriching Lesson ${lessonNumber} translation, grammar & cultural notes...`);
         const oldLesson = course.lessons[idx];
         const nextSeed = Number(oldLesson.variation_seed || 0) + 1;
         const reEnriched = await (0, enricher_1.enrichClipObject)(oldLesson, Number(lessonNumber), nextSeed);
@@ -810,95 +1228,68 @@ electron_1.ipcMain.handle('dev-fix-lesson', async (_event, lessonNumber) => {
         course.lessons[idx] = updatedLesson;
         updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
         persistModifiedCourse(course, Number(lessonNumber));
+        emitLessonCardProgress(lessonNumber, 100, `Lesson ${lessonNumber} fixed!`);
+        setTimeout(() => emitLessonCardProgress(lessonNumber, 0, ''), 900);
         return course;
     }
     catch (err) {
         console.error('Failed in dev-fix-lesson:', err);
+        emitLessonCardProgress(lessonNumber, 0, '');
         return null;
     }
 });
 electron_1.ipcMain.handle('dev-regenerate-lesson', async (_event, lessonNumber) => {
     try {
-        const { course } = loadActiveCourseObject();
-        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
-        if (idx < 0)
-            return null;
-        const oldLesson = course.lessons[idx];
-        const oldClipId = String(oldLesson.clip_id || '');
-        const oldAudioUrl = String(oldLesson.audio_url || '');
-        // 1. Delete old sub-standard audio file from disk
-        if (oldAudioUrl) {
-            for (const p of getAllPublicAssetPaths(oldAudioUrl)) {
-                if (fs_1.default.existsSync(p)) {
-                    try {
-                        fs_1.default.unlinkSync(p);
-                    }
-                    catch { }
-                }
-            }
-        }
-        // 2. Remove old clip from expansion_pool.json
-        const poolPath = resolvePublicAssetPath('expansion_pool.json');
-        let poolLessons = poolPath && fs_1.default.existsSync(poolPath)
-            ? JSON.parse(fs_1.default.readFileSync(poolPath, 'utf-8'))
-            : [];
-        poolLessons = poolLessons.filter((p) => String(p.clip_id || '') !== oldClipId);
-        const existingIds = new Set(course.lessons.map((l) => String(l.clip_id || '')).filter(Boolean));
-        const existingTexts = new Set(course.lessons
-            .map((l) => (0, enricher_1.normalizeTextKey)(String(l.shona_text || '')))
-            .filter(Boolean));
-        const constraints = getBandConstraints(Number(lessonNumber), 50);
-        let candidateReplacement = poolLessons.find((item) => {
-            const d = Number(item.duration_seconds || 0);
-            return (!existingIds.has(String(item.clip_id || '')) &&
-                !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
-                d >= constraints.primaryMin &&
-                d <= constraints.primaryMax);
-        });
-        if (!candidateReplacement) {
-            candidateReplacement = poolLessons.find((item) => !existingIds.has(String(item.clip_id || '')) &&
-                !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))));
-        }
-        if (!candidateReplacement) {
-            const isOnline = await checkHuggingFaceConnection();
-            if (isOnline) {
-                const downloaded = await downloadAndEnrichFromHuggingFace(1, constraints, existingIds, existingTexts, Number(lessonNumber));
-                if (downloaded.length > 0) {
-                    candidateReplacement = downloaded[0];
-                }
-            }
-        }
-        if (!candidateReplacement) {
-            throw new Error('No replacement clip available in reserve pool or online.');
-        }
-        // Remove the picked replacement from expansion_pool.json if it came from there, and persist expansion_pool.json
-        for (const pPath of getAllPublicAssetPaths('expansion_pool.json')) {
-            try {
-                fs_1.default.writeFileSync(pPath, JSON.stringify(poolLessons, null, 2), 'utf-8');
-            }
-            catch { }
-        }
-        const enrichedReplacement = await (0, enricher_1.enrichClipObject)(candidateReplacement, Number(lessonNumber), 0);
-        const words = String(enrichedReplacement.shona_text || '').split(/\s+/).filter(Boolean);
-        const previewWords = words.slice(0, 6).join(' ') + (words.length > 6 ? '...' : '');
-        const isReviewSlot = Number(lessonNumber) % 7 === 0;
-        const reviewBlockNum = Math.floor(Number(lessonNumber) / 7);
-        course.lessons[idx] = {
-            ...enrichedReplacement,
-            lesson_number: Number(lessonNumber),
-            type: oldLesson.type,
-            phase: oldLesson.phase,
-            active_wave_review_lesson: oldLesson.active_wave_review_lesson,
-            title: isReviewSlot
-                ? `Chidzidzo ${lessonNumber}: ${previewWords} (Dzokororo ${reviewBlockNum})`
-                : `Chidzidzo ${lessonNumber}: ${previewWords}`,
-        };
-        updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
-        persistModifiedCourse(course, Number(lessonNumber));
-        return course;
+        return await regenerateLessonWithMatchingLengthAndPedagogy(Number(lessonNumber));
     }
     catch (err) {
         console.error('Failed in dev-regenerate-lesson:', err);
+        emitLessonCardProgress(Number(lessonNumber), 0, '');
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-find-or-recover-audio', async (_event, lessonNumber) => {
+    try {
+        const num = Number(lessonNumber);
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === num);
+        if (idx < 0)
+            return null;
+        const lesson = course.lessons[idx];
+        const clipId = String(lesson.clip_id || '');
+        const audioRel = String(lesson.audio_url || lesson.audio || `audio/clip_${clipId}.wav`);
+        emitLessonCardProgress(num, 10, `Searching local folders for ${path_1.default.basename(audioRel)}...`);
+        // 1. Check if the file already exists locally
+        const localFound = findLocalAudioFile(audioRel);
+        if (localFound) {
+            emitLessonCardProgress(num, 100, 'Audio file located locally!');
+            setTimeout(() => emitLessonCardProgress(num, 0, ''), 800);
+            return { status: 'found_local', course };
+        }
+        // 2. Not found locally: attempt to download this exact clip from Hugging Face
+        const isOnline = await checkHuggingFaceConnection();
+        if (isOnline) {
+            const recoveredRel = await downloadSpecificClipAudioFromHF(clipId, String(lesson.shona_text || ''), num);
+            if (recoveredRel && findLocalAudioFile(recoveredRel)) {
+                lesson.audio_url = recoveredRel;
+                course.lessons[idx] = lesson;
+                persistModifiedCourse(course, num);
+                setTimeout(() => emitLessonCardProgress(num, 0, ''), 900);
+                return { status: 'downloaded_hf', course };
+            }
+        }
+        // 3. If download failed, regenerate the lesson entirely with matching length, pedagogy & complexity
+        emitLessonCardProgress(num, 30, `Audio download unavailable; regenerating Lesson ${num} with matching length & complexity...`);
+        const updatedCourse = await regenerateLessonWithMatchingLengthAndPedagogy(num);
+        if (updatedCourse) {
+            return { status: 'regenerated', course: updatedCourse };
+        }
+        emitLessonCardProgress(num, 0, '');
+        return null;
+    }
+    catch (err) {
+        console.error('Failed in dev-find-or-recover-audio:', err);
+        emitLessonCardProgress(Number(lessonNumber), 0, '');
         return null;
     }
 });
@@ -920,17 +1311,17 @@ electron_1.ipcMain.handle('dev-regenerate-field', async (_event, payload) => {
             lesson.dialogue = dialogue;
         }
         else if (field === 'grammar_notes') {
-            lesson.grammar_notes = (0, enricher_1.generateTextbookGrammarNotes)(shonaText, engText, Number(lessonNumber), nextSeed);
+            lesson.grammar_notes = await (0, enricher_1.generateTextbookGrammarNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed);
         }
         else if (field === 'cultural_notes') {
-            lesson.cultural_notes = (0, enricher_1.generateTextbookCulturalNotes)(shonaText, engText, Number(lessonNumber), nextSeed);
+            lesson.cultural_notes = await (0, enricher_1.generateTextbookCulturalNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed);
         }
         else if (field === 'exercises') {
             const words = shonaText.split(/\s+/).filter(Boolean);
             const gloss = Array.isArray(lesson.literal_gloss)
                 ? lesson.literal_gloss
                 : words.map((w) => (0, enricher_1.analyzeMorphemesAndClass)(w));
-            lesson.active_exercises = (0, enricher_1.generateContextualExercises)(shonaText, engText, Number(lessonNumber), lesson.grammar_notes || [], gloss, nextSeed);
+            lesson.active_exercises = await (0, enricher_1.generateContextualExercisesAsync)(shonaText, engText, Number(lessonNumber), lesson.grammar_notes || [], gloss, nextSeed);
         }
         course.lessons[idx] = lesson;
         updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
