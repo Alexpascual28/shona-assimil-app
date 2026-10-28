@@ -1,0 +1,175 @@
+{
+  "english_translation": "Why didn't you call me when you arrived home yesterday evening?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Sei usina kundifonera pawakasvika pamba nezuro manheru?",
+      "english": "Why didn't you call me when you arrived home yesterday evening?",
+      "literal_gloss": "Sei [sei] • usina [usina] • kundifonera [to / at ndifonera] • pawakasvika [on / at wakasvika] • pamba [on / at mba] • nezuro [yesterday] • manheru [good evening / evening]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Sei",
+          "morpheme_breakdown": "sei (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sei",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "usina",
+          "morpheme_breakdown": "usina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "usina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kundifonera",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ndifonera",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ndifonera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pawakasvika",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -wakasvika",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at wakasvika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamba",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mba",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezuro",
+          "morpheme_breakdown": "nezuro (yesterday)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "yesterday",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "manheru",
+          "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good evening / evening",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Sei",
+      "morpheme_breakdown": "sei (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sei",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "usina",
+      "morpheme_breakdown": "usina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "usina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kundifonera",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ndifonera",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ndifonera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pawakasvika",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -wakasvika",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at wakasvika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamba",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mba",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezuro",
+      "morpheme_breakdown": "nezuro (yesterday)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "yesterday",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "manheru",
+      "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good evening / evening",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('manheru')",
+      "content": "In this lesson you encounter 'manheru'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pamba')",
+      "content": "Look at how location is expressed with 'pamba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Checking In After an Evening Journey ('Pawakasvika Pamba')",
+      "content": "Whenever a family member or friend travels in the evening, it is a deeply ingrained custom in Zimbabwe to phone or send a brief message upon reaching home ('pawakasvika pamba') to reassure loved ones that the journey ended safely.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!",
+        "Makorokoto nekubudirira kwako!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

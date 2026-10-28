@@ -1,0 +1,329 @@
+{
+  "english_translation": "Sitepura it shandiswa to / at batanidza plural pepa if / when / or books ineruvara rwebhuruu and / with chemukati inesimbi ineruvara rwesirivheri it shandiswa in / singular zvikoro if / when / or in / singular mahofisi and / with vanhu they (past) siyana-siyana.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Sitepura inoshandiswa kubatanidza mapepa kana mabhuku. Ineruvara rwebhuruu nechemukati inesimbi ineruvara rwesirivheri. Inoshandiswa muzvikoro kana mumahofisi nevanhu vakasiyana-siyana. Miti miviri mirefu irikubudikira inosanganisira murara uyo unamashizha arinechekudenga-denga komuti akasvibirira panewo tambo dzemagetsi dzirikubudikira dzirikuvhungana nemiti iyi.",
+      "english": "Sitepura it shandiswa to / at batanidza plural pepa if / when / or books ineruvara rwebhuruu and / with chemukati inesimbi ineruvara rwesirivheri it shandiswa in / singular zvikoro if / when / or in / singular mahofisi and / with vanhu they (past) siyana-siyana.",
+      "literal_gloss": "Sitepura [sitepura] • inoshandiswa [it shandiswa] • kubatanidza [to / at batanidza] • mapepa [plural pepa] • kana [if / when / or] • mabhuku [books] • Ineruvara [ineruvara] • rwebhuruu [rwebhuruu] • nechemukati [and / with chemukati] • inesimbi [inesimbi] • ineruvara [ineruvara] • rwesirivheri [rwesirivheri] • Inoshandiswa [it shandiswa] • muzvikoro [in / singular zvikoro] • kana [if / when / or] • mumahofisi [in / singular mahofisi] • nevanhu [and / with vanhu] • vakasiyana-siyana [they (past) siyana-siyana]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Sitepura",
+          "morpheme_breakdown": "sitepura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sitepura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoshandiswa",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -shandiswa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it shandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubatanidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -batanidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at batanidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mapepa",
+          "morpheme_breakdown": "ma- (plural prefix) + -pepa",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural pepa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mabhuku",
+          "morpheme_breakdown": "ma- (plural) + -bhuku (books)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "books",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Ineruvara",
+          "morpheme_breakdown": "ineruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ineruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwebhuruu",
+          "morpheme_breakdown": "rwebhuruu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwebhuruu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechemukati",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chemukati",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chemukati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inesimbi",
+          "morpheme_breakdown": "inesimbi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inesimbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ineruvara",
+          "morpheme_breakdown": "ineruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ineruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwesirivheri",
+          "morpheme_breakdown": "rwesirivheri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwesirivheri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Inoshandiswa",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -shandiswa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it shandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muzvikoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvikoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular zvikoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumahofisi",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mahofisi",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mahofisi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nevanhu",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -vanhu",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with vanhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakasiyana-siyana",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -siyana-siyana",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) siyana-siyana",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Sitepura",
+      "morpheme_breakdown": "sitepura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sitepura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inoshandiswa",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -shandiswa",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it shandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubatanidza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -batanidza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at batanidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mapepa",
+      "morpheme_breakdown": "ma- (plural prefix) + -pepa",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural pepa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mabhuku",
+      "morpheme_breakdown": "ma- (plural) + -bhuku (books)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "books",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ineruvara",
+      "morpheme_breakdown": "ineruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ineruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwebhuruu",
+      "morpheme_breakdown": "rwebhuruu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwebhuruu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechemukati",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chemukati",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chemukati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inesimbi",
+      "morpheme_breakdown": "inesimbi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "inesimbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ineruvara",
+      "morpheme_breakdown": "ineruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ineruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwesirivheri",
+      "morpheme_breakdown": "rwesirivheri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwesirivheri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Inoshandiswa",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -shandiswa",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it shandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muzvikoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvikoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular zvikoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumahofisi",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mahofisi",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mahofisi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nevanhu",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -vanhu",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with vanhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakasiyana-siyana",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -siyana-siyana",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) siyana-siyana",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakasiyana')",
+      "content": "The verb 'vakasiyana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inoshandiswa')",
+      "content": "The verb 'inoshandiswa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Sitepura inoshandiswa kubatanidza mapepa kana mabhuku. Ineruvara rwebhuruu nechemukati inesimbi ineruvara rwesirivheri. Inoshandiswa muzvikoro kana mumahofisi nevanhu vakasiyana-siyana. Miti miviri mirefu irikubudikira inosanganisira murara uyo unamashizha arinechekudenga-denga komuti akasvibirira panewo tambo dzemagetsi dzirikubudikira dzirikuvhungana nemiti iyi.' — \"Sitepura it shandiswa to / at batanidza plural pepa if / when / or books ineruvara rwebhuruu and / with chemukati inesimbi ineruvara rwesirivheri it shandiswa in / singular zvikoro if / when / or in / singular mahofisi and / with vanhu they (past) siyana-siyana.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

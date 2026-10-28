@@ -1,0 +1,407 @@
+{
+  "english_translation": "Black shoes with light-coloured linings sit on a white floor. Nearby lies freshly harvested cassava root (mufarinya), still coated in brown earth on the ground beside a cloth.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Shangu dzakagadzikwa pauriri. Uriri urwu rwuneruvara ruchena. Shangu idzi dzineruvara rutema kunze. Mukati meshangu idzi makachenuruka.",
+      "english": "Black shoes with light interiors are placed on a white floor.",
+      "literal_gloss": "Shangu [shoes] • dzakagadzikwa [dzakagadzikwa] • pauriri [on / at uriri] • Uriri [you are ri] • urwu [urwu] • rwuneruvara [rwuneruvara] • ruchena [white] • Shangu [shoes]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakagadzikwa",
+          "morpheme_breakdown": "dzakagadzikwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakagadzikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pauriri",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -uriri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at uriri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Uriri",
+          "morpheme_breakdown": "u- (you) + -ri (are) + -ri",
+          "noun_class_or_concord": "Present Helper Verb (you are)",
+          "literal_english": "you are ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "urwu",
+          "morpheme_breakdown": "urwu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "urwu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwuneruvara",
+          "morpheme_breakdown": "rwuneruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwuneruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "idzi",
+          "morpheme_breakdown": "idzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "idzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzineruvara",
+          "morpheme_breakdown": "dzineruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzineruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunze",
+          "morpheme_breakdown": "ku- (area) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "outside / outdoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mukati",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "meshangu",
+          "morpheme_breakdown": "meshangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "meshangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "idzi",
+          "morpheme_breakdown": "idzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "idzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "makachenuruka",
+          "morpheme_breakdown": "ma- (plural prefix) + -kachenuruka",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural kachenuruka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Mufarinya uchangobva kucherwa. Unevhu uye ndewebhurawuni. Wakagadzikwa pasi. Parutivi pane jira riripo.",
+      "english": "Freshly dug cassava tubers covered in brown soil lie on the ground beside a cloth.",
+      "literal_gloss": "Mufarinya [in / singular farinya] • uchangobva [uchangobva] • kucherwa [to / at cherwa] • Unevhu [unevhu] • uye [and / furthermore] • ndewebhurawuni [ndewebhurawuni] • Wakagadzikwa [you/he (past) gadzikwa] • pasi [on / at si]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mufarinya",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -farinya",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular farinya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uchangobva",
+          "morpheme_breakdown": "uchangobva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uchangobva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kucherwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -cherwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at cherwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Unevhu",
+          "morpheme_breakdown": "unevhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "unevhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndewebhurawuni",
+          "morpheme_breakdown": "ndewebhurawuni (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndewebhurawuni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Wakagadzikwa",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -gadzikwa",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) gadzikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Parutivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "jira",
+          "morpheme_breakdown": "jira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "jira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riripo",
+          "morpheme_breakdown": "ri- (it) + -ri (is) + -po",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is po",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakagadzikwa",
+      "morpheme_breakdown": "dzakagadzikwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakagadzikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pauriri",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -uriri",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at uriri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Uriri",
+      "morpheme_breakdown": "u- (you) + -ri (are) + -ri",
+      "noun_class_or_concord": "Present Helper Verb (you are)",
+      "literal_english": "you are ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "urwu",
+      "morpheme_breakdown": "urwu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "urwu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwuneruvara",
+      "morpheme_breakdown": "rwuneruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwuneruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruchena",
+      "morpheme_breakdown": "ru- + -chena (white)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "white",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "idzi",
+      "morpheme_breakdown": "idzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "idzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzineruvara",
+      "morpheme_breakdown": "dzineruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzineruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema",
+      "morpheme_breakdown": "ru- + -tema (black)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunze",
+      "morpheme_breakdown": "ku- (area) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "outside / outdoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mukati",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "meshangu",
+      "morpheme_breakdown": "meshangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "meshangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "idzi",
+      "morpheme_breakdown": "idzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "idzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "makachenuruka",
+      "morpheme_breakdown": "ma- (plural prefix) + -kachenuruka",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural kachenuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mufarinya",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -farinya",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular farinya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uchangobva",
+      "morpheme_breakdown": "uchangobva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uchangobva",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakagadzikwa')",
+      "content": "The verb 'dzakagadzikwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('uchangobva')",
+      "content": "Look at 'uchangobva' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('rwuneruvara')",
+      "content": "This passage uses colour vocabulary such as 'rwuneruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Cassava ('Mufarinya') & Root Crops in Zimbabwean Farming",
+      "content": "Freshly harvested cassava ('mufarinya')—alongside sweet potatoes ('mbambaira') and taro ('madhumbe')—is a hearty root crop grown by smallholder farmers, especially in eastern and northern Zimbabwe, often boiled and enjoyed with morning tea.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

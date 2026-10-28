@@ -1,0 +1,329 @@
+{
+  "english_translation": "Thing dziro chakakomberedzwa and / with chimwe thing dziro chemasimbi icho thing ri in / singular kati thing ri chezvidhinha and / furthermore thing ne plural buri on / at kati outside / outdoors kwayowo to / at ne thing dziro.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chidziro chakakomberedzwa nechimwe chidziro chemasimbi. Icho chiri mukati chiri chezvidhinha uye chine maburi pakati. Kunze kwayowo kune chidziro chemasimbi akapendwa neruvara rutema. Chidziro ichi chine maruva ari mukati uyewo mune masora arimo pakati pechidziro chezvidhinha uyewo chesimbi. Kapu chena ine svutu gadzike yakaiswa mukaka. Yakagadzikwa patafura yakasvibira pane ndiro chena ine zvekudya.",
+      "english": "Thing dziro chakakomberedzwa and / with chimwe thing dziro chemasimbi icho thing ri in / singular kati thing ri chezvidhinha and / furthermore thing ne plural buri on / at kati outside / outdoors kwayowo to / at ne thing dziro.",
+      "literal_gloss": "Chidziro [thing dziro] • chakakomberedzwa [chakakomberedzwa] • nechimwe [and / with chimwe] • chidziro [thing dziro] • chemasimbi [chemasimbi] • Icho [icho] • chiri [thing ri] • mukati [in / singular kati] • chiri [thing ri] • chezvidhinha [chezvidhinha] • uye [and / furthermore] • chine [thing ne] • maburi [plural buri] • pakati [on / at kati] • Kunze [outside / outdoors] • kwayowo [kwayowo] • kune [to / at ne] • chidziro [thing dziro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chidziro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakakomberedzwa",
+          "morpheme_breakdown": "chakakomberedzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakakomberedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechimwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chimwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chimwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chidziro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chemasimbi",
+          "morpheme_breakdown": "chemasimbi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chemasimbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Icho",
+          "morpheme_breakdown": "icho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "icho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chiri",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukati",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chiri",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chezvidhinha",
+          "morpheme_breakdown": "chezvidhinha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chezvidhinha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chine",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maburi",
+          "morpheme_breakdown": "ma- (plural prefix) + -buri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural buri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Kunze",
+          "morpheme_breakdown": "ku- (area) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "outside / outdoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwayowo",
+          "morpheme_breakdown": "kwayowo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwayowo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chidziro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dziro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chidziro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakakomberedzwa",
+      "morpheme_breakdown": "chakakomberedzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakakomberedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechimwe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chimwe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chimwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chidziro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chemasimbi",
+      "morpheme_breakdown": "chemasimbi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chemasimbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Icho",
+      "morpheme_breakdown": "icho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "icho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chiri",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukati",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chiri",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chezvidhinha",
+      "morpheme_breakdown": "chezvidhinha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chezvidhinha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chine",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maburi",
+      "morpheme_breakdown": "ma- (plural prefix) + -buri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural buri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Kunze",
+      "morpheme_breakdown": "ku- (area) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "outside / outdoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwayowo",
+      "morpheme_breakdown": "kwayowo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwayowo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kune",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chidziro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dziro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('chakakomberedzwa')",
+      "content": "The verb 'chakakomberedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('neruvara')",
+      "content": "This passage uses colour vocabulary such as 'neruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mukati')",
+      "content": "Look at how location is expressed with 'mukati'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Chidziro chakakomberedzwa nechimwe chidziro chemasimbi. Icho chiri mukati chiri chezvidhinha uye chine maburi pakati. Kunze kwayowo kune chidziro chemasimbi akapendwa neruvara rutema. Chidziro ichi chine maruva ari mukati uyewo mune masora arimo pakati pechidziro chezvidhinha uyewo chesimbi. Kapu chena ine svutu gadzike yakaiswa mukaka. Yakagadzikwa patafura yakasvibira pane ndiro chena ine zvekudya.' — \"Thing dziro chakakomberedzwa and / with chimwe thing dziro chemasimbi icho thing ri in / singular kati thing ri chezvidhinha and / furthermore thing ne plural buri on / at kati outside / outdoors kwayowo to / at ne thing dziro.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Father is in the house, but the children are playing outside.",
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

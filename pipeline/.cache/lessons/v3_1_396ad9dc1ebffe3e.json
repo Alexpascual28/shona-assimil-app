@@ -1,0 +1,273 @@
+{
+  "english_translation": "A planted pine tree has drooping needles hanging downward that have dried out and are beginning to shed from the tree.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Muti worudzi rwomupaini wakasimwa, unamashizha arikurembera achidzaka anoratidza kuva mashizha awoma avakukwachuka kubva pamuti.",
+      "english": "A planted pine tree has needles hanging downward, showing dried foliage starting to shed from the tree.",
+      "literal_gloss": "Muti [tree] • worudzi [worudzi] • rwomupaini [rwomupaini] • wakasimwa [you/he (past) simwa] • unamashizha [unamashizha] • arikurembera [he/she is rembera] • achidzaka [achidzaka] • anoratidza [he/she ratidza]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "worudzi",
+          "morpheme_breakdown": "worudzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "worudzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwomupaini",
+          "morpheme_breakdown": "rwomupaini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwomupaini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wakasimwa",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -simwa",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) simwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unamashizha",
+          "morpheme_breakdown": "unamashizha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "unamashizha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arikurembera",
+          "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -rembera",
+          "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+          "literal_english": "he/she is rembera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achidzaka",
+          "morpheme_breakdown": "achidzaka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achidzaka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anoratidza",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -ratidza",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -va",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at va",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "awoma",
+          "morpheme_breakdown": "awoma (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "awoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "avakukwachuka",
+          "morpheme_breakdown": "avakukwachuka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "avakukwachuka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at bva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamuti",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -muti",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at muti",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Muti",
+      "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "tree",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "worudzi",
+      "morpheme_breakdown": "worudzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "worudzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwomupaini",
+      "morpheme_breakdown": "rwomupaini (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwomupaini",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wakasimwa",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -simwa",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) simwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unamashizha",
+      "morpheme_breakdown": "unamashizha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "unamashizha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "arikurembera",
+      "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -rembera",
+      "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+      "literal_english": "he/she is rembera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "achidzaka",
+      "morpheme_breakdown": "achidzaka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "achidzaka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anoratidza",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -ratidza",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she ratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -va",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at va",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashizha",
+      "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "leaves",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "awoma",
+      "morpheme_breakdown": "awoma (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "awoma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "avakukwachuka",
+      "morpheme_breakdown": "avakukwachuka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "avakukwachuka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kubva",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -bva",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at bva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamuti",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -muti",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at muti",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('wakasimwa')",
+      "content": "The verb 'wakasimwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('anoratidza')",
+      "content": "The verb 'anoratidza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Eastern Highlands Pine Plantations ('Miti Yemupaini') in Nyanga & Chimanimani",
+      "content": "Alongside indigenous woodlands, commercial pine ('mupaini') and wattle plantations thrive in the cool, misty mountains of Zimbabwe's Eastern Highlands—especially around Nyanga, Erin Forest, and Chimanimani—supplying timber across the country.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

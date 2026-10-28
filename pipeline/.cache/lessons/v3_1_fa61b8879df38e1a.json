@@ -1,0 +1,449 @@
+{
+  "english_translation": "The cab of a parked haulage truck has black-framed transparent windows, a black body, and a black-and-white front grille bearing silver lettering.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Musoro wegonyeti rakamira une mafafitera ane mukomberedzo une ruvara rutema. Mafafitera aya unokwanisa kuona zviri mukati.",
+      "english": "The cab of a parked haulage truck has black-trimmed windows through which the interior can be seen.",
+      "literal_gloss": "Musoro [in / singular soro] • wegonyeti [wegonyeti] • rakamira [it (past) mira] • une [une] • mafafitera [plural fafitera] • ane [ane] • mukomberedzo [in / singular komberedzo] • une [une]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wegonyeti",
+          "morpheme_breakdown": "wegonyeti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wegonyeti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakamira",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -mira",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) mira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mafafitera",
+          "morpheme_breakdown": "ma- (plural prefix) + -fafitera",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural fafitera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukomberedzo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -komberedzo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular komberedzo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mafafitera",
+          "morpheme_breakdown": "ma- (plural prefix) + -fafitera",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural fafitera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aya",
+          "morpheme_breakdown": "aya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unokwanisa",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -kwanisa",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you kwanisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zviri",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ri",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukati",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kati",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Muviri wemusoro wegonyeti iri une ruvara rutema. Kumberi kwegonyeti iri kwakasanga ruvara rutema neruvara ruchena uye mavara akanyorwa nesirivheri.",
+      "english": "The body of the cab is black, while the front combines black and white with silver lettering.",
+      "literal_gloss": "Muviri [in / singular viri] • wemusoro [wemusoro] • wegonyeti [wegonyeti] • iri [iri] • une [une] • ruvara [colour] • rutema [black] • Kumberi [to / at mberi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Muviri",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -viri",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemusoro",
+          "morpheme_breakdown": "wemusoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemusoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wegonyeti",
+          "morpheme_breakdown": "wegonyeti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wegonyeti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Kumberi",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mberi",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mberi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwegonyeti",
+          "morpheme_breakdown": "kwegonyeti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwegonyeti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwakasanga",
+          "morpheme_breakdown": "kwakasanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwakasanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akanyorwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) nyorwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wegonyeti",
+      "morpheme_breakdown": "wegonyeti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wegonyeti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakamira",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -mira",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) mira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mafafitera",
+      "morpheme_breakdown": "ma- (plural prefix) + -fafitera",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural fafitera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukomberedzo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -komberedzo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular komberedzo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema",
+      "morpheme_breakdown": "ru- + -tema (black)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mafafitera",
+      "morpheme_breakdown": "ma- (plural prefix) + -fafitera",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural fafitera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aya",
+      "morpheme_breakdown": "aya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unokwanisa",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -kwanisa",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you kwanisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zviri",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -ri",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukati",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Muviri",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -viri",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wemusoro",
+      "morpheme_breakdown": "wemusoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wemusoro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakamira')",
+      "content": "The verb 'rakamira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unokwanisa')",
+      "content": "The verb 'unokwanisa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Cross-Border Transport & Heavy Truck Cabs ('Musoro Wegonyeti')",
+      "content": "Notice how Shona uses anatomical metaphors for vehicles: 'musoro wegonyeti' (the 'head' or cab of the truck) and 'muviri' (its body). Long-distance truck drivers are respected professionals connecting Zimbabwe's ports of entry.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

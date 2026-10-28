@@ -1,0 +1,301 @@
+{
+  "english_translation": "Mombe dziri to / at fura in / singular sango dzinofura huswa hwakasvibira mombe idzi dzinosanganisira black and / with tsvuku and / with dzine colours plural chena and / with matema.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mombe dziri kufura musango. Dzinofura huswa hwakasvibira. Mombe idzi dzinosanganisira nhema netsvuku nedzine mavara machena nematema.",
+      "english": "Mombe dziri to / at fura in / singular sango dzinofura huswa hwakasvibira mombe idzi dzinosanganisira black and / with tsvuku and / with dzine colours plural chena and / with matema.",
+      "literal_gloss": "Mombe [mombe] • dziri [dziri] • kufura [to / at fura] • musango [in / singular sango] • Dzinofura [dzinofura] • huswa [huswa] • hwakasvibira [hwakasvibira] • Mombe [mombe] • idzi [idzi] • dzinosanganisira [dzinosanganisira] • nhema [black] • netsvuku [and / with tsvuku] • nedzine [and / with dzine] • mavara [colours] • machena [plural chena] • nematema [and / with matema]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mombe",
+          "morpheme_breakdown": "mombe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -fura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at fura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musango",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sango",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sango",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Dzinofura",
+          "morpheme_breakdown": "dzinofura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzinofura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "huswa",
+          "morpheme_breakdown": "huswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "huswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwakasvibira",
+          "morpheme_breakdown": "hwakasvibira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwakasvibira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mombe",
+          "morpheme_breakdown": "mombe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "idzi",
+          "morpheme_breakdown": "idzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "idzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzinosanganisira",
+          "morpheme_breakdown": "dzinosanganisira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzinosanganisira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhema",
+          "morpheme_breakdown": "nhema (black / dark)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "netsvuku",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -tsvuku",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nedzine",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -dzine",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with dzine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "machena",
+          "morpheme_breakdown": "ma- (plural prefix) + -chena",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nematema",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -matema",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with matema",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mombe",
+      "morpheme_breakdown": "mombe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kufura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -fura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at fura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musango",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sango",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sango",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Dzinofura",
+      "morpheme_breakdown": "dzinofura (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzinofura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "huswa",
+      "morpheme_breakdown": "huswa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "huswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwakasvibira",
+      "morpheme_breakdown": "hwakasvibira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwakasvibira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mombe",
+      "morpheme_breakdown": "mombe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "idzi",
+      "morpheme_breakdown": "idzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "idzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzinosanganisira",
+      "morpheme_breakdown": "dzinosanganisira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzinosanganisira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhema",
+      "morpheme_breakdown": "nhema (black / dark)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "netsvuku",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -tsvuku",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nedzine",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -dzine",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with dzine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mavara",
+      "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "colours",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "machena",
+      "morpheme_breakdown": "ma- (plural prefix) + -chena",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nematema",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -matema",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with matema",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Colours & Describing Objects in Shona ('nhema')",
+      "content": "This passage uses colour vocabulary such as 'nhema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'netsvuku'",
+      "content": "Look closely at 'netsvuku'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'tsvuku' forms 'netsvuku'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "Pointing Out Things: Demonstratives ('idzi' = 'this / that / here')",
+      "content": "In Shona, words for 'this/these' and 'that/those' (like 'idzi') come AFTER the noun they point to and mirror the noun's group! Near demonstratives ('this / these / right here') repeat the noun class vowel: 'mwana uyu' (this child), 'nyama iyi' (this meat), 'kapu iyi' (this cup), 'bhuku iri' (this book), 'zvinhu izvi' (these things). Replacing the final vowel with '-o' shifts the meaning to 'that / those / there': 'uyo' (that person), 'iyo' (that one), 'uko' (over there).",
+      "rule": "Noun + Near Demonstrative ('uyu/iyi/iri/ichi/izvi' = this/these) | replace final vowel with '-o' ('uyo/iyo/iro/icho/izvo' = that/those)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Mombe dziri kufura musango. Dzinofura huswa hwakasvibira.  Mombe idzi dzinosanganisira nhema  netsvuku  nedzine mavara machena nematema.' — \"Mombe dziri to / at fura in / singular sango dzinofura huswa hwakasvibira mombe idzi dzinosanganisira black and / with tsvuku and / with dzine colours plural chena and / with matema.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

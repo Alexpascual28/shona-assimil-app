@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 11 Comprehensive Review (Lessons 71–77)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 71–77)",
+        "points": [
+          "Lesson 71: \"Mhiripiri dziri kukura pamuti dzakarembera dzine ruvara rwegirini. Muti wacho une mashizha a...\" — Mhiripiri dziri to / at kura on / at muti dzakarembera dzine colour rwegirini tree wacho une...",
+          "Lesson 72: \"Mashizha eruvara rwebumhudza akawanda uye akakura. Mashizha aya anoratidza kunge mashizha em...\" — Abundant, large leafy-green leaves grow on a citrus tree—resembling the foliage of an orange...",
+          "Lesson 73: \"Midziyo mitsva yakaiswa panoonekera. Yakagadzirwa nesimbi nedanda. Pane midziyo inosanganisi...\" — Brand-new tools made of steel and wood are displayed on view, including brushes, rakes, and ...",
+          "Lesson 74: \"Madhongi pane madhongi maviri. Madhongi aya arikudhonza ngoro. Mungoro munemurume akagara ak...\" — There are two donkeys. These donkeys are pulling a cart. Inside the cart sits a man wearing ...",
+          "Lesson 75: \"Muoko uri kuratidza zvigunwe zvina zvakaiswa pamwe chete. Pamusoro pezvigunwe zvacho pane zv...\" — In / singular oko uri to / at ratidza things gunwe things na zvakaiswa on / at mwe chete on ...",
+          "Lesson 76: \"Chinanasi chakadyarwa uye chinoratidza kuti chakanatsoguta mvura chakasvika. Chinerurava ruc...\" — A pineapple has been planted and looks well-watered and ripe. It has a light-coloured body w...",
+          "Lesson 77: \"Musikana akagadzirwa mumusoro wake zvakanaka. Akarukwa mamumutatu imwe ichibva nechapadivi i...\" — A young woman has her hair beautifully braided into neat three-strand plaits sweeping from e..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('dzakarembera'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakaiswa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akagara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('zvakaiswa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('chakadyarwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Mhiripiri dziri kukura pamuti dzakarembera dzine ruvara rwegirini.",
+          "Citrus Orchards ('Muranjisi & Muraimondi') of the Mazowe Valley: Just north of Harare lies the fertile Mazowe Valley, famous for over a century for its vast irrigated citrus estates ('miti yemuranjisi nemuraimondi') that produce oranges, lemons, and Zimbabwe's iconic Mazowe Orange Crush..",
+          "Hardware Stores & Garden Implements ('Maburasho, Mareki, Mafoshora'): Because most Zimbabwean households maintain a yard, orchard, or kitchen garden, hardware stores stock sturdy steel-and-timber tools ('midziyo yakagadzirwa nesimbi nedanda') including rakes ('mareki'), shovels ('mafoshora'), and brushes..",
+          "Donkey-Drawn Carts ('Ngoro yeMadhongi') in Rural Transport: Across rural Zimbabwe—especially in drier regions—two-wheeled carts ('zvigochikari' or 'ngoro') pulled by pairs of hardy donkeys ('madhongi maviri') or oxen are indispensable for transporting grain sacks to the grinding mill ('chigayo'), firewood, and water drums along unpaved country roads ('mugwagwa usina tara').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('dzakarembera')",
+    "Talking About the Past ('akawanda')",
+    "Talking About the Past ('yakaiswa')",
+    "Talking About the Past ('akagara')",
+    "Talking About the Past ('zvakaiswa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Folktales ('Ngano'): Who are the two classic characters in grandmother's fireside folktales ('ngano yetsuro negudo')?",
+      "options": [
+        "The lion ('shumba') and the crocodile ('garwe')",
+        "The clever hare ('tsuro') and the baboon ('gudo')",
+        "The elephant ('nzou') and the tortoise ('kamba')",
+        "The eagle ('gondo') and the snake ('nyoka')"
+      ],
+      "correct_answer": "The clever hare ('tsuro') and the baboon ('gudo')",
+      "explanation": "'Tsuro' (hare) and 'Gudo' (baboon) are the most famous duo in Shona 'ngano' storytelling."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Village Governance: What was the role of the traditional village council ('dare' / 'padare')?",
+      "options": [
+        "Grinding maize into mealie-meal only",
+        "Selling modern clothes and shoes",
+        "Settling community disputes ('kutonga mhosva') and mentoring young men in good customs ('tsika')",
+        "herding cattle in the mountains at night"
+      ],
+      "correct_answer": "Settling community disputes ('kutonga mhosva') and mentoring young men in good customs ('tsika')",
+      "explanation": "At the 'dare', elders adjudicated cases fairly and taught youth community values."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Figurative Language: What does the pair 'zvirevo nemadimikira' mean in English?",
+      "options": [
+        "Songs and dances",
+        "Rivers and mountains",
+        "Questions and answers",
+        "Proverbs and idioms"
+      ],
+      "correct_answer": "Proverbs and idioms",
+      "explanation": "'Zvirevo' (or 'tsumo') are proverbs, and 'madimikira' are idioms."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Passive Habitual ('-ai-...-wa'): In 'Nziyo dzechinyakare dzayiimbwa panguva dzekukohwa', what does 'dzayiimbwa' mean?",
+      "options": [
+        "they used to be sung",
+        "they are singing right now",
+        "they will sing tomorrow",
+        "sing loudly!"
+      ],
+      "correct_answer": "they used to be sung",
+      "explanation": "'Dza-yi-imb-wa' combines Class 10 'dza-', habitual '-yi-/-ai-', verb '-imba' (sing), and passive '-wa' ('used to be sung')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Indigenous Crops: Which two traditional grains did people cultivate long ago before maize ('chibage')?",
+      "options": [
+        "Wheat and barley only",
+        "Sorghum ('mapfunde') and finger millet ('zviyo')",
+        "Apples and pineapples only",
+        "Tea and coffee only"
+      ],
+      "correct_answer": "Sorghum ('mapfunde') and finger millet ('zviyo')",
+      "explanation": "'Mapfunde' (sorghum) and 'zviyo' (finger millet) are Zimbabwe's ancient drought-resistant staple grains."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 11 — Translate this new review sentence: 'Ambuya vaitaurira vazukuru vavo ngano dzinonakidza manheru.'",
+      "options": [
+        "The teacher asked the students to write a short essay today.",
+        "Men used to forge iron spears and hoes in the village.",
+        "Grandmother used to tell her grandchildren delightful folktales in the evening.",
+        "The river is full of water after yesterday's heavy rain."
+      ],
+      "correct_answer": "Grandmother used to tell her grandchildren delightful folktales in the evening.",
+      "explanation": "'Ambuya vaitaurira' = 'Grandmother used to tell', 'vazukuru vavo' = 'her grandchildren', 'ngano dzinonakidza manheru' = 'delightful folktales in the evening'."
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "english_translation": "A small vegetable garden grows leafy green vegetables beside a perimeter wall fence and several trees, including a jacaranda tree covered in purple blossoms.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Bindu ridiki rine muriwo une mashizha egirinhi.",
+      "english": "A small garden has leafy green vegetables.",
+      "literal_gloss": "Bindu [bindu] • ridiki [ridiki] • rine [rine] • muriwo [leafy green vegetables] • une [une] • mashizha [leaves] • egirinhi [egirinhi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Bindu",
+          "morpheme_breakdown": "bindu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bindu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ridiki",
+          "morpheme_breakdown": "ridiki (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ridiki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muriwo",
+          "morpheme_breakdown": "mu- + -riwo (vegetables/relish)",
+          "noun_class_or_concord": "Noun (mu-/mi-)",
+          "literal_english": "leafy green vegetables",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "egirinhi",
+          "morpheme_breakdown": "egirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "egirinhi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Parutivi pane ruzhowa rwechidziro uye miti yakawanda. Imwe ndeye mujakaranda ine maruva epepuro.",
+      "english": "Beside it stand a wall fence and many trees, one of which is a jacaranda tree with purple flowers.",
+      "literal_gloss": "Parutivi [on / at rutivi] • pane [on / at ne] • ruzhowa [ruzhowa] • rwechidziro [rwechidziro] • uye [and / furthermore] • miti [trees] • yakawanda [it (past) wanda] • Imwe [imwe]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Parutivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruzhowa",
+          "morpheme_breakdown": "ruzhowa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ruzhowa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwechidziro",
+          "morpheme_breakdown": "rwechidziro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwechidziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakawanda",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndeye",
+          "morpheme_breakdown": "ndeye (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndeye",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mujakaranda",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -jakaranda",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular jakaranda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maruva",
+          "morpheme_breakdown": "ma- (plural) + -ruva (flowers)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "flowers",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "epepuro",
+          "morpheme_breakdown": "epepuro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "epepuro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Bindu",
+      "morpheme_breakdown": "bindu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bindu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ridiki",
+      "morpheme_breakdown": "ridiki (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ridiki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muriwo",
+      "morpheme_breakdown": "mu- + -riwo (vegetables/relish)",
+      "noun_class_or_concord": "Noun (mu-/mi-)",
+      "literal_english": "leafy green vegetables",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashizha",
+      "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "leaves",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "egirinhi",
+      "morpheme_breakdown": "egirinhi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "egirinhi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Parutivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruzhowa",
+      "morpheme_breakdown": "ruzhowa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ruzhowa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwechidziro",
+      "morpheme_breakdown": "rwechidziro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwechidziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakawanda",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Imwe",
+      "morpheme_breakdown": "imwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndeye",
+      "morpheme_breakdown": "ndeye (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndeye",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mujakaranda",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -jakaranda",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular jakaranda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakawanda')",
+      "content": "The verb 'yakawanda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('egirinhi')",
+      "content": "This passage uses colour vocabulary such as 'egirinhi'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('Imwe')",
+      "content": "In Shona, number words like 'Imwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Purple Jacaranda Blossoms ('Mujakaranda') & Home Vegetable Gardens ('Bindu')",
+      "content": "Every October, cities across Zimbabwe—especially Harare—are transformed by a canopy of purple blossoms from jacaranda trees ('miti yemujakaranda'), growing right beside household vegetable beds ('bindu remuriwo').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal",
+        "Milk or water because they feel thirsty"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Choose the natural English meaning of this new sentence: 'Vana vanoda kudya chingwa nemukaka mangwanani.'",
+      "options": [
+        "The children want to eat bread and milk in the morning.",
+        "We bought sugar, salt, and vegetables yesterday.",
+        "Father is cooking meat and sadza for dinner tonight.",
+        "The bread has run out so I am going to the shop."
+      ],
+      "correct_answer": "The children want to eat bread and milk in the morning.",
+      "explanation": "'Vana' = 'The children', 'vanoda kudya' = 'want to eat', 'chingwa nemukaka' = 'bread and milk', 'mangwanani' = 'in the morning'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

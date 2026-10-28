@@ -1,0 +1,329 @@
+{
+  "english_translation": "Dhirezi riri in / singular fashoni it (past) reba to / at vhara plural kumbo rino colour red noruchena and / with rwebhurauni harina plural oko it (past) pfekwa nomusikana in / singular tsvuku he/she (past) rukwa in / singular soro.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Dhirezi riri mufashoni. Rakareba kuvhara makumbo. Rino ruvara rutsvuku noruchena nerwebhurauni. Harina maoko. Rakapfekwa nomusikana mutsvuku akarukwa musoro.",
+      "english": "Dhirezi riri in / singular fashoni it (past) reba to / at vhara plural kumbo rino colour red noruchena and / with rwebhurauni harina plural oko it (past) pfekwa nomusikana in / singular tsvuku he/she (past) rukwa in / singular soro.",
+      "literal_gloss": "Dhirezi [dhirezi] • riri [riri] • mufashoni [in / singular fashoni] • Rakareba [it (past) reba] • kuvhara [to / at vhara] • makumbo [plural kumbo] • Rino [rino] • ruvara [colour] • rutsvuku [red] • noruchena [noruchena] • nerwebhurauni [and / with rwebhurauni] • Harina [harina] • maoko [plural oko] • Rakapfekwa [it (past) pfekwa] • nomusikana [nomusikana] • mutsvuku [in / singular tsvuku] • akarukwa [he/she (past) rukwa] • musoro [in / singular soro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Dhirezi",
+          "morpheme_breakdown": "dhirezi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dhirezi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riri",
+          "morpheme_breakdown": "riri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "riri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mufashoni",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -fashoni",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular fashoni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Rakareba",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -reba",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) reba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuvhara",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -vhara",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at vhara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "makumbo",
+          "morpheme_breakdown": "ma- (plural prefix) + -kumbo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural kumbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Rino",
+          "morpheme_breakdown": "rino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutsvuku",
+          "morpheme_breakdown": "ru- + -tsvuku (red)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "red",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "noruchena",
+          "morpheme_breakdown": "noruchena (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "noruchena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerwebhurauni",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -rwebhurauni",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with rwebhurauni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Harina",
+          "morpheme_breakdown": "harina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "harina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maoko",
+          "morpheme_breakdown": "ma- (plural prefix) + -oko",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural oko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Rakapfekwa",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -pfekwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) pfekwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nomusikana",
+          "morpheme_breakdown": "nomusikana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nomusikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutsvuku",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akarukwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) rukwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Dhirezi",
+      "morpheme_breakdown": "dhirezi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dhirezi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "riri",
+      "morpheme_breakdown": "riri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "riri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mufashoni",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -fashoni",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular fashoni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Rakareba",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -reba",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) reba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuvhara",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -vhara",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at vhara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "makumbo",
+      "morpheme_breakdown": "ma- (plural prefix) + -kumbo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural kumbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Rino",
+      "morpheme_breakdown": "rino (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rino",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutsvuku",
+      "morpheme_breakdown": "ru- + -tsvuku (red)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "red",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "noruchena",
+      "morpheme_breakdown": "noruchena (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "noruchena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nerwebhurauni",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -rwebhurauni",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with rwebhurauni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Harina",
+      "morpheme_breakdown": "harina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "harina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maoko",
+      "morpheme_breakdown": "ma- (plural prefix) + -oko",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural oko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Rakapfekwa",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -pfekwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) pfekwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nomusikana",
+      "morpheme_breakdown": "nomusikana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nomusikana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutsvuku",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akarukwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) rukwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Rakareba')",
+      "content": "The verb 'Rakareba' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nerwebhurauni'",
+      "content": "Look closely at 'nerwebhurauni'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'rwebhurauni' forms 'nerwebhurauni'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Dhirezi riri mufashoni. Rakareba kuvhara makumbo. Rino ruvara rutsvuku noruchena nerwebhurauni. Harina maoko. Rakapfekwa nomusikana mutsvuku akarukwa musoro.' — \"Dhirezi riri in / singular fashoni it (past) reba to / at vhara plural kumbo rino colour red noruchena and / with rwebhurauni harina plural oko it (past) pfekwa nomusikana in / singular tsvuku he/she (past) rukwa in / singular soro.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

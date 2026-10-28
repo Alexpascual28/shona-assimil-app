@@ -1,0 +1,386 @@
+{
+  "english_translation": "Along a pedestrian street, many vendors have laid out their market stalls, sitting on chairs under raised umbrellas with parked cars visible behind them.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Pane mumwe mugwagwa unofambira vanhu. Pane vanhu vazhinji vakawaridza misika.",
+      "english": "Along a pedestrian walkway, many people have set up market stalls.",
+      "literal_gloss": "Pane [on / at ne] • mumwe [in / singular mwe] • mugwagwa [in / singular gwagwa] • unofambira [you fambira] • vanhu [people] • Pane [on / at ne] • vanhu [people] • vazhinji [people zhinji]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumwe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unofambira",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -fambira",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you fambira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vazhinji",
+          "morpheme_breakdown": "va- (plural people prefix) + -zhinji",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people zhinji",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakawaridza",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -waridza",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) waridza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "misika",
+          "morpheme_breakdown": "misika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "misika",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Vanhu ava vakagara muzvigaro uyezve vamwe vavo vakasimudza sumburera. Nechekumashure kwevanhu ava kune motokari dzakamirako.",
+      "english": "These vendors are seated on chairs with umbrellas raised for shade, and parked cars can be seen behind them.",
+      "literal_gloss": "Vanhu [people] • ava [ava] • vakagara [they (past) gara] • muzvigaro [in / singular zvigaro] • uyezve [uyezve] • vamwe [people mwe] • vavo [people vo] • vakasimudza [they (past) simudza]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ava",
+          "morpheme_breakdown": "ava (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ava",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakagara",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -gara",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muzvigaro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvigaro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular zvigaro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyezve",
+          "morpheme_breakdown": "uyezve (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyezve",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vamwe",
+          "morpheme_breakdown": "va- (plural people prefix) + -mwe",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vavo",
+          "morpheme_breakdown": "va- (plural people prefix) + -vo",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people vo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakasimudza",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -simudza",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) simudza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sumburera",
+          "morpheme_breakdown": "sumburera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sumburera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Nechekumashure",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chekumashure",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chekumashure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwevanhu",
+          "morpheme_breakdown": "kwevanhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwevanhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ava",
+          "morpheme_breakdown": "ava (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ava",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "motokari",
+          "morpheme_breakdown": "motokari (motorcar)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car / vehicle",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakamirako",
+          "morpheme_breakdown": "dzakamirako (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakamirako",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumwe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unofambira",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -fambira",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you fambira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vazhinji",
+      "morpheme_breakdown": "va- (plural people prefix) + -zhinji",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people zhinji",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakawaridza",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -waridza",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) waridza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "misika",
+      "morpheme_breakdown": "misika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "misika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ava",
+      "morpheme_breakdown": "ava (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ava",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakagara",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -gara",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muzvigaro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvigaro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular zvigaro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyezve",
+      "morpheme_breakdown": "uyezve (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyezve",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vamwe",
+      "morpheme_breakdown": "va- (plural people prefix) + -mwe",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vavo",
+      "morpheme_breakdown": "va- (plural people prefix) + -vo",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people vo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakasimudza",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -simudza",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) simudza",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakawaridza')",
+      "content": "The verb 'vakawaridza' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unofambira')",
+      "content": "The verb 'unofambira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('mumwe')",
+      "content": "In Shona, number words like 'mumwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Pedestrian Malls & Street Market Stalls ('Misika') Under Umbrellas",
+      "content": "Along pedestrianised avenues like First Street in Harare, vibrant informal market stalls ('misika') shaded by large umbrellas ('masumburera') offer pedestrians everything from fresh fruit to mobile airtime.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Kombi chena iri kufamba pamugwagwa mukuru.'",
+      "options": [
+        "The white minibus is travelling along the main road.",
+        "The large red truck is parked at the fuel station.",
+        "Two people are standing beside the shop in town.",
+        "Our journey to the mountains was long but enjoyable."
+      ],
+      "correct_answer": "The white minibus is travelling along the main road.",
+      "explanation": "'Kombi chena' = 'The white minibus', 'iri kufamba' = 'is travelling', 'pamugwagwa mukuru' = 'along the main road'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "english_translation": "Assorted fruits are being sold at the market; packed in boxes, they include bananas, oranges, and apples.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Michero yakasiyana-siyana irikutengeswa pamusika.",
+      "english": "A variety of fruits are being sold at the market.",
+      "literal_gloss": "Michero [michero] • yakasiyana-siyana [it (past) siyana-siyana] • irikutengeswa [it is kutengeswa] • pamusika [on / at musika]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Michero",
+          "morpheme_breakdown": "michero (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "michero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakasiyana-siyana",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -siyana-siyana",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) siyana-siyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "irikutengeswa",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -kutengeswa",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is kutengeswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusika",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musika",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musika",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Yakaiswa mumabhokisi, inobatanidza mabhanana, maorenji uyewo maapuro.",
+      "english": "Arranged in boxes, they include bananas, oranges, and apples.",
+      "literal_gloss": "Yakaiswa [it (past) iswa] • mumabhokisi [in / singular mabhokisi] • inobatanidza [it batanidza] • mabhanana [plural bhanana] • maorenji [plural orenji] • uyewo [uyewo] • maapuro [plural apuro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Yakaiswa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) iswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumabhokisi",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mabhokisi",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mabhokisi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inobatanidza",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -batanidza",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it batanidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mabhanana",
+          "morpheme_breakdown": "ma- (plural prefix) + -bhanana",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural bhanana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maorenji",
+          "morpheme_breakdown": "ma- (plural prefix) + -orenji",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural orenji",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyewo",
+          "morpheme_breakdown": "uyewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maapuro",
+          "morpheme_breakdown": "ma- (plural prefix) + -apuro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural apuro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Michero",
+      "morpheme_breakdown": "michero (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "michero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakasiyana-siyana",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -siyana-siyana",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) siyana-siyana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "irikutengeswa",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -kutengeswa",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is kutengeswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusika",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musika",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakaiswa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) iswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumabhokisi",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mabhokisi",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mabhokisi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inobatanidza",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -batanidza",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it batanidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mabhanana",
+      "morpheme_breakdown": "ma- (plural prefix) + -bhanana",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural bhanana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maorenji",
+      "morpheme_breakdown": "ma- (plural prefix) + -orenji",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural orenji",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyewo",
+      "morpheme_breakdown": "uyewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maapuro",
+      "morpheme_breakdown": "ma- (plural prefix) + -apuro",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural apuro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakasiyana')",
+      "content": "The verb 'yakasiyana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inobatanidza')",
+      "content": "The verb 'inobatanidza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Crate Fruit Trading ('Mabhanana, Maorenji, Maapuro') at Wholesale Markets",
+      "content": "At bustling wholesale produce markets like Mbare Musika in Harare or Sakubva in Mutare, crates and boxes ('mabhokisi') of bananas from Honde Valley, oranges from Mazowe, and apples from Nyanga are traded daily.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Father is in the house, but the children are playing outside.",
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

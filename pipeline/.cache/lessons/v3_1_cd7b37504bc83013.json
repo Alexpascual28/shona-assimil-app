@@ -1,0 +1,386 @@
+{
+  "english_translation": "An articulated haulage truck shows the side of its cab, the coupling joint where the trailer connects, and the front wheels; it is used to transport heavy cargo across long distances.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Gonyeti ririkuratidza divi remusoro nepakati parino joiniwa, nepamashure pane ngoro uye nesimbi iripo namavhiri maviri ekumberi.",
+      "english": "A haulage truck shows the side of its cab, the coupling joint, the trailer behind, and the two front wheels.",
+      "literal_gloss": "Gonyeti [gonyeti] • ririkuratidza [it is kuratidza] • divi [divi] • remusoro [remusoro] • nepakati [and / with pakati] • parino [on / at rino] • joiniwa [joiniwa] • nepamashure [and / with pamashure]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Gonyeti",
+          "morpheme_breakdown": "gonyeti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "gonyeti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ririkuratidza",
+          "morpheme_breakdown": "ri- (it) + -ri (is) + -kuratidza",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is kuratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "divi",
+          "morpheme_breakdown": "divi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "divi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "remusoro",
+          "morpheme_breakdown": "remusoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "remusoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nepakati",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -pakati",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with pakati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "parino",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rino",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "joiniwa",
+          "morpheme_breakdown": "joiniwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "joiniwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nepamashure",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -pamashure",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with pamashure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngoro",
+          "morpheme_breakdown": "ngoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimbi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iripo",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is po",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "namavhiri",
+          "morpheme_breakdown": "namavhiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "namavhiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maviri",
+          "morpheme_breakdown": "ma- (plural prefix) + -viri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ekumberi",
+          "morpheme_breakdown": "ekumberi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ekumberi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Rinoshandiswa kutakura zvinhu zvakarema uye zvakawanda kuyenda kunzvimbo dzakasiyana.",
+      "english": "It is used to transport heavy goods in bulk to different destinations.",
+      "literal_gloss": "Rinoshandiswa [it shandiswa] • kutakura [to / at takura] • zvinhu [things nhu] • zvakarema [zvakarema] • uye [and / furthermore] • zvakawanda [zvakawanda] • kuyenda [to / at yenda] • kunzvimbo [to / at nzvimbo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rinoshandiswa",
+          "morpheme_breakdown": "ri- (it) + -no- (present) + -shandiswa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it shandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutakura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -takura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at takura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinhu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakarema",
+          "morpheme_breakdown": "zvakarema (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakarema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakawanda",
+          "morpheme_breakdown": "zvakawanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakawanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuyenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -yenda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at yenda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzvimbo",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzvimbo",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakasiyana",
+          "morpheme_breakdown": "dzakasiyana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakasiyana",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Gonyeti",
+      "morpheme_breakdown": "gonyeti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "gonyeti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ririkuratidza",
+      "morpheme_breakdown": "ri- (it) + -ri (is) + -kuratidza",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is kuratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "divi",
+      "morpheme_breakdown": "divi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "divi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "remusoro",
+      "morpheme_breakdown": "remusoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "remusoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nepakati",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -pakati",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with pakati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "parino",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rino",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rino",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "joiniwa",
+      "morpheme_breakdown": "joiniwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "joiniwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nepamashure",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -pamashure",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with pamashure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ngoro",
+      "morpheme_breakdown": "ngoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ngoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimbi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iripo",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is po",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "namavhiri",
+      "morpheme_breakdown": "namavhiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "namavhiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maviri",
+      "morpheme_breakdown": "ma- (plural prefix) + -viri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ekumberi",
+      "morpheme_breakdown": "ekumberi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ekumberi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Rinoshandiswa",
+      "morpheme_breakdown": "ri- (it) + -no- (present) + -shandiswa",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it shandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutakura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -takura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at takura",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakarema')",
+      "content": "The verb 'zvakarema' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Rinoshandiswa')",
+      "content": "The verb 'Rinoshandiswa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Articulated Haulage Trucks ('Magonyeti') Along the North-South Corridor",
+      "content": "Because Zimbabwe sits at the geographic crossroads of Southern Africa—linking South Africa, Zambia, Mozambique (Beira Corridor), and Botswana—heavy articulated haulage trucks ('magonyeti') are the lifeblood of regional trade.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

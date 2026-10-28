@@ -1,0 +1,281 @@
+{
+  "english_translation": "A single open-toed women's shoe with shiny silver straps on top and a black sole is placed on the floor.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Shangu imwechete yechidzimai yakavhurika. Ine mavara esirivha anopenya pamusoro.",
+      "english": "A single open women's shoe has shiny silver colours on top.",
+      "literal_gloss": "Shangu [shoes] • imwechete [imwechete] • yechidzimai [yechidzimai] • yakavhurika [it (past) vhurika] • Ine [ine] • mavara [colours] • esirivha [esirivha] • anopenya [he/she penya]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwechete",
+          "morpheme_breakdown": "imwechete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwechete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yechidzimai",
+          "morpheme_breakdown": "yechidzimai (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yechidzimai",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakavhurika",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhurika",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vhurika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "esirivha",
+          "morpheme_breakdown": "esirivha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "esirivha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anopenya",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -penya",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she penya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Pasi payo patema. Yakagadzikwa pasi.",
+      "english": "Its sole is black, and it is placed on the ground.",
+      "literal_gloss": "Pasi [on / at si] • payo [on / at yo] • patema [on / at tema] • Yakagadzikwa [it (past) gadzikwa] • pasi [on / at si]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "payo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at yo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "patema",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -tema",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at tema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Yakagadzikwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzikwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) gadzikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwechete",
+      "morpheme_breakdown": "imwechete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwechete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yechidzimai",
+      "morpheme_breakdown": "yechidzimai (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yechidzimai",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakavhurika",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhurika",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vhurika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mavara",
+      "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "colours",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "esirivha",
+      "morpheme_breakdown": "esirivha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "esirivha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anopenya",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -penya",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she penya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pasi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at si",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "payo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at yo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "patema",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -tema",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakagadzikwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzikwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) gadzikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at si",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakavhurika')",
+      "content": "The verb 'yakavhurika' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('anopenya')",
+      "content": "The verb 'anopenya' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mavara')",
+      "content": "This passage uses colour vocabulary such as 'mavara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Evening & Wedding Footwear ('Shangu Yechidzimai Yakavhurika')",
+      "content": "Silver and metallic open-toed sandals ('shangu yakavhurika ine mavara esirivha') are popular attire for Zimbabwean weddings ('michato'), kitchen parties, and Sunday church services.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

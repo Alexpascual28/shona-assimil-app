@@ -1,0 +1,329 @@
+{
+  "english_translation": "Imba it (past) shongedzwa well / nicely / very good it (past) komberedzwa and / with chidziro chemasimbi uyewo in / singular nemaruva he/she is mo he/she (past) chekererwa well / nicely / very good emhando yehej poitawo tsangadzi it (past) svibira well / nicely / very good it is mukati.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Imba yakashongedzwa zvakanaka, yakakomberedzwa nechidziro chemasimbi uyewo munemaruva arimo akachekererwa zvakanaka emhando yehej. Poitawo tsangadzi yakasvibira zvakanaka irimukati. Panevanhu varikufamba poitawo motikari dzirimukati.",
+      "english": "Imba it (past) shongedzwa well / nicely / very good it (past) komberedzwa and / with chidziro chemasimbi uyewo in / singular nemaruva he/she is mo he/she (past) chekererwa well / nicely / very good emhando yehej poitawo tsangadzi it (past) svibira well / nicely / very good it is mukati.",
+      "literal_gloss": "Imba [imba] • yakashongedzwa [it (past) shongedzwa] • zvakanaka [well / nicely / very good] • yakakomberedzwa [it (past) komberedzwa] • nechidziro [and / with chidziro] • chemasimbi [chemasimbi] • uyewo [uyewo] • munemaruva [in / singular nemaruva] • arimo [he/she is mo] • akachekererwa [he/she (past) chekererwa] • zvakanaka [well / nicely / very good] • emhando [emhando] • yehej [yehej] • Poitawo [poitawo] • tsangadzi [tsangadzi] • yakasvibira [it (past) svibira] • zvakanaka [well / nicely / very good] • irimukati [it is mukati]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakashongedzwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -shongedzwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) shongedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakakomberedzwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -komberedzwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) komberedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechidziro",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chidziro",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chidziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chemasimbi",
+          "morpheme_breakdown": "chemasimbi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chemasimbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyewo",
+          "morpheme_breakdown": "uyewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munemaruva",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nemaruva",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nemaruva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arimo",
+          "morpheme_breakdown": "a- (he/she) + -ri (is) + -mo",
+          "noun_class_or_concord": "Present Helper Verb (he/she is)",
+          "literal_english": "he/she is mo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akachekererwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -chekererwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) chekererwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "emhando",
+          "morpheme_breakdown": "emhando (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "emhando",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yehej",
+          "morpheme_breakdown": "yehej (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yehej",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Poitawo",
+          "morpheme_breakdown": "poitawo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "poitawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsangadzi",
+          "morpheme_breakdown": "tsangadzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsangadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakasvibira",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -svibira",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) svibira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "irimukati",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -mukati",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is mukati",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakashongedzwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -shongedzwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) shongedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakakomberedzwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -komberedzwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) komberedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechidziro",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chidziro",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chidziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chemasimbi",
+      "morpheme_breakdown": "chemasimbi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chemasimbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyewo",
+      "morpheme_breakdown": "uyewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munemaruva",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nemaruva",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nemaruva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "arimo",
+      "morpheme_breakdown": "a- (he/she) + -ri (is) + -mo",
+      "noun_class_or_concord": "Present Helper Verb (he/she is)",
+      "literal_english": "he/she is mo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akachekererwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -chekererwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) chekererwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "emhando",
+      "morpheme_breakdown": "emhando (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "emhando",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yehej",
+      "morpheme_breakdown": "yehej (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yehej",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Poitawo",
+      "morpheme_breakdown": "poitawo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "poitawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tsangadzi",
+      "morpheme_breakdown": "tsangadzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tsangadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakasvibira",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -svibira",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) svibira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "irimukati",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -mukati",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is mukati",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakashongedzwa')",
+      "content": "The verb 'yakashongedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nechidziro'",
+      "content": "Look closely at 'nechidziro'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'chidziro' forms 'nechidziro'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Imba yakashongedzwa zvakanaka, yakakomberedzwa nechidziro chemasimbi uyewo munemaruva arimo akachekererwa zvakanaka emhando yehej.  Poitawo tsangadzi yakasvibira zvakanaka irimukati. Panevanhu varikufamba poitawo motikari dzirimukati.' — \"Imba it (past) shongedzwa well / nicely / very good it (past) komberedzwa and / with chidziro chemasimbi uyewo in / singular nemaruva he/she is mo he/she (past) chekererwa well / nicely / very good emhando yehej poitawo tsangadzi it (past) svibira well / nicely / very good it is mukati.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

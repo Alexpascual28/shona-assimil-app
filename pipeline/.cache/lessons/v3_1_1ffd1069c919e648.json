@@ -1,0 +1,329 @@
+{
+  "english_translation": "An earthenware plate holds a meal of white maize sadza and beef stewed with cabbage, accompanied by a small plastic bottle of chilli pepper sauce on the side.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiro imwechete yedhaga ine chikafu chinoti sadza rechibage chichena nyama yemombe yakasangana nekabichi. Parutivi pane kabhotoro kepurasitiki kemhiripiri.",
+      "english": "A single clay plate holds white maize sadza and beef mixed with cabbage, with a small plastic bottle of chilli on the side.",
+      "literal_gloss": "Ndiro [ndiro] • imwechete [imwechete] • yedhaga [yedhaga] • ine [ine] • chikafu [thing kafu] • chinoti [thing noti] • sadza [sadza (staple maize dish)] • rechibage [rechibage]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiro",
+          "morpheme_breakdown": "ndiro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwechete",
+          "morpheme_breakdown": "imwechete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwechete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yedhaga",
+          "morpheme_breakdown": "yedhaga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yedhaga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chikafu",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -kafu",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing kafu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chinoti",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -noti",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing noti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sadza",
+          "morpheme_breakdown": "sadza (thick maize porridge)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sadza (staple maize dish)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rechibage",
+          "morpheme_breakdown": "rechibage (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rechibage",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chichena",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -chena",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyama",
+          "morpheme_breakdown": "nyama (meat)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "meat",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yemombe",
+          "morpheme_breakdown": "yemombe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yemombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakasangana",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -sangana",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) sangana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekabichi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kabichi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kabichi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Parutivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kabhotoro",
+          "morpheme_breakdown": "kabhotoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kabhotoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kepurasitiki",
+          "morpheme_breakdown": "kepurasitiki (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kepurasitiki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kemhiripiri",
+          "morpheme_breakdown": "kemhiripiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kemhiripiri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiro",
+      "morpheme_breakdown": "ndiro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwechete",
+      "morpheme_breakdown": "imwechete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwechete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yedhaga",
+      "morpheme_breakdown": "yedhaga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yedhaga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chikafu",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -kafu",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing kafu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chinoti",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -noti",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing noti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sadza",
+      "morpheme_breakdown": "sadza (thick maize porridge)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sadza (staple maize dish)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rechibage",
+      "morpheme_breakdown": "rechibage (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rechibage",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chichena",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -chena",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyama",
+      "morpheme_breakdown": "nyama (meat)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "meat",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yemombe",
+      "morpheme_breakdown": "yemombe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yemombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakasangana",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -sangana",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) sangana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekabichi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kabichi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kabichi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Parutivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kabhotoro",
+      "morpheme_breakdown": "kabhotoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kabhotoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kepurasitiki",
+      "morpheme_breakdown": "kepurasitiki (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kepurasitiki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kemhiripiri",
+      "morpheme_breakdown": "kemhiripiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kemhiripiri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakasangana')",
+      "content": "The verb 'yakasangana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('chinoti')",
+      "content": "The verb 'chinoti' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('chichena')",
+      "content": "This passage uses colour vocabulary such as 'chichena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Earthenware Plates ('Ndiro Yedhaga'), Sadza with Beef & Chilli ('Mhiripiri')",
+      "content": "Serving white maize sadza, beef stew ('nyama yemombe'), and cabbage on a traditional clay plate ('ndiro yedhaga') with hot peri-peri chilli sauce ('mhiripiri') on the side is a beloved celebration of authentic Zimbabwean cuisine.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal",
+        "Milk or water because they feel thirsty"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Choose the natural English meaning of this new sentence: 'Vana vanoda kudya chingwa nemukaka mangwanani.'",
+      "options": [
+        "The children want to eat bread and milk in the morning.",
+        "We bought sugar, salt, and vegetables yesterday.",
+        "Father is cooking meat and sadza for dinner tonight.",
+        "The bread has run out so I am going to the shop."
+      ],
+      "correct_answer": "The children want to eat bread and milk in the morning.",
+      "explanation": "'Vana' = 'The children', 'vanoda kudya' = 'want to eat', 'chingwa nemukaka' = 'bread and milk', 'mangwanani' = 'in the morning'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "english_translation": "A light-complexioned woman looks downward; her blonde-dyed hair is closely trimmed on the sides with a parted line and fuller textured curls on top.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Munhukadzi mutsvuku akatsikitsira. Ane musoro une vhudzi jena rakagerwa nechekumativi pakaiswa mutaro. Pamusoro pane vhudzi rakakuririra rakabvanyangurwa.",
+      "english": "A woman is looking downward; her light-coloured hair is trimmed on the sides with a part line and fuller styled hair on top.",
+      "literal_gloss": "Munhukadzi [in / singular nhukadzi] • mutsvuku [in / singular tsvuku] • akatsikitsira [he/she (past) tsikitsira] • Ane [ane] • musoro [in / singular soro] • une [une] • vhudzi [vhudzi] • jena [jena]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Munhukadzi",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhukadzi",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nhukadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutsvuku",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akatsikitsira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tsikitsira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) tsikitsira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vhudzi",
+          "morpheme_breakdown": "vhudzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vhudzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "jena",
+          "morpheme_breakdown": "jena (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "jena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakagerwa",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -gerwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) gerwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechekumativi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chekumativi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chekumativi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakaiswa",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kaiswa",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kaiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutaro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -taro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular taro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vhudzi",
+          "morpheme_breakdown": "vhudzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vhudzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakakuririra",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -kuririra",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) kuririra",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakabvanyangurwa",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -bvanyangurwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) bvanyangurwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Munhukadzi",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nhukadzi",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nhukadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutsvuku",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akatsikitsira",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tsikitsira",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) tsikitsira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vhudzi",
+      "morpheme_breakdown": "vhudzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vhudzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "jena",
+      "morpheme_breakdown": "jena (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "jena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakagerwa",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -gerwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) gerwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechekumativi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chekumativi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chekumativi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakaiswa",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kaiswa",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kaiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutaro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -taro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular taro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vhudzi",
+      "morpheme_breakdown": "vhudzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vhudzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakakuririra",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -kuririra",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) kuririra",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakabvanyangurwa",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -bvanyangurwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) bvanyangurwa",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akatsikitsira')",
+      "content": "The verb 'akatsikitsira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mutsvuku')",
+      "content": "This passage uses colour vocabulary such as 'mutsvuku'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('Pamusoro')",
+      "content": "Look at how location is expressed with 'Pamusoro'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Contemporary Salon Barbering & Hair Colouring ('Mutaro & Vhudzi Jena')",
+      "content": "Modern Zimbabwean hair salons blend precision barbering—such as tapered sides with a razor-sharp part line ('mutaro')—with bold blonde and honey-toned hair colouring ('vhudzi jena').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

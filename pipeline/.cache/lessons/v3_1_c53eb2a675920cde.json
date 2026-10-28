@@ -1,0 +1,329 @@
+{
+  "english_translation": "Mhiripiri dziri to / at kura on / at muti dzakarembera dzine colour rwegirini tree wacho une leaves ane colour rwegirini tree uyu you/he (past) dzvariwa.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhiripiri dziri kukura pamuti dzakarembera dzine ruvara rwegirini. Muti wacho une mashizha ane ruvara rwegirini. Muti uyu wakadzvariwa pasi pane ivhu riri kuoneka.",
+      "english": "Mhiripiri dziri to / at kura on / at muti dzakarembera dzine colour rwegirini tree wacho une leaves ane colour rwegirini tree uyu you/he (past) dzvariwa.",
+      "literal_gloss": "Mhiripiri [mhiripiri] • dziri [dziri] • kukura [to / at kura] • pamuti [on / at muti] • dzakarembera [dzakarembera] • dzine [dzine] • ruvara [colour] • rwegirini [rwegirini] • Muti [tree] • wacho [wacho] • une [une] • mashizha [leaves] • ane [ane] • ruvara [colour] • rwegirini [rwegirini] • Muti [tree] • uyu [uyu] • wakadzvariwa [you/he (past) dzvariwa]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhiripiri",
+          "morpheme_breakdown": "mhiripiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhiripiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kukura",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -kura",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at kura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamuti",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -muti",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at muti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakarembera",
+          "morpheme_breakdown": "dzakarembera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakarembera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzine",
+          "morpheme_breakdown": "dzine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirini",
+          "morpheme_breakdown": "rwegirini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wacho",
+          "morpheme_breakdown": "wacho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wacho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirini",
+          "morpheme_breakdown": "rwegirini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyu",
+          "morpheme_breakdown": "uyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wakadzvariwa",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -dzvariwa",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) dzvariwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhiripiri",
+      "morpheme_breakdown": "mhiripiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mhiripiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kukura",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -kura",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at kura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamuti",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -muti",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at muti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakarembera",
+      "morpheme_breakdown": "dzakarembera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakarembera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzine",
+      "morpheme_breakdown": "dzine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirini",
+      "morpheme_breakdown": "rwegirini (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirini",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Muti",
+      "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "tree",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wacho",
+      "morpheme_breakdown": "wacho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wacho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashizha",
+      "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "leaves",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirini",
+      "morpheme_breakdown": "rwegirini (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirini",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Muti",
+      "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "tree",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyu",
+      "morpheme_breakdown": "uyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wakadzvariwa",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -dzvariwa",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) dzvariwa",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakarembera')",
+      "content": "The verb 'dzakarembera' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Mhiripiri dziri kukura pamuti dzakarembera dzine ruvara rwegirini. Muti wacho une mashizha ane ruvara rwegirini. Muti uyu wakadzvariwa pasi pane ivhu riri kuoneka.' — \"Mhiripiri dziri to / at kura on / at muti dzakarembera dzine colour rwegirini tree wacho une leaves ane colour rwegirini tree uyu you/he (past) dzvariwa.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

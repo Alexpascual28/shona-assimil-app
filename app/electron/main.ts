@@ -297,15 +297,118 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
     const availableNew = poolLessons.filter(
       (item) =>
         !existingIds.has(item.clip_id) &&
-        !existingTexts.has(String(item.shona_text || '').trim().toLowerCase())
+        !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
+        Number(item.duration_seconds || 0) <= 120.0
     );
+
+    const startLessonNum = currentCourse.lessons.length + 1;
+    const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
+    const sourcePool = availableNew.length >= numToAdd ? availableNew : poolLessons.filter((item) => Number(item.duration_seconds || 0) <= 120.0);
+
+    let orderedCandidates: Record<string, any>[] = [];
+    if (bandIdx >= 6) {
+      // Lessons 601+: balanced mix of clip lengths up to 120s at random
+      const buckets = [
+        sourcePool.filter((c) => Number(c.duration_seconds || 0) < 15),
+        sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 15 && Number(c.duration_seconds || 0) < 30),
+        sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 30 && Number(c.duration_seconds || 0) < 50),
+        sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 50 && Number(c.duration_seconds || 0) < 80),
+        sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 80 && Number(c.duration_seconds || 0) <= 120),
+      ];
+      const perBucket = Math.max(1, Math.floor(numToAdd / buckets.length));
+      const pickedIds = new Set<string>();
+      for (const b of buckets) {
+        const shuffled = [...b].sort(() => Math.random() - 0.5);
+        for (const item of shuffled.slice(0, perBucket)) {
+          if (!pickedIds.has(item.clip_id)) {
+            orderedCandidates.push(item);
+            pickedIds.add(item.clip_id);
+          }
+        }
+      }
+      const rem = sourcePool.filter((c) => !pickedIds.has(c.clip_id)).sort(() => Math.random() - 0.5);
+      orderedCandidates.push(...rem.slice(0, Math.max(0, numToAdd - orderedCandidates.length)));
+      orderedCandidates.sort(() => Math.random() - 0.5);
+    } else {
+      // Tiered 100-lesson band (bandIdx = 1..5):
+      // Primary range: [bandIdx * 10, bandIdx * 10 + 30] (75%)
+      // Sprinkle range: [0, bandIdx * 10) (25% sprinkled arbitrarily)
+      const primaryMin = bandIdx * 10;
+      const primaryMax = bandIdx * 10 + 30;
+      const sprinkleMax = bandIdx * 10;
+      const sprinkleTarget = Math.round(numToAdd * 0.25); // 12 or 13
+      const primaryTarget = numToAdd - sprinkleTarget; // 38 or 37
+
+      const primaryList = sourcePool
+        .filter((c) => {
+          const d = Number(c.duration_seconds || 0);
+          return d >= primaryMin && d <= primaryMax;
+        })
+        .sort((a, b) => Number(a.duration_seconds || 0) - Number(b.duration_seconds || 0));
+
+      const chosenPrimary = primaryList.slice(0, primaryTarget);
+      const pickedIds = new Set<string>(chosenPrimary.map((c) => c.clip_id));
+
+      if (chosenPrimary.length < primaryTarget) {
+        const midTarget = (primaryMin + primaryMax) / 2;
+        const fallbackLonger = sourcePool
+          .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) >= sprinkleMax)
+          .sort(
+            (a, b) =>
+              Math.abs(Number(a.duration_seconds || 0) - midTarget) -
+              Math.abs(Number(b.duration_seconds || 0) - midTarget)
+          );
+        for (const fc of fallbackLonger) {
+          if (chosenPrimary.length >= primaryTarget) break;
+          chosenPrimary.push(fc);
+          pickedIds.add(fc.clip_id);
+        }
+      }
+
+      const sprinkleList = sourcePool
+        .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) < sprinkleMax)
+        .sort((a, b) => Number(a.difficulty_score || 0) - Number(b.difficulty_score || 0));
+
+      const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
+      for (const sc of chosenSprinkle) pickedIds.add(sc.clip_id);
+
+      while (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
+        const rem = sourcePool.find((c) => !pickedIds.has(c.clip_id));
+        if (!rem) break;
+        chosenPrimary.push(rem);
+        pickedIds.add(rem.clip_id);
+      }
+
+      // Interleave 25% shorter clips at arbitrary positions among the 75% progressive primary clips
+      const totalCount = chosenPrimary.length + chosenSprinkle.length;
+      const allPositions = Array.from({ length: totalCount }, (_, idx) => idx);
+      for (let i = allPositions.length - 1; i > 0; i--) {
+        const j = (startLessonNum * 31 + i * 17) % (i + 1);
+        [allPositions[i], allPositions[j]] = [allPositions[j], allPositions[i]];
+      }
+      const sprinklePos = new Set(allPositions.slice(0, chosenSprinkle.length));
+      let pIdx = 0;
+      let sIdx = 0;
+      for (let pos = 0; pos < totalCount; pos++) {
+        if (sprinklePos.has(pos) && sIdx < chosenSprinkle.length) {
+          orderedCandidates.push(chosenSprinkle[sIdx++]);
+        } else if (pIdx < chosenPrimary.length) {
+          orderedCandidates.push(chosenPrimary[pIdx++]);
+        } else if (sIdx < chosenSprinkle.length) {
+          orderedCandidates.push(chosenSprinkle[sIdx++]);
+        }
+      }
+    }
 
     const selectedBatch: Record<string, any>[] = [];
     for (let i = 0; i < numToAdd; i++) {
-      if (i < availableNew.length) {
-        selectedBatch.push(JSON.parse(JSON.stringify(availableNew[i])));
+      if (i < orderedCandidates.length) {
+        const copy = JSON.parse(JSON.stringify(orderedCandidates[i]));
+        if (existingIds.has(copy.clip_id)) {
+          copy.clip_id = `${copy.clip_id}_exp_${currentCourse.lessons.length + i + 1}`;
+        }
+        selectedBatch.push(copy);
       } else if (poolLessons.length > 0) {
-        // Cycle with fresh lesson numbering if user expands beyond total dataset size
         const base = JSON.parse(JSON.stringify(poolLessons[i % poolLessons.length]));
         base.clip_id = `${base.clip_id}_exp_${currentCourse.lessons.length + i + 1}`;
         selectedBatch.push(base);

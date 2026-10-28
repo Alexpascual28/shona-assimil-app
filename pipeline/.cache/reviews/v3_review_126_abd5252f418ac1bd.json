@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 18 Comprehensive Review (Lessons 120–126)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 120–126)",
+        "points": [
+          "Lesson 120: \"Mugwagwa wetara urikupfuura motokari. Dzimwe dzinopesana dzichienda kune rumwe rutivi dzimwe...\" — Cars are travelling along a tarred road, some heading in one direction and others in the opp...",
+          "Lesson 121: \"Mhuka yakazorora yakarara hayo pasi. Ine nyanga dzakazvongonyoka uyewo ine mavara maviri ari...\" — An antelope (nyala/kudu) rests on the ground with spiralled horns and reddish-brown fur mark...",
+          "Lesson 122: \"Mugwagwa une tara,mugwagwa unofamba motokare dzemando dzakasiyana.munemumwe murume akapfeka ...\" — Along a tarred city street where various cars pass, a man in a knee-length coat walks briskl...",
+          "Lesson 123: \"Ndikumbirewo kuti uvhura hwindo mhepo imbopinda mumba muno.\" — May I please ask you to open the window so some fresh air can come into the room.",
+          "Lesson 124: \"Shangu yakagadzikwa parutivi rwematayera ndeye bhurauni mukati mayowo muri bhurauni ine kasi...\" — A brown shoe is placed beside the tiles; its interior is also brown and it has a small metal...",
+          "Lesson 125: \"Midziyo inoshandiswa pakudya iri muchigaba mayo ine kumusoro kune ruvara rwegoridhe nekuzasi...\" — Eating utensils—including a teaspoon, tablespoon, knife, and fork—stand in a gold-and-blue h...",
+          "Lesson 126: \"Pedyo nemumugwagwa pane munda unoita seune mashanga echibage akaparara. Pedyo nemugwagwa zva...\" — Cars travel along a city street where two pedestrians stand beside a large NetOne mobile net..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('dzakawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakazorora'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumba'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)",
+          "Talking About the Past ('yakagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('zvakare'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Springtime 'Kupfumvutira' of Indigenous Trees & School Stationery Shops: Notice the expressive verb 'kupfumvutira'—the bursting forth of fresh new leaves on roadside trees in spring (September–October), when Zimbabwe's 'musasa' trees flush in brilliant shades of bronze, crimson, and fresh green before the rains! Meanwhile, town shops ('zvitoro') stock up on books ('mabhuku'), pens ('zvinyoreso'), and glue for the school term..",
+          "Spiral-Horned Antelopes ('Nyanga Dzakazvongonyoka') of the Zimbabwean Bush: Zimbabwe's woodlands are home to majestic spiral-horned antelopes ('mhuka dzine nyanga dzakazvongonyoka') such as the greater kudu ('nhoro'), nyala ('nyara'), and bushbuck ('dzoma'), recognizable by the white vertical stripes along their reddish-brown flanks..",
+          "Urban Barbershops & Precision Hair Partings ('Mutaro Pamusoro Penzeve'): Neighbourhood barbershops across Zimbabwe take great pride in crisp hairlines and razor-sharp side partings ('mutaro kuruboshwe kwemusoro'), keeping hair brushed and glossy ('richibwinya')..",
+          "Fresh Highveld Breeze ('Mhepo') & Home Ventilation: Because most of Zimbabwe sits on a sunny subtropical plateau between 1,200 and 1,600 metres above sea level, homes are designed with wide windows ('mahwindo') that are opened during the day to let in cool, refreshing breezes ('mhepo').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('dzakawanda')",
+    "Talking About the Past ('yakazorora')",
+    "Talking About the Past ('dzakasiyana')",
+    "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumba')",
+    "Talking About the Past ('yakagadzikwa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "shangu nhema mbiri nehembe tsvuku imwe",
+        "marori machena matatu nemotokari nhema mbiri"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Mundiro yemuti mune madora akakangwa.",
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "when they finished working at the market",
+        "if we work hard helping one another",
+        "because he worked alone in the field",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 18 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "modern traffic lights at city intersections",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 18 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "We are planning to visit our grandparents next month.",
+        "Many people are selling fruits and vegetables at the market."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

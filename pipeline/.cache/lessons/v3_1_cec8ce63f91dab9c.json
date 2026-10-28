@@ -1,0 +1,329 @@
+{
+  "english_translation": "This bird is called an owl; these two owls have white faces and dark bodies, and they are perched beneath a wooden beam.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mhuka iyi inonzi zizi, mazizi aya maviri rine kumeso kuchena uye mutumbi mutema, mazizi aya ari pasi pechitanda chemuti.",
+      "english": "This creature is called an owl; the two owls have white faces and dark bodies and are resting under a wooden beam.",
+      "literal_gloss": "Mhuka [mhuka] • iyi [iyi] • inonzi [it nzi] • zizi [zizi] • mazizi [plural zizi] • aya [aya] • maviri [plural viri] • rine [rine]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mhuka",
+          "morpheme_breakdown": "mhuka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhuka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inonzi",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -nzi",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it nzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zizi",
+          "morpheme_breakdown": "zizi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zizi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazizi",
+          "morpheme_breakdown": "ma- (plural prefix) + -zizi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zizi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aya",
+          "morpheme_breakdown": "aya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maviri",
+          "morpheme_breakdown": "ma- (plural prefix) + -viri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumeso",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -meso",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at meso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchena",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -chena",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutumbi",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tumbi",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tumbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutema",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazizi",
+          "morpheme_breakdown": "ma- (plural prefix) + -zizi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zizi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aya",
+          "morpheme_breakdown": "aya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pechitanda",
+          "morpheme_breakdown": "pechitanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pechitanda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mhuka",
+      "morpheme_breakdown": "mhuka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mhuka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inonzi",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -nzi",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it nzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zizi",
+      "morpheme_breakdown": "zizi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zizi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazizi",
+      "morpheme_breakdown": "ma- (plural prefix) + -zizi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zizi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aya",
+      "morpheme_breakdown": "aya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maviri",
+      "morpheme_breakdown": "ma- (plural prefix) + -viri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumeso",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -meso",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at meso",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchena",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -chena",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutumbi",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tumbi",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tumbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutema",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazizi",
+      "morpheme_breakdown": "ma- (plural prefix) + -zizi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zizi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "aya",
+      "morpheme_breakdown": "aya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "aya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at si",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pechitanda",
+      "morpheme_breakdown": "pechitanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pechitanda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('inonzi')",
+      "content": "The verb 'inonzi' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('kuchena')",
+      "content": "This passage uses colour vocabulary such as 'kuchena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('maviri')",
+      "content": "In Shona, number words like 'maviri' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Owls ('Zizi' / 'Mazizi') in Shona Ecology & Oral Tradition",
+      "content": "In Shona, the barn owl and spotted eagle-owl are called 'zizi' (plural 'mazizi', Class 5/6). While owls play a vital ecological role controlling rodents around granaries and rafters ('pasi pechitanda'), traditional folklore also treats nocturnal birds with deep caution and mystique.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

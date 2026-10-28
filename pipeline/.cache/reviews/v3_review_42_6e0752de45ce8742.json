@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 6 Comprehensive Review (Lessons 36–42)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 36–42)",
+        "points": [
+          "Lesson 36: \"Mvura iri kunaya zvakanyanya kunze uko nhasi.\" — It is raining heavily outside there today.",
+          "Lesson 37: \"Tichasangana naamai kumusika kana tapedza kutenga miriwo.\" — We will meet Mother at the market when we finish buying vegetables.",
+          "Lesson 38: \"Humambo hweRozvi hwaizivikanwa neuto ravo raigona kurwa hondo.\" — The Rozvi Empire was renowned for its army that was skilled in warfare.",
+          "Lesson 39: \"Vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure.\" — People traded ivory and gold with foreign merchants who came from afar.",
+          "Lesson 40: \"Nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semaShona.\" — Ancient history teaches us where we came from and our traditions as Shona people.",
+          "Lesson 41: \"Misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marata.\" — Traditional homesteads were built with wooden poles and thatched with grass rather than meta...",
+          "Lesson 42: \"Wakamboenda kunzvimbo dzinochengetedza nhoroondo dzenyika yedu yekare here?\" — Have you ever visited the heritage sites that preserve the ancient history of our country?"
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('zvakanyanya'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Future with '-cha-' ('Tichasangana'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)",
+          "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('ravo'): Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]",
+          "Joining Words with 'ne-' ('and / with') in 'nendarama': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)",
+          "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu'): Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]",
+          "Joining Words with 'ne-' ('and / with') in 'nembariro': ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Summer Thunderstorms ('Mvura Iri Kunaya Zvakanyanya') on the Plateau: During the peak rainy months of December, January ('Ndira'), and February ('Kukadzi'), intense afternoon downpours sweep across the Zimbabwean plateau.",
+          "Open-Air Farmer's Markets ('Musika') & Community Meeting Points: From Harare's famous Mbare Musika to Sakubva in Mutare and Renkini in Bulawayo, the 'musika' (open-air market) is both the primary source of farm-fresh vegetables ('miriwo') and a central landmark where family members arrange to meet up ('kusangana') before travelling home together..",
+          "The Rozvi Empire ('Humambo hweRozvi') & Changamire Dombo: Founded in the late 17th century by the military strategist Changamire Dombo, the Rozvi Empire ('Humambo hweRozvi') ruled much of the Zimbabwean plateau until the 1830s.",
+          "Pre-Colonial Gold ('Ndarama') & Ivory ('Nyanga dzeNzou') Trade Routes: For over a millennium before colonial rule, Shona kingdoms—including Mapungubwe, Great Zimbabwe, Mutapa, and Torwa—conducted thriving international commerce."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('zvakanyanya')",
+    "Talking About the Future with '-cha-' ('Tichasangana')",
+    "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('ravo')",
+    "Joining Words with 'ne-' ('and / with') in 'nendarama'",
+    "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Describing Clothing & Colours: How do you say 'The woman is wearing a green dress and white shoes'?",
+      "options": [
+        "Murume akatenga hembe tsvuku neshangu nhema.",
+        "Musikana ane bvudzi refu nemhete chena.",
+        "Mukadzi akapfeka rokwe regirinhi neshangu chena.",
+        "Vana vakapfeka mbatya dzekuchikoro nhasi."
+      ],
+      "correct_answer": "Mukadzi akapfeka rokwe regirinhi neshangu chena.",
+      "explanation": "'Akapfeka' = 'is wearing (state)', 'rokwe regirinhi' = 'a green dress', 'neshangu chena' = 'and white shoes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Stative Verbs ('-ka-'): Why does 'akapfeka' (using '-ka-') translate as 'is wearing' in the present?",
+      "options": [
+        "Because Shona has no present tense for clothing",
+        "Because it only refers to clothes worn last year",
+        "Because '-ka-' is the future marker",
+        "With posture and clothing verbs (-pfeka, -gara, -mira), '-ka-' describes a present resulting state"
+      ],
+      "correct_answer": "With posture and clothing verbs (-pfeka, -gara, -mira), '-ka-' describes a present resulting state",
+      "explanation": "Verbs of state like '-pfeka' (put on -> be wearing), '-gara' (sit -> be seated), and '-mira' (stand -> be standing) use '-ka-' for the current state."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Market Scenes: In 'Vakadzi vaviri vakagara pasi peamburera', where are the two women seated?",
+      "options": [
+        "Underneath an umbrella",
+        "Inside a grocery shop",
+        "On top of a wooden bench",
+        "Beside a large bus"
+      ],
+      "correct_answer": "Underneath an umbrella",
+      "explanation": "'Pasi pe-' means 'underneath / below', so 'pasi peamburera' is 'under an umbrella'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Containers & Produce: What does 'migomo miviri izere nemichero' mean?",
+      "options": [
+        "three bowls of cooked vegetables",
+        "two buckets full of fruit",
+        "four bags of white maize meal",
+        "two cups of fresh milk"
+      ],
+      "correct_answer": "two buckets full of fruit",
+      "explanation": "'Migomo miviri' = 'two buckets', 'izere ne-' = 'full of', and 'michero' = 'fruits'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 6 — Traditional Delicacies: What are 'madora' in Zimbabwean cuisine?",
+      "options": [
+        "Sweet pastries served with morning tea",
+        "Clay pots used for storing cool drinking water",
+        "Protein-rich mopane caterpillars, often roasted or cooked with tomatoes and onions",
+        "Woven baskets used for winnowing grain"
+      ],
+      "correct_answer": "Protein-rich mopane caterpillars, often roasted or cooked with tomatoes and onions",
+      "explanation": "'Madora' (mopane worms) are a prized, nutritious traditional delicacy across Zimbabwe."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 6 — Translate this new review sentence: 'Pamusika pane vanhu vazhinji vari kutenga mbatatisi nemadomasi.'",
+      "options": [
+        "Inside the shop there are red shirts and black shoes.",
+        "Two girls are walking along the road carrying baskets.",
+        "My mother cooked rice and chicken for our guests.",
+        "At the market there are many people buying potatoes and tomatoes."
+      ],
+      "correct_answer": "At the market there are many people buying potatoes and tomatoes.",
+      "explanation": "'Pamusika pane' = 'At the market there are', 'vanhu vazhinji vari kutenga' = 'many people buying', 'mbatatisi nemadomasi' = 'potatoes and tomatoes'."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 19 Comprehensive Review (Lessons 127–133)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 127–133)",
+        "points": [
+          "Lesson 127: \"Nzvimbo inogona kuwanikwa muguta ine mugwagwa wakaiswa tara uyewo pane motokari dzakati wand...\" — An urban scene features a tarred road with several cars, street lights, and billboards where...",
+          "Lesson 128: \"Tinoona zvinhu zviri kutengeswa zvakasiyana-siyana zvinoti mbatya nezvimwewo zvakadaro-daro....\" — At a bustling market, bales of clothing (bhero) and bottled traditional herbal remedies (mis...",
+          "Lesson 129: \"Musha wakapakwa mota yerudzi rutema, pane muti wemupichisi une mashizha akasvibira uyewo pam...\" — At a homestead, a black car is parked near a peach tree with green leaves, and on top of the...",
+          "Lesson 130: \"Uyai kuno mundibatsire kusimudza zvinhu zvinorema izvi.\" — Come here and help me lift these heavy things.",
+          "Lesson 131: \"Zhou iri padziva rine mvura nemadhaka. Iri kuzvidira mvura nekuda kwekupisa kwezuva. Mberi k...\" — An elephant stands at a muddy waterhole spraying itself with water in the heat of the sun, w...",
+          "Lesson 132: \"Sango rine miti yakasiyana siyana, imwe mihombe imwe midiki imwe yemiti ine mashizha egirini...\" — A savanna woodland has large and small trees—some in green leaf and others sparse—above dry ...",
+          "Lesson 133: \"Makadini mose muri mumba ndinovimba makasimba.\" — How are you all in the house? I hope you are doing well."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('wakaiswa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('zvakasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakapakwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('Uyai'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('akasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Tree-Lined Urban Avenues, Streetlights & Commercial Billboards ('Zvikwangwari'): Zimbabwean cities like Harare and Bulawayo are famous for their wide, tree-lined tarred avenues ('mugwagwa wakaiswa tara'), towering roadside trees, street lighting ('mwenje'), and vibrant commercial billboards ('zvikwangwari')..",
+          "Market Bales ('Bhero'), Herbal Remedies ('Mishonga Yechivanhu') & Pushcart Porters ('Zvingoro'): This passage captures three iconic elements of a bustling Zimbabwean market: 'bhero' (bales of affordable clothing), 'mishonga yechivanhu' (traditional herbal tonics and roots), and hardworking young men pushing handcarts ('zvingoro', known locally as 'zvemabara') to transport goods for shoppers..",
+          "Backyard Peach Trees ('Mupichisi'), Brick Stacking & Haulage 'Magonyeti': This vivid passage captures three everyday sights in Zimbabwean peri-urban neighbourhoods: a fruiting peach tree ('muti wemupichisi') in the yard, stacks of clay bricks ('zvidhinha') ready for home extensions, and a massive intercity haulage truck—universally called a 'gonyeti'—parked along the main road..",
+          "Lending a Hand ('Kubatsirana') with Heavy Loads: In Zimbabwean neighbourhoods and rural homesteads alike, nobody is left to carry heavy loads ('zvinhu zvinorema') alone."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('wakaiswa')",
+    "Talking About the Past ('zvakasiyana')",
+    "Talking About the Past ('wakapakwa')",
+    "Giving Commands & Polite Requests ('Uyai')",
+    "Talking About the Past ('akasiyana')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "marori machena matatu nemotokari nhema mbiri",
+        "shangu nhema mbiri nehembe tsvuku imwe"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu.",
+        "Mundiro yemuti mune madora akakangwa."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "if we work hard helping one another",
+        "when they finished working at the market",
+        "because he worked alone in the field",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "modern traffic lights at city intersections",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 19 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "Many people are selling fruits and vegetables at the market.",
+        "We are planning to visit our grandparents next month."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

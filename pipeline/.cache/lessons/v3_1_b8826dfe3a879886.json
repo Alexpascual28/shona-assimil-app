@@ -1,0 +1,329 @@
+{
+  "english_translation": "A multi-storey house with large windows and cream-coloured paint stands beside shade trees, with a yellow bicycle lying on the ground nearby.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Imba yakavakwa ichienda mudenga inemafafitera mahombe uyewo yakapendwa nependi yekirimu,pedo nemba pane miti iripo zvekare panebhasikoro reruvara rweyero rakarara pasi.",
+      "english": "A tall house with large windows painted in cream stands near trees, with a yellow bicycle lying on the ground.",
+      "literal_gloss": "Imba [imba] • yakavakwa [it (past) vakwa] • ichienda [ichienda] • mudenga [in / singular denga] • inemafafitera [inemafafitera] • mahombe [plural hombe] • uyewo [uyewo] • yakapendwa [it (past) pendwa]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakavakwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vakwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichienda",
+          "morpheme_breakdown": "ichienda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mudenga",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -denga",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular denga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inemafafitera",
+          "morpheme_breakdown": "inemafafitera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inemafafitera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mahombe",
+          "morpheme_breakdown": "ma- (plural prefix) + -hombe",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural hombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyewo",
+          "morpheme_breakdown": "uyewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakapendwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -pendwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) pendwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nependi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -pendi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with pendi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekirimu,pedo",
+          "morpheme_breakdown": "yekirimu,pedo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekirimu,pedo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemba",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mba",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iripo",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is po",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekare",
+          "morpheme_breakdown": "zvekare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panebhasikoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nebhasikoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nebhasikoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "reruvara",
+          "morpheme_breakdown": "reruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "reruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rweyero",
+          "morpheme_breakdown": "rweyero (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rweyero",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakavakwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vakwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichienda",
+      "morpheme_breakdown": "ichienda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mudenga",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -denga",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular denga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inemafafitera",
+      "morpheme_breakdown": "inemafafitera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "inemafafitera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mahombe",
+      "morpheme_breakdown": "ma- (plural prefix) + -hombe",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural hombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyewo",
+      "morpheme_breakdown": "uyewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakapendwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -pendwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) pendwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nependi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -pendi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with pendi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekirimu,pedo",
+      "morpheme_breakdown": "yekirimu,pedo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekirimu,pedo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemba",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mba",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iripo",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is po",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekare",
+      "morpheme_breakdown": "zvekare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panebhasikoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -nebhasikoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at nebhasikoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "reruvara",
+      "morpheme_breakdown": "reruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "reruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rweyero",
+      "morpheme_breakdown": "rweyero (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rweyero",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakavakwa')",
+      "content": "The verb 'yakavakwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('reruvara')",
+      "content": "This passage uses colour vocabulary such as 'reruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pasi')",
+      "content": "Look at how location is expressed with 'pasi'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Double-Storey Suburban Architecture & Cycling ('Bhasikoro')",
+      "content": "Newly developed residential suburbs around Zimbabwean cities feature double-storey homes ('imba yakavakwa ichienda mudenga') with wide sunlit windows ('mafafitera mahombe') and spacious yards where children ride bicycles ('mabhasikoro').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

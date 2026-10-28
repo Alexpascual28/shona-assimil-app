@@ -1,0 +1,329 @@
+{
+  "english_translation": "Car / vehicle dziri in / singular mugwagwa in / singular gwagwa uyu waka nyatsovakwa well / nicely / very good une tara and / furthermore tara iyi ine colour black in / singular ne car / vehicle.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Motokari dziri mumugwagwa. Mugwagwa uyu waka nyatsovakwa zvakanaka. Une tara, uye tara iyi ine ruvara rutema. Mune motokari dzine ruvara ruchena imwe iri kumashure kwachona ine ruvara rwe siriveri.",
+      "english": "Car / vehicle dziri in / singular mugwagwa in / singular gwagwa uyu waka nyatsovakwa well / nicely / very good une tara and / furthermore tara iyi ine colour black in / singular ne car / vehicle.",
+      "literal_gloss": "Motokari [car / vehicle] • dziri [dziri] • mumugwagwa [in / singular mugwagwa] • Mugwagwa [in / singular gwagwa] • uyu [uyu] • waka [waka] • nyatsovakwa [nyatsovakwa] • zvakanaka [well / nicely / very good] • Une [une] • tara [tara] • uye [and / furthermore] • tara [tara] • iyi [iyi] • ine [ine] • ruvara [colour] • rutema [black] • Mune [in / singular ne] • motokari [car / vehicle]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Motokari",
+          "morpheme_breakdown": "motokari (motorcar)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car / vehicle",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mugwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mugwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyu",
+          "morpheme_breakdown": "uyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "waka",
+          "morpheme_breakdown": "waka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "waka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyatsovakwa",
+          "morpheme_breakdown": "nyatsovakwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyatsovakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tara",
+          "morpheme_breakdown": "tara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tara",
+          "morpheme_breakdown": "tara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mune",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "motokari",
+          "morpheme_breakdown": "motokari (motorcar)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car / vehicle",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Motokari",
+      "morpheme_breakdown": "motokari (motorcar)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car / vehicle",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mugwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mugwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyu",
+      "morpheme_breakdown": "uyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "waka",
+      "morpheme_breakdown": "waka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "waka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyatsovakwa",
+      "morpheme_breakdown": "nyatsovakwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyatsovakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tara",
+      "morpheme_breakdown": "tara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tara",
+      "morpheme_breakdown": "tara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema",
+      "morpheme_breakdown": "ru- + -tema (black)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mune",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "motokari",
+      "morpheme_breakdown": "motokari (motorcar)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car / vehicle",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Motokari dziri mumugwagwa. Mugwagwa uyu waka nyatsovakwa zvakanaka. Une tara, uye tara iyi ine ruvara rutema. Mune motokari dzine ruvara ruchena imwe iri kumashure kwachona ine ruvara rwe siriveri.' — \"Car / vehicle dziri in / singular mugwagwa in / singular gwagwa uyu waka nyatsovakwa well / nicely / very good une tara and / furthermore tara iyi ine colour black in / singular ne car / vehicle.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

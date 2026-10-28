@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import random
 import re
 from typing import Any
 
@@ -49,9 +50,11 @@ def classify_pedagogical_stage(shona_text: str, duration_seconds: float, source_
     lower = shona_text.strip().lower()
     words = set(re.findall(r"[a-z']+", lower))
 
-    # Multi-sentence long passages (16s to 90s) or takuM23/shona-vibevoice-corpus belong in Stage 5
-    if duration_seconds >= 15.0 or "vibevoice" in source_dataset.lower():
+    # Multi-sentence passages >= 20.0s belong in Stage 5; 10s-20s passages belong in Stage 4 (intermediate bridge)
+    if duration_seconds >= 20.0:
         return 5
+    if duration_seconds >= 10.0:
+        return 4
 
     # Stage 1: Greetings, congratulations, polite requests, and direct imperatives
     stage1_keywords = {
@@ -307,27 +310,174 @@ class AssimilSequencer:
         )
         return lessons
 
+    def select_clips_for_expansion_band(
+        self,
+        clips: list[NormalizedClip],
+        existing_clip_ids: set[str] | None = None,
+        existing_texts: set[str] | None = None,
+        start_lesson_num: int = 101,
+        batch_size: int = 50,
+    ) -> list[NormalizedClip]:
+        """Selects a batch of clips for the '+50 New Lessons' expansion button according to the
+        100-lesson tiered duration progression:
+        - Lessons 101-200 (band 1): 75% in 10-40s, 25% in 0-10s sprinkled arbitrarily
+        - Lessons 201-300 (band 2): 75% in 20-50s, 25% in 0-20s sprinkled arbitrarily
+        - Lessons 301-400 (band 3): 75% in 30-60s, 25% in 0-30s sprinkled arbitrarily
+        - Lessons 401-500 (band 4): 75% in 40-70s, 25% in 0-40s sprinkled arbitrarily
+        - Lessons 501-600 (band 5): 75% in 50-80s, 25% in 0-50s sprinkled arbitrarily
+        - Lessons 601+ (band >= 6): capped at 120s, balanced mix of clip lengths at random
+        """
+        pool = self.score_and_deduplicate(
+            clips=clips,
+            existing_clip_ids=existing_clip_ids,
+            existing_texts=existing_texts,
+            max_regular_clips=None,
+        )
+        # Enforce 120s (2-minute) cap
+        pool = [c for c in pool if (c.duration_seconds or 0.0) <= 120.0]
+        if not pool:
+            return []
+
+        band_idx = max(1, (start_lesson_num - 1) // 100)
+        rng = random.Random(start_lesson_num)
+
+        if band_idx >= 6:
+            # Lessons 601+: balanced mix of clip lengths up to 120s in randomized order
+            buckets = [
+                [c for c in pool if 0.0 <= c.duration_seconds < 15.0],
+                [c for c in pool if 15.0 <= c.duration_seconds < 30.0],
+                [c for c in pool if 30.0 <= c.duration_seconds < 50.0],
+                [c for c in pool if 50.0 <= c.duration_seconds < 80.0],
+                [c for c in pool if 80.0 <= c.duration_seconds <= 120.0],
+            ]
+            chosen: list[NormalizedClip] = []
+            chosen_ids: set[str] = set()
+            per_bucket = max(1, batch_size // len(buckets))
+            for b in buckets:
+                rng.shuffle(b)
+                for c in b[:per_bucket]:
+                    if c.clip_id not in chosen_ids:
+                        chosen.append(c)
+                        chosen_ids.add(c.clip_id)
+            remainder = [c for c in pool if c.clip_id not in chosen_ids]
+            rng.shuffle(remainder)
+            chosen.extend(remainder[: max(0, batch_size - len(chosen))])
+            rng.shuffle(chosen)
+            return chosen[:batch_size]
+
+        # Tiered 100-lesson band (band_idx = 1..5):
+        # Primary range: [band_idx * 10, band_idx * 10 + 30] (75%)
+        # Sprinkle range: [0, band_idx * 10) (25%)
+        primary_min = float(band_idx * 10)
+        primary_max = float(band_idx * 10 + 30)
+        sprinkle_max = float(band_idx * 10)
+
+        sprinkle_target = round(batch_size * 0.25)  # 12 for batch_size=50
+        primary_target = batch_size - sprinkle_target  # 38 for batch_size=50
+
+        primary_candidates = [
+            c for c in pool if primary_min <= c.duration_seconds <= primary_max
+        ]
+        # Sort primary candidates by (pedagogical_stage, duration_seconds, difficulty_score)
+        # so the two +50 batches in a 100-lesson band progress smoothly from primary_min to primary_max
+        primary_candidates.sort(
+            key=lambda c: (
+                0 if c.duration_seconds < (primary_min + 10.0) else (1 if c.duration_seconds < (primary_min + 20.0) else 2),
+                c.pedagogical_stage,
+                c.difficulty_score,
+                c.duration_seconds,
+            )
+        )
+
+        # If primary_candidates is smaller than primary_target, supplement with nearest durations >= sprinkle_max
+        chosen_primary = list(primary_candidates[:primary_target])
+        chosen_ids = {c.clip_id for c in chosen_primary}
+        if len(chosen_primary) < primary_target:
+            fallback_longer = sorted(
+                [c for c in pool if c.clip_id not in chosen_ids and c.duration_seconds >= sprinkle_max],
+                key=lambda c: abs(c.duration_seconds - ((primary_min + primary_max) / 2.0)),
+            )
+            for fc in fallback_longer:
+                if len(chosen_primary) >= primary_target:
+                    break
+                chosen_primary.append(fc)
+                chosen_ids.add(fc.clip_id)
+
+        sprinkle_candidates = [
+            c for c in pool if c.clip_id not in chosen_ids and 0.0 <= c.duration_seconds < sprinkle_max
+        ]
+        # Sort sprinkle candidates by pedagogical_stage & difficulty, then sample arbitrarily
+        sprinkle_candidates.sort(key=lambda c: (c.pedagogical_stage, c.difficulty_score, c.duration_seconds))
+        chosen_sprinkle = list(sprinkle_candidates[:sprinkle_target])
+        for sc in chosen_sprinkle:
+            chosen_ids.add(sc.clip_id)
+
+        # If either bucket is still short, fill from remaining pool
+        while len(chosen_primary) + len(chosen_sprinkle) < batch_size:
+            rem = [c for c in pool if c.clip_id not in chosen_ids]
+            if not rem:
+                break
+            chosen_primary.append(rem[0])
+            chosen_ids.add(rem[0].clip_id)
+
+        # Keep primary clips in progressive order, and sprinkle the 25% shorter clips at arbitrary positions
+        total_len = len(chosen_primary) + len(chosen_sprinkle)
+        sprinkle_positions = set(
+            rng.sample(range(total_len), k=min(len(chosen_sprinkle), total_len))
+        )
+        rng.shuffle(chosen_sprinkle)
+
+        merged: list[NormalizedClip] = []
+        p_idx = 0
+        s_idx = 0
+        for pos in range(total_len):
+            if pos in sprinkle_positions and s_idx < len(chosen_sprinkle):
+                merged.append(chosen_sprinkle[s_idx])
+                s_idx += 1
+            elif p_idx < len(chosen_primary):
+                merged.append(chosen_primary[p_idx])
+                p_idx += 1
+            elif s_idx < len(chosen_sprinkle):
+                merged.append(chosen_sprinkle[s_idx])
+                s_idx += 1
+
+        return merged[:batch_size]
+
     def distribute_and_resequence(
         self,
         existing_lessons: list[Lesson],
         new_lessons: list[Lesson],
     ) -> list[Lesson]:
         """Preserves all existing enriched lessons as-is, distributes the newly enriched lessons
-        among them by (pedagogical_stage, difficulty/duration), re-numbers 1..N, shifts Active Wave
-        to start at self.active_wave_start (51 -> 1, ..., 100 -> 50), and assigns every 7th slot
-        as a 7-lesson review (covering num-6..num).
+        among them by (duration_band_for_1_to_100, pedagogical_stage, difficulty/duration), re-numbers 1..N,
+        shifts Active Wave to start at self.active_wave_start (51 -> 1, ..., 100 -> 50), and assigns every
+        7th slot as a 7-lesson review (covering num-6..num).
         """
         combined = list(existing_lessons) + list(new_lessons)
-        combined.sort(
-            key=lambda l: (
-                l.pedagogical_stage or 3,
-                (l.duration_seconds or 0.0)
-                if (l.pedagogical_stage or 3) == 5
-                else (l.difficulty_score or 0.0),
-                l.duration_seconds or 0.0,
-                l.clip_id or "",
+        for l in combined:
+            l.pedagogical_stage = classify_pedagogical_stage(
+                l.shona_text or "", float(l.duration_seconds or 0.0), l.source_dataset or ""
             )
-        )
+
+        # Progression for Lessons 1-100:
+        # 1) 0-10s clips ordered by pedagogical_stage (1 -> 2 -> 3 -> 4) and difficulty_score
+        # 2) 10-20s clips ordered by difficulty_score and duration_seconds
+        # 3) 20-30s clips ordered by duration_seconds and difficulty_score (capped at 30.0s)
+        def _sort_key(l: Lesson) -> tuple[Any, ...]:
+            dur = float(l.duration_seconds or 0.0)
+            stg = int(l.pedagogical_stage or 3)
+            diff = float(l.difficulty_score or 0.0)
+            if dur < 10.0:
+                band = 0
+                return (band, stg, diff, dur, l.clip_id or "")
+            elif dur < 20.0:
+                band = 1
+                return (band, stg, dur, diff, l.clip_id or "")
+            else:
+                band = 2
+                return (band, dur, diff, l.clip_id or "")
+
+        combined.sort(key=_sort_key)
 
         for idx, lesson in enumerate(combined):
             new_num = idx + 1

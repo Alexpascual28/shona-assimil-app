@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 9 Comprehensive Review (Lessons 57–63)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 57–63)",
+        "points": [
+          "Lesson 57: \"Mureza wenyika une mavara matatu anoti, ruvara ruchena, rwakatsvukuruka uye ruvara rwebundo....\" — The national flag has three colours: white, light red, and green. It features a reddish circ...",
+          "Lesson 58: \"Chitoro chiri kutengesa zvakasiyana-siyana zvekushandisa muzvikoro nemuma hofisi. Murikuteng...\" — A shop is selling various supplies for use in schools and offices. Pens are on sale inside: ...",
+          "Lesson 59: \"Chipuka chakamhara pashizha regirinhi rakareba. Chitema chine makumbo matete marefu akawanda...\" — A dark insect with many long, slender legs has perched on a long green leaf. The surrounding...",
+          "Lesson 60: \"Muti worudzi rwomupaini wakasimwa, unamashizha arikurembera achidzaka anoratidza kuva mashiz...\" — A planted pine tree has drooping needles hanging downward that have dried out and are beginn...",
+          "Lesson 61: \"Shangu imwechete yechidzimai yakavhurika. Ine mavara esirivha anopenya pamusoro. Pasi payo p...\" — A single open-toed women's shoe with shiny silver straps on top and a black sole is placed o...",
+          "Lesson 62: \"Dandemutande rakagara pasi. Rine makumbo akawanda, rine makushe uye rine mavara matema neebh...\" — A spider is resting on the ground; it has many legs, fine bristles, and black and brown mark...",
+          "Lesson 63: \"Imba yekutandarira. Ina masofa ane ruvara rwebhurauni ane mapiro awo. Pakati payo pane tafur...\" — A living room is furnished with brown sofas and matching cushions. In the centre stands a ta..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Present Tense & Everyday Actions ('anoti'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Talking About the Past ('zvakasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('chakamhara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakasimwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakavhurika'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('rakagara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Flag Colours, Design & the National Symbols of Zimbabwe: Adopted at Independence on 18 April 1980, Zimbabwe's national flag ('mureza weZimbabwe') is rich in symbolism: green represents agriculture and the land's flora, yellow stands for mineral wealth (gold, platinum, and diamonds), red commemorates the blood shed for independence, black represents the heritage of the majority population, white symbolizes peace, and the soapstone Zimbabwe Bird ('Hungwe') connects the modern nation to Great Zimbabwe..",
+          "Back-to-School Stationery Shops & 'Zvinyoreso' (Pens): Notice the indigenous noun 'chinyoreso' (plural 'zvinyoreso', literally 'instrument for writing', built from 'kunyora' + instrumental suffix '-iso').",
+          "Woodland Insects ('Zvipuka') & Sunlit Miombo Canopies ('Sango'): Zimbabwe's indigenous miombo woodlands ('masango') teem with insect life ('zvipuka'), from stick insects and mantises with long slender legs ('makumbo matete marefu') to cicadas ('nyenze') whose chorus heralds the hot October rains..",
+          "Eastern Highlands Pine Plantations ('Miti Yemupaini') in Nyanga & Chimanimani: Alongside indigenous woodlands, commercial pine ('mupaini') and wattle plantations thrive in the cool, misty mountains of Zimbabwe's Eastern Highlands—especially around Nyanga, Erin Forest, and Chimanimani—supplying timber across the country.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Present Tense & Everyday Actions ('anoti')",
+    "Talking About the Past ('zvakasiyana')",
+    "Talking About the Past ('chakamhara')",
+    "Talking About the Past ('wakasimwa')",
+    "Talking About the Past ('yakavhurika')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — History & Heritage: Why is Great Zimbabwe called 'Masvingo eGreat Zimbabwe'?",
+      "options": [
+        "Because 'masvingo' means tall green trees",
+        "Because it is located beside the Indian Ocean",
+        "Because 'masvingo' means modern glass buildings",
+        "Because 'masvingo' means fortified dry-stone walls or enclosures"
+      ],
+      "correct_answer": "Because 'masvingo' means fortified dry-stone walls or enclosures",
+      "explanation": "'Masvingo' refers to the monumental stone enclosures built by ancestors of the Shona people."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Wildlife & Nature: In 'zvipembere zviviri zviri kufura uswa', what are the two rhinoceroses doing?",
+      "options": [
+        "Grazing on grass",
+        "Drinking water from the river",
+        "Sleeping under a shady tree",
+        "Running across the mountain"
+      ],
+      "correct_answer": "Grazing on grass",
+      "explanation": "'Zviri kufura' means 'are grazing', and 'uswa' (or 'huswa') means 'grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — National Flag Colours: Which five colours appear on the national flag of Zimbabwe ('mureza weZimbabwe')?",
+      "options": [
+        "Blue, purple, orange, pink, and grey",
+        "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+        "Only green and white",
+        "Red, blue, and gold only"
+      ],
+      "correct_answer": "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+      "explanation": "The Zimbabwean flag features horizontal stripes of green, yellow, red, and black with a white triangle bearing the Zimbabwe Bird."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Water Storage & Households: Why are Jojo tanks ('matangi emvura eJojo') placed on elevated brick or steel stands?",
+      "options": [
+        "To serve as watchtowers for wildlife",
+        "To dry maize and groundnuts in the sun",
+        "To store household water and provide gravity pressure for taps",
+        "To shelter livestock during the rainy season"
+      ],
+      "correct_answer": "To store household water and provide gravity pressure for taps",
+      "explanation": "Elevated water tanks store borehole or municipal water so households have a reliable supply."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Ordinal Numbers: How do you say 'the first person, the second person, and the third person'?",
+      "options": [
+        "vanhu vatatu vari mumba",
+        "munhu mumwe nevanhu vaviri",
+        "wekupedzisira chete",
+        "munhu wekutanga, wechipiri, newechitatu"
+      ],
+      "correct_answer": "munhu wekutanga, wechipiri, newechitatu",
+      "explanation": "'Wekutanga' = 'first' (of beginning), 'wechipiri' = 'second', and 'wechitatu' = 'third'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 9 — Translate this new cumulative sentence: 'Nzvimbo iyi inoratidza nhoroondo yakakosha yevanhu vekare nemagariro avo.'",
+      "options": [
+        "This place shows the important history of the ancient people and their way of life.",
+        "These mountains have many green trees and clean rivers.",
+        "The visitors took photographs of the two rhinoceroses.",
+        "We learned many Shona words, proverbs, and grammar rules."
+      ],
+      "correct_answer": "This place shows the important history of the ancient people and their way of life.",
+      "explanation": "'Nzvimbo iyi inoratidza' = 'This place shows', 'nhoroondo yakakosha' = 'important history', 'yevanhu vekare nemagariro avo' = 'of the ancient people and their way of life'."
+    }
+  ]
+}

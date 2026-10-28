@@ -1,0 +1,273 @@
+{
+  "english_translation": "Brand-new tools made of steel and wood are displayed on view, including brushes, rakes, and shovels.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Midziyo mitsva yakaiswa panoonekera. Yakagadzirwa nesimbi nedanda. Pane midziyo inosanganisira maburasho, poitawo mareki namafoshora.",
+      "english": "Brand-new tools made of metal and wood are on display, including brushes, rakes, and shovels.",
+      "literal_gloss": "Midziyo [midziyo] • mitsva [mitsva] • yakaiswa [it (past) iswa] • panoonekera [on / at noonekera] • Yakagadzirwa [it (past) gadzirwa] • nesimbi [and / with simbi] • nedanda [and / with danda] • Pane [on / at ne]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Midziyo",
+          "morpheme_breakdown": "midziyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "midziyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitsva",
+          "morpheme_breakdown": "mitsva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitsva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakaiswa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) iswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panoonekera",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -noonekera",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at noonekera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Yakagadzirwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzirwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) gadzirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimbi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nedanda",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -danda",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with danda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "midziyo",
+          "morpheme_breakdown": "midziyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "midziyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inosanganisira",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -sanganisira",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it sanganisira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maburasho",
+          "morpheme_breakdown": "ma- (plural prefix) + -burasho",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural burasho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "poitawo",
+          "morpheme_breakdown": "poitawo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "poitawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mareki",
+          "morpheme_breakdown": "ma- (plural prefix) + -reki",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural reki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "namafoshora",
+          "morpheme_breakdown": "namafoshora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "namafoshora",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Midziyo",
+      "morpheme_breakdown": "midziyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "midziyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitsva",
+      "morpheme_breakdown": "mitsva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitsva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakaiswa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -iswa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) iswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panoonekera",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -noonekera",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at noonekera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakagadzirwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzirwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) gadzirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimbi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nedanda",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -danda",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with danda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "midziyo",
+      "morpheme_breakdown": "midziyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "midziyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inosanganisira",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -sanganisira",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it sanganisira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maburasho",
+      "morpheme_breakdown": "ma- (plural prefix) + -burasho",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural burasho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "poitawo",
+      "morpheme_breakdown": "poitawo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "poitawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mareki",
+      "morpheme_breakdown": "ma- (plural prefix) + -reki",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural reki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "namafoshora",
+      "morpheme_breakdown": "namafoshora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "namafoshora",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakaiswa')",
+      "content": "The verb 'yakaiswa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inosanganisira')",
+      "content": "The verb 'inosanganisira' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nesimbi'",
+      "content": "Look closely at 'nesimbi'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'simbi' forms 'nesimbi'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Hardware Stores & Garden Implements ('Maburasho, Mareki, Mafoshora')",
+      "content": "Because most Zimbabwean households maintain a yard, orchard, or kitchen garden, hardware stores stock sturdy steel-and-timber tools ('midziyo yakagadzirwa nesimbi nedanda') including rakes ('mareki'), shovels ('mafoshora'), and brushes.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

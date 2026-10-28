@@ -1,0 +1,449 @@
+{
+  "english_translation": "Inside a sports stadium, a man congratulates a joyful young woman with braided hair who has just been awarded a prize, while other girls in sports uniforms look on.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zvinoratidza kuti iyi inhandare.Munhandare umu mune murume ari kuratidza kuti ari kukorokotedza musikana uyo apihwa mhenduro.",
+      "english": "Inside this stadium, a man is congratulating a young woman who has received an award.",
+      "literal_gloss": "Zvinoratidza [things noratidza] • kuti [that / so that] • iyi [iyi] • inhandare.Munhandare [inhandare.munhandare] • umu [umu] • mune [in / singular ne] • murume [man] • ari [ari]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvinoratidza",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -noratidza",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things noratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inhandare.Munhandare",
+          "morpheme_breakdown": "inhandare.munhandare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inhandare.munhandare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "umu",
+          "morpheme_breakdown": "umu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "umu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mune",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "murume",
+          "morpheme_breakdown": "mu- + -rume (man)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "man",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kukorokotedza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -korokotedza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at korokotedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musikana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyo",
+          "morpheme_breakdown": "uyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "apihwa",
+          "morpheme_breakdown": "apihwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "apihwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhenduro",
+          "morpheme_breakdown": "mhenduro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhenduro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Musikana uyu ari kuratidza kuti ari kufara zvikuru uye musikana uyu akarukwa.Panewo vasikana vari kuratidza kuti vakapfeka nhumbi dzemutambo.",
+      "english": "The braided girl is overjoyed, and other girls wearing sports uniforms are standing nearby.",
+      "literal_gloss": "Musikana [in / singular sikana] • uyu [uyu] • ari [ari] • kuratidza [to / at ratidza] • kuti [that / so that] • ari [ari] • kufara [to / at fara] • zvikuru [very much / greatly]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Musikana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyu",
+          "morpheme_breakdown": "uyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufara",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -fara",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at fara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musikana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uyu",
+          "morpheme_breakdown": "uyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akarukwa.Panewo",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa.panewo",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) rukwa.panewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vasikana",
+          "morpheme_breakdown": "va- (plural people prefix) + -sikana",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vari",
+          "morpheme_breakdown": "va- (plural people prefix) + -ri",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakapfeka",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhumbi",
+          "morpheme_breakdown": "nhumbi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhumbi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zvinoratidza",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -noratidza",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things noratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inhandare.Munhandare",
+      "morpheme_breakdown": "inhandare.munhandare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "inhandare.munhandare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "umu",
+      "morpheme_breakdown": "umu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "umu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mune",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "murume",
+      "morpheme_breakdown": "mu- + -rume (man)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "man",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuratidza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kukorokotedza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -korokotedza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at korokotedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musikana",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sikana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyo",
+      "morpheme_breakdown": "uyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "apihwa",
+      "morpheme_breakdown": "apihwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "apihwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mhenduro.Musikana",
+      "morpheme_breakdown": "mhenduro.musikana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mhenduro.musikana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uyu",
+      "morpheme_breakdown": "uyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akarukwa')",
+      "content": "The verb 'akarukwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Zvinoratidza')",
+      "content": "The verb 'Zvinoratidza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "School & National Athletics Awards ('Kukorokotedza & Mhenduro')",
+      "content": "Inter-house and inter-school athletics competitions in stadiums ('nhandare') are major community events in Zimbabwe, where winners receive medals or prizes ('mhenduro') and warm congratulations ('kukorokotedza').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

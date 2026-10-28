@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 20 Comprehensive Review (Lessons 134–140)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 134–140)",
+        "points": [
+          "Lesson 134: \"Gonyeti ririkuratidza divi remusoro nepakati parino joiniwa, nepamashure pane ngoro uye nesi...\" — An articulated haulage truck shows the side of its cab, the coupling joint where the trailer...",
+          "Lesson 135: \"Mhoro shamwari yangu. Wakafamba sei nezuro; wakasvika zvakanaka here?\" — Hello my friend. How was your trip yesterday; did you arrive safely?",
+          "Lesson 136: \"Waiti bhodhi kana kuti bhodhi rinoshandiswa nevana rekudzidzira kunyora zvavanenge vachida k...\" — Waiti bhodhi if / when / or that / so that bhodhi it shandiswa and / with vana rekudzidzira ...",
+          "Lesson 137: \"Nzvimbo yakashambidzika iri parutivi rwomugwagwa. Pane imba ine ruzhowa rwamapanera. Panze p...\" — A tidy, well-kept property beside the road features a house with a panelled perimeter wall, ...",
+          "Lesson 138: \"Ndichamuka mangwanani kuti ndiwache hembe dzose dzasara.\" — I will wake up in the morning to wash all the remaining clothes.",
+          "Lesson 139: \"Chigara pano womirira kusvika ndadzoka kubva kuchechi.\" — Sit right here and wait until I return from church.",
+          "Lesson 140: \"Chidziro chakapwanyika pane imwe nzvimbo.Mukati mechidziro mune miti yakawanda ine ruvara rw...\" — Thing dziro chakapwanyika on / at ne imwe nzvimbo.mukati mechidziro in / singular ne trees i..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('zvakarema'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('Mhoro'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('zvakafanana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakashambidzika'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Giving Commands & Polite Requests ('Chigara'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Articulated Haulage Trucks ('Magonyeti') Along the North-South Corridor: Because Zimbabwe sits at the geographic crossroads of Southern Africa—linking South Africa, Zambia, Mozambique (Beira Corridor), and Botswana—heavy articulated haulage trucks ('magonyeti') are the lifeblood of regional trade..",
+          "Following Up on a Friend's Journey ('Wakafamba Sei?'): Among friends ('shamwari'), asking 'Wakafamba sei nezuro; wakasvika zvakanaka here?' ('How did you travel yesterday; did you arrive safely?') is the standard warm follow-up the day after someone has taken an intercity bus or road trip..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Waiti bhodhi kana kuti bhodhi rinoshandiswa nevana rekudzidzira kunyora zvavanenge vachida kunyora.",
+          "Precast Concrete Walls ('Ruzhowa Rwamapanera') & Topiary Gardening: In Zimbabwean towns, most homes are enclosed by precast concrete panel walls—known locally as 'durawalls' or 'ruzhowa rwamapanera'—bordered outside by neatly mowed verges and artistically pruned shrubs ('maruva akachekererwa zvine umhizha').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('zvakarema')",
+    "Shona Greetings & Time of Day ('Mhoro')",
+    "Talking About the Past ('zvakafanana')",
+    "Talking About the Past ('yakashambidzika')",
+    "Shona Greetings & Time of Day ('mangwanani')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 20 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 20 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "marori machena matatu nemotokari nhema mbiri",
+        "makombi maviri chena nemabhazi mana matema",
+        "shangu nhema mbiri nehembe tsvuku imwe"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 20 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Mundiro yemuti mune madora akakangwa.",
+        "Parutivi pemugwagwa pane miti mirefu."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 20 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "when they finished working at the market",
+        "because he worked alone in the field",
+        "before you start writing the examination",
+        "if we work hard helping one another"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 20 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "wooden handles used on farm hoes and shovels",
+        "modern traffic lights at city intersections",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 20 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Many people are selling fruits and vegetables at the market.",
+        "Two women are sitting under an umbrella near the road.",
+        "We are planning to visit our grandparents next month."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

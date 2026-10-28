@@ -1,0 +1,329 @@
+{
+  "english_translation": "In / singular reza una plural raini plural tatu to / at musoro and / with kuzasi ane colour black and / with rwenhundurwa on / at kati on / at wo on / at ne colour white on / at ine zvakare things ratidzo.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mureza una maraini matatu kumusoro nekuzasi. Ane ruvara rutema nerwenhundurwa. Pakati pawo pane ruvara ruchena, paine zvakare zviratidzo zvetiraiengoro zviri kurudyi nekuruboshwe zvine ruvara rutsvuku. Kwozoita chenyeredzi chiri kubatanidza zviratidzo zvetiraiengoro chine ruvara rwebhuruu.",
+      "english": "In / singular reza una plural raini plural tatu to / at musoro and / with kuzasi ane colour black and / with rwenhundurwa on / at kati on / at wo on / at ne colour white on / at ine zvakare things ratidzo.",
+      "literal_gloss": "Mureza [in / singular reza] • una [una] • maraini [plural raini] • matatu [plural tatu] • kumusoro [to / at musoro] • nekuzasi [and / with kuzasi] • Ane [ane] • ruvara [colour] • rutema [black] • nerwenhundurwa [and / with rwenhundurwa] • Pakati [on / at kati] • pawo [on / at wo] • pane [on / at ne] • ruvara [colour] • ruchena [white] • paine [on / at ine] • zvakare [zvakare] • zviratidzo [things ratidzo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mureza",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular reza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "una",
+          "morpheme_breakdown": "una (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "una",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maraini",
+          "morpheme_breakdown": "ma- (plural prefix) + -raini",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural raini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matatu",
+          "morpheme_breakdown": "ma- (plural prefix) + -tatu",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumusoro",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -musoro",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekuzasi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kuzasi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kuzasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerwenhundurwa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -rwenhundurwa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with rwenhundurwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pawo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -wo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at wo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "paine",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ine",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zviratidzo",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ratidzo",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ratidzo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mureza",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular reza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "una",
+      "morpheme_breakdown": "una (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "una",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maraini",
+      "morpheme_breakdown": "ma- (plural prefix) + -raini",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural raini",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matatu",
+      "morpheme_breakdown": "ma- (plural prefix) + -tatu",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumusoro",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -musoro",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekuzasi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kuzasi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kuzasi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema",
+      "morpheme_breakdown": "ru- + -tema (black)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nerwenhundurwa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -rwenhundurwa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with rwenhundurwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pawo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -wo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at wo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruchena",
+      "morpheme_breakdown": "ru- + -chena (white)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "white",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "paine",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ine",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakare",
+      "morpheme_breakdown": "zvakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zviratidzo",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -ratidzo",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things ratidzo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakare')",
+      "content": "The verb 'zvakare' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Mureza una maraini matatu kumusoro nekuzasi. Ane ruvara rutema nerwenhundurwa. Pakati pawo  pane ruvara ruchena, paine zvakare zviratidzo zvetiraiengoro zviri kurudyi nekuruboshwe zvine ruvara rutsvuku. Kwozoita chenyeredzi chiri kubatanidza zviratidzo zvetiraiengoro chine  ruvara rwebhuruu.' — \"In / singular reza una plural raini plural tatu to / at musoro and / with kuzasi ane colour black and / with rwenhundurwa on / at kati on / at wo on / at ne colour white on / at ine zvakare things ratidzo.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

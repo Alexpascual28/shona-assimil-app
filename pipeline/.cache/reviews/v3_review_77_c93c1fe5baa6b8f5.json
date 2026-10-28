@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 11 Comprehensive Review (Lessons 71–77)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 71–77)",
+        "points": [
+          "Lesson 71: \"Chitoro chakarongedzwa chakashongedzwa mabhegi evanhukadzi uye shangu dzevanhurume neshangu ...\" — A neatly arranged boutique displays women's handbags alongside men's and women's shoes organ...",
+          "Lesson 72: \"Shangu yerudzi rwetenisi yakagadzikwa pauriri hwechizvino, ineruvara rwebhurru yachenuruka i...\" — A light-blue tennis sneaker with an untied white lace rests on a modern floor.",
+          "Lesson 73: \"Midziyo mitsva yakaiswa panoonekera. Yakagadzirwa nesimbi nedanda. Pane midziyo inosanganisi...\" — Brand-new tools made of steel and wood are displayed on view, including brushes, rakes, and ...",
+          "Lesson 74: \"Madhongi pane madhongi maviri. Madhongi aya arikudhonza ngoro. Mungoro munemurume akagara ak...\" — There are two donkeys. These donkeys are pulling a cart. Inside the cart sits a man wearing ...",
+          "Lesson 75: \"Chinanasi chakadyarwa uye chinoratidza kuti chakanatsoguta mvura chakasvika. Chinerurava ruc...\" — A pineapple has been planted and looks well-watered and ripe. It has a light-coloured body w...",
+          "Lesson 76: \"Musikana akagadzirwa mumusoro wake zvakanaka. Akarukwa mamumutatu imwe ichibva nechapadivi i...\" — A young woman has her hair beautifully braided into neat three-strand plaits sweeping from e...",
+          "Lesson 77: \"Mugwagwa wakapamhamha une tara unoratidza kuti une motokari dzirikupesana. Mujinga memugwagw...\" — A wide tarred road shows cars passing each other in opposite directions. Along the edge of t..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('chakarongedzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakaiswa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akagara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('chakadyarwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akagadzirwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Urban Fashion Boutiques ('Zvitoro Zvemabhegi Neshangu'): Downtown shopping arcades and malls in Harare, Bulawayo, and Mutare feature neatly organized boutiques displaying handbags ('mabhegi evanhukadzi') and separate footwear sections ('makamuri akasiyana') for men and women..",
+          "Canvas Sneakers ('Shangu Yerudzi Rwetenisi') in Everyday Zimbabwean Style: Canvas tennis shoes ('shangu dzetenisi') have a long history in Zimbabwe—most famously the locally manufactured Bata Tenderfoot and Tommy Takkies sneakers worn by generations of schoolchildren and athletes..",
+          "Hardware Stores & Garden Implements ('Maburasho, Mareki, Mafoshora'): Because most Zimbabwean households maintain a yard, orchard, or kitchen garden, hardware stores stock sturdy steel-and-timber tools ('midziyo yakagadzirwa nesimbi nedanda') including rakes ('mareki'), shovels ('mafoshora'), and brushes..",
+          "Donkey-Drawn Carts ('Ngoro yeMadhongi') in Rural Transport: Across rural Zimbabwe—especially in drier regions—two-wheeled carts ('zvigochikari' or 'ngoro') pulled by pairs of hardy donkeys ('madhongi maviri') or oxen are indispensable for transporting grain sacks to the grinding mill ('chigayo'), firewood, and water drums along unpaved country roads ('mugwagwa usina tara').."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('chakarongedzwa')",
+    "Talking About the Past ('yakagadzikwa')",
+    "Talking About the Past ('yakaiswa')",
+    "Talking About the Past ('akagara')",
+    "Talking About the Past ('chakadyarwa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Folktales ('Ngano'): Who are the two classic characters in grandmother's fireside folktales ('ngano yetsuro negudo')?",
+      "options": [
+        "The lion ('shumba') and the crocodile ('garwe')",
+        "The clever hare ('tsuro') and the baboon ('gudo')",
+        "The elephant ('nzou') and the tortoise ('kamba')",
+        "The eagle ('gondo') and the snake ('nyoka')"
+      ],
+      "correct_answer": "The clever hare ('tsuro') and the baboon ('gudo')",
+      "explanation": "'Tsuro' (hare) and 'Gudo' (baboon) are the most famous duo in Shona 'ngano' storytelling."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Village Governance: What was the role of the traditional village council ('dare' / 'padare')?",
+      "options": [
+        "Grinding maize into mealie-meal only",
+        "Selling modern clothes and shoes",
+        "Settling community disputes ('kutonga mhosva') and mentoring young men in good customs ('tsika')",
+        "herding cattle in the mountains at night"
+      ],
+      "correct_answer": "Settling community disputes ('kutonga mhosva') and mentoring young men in good customs ('tsika')",
+      "explanation": "At the 'dare', elders adjudicated cases fairly and taught youth community values."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Figurative Language: What does the pair 'zvirevo nemadimikira' mean in English?",
+      "options": [
+        "Songs and dances",
+        "Rivers and mountains",
+        "Questions and answers",
+        "Proverbs and idioms"
+      ],
+      "correct_answer": "Proverbs and idioms",
+      "explanation": "'Zvirevo' (or 'tsumo') are proverbs, and 'madimikira' are idioms."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Passive Habitual ('-ai-...-wa'): In 'Nziyo dzechinyakare dzayiimbwa panguva dzekukohwa', what does 'dzayiimbwa' mean?",
+      "options": [
+        "they used to be sung",
+        "they are singing right now",
+        "they will sing tomorrow",
+        "sing loudly!"
+      ],
+      "correct_answer": "they used to be sung",
+      "explanation": "'Dza-yi-imb-wa' combines Class 10 'dza-', habitual '-yi-/-ai-', verb '-imba' (sing), and passive '-wa' ('used to be sung')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 11 — Indigenous Crops: Which two traditional grains did people cultivate long ago before maize ('chibage')?",
+      "options": [
+        "Wheat and barley only",
+        "Sorghum ('mapfunde') and finger millet ('zviyo')",
+        "Apples and pineapples only",
+        "Tea and coffee only"
+      ],
+      "correct_answer": "Sorghum ('mapfunde') and finger millet ('zviyo')",
+      "explanation": "'Mapfunde' (sorghum) and 'zviyo' (finger millet) are Zimbabwe's ancient drought-resistant staple grains."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 11 — Translate this new review sentence: 'Ambuya vaitaurira vazukuru vavo ngano dzinonakidza manheru.'",
+      "options": [
+        "The teacher asked the students to write a short essay today.",
+        "Men used to forge iron spears and hoes in the village.",
+        "Grandmother used to tell her grandchildren delightful folktales in the evening.",
+        "The river is full of water after yesterday's heavy rain."
+      ],
+      "correct_answer": "Grandmother used to tell her grandchildren delightful folktales in the evening.",
+      "explanation": "'Ambuya vaitaurira' = 'Grandmother used to tell', 'vazukuru vavo' = 'her grandchildren', 'ngano dzinonakidza manheru' = 'delightful folktales in the evening'."
+    }
+  ]
+}

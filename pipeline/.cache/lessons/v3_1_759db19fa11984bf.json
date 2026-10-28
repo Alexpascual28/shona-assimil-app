@@ -1,0 +1,407 @@
+{
+  "english_translation": "Inside a musical instrument shop selling guitars, a man carrying a backpack stands facing away while acoustic and electric guitars in black-and-white and orange-and-white hang overhead.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chitoro chinotengesa zvinhu zvamagitare zvekuridza.Mune munhu wechirume akabereka bheke ari mutema akafuratira.",
+      "english": "Inside a guitar shop, a man carrying a backpack stands with his back turned.",
+      "literal_gloss": "Chitoro [thing toro] • chinotengesa [thing notengesa] • zvinhu [things nhu] • zvamagitare [zvamagitare] • zvekuridza.Mune [zvekuridza.mune] • munhu [person] • wechirume [wechirume] • akabereka [he/she (past) bereka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chitoro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing toro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chinotengesa",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -notengesa",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing notengesa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinhu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvamagitare",
+          "morpheme_breakdown": "zvamagitare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvamagitare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekuridza.Mune",
+          "morpheme_breakdown": "zvekuridza.mune (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekuridza.mune",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munhu",
+          "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "person",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wechirume",
+          "morpheme_breakdown": "wechirume (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wechirume",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akabereka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -bereka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) bereka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bheke",
+          "morpheme_breakdown": "bheke (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bheke",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutema",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akafuratira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -furatira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) furatira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Mune magitare emhando dzakasiyana siyana akaturikwa mudenga.Mamwe ane ruvara ruchena nerutema.Mamwe ane ruvara ruchena neruvara rweorenji.",
+      "english": "Guitars of various types hang above—some black and white, and others white and orange.",
+      "literal_gloss": "Mune [in / singular ne] • magitare [plural gitare] • emhando [emhando] • dzakasiyana [dzakasiyana] • siyana [siyana] • akaturikwa [he/she (past) turikwa] • mudenga.Mamwe [in / singular denga.mamwe] • ane [ane]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mune",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "magitare",
+          "morpheme_breakdown": "ma- (plural prefix) + -gitare",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural gitare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "emhando",
+          "morpheme_breakdown": "emhando (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "emhando",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakasiyana",
+          "morpheme_breakdown": "dzakasiyana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakasiyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "siyana",
+          "morpheme_breakdown": "siyana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "siyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akaturikwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -turikwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) turikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mudenga.Mamwe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -denga.mamwe",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular denga.mamwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerutema.Mamwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -rutema.mamwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with rutema.mamwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rweorenji",
+          "morpheme_breakdown": "rweorenji (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rweorenji",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chitoro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing toro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chinotengesa",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -notengesa",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing notengesa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinhu",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvamagitare",
+      "morpheme_breakdown": "zvamagitare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvamagitare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekuridza.Mune",
+      "morpheme_breakdown": "zvekuridza.mune (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekuridza.mune",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munhu",
+      "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "person",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wechirume",
+      "morpheme_breakdown": "wechirume (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wechirume",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akabereka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -bereka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) bereka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bheke",
+      "morpheme_breakdown": "bheke (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bheke",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutema",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akafuratira.Mune",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -furatira.mune",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) furatira.mune",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "magitare",
+      "morpheme_breakdown": "ma- (plural prefix) + -gitare",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural gitare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "emhando",
+      "morpheme_breakdown": "emhando (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "emhando",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakasiyana",
+      "morpheme_breakdown": "dzakasiyana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakasiyana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "siyana",
+      "morpheme_breakdown": "siyana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "siyana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akaturikwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -turikwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) turikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mudenga.Mamwe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -denga.mamwe",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular denga.mamwe",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akabereka')",
+      "content": "The verb 'akabereka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('chinotengesa')",
+      "content": "The verb 'chinotengesa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mutema')",
+      "content": "This passage uses colour vocabulary such as 'mutema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Acoustic & Electric Guitar ('Gitare') in Sungura and Jit Music",
+      "content": "The guitar ('gitare') holds a special place in modern Zimbabwean culture: genres like Sungura, Jit, and Chimurenga music—pioneered by legends such as Oliver Mtukudzi, Leonard Dembo, and Alick Macheso—are famous for their intricate, interlocking lead, rhythm, and bass guitar melodies.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

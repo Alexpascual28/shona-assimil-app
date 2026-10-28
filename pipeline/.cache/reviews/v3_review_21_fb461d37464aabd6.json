@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 3 Comprehensive Review (Lessons 15–21)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 15–21)",
+        "points": [
+          "Lesson 15: \"Mudzidzisi akati tiunze mabhuku edu mangwana.\" — The teacher told us to bring our books tomorrow.",
+          "Lesson 16: \"Ndaisa mvura patafura; ndangomirira vamwe kuti vauye.\" — I have put water on the table; I am just waiting for the others to come.",
+          "Lesson 17: \"Wamboona bhuku rangu here? ndarisiya pedyo nepahwindo.\" — Have you seen my book? I left it near the window.",
+          "Lesson 18: \"Nhasi ndichabika sadza nemuriwo kuti tidye tese kumba.\" — Today I will cook sadza and vegetables so that we can eat together at home.",
+          "Lesson 19: \"Ko ukawedzera munyu zvishoma hazvibudi zvakanaka here.\" — What if you add a little bit of salt—won't it turn out well?",
+          "Lesson 20: \"Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.\" — Find the money to pay the workers at the end of the month.",
+          "Lesson 21: \"Chingwa chapera saka ndichapfuura nekuchitoro pandinobva kubasa.\" — The bread has run out, so I will pass by the store when I leave work."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('akati'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('Ndaisa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo'): pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)",
+          "Talking About the Future with '-cha-' ('ndichabika'): Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)",
+          "Talking About the Past ('zvakanaka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('Tsvaga'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Zimbabwe's High Literacy Rate & Respect for the 'Mudzidzisi': Zimbabwe boasts one of the highest literacy rates in Africa (over 90%), a legacy of massive community investment in primary and secondary schools ('zvikoro') across both rural districts and urban centres.",
+          "Hospitality Etiquette: Offering Water First & Waiting for Others: When hosting family or visitors in a Shona household, setting water on the table ('kuisa mvura patafura')—both cool drinking water and warm water for washing hands before a meal—is the first act of hospitality.",
+          "Reading Culture & the History of Written Shona Literature: Shona has a vibrant literary heritage! Beginning with Solomon Mutswairo's pioneering 1956 novel 'Feso' and Bernard Chidzero's 'Nzvengamutsvairo', generations of Zimbabwean novelists and poets—such as Patrick Chakaipa, Charles Mungoshi, and Mordikai Hamutyinei—created classic Shona books ('mabhuku') studied and cherished in homes across the country..",
+          "Home Kitchen Gardens ('Bindu') & Preparing 'Muriwo': Almost every suburban yard and rural homestead in Zimbabwe features a 'bindu'—a lush kitchen vegetable patch growing leafy greens ('muriwo') alongside tomatoes and onions."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('akati')",
+    "Talking About the Past ('Ndaisa')",
+    "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo')",
+    "Talking About the Future with '-cha-' ('ndichabika')",
+    "Talking About the Past ('zvakanaka')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Family & Present Progressive: How do you say 'My friends are studying in the house'?",
+      "options": [
+        "Shamwari yangu yakadzidza nezuro.",
+        "Shamwari dzangu dziri kudzidza mumba.",
+        "Vana vari kutamba panze.",
+        "Mudzidzisi ari kunyora pachidziro."
+      ],
+      "correct_answer": "Shamwari dzangu dziri kudzidza mumba.",
+      "explanation": "Plural 'shamwari dzangu' ('my friends') takes 'dziri ku-' + '-dzidza' ('are studying') + 'mumba' ('in the house')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — 'Before' Clauses ('-sati'): How do you say 'Let me rest a little before I cook'?",
+      "options": [
+        "Ndiri kubika sadza kana ndazorora.",
+        "Ndapedza kubika saka ndiri kuzorora.",
+        "Rega ndimbozorora zvishoma ndisati ndabika.",
+        "Usabike sadza tisati tasvika."
+      ],
+      "correct_answer": "Rega ndimbozorora zvishoma ndisati ndabika.",
+      "explanation": "'Ndisati ndabika' literally means 'before I have cooked'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — School & Exams: What does 'kupasa bvunzo dzekupedzisira' mean?",
+      "options": [
+        "to read a short story in class",
+        "to bring our books to school tomorrow",
+        "to ask the teacher a question",
+        "to pass the final examinations"
+      ],
+      "correct_answer": "to pass the final examinations",
+      "explanation": "'Kupasa' = 'to pass', 'bvunzo' = 'examinations', and 'dzekupedzisira' = 'final / last'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Giving Reasons ('nokuti'): Complete the sentence: 'Tiri kutaura tichizevezera ______ mwana akarara.' (We are speaking in whispers because the baby is asleep.)",
+      "options": [
+        "nokuti",
+        "kuti",
+        "asi",
+        "kana"
+      ],
+      "correct_answer": "nokuti",
+      "explanation": "'Nokuti' (or 'nekuti') means 'because'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 3 — Laundry & Household Chores: If you say 'Mbatya dzangu dzaoma panze', what happened to your clothes?",
+      "options": [
+        "My clothes are still wet in the house",
+        "My clothes have dried outside",
+        "I will wash my clothes tomorrow morning",
+        "I bought new clothes at the market"
+      ],
+      "correct_answer": "My clothes have dried outside",
+      "explanation": "'Mbatya dzangu' = 'my clothes', 'dzaoma' = 'have dried', 'panze' = 'outside'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 3 — Translate this new review sentence: 'Tichasangana naBaba kumusha svondo rinouya.'",
+      "options": [
+        "We visited Grandmother at the clinic yesterday.",
+        "Mother is buying vegetables at the market today.",
+        "We will meet Father at the rural home next week.",
+        "My sibling is writing an essay at school."
+      ],
+      "correct_answer": "We will meet Father at the rural home next week.",
+      "explanation": "'Tichasangana naBaba' = 'We will meet Father', 'kumusha' = 'at the rural home', 'svondo rinouya' = 'next week'."
+    }
+  ]
+}

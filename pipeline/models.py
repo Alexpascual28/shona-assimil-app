@@ -46,7 +46,7 @@ class NormalizedClip(BaseModel):
     source_dataset: str = Field(description="Hugging Face dataset ID or local directory identifier.")
     audio_filename: str = Field(description="Normalized WAV filename inside /app/public/audio/.")
     audio_path: str = Field(description="Public path relative to web root, e.g. /audio/clip_xxx.wav.")
-    duration_seconds: float = Field(ge=2.0, le=90.0)
+    duration_seconds: float = Field(ge=2.0, le=120.0)
     shona_text: str = Field(description="Cleaned Shona transcript.")
     word_count: int = Field(ge=2)
     avg_word_length: float = Field(ge=1.0)

@@ -1,0 +1,365 @@
+{
+  "english_translation": "Near the road stands a well-built house with a leaf-green shelter in the middle, and on its roof a solar geyser and a satellite dish can be seen.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Pedyo nemumugwagwa pane imba yakavakwa zvakanaka.",
+      "english": "Near the road stands a well-built house.",
+      "literal_gloss": "Pedyo [pedyo] • nemumugwagwa [and / with mumugwagwa] • pane [on / at ne] • imba [imba] • yakavakwa [it (past) vakwa] • zvakanaka [well / nicely / very good]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pedyo",
+          "morpheme_breakdown": "pedyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pedyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemumugwagwa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mumugwagwa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mumugwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakavakwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vakwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Imba iyi ine tende rine ruvara rwamashisha pakati. Pamusoro pemba iyi pari kubudikira giza nesetiraiti dish.",
+      "english": "This house has a leaf-green canopy in the middle, and on top of the roof a water heater (geyser) and satellite dish are visible.",
+      "literal_gloss": "Imba [imba] • iyi [iyi] • ine [ine] • tende [tende] • rine [rine] • ruvara [colour] • rwamashisha [rwamashisha] • pakati [on / at kati]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tende",
+          "morpheme_breakdown": "tende (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tende",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwamashisha",
+          "morpheme_breakdown": "rwamashisha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwamashisha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pemba",
+          "morpheme_breakdown": "pemba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pemba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pari",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubudikira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -budikira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at budikira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "giza",
+          "morpheme_breakdown": "giza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "giza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesetiraiti",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -setiraiti",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with setiraiti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dish",
+          "morpheme_breakdown": "dish (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dish",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Pedyo",
+      "morpheme_breakdown": "pedyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pedyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemumugwagwa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mumugwagwa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mumugwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakavakwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vakwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tende",
+      "morpheme_breakdown": "tende (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tende",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwamashisha",
+      "morpheme_breakdown": "rwamashisha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwamashisha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pemba",
+      "morpheme_breakdown": "pemba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pemba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pari",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ri",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakavakwa')",
+      "content": "The verb 'yakavakwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Solar Geysers ('Giza') & Satellite Dishes on Modern Zimbabwean Rooftops",
+      "content": "Because Zimbabwe enjoys over 3,000 hours of sunshine a year, rooftop solar water heaters ('magiza ezuva') and solar panels have become standard features on modern suburban homes alongside satellite television dishes.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

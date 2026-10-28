@@ -1,0 +1,259 @@
+{
+  "english_translation": "A neatly arranged boutique displays women's handbags alongside men's and women's shoes organized in separate sections.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chitoro chakarongedzwa chakashongedzwa mabhegi evanhukadzi uye shangu dzevanhurume neshangu dzevanhukadzi dziri pamakamuri akasiyana.",
+      "english": "A neatly arranged shop displays women's handbags as well as men's and women's shoes in separate sections.",
+      "literal_gloss": "Chitoro [thing toro] • chakarongedzwa [chakarongedzwa] • chakashongedzwa [chakashongedzwa] • mabhegi [plural bhegi] • evanhukadzi [evanhukadzi] • uye [and / furthermore] • shangu [shoes] • dzevanhurume [dzevanhurume]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chitoro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing toro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakarongedzwa",
+          "morpheme_breakdown": "chakarongedzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakarongedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakashongedzwa",
+          "morpheme_breakdown": "chakashongedzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakashongedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mabhegi",
+          "morpheme_breakdown": "ma- (plural prefix) + -bhegi",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural bhegi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "evanhukadzi",
+          "morpheme_breakdown": "evanhukadzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "evanhukadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzevanhurume",
+          "morpheme_breakdown": "dzevanhurume (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzevanhurume",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neshangu",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -shangu",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with shangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzevanhukadzi",
+          "morpheme_breakdown": "dzevanhukadzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzevanhukadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamakamuri",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -makamuri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at makamuri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akasiyana",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -siyana",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) siyana",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chitoro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing toro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakarongedzwa",
+      "morpheme_breakdown": "chakarongedzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakarongedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakashongedzwa",
+      "morpheme_breakdown": "chakashongedzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakashongedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mabhegi",
+      "morpheme_breakdown": "ma- (plural prefix) + -bhegi",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural bhegi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "evanhukadzi",
+      "morpheme_breakdown": "evanhukadzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "evanhukadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzevanhurume",
+      "morpheme_breakdown": "dzevanhurume (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzevanhurume",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neshangu",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -shangu",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with shangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzevanhukadzi",
+      "morpheme_breakdown": "dzevanhukadzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzevanhukadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamakamuri",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -makamuri",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at makamuri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akasiyana",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -siyana",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) siyana",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('chakarongedzwa')",
+      "content": "The verb 'chakarongedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('shangu')",
+      "content": "In Shona, possessive words like 'shangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'neshangu'",
+      "content": "Look closely at 'neshangu'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'shangu' forms 'neshangu'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Urban Fashion Boutiques ('Zvitoro Zvemabhegi Neshangu')",
+      "content": "Downtown shopping arcades and malls in Harare, Bulawayo, and Mutare feature neatly organized boutiques displaying handbags ('mabhegi evanhukadzi') and separate footwear sections ('makamuri akasiyana') for men and women.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

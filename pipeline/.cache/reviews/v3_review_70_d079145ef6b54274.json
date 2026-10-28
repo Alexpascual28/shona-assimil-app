@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 10 Comprehensive Review (Lessons 64–70)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 64–70)",
+        "points": [
+          "Lesson 64: \"Muti worudzi rwomupaini wakasimwa, unamashizha arikurembera achidzaka anoratidza kuva mashiz...\" — A planted pine tree has drooping needles hanging downward that have dried out and are beginn...",
+          "Lesson 65: \"Majombo emwanasikana akagadzirwa nenzira yekuti anodziya mukati. Anodzorwa nemutambo wakabud...\" — Plural jombo emwanasikana he/she (past) gadzirwa and / with nzira yekuti he/she dziya in / s...",
+          "Lesson 66: \"Shangu imwechete yechidzimai yakavhurika. Ine mavara esirivha anopenya pamusoro. Pasi payo p...\" — A single open-toed women's shoe with shiny silver straps on top and a black sole is placed o...",
+          "Lesson 67: \"Bhutsu imwechete yakagadzikwa pasi paneruvara rwutema neruvara rwakachena nemadododo eruvara...\" — Bhutsu imwechete it (past) gadzikwa on / at si on / at neruvara rwutema and / with ruvara rw...",
+          "Lesson 68: \"Dandemutande rakagara pasi. Rine makumbo akawanda, rine makushe uye rine mavara matema neebh...\" — A spider is resting on the ground; it has many legs, fine bristles, and black and brown mark...",
+          "Lesson 69: \"Imba yekutandarira. Ina masofa ane ruvara rwebhurauni ane mapiro awo. Pakati payo pane tafur...\" — A living room is furnished with brown sofas and matching cushions. In the centre stands a ta...",
+          "Lesson 70: \"Chanza chemunhu mutema, chakabata chigero chikudu chineruvara rwegirinhi. Uyezve panogera pa...\" — A person's hand holds a small pair of scissors with green handles and silver metal blades, w..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('wakasimwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akagadzirwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakavhurika'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('rakagara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('chakabata'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Eastern Highlands Pine Plantations ('Miti Yemupaini') in Nyanga & Chimanimani: Alongside indigenous woodlands, commercial pine ('mupaini') and wattle plantations thrive in the cool, misty mountains of Zimbabwe's Eastern Highlands—especially around Nyanga, Erin Forest, and Chimanimani—supplying timber across the country..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Majombo emwanasikana akagadzirwa nenzira yekuti anodziya mukati.",
+          "Evening & Wedding Footwear ('Shangu Yechidzimai Yakavhurika'): Silver and metallic open-toed sandals ('shangu yakavhurika ine mavara esirivha') are popular attire for Zimbabwean weddings ('michato'), kitchen parties, and Sunday church services..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Bhutsu imwechete yakagadzikwa pasi paneruvara rwutema neruvara rwakachena nemadododo eruvara rutema."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('wakasimwa')",
+    "Talking About the Past ('akagadzirwa')",
+    "Talking About the Past ('yakavhurika')",
+    "Talking About the Past ('yakagadzikwa')",
+    "Talking About the Past ('rakagara')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Pre-Colonial History: Which title was borne by the rulers of the Mutapa Empire in northern Zimbabwe?",
+      "options": [
+        "Mambo Lobengula",
+        "Sabhuku weMusha",
+        "Mambo Munhumutapa",
+        "Chiremba Mukuru"
+      ],
+      "correct_answer": "Mambo Munhumutapa",
+      "explanation": "'Mambo Munhumutapa' was the royal title of the kings of the Mutapa state."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Traditional Crafts: What did skilled Shona blacksmiths ('mhizha') forge from iron ('masimbi')?",
+      "options": [
+        "Clay cooking pots ('hari dzevhu') only",
+        "Woven grass baskets ('tswanda') only",
+        "Plastic water tanks ('matangi')",
+        "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')"
+      ],
+      "correct_answer": "Hoes ('mapadza'), axes ('matemo'), and spears ('mapfumo')",
+      "explanation": "Ironworkers ('mhizha dzekupfura masimbi') forged metal tools and weapons such as hoes and spears."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Geography & Rivers: Which mighty river forms the northern border between Zimbabwe and Zambia?",
+      "options": [
+        "Rwizi rweZambezi (The Zambezi River)",
+        "Rwizi rweLimpopo",
+        "Makomo eMatobo",
+        "Guta reMasvingo"
+      ],
+      "correct_answer": "Rwizi rweZambezi (The Zambezi River)",
+      "explanation": "'Rwizi rweZambezi rwuri pamuganhu peZimbabwe neZambia' means 'The Zambezi River lies on the border of Zimbabwe and Zambia'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Habitual Past ('-ai-'): What does 'Madzitateguru edu aishandisa uta nemiseve' mean?",
+      "options": [
+        "Our ancestors are making bows today",
+        "Our ancestors used to use bows and arrows",
+        "Our ancestors will buy arrows tomorrow",
+        "Do not touch the bow and arrow"
+      ],
+      "correct_answer": "Our ancestors used to use bows and arrows",
+      "explanation": "The prefix '-ai-' expresses past habitual action ('used to use'), and 'uta nemiseve' means 'bows and arrows'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 10 — Polite Requests: Which verb form in 'Mungandibatsirawo here?' expresses 'Could you please help me?'",
+      "options": [
+        "ndaka- (past tense) + -batsira",
+        "regai kubatsira (negative command)",
+        "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+        "tiri kubatsira (present progressive)"
+      ],
+      "correct_answer": "mu- (respectful you) + -nga- (potential 'could') + -ndi- (me) + -batsira + -wo (please)",
+      "explanation": "'Mu-nga-ndi-batsira-wo' combines polite plural address, potential mood, object marker, and the polite suffix '-wo'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 10 — Translate this new review sentence: 'VaShona vekare vaigona kuumba hari dzevhu nekupfura mapadza.'",
+      "options": [
+        "The children are swimming in the river near the village.",
+        "We will visit the caves in the Matobo Hills next month.",
+        "Please close the windows before the evening wind blows.",
+        "The ancient Shona people were skilled at molding clay pots and forging hoes."
+      ],
+      "correct_answer": "The ancient Shona people were skilled at molding clay pots and forging hoes.",
+      "explanation": "'Vaigona kuumba hari dzevhu' = 'were skilled at molding clay pots', 'nekupfura mapadza' = 'and forging hoes'."
+    }
+  ]
+}

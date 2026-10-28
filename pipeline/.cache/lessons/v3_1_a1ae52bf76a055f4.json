@@ -1,0 +1,329 @@
+{
+  "english_translation": "Thing dziro chakapwanyika on / at ne imwe nzvimbo.mukati mechidziro in / singular ne trees it (past) wanda ine colour rwegirini poita tree umwe chete wemujakaranda you/he (past) tumbuka.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chidziro chakapwanyika pane imwe nzvimbo.Mukati mechidziro mune miti yakawanda ine ruvara rwegirini poita muti umwe chete wemujakaranda wakatumbuka maruva ane ruvara rwepeporo.Kunze kwechidziro kune huswa hwakaoma.",
+      "english": "Thing dziro chakapwanyika on / at ne imwe nzvimbo.mukati mechidziro in / singular ne trees it (past) wanda ine colour rwegirini poita tree umwe chete wemujakaranda you/he (past) tumbuka.",
+      "literal_gloss": "Chidziro [thing dziro] • chakapwanyika [chakapwanyika] • pane [on / at ne] • imwe [imwe] • nzvimbo.Mukati [nzvimbo.mukati] • mechidziro [mechidziro] • mune [in / singular ne] • miti [trees] • yakawanda [it (past) wanda] • ine [ine] • ruvara [colour] • rwegirini [rwegirini] • poita [poita] • muti [tree] • umwe [umwe] • chete [chete] • wemujakaranda [wemujakaranda] • wakatumbuka [you/he (past) tumbuka]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chidziro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakapwanyika",
+          "morpheme_breakdown": "chakapwanyika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakapwanyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzvimbo.Mukati",
+          "morpheme_breakdown": "nzvimbo.mukati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo.mukati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mechidziro",
+          "morpheme_breakdown": "mechidziro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mechidziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mune",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakawanda",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirini",
+          "morpheme_breakdown": "rwegirini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "poita",
+          "morpheme_breakdown": "poita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "poita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "umwe",
+          "morpheme_breakdown": "umwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "umwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chete",
+          "morpheme_breakdown": "chete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemujakaranda",
+          "morpheme_breakdown": "wemujakaranda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemujakaranda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wakatumbuka",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -tumbuka",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) tumbuka",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chidziro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakapwanyika",
+      "morpheme_breakdown": "chakapwanyika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakapwanyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwe",
+      "morpheme_breakdown": "imwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzvimbo.Mukati",
+      "morpheme_breakdown": "nzvimbo.mukati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzvimbo.mukati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mechidziro",
+      "morpheme_breakdown": "mechidziro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mechidziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mune",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ne",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakawanda",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirini",
+      "morpheme_breakdown": "rwegirini (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirini",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "poita",
+      "morpheme_breakdown": "poita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "poita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muti",
+      "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "tree",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "umwe",
+      "morpheme_breakdown": "umwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "umwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chete",
+      "morpheme_breakdown": "chete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wemujakaranda",
+      "morpheme_breakdown": "wemujakaranda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wemujakaranda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wakatumbuka",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -tumbuka",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) tumbuka",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('chakapwanyika')",
+      "content": "The verb 'chakapwanyika' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('imwe')",
+      "content": "In Shona, number words like 'imwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Chidziro chakapwanyika pane imwe nzvimbo.Mukati mechidziro mune miti yakawanda ine ruvara rwegirini poita muti umwe chete wemujakaranda wakatumbuka maruva ane ruvara rwepeporo.Kunze kwechidziro kune huswa hwakaoma.' — \"Thing dziro chakapwanyika on / at ne imwe nzvimbo.mukati mechidziro in / singular ne trees it (past) wanda ine colour rwegirini poita tree umwe chete wemujakaranda you/he (past) tumbuka.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

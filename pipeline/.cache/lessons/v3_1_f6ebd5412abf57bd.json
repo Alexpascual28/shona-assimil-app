@@ -1,0 +1,315 @@
+{
+  "english_translation": "In the capital city of Harare, multi-storey buildings rise above busy streets where crowds of pedestrians pass one another, with the iconic Joina City tower visible ahead.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nzvimbo irimudhorobha guru reHarare umo munezvivakwa zvomudurikidzwa panewo vanhu vakawanda varikupesana. Nechokumberi kune chivakwa chihombe cheJoina siti.",
+      "english": "In the large city of Harare filled with multi-storey buildings, many people pass one another on the street, with the tall Joina City building standing ahead.",
+      "literal_gloss": "Nzvimbo [nzvimbo] • irimudhorobha [it is mudhorobha] • guru [guru] • reHarare [reharare] • umo [umo] • munezvivakwa [in / singular nezvivakwa] • zvomudurikidzwa [zvomudurikidzwa] • panewo [on / at newo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nzvimbo",
+          "morpheme_breakdown": "nzvimbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "irimudhorobha",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -mudhorobha",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is mudhorobha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "guru",
+          "morpheme_breakdown": "guru (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "guru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "reHarare",
+          "morpheme_breakdown": "reharare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "reharare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "umo",
+          "morpheme_breakdown": "umo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "umo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munezvivakwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nezvivakwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nezvivakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvomudurikidzwa",
+          "morpheme_breakdown": "zvomudurikidzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvomudurikidzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panewo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -newo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at newo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakawanda",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) wanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "varikupesana",
+          "morpheme_breakdown": "vari (they are) + ku- (doing) + -pesana",
+          "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+          "literal_english": "they are pesana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Nechokumberi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chokumberi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chokumberi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kune",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chivakwa",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -vakwa",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing vakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chihombe",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -hombe",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing hombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "cheJoina",
+          "morpheme_breakdown": "chejoina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chejoina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "siti",
+          "morpheme_breakdown": "siti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "siti",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nzvimbo",
+      "morpheme_breakdown": "nzvimbo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "irimudhorobha",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -mudhorobha",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is mudhorobha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "guru",
+      "morpheme_breakdown": "guru (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "guru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "reHarare",
+      "morpheme_breakdown": "reharare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "reharare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "umo",
+      "morpheme_breakdown": "umo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "umo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munezvivakwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nezvivakwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular nezvivakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvomudurikidzwa",
+      "morpheme_breakdown": "zvomudurikidzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvomudurikidzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panewo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -newo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at newo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakawanda",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) wanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "varikupesana",
+      "morpheme_breakdown": "vari (they are) + ku- (doing) + -pesana",
+      "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+      "literal_english": "they are pesana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Nechokumberi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chokumberi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chokumberi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kune",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ne",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chivakwa",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -vakwa",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing vakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chihombe",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -hombe",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing hombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "cheJoina",
+      "morpheme_breakdown": "chejoina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chejoina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "siti",
+      "morpheme_breakdown": "siti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "siti",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakawanda')",
+      "content": "The verb 'vakawanda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'Nechokumberi'",
+      "content": "Look closely at 'Nechokumberi'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'chokumberi' forms 'Nechokumberi'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Joina City & the Modern Skyline of Downtown Harare",
+      "content": "Completed in 2010 at the intersection of Jason Moyo Avenue and Julius Nyerere Way, Joina City ('chivakwa chihombe cheJoina City') is one of Harare's tallest and busiest commercial and retail landmarks.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

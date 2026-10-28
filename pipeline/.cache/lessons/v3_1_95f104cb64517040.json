@@ -1,0 +1,329 @@
+{
+  "english_translation": "Shoes yechidzimai ineruvara rwakada to / at tsvukuruka it (past) vhurika it (past) kwirirowo to / at mashure kwayo shoes iyi it pfekwa and / with vanhu people ya they farira zvekuchena in / singular soro wemunhukadzi.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Shangu yechidzimai, ineruvara rwakada kutsvukuruka. Yakavhurika. Yakakwirirowo kumashure kwayo. Shangu iyi inopfekwa nevanhu vaya vanofarira zvekuchena. Musoro wemunhukadzi wakarukwa mabhurayidzi ane ruvara rutema narumwe rwebhurauni akarembera nechapadivi uye nechekugotsi kwemusoro.",
+      "english": "Shoes yechidzimai ineruvara rwakada to / at tsvukuruka it (past) vhurika it (past) kwirirowo to / at mashure kwayo shoes iyi it pfekwa and / with vanhu people ya they farira zvekuchena in / singular soro wemunhukadzi.",
+      "literal_gloss": "Shangu [shoes] • yechidzimai [yechidzimai] • ineruvara [ineruvara] • rwakada [rwakada] • kutsvukuruka [to / at tsvukuruka] • Yakavhurika [it (past) vhurika] • Yakakwirirowo [it (past) kwirirowo] • kumashure [to / at mashure] • kwayo [kwayo] • Shangu [shoes] • iyi [iyi] • inopfekwa [it pfekwa] • nevanhu [and / with vanhu] • vaya [people ya] • vanofarira [they farira] • zvekuchena [zvekuchena] • Musoro [in / singular soro] • wemunhukadzi [wemunhukadzi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yechidzimai",
+          "morpheme_breakdown": "yechidzimai (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yechidzimai",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ineruvara",
+          "morpheme_breakdown": "ineruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ineruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakada",
+          "morpheme_breakdown": "rwakada (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakada",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutsvukuruka",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvukuruka",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tsvukuruka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Yakavhurika",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhurika",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vhurika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Yakakwirirowo",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -kwirirowo",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) kwirirowo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumashure",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mashure",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mashure",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwayo",
+          "morpheme_breakdown": "kwayo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwayo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Shangu",
+          "morpheme_breakdown": "shangu (shoes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shoes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inopfekwa",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -pfekwa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it pfekwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nevanhu",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -vanhu",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with vanhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaya",
+          "morpheme_breakdown": "va- (plural people prefix) + -ya",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanofarira",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -farira",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they farira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekuchena",
+          "morpheme_breakdown": "zvekuchena (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekuchena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemunhukadzi",
+          "morpheme_breakdown": "wemunhukadzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemunhukadzi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yechidzimai",
+      "morpheme_breakdown": "yechidzimai (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yechidzimai",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ineruvara",
+      "morpheme_breakdown": "ineruvara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ineruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakada",
+      "morpheme_breakdown": "rwakada (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakada",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutsvukuruka",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tsvukuruka",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tsvukuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakavhurika",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -vhurika",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vhurika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Yakakwirirowo",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -kwirirowo",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) kwirirowo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumashure",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -mashure",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at mashure",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwayo",
+      "morpheme_breakdown": "kwayo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwayo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Shangu",
+      "morpheme_breakdown": "shangu (shoes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shoes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inopfekwa",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -pfekwa",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it pfekwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nevanhu",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -vanhu",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with vanhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaya",
+      "morpheme_breakdown": "va- (plural people prefix) + -ya",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanofarira",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -farira",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they farira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekuchena",
+      "morpheme_breakdown": "zvekuchena (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekuchena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wemunhukadzi",
+      "morpheme_breakdown": "wemunhukadzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wemunhukadzi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Yakavhurika')",
+      "content": "The verb 'Yakavhurika' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inopfekwa')",
+      "content": "The verb 'inopfekwa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ineruvara')",
+      "content": "This passage uses colour vocabulary such as 'ineruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Shangu yechidzimai, ineruvara rwakada kutsvukuruka. Yakavhurika. Yakakwirirowo kumashure kwayo. Shangu iyi inopfekwa nevanhu vaya vanofarira zvekuchena. Musoro wemunhukadzi wakarukwa mabhurayidzi ane ruvara rutema narumwe rwebhurauni akarembera nechapadivi uye nechekugotsi kwemusoro.' — \"Shoes yechidzimai ineruvara rwakada to / at tsvukuruka it (past) vhurika it (past) kwirirowo to / at mashure kwayo shoes iyi it pfekwa and / with vanhu people ya they farira zvekuchena in / singular soro wemunhukadzi.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

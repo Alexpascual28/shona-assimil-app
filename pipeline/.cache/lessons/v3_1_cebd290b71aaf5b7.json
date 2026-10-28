@@ -1,0 +1,329 @@
+{
+  "english_translation": "Several classroom buildings stand on a school campus; one has white walls and a red metal roof, with trees and people walking nearby.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Zvivakwa zvakawanda zvepachikoro zvokudzidzira. Chimwe chine chidziro chichena uye chine denga rinemarata matsvuku. Padivi pane vanhu vanofamba uye pane miti.",
+      "english": "Many classroom buildings stand at a school; one has a white wall and a red roof, with trees and people walking beside it.",
+      "literal_gloss": "Zvivakwa [things vakwa] • zvakawanda [zvakawanda] • zvepachikoro [zvepachikoro] • zvokudzidzira [zvokudzidzira] • Chimwe [thing mwe] • chine [thing ne] • chidziro [thing dziro] • chichena [thing chena]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvivakwa",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -vakwa",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things vakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakawanda",
+          "morpheme_breakdown": "zvakawanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakawanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvepachikoro",
+          "morpheme_breakdown": "zvepachikoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvepachikoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvokudzidzira",
+          "morpheme_breakdown": "zvokudzidzira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvokudzidzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Chimwe",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chine",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chidziro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing dziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chichena",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -chena",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chine",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "denga",
+          "morpheme_breakdown": "denga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "denga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rinemarata",
+          "morpheme_breakdown": "rinemarata (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rinemarata",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matsvuku",
+          "morpheme_breakdown": "ma- (plural prefix) + -tsvuku",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Padivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -divi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at divi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanofamba",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -famba",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Zvivakwa",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -vakwa",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things vakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakawanda",
+      "morpheme_breakdown": "zvakawanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakawanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvepachikoro",
+      "morpheme_breakdown": "zvepachikoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvepachikoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvokudzidzira",
+      "morpheme_breakdown": "zvokudzidzira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvokudzidzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Chimwe",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chine",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chidziro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -dziro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing dziro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chichena",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -chena",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chine",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "denga",
+      "morpheme_breakdown": "denga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "denga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rinemarata",
+      "morpheme_breakdown": "rinemarata (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rinemarata",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matsvuku",
+      "morpheme_breakdown": "ma- (plural prefix) + -tsvuku",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Padivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -divi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at divi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanofamba",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -famba",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakawanda')",
+      "content": "The verb 'zvakawanda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('vanofamba')",
+      "content": "The verb 'vanofamba' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('chichena')",
+      "content": "This passage uses colour vocabulary such as 'chichena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean School Architecture ('Zvivakwa Zvepachikoro')",
+      "content": "Across Zimbabwe, primary and secondary schools are typically laid out as single-storey classroom blocks ('zvivakwa zvokudzidzira') with whitewashed walls, red corrugated roofs, and shady campus trees.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

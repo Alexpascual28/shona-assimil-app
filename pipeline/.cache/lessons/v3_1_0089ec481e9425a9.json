@@ -1,0 +1,203 @@
+{
+  "english_translation": "A light-complexioned woman with black hair and bright white teeth is smiling warmly.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mukadzi mutsvuku ane bvudzi dema ane mazino machena arikunyemwerera.",
+      "english": "A light-complexioned woman with black hair and bright white teeth is smiling warmly.",
+      "literal_gloss": "Mukadzi [woman] • mutsvuku [in / singular tsvuku] • ane [ane] • bvudzi [bvudzi] • dema [dema] • ane [ane] • mazino [plural zino] • machena [plural chena]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mukadzi",
+          "morpheme_breakdown": "mu- + -kadzi (woman)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "woman",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutsvuku",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bvudzi",
+          "morpheme_breakdown": "bvudzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bvudzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dema",
+          "morpheme_breakdown": "dema (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mazino",
+          "morpheme_breakdown": "ma- (plural prefix) + -zino",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural zino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "machena",
+          "morpheme_breakdown": "ma- (plural prefix) + -chena",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arikunyemwerera",
+          "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -nyemwerera",
+          "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+          "literal_english": "he/she is nyemwerera",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mukadzi",
+      "morpheme_breakdown": "mu- + -kadzi (woman)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "woman",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutsvuku",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bvudzi",
+      "morpheme_breakdown": "bvudzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bvudzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dema",
+      "morpheme_breakdown": "dema (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mazino",
+      "morpheme_breakdown": "ma- (plural prefix) + -zino",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural zino",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "machena",
+      "morpheme_breakdown": "ma- (plural prefix) + -chena",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "arikunyemwerera",
+      "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -nyemwerera",
+      "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+      "literal_english": "he/she is nyemwerera",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mutsvuku')",
+      "content": "This passage uses colour vocabulary such as 'mutsvuku'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Expressing 'Has/Have' and 'There Is/Are' ('-ne' & 'pane / kune')",
+      "content": "Shona does not use a separate verb like 'have'; instead, it combines a subject prefix with '-ne' ('with'). For people: 'ndine' (I have), 'une' (you have), 'ane' (he/she has), 'tine' (we have), 'vane' (they have). For things, the prefix matches the object: 'imba ine...' ('the house has...'), 'rori rine...' ('the truck has...'). When combined with the location prefixes 'pa-', 'ku-', and 'mu-', it means 'there is / there are': 'pane' ('there is right here'), 'kune' ('there is in that area'), and 'mune' ('there is inside').",
+      "rule": "Person/Thing + -ne = has/have (tine = we have, ine = it has) | pane / kune / mune = there is / there are"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Warmth of the Smile ('Kunyemwerera') & Complexion Terms in Shona",
+      "content": "In Shona, a warm smile ('kunyemwerera') is part of welcoming guests ('kugamuchira vaeni'). Notice also how 'mutsvuku' (literally 'red/light-toned') is used idiomaticallly for a lighter skin complexion, while 'bvudzi dema' (Class 5 'ri-' concord) describes dark hair and 'mazino machena' (Class 6 'ma-' concord) describes bright white teeth.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

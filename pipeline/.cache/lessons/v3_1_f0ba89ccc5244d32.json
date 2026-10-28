@@ -1,0 +1,358 @@
+{
+  "english_translation": "A living room is furnished with brown sofas and matching cushions. In the centre stands a table with items arranged on top, and the walls are tastefully decorated.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Imba yekutandarira. Ina masofa ane ruvara rwebhurauni ane mapiro awo.",
+      "english": "It is a living room furnished with brown sofas and their cushions.",
+      "literal_gloss": "Imba [imba] • yekutandarira [yekutandarira] • Ina [ina] • masofa [plural sofa] • ane [ane] • ruvara [colour] • rwebhurauni [rwebhurauni] • ane [ane]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekutandarira",
+          "morpheme_breakdown": "yekutandarira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekutandarira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Ina",
+          "morpheme_breakdown": "ina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "masofa",
+          "morpheme_breakdown": "ma- (plural prefix) + -sofa",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural sofa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwebhurauni",
+          "morpheme_breakdown": "rwebhurauni (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwebhurauni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mapiro",
+          "morpheme_breakdown": "ma- (plural prefix) + -piro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural piro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "awo",
+          "morpheme_breakdown": "awo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "awo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Pakati payo pane tafura iripo yakagadzikwa zvinhu pamusoro. Madziro ayo akashongedzwa.",
+      "english": "In the middle stands a table with items placed on top, and its walls are decorated.",
+      "literal_gloss": "Pakati [on / at kati] • payo [on / at yo] • pane [on / at ne] • tafura [table] • iripo [it is po] • yakagadzikwa [it (past) gadzikwa] • zvinhu [things nhu] • pamusoro [on / at musoro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "payo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at yo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tafura",
+          "morpheme_breakdown": "tafura (table)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "table",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iripo",
+          "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is po",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakagadzikwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzikwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) gadzikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinhu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Madziro",
+          "morpheme_breakdown": "ma- (plural prefix) + -dziro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural dziro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ayo",
+          "morpheme_breakdown": "ayo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ayo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akashongedzwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -shongedzwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) shongedzwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekutandarira",
+      "morpheme_breakdown": "yekutandarira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekutandarira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ina",
+      "morpheme_breakdown": "ina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "masofa",
+      "morpheme_breakdown": "ma- (plural prefix) + -sofa",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural sofa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwebhurauni",
+      "morpheme_breakdown": "rwebhurauni (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwebhurauni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mapiro",
+      "morpheme_breakdown": "ma- (plural prefix) + -piro",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural piro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "awo",
+      "morpheme_breakdown": "awo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "awo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "payo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at yo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tafura",
+      "morpheme_breakdown": "tafura (table)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "table",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iripo",
+      "morpheme_breakdown": "i- (it) + -ri (is) + -po",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is po",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakagadzikwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -gadzikwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) gadzikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinhu",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nhu",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakagadzikwa')",
+      "content": "The verb 'yakagadzikwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('Ina')",
+      "content": "In Shona, number words like 'Ina' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Lounge ('Imba Yekutandarira') as a Space of Fellowship",
+      "content": "Notice the expressive Shona name for the living room: 'imba yekutandarira', derived from the verb 'kutandara' (to spend time conversing and relaxing with family and visitors). Comfortable sofas, throw cushions ('mapiro'), and wall art make it the welcoming heart of an urban home.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

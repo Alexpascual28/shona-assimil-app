@@ -1,0 +1,463 @@
+{
+  "english_translation": "Dry savanna grass shows that it is the dry winter or spring season (chando/chirimo) when little rain falls, while at the foot of a large hill hippos (mvuu) and an elephant (nzou) graze. Nearby, a young woman with star-patterned braids wears a face mask, and traditional performers in ancestral attire sing and dance Jerusarema (Mbende) songs with joy.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nzvimbo inoratidza kuti inesora rakaoma, risina utano zvinobva zvaita kuti tifungidzire kuti pava nenguva pakareba pasina kumbonaiwa nemvura uye tibve taona kuti iyi inguva yechando kana kuti nguva yechirimo sezvo nguva iyi isinganyanyi kunaya mvura. Mujinga regomo guru mune mhuka dzirikufura huswa. Mhuka idzi dzinosanganisira Mvuu uye Nzou imwe chete.",
+      "english": "Dry grass indicates the dry winter or spring season (chando or chirimo), while at the base of a great hill hippos (mvuu) and an elephant (nzou) graze.",
+      "literal_gloss": "Nzvimbo [nzvimbo] • inoratidza [it ratidza] • kuti [that / so that] • inesora [inesora] • rakaoma [it (past) oma] • risina [risina] • utano [utano] • zvinobva [things nobva]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nzvimbo",
+          "morpheme_breakdown": "nzvimbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoratidza",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -ratidza",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inesora",
+          "morpheme_breakdown": "inesora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inesora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakaoma",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -oma",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) oma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "risina",
+          "morpheme_breakdown": "risina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "risina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "utano",
+          "morpheme_breakdown": "utano (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "utano",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinobva",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nobva",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nobva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvaita",
+          "morpheme_breakdown": "zvaita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvaita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tifungidzire",
+          "morpheme_breakdown": "tifungidzire (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tifungidzire",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pava",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -va",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at va",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakareba",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kareba",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kareba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasina",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -sina",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at sina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumbonaiwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -mbonaiwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at mbonaiwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemvura",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mvura",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Mudzimai kana kuti musikana akatarisa pasi. Akarukwa musoro wake achiiswa mitsetse uye twunyeredzi. Akafukidzawo mhino nomuromo wake nemasiki. Vaimbi vari kuimba nziyo dzejerusarema. Vakapfeka nhumbi dzechinyakare izvo zvinoita kuti vanhu vange vachifara vange vachinzwa kusununguka munguva iyoyo.",
+      "english": "A young woman has her hair braided in lines and star patterns, while traditional musicians dressed in heritage attire joyfully sing Jerusarema songs.",
+      "literal_gloss": "Mudzimai [in / singular dzimai] • kana [if / when / or] • kuti [that / so that] • musikana [in / singular sikana] • akatarisa [he/she (past) tarisa] • pasi [on / at si] • Akarukwa [he/she (past) rukwa] • musoro [in / singular soro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mudzimai",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -dzimai",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular dzimai",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musikana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akatarisa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tarisa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) tarisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Akarukwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) rukwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wake",
+          "morpheme_breakdown": "wake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achiiswa",
+          "morpheme_breakdown": "achiiswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achiiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitsetse",
+          "morpheme_breakdown": "mitsetse (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitsetse",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "twunyeredzi",
+          "morpheme_breakdown": "twunyeredzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "twunyeredzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Akafukidzawo",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -fukidzawo",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) fukidzawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhino",
+          "morpheme_breakdown": "mhino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhino",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nomuromo",
+          "morpheme_breakdown": "nomuromo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nomuromo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wake",
+          "morpheme_breakdown": "wake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemasiki",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -masiki",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with masiki",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nzvimbo",
+      "morpheme_breakdown": "nzvimbo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inoratidza",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -ratidza",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it ratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inesora",
+      "morpheme_breakdown": "inesora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "inesora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakaoma",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -oma",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) oma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "risina",
+      "morpheme_breakdown": "risina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "risina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "utano",
+      "morpheme_breakdown": "utano (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "utano",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinobva",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nobva",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nobva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvaita",
+      "morpheme_breakdown": "zvaita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvaita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tifungidzire",
+      "morpheme_breakdown": "tifungidzire (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tifungidzire",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pava",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -va",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at va",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakareba",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kareba",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kareba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasina",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -sina",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at sina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumbonaiwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -mbonaiwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at mbonaiwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemvura",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mvura",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mvura",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakaoma')",
+      "content": "The verb 'rakaoma' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inoratidza')",
+      "content": "The verb 'inoratidza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "UNESCO-Listed Mbende Jerusarema Dance ('Nziyo DzeJerusarema') & Wildlife",
+      "content": "Look at the mention of 'nziyo dzeJerusarema'! The Mbende Jerusarema dance—originating among the Zezuru people of Murehwa and Uzumba-Maramba-Pungwe—was proclaimed a UNESCO Masterpiece of the Oral and Intangible Heritage of Humanity for its polyrhythmic drumming and vibrant traditional attire ('nhumbi dzechinyakare').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a farmer says 'Gore rino takawana goho guru pamunda pedu', what happened?",
+      "options": [
+        "They are waiting for the rain to start next month",
+        "The river flooded and washed away the bridge",
+        "A strong wind blew from the east all afternoon",
+        "They obtained a big harvest from their field this year"
+      ],
+      "correct_answer": "They obtained a big harvest from their field this year",
+      "explanation": "'Takawana' = 'we obtained/got', 'goho guru' = 'a big harvest', 'pamunda pedu' = 'from our field'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mhepo iri kuvhuvhuta uye mvura ichanaya manheru.'",
+      "options": [
+        "The wind is blowing and it will rain in the evening.",
+        "The river is full of water after yesterday's heavy rain.",
+        "Tall green trees grow along the sides of the mountain.",
+        "The dog barked outside when it saw the visitors."
+      ],
+      "correct_answer": "The wind is blowing and it will rain in the evening.",
+      "explanation": "'Mhepo iri kuvhuvhuta' = 'The wind is blowing', 'uye' = 'and', 'mvura ichanaya manheru' = 'it will rain in the evening'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

@@ -721,13 +721,116 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         const available = poolLessons.filter(
           (item: any) =>
             !existingIds.has(item.clip_id) &&
-            !existingTexts.has(String(item.shona_text || '').trim().toLowerCase())
+            !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
+            Number(item.duration_seconds || 0) <= 120.0
         );
+
+        const startLessonNum = currentRawList.length + 1;
+        const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
+        const sourcePool =
+          available.length >= 50
+            ? available
+            : poolLessons.filter((item: any) => Number(item.duration_seconds || 0) <= 120.0);
+
+        const orderedCandidates: RawLesson[] = [];
+        if (bandIdx >= 6) {
+          const buckets = [
+            sourcePool.filter((c: any) => Number(c.duration_seconds || 0) < 15),
+            sourcePool.filter((c: any) => Number(c.duration_seconds || 0) >= 15 && Number(c.duration_seconds || 0) < 30),
+            sourcePool.filter((c: any) => Number(c.duration_seconds || 0) >= 30 && Number(c.duration_seconds || 0) < 50),
+            sourcePool.filter((c: any) => Number(c.duration_seconds || 0) >= 50 && Number(c.duration_seconds || 0) < 80),
+            sourcePool.filter((c: any) => Number(c.duration_seconds || 0) >= 80 && Number(c.duration_seconds || 0) <= 120)
+          ];
+          const perBucket = Math.max(1, Math.floor(50 / buckets.length));
+          const pickedIds = new Set<string>();
+          for (const b of buckets) {
+            const shuffled = [...b].sort(() => Math.random() - 0.5);
+            for (const item of shuffled.slice(0, perBucket)) {
+              const cid = String((item as any).clip_id || '');
+              if (!pickedIds.has(cid)) {
+                orderedCandidates.push(item);
+                pickedIds.add(cid);
+              }
+            }
+          }
+          const rem = sourcePool.filter((c: any) => !pickedIds.has(String(c.clip_id || ''))).sort(() => Math.random() - 0.5);
+          orderedCandidates.push(...rem.slice(0, Math.max(0, 50 - orderedCandidates.length)));
+          orderedCandidates.sort(() => Math.random() - 0.5);
+        } else {
+          const primaryMin = bandIdx * 10;
+          const primaryMax = bandIdx * 10 + 30;
+          const sprinkleMax = bandIdx * 10;
+          const sprinkleTarget = Math.round(50 * 0.25); // 13
+          const primaryTarget = 50 - sprinkleTarget; // 37
+
+          const primaryList = sourcePool
+            .filter((c: any) => {
+              const d = Number(c.duration_seconds || 0);
+              return d >= primaryMin && d <= primaryMax;
+            })
+            .sort((a: any, b: any) => Number(a.duration_seconds || 0) - Number(b.duration_seconds || 0));
+
+          const chosenPrimary = primaryList.slice(0, primaryTarget);
+          const pickedIds = new Set<string>(chosenPrimary.map((c: any) => String(c.clip_id || '')));
+
+          if (chosenPrimary.length < primaryTarget) {
+            const midTarget = (primaryMin + primaryMax) / 2;
+            const fallbackLonger = sourcePool
+              .filter((c: any) => !pickedIds.has(String(c.clip_id || '')) && Number(c.duration_seconds || 0) >= sprinkleMax)
+              .sort(
+                (a: any, b: any) =>
+                  Math.abs(Number(a.duration_seconds || 0) - midTarget) -
+                  Math.abs(Number(b.duration_seconds || 0) - midTarget)
+              );
+            for (const fc of fallbackLonger) {
+              if (chosenPrimary.length >= primaryTarget) break;
+              chosenPrimary.push(fc);
+              pickedIds.add(String((fc as any).clip_id || ''));
+            }
+          }
+
+          const sprinkleList = sourcePool
+            .filter((c: any) => !pickedIds.has(String(c.clip_id || '')) && Number(c.duration_seconds || 0) < sprinkleMax)
+            .sort((a: any, b: any) => Number(a.difficulty_score || 0) - Number(b.difficulty_score || 0));
+
+          const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
+          for (const sc of chosenSprinkle) pickedIds.add(String((sc as any).clip_id || ''));
+
+          while (chosenPrimary.length + chosenSprinkle.length < 50) {
+            const rem = sourcePool.find((c: any) => !pickedIds.has(String(c.clip_id || '')));
+            if (!rem) break;
+            chosenPrimary.push(rem);
+            pickedIds.add(String((rem as any).clip_id || ''));
+          }
+
+          const totalCount = chosenPrimary.length + chosenSprinkle.length;
+          const allPositions = Array.from({ length: totalCount }, (_, idx) => idx);
+          for (let i = allPositions.length - 1; i > 0; i--) {
+            const j = (startLessonNum * 31 + i * 17) % (i + 1);
+            [allPositions[i], allPositions[j]] = [allPositions[j], allPositions[i]];
+          }
+          const sprinklePos = new Set(allPositions.slice(0, chosenSprinkle.length));
+          let pIdx = 0;
+          let sIdx = 0;
+          for (let pos = 0; pos < totalCount; pos++) {
+            if (sprinklePos.has(pos) && sIdx < chosenSprinkle.length) {
+              orderedCandidates.push(chosenSprinkle[sIdx++]);
+            } else if (pIdx < chosenPrimary.length) {
+              orderedCandidates.push(chosenPrimary[pIdx++]);
+            } else if (sIdx < chosenSprinkle.length) {
+              orderedCandidates.push(chosenSprinkle[sIdx++]);
+            }
+          }
+        }
 
         const selectedBatch: RawLesson[] = [];
         for (let i = 0; i < 50; i++) {
-          if (i < available.length) {
-            selectedBatch.push(JSON.parse(JSON.stringify(available[i])));
+          if (i < orderedCandidates.length) {
+            const copy = JSON.parse(JSON.stringify(orderedCandidates[i]));
+            if (existingIds.has(copy.clip_id)) {
+              copy.clip_id = `${copy.clip_id}_exp_${currentRawList.length + i + 1}`;
+            }
+            selectedBatch.push(copy);
           } else if (poolLessons.length > 0) {
             const base = JSON.parse(JSON.stringify(poolLessons[i % poolLessons.length]));
             base.clip_id = `${base.clip_id}_exp_${currentRawList.length + i + 1}`;

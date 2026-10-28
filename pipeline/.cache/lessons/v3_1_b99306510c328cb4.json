@@ -1,0 +1,414 @@
+{
+  "english_translation": "Tall savanna grass grows in the woodland—used for thatching roofs and grazing livestock—and its dry golden stalks show that it is the dry season when rain is scarce.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Pane huswa hunotaridza kuti hwakareba. Hunowanikwa mumasango huchigona kushandiswa kupfurira dzimba kana kuti kudyiwa nezvipfuyo.",
+      "english": "Tall grass found in the bush can be used for thatching houses or as pasture for livestock.",
+      "literal_gloss": "Pane [on / at ne] • huswa [huswa] • hunotaridza [hunotaridza] • kuti [that / so that] • hwakareba [hwakareba] • Hunowanikwa [hunowanikwa] • mumasango [in / singular masango] • huchigona [huchigona]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "huswa",
+          "morpheme_breakdown": "huswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "huswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hunotaridza",
+          "morpheme_breakdown": "hunotaridza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hunotaridza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwakareba",
+          "morpheme_breakdown": "hwakareba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwakareba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Hunowanikwa",
+          "morpheme_breakdown": "hunowanikwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hunowanikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumasango",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -masango",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular masango",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "huchigona",
+          "morpheme_breakdown": "huchigona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "huchigona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kushandiswa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -shandiswa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at shandiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kupfurira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -pfurira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at pfurira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzimba",
+          "morpheme_breakdown": "dzimba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzimba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudyiwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dyiwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dyiwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezvipfuyo",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zvipfuyo",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zvipfuyo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Huswa uhu hunotaridza kuti hwakaoma kureva kuti inguva yekushomeka kwemvura kana kuti kusanaya kwemvura.",
+      "english": "This grass is dry, showing that it is the dry season when rainfall is scarce.",
+      "literal_gloss": "Huswa [huswa] • uhu [uhu] • hunotaridza [hunotaridza] • kuti [that / so that] • hwakaoma [hwakaoma] • kureva [to / at reva] • kuti [that / so that] • inguva [inguva]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Huswa",
+          "morpheme_breakdown": "huswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "huswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uhu",
+          "morpheme_breakdown": "uhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hunotaridza",
+          "morpheme_breakdown": "hunotaridza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hunotaridza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwakaoma",
+          "morpheme_breakdown": "hwakaoma (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwakaoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kureva",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -reva",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at reva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inguva",
+          "morpheme_breakdown": "inguva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekushomeka",
+          "morpheme_breakdown": "yekushomeka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekushomeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwemvura",
+          "morpheme_breakdown": "kwemvura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwemvura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kusanaya",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -sanaya",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at sanaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwemvura",
+          "morpheme_breakdown": "kwemvura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwemvura",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "huswa",
+      "morpheme_breakdown": "huswa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "huswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hunotaridza",
+      "morpheme_breakdown": "hunotaridza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hunotaridza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwakareba",
+      "morpheme_breakdown": "hwakareba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwakareba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Hunowanikwa",
+      "morpheme_breakdown": "hunowanikwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hunowanikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumasango",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -masango",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular masango",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "huchigona",
+      "morpheme_breakdown": "huchigona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "huchigona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kushandiswa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -shandiswa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at shandiswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kupfurira",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -pfurira",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at pfurira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzimba",
+      "morpheme_breakdown": "dzimba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzimba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudyiwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dyiwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dyiwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezvipfuyo",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zvipfuyo",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zvipfuyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Huswa",
+      "morpheme_breakdown": "huswa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "huswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uhu",
+      "morpheme_breakdown": "uhu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hunotaridza",
+      "morpheme_breakdown": "hunotaridza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hunotaridza",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nezvipfuyo'",
+      "content": "Look closely at 'nezvipfuyo'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'zvipfuyo' forms 'nezvipfuyo'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Thatching Grass ('Huswa Hwekupfurira Dzimba') & Dry-Season Grazing",
+      "content": "Tall savanna grass ('huswa hwakareba') serves two vital rural functions: it provides dry-season grazing for cattle ('zvipfuyo') and, when harvested in winter, provides durable bundles for thatching round kitchen roofs ('kupfurira dzimba').",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "english_translation": "In / singular shandi he/she (past) pfeka shirt / garment dzekaki and / with chiringazuva in / singular ruoko he/she (past) bereka bheke rake he/she (past) tarisana and / with muchina you/he (past) gadzirwa and / with masimbi une colours plural chena and / with zvitema.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mushandi akapfeka hembe dzekaki nechiringazuva muruoko akabereka bheke rake. Akatarisana nemuchina wakagadzirwa nemasimbi une mavara machena nezvitema.",
+      "english": "In / singular shandi he/she (past) pfeka shirt / garment dzekaki and / with chiringazuva in / singular ruoko he/she (past) bereka bheke rake he/she (past) tarisana and / with muchina you/he (past) gadzirwa and / with masimbi une colours plural chena and / with zvitema.",
+      "literal_gloss": "Mushandi [in / singular shandi] • akapfeka [he/she (past) pfeka] • hembe [shirt / garment] • dzekaki [dzekaki] • nechiringazuva [and / with chiringazuva] • muruoko [in / singular ruoko] • akabereka [he/she (past) bereka] • bheke [bheke] • rake [rake] • Akatarisana [he/she (past) tarisana] • nemuchina [and / with muchina] • wakagadzirwa [you/he (past) gadzirwa] • nemasimbi [and / with masimbi] • une [une] • mavara [colours] • machena [plural chena] • nezvitema [and / with zvitema]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mushandi",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shandi",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular shandi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hembe",
+          "morpheme_breakdown": "hembe (shirt / clothes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shirt / garment",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzekaki",
+          "morpheme_breakdown": "dzekaki (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzekaki",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechiringazuva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chiringazuva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chiringazuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muruoko",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ruoko",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ruoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akabereka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -bereka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) bereka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bheke",
+          "morpheme_breakdown": "bheke (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bheke",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rake",
+          "morpheme_breakdown": "rake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Akatarisana",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tarisana",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) tarisana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemuchina",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -muchina",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with muchina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wakagadzirwa",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -gadzirwa",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) gadzirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemasimbi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -masimbi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with masimbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "machena",
+          "morpheme_breakdown": "ma- (plural prefix) + -chena",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nezvitema",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -zvitema",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with zvitema",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mushandi",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -shandi",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular shandi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akapfeka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) pfeka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hembe",
+      "morpheme_breakdown": "hembe (shirt / clothes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shirt / garment",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzekaki",
+      "morpheme_breakdown": "dzekaki (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzekaki",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechiringazuva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chiringazuva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chiringazuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muruoko",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ruoko",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular ruoko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akabereka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -bereka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) bereka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bheke",
+      "morpheme_breakdown": "bheke (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bheke",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rake",
+      "morpheme_breakdown": "rake (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rake",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Akatarisana",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tarisana",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) tarisana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemuchina",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -muchina",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with muchina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wakagadzirwa",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -gadzirwa",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) gadzirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemasimbi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -masimbi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with masimbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mavara",
+      "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "colours",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "machena",
+      "morpheme_breakdown": "ma- (plural prefix) + -chena",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural chena",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nezvitema",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -zvitema",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with zvitema",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akapfeka')",
+      "content": "The verb 'akapfeka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mavara')",
+      "content": "This passage uses colour vocabulary such as 'mavara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('rake')",
+      "content": "In Shona, possessive words like 'rake' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Mushandi akapfeka hembe dzekaki nechiringazuva muruoko akabereka bheke rake. Akatarisana nemuchina wakagadzirwa nemasimbi une mavara machena nezvitema.' — \"In / singular shandi he/she (past) pfeka shirt / garment dzekaki and / with chiringazuva in / singular ruoko he/she (past) bereka bheke rake he/she (past) tarisana and / with muchina you/he (past) gadzirwa and / with masimbi une colours plural chena and / with zvitema.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

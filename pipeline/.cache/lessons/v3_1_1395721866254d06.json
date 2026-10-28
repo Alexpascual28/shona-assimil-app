@@ -1,0 +1,386 @@
+{
+  "english_translation": "A shop is selling various supplies for use in schools and offices. Pens are on sale inside: some are black and silver, while others are red and silver.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chitoro chiri kutengesa zvakasiyana-siyana zvekushandisa muzvikoro nemuma hofisi.",
+      "english": "A shop is selling various items for use in schools and offices.",
+      "literal_gloss": "Chitoro [thing toro] • chiri [thing ri] • kutengesa [to / at tengesa] • zvakasiyana-siyana [zvakasiyana-siyana] • zvekushandisa [zvekushandisa] • muzvikoro [in / singular zvikoro] • nemuma [and / with muma] • hofisi [hofisi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chitoro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing toro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chiri",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutengesa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tengesa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tengesa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakasiyana-siyana",
+          "morpheme_breakdown": "zvakasiyana-siyana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakasiyana-siyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekushandisa",
+          "morpheme_breakdown": "zvekushandisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekushandisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muzvikoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvikoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular zvikoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemuma",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -muma",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with muma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hofisi",
+          "morpheme_breakdown": "hofisi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hofisi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Murikutengeswa zvinyoreso. Zvinyoreso zvirimo zvineruvara rutema neruvara rwe sirivheri, koitawo zvimwe zvine ruvara rutsvuku neruvara rwe sirivheri .",
+      "english": "Pens are being sold inside: some are black and silver, while others are red and silver.",
+      "literal_gloss": "Murikutengeswa [in / singular rikutengeswa] • zvinyoreso [things nyoreso] • Zvinyoreso [things nyoreso] • zvirimo [things rimo] • zvineruvara [things neruvara] • rutema [black] • neruvara [and / with ruvara] • rwe [rwe]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Murikutengeswa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -rikutengeswa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular rikutengeswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinyoreso",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nyoreso",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nyoreso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Zvinyoreso",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nyoreso",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nyoreso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvirimo",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -rimo",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things rimo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvineruvara",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -neruvara",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things neruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema",
+          "morpheme_breakdown": "ru- + -tema (black)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwe",
+          "morpheme_breakdown": "rwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sirivheri",
+          "morpheme_breakdown": "sirivheri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sirivheri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "koitawo",
+          "morpheme_breakdown": "koitawo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "koitawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvimwe",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -mwe",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvine",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ne",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutsvuku",
+          "morpheme_breakdown": "ru- + -tsvuku (red)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "red",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwe",
+          "morpheme_breakdown": "rwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sirivheri",
+          "morpheme_breakdown": "sirivheri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sirivheri",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chitoro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -toro",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing toro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chiri",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ri",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutengesa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tengesa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tengesa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakasiyana-siyana",
+      "morpheme_breakdown": "zvakasiyana-siyana (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakasiyana-siyana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekushandisa",
+      "morpheme_breakdown": "zvekushandisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekushandisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muzvikoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -zvikoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular zvikoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemuma",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -muma",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with muma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hofisi",
+      "morpheme_breakdown": "hofisi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hofisi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Murikutengeswa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -rikutengeswa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular rikutengeswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinyoreso",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nyoreso",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nyoreso",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Zvinyoreso",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nyoreso",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nyoreso",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvirimo",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -rimo",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things rimo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvineruvara",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -neruvara",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things neruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema",
+      "morpheme_breakdown": "ru- + -tema (black)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neruvara",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with ruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwe",
+      "morpheme_breakdown": "rwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sirivheri",
+      "morpheme_breakdown": "sirivheri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sirivheri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "koitawo",
+      "morpheme_breakdown": "koitawo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "koitawo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakasiyana')",
+      "content": "The verb 'zvakasiyana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('zvineruvara')",
+      "content": "This passage uses colour vocabulary such as 'zvineruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Back-to-School Stationery Shops & 'Zvinyoreso' (Pens)",
+      "content": "Notice the indigenous noun 'chinyoreso' (plural 'zvinyoreso', literally 'instrument for writing', built from 'kunyora' + instrumental suffix '-iso'). Before each of Zimbabwe's three school terms (January, May, and September), bookshops and stationery stores bustle with families buying pens and exercise books.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

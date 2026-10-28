@@ -1,0 +1,329 @@
+{
+  "english_translation": "Plural ndo yeshangu.shangu dzacho dzine colour rutema.dzinewo plural shoko he/she (past) nyorwa on / at musoro.mashoko acho he/she (past) nyorwa and / with ruvara ruchena.shangu yacho you nyatsopinza gumbo sezvaunoita in / singular jombo.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mando yeshangu.Shangu dzacho dzine ruvara rutema.Dzinewo mashoko akanyorwa pamusoro.Mashoko acho akanyorwa neruvara ruchena.Shangu yacho unonyatsopinza gumbo sezvaunoita mujombo.",
+      "english": "Plural ndo yeshangu.shangu dzacho dzine colour rutema.dzinewo plural shoko he/she (past) nyorwa on / at musoro.mashoko acho he/she (past) nyorwa and / with ruvara ruchena.shangu yacho you nyatsopinza gumbo sezvaunoita in / singular jombo.",
+      "literal_gloss": "Mando [plural ndo] • yeshangu.Shangu [yeshangu.shangu] • dzacho [dzacho] • dzine [dzine] • ruvara [colour] • rutema.Dzinewo [rutema.dzinewo] • mashoko [plural shoko] • akanyorwa [he/she (past) nyorwa] • pamusoro.Mashoko [on / at musoro.mashoko] • acho [acho] • akanyorwa [he/she (past) nyorwa] • neruvara [and / with ruvara] • ruchena.Shangu [ruchena.shangu] • yacho [yacho] • unonyatsopinza [you nyatsopinza] • gumbo [gumbo] • sezvaunoita [sezvaunoita] • mujombo [in / singular jombo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mando",
+          "morpheme_breakdown": "ma- (plural prefix) + -ndo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural ndo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yeshangu.Shangu",
+          "morpheme_breakdown": "yeshangu.shangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yeshangu.shangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzacho",
+          "morpheme_breakdown": "dzacho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzacho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzine",
+          "morpheme_breakdown": "dzine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutema.Dzinewo",
+          "morpheme_breakdown": "rutema.dzinewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rutema.dzinewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashoko",
+          "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural shoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akanyorwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) nyorwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro.Mashoko",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro.mashoko",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro.mashoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "acho",
+          "morpheme_breakdown": "acho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "acho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akanyorwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) nyorwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena.Shangu",
+          "morpheme_breakdown": "ruchena.shangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ruchena.shangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yacho",
+          "morpheme_breakdown": "yacho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yacho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unonyatsopinza",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -nyatsopinza",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you nyatsopinza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "gumbo",
+          "morpheme_breakdown": "gumbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "gumbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sezvaunoita",
+          "morpheme_breakdown": "sezvaunoita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "sezvaunoita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mujombo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -jombo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular jombo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mando",
+      "morpheme_breakdown": "ma- (plural prefix) + -ndo",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural ndo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yeshangu.Shangu",
+      "morpheme_breakdown": "yeshangu.shangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yeshangu.shangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzacho",
+      "morpheme_breakdown": "dzacho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzacho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzine",
+      "morpheme_breakdown": "dzine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutema.Dzinewo",
+      "morpheme_breakdown": "rutema.dzinewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rutema.dzinewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashoko",
+      "morpheme_breakdown": "ma- (plural prefix) + -shoko",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural shoko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akanyorwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) nyorwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro.Mashoko",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro.mashoko",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro.mashoko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "acho",
+      "morpheme_breakdown": "acho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "acho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akanyorwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyorwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) nyorwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neruvara",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with ruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruchena.Shangu",
+      "morpheme_breakdown": "ruchena.shangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ruchena.shangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yacho",
+      "morpheme_breakdown": "yacho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yacho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unonyatsopinza",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -nyatsopinza",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you nyatsopinza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "gumbo",
+      "morpheme_breakdown": "gumbo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "gumbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sezvaunoita",
+      "morpheme_breakdown": "sezvaunoita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "sezvaunoita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mujombo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -jombo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular jombo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akanyorwa')",
+      "content": "The verb 'akanyorwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unonyatsopinza')",
+      "content": "The verb 'unonyatsopinza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Mando yeshangu.Shangu dzacho dzine ruvara rutema.Dzinewo mashoko akanyorwa pamusoro.Mashoko acho akanyorwa neruvara ruchena.Shangu yacho unonyatsopinza gumbo sezvaunoita mujombo.' — \"Plural ndo yeshangu.shangu dzacho dzine colour rutema.dzinewo plural shoko he/she (past) nyorwa on / at musoro.mashoko acho he/she (past) nyorwa and / with ruvara ruchena.shangu yacho you nyatsopinza gumbo sezvaunoita in / singular jombo.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

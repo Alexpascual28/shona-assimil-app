@@ -407,7 +407,7 @@ class DatasetIngestor:
         self.noise_markers: list[str] = filt.get("noise_markers", [])
 
     def _ingest_via_rows_api(
-        self, dataset_id: str, max_samples: int = 40
+        self, dataset_id: str, max_samples: int = 120
     ) -> list[NormalizedClip]:
         """Fetches rows and signed audio URLs from datasets-server for multi-gigabyte corpora like takuM23/shona-vibevoice-corpus."""
         logger.info(
@@ -416,23 +416,31 @@ class DatasetIngestor:
             max_samples,
         )
         rows: list[dict[str, Any]] = []
-        limit = min(max_samples, 50)
-        url = (
-            f"https://datasets-server.huggingface.co/rows"
-            f"?dataset={dataset_id}&config=default&split=train&offset=0&length={limit}"
-        )
-        resp = requests.get(url, timeout=45)
-        resp.raise_for_status()
-        payload = resp.json()
-        for item in payload.get("rows", []):
-            row_idx = item.get("row_idx", -1)
-            if dataset_id == "takuM23/shona-vibevoice-corpus" and row_idx not in VIBEVOICE_CURATED_ROW_INDICES:
-                continue
-            r_data = dict(item.get("row", {}))
-            dur = float(r_data.get("audio_duration") or 0.0)
-            if dur > 0 and (dur < self.min_duration or dur > self.max_duration):
-                continue
-            rows.append(r_data)
+        offset = 0
+        page_size = min(100, max(50, max_samples))
+        while len(rows) < max_samples and offset < 1000:
+            url = (
+                f"https://datasets-server.huggingface.co/rows"
+                f"?dataset={dataset_id}&config=default&split=train&offset={offset}&length={page_size}"
+            )
+            resp = requests.get(url, timeout=45)
+            resp.raise_for_status()
+            payload = resp.json()
+            batch_items = payload.get("rows", [])
+            if not batch_items:
+                break
+            for item in batch_items:
+                r_data = dict(item.get("row", {}))
+                dur = float(r_data.get("audio_duration") or 0.0)
+                if dur > 0 and (dur < self.min_duration or dur > self.max_duration):
+                    continue
+                txt = str(r_data.get("text") or r_data.get("transcription") or "").strip()
+                if "\ufffd" in txt or '"' in txt:
+                    continue
+                rows.append(r_data)
+                if len(rows) >= max_samples:
+                    break
+            offset += page_size
 
         if not rows:
             return []

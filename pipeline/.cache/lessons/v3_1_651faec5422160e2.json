@@ -1,0 +1,351 @@
+{
+  "english_translation": "A person's hand holds a small pair of scissors with green handles and silver metal blades, while wearing a bracelet on the wrist.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chanza chemunhu mutema, chakabata chigero chikudu chineruvara rwegirinhi.",
+      "english": "A person's hand is holding a small pair of green-handled scissors.",
+      "literal_gloss": "Chanza [chanza] • chemunhu [chemunhu] • mutema [in / singular tema] • chakabata [chakabata] • chigero [thing gero] • chikudu [thing kudu] • chineruvara [thing neruvara] • rwegirinhi [rwegirinhi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chanza",
+          "morpheme_breakdown": "chanza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chanza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chemunhu",
+          "morpheme_breakdown": "chemunhu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chemunhu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutema",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakabata",
+          "morpheme_breakdown": "chakabata (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakabata",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chigero",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -gero",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing gero",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chikudu",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -kudu",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing kudu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chineruvara",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -neruvara",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing neruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirinhi",
+          "morpheme_breakdown": "rwegirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirinhi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Uyezve panogera pachona paneruvara rwesirivha chakagadzirwa nesimbi. Uyezve akapfeka nhete muruoko rwake.",
+      "english": "The cutting blades are silver metal, and the person is also wearing a bracelet on the wrist.",
+      "literal_gloss": "Uyezve [uyezve] • panogera [on / at nogera] • pachona [on / at chona] • paneruvara [on / at neruvara] • rwesirivha [rwesirivha] • chakagadzirwa [chakagadzirwa] • nesimbi [and / with simbi] • Uyezve [uyezve]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Uyezve",
+          "morpheme_breakdown": "uyezve (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyezve",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panogera",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nogera",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nogera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pachona",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -chona",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at chona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "paneruvara",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -neruvara",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at neruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwesirivha",
+          "morpheme_breakdown": "rwesirivha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwesirivha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakagadzirwa",
+          "morpheme_breakdown": "chakagadzirwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakagadzirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nesimbi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with simbi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Uyezve",
+          "morpheme_breakdown": "uyezve (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uyezve",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhete",
+          "morpheme_breakdown": "nhete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muruoko",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -ruoko",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular ruoko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwake",
+          "morpheme_breakdown": "rwake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwake",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chanza",
+      "morpheme_breakdown": "chanza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chanza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chemunhu",
+      "morpheme_breakdown": "chemunhu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chemunhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutema",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakabata",
+      "morpheme_breakdown": "chakabata (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakabata",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chigero",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -gero",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing gero",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chikudu",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -kudu",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing kudu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chineruvara",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -neruvara",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing neruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirinhi",
+      "morpheme_breakdown": "rwegirinhi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirinhi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Uyezve",
+      "morpheme_breakdown": "uyezve (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyezve",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panogera",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -nogera",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at nogera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pachona",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -chona",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at chona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "paneruvara",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -neruvara",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at neruvara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwesirivha",
+      "morpheme_breakdown": "rwesirivha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwesirivha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakagadzirwa",
+      "morpheme_breakdown": "chakagadzirwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakagadzirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nesimbi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -simbi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with simbi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Uyezve",
+      "morpheme_breakdown": "uyezve (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uyezve",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akapfeka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) pfeka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhete",
+      "morpheme_breakdown": "nhete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nhete",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('chakabata')",
+      "content": "The verb 'chakabata' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mutema')",
+      "content": "This passage uses colour vocabulary such as 'mutema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('rwake')",
+      "content": "In Shona, possessive words like 'rwake' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Tailoring, Craftwork ('Chigero') & Traditional Wrist Bangles ('Nhete')",
+      "content": "Look at the word 'chigero' ('scissors', from 'kugera' = to cut/shear) alongside 'nhete' (slender metal or beaded wrist bangles). Dressmaking, hairdressing, and artisanal crafts are thriving small enterprises across Zimbabwean towns.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 12 Comprehensive Review (Lessons 78–84)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 78–84)",
+        "points": [
+          "Lesson 78: \"Mugwagwa wakapamhamha une tara unoratidza kuti une motokari dzirikupesana. Mujinga memugwagw...\" — A wide tarred road shows cars passing each other in opposite directions. Along the edge of t...",
+          "Lesson 79: \"Shangu mbiri dzine ruvara rutema dzakavharika kumberi dzine mabhandi kumashure dzine mukati ...\" — A pair of closed-toe black shoes with back straps and light-coloured linings rests on a whit...",
+          "Lesson 80: \"Mombe dziri kufura musango. Dzinofura huswa hwakasvibira.  Mombe idzi dzinosanganisira nhema...\" — Mombe dziri to / at fura in / singular sango dzinofura huswa hwakasvibira mombe idzi dzinosa...",
+          "Lesson 81: \"Pane mumwe mugwagwa unofambira vanhu. Pane vanhu vazhinji vakawaridza misika. Vanhu ava vaka...\" — Along a pedestrian street, many vendors have laid out their market stalls, sitting on chairs...",
+          "Lesson 82: \"Mando yeshangu.Shangu dzacho dzine ruvara rutema.Dzinewo mashoko akanyorwa pamusoro.Mashoko ...\" — Plural ndo yeshangu.shangu dzacho dzine colour rutema.dzinewo plural shoko he/she (past) nyo...",
+          "Lesson 83: \"Nzvimbo inoratidzika kuti mudhorobha. Pane zvivakwa zvokudurikidzwa zviri kubudikira necheku...\" — The place looks like a city centre. Multi-storey buildings rise further ahead in the distanc...",
+          "Lesson 84: \"Zvivakwa zvakawanda zvepachikoro zvokudzidzira. Chimwe chine chidziro chichena uye chine den...\" — Several classroom buildings stand on a school campus; one has white walls and a red metal ro..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('wakapamhamha'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakavharika'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Colours & Describing Objects in Shona ('nhema'): Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)",
+          "Talking About the Past ('vakawaridza'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akanyorwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Zimbabwe's Trunk Highways & Seasonal Savannah Grass ('Sora Rakaoma'): Major tarred highways ('migwagwa ine tara') link Harare with Bulawayo, Mutare, Masvingo, and Chirundu across the high savannah plateau.",
+          "Crocheted Doilies ('Madhoiri') in Zimbabwean Home Decor: Notice the word 'dhoiri' (doily) in this passage! Hand-crocheted white cotton doilies ('madhoiri') are an iconic hallmark of Zimbabwean interior decoration, crafted by women and placed on tables, sofa backs, and display shelves..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Mombe dziri kufura musango.",
+          "Pedestrian Malls & Street Market Stalls ('Misika') Under Umbrellas: Along pedestrianised avenues like First Street in Harare, vibrant informal market stalls ('misika') shaded by large umbrellas ('masumburera') offer pedestrians everything from fresh fruit to mobile airtime.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('wakapamhamha')",
+    "Talking About the Past ('dzakavharika')",
+    "Colours & Describing Objects in Shona ('nhema')",
+    "Talking About the Past ('vakawaridza')",
+    "Talking About the Past ('akanyorwa')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Origin of 'Zimbabwe': What Shona phrase gives the country 'Zimbabwe' its name?",
+      "options": [
+        "Dzimba dzaMabwe / Zvivakwa zvematombo ('Houses / Structures of Stone')",
+        "Rwizi rweZambezi ('River of Zambezi')",
+        "Minda yeChibage ('Fields of Maize')",
+        "Makomo eMatobo ('Hills of Matobo')"
+      ],
+      "correct_answer": "Dzimba dzaMabwe / Zvivakwa zvematombo ('Houses / Structures of Stone')",
+      "explanation": "The name Zimbabwe derives from 'Dzimba dzaMabwe' ('houses of stone'), referring to Great Zimbabwe."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Traditional Healing: What natural plant parts are mentioned in 'midzi nemakwati emiti'?",
+      "options": [
+        "Flowers and ripe fruits",
+        "Roots ('midzi') and tree bark ('makwati emiti')",
+        "Grass and river stones",
+        "Seeds and maize cobs"
+      ],
+      "correct_answer": "Roots ('midzi') and tree bark ('makwati emiti')",
+      "explanation": "'Midzi' means 'roots' and 'makwati emiti' means 'bark of trees'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Healthcare Vocabulary: In 'Ndiri kunwa mushonga sezvandakaudzwa nachiremba', who is 'chiremba'?",
+      "options": [
+        "The bus driver",
+        "The schoolteacher",
+        "The doctor / physician",
+        "The shopkeeper"
+      ],
+      "correct_answer": "The doctor / physician",
+      "explanation": "'Chiremba' is the respected Shona noun for a medical doctor or healer."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Weather & Travel: What weather condition does 'mhute' describe in 'Nhasi kwaita mhute'?",
+      "options": [
+        "Bright sunshine",
+        "Heavy hailstones",
+        "Strong whirlwind",
+        "Fog / mist"
+      ],
+      "correct_answer": "Fog / mist",
+      "explanation": "'Mhute' means mist or fog, which reduces visibility along mountain and morning roads."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 12 — Reciprocal & Causative Verbs: What does 'ndinobvumirana newe' mean?",
+      "options": [
+        "I agree with you",
+        "I am waiting for you",
+        "I forgot to call you",
+        "I gave you the book"
+      ],
+      "correct_answer": "I agree with you",
+      "explanation": "'-bvuma' (accept/agree) + '-ir-' + '-an-' (each other) + 'newe' (with you) = 'I agree with you'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 12 — Translate this new review sentence: 'Chiremba akandiudza kuti ndinwe mushonga uyu mushure mekudya.'",
+      "options": [
+        "The teacher told us to read the history book before the exam.",
+        "The doctor told me to take this medicine after eating.",
+        "My parents were very happy when I passed my final exams.",
+        "Please put all the documents on the table into the file."
+      ],
+      "correct_answer": "The doctor told me to take this medicine after eating.",
+      "explanation": "'Chiremba akandiudza' = 'The doctor told me', 'kuti ndinwe mushonga uyu' = 'to take this medicine', 'mushure mekudya' = 'after eating'."
+    }
+  ]
+}

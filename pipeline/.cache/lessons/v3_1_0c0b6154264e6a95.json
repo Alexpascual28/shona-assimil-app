@@ -1,0 +1,273 @@
+{
+  "english_translation": "Pedestrians are crossing a busy road where cars travel, while small cars are parked along the side beside a bus terminus filled with many buses.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vanhu vanoyambuka mugwagwa unofamba nemotokari.Parutivi pane motokari duku dzakamira uye pane chiteshi chinamabhazi akawanda.",
+      "english": "People are crossing a road used by cars; on the side small cars are parked near a bus station with many buses.",
+      "literal_gloss": "Vanhu [people] • vanoyambuka [they yambuka] • mugwagwa [in / singular gwagwa] • unofamba [you famba] • nemotokari.Parutivi [and / with motokari.parutivi] • pane [on / at ne] • motokari [car / vehicle] • duku [duku]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanoyambuka",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -yambuka",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they yambuka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unofamba",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -famba",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemotokari.Parutivi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -motokari.parutivi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with motokari.parutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "motokari",
+          "morpheme_breakdown": "motokari (motorcar)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car / vehicle",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "duku",
+          "morpheme_breakdown": "duku (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "duku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakamira",
+          "morpheme_breakdown": "dzakamira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakamira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chiteshi",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -teshi",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing teshi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chinamabhazi",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -namabhazi",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing namabhazi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akawanda",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -wanda",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) wanda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanoyambuka",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -yambuka",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they yambuka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unofamba",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -famba",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemotokari.Parutivi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -motokari.parutivi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with motokari.parutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "motokari",
+      "morpheme_breakdown": "motokari (motorcar)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car / vehicle",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "duku",
+      "morpheme_breakdown": "duku (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "duku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakamira",
+      "morpheme_breakdown": "dzakamira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakamira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chiteshi",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -teshi",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing teshi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chinamabhazi",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -namabhazi",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing namabhazi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akawanda",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -wanda",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) wanda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakamira')",
+      "content": "The verb 'dzakamira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('vanoyambuka')",
+      "content": "The verb 'vanoyambuka' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('Parutivi')",
+      "content": "Look at how location is expressed with 'Parutivi'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Urban Bus Termini ('Chiteshi Chemabhazi') & Pedestrian Crossings",
+      "content": "Major urban bus stations ('zviteshi zvemabhazi') such as Charge Office, Fourth Street (Simon Vengayi Muzenda Street), and Market Square in Harare connect suburban commuters with long-distance buses travelling to every district of Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Kombi chena iri kufamba pamugwagwa mukuru.'",
+      "options": [
+        "The white minibus is travelling along the main road.",
+        "The large red truck is parked at the fuel station.",
+        "Two people are standing beside the shop in town.",
+        "Our journey to the mountains was long but enjoyable."
+      ],
+      "correct_answer": "The white minibus is travelling along the main road.",
+      "explanation": "'Kombi chena' = 'The white minibus', 'iri kufamba' = 'is travelling', 'pamugwagwa mukuru' = 'along the main road'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

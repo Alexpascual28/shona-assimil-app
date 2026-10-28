@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 19 Comprehensive Review (Lessons 127–133)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 127–133)",
+        "points": [
+          "Lesson 127: \"Ndiro imwechete yedhaga ine chikafu chinoti sadza rechibage chichena nyama yemombe yakasanga...\" — An earthenware plate holds a meal of white maize sadza and beef stewed with cabbage, accompa...",
+          "Lesson 128: \"Imba yakavakwa ichienda mudenga inemafafitera mahombe uyewo yakapendwa nependi yekirimu,pedo...\" — A multi-storey house with large windows and cream-coloured paint stands beside shade trees, ...",
+          "Lesson 129: \"Vanhu pamwechete nemotokari zvirikufamba panosangana mugwagwa unonzi Semu Mujoma naRobhati M...\" — People on / at mwechete and / with motokari they are famba on / at nosangana in / singular g...",
+          "Lesson 130: \"Uyai kuno mundibatsire kusimudza zvinhu zvinorema izvi.\" — Come here and help me lift these heavy things.",
+          "Lesson 131: \"Dhorobha rine midhuri yakareba imwe ine ruvara rwekirimu imwe rwebhuru. Motikari dzakamira i...\" — Dhorobha rine midhuri it (past) reba imwe ine colour rwekirimu imwe rwebhuru motikari dzakam...",
+          "Lesson 132: \"Rori huru ine musoro muchena nekumasure kutema. Rori iyi inoratidza kuti inonyanya kushanda ...\" — A large truck has a white cab in front and a black rear body. This truck appears to work pri...",
+          "Lesson 133: \"Makadini mose muri mumba ndinovimba makasimba.\" — How are you all in the house? I hope you are doing well."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakasangana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakavakwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('dzakasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Giving Commands & Polite Requests ('Uyai'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Talking About the Past ('yakareba'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('inoratidza'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Earthenware Plates ('Ndiro Yedhaga'), Sadza with Beef & Chilli ('Mhiripiri'): Serving white maize sadza, beef stew ('nyama yemombe'), and cabbage on a traditional clay plate ('ndiro yedhaga') with hot peri-peri chilli sauce ('mhiripiri') on the side is a beloved celebration of authentic Zimbabwean cuisine..",
+          "Double-Storey Suburban Architecture & Cycling ('Bhasikoro'): Newly developed residential suburbs around Zimbabwean cities feature double-storey homes ('imba yakavakwa ichienda mudenga') with wide sunlit windows ('mafafitera mahombe') and spacious yards where children ride bicycles ('mabhasikoro')..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Vanhu pamwechete nemotokari zvirikufamba panosangana mugwagwa unonzi Semu Mujoma naRobhati Mugabe.",
+          "Lending a Hand ('Kubatsirana') with Heavy Loads: In Zimbabwean neighbourhoods and rural homesteads alike, nobody is left to carry heavy loads ('zvinhu zvinorema') alone."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakasangana')",
+    "Talking About the Past ('yakavakwa')",
+    "Talking About the Past ('dzakasiyana')",
+    "Giving Commands & Polite Requests ('Uyai')",
+    "Talking About the Past ('yakareba')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "marori machena matatu nemotokari nhema mbiri",
+        "shangu nhema mbiri nehembe tsvuku imwe"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu.",
+        "Mundiro yemuti mune madora akakangwa."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "if we work hard helping one another",
+        "when they finished working at the market",
+        "because he worked alone in the field",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 19 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "modern traffic lights at city intersections",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 19 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "Many people are selling fruits and vegetables at the market.",
+        "We are planning to visit our grandparents next month."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

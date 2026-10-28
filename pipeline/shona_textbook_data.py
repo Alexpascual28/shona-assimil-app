@@ -479,6 +479,507 @@ VIBEVOICE_PASSAGE_TRANSLATIONS: list[dict[str, object]] = [
             ("Masvingo eGreat Zimbabwe izvi zvinova zvivakwa zvematombo zviri munzvimbo yeMasvingo. Inzvimbo inonyanyawo kushanyirwa nevanhu vachiona mararamiro aiitawo vanhu kare uyewo pane vanhu vari kuratidza kuti vakamira vauya kuzoshanya panzvimbo iyi.", "The Great Zimbabwe monument consists of stone structures in the Masvingo region; it is a popular site visited by people learning how people lived in the past."),
         ],
     },
+    {
+        "match": "mukadzi mutsvuku ane bvudzi dema ane mazino machena",
+        "full_english": "A light-complexioned woman with black hair and bright white teeth is smiling warmly.",
+        "sentences": [
+            ("Mukadzi mutsvuku ane bvudzi dema ane mazino machena arikunyemwerera.", "A light-complexioned woman with black hair and bright white teeth is smiling warmly."),
+        ],
+    },
+    {
+        "match": "bundo rakawanda rakasvibira riine marudzi akasiyana",
+        "full_english": "Dense green bushland grows with various plant species and thorny thistles that have not yet dried out.",
+        "sentences": [
+            ("Bundo rakawanda rakasvibira riine marudzi akasiyana nezvidhongi zvinobaya zvisati zvaoma.", "Dense green bushland grows with various plant species and thorny thistles that have not yet dried out."),
+        ],
+    },
+    {
+        "match": "vanhu vari kufamba vachienda pachikoro pevanhu vakuru",
+        "full_english": "People are walking on their way to an adult education college.",
+        "sentences": [
+            ("Vanhu vari kufamba vachienda pachikoro pevanhu vakuru.", "People are walking on their way to an adult education college."),
+        ],
+    },
+    {
+        "match": "pedyo nemumugwagwa pane imba yakavakwa zvakanaka",
+        "full_english": "Near the road stands a well-built house with a leaf-green shelter in the middle, and on its roof a solar geyser and a satellite dish can be seen.",
+        "sentences": [
+            ("Pedyo nemumugwagwa pane imba yakavakwa zvakanaka.", "Near the road stands a well-built house."),
+            ("Imba iyi ine tende rine ruvara rwamashisha pakati. Pamusoro pemba iyi pari kubudikira giza nesetiraiti dish.", "This house has a leaf-green canopy in the middle, and on top of the roof a water heater (geyser) and satellite dish are visible."),
+        ],
+    },
+    {
+        "match": "michero yakasiyana-siyana irikutengeswa pamusika",
+        "full_english": "Assorted fruits are being sold at the market; packed in boxes, they include bananas, oranges, and apples.",
+        "sentences": [
+            ("Michero yakasiyana-siyana irikutengeswa pamusika.", "A variety of fruits are being sold at the market."),
+            ("Yakaiswa mumabhokisi, inobatanidza mabhanana, maorenji uyewo maapuro.", "Arranged in boxes, they include bananas, oranges, and apples."),
+        ],
+    },
+    {
+        "match": "chitoro chiri kutengesa zvakasiyana-siyana zvekushandisa muzvikoro",
+        "full_english": "A shop is selling various supplies for use in schools and offices. Pens are on sale inside: some are black and silver, while others are red and silver.",
+        "sentences": [
+            ("Chitoro chiri kutengesa zvakasiyana-siyana zvekushandisa muzvikoro nemuma hofisi.", "A shop is selling various items for use in schools and offices."),
+            ("Murikutengeswa zvinyoreso. Zvinyoreso zvirimo zvineruvara rutema neruvara rwe sirivheri, koitawo zvimwe zvine ruvara rutsvuku neruvara rwe sirivheri .", "Pens are being sold inside: some are black and silver, while others are red and silver."),
+        ],
+    },
+    {
+        "match": "chipuka chakamhara pashizha regirinhi rakareba",
+        "full_english": "A dark insect with many long, slender legs has perched on a long green leaf. The surrounding trees are full of green foliage in a sunlit woodland.",
+        "sentences": [
+            ("Chipuka chakamhara pashizha regirinhi rakareba. Chitema chine makumbo matete marefu akawanda.", "An insect has perched on a long green leaf; it is black with many long, thin legs."),
+            ("Miti yakazara nemashizha egirinhi. Isango, kune zuva.", "The trees are full of green leaves in a sunny forest."),
+        ],
+    },
+    {
+        "match": "muti worudzi rwomupaini wakasimwa",
+        "full_english": "A planted pine tree has drooping needles hanging downward that have dried out and are beginning to shed from the tree.",
+        "sentences": [
+            ("Muti worudzi rwomupaini wakasimwa, unamashizha arikurembera achidzaka anoratidza kuva mashizha awoma avakukwachuka kubva pamuti.", "A planted pine tree has needles hanging downward, showing dried foliage starting to shed from the tree."),
+        ],
+    },
+    {
+        "match": "shangu imwechete yechidzimai yakavhurika",
+        "full_english": "A single open-toed women's shoe with shiny silver straps on top and a black sole is placed on the floor.",
+        "sentences": [
+            ("Shangu imwechete yechidzimai yakavhurika. Ine mavara esirivha anopenya pamusoro.", "A single open women's shoe has shiny silver colours on top."),
+            ("Pasi payo patema. Yakagadzikwa pasi.", "Its sole is black, and it is placed on the ground."),
+        ],
+    },
+    {
+        "match": "dandemutande rakagara pasi",
+        "full_english": "A spider is resting on the ground; it has many legs, fine bristles, and black and brown markings.",
+        "sentences": [
+            ("Dandemutande rakagara pasi. Rine makumbo akawanda, rine makushe uye rine mavara matema neebhurauni.", "A spider is resting on the ground; it has many legs, hair-like bristles, and black and brown markings."),
+        ],
+    },
+    {
+        "match": "imba yekutandarira. ina masofa ane ruvara rwebhurauni",
+        "full_english": "A living room is furnished with brown sofas and matching cushions. In the centre stands a table with items arranged on top, and the walls are tastefully decorated.",
+        "sentences": [
+            ("Imba yekutandarira. Ina masofa ane ruvara rwebhurauni ane mapiro awo.", "It is a living room furnished with brown sofas and their cushions."),
+            ("Pakati payo pane tafura iripo yakagadzikwa zvinhu pamusoro. Madziro ayo akashongedzwa.", "In the middle stands a table with items placed on top, and its walls are decorated."),
+        ],
+    },
+    {
+        "match": "chanza chemunhu mutema, chakabata chigero chikudu",
+        "full_english": "A person's hand holds a small pair of scissors with green handles and silver metal blades, while wearing a bracelet on the wrist.",
+        "sentences": [
+            ("Chanza chemunhu mutema, chakabata chigero chikudu chineruvara rwegirinhi.", "A person's hand is holding a small pair of green-handled scissors."),
+            ("Uyezve panogera pachona paneruvara rwesirivha chakagadzirwa nesimbi. Uyezve akapfeka nhete muruoko rwake.", "The cutting blades are silver metal, and the person is also wearing a bracelet on the wrist."),
+        ],
+    },
+    {
+        "match": "mashizha eruvara rwebumhudza akawanda uye akakura",
+        "full_english": "Abundant, large leafy-green leaves grow on a citrus tree—resembling the foliage of an orange, lemon, or similar fruit-bearing tree.",
+        "sentences": [
+            ("Mashizha eruvara rwebumhudza akawanda uye akakura.", "The lush green leaves are plentiful and large."),
+            ("Mashizha aya anoratidza kunge mashizha emuti wemuranjisi kana wemuraimondi kana wemumwewo muti unogadzira michero yakadaro.", "These leaves look like those of an orange tree, a lemon tree, or another citrus fruit tree."),
+        ],
+    },
+    {
+        "match": "nzvimbo yekugarira yakavharirwa nesimbi dzine ruvara rwebhuruu",
+        "full_english": "A seating area enclosed by blue metal railings is furnished with many white stools and tables, with a blue-painted door visible at the front.",
+        "sentences": [
+            ("Nzvimbo yekugarira yakavharirwa nesimbi dzine ruvara rwebhuruu.", "A seating area is enclosed by blue metal railings."),
+            ("Nzvimbo iyi ine zvituru nematafura ane ruvara ruchena akawanda-wanda. Pari kuonekwa dhoo nechekumberi rakapendiwa neruvara rwebhuruu.", "This space has many white stools and tables, with a blue-painted door visible toward the front."),
+        ],
+    },
+    {
+        "match": "mureza mutsvuku une mufananidzo wezuva uri pakati pawo",
+        "full_english": "A red flag features an emblem of the sun at its centre, crossed by three lines—two of them intersecting in the middle.",
+        "sentences": [
+            ("Mureza mutsvuku une mufananidzo wezuva uri pakati pawo.Pakati pezuva pane mitaro mitatu, miviri yakapesana pakati.", "A red flag has an image of the sun in the middle, with three lines inside the sun, two of them crossing at the centre."),
+        ],
+    },
+    {
+        "match": "vanhu vanoyambuka mugwagwa unofamba nemotokari",
+        "full_english": "Pedestrians are crossing a busy road where cars travel, while small cars are parked along the side beside a bus terminus filled with many buses.",
+        "sentences": [
+            ("Vanhu vanoyambuka mugwagwa unofamba nemotokari.Parutivi pane motokari duku dzakamira uye pane chiteshi chinamabhazi akawanda.", "People are crossing a road used by cars; on the side small cars are parked near a bus station with many buses."),
+        ],
+    },
+    {
+        "match": "mhuka iyi inonzi zizi, mazizi aya maviri",
+        "full_english": "This bird is called an owl; these two owls have white faces and dark bodies, and they are perched beneath a wooden beam.",
+        "sentences": [
+            ("Mhuka iyi inonzi zizi, mazizi aya maviri rine kumeso kuchena uye mutumbi mutema, mazizi aya ari pasi pechitanda chemuti.", "This creature is called an owl; the two owls have white faces and dark bodies and are resting under a wooden beam."),
+        ],
+    },
+    {
+        "match": "chishongo chomuhuro chakaiswa pachiratidzo chitsvuku",
+        "full_english": "A necklace is displayed on a red stand. This ornament is a rosary, commonly worn by Christians, featuring a cross at the front.",
+        "sentences": [
+            ("Chishongo chomuhuro chakaiswa pachiratidzo chitsvuku . Chishongo chacho chinonzi rosari.Chinowanzopfekwa nevanozviti ma Kirisitu, chichiratidzira muchinjikwa neche pamberi.", "A neck ornament called a rosary is displayed on a red stand; it is worn by Christians and features a cross at the front."),
+        ],
+    },
+    {
+        "match": "chitoro chakarongedzwa chakashongedzwa mabhegi evanhukadzi",
+        "full_english": "A neatly arranged boutique displays women's handbags alongside men's and women's shoes organized in separate sections.",
+        "sentences": [
+            ("Chitoro chakarongedzwa chakashongedzwa mabhegi evanhukadzi uye shangu dzevanhurume neshangu dzevanhukadzi dziri pamakamuri akasiyana.", "A neatly arranged shop displays women's handbags as well as men's and women's shoes in separate sections."),
+        ],
+    },
+    {
+        "match": "shangu yerudzi rwetenisi yakagadzikwa pauriri hwechizvino",
+        "full_english": "A light-blue tennis sneaker with an untied white lace rests on a modern floor.",
+        "sentences": [
+            ("Shangu yerudzi rwetenisi yakagadzikwa pauriri hwechizvino, ineruvara rwebhurru yachenuruka iinetambo chena isina kusungwa.", "A light-blue tennis shoe with an untied white lace is placed on a modern floor."),
+        ],
+    },
+    {
+        "match": "nepanze peimwewo imba pane miti dzakawanda",
+        "full_english": "Outside a house grow many trees—some flowering ornamentals and others lush green shade trees—lining a footpath, while the house's corrugated metal roof is visible above.",
+        "sentences": [
+            ("Nepanze peimwewo imba pane miti dzakawanda dzinoratidza kuti dzimwe dzacho ndedzemaruva uye dzimwewo ndedze mumvuri dzakawanda dzeruvara rwebumhudza.", "Outside a house grow many trees, some flowering and others leafy green shade trees."),
+            ("Miti idzi dzirikutevedza nzira iri kufamba ichienda. Imba yacho tinoona marata arioga akangoburikira.", "These trees line a pathway, and the metal roofing sheets of the house can be seen."),
+        ],
+    },
+    {
+        "match": "chipukanana chinenge bete chakamhara pamusoro petafura",
+        "full_english": "A beetle-like insect is perched on a grey table striped with white lines; it has brown wings on its back and large black eyes on its face.",
+        "sentences": [
+            ("Chipukanana chinenge bete chakamhara pamusoro petafura ine ruvara rwegireyi ine mitsetse yeruvara ruchena.", "A beetle-like insect has landed on a grey table with white stripes."),
+            ("Chipukanana ichi chine mapapiro ekumusana ane ruvara rwebhurauni. Nechekumeso chine maziso mahombe ane ruvara matema.", "This insect has brown wings on its back and large black eyes on its face."),
+        ],
+    },
+    {
+        "match": "nzvimbo irimudhorobha guru reharare umo munezvivakwa",
+        "full_english": "In the capital city of Harare, multi-storey buildings rise above busy streets where crowds of pedestrians pass one another, with the iconic Joina City tower visible ahead.",
+        "sentences": [
+            ("Nzvimbo irimudhorobha guru reHarare umo munezvivakwa zvomudurikidzwa panewo vanhu vakawanda varikupesana. Nechokumberi kune chivakwa chihombe cheJoina siti.", "In the large city of Harare filled with multi-storey buildings, many people pass one another on the street, with the tall Joina City building standing ahead."),
+        ],
+    },
+    {
+        "match": "bhusita riri pakati pemiti",
+        "full_english": "A signal booster stands surrounded by green trees, dry brownish grass, and a footpath passing nearby.",
+        "sentences": [
+            ("Bhusita riri pakati pemiti. Miti yacho yakasvibira ine ruvara rwegirinhi.", "A communications booster stands among lush green trees."),
+            ("Pane masora aripo akatsvukuruka, akaoma uye akasvava. Pane nzira iripo iri padyo nebhusita.", "Nearby is dry, brownish grass and a footpath running close to the booster."),
+        ],
+    },
+    {
+        "match": "twiza yakamisa musoro",
+        "full_english": "A giraffe holds its head high; its coat is patterned in brown and white, with two brown-and-black ossicones on top of its head and dark eyes.",
+        "sentences": [
+            ("Twiza yakamisa musoro. Twiza iyi ine mavara mavara. Ine ruvara rwebhurauni namavara machena.", "A giraffe holds its head upright; its coat is patterned in brown and white patches."),
+            ("Nechekumusoro ine tunhu tuviri tunenge nyanga. Tunhu utu tune ruvara rwebhurauni nerutema. Maziso ayo ane ruvara rutema.", "On top of its head are two small horn-like ossicones in brown and black, and its eyes are dark."),
+        ],
+    },
+    {
+        "match": "midziyo mitsva yakaiswa panoonekera",
+        "full_english": "Brand-new tools made of steel and wood are displayed on view, including brushes, rakes, and shovels.",
+        "sentences": [
+            ("Midziyo mitsva yakaiswa panoonekera. Yakagadzirwa nesimbi nedanda. Pane midziyo inosanganisira maburasho, poitawo mareki namafoshora.", "Brand-new tools made of metal and wood are on display, including brushes, rakes, and shovels."),
+        ],
+    },
+    {
+        "match": "musikana akagadzirwa mumusoro wake zvakanaka",
+        "full_english": "A young woman has her hair beautifully braided into neat three-strand plaits sweeping from each side toward the ears, creating a stylish interlocking pattern.",
+        "sentences": [
+            ("Musikana akagadzirwa mumusoro wake zvakanaka. Akarukwa mamumutatu imwe ichibva nechapadivi ichienda kunzeve.", "A girl has her hair neatly styled, braided in three-strand plaits sweeping from the side toward the ear."),
+            ("Imwewo yobva nekunerumwe rutivi ichienda kunzeve. Yakapindana zvakanaka uye munhu kana akatarisa parikubuda chitaira chakanaka zvikuru.", "Another plait sweeps from the other side toward the ear, interlocking neatly into a very attractive hairstyle."),
+        ],
+    },
+    {
+        "match": "shangu mbiri dzine ruvara rutema dzakavharika kumberi",
+        "full_english": "A pair of closed-toe black shoes with back straps and light-coloured linings rests on a white crocheted doily.",
+        "sentences": [
+            ("Shangu mbiri dzine ruvara rutema dzakavharika kumberi dzine mabhandi kumashure dzine mukati makacheneruka dzakagara pamusoro pedhoiri reruvara ruchena.", "Two black shoes closed at the front with straps at the back and light interiors rest on top of a white doily."),
+        ],
+    },
+    {
+        "match": "pane mumwe mugwagwa unofambira vanhu",
+        "full_english": "Along a pedestrian street, many vendors have laid out their market stalls, sitting on chairs under raised umbrellas with parked cars visible behind them.",
+        "sentences": [
+            ("Pane mumwe mugwagwa unofambira vanhu. Pane vanhu vazhinji vakawaridza misika.", "Along a pedestrian walkway, many people have set up market stalls."),
+            ("Vanhu ava vakagara muzvigaro uyezve vamwe vavo vakasimudza sumburera. Nechekumashure kwevanhu ava kune motokari dzakamirako.", "These vendors are seated on chairs with umbrellas raised for shade, and parked cars can be seen behind them."),
+        ],
+    },
+    {
+        "match": "zvivakwa zvakawanda zvepachikoro zvokudzidzira",
+        "full_english": "Several classroom buildings stand on a school campus; one has white walls and a red metal roof, with trees and people walking nearby.",
+        "sentences": [
+            ("Zvivakwa zvakawanda zvepachikoro zvokudzidzira. Chimwe chine chidziro chichena uye chine denga rinemarata matsvuku. Padivi pane vanhu vanofamba uye pane miti.", "Many classroom buildings stand at a school; one has a white wall and a red roof, with trees and people walking beside it."),
+        ],
+    },
+    {
+        "match": "vatambi vemutambi webhora. vashanu vakamira",
+        "full_english": "Football players pose together: five are standing and two are crouching in front. One player in a distinct kit and gloves rests his right hand on the ground as the goalkeeper, while his teammates wear white uniforms.",
+        "sentences": [
+            ("Vatambi vemutambi webhora. Vashanu vakamira, vaviri vakatonona mberi.", "Football players are lined up: five standing and two squatting in front."),
+            ("Unenhumbi dzakasiyana nedzevamwe, unoruoko rwekurudyi rwakabata pasi. Wakapfeka magirovhosi kutaridza kuti ndiye mubati wapagedhi. Vamwe vakapfeka yunifomu chena.", "One wears a different kit and gloves showing he is the goalkeeper, while the others wear white uniforms."),
+        ],
+    },
+    {
+        "match": "munhukadzi mutsvuku akatsikitsira",
+        "full_english": "A light-complexioned woman looks downward; her blonde-dyed hair is closely trimmed on the sides with a parted line and fuller textured curls on top.",
+        "sentences": [
+            ("Munhukadzi mutsvuku akatsikitsira. Ane musoro une vhudzi jena rakagerwa nechekumativi pakaiswa mutaro. Pamusoro pane vhudzi rakakuririra rakabvanyangurwa.", "A woman is looking downward; her light-coloured hair is trimmed on the sides with a part line and fuller styled hair on top."),
+        ],
+    },
+    {
+        "match": "banga idema, rine kumuromo kwakatesvera",
+        "full_english": "A black-handled kitchen knife with a sharp pointed blade—used for cutting meat and vegetables or opening tins—rests on a tiled floor.",
+        "sentences": [
+            ("Banga idema, rine kumuromo kwakatesvera. Rinoshandiswa kuita mabasa akasiyana mumba yokubikira .", "A dark knife with a sharp point is used for various tasks in the kitchen."),
+            ("Rinocheka nyama, miriwo , kuvhuriswa magaba. Rakagadzikwa pauriri hwema taera.", "It cuts meat and vegetables and opens cans, and it is placed on a tiled floor."),
+        ],
+    },
+    {
+        "match": "pamusika parikutengeswa mbatatisi",
+        "full_english": "Potatoes are being sold at the market, where a woman wearing a light-coloured apron stands beside a man in a red shirt and a sky-blue jacket.",
+        "sentences": [
+            ("Pamusika parikutengeswa mbatatisi. Mudzimai wakamira akapfeka hapuroni yakati chenerukire nemurume wakapfeka hembe tsvuku nebhachi rine ruvara rwedenga risina makore.", "Potatoes are on sale at the market, where a woman in a light apron stands with a man wearing a red shirt and a clear sky-blue jacket."),
+        ],
+    },
+    {
+        "match": "zvinoratidza kuti iyi inhandare",
+        "full_english": "Inside a sports stadium, a man congratulates a joyful young woman with braided hair who has just been awarded a prize, while other girls in sports uniforms look on.",
+        "sentences": [
+            ("Zvinoratidza kuti iyi inhandare.Munhandare umu mune murume ari kuratidza kuti ari kukorokotedza musikana uyo apihwa mhenduro.", "Inside this stadium, a man is congratulating a young woman who has received an award."),
+            ("Musikana uyu ari kuratidza kuti ari kufara zvikuru uye musikana uyu akarukwa.Panewo vasikana vari kuratidza kuti vakapfeka nhumbi dzemutambo.", "The braided girl is overjoyed, and other girls wearing sports uniforms are standing nearby."),
+        ],
+    },
+    {
+        "match": "bindu ridiki rine muriwo une mashizha egirinhi",
+        "full_english": "A small vegetable garden grows leafy green vegetables beside a perimeter wall fence and several trees, including a jacaranda tree covered in purple blossoms.",
+        "sentences": [
+            ("Bindu ridiki rine muriwo une mashizha egirinhi.", "A small garden has leafy green vegetables."),
+            ("Parutivi pane ruzhowa rwechidziro uye miti yakawanda. Imwe ndeye mujakaranda ine maruva epepuro.", "Beside it stand a wall fence and many trees, one of which is a jacaranda tree with purple flowers."),
+        ],
+    },
+    {
+        "match": "midziyo yemumba mekutandarira aya masofa",
+        "full_english": "Living-room furniture—black sofas with patterned backrests—is displayed outdoors with a car parked nearby.",
+        "sentences": [
+            ("Midziyo yemumba mekutandarira aya masofa aneruvara rutema kwekuzembera akaiswa madhizaini pedowo nemasofa pane motokari iripo.", "These living-room sofas have black frames and patterned backrests, with a car visible nearby."),
+        ],
+    },
+    {
+        "match": "imba yakavakwa ichienda mudenga inemafafitera mahombe",
+        "full_english": "A multi-storey house with large windows and cream-coloured paint stands beside shade trees, with a yellow bicycle lying on the ground nearby.",
+        "sentences": [
+            ("Imba yakavakwa ichienda mudenga inemafafitera mahombe uyewo yakapendwa nependi yekirimu,pedo nemba pane miti iripo zvekare panebhasikoro reruvara rweyero rakarara pasi.", "A tall house with large windows painted in cream stands near trees, with a yellow bicycle lying on the ground."),
+        ],
+    },
+    {
+        "match": "ndiro imwechete yedhaga ine chikafu chinoti sadza",
+        "full_english": "An earthenware plate holds a meal of white maize sadza and beef stewed with cabbage, accompanied by a small plastic bottle of chilli pepper sauce on the side.",
+        "sentences": [
+            ("Ndiro imwechete yedhaga ine chikafu chinoti sadza rechibage chichena nyama yemombe yakasangana nekabichi. Parutivi pane kabhotoro kepurasitiki kemhiripiri.", "A single clay plate holds white maize sadza and beef mixed with cabbage, with a small plastic bottle of chilli on the side."),
+        ],
+    },
+    {
+        "match": "chitoro chinotengesa zvinhu zvamagitare zvekuridza",
+        "full_english": "Inside a musical instrument shop selling guitars, a man carrying a backpack stands facing away while acoustic and electric guitars in black-and-white and orange-and-white hang overhead.",
+        "sentences": [
+            ("Chitoro chinotengesa zvinhu zvamagitare zvekuridza.Mune munhu wechirume akabereka bheke ari mutema akafuratira.", "Inside a guitar shop, a man carrying a backpack stands with his back turned."),
+            ("Mune magitare emhando dzakasiyana siyana akaturikwa mudenga.Mamwe ane ruvara ruchena nerutema.Mamwe ane ruvara ruchena neruvara rweorenji.", "Guitars of various types hang above—some black and white, and others white and orange."),
+        ],
+    },
+    {
+        "match": "gonyeti ririkuratidza divi remusoro nepakati parino joiniwa",
+        "full_english": "An articulated haulage truck shows the side of its cab, the coupling joint where the trailer connects, and the front wheels; it is used to transport heavy cargo across long distances.",
+        "sentences": [
+            ("Gonyeti ririkuratidza divi remusoro nepakati parino joiniwa, nepamashure pane ngoro uye nesimbi iripo namavhiri maviri ekumberi.", "A haulage truck shows the side of its cab, the coupling joint, the trailer behind, and the two front wheels."),
+            ("Rinoshandiswa kutakura zvinhu zvakarema uye zvakawanda kuyenda kunzvimbo dzakasiyana.", "It is used to transport heavy goods in bulk to different destinations."),
+        ],
+    },
+    {
+        "match": "pane huswa hunotaridza kuti hwakareba",
+        "full_english": "Tall savanna grass grows in the woodland—used for thatching roofs and grazing livestock—and its dry golden stalks show that it is the dry season when rain is scarce.",
+        "sentences": [
+            ("Pane huswa hunotaridza kuti hwakareba. Hunowanikwa mumasango huchigona kushandiswa kupfurira dzimba kana kuti kudyiwa nezvipfuyo.", "Tall grass found in the bush can be used for thatching houses or as pasture for livestock."),
+            ("Huswa uhu hunotaridza kuti hwakaoma kureva kuti inguva yekushomeka kwemvura kana kuti kusanaya kwemvura.", "This grass is dry, showing that it is the dry season when rainfall is scarce."),
+        ],
+    },
+    {
+        "match": "nzvimbo yakashambidzika iri parutivi rwomugwagwa",
+        "full_english": "A tidy, well-kept property beside the road features a house with a panelled perimeter wall, artfully trimmed ornamental shrubs outside, and a lush green mowed lawn.",
+        "sentences": [
+            ("Nzvimbo yakashambidzika iri parutivi rwomugwagwa. Pane imba ine ruzhowa rwamapanera.", "A neat property beside the road has a house enclosed by a panelled wall."),
+            ("Panze payo pakaiswa maruva ayo akachekererwa achiitwa zvine umhizha. Panewo masora akachekererwa ayo ane ruvara rwakasvibirira.", "Outside, ornamental shrubs are pruned with artistic skill alongside a neatly mowed green lawn."),
+        ],
+    },
+    {
+        "match": "musoro wegonyeti rakamira une mafafitera",
+        "full_english": "The cab of a parked haulage truck has black-framed transparent windows, a black body, and a black-and-white front grille bearing silver lettering.",
+        "sentences": [
+            ("Musoro wegonyeti rakamira une mafafitera ane mukomberedzo une ruvara rutema. Mafafitera aya unokwanisa kuona zviri mukati.", "The cab of a parked haulage truck has black-trimmed windows through which the interior can be seen."),
+            ("Muviri wemusoro wegonyeti iri une ruvara rutema. Kumberi kwegonyeti iri kwakasanga ruvara rutema neruvara ruchena uye mavara akanyorwa nesirivheri.", "The body of the cab is black, while the front combines black and white with silver lettering."),
+        ],
+    },
+    {
+        "match": "vanhu vechirume vari kufamba vari murutivi memudhuri",
+        "full_english": "Men walk beside a long urban wall where commuters park their cars while at work. Nearby, traditional grey clay pots of various shapes—including water jars (magate), beer pots (pfuko), and relish bowls (mbiya)—are displayed for household use.",
+        "sentences": [
+            ("Vanhu vechirume vari kufamba vari murutivi memudhuri wakareba izvo zvinoratidza kuti mudhorobha,apo vanhu vazhinji vanenge vakapaka motokari dzavo vari mumushando vachiita mabasa avo.", "Men are walking beside a long city wall where many people park their cars while working."),
+            ("Hari dzemhando dzakasiyana siyana dzinosanganisira magate, pfuko nembiya idzo dzinoshandiswa kuita mabasa akasiyana siyana dzine ruvara rupfumbu.", "Clay pots of various kinds—including large water jars (magate), narrow-necked pots (pfuko), and serving bowls (mbiya)—have a grey clay finish."),
+        ],
+    },
+    {
+        "match": "munhu wechikadzi akashongedzwa kumeso akarukwa",
+        "full_english": "A woman with makeup has her hair braided toward the crown with a sparkling hair ornament and earrings. Nearby are a white mug decorated with a blue, green, and brown floral motif and a chipped white plate.",
+        "sentences": [
+            ("Munhu wechikadzi akashongedzwa kumeso akarukwa zvinosangana pakati pemusoro. Vhudzi rake rikaiswa chekushongedza chinovaima. Panzeve akapfeka mhete.", "A woman wearing makeup has her hair braided to meet at the centre of her head, adorned with a glittering clip and earrings."),
+            ("Komichi chena ine mucherechedzo weruva parutivi iri yomuruvara rwebhuru nerweshizha neyebhurauni. Pozouyawo zvakare ndiro yakapwanyika ine ruvara ruchena.", "A white cup has a blue, green, and brown flower design on the side, alongside a chipped white plate."),
+        ],
+    },
+    {
+        "match": "motokari dziri kufamba mumugwagwa mudhorobha",
+        "full_english": "Cars travel along a city street where two pedestrians stand beside a large NetOne mobile network mural. Nearby rests a brown-and-white strapped sandal with a white inner sole printed in black lettering.",
+        "sentences": [
+            ("Motokari dziri kufamba mumugwagwa mudhorobha. Vanhu vaviri vakamira mujinga memugwagwa mudhorobha. Mune mudhuri muhombe kwazvo we net one.", "Cars are driving along a city road while two people stand by the roadside beside a large NetOne wall mural."),
+            ("Shangu imwechete yakatsvetwa pasi. Shangu iyi ineruvara rwebhurauni namavara machena, inamabhande-mabhande. Mukati mayo ineruvara ruchena yakanyorwa namavara matema.", "A single brown-and-white strapped shoe with a white insole and black lettering is placed on the ground."),
+        ],
+    },
+    {
+        "match": "shangu dzakagadzikwa pauriri. uriri urwu rwuneruvara ruchena",
+        "full_english": "Black shoes with light-coloured linings sit on a white floor. Nearby lies freshly harvested cassava root (mufarinya), still coated in brown earth on the ground beside a cloth.",
+        "sentences": [
+            ("Shangu dzakagadzikwa pauriri. Uriri urwu rwuneruvara ruchena. Shangu idzi dzineruvara rutema kunze. Mukati meshangu idzi makachenuruka.", "Black shoes with light interiors are placed on a white floor."),
+            ("Mufarinya uchangobva kucherwa. Unevhu uye ndewebhurawuni. Wakagadzikwa pasi. Parutivi pane jira riripo.", "Freshly dug cassava tubers covered in brown soil lie on the ground beside a cloth."),
+        ],
+    },
+    {
+        "match": "midziyo inoshandiswa pakudya iri muchigaba mayo",
+        "full_english": "Eating utensils—including a teaspoon, tablespoon, knife, and fork—stand in a gold-and-blue holder. In the city, men and women go about their work to earn an income and buy affordable goods for their households.",
+        "sentences": [
+            ("Midziyo inoshandiswa pakudya iri muchigaba mayo ine kumusoro kune ruvara rwegoridhe nekuzasi kune ruvara rwebhuruu, inosanganisira chipunu chidiki nechipunu chihombe nebanga nefoku.", "Cutlery used for eating—including a small spoon, large spoon, knife, and fork—stands in a gold-and-blue container."),
+            ("Vanhu vanhu vazhinji vanosanganisira vanhurume nevanhukadzi vari mudhorobha. Apo mavanokwanisa kuwana mabasa nekuwana mari zvakare yokutenga zvinhu zvinge zvine mutengo wakachipa izvo zviri zvinhu zvakanakisa.", "Many men and women are in town where they find work and earn money to buy goods at affordable prices."),
+        ],
+    },
+    {
+        "match": "mhuka yakazorora yakarara hayo pasi",
+        "full_english": "An antelope (nyala/kudu) rests on the ground with spiralled horns and reddish-brown fur marked with white stripes. Nearby, within a wire-fenced yard enclosed by corrugated iron and timber walls, a small silver car is parked.",
+        "sentences": [
+            ("Mhuka yakazorora yakarara hayo pasi. Ine nyanga dzakazvongonyoka uyewo ine mavara maviri ari kunyatsooneka. Ine ruvara rwakatsvukuruka uye inewo mitsetse michena.", "A horned antelope is resting on the ground; it has spiralled horns and a reddish-brown coat with white stripes."),
+            ("Nzvimbo inoratidza kuti yakakomberedzwa newaya mukati macho mune Mota yakamiswa yakaita doko ineruvara rwakaita sirivha ne imwe midhuri yakawakwa nezen'i imwe yacho yakawakwa emapuranga", "Inside a wire-fenced enclosure with metal and wooden walls, a small silver car is parked."),
+        ],
+    },
+    {
+        "match": "mugwagwa une tara,mugwagwa unofamba motokare",
+        "full_english": "Along a tarred city street where various cars pass, a man in a knee-length coat walks briskly past urban buildings. In a barbershop portrait, glossy black hair is styled flat with a sharp razor part on the left side above the ear.",
+        "sentences": [
+            ("Mugwagwa une tara,mugwagwa unofamba motokare dzemando dzakasiyana.munemumwe murume akapfeka hembe refu inosvika mumabvi,anoratidza kuti arikufambisa chose.Nechekumberi kwacho kurikuduvida miduri yakanaka kuratidza kuti nzvimbo iyi irimudorobha.", "Along a tarred city road used by various cars, a man in a knee-length garment walks briskly past fine urban walls."),
+            ("Vhudzi rakagadzirwa mumusoro rakaita zvekurariswa idema richibwinya. Rinosiya mutaro kuruboshwe kwemusoro nemumwe mutaro pamusoro penzeve.", "Glossy black hair is neatly brushed flat with a clean part line on the left side and above the ear."),
+        ],
+    },
+    {
+        "match": "pedyo nemumugwagwa pane munda unoita seune mashanga",
+        "full_english": "Beside the road lies a harvested field with dry maize stalks (mashanga), reeds, and a bridge crossing. On a city road in Harare, cars and a commuter omnibus (kombi) bearing the name 'Harare' travel past urban walls.",
+        "sentences": [
+            ("Pedyo nemumugwagwa pane munda unoita seune mashanga echibage akaparara. Pedyo nemugwagwa zvakere pane tsanga kozotiwo pedyo nemugwagwa uyu zvakare pane zambuko riripo.", "Beside the road is a field with dry maize stalks, reeds, and a bridge."),
+            ("Motokari dziri kufamba mumugwagwa mudhorobha. Midhuri iri mudhorobha. Imwe motokari yakanyorwa kumashure kuti Harare. Imwe ikombi imwe haisi.", "Cars and a commuter minibus (kombi) inscribed 'Harare' on the back travel along a city street lined with walls."),
+        ],
+    },
+    {
+        "match": "tinoona zvinhu zviri kutengeswa zvakasiyana-siyana zvinoti mbatya",
+        "full_english": "At a bustling market, bales of clothing (bhero) and bottled traditional herbal remedies (mishonga yechivanhu) are on sale, while pushcart porters (vanhu vanopusha zvingoro) transport goods through the crowd.",
+        "sentences": [
+            ("Tinoona zvinhu zviri kutengeswa zvakasiyana-siyana zvinoti mbatya nezvimwewo zvakadaro-daro. Iri ndiro ratinoti bhero. Tinoonawo zvekare mishonga iri mumabhotoro yakasiyanana siyana inoratidza kuti mishonga yatinoti ndeyechibhoyi.", "We see various goods for sale including clothing bales (bhero) and bottled traditional herbal medicines."),
+            ("Nzvimbo inavanhu vakasiya siyana. Vamwe varikutengesa, vamwe ndovarikuita mabasa avo emaoko ekupusha zvingoro. Kunemukomana arikupusha chingoro. Murume uyu nechekumusoro akacheka hembe ineruvara rutema. Koita nechekumberi kune arikuuya wakapfeka hembe ine ruvara rwubhuruwu, wakapfeka mutirauzi rineruvara ruchena.", "Vendors and pushcart porters work busily; one young man in a black top pushes a cart while another approaches in a blue shirt and white trousers."),
+        ],
+    },
+    {
+        "match": "zhou iri padziva rine mvura nemadhaka",
+        "full_english": "An elephant stands at a muddy waterhole spraying itself with water in the heat of the sun, with dry grass and woodland trees behind it. Along a tarred road, white and red-and-white cars pass a roadside bench where commuters wait for transport.",
+        "sentences": [
+            ("Zhou iri padziva rine mvura nemadhaka. Iri kuzvidira mvura nekuda kwekupisa kwezuva. Mberi kwayo kune huswa hwakaoma. Nechemberizve kune miti ina mashizha akasiyana-siyana mamwe akasvibira ane ruvara rwegirini mamwe akatsvukuruka.", "An elephant at a muddy waterhole sprays water over itself in the hot sun, with dry grass and green-and-russet trees ahead."),
+            ("Mugwagwa vakaiswa Tara une Tara ine ruvara rwakasvibira koita dzimotokari dzirikufambamo dzimwe dzine ruvara ruchena dzimwe ndidzo dzine ruvara ruche ne rutsvuku uye nechemurutivi kune chigaro chinogarira vanhu anenge wachimirira muchovha", "Along a dark tarred road, white and red-and-white vehicles pass a roadside bench where passengers wait for a ride."),
+        ],
+    },
+    {
+        "match": "sango rine miti yakasiyana siyana, imwe mihombe",
+        "full_english": "A savanna woodland has large and small trees—some in green leaf and others sparse—above dry grass. In town, a multi-storey office building with many windows and entrance steps stands beside a parked grey car and a man on crutches.",
+        "sentences": [
+            ("Sango rine miti yakasiyana siyana, imwe mihombe imwe midiki imwe yemiti ine mashizha egirini uyewo pane mumwe muti une mashizha mashoma shoma musango umu munewo huswa hwakaoma.", "A woodland has large and small trees with green or sparse foliage and dry grass."),
+            ("Mahofisi akavakwa achienda mudenga.Ane mafasitera akawanda.Pahofisi apa panewo masitepisi ekupinda nokubuda.Pane murume akamira ane kirashi.Uye pedo pane motikari yegireyi yakamira.", "A multi-storey office block has many windows and entrance steps, where a man stands with a crutch near a parked grey car."),
+        ],
+    },
+    {
+        "match": "nzvimbo ine sora rakaoma rinoratidza kuti rava nenguva",
+        "full_english": "Dry grass shows that it has gone a long time without rain during the cool dry winter (chando) or hot dry spring (chirimo), with large tree trunks rising ahead. On a neighbourhood pitch near houses, football players in blue-and-white and red kits stand in football boots.",
+        "sentences": [
+            ("Nzvimbo ine sora rakaoma rinoratidza kuti rava nenguva risina kunaiwa nemvura zvabva zvaita kuti tifungidzire kuti iyi inguva yechando kana nguva yechirimo. Nechekumberi kwacho kuri kubuda hunde dzemiti inoratidza kuti miti mukuru kwazvo.", "Dry grass indicates a long spell without rain during the winter (chando) or spring (chirimo) dry season, with large tree trunks visible ahead."),
+            ("Mutambi wenhabvu akamira munhandare iri padhuze nedzimba. Mutambi akapfeka nguo dzokutambisa bhora pamwe chete nebhutsu dzekutamba nadzo bhora. Akapfeka hembe dzerudzi rwebhuruu nemitsara michena. Kumashure kwakamirawo mumwe akapfeka hembe tsvuku.", "A footballer stands on a pitch near houses wearing football boots and a blue-and-white striped jersey, with another player in red behind him."),
+        ],
+    },
+    {
+        "match": "ndiro yakati tukutuku nechikafu, mune mupunga",
+        "full_english": "A heaped plate of food holds rice steeped in gravy, boiled and golden-fried meat, and fried eggs. Nearby, a white stamp with a dark-green, white, and grey handle rests on a grey wooden surface against a deep blue wall.",
+        "sentences": [
+            ("Ndiro yakati tukutuku nechikafu, mune mupunga uyo wakanyikwa mumuto. Munewo nyama yakakwatiswa ikakangwa zvino yakatsvukirira, koitawo mazai akaiswa mumafuta.", "A full plate of food holds rice in gravy, meat that has been boiled and fried until golden brown, and fried eggs."),
+            ("Chidhindo cheruvara ruchena. Chiripamusoro pechidziro chineruvara rwedenga rwakasvibira. Icho chine mubato wakasvibira pamwe pachena nepamwe papfumbu. Chiri pamadziro epuranga ane ruvara rwe gireyi.", "A white stamp with a green, white, and grey handle rests against a grey wooden surface and dark-blue wall."),
+        ],
+    },
+    {
+        "match": "maruva ari kutengeswa akawanda pamusika wawo",
+        "full_english": "At a flower market, potted plants and tied bouquets are displayed under market sheds and along the pavement as passersby in jeans and caps look on. Nearby on a white table sit rolls of black, white, and red adhesive tape in various sizes.",
+        "sentences": [
+            ("Maruva ari kutengeswa akawanda pamusika wawo. Mamwe ari mumagaba mamwa akasungwa. Pane mashedhi akavakwa mune vanhu mukati vanotengesa. Mamwe akagadzikwa papevhimendi.", "Many flowers are on sale at a flower market—some in pots and some tied in bunches—inside vendor sheds and along the pavement."),
+            ("Pane murume ane jinhi rebhuruu nekepesi tema akarembedza masiki ari kupfuura akamatarira kuruboshwe rwake. Pane umwe murume akamafuratira nevamwe vari kufamba. Serotepi dzakagadzikwa patafura chena. Imwe itema, imwe chena imwe tsvuku. Dzine mizera yakasiyana imwe ikuru imwe idiki.", "A man in blue jeans and a black cap looks at the flowers as he walks past, while rolls of black, white, and red tape of different sizes sit on a white table."),
+        ],
+    },
+    {
+        "match": "midzi yakagadzikwa pajira dzvuku iyine mizera",
+        "full_english": "Medicinal roots of various sizes rest on a red cloth beside paper, next to a high-heeled closed women's shoe. Outside a house, a landscaped garden features trees, a small rockery of stacked stones, and blooming flowers.",
+        "sentences": [
+            ("Midzi yakagadzikwa pajira dzvuku iyine mizera yakasiyana -siyana. Iri pedo nebepa. Shangu yokurudyi yomunhukadzi wechikuru. Yakakwirira zvikuru. Yakavhara mativi ose.", "Roots of different sizes lie on a red cloth near paper, alongside a high-heeled closed shoe for an adult woman."),
+            ("Nzvimbo yakavakwa imba ine tunhu twakasiyana twakaikomberedza. Pane miti iripo poitawo matombo. Matombo akamira akaita kamurwi, uyewo pane maruva aripo zvakare posanganisawo zvimwewo zvitombo zviri pasi.", "Around a house stand trees, a rockery of stacked stones, flowers, and smaller pebbles on the ground."),
+        ],
+    },
+    {
+        "match": "mukomana akamira pedyo negedhe rino ruvara rweshizha",
+        "full_english": "A boy stands near a leaf-green gate wearing a matching gold-and-black patterned shirt and shorts, alongside grey shoes on a cream speckled floor. Nearby, many worshippers—most dressed in white garments and headwraps (madhuku)—kneel and stand in prayer at an Apostolic open-air shrine (positori yekwaJohane Marange kana yeMwazha).",
+        "sentences": [
+            ("Mukomana akamira pedyo negedhe rino ruvara rweshizha. Akapfeka hembe nechikabudura zvine ruvara rwendarama uye zvine patani yakafanana yakaitwa noruvara rutema. Shangu dzakagadzikwa pasi pane ruvara rwe kirimu netumadoo tutema. Shangu idzi dzine ruvara rwe pfumbu, mukati meshangu idzi mune ruvara rutema.", "A boy stands near a green gate wearing a matching gold-and-black patterned shirt and shorts, beside grey shoes with black linings."),
+            ("Vanhu vazhinji varikuita zvokunamata. Vazhinji vacho vakapfeka hembe chena uye mumusoro vakawanda vane madhuku kana vese zvavo vakadzi. Pane vamwe vakapfugama poita vamwe vakamira. Vanogona kunge vachipinda positori yekwaJowani Marange kana yeMwazha.", "Many people dressed in white garments and white headwraps are praying—some kneeling and some standing—in the tradition of the Johane Marange or African Apostolic (Mwazha) churches."),
+        ],
+    },
+    {
+        "match": "mukereke vanhu vakagara pasi, kune mumwe chete",
+        "full_english": "Inside a church, congregants in red and white garments sit listening to a preacher standing at the front. Outside, heavy wooden park benches are fixed in place for passersby to rest, alongside a pink fish with a round head and dark eyes.",
+        "sentences": [
+            ("Mukereke vanhu vakagara pasi, kune mumwe chete arikutakura anoratidza kuti ndiye ari kuparidza. Pane vakagara pasi kune vanhu vakapfeka hembe ine ruvara rutsvuku koitawo vamwe vakapfeka hembe dzine ruvara ruchena", "In a church, people wearing red and white garments are seated while one person stands preaching."),
+            ("Zvituro zvakatsvetwa zvakarundana zvakarongana zvichiratidza kuti zvituro izvi zvakagadzirwa nematanda uye zvituro zvokuzororera. Hapana munhu anokwanisa kuchisumudza achienda nayo kune imwe nzvimbo nokudaro wafunga kuzorora unongouya ogara hake. Hove ine kumeso kune muromo muhombe yoita maziso ane ruvara rutema nemhino inoremberera. Musoro wayo muhombe wakatenderedzeka. Inoonekwa ine mapapiro ayo neruvara rwepingi. Muviri wese une ruvara rwepingi.", "Heavy wooden rest benches are arranged in rows so anyone wishing to rest can sit down, alongside a pink fish with dark eyes and fins."),
+        ],
+    },
+    {
+        "match": "nzvimbo yakashongedza zvinoratidza kuti pane zvakakosha",
+        "full_english": "A celebration venue is decorated for a special occasion with blue, pink, and white balloons, tables and chairs draped in white and blue cloths, a matching blue cake, and wine. In a field grows a green spiky cucumber (gaka) with yellow flowers, and at a market people walk past seated vendors selling food from a cart.",
+        "sentences": [
+            ("Nzvimbo yakashongedza zvinoratidza kuti pane zvakakosha mutambo wakakosha unoda kuitwapo, pane mabharuma akatenderedza ane ruvara rwebhuruu , nepingi neruvara ruchena , pane matafura nezvigaro zvakaiswa machira machena neruvara rwebhuruu uye pane keke rinoratidza kuti rine ruvara rwebhuruu namawaini aripo zvose izvi zvinoenderana namakara aripamabharuma kana kuti ruvara rwemabharuma.", "A venue decorated for an important celebration features blue, pink, and white balloons, tables and chairs draped in white and blue fabric, and a matching blue cake."),
+            ("Gaka regirini rine tumunzwa rine kuzasi kweyero rakabatwa mumaoko pane mugaka uripo uri mumunda une mashizha egirini ane kayero nemaruva eyero. Vanhu vazhinji varikufamba pamusika. Padivi panevarume vakagara pazvigaro uyezve nengoro yakazara zvekudya zvirikutengeswa.", "A green horned cucumber (gaka) with yellow blossoms is held in a field, while at the market people walk past seated men and a pushcart full of food for sale."),
+        ],
+    },
+    {
+        "match": "nzvimbo inoratidza kuti inesora rakaoma, risina utano",
+        "full_english": "Dry savanna grass shows that it is the dry winter or spring season (chando/chirimo) when little rain falls, while at the foot of a large hill hippos (mvuu) and an elephant (nzou) graze. Nearby, a young woman with star-patterned braids wears a face mask, and traditional performers in ancestral attire sing and dance Jerusarema (Mbende) songs with joy.",
+        "sentences": [
+            ("Nzvimbo inoratidza kuti inesora rakaoma, risina utano zvinobva zvaita kuti tifungidzire kuti pava nenguva pakareba pasina kumbonaiwa nemvura uye tibve taona kuti iyi inguva yechando kana kuti nguva yechirimo sezvo nguva iyi isinganyanyi kunaya mvura. Mujinga regomo guru mune mhuka dzirikufura huswa. Mhuka idzi dzinosanganisira Mvuu uye Nzou imwe chete.", "Dry grass indicates the dry winter or spring season (chando or chirimo), while at the base of a great hill hippos (mvuu) and an elephant (nzou) graze."),
+            ("Mudzimai kana kuti musikana akatarisa pasi. Akarukwa musoro wake achiiswa mitsetse uye twunyeredzi. Akafukidzawo mhino nomuromo wake nemasiki. Vaimbi vari kuimba nziyo dzejerusarema. Vakapfeka nhumbi dzechinyakare izvo zvinoita kuti vanhu vange vachifara vange vachinzwa kusununguka munguva iyoyo.", "A young woman has her hair braided in lines and star patterns, while traditional musicians dressed in heritage attire joyfully sing Jerusarema songs."),
+        ],
+    },
+    {
+        "match": "nzvimbo inoratidza kuti panogadzirwa dzimotokari",
+        "full_english": "At a motor repair workshop, a mechanic lies on a piece of cardboard beneath the wheel well repairing a small car. Nearby grow trees of varying heights with green, brown, and yellow foliage beside a dark-brick building, while small cars and two buses—one red-and-yellow and one white-and-blue—stand along the road.",
+        "sentences": [
+            ("Nzvimbo inoratidza kuti panogadzirwa dzimotokari. Pane motokari imwechete yemhandó duku iyo irikugadzirwa. Panzvimbo inoiswa vhiri paneo munhurume mumwechete akarara pakadhibokisi achigadzira motokari iyi.", "At an auto repair yard, a man lies on a piece of cardboard by the wheel arch repairing a small car."),
+            ("Miti dzakawanda dzine mizera yakasiyana. Mumwe une mashizha akawanda akasvibira egirini. Umwe una mashizha ebhurauni. Umwe una mashizha aneyero. Parutivi pane chivakwa chakagadzirwa nezvitinha zvitema. Mumugwagwa munofamba motokari duku. Parutivi pomugwagwa pane mabhazi mairi akamira. Rimwe ritsvuku rine mavara eyero nematema. Rimwe richena rine mavara ebhuruu.", "Trees with green, brown, and yellow leaves stand near a brick building, while small cars and two buses—one red, yellow, and black, and the other white and blue—are on the road."),
+        ],
+    },
+    {
+        "match": "mudzimai werudzi rwechichena akamira",
+        "full_english": "A woman stands wearing a pink-and-white top, blue jeans, white shoes, pink socks, and a yellow, blue, and pink backpack. At a street intersection with black-and-white safety barriers, cars pass by and purple jacaranda blossoms carpet the roadside. Inside a jewellery shop, necklaces and earrings are displayed on white busts, while Apostolic church elders (Madzibaba) in white garments, red stoles, and staffs converse earnestly by a timber shelter.",
+        "sentences": [
+            ("Mudzimai werudzi rwechichena akamira. Akapfeka nguwo yekumusoro ine ruvara rwepingi neruchena. Kuzasi akapfeka jinhi rebhuru. Kutsoka dzake akapfeka shangu dzine ruvara ruchena uyezve akapfeka masokisi ane ruvara rwepingi. Mudzimai uyu akabereka bhegi rine ruvara rweyero, bhuru nepingi.", "A woman is standing in a pink-and-white top, blue jeans, white shoes, and pink socks, carrying a yellow, blue, and pink bag."),
+            ("Mugwagwa miviri inemhararano. Mumwe mugwagwa urikufamba motokari. Mugwagwa urikufamba motokari uyu wakavharwa nemasimbi mapfupi ane ruvara rwuchena nerwutema Pane murume akazembera imwe simbi. Chitoro chinotengesa zvinhu zvokushongedza muviri zviri kuwonekwa pane pazvidhori zvichena muzasi zvakapfekedzwa manekiresi. Nechekumusoro kune amwe manekiresi ari kurembera zvimwe zviri kumudhuri zvakasangana nemhete.", "At a road intersection lined with black-and-white barriers, cars pass by, while a jewellery shop displays necklaces and earrings on white busts and wall racks."),
+            ("Motikari mbiri dzine rudzi ruchena dziri kufamba mumugwagwa. Mujinga memugwagwa mune maruva akadonhera pasi epepuru. Madzibaba vakapfeka vanenguwo tsvuku muhuro nemudonzvo mutsvuku. Vakapfeka hembe dzeruvara ruchena nerepepoo. Vakamira panechimba chinoratidza kuti chakavakwa nemapango. Panemunhu wavarikutaura naye anoratidza kuti munhu wechitendero chavo vane zvavari kutsimbidzira kwaari. Vakapfeka nhumbi dzechitendero uye zvinechekuita nekunamata.", "Two white cars drive along a road bordered by fallen purple flowers, while Apostolic church elders (Madzibaba) in white robes with red stoles and staffs speak with a fellow believer beside a pole-built shelter."),
+        ],
+    },
 ]
 
 
@@ -1929,6 +2430,331 @@ SENTENCE_CULTURAL_NOTES: list[tuple[str, str, str]] = [
         "muti mukuru kwazvo une mashizha akasvibira",
         "Red Highveld Soils ('Ivhu Rakatsvuka'), Flowering Trees & Bustling City Centres",
         "This rich culmination passage contrasts Zimbabwe's fertile iron-rich red clay soils ('ivhu rakatsvuka') and lush shade trees ('muti mukuru une mashizha akasvibira') with the energy of the central business district ('pakati peguta'), where traffic lights ('robhoti') guide vehicles beneath rising modern high-rises ('zvivako zvakavakwa zvichikwira mudenga').",
+    ),
+    (
+        "mukadzi mutsvuku ane bvudzi dema ane mazino machena",
+        "Warmth of the Smile ('Kunyemwerera') & Complexion Terms in Shona",
+        "In Shona, a warm smile ('kunyemwerera') is part of welcoming guests ('kugamuchira vaeni'). Notice also how 'mutsvuku' (literally 'red/light-toned') is used idiomaticallly for a lighter skin complexion, while 'bvudzi dema' (Class 5 'ri-' concord) describes dark hair and 'mazino machena' (Class 6 'ma-' concord) describes bright white teeth.",
+    ),
+    (
+        "bundo rakawanda rakasvibira riine marudzi akasiyana",
+        "Savanna Bushland ('Bundo') & Thorny Flora After the Rains",
+        "During the rainy season ('zhizha'), Zimbabwe's highveld and lowveld burst into thick green bushland ('bundo rakasvibira') dotted with hardy thorny plants ('zvidhongi zvinobaya') that stay green well into the beginning of the dry season.",
+    ),
+    (
+        "vanhu vari kufamba vachienda pachikoro pevanhu vakuru",
+        "Adult & Tertiary Education ('Chikoro Chevanhu Vakuru') in Zimbabwe",
+        "Zimbabwe boasts one of Africa's highest literacy rates and a strong culture of lifelong learning. Polytechnic colleges, vocational training centres, and universities—often referred to as 'chikoro chevanhu vakuru' (school for adults)—are central hubs in every province.",
+    ),
+    (
+        "pedyo nemumugwagwa pane imba yakavakwa zvakanaka",
+        "Solar Geysers ('Giza') & Satellite Dishes on Modern Zimbabwean Rooftops",
+        "Because Zimbabwe enjoys over 3,000 hours of sunshine a year, rooftop solar water heaters ('magiza ezuva') and solar panels have become standard features on modern suburban homes alongside satellite television dishes.",
+    ),
+    (
+        "michero yakasiyana-siyana irikutengeswa pamusika",
+        "Crate Fruit Trading ('Mabhanana, Maorenji, Maapuro') at Wholesale Markets",
+        "At bustling wholesale produce markets like Mbare Musika in Harare or Sakubva in Mutare, crates and boxes ('mabhokisi') of bananas from Honde Valley, oranges from Mazowe, and apples from Nyanga are traded daily.",
+    ),
+    (
+        "chitoro chiri kutengesa zvakasiyana-siyana zvekushandisa muzvikoro",
+        "Back-to-School Stationery Shops & 'Zvinyoreso' (Pens)",
+        "Notice the indigenous noun 'chinyoreso' (plural 'zvinyoreso', literally 'instrument for writing', built from 'kunyora' + instrumental suffix '-iso'). Before each of Zimbabwe's three school terms (January, May, and September), bookshops and stationery stores bustle with families buying pens and exercise books.",
+    ),
+    (
+        "chipuka chakamhara pashizha regirinhi rakareba",
+        "Woodland Insects ('Zvipuka') & Sunlit Miombo Canopies ('Sango')",
+        "Zimbabwe's indigenous miombo woodlands ('masango') teem with insect life ('zvipuka'), from stick insects and mantises with long slender legs ('makumbo matete marefu') to cicadas ('nyenze') whose chorus heralds the hot October rains.",
+    ),
+    (
+        "muti worudzi rwomupaini wakasimwa",
+        "Eastern Highlands Pine Plantations ('Miti Yemupaini') in Nyanga & Chimanimani",
+        "Alongside indigenous woodlands, commercial pine ('mupaini') and wattle plantations thrive in the cool, misty mountains of Zimbabwe's Eastern Highlands—especially around Nyanga, Erin Forest, and Chimanimani—supplying timber across the country.",
+    ),
+    (
+        "shangu imwechete yechidzimai yakavhurika",
+        "Evening & Wedding Footwear ('Shangu Yechidzimai Yakavhurika')",
+        "Silver and metallic open-toed sandals ('shangu yakavhurika ine mavara esirivha') are popular attire for Zimbabwean weddings ('michato'), kitchen parties, and Sunday church services.",
+    ),
+    (
+        "dandemutande rakagara pasi",
+        "Spiders ('Dandemutande') in Shona Folklore & Idiom",
+        "The word 'dandemutande' refers both to a spider and to its intricate web (and in modern Shona, even the internet/World Wide Web!). Large harmless baboon spiders with hairy legs ('makushe') are a familiar sight in rural woodlands during the rainy season.",
+    ),
+    (
+        "imba yekutandarira. ina masofa ane ruvara rwebhurauni",
+        "The Lounge ('Imba Yekutandarira') as a Space of Fellowship",
+        "Notice the expressive Shona name for the living room: 'imba yekutandarira', derived from the verb 'kutandara' (to spend time conversing and relaxing with family and visitors). Comfortable sofas, throw cushions ('mapiro'), and wall art make it the welcoming heart of an urban home.",
+    ),
+    (
+        "chanza chemunhu mutema, chakabata chigero chikudu",
+        "Tailoring, Craftwork ('Chigero') & Traditional Wrist Bangles ('Nhete')",
+        "Look at the word 'chigero' ('scissors', from 'kugera' = to cut/shear) alongside 'nhete' (slender metal or beaded wrist bangles). Dressmaking, hairdressing, and artisanal crafts are thriving small enterprises across Zimbabwean towns.",
+    ),
+    (
+        "mashizha eruvara rwebumhudza akawanda uye akakura",
+        "Citrus Orchards ('Muranjisi & Muraimondi') of the Mazowe Valley",
+        "Just north of Harare lies the fertile Mazowe Valley, famous for over a century for its vast irrigated citrus estates ('miti yemuranjisi nemuraimondi') that produce oranges, lemons, and Zimbabwe's iconic Mazowe Orange Crush.",
+    ),
+    (
+        "nzvimbo yekugarira yakavharirwa nesimbi dzine ruvara rwebhuruu",
+        "Outdoor Cafés & Veranda Seating ('Nzvimbo Yekugarira') in Sunny Climate",
+        "Zimbabwe's mild subtropical highveld climate makes outdoor verandas and metal-railed courtyard seating ('nzvimbo yekugarira') with white tables and stools ideal year-round gathering spots at cafés and community centres.",
+    ),
+    (
+        "mureza mutsvuku une mufananidzo wezuva uri pakati pawo",
+        "Flags, Symbols & Civic Emblems ('Mureza')",
+        "Learning to describe flags ('mireza') and geometric symbols in Shona—such as 'mufananidzo wezuva' (emblem of the sun) and 'mitaro yakapesana' (intersecting lines)—builds essential vocabulary for discussing African and international vexillology.",
+    ),
+    (
+        "vanhu vanoyambuka mugwagwa unofamba nemotokari",
+        "Urban Bus Termini ('Chiteshi Chemabhazi') & Pedestrian Crossings",
+        "Major urban bus stations ('zviteshi zvemabhazi') such as Charge Office, Fourth Street (Simon Vengayi Muzenda Street), and Market Square in Harare connect suburban commuters with long-distance buses travelling to every district of Zimbabwe.",
+    ),
+    (
+        "mhuka iyi inonzi zizi, mazizi aya maviri",
+        "Owls ('Zizi' / 'Mazizi') in Shona Ecology & Oral Tradition",
+        "In Shona, the barn owl and spotted eagle-owl are called 'zizi' (plural 'mazizi', Class 5/6). While owls play a vital ecological role controlling rodents around granaries and rafters ('pasi pechitanda'), traditional folklore also treats nocturnal birds with deep caution and mystique.",
+    ),
+    (
+        "chishongo chomuhuro chakaiswa pachiratidzo chitsvuku",
+        "Christian Devotional Beads ('Rosari') & Faith Traditions in Zimbabwe",
+        "Historic mission churches—Catholic, Anglican, Methodist, Reformed, and Lutheran—have deep roots across Zimbabwe alongside indigenous churches, and devotional items like the rosary ('rosari') and cross ('muchinjikwa') are widely recognized.",
+    ),
+    (
+        "chitoro chakarongedzwa chakashongedzwa mabhegi evanhukadzi",
+        "Urban Fashion Boutiques ('Zvitoro Zvemabhegi Neshangu')",
+        "Downtown shopping arcades and malls in Harare, Bulawayo, and Mutare feature neatly organized boutiques displaying handbags ('mabhegi evanhukadzi') and separate footwear sections ('makamuri akasiyana') for men and women.",
+    ),
+    (
+        "shangu yerudzi rwetenisi yakagadzikwa pauriri hwechizvino",
+        "Canvas Sneakers ('Shangu Yerudzi Rwetenisi') in Everyday Zimbabwean Style",
+        "Canvas tennis shoes ('shangu dzetenisi') have a long history in Zimbabwe—most famously the locally manufactured Bata Tenderfoot and Tommy Takkies sneakers worn by generations of schoolchildren and athletes.",
+    ),
+    (
+        "nepanze peimwewo imba pane miti dzakawanda",
+        "Shade Trees ('Miti Yemumvuri') & Corrugated Iron Roofs ('Marata')",
+        "Homesteads across Zimbabwe plant both flowering ornamentals ('miti yemaruva') and broad-canopied shade trees ('miti yemumvuri') along pathways leading to houses roofed with durable corrugated steel sheets ('marata').",
+    ),
+    (
+        "chipukanana chinenge bete chakamhara pamusoro petafura",
+        "Diminutive Noun Classes & Describing Small Insects ('Chipukanana')",
+        "Notice how adding the suffix '-ana' to 'chipuka' creates 'chipukanana' ('a tiny little insect'). Shona speakers use rich observational detail—comparing wing colour ('mapapiro ebhurauni') and eye size ('maziso mahombe')—when describing nature.",
+    ),
+    (
+        "nzvimbo irimudhorobha guru reharare umo munezvivakwa",
+        "Joina City & the Modern Skyline of Downtown Harare",
+        "Completed in 2010 at the intersection of Jason Moyo Avenue and Julius Nyerere Way, Joina City ('chivakwa chihombe cheJoina City') is one of Harare's tallest and busiest commercial and retail landmarks.",
+    ),
+    (
+        "bhusita riri pakati pemiti",
+        "Telecommunications Towers ('Mabhusita') Connecting Rural & Urban Zimbabwe",
+        "Mobile network base stations—popularly called 'mabhusita' (boosters) in Shona—stand on hills and woodland clearings across Zimbabwe, enabling mobile voice calls and EcoCash digital payments even in remote rural districts.",
+    ),
+    (
+        "twiza yakamisa musoro",
+        "The Giraffe ('Twiza') in Hwange, Gonarezhou & Mana Pools",
+        "The giraffe ('twiza') is one of the most beloved animals of Zimbabwe's national parks, from Hwange in the west to Gonarezhou in the southeast, easily recognized by its patchwork coat ('mavara mavara') and horn-like ossicones ('nyanga').",
+    ),
+    (
+        "midziyo mitsva yakaiswa panoonekera",
+        "Hardware Stores & Garden Implements ('Maburasho, Mareki, Mafoshora')",
+        "Because most Zimbabwean households maintain a yard, orchard, or kitchen garden, hardware stores stock sturdy steel-and-timber tools ('midziyo yakagadzirwa nesimbi nedanda') including rakes ('mareki'), shovels ('mafoshora'), and brushes.",
+    ),
+    (
+        "musikana akagadzirwa mumusoro wake zvakanaka",
+        "The Art of Three-Strand Hair Braiding ('Kurukwa Mamumutatu')",
+        "Hair braiding ('kuruka musoro') is both a treasured social tradition and a skilled creative art in Zimbabwe. Styles like 'mamumutatu' (three-strand interlocking cornrows sweeping toward the ears) showcase precision and geometric artistry.",
+    ),
+    (
+        "shangu mbiri dzine ruvara rutema dzakavharika kumberi",
+        "Crocheted Doilies ('Madhoiri') in Zimbabwean Home Decor",
+        "Notice the word 'dhoiri' (doily) in this passage! Hand-crocheted white cotton doilies ('madhoiri') are an iconic hallmark of Zimbabwean interior decoration, crafted by women and placed on tables, sofa backs, and display shelves.",
+    ),
+    (
+        "pane mumwe mugwagwa unofambira vanhu",
+        "Pedestrian Malls & Street Market Stalls ('Misika') Under Umbrellas",
+        "Along pedestrianised avenues like First Street in Harare, vibrant informal market stalls ('misika') shaded by large umbrellas ('masumburera') offer pedestrians everything from fresh fruit to mobile airtime.",
+    ),
+    (
+        "zvivakwa zvakawanda zvepachikoro zvokudzidzira",
+        "Zimbabwean School Architecture ('Zvivakwa Zvepachikoro')",
+        "Across Zimbabwe, primary and secondary schools are typically laid out as single-storey classroom blocks ('zvivakwa zvokudzidzira') with whitewashed walls, red corrugated roofs, and shady campus trees.",
+    ),
+    (
+        "vatambi vemutambi webhora. vashanu vakamira",
+        "The Goalkeeper ('Mubati Wapagedhi') & Team Football Portraits",
+        "Before kickoff in Zimbabwean football matches, teams pose in a classic two-row formation—players standing at the back ('vakamira') and crouching in front ('vakatonona mberi')—with the goalkeeper ('mubati wapagedhi') distinguished by his gloves ('magirovhosi').",
+    ),
+    (
+        "munhukadzi mutsvuku akatsikitsira",
+        "Contemporary Salon Barbering & Hair Colouring ('Mutaro & Vhudzi Jena')",
+        "Modern Zimbabwean hair salons blend precision barbering—such as tapered sides with a razor-sharp part line ('mutaro')—with bold blonde and honey-toned hair colouring ('vhudzi jena').",
+    ),
+    (
+        "banga idema, rine kumuromo kwakatesvera",
+        "The Kitchen Knife ('Banga') & Culinary Preparation ('Mumba Yokubikira')",
+        "In a Shona kitchen ('mumba yokubikira'), a sharp pointed utility knife ('banga rine kumuromo kwakatesvera') is indispensable for slicing beef ('nyama') and finely shredding leafy greens ('muriwo') into thin ribbons.",
+    ),
+    (
+        "pamusika parikutengeswa mbatatisi",
+        "Nyanga Seed Potatoes & Market Trading ('Mbatatisi Pamusika')",
+        "Zimbabwe's cool, frost-free high altitudes in Nyanga are the country's premier region for growing potatoes ('mbatatisi'), which are sold in 15kg pockets and small heaps at urban and peri-urban markets.",
+    ),
+    (
+        "zvinoratidza kuti iyi inhandare",
+        "School & National Athletics Awards ('Kukorokotedza & Mhenduro')",
+        "Inter-house and inter-school athletics competitions in stadiums ('nhandare') are major community events in Zimbabwe, where winners receive medals or prizes ('mhenduro') and warm congratulations ('kukorokotedza').",
+    ),
+    (
+        "bindu ridiki rine muriwo une mashizha egirinhi",
+        "Purple Jacaranda Blossoms ('Mujakaranda') & Home Vegetable Gardens ('Bindu')",
+        "Every October, cities across Zimbabwe—especially Harare—are transformed by a canopy of purple blossoms from jacaranda trees ('miti yemujakaranda'), growing right beside household vegetable beds ('bindu remuriwo').",
+    ),
+    (
+        "midziyo yemumba mekutandarira aya masofa",
+        "Local Upholstery & Roadside Furniture Workshops ('Masofa Nemadhizaini')",
+        "In suburbs like Glen View in Harare, skilled local carpenters and upholsterers craft custom lounge suites ('masofa ane madhizaini') that are displayed outdoors for buyers across the country.",
+    ),
+    (
+        "imba yakavakwa ichienda mudenga inemafafitera mahombe",
+        "Double-Storey Suburban Architecture & Cycling ('Bhasikoro')",
+        "Newly developed residential suburbs around Zimbabwean cities feature double-storey homes ('imba yakavakwa ichienda mudenga') with wide sunlit windows ('mafafitera mahombe') and spacious yards where children ride bicycles ('mabhasikoro').",
+    ),
+    (
+        "ndiro imwechete yedhaga ine chikafu chinoti sadza",
+        "Earthenware Plates ('Ndiro Yedhaga'), Sadza with Beef & Chilli ('Mhiripiri')",
+        "Serving white maize sadza, beef stew ('nyama yemombe'), and cabbage on a traditional clay plate ('ndiro yedhaga') with hot peri-peri chilli sauce ('mhiripiri') on the side is a beloved celebration of authentic Zimbabwean cuisine.",
+    ),
+    (
+        "chitoro chinotengesa zvinhu zvamagitare zvekuridza",
+        "The Acoustic & Electric Guitar ('Gitare') in Sungura and Jit Music",
+        "The guitar ('gitare') holds a special place in modern Zimbabwean culture: genres like Sungura, Jit, and Chimurenga music—pioneered by legends such as Oliver Mtukudzi, Leonard Dembo, and Alick Macheso—are famous for their intricate, interlocking lead, rhythm, and bass guitar melodies.",
+    ),
+    (
+        "gonyeti ririkuratidza divi remusoro nepakati parino joiniwa",
+        "Articulated Haulage Trucks ('Magonyeti') Along the North-South Corridor",
+        "Because Zimbabwe sits at the geographic crossroads of Southern Africa—linking South Africa, Zambia, Mozambique (Beira Corridor), and Botswana—heavy articulated haulage trucks ('magonyeti') are the lifeblood of regional trade.",
+    ),
+    (
+        "pane huswa hunotaridza kuti hwakareba",
+        "Thatching Grass ('Huswa Hwekupfurira Dzimba') & Dry-Season Grazing",
+        "Tall savanna grass ('huswa hwakareba') serves two vital rural functions: it provides dry-season grazing for cattle ('zvipfuyo') and, when harvested in winter, provides durable bundles for thatching round kitchen roofs ('kupfurira dzimba').",
+    ),
+    (
+        "nzvimbo yakashambidzika iri parutivi rwomugwagwa",
+        "Precast Concrete Walls ('Ruzhowa Rwamapanera') & Topiary Gardening",
+        "In Zimbabwean towns, most homes are enclosed by precast concrete panel walls—known locally as 'durawalls' or 'ruzhowa rwamapanera'—bordered outside by neatly mowed verges and artistically pruned shrubs ('maruva akachekererwa zvine umhizha').",
+    ),
+    (
+        "musoro wegonyeti rakamira une mafafitera",
+        "Cross-Border Transport & Heavy Truck Cabs ('Musoro Wegonyeti')",
+        "Notice how Shona uses anatomical metaphors for vehicles: 'musoro wegonyeti' (the 'head' or cab of the truck) and 'muviri' (its body). Long-distance truck drivers are respected professionals connecting Zimbabwe's ports of entry.",
+    ),
+    (
+        "vanhu vechirume vari kufamba vari murutivi memudhuri",
+        "Traditional Shona Clay Vessels: 'Gate', 'Pfuko' & 'Mbiya'",
+        "This passage introduces three classic types of Shona pottery ('hari'): 'gate' (pl. 'magate', a large wide-mouthed clay jar for storing water), 'pfuko' (a narrow-necked pot for traditional seven-day brew or water), and 'mbiya' (an earthenware bowl for serving relish).",
+    ),
+    (
+        "munhu wechikadzi akashongedzwa kumeso akarukwa",
+        "Bridal & Festive Grooming ('Kushongedzwa Kumeso') and Teaware ('Komichi')",
+        "From braided crowns adorned with sparkling hair clips ('chekushongedza chinovaima') to floral ceramic teacups ('komichi'), attention to aesthetic detail is central to Zimbabwean hospitality.",
+    ),
+    (
+        "motokari dziri kufamba mumugwagwa mudhorobha",
+        "Mobile Telecommunications ('NetOne') & Roadside Murals in Zimbabwe",
+        "Hand-painted commercial murals along city perimeter walls—such as those for NetOne, Econet, and Telecel—are a familiar visual feature along urban commuter corridors in Zimbabwe.",
+    ),
+    (
+        "shangu dzakagadzikwa pauriri. uriri urwu rwuneruvara ruchena",
+        "Cassava ('Mufarinya') & Root Crops in Zimbabwean Farming",
+        "Freshly harvested cassava ('mufarinya')—alongside sweet potatoes ('mbambaira') and taro ('madhumbe')—is a hearty root crop grown by smallholder farmers, especially in eastern and northern Zimbabwe, often boiled and enjoyed with morning tea.",
+    ),
+    (
+        "midziyo inoshandiswa pakudya iri muchigaba mayo",
+        "Table Cutlery ('Chipunu, Banga, Foku') & Urban Livelihoods",
+        "While traditional meals like sadza are often eaten with washed hands ('kuchera sadza nemaoko'), rice, stews, and modern dishes use spoons ('zvipunu'), knives ('mapanga'), and forks ('mafoko').",
+    ),
+    (
+        "mhuka yakazorora yakarara hayo pasi",
+        "Spiral-Horned Antelopes ('Nyanga Dzakazvongonyoka') of the Zimbabwean Bush",
+        "Zimbabwe's woodlands are home to majestic spiral-horned antelopes ('mhuka dzine nyanga dzakazvongonyoka') such as the greater kudu ('nhoro'), nyala ('nyara'), and bushbuck ('dzoma'), recognizable by the white vertical stripes along their reddish-brown flanks.",
+    ),
+    (
+        "mugwagwa une tara,mugwagwa unofamba motokare",
+        "Urban Barbershops & Precision Hair Partings ('Mutaro Pamusoro Penzeve')",
+        "Neighbourhood barbershops across Zimbabwe take great pride in crisp hairlines and razor-sharp side partings ('mutaro kuruboshwe kwemusoro'), keeping hair brushed and glossy ('richibwinya').",
+    ),
+    (
+        "pedyo nemumugwagwa pane munda unoita seune mashanga",
+        "Post-Harvest Maize Stalks ('Mashanga Echibage') & Harare Commuter Kombis",
+        "After the maize harvest in May and June, dry stalks ('mashanga echibage') remain in the fields as valuable winter fodder for cattle, while along nearby highways commuter minibuses ('makombi') ferry passengers into Harare.",
+    ),
+    (
+        "tinoona zvinhu zviri kutengeswa zvakasiyana-siyana zvinoti mbatya",
+        "Market Bales ('Bhero'), Herbal Remedies ('Mishonga Yechivanhu') & Pushcart Porters ('Zvingoro')",
+        "This passage captures three iconic elements of a bustling Zimbabwean market: 'bhero' (bales of affordable clothing), 'mishonga yechivanhu' (traditional herbal tonics and roots), and hardworking young men pushing handcarts ('zvingoro', known locally as 'zvemabara') to transport goods for shoppers.",
+    ),
+    (
+        "zhou iri padziva rine mvura nemadhaka",
+        "Elephants ('Zhou' / 'Nzou') Cooling Off at Savanna Waterholes ('Padziva')",
+        "Zimbabwe has the second-largest elephant population in the world—over 85,000 elephants ('nzou' or 'zhou'). During the hot dry months before the rains, herds gather at muddy pans ('padziva rine mvura nemadhaka') to spray cool water and mud over their skin.",
+    ),
+    (
+        "sango rine miti yakasiyana siyana, imwe mihombe",
+        "Contrasting Woodland Savanna ('Sango') & Multi-Storey City Offices ('Mahofisi')",
+        "One of the striking features of Zimbabwean cities is how closely indigenous savanna woodlands ('sango rine miti yakasiyana-siyana') border modern multi-storey office blocks ('mahofisi akavakwa achienda mudenga').",
+    ),
+    (
+        "nzvimbo ine sora rakaoma rinoratidza kuti rava nenguva",
+        "The Dry Seasons ('Chando' & 'Chirimo') and Neighbourhood Football Pitches",
+        "From May through October—spanning the cool dry winter ('chando') and hot dry spring ('chirimo')—little rain falls and grass turns golden brown, making firm ground for neighbourhood football matches ('mutambo wenhabvu') near residential homes.",
+    ),
+    (
+        "ndiro yakati tukutuku nechikafu, mune mupunga",
+        "Generous Hospitality ('Ndiro Yakati Tukutuku') with Rice, Gravy & Braised Meat",
+        "Notice the expressive ideophone 'tukutuku' in 'ndiro yakati tukutuku nechikafu'—meaning a plate heaped generously to the brim! Serving rice ('mupunga') steeped in rich gravy ('muto') with boiled-then-fried meat ('nyama yakakwatiswa ikakangwa') is a classic Sunday and festive meal.",
+    ),
+    (
+        "maruva ari kutengeswa akawanda pamusika wawo",
+        "Outdoor Flower Markets ('Musika Wemaruva') Along Harare Avenues",
+        "Open-air flower markets—such as the famous stalls around Africa Unity Square in central Harare—display colourful bouquets and potted plants under shade sheds along the pavement year-round.",
+    ),
+    (
+        "midzi yakagadzikwa pajira dzvuku iyine mizera",
+        "Traditional Herbal Roots ('Midzi') & Landscaped Rockery Gardens",
+        "In Zimbabwean ethnobotany, dried barks and roots ('midzi') from indigenous trees are valued traditional remedies, while suburban gardens often showcase natural granite rockeries ('matombo akaita kamurwi') surrounded by flowers.",
+    ),
+    (
+        "mukomana akamira pedyo negedhe rino ruvara rweshizha",
+        "Indigenous Apostolic Churches ('Positori YekwaJohane Marange & Mwazha')",
+        "Indigenous Apostolic churches—such as those founded by Johane Marange and Paul Mwazha—are a major part of Zimbabwe's religious landscape, immediately recognizable by congregants worshipping outdoors in flowing white garments ('hembe chena') and white headwraps ('madhuku').",
+    ),
+    (
+        "mukereke vanhu vakagara pasi, kune mumwe chete",
+        "Sunday Church Services ('Mukereke') & Community Rest Benches ('Zvituro Zvokuzororera')",
+        "On Sundays across Zimbabwe, church congregations ('mukereke') gather in vibrant choir uniforms of red and white to listen to sermons ('kuparidza'), while heavy timber benches outside offer shade and rest for the community.",
+    ),
+    (
+        "nzvimbo yakashongedza zvinoratidza kuti pane zvakakosha",
+        "Celebration Decor ('Mabharuma Nekeke') & Horned Cucumbers ('Magaka')",
+        "This passage pairs a festive Zimbabwean celebration—decorated with colour-coordinated balloons ('mabharuma'), tablecloths, and cake ('keke')—with the spiky indigenous horned cucumber ('gaka', pl. 'magaka'), a refreshing crop grown in maize fields during the rains.",
+    ),
+    (
+        "nzvimbo inoratidza kuti inesora rakaoma, risina utano",
+        "UNESCO-Listed Mbende Jerusarema Dance ('Nziyo DzeJerusarema') & Wildlife",
+        "Look at the mention of 'nziyo dzeJerusarema'! The Mbende Jerusarema dance—originating among the Zezuru people of Murehwa and Uzumba-Maramba-Pungwe—was proclaimed a UNESCO Masterpiece of the Oral and Intangible Heritage of Humanity for its polyrhythmic drumming and vibrant traditional attire ('nhumbi dzechinyakare').",
+    ),
+    (
+        "nzvimbo inoratidza kuti panogadzirwa dzimotokari",
+        "Roadside Motor Mechanics ('Panogadzirwa Dzimotokari') & Long-Distance Buses",
+        "Independent motor mechanics in Zimbabwe are renowned for their resourcefulness, repairing vehicles outdoors with hand tools while vibrant long-distance coaches ('mabhazi') painted in red, yellow, blue, and white travel between cities.",
+    ),
+    (
+        "mudzimai werudzi rwechichena akamira",
+        "Purple Jacaranda Avenues, Jewellery Shops & Apostolic Elders ('Madzibaba')",
+        "This rich 1.9-minute passage weaves together four vivid snapshots of Zimbabwean life: contemporary urban streetwear, downtown jewellery displays ('manekiresi nemhete'), streets carpeted with fallen purple jacaranda petals, and Apostolic church elders ('Madzibaba') carrying sacred staffs ('midonzvo') in prayerful counsel.",
     ),
 ]
 

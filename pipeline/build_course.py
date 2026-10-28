@@ -252,35 +252,111 @@ def main(argv: list[str] | None = None) -> int:
     sequencer = AssimilSequencer(config)
     enricher = GeminiEnricher(config=config, cache_dir=cache_dir)
 
-    if args.distribute_new and existing_lessons:
-        logger.info(
-            "Preserving %d existing enriched lessons and distributing %d brand-new lessons...",
-            len(existing_lessons),
-            args.distribute_new,
-        )
-        new_clips = sequencer.score_and_deduplicate(
-            clips=collected_clips,
-            existing_clip_ids=existing_clip_ids,
-            existing_texts=existing_texts,
-            max_regular_clips=args.distribute_new,
-        )
-        temp_new_lessons = sequencer.build_lesson_skeleton(
-            sorted_clips=new_clips,
-            max_lessons=len(new_clips),
-            existing_lessons=None,
-        )
-        # Enrich ONLY the newly added clips (existing 65 lessons are untouched!)
-        for idx, nl in enumerate(temp_new_lessons):
-            temp_new_lessons[idx] = enricher.enrich_regular_lesson(nl, mock=args.mock)
+    expansion_pool_path = output_json_path.parent / "expansion_pool.json"
+    preserved_by_id: dict[str, Lesson] = {}
+    for src_lesson in existing_lessons:
+        if src_lesson.clip_id:
+            preserved_by_id[src_lesson.clip_id] = src_lesson
+    if expansion_pool_path.exists():
+        try:
+            raw_pool = json.loads(expansion_pool_path.read_text(encoding="utf-8"))
+            for item in raw_pool:
+                pl = Lesson.model_validate(item)
+                if pl.clip_id and pl.clip_id not in preserved_by_id:
+                    preserved_by_id[pl.clip_id] = pl
+        except Exception as exc:
+            logger.warning("Could not load existing expansion_pool.json: %s", exc)
+    orig_65_path = cache_dir / "existing_65_course_data.json"
+    orig_65_lessons: list[Lesson] = []
+    if orig_65_path.exists():
+        try:
+            orig_course = CourseData.model_validate(json.loads(orig_65_path.read_text(encoding="utf-8")))
+            orig_65_lessons = orig_course.lessons
+            for ol in orig_65_lessons:
+                if ol.clip_id:
+                    preserved_by_id[ol.clip_id] = ol
+        except Exception as exc:
+            logger.warning("Could not load existing_65_course_data.json: %s", exc)
 
-        # Distribute new lessons with existing lessons, re-number 1..100, and compute 7-lesson reviews (1-7, 8-14, ...)
+    if args.distribute_new and existing_lessons:
+        base_seed_lessons = orig_65_lessons if orig_65_lessons else existing_lessons
+        # Keep all base lessons <= 30.0s in Lessons 1-100; move > 30.0s lessons intact to the reserve pool
+        kept_under_30 = [
+            l for l in base_seed_lessons if float(l.duration_seconds or 0.0) <= 30.0
+        ]
+        kept_ids = {l.clip_id for l in kept_under_30 if l.clip_id}
+        kept_texts = {(l.shona_text or "").strip().lower() for l in kept_under_30 if l.shona_text}
+
+        target_total_100 = 100
+        needed_to_reach_100 = max(0, target_total_100 - len(kept_under_30))
+        logger.info(
+            "Preserving %d original lessons <= 30.0s (moving %d lessons > 30.0s intact to reserve pool) and distributing %d additional 10-30s lessons...",
+            len(kept_under_30),
+            len(base_seed_lessons) - len(kept_under_30),
+            needed_to_reach_100,
+        )
+
+        all_candidate_clips = sequencer.score_and_deduplicate(
+            clips=collected_clips,
+            existing_clip_ids=kept_ids,
+            existing_texts=kept_texts,
+            max_regular_clips=None,
+        )
+        cands_10_20 = sorted(
+            [c for c in all_candidate_clips if 10.0 <= c.duration_seconds < 20.0],
+            key=lambda c: (c.duration_seconds, c.difficulty_score),
+        )
+        cands_20_30 = sorted(
+            [c for c in all_candidate_clips if 20.0 <= c.duration_seconds <= 30.0],
+            key=lambda c: (c.duration_seconds, c.difficulty_score),
+        )
+        cands_0_10 = sorted(
+            [c for c in all_candidate_clips if c.duration_seconds < 10.0],
+            key=lambda c: (c.pedagogical_stage, c.difficulty_score, c.duration_seconds),
+        )
+
+        # Target balanced distribution for Lessons 1-100: ~44 in 0-10s, ~28 in 10-20s, ~28 in 20-30s (all <= 30.0s)
+        existing_10_20_count = sum(1 for l in kept_under_30 if 10.0 <= (l.duration_seconds or 0.0) < 20.0)
+        existing_20_30_count = sum(1 for l in kept_under_30 if 20.0 <= (l.duration_seconds or 0.0) <= 30.0)
+        want_10_20 = max(0, 28 - existing_10_20_count)
+        want_20_30 = max(0, 28 - existing_20_30_count)
+
+        chosen_new_clips: list[NormalizedClip] = []
+        chosen_new_clips.extend(cands_10_20[:want_10_20])
+        chosen_new_clips.extend(cands_20_30[:want_20_30])
+        chosen_new_ids = {c.clip_id for c in chosen_new_clips}
+
+        if len(chosen_new_clips) < needed_to_reach_100:
+            rem_under_30 = [
+                c
+                for c in (cands_10_20 + cands_20_30 + cands_0_10)
+                if c.clip_id not in chosen_new_ids and c.duration_seconds <= 30.0
+            ]
+            chosen_new_clips.extend(rem_under_30[: needed_to_reach_100 - len(chosen_new_clips)])
+        elif len(chosen_new_clips) > needed_to_reach_100:
+            chosen_new_clips = chosen_new_clips[:needed_to_reach_100]
+
+        temp_new_lessons: list[Lesson] = []
+        for nc in chosen_new_clips:
+            if nc.clip_id in preserved_by_id and preserved_by_id[nc.clip_id].grammar_notes:
+                temp_new_lessons.append(preserved_by_id[nc.clip_id].model_copy(deep=True))
+            else:
+                skel = sequencer.build_lesson_skeleton(
+                    sorted_clips=[nc], max_lessons=1, existing_lessons=None
+                )[0]
+                enriched_nl = enricher.enrich_regular_lesson(skel, mock=args.mock)
+                preserved_by_id[nc.clip_id] = enriched_nl
+                temp_new_lessons.append(enriched_nl)
+
+        # Distribute new lessons with kept_under_30, re-number 1..100, and compute 7-lesson reviews (1-7, 8-14, ...)
         combined_lessons = sequencer.distribute_and_resequence(
-            existing_lessons=existing_lessons,
+            existing_lessons=kept_under_30,
             new_lessons=temp_new_lessons,
         )
         enriched_lessons = enricher.enrich_all_lessons(combined_lessons, mock=args.mock)
 
-        # Also export remaining unused dataset clips as pre-enriched reserve pool for "+50 New Lessons" button
+        # Export ALL remaining unused dataset clips (including the > 30s lessons from the original 65 and unused 0-10s lessons)
+        # to expansion_pool.json without deleting any clip or lesson data!
         used_ids = {l.clip_id for l in enriched_lessons if l.clip_id}
         used_txts = {(l.shona_text or "").strip().lower() for l in enriched_lessons if l.shona_text}
         reserve_clips = sequencer.score_and_deduplicate(
@@ -289,24 +365,69 @@ def main(argv: list[str] | None = None) -> int:
             existing_texts=used_txts,
             max_regular_clips=None,
         )
-        reserve_lessons = sequencer.build_lesson_skeleton(
-            sorted_clips=reserve_clips,
-            max_lessons=len(reserve_clips),
-            existing_lessons=None,
-        )
-        for idx, rl in enumerate(reserve_lessons):
-            reserve_lessons[idx] = enricher.enrich_regular_lesson(rl, mock=args.mock)
-            reserve_lessons[idx].type = "regular"
-            reserve_lessons[idx].review_summary = None
-            reserve_lessons[idx].review_exercises = []
-            reserve_lessons[idx].reviewed_lessons = []
+        reserve_lessons: list[Lesson] = []
+        for rc in reserve_clips:
+            if rc.clip_id in preserved_by_id and preserved_by_id[rc.clip_id].grammar_notes:
+                rl_copy = preserved_by_id[rc.clip_id].model_copy(deep=True)
+            else:
+                skel_r = sequencer.build_lesson_skeleton(
+                    sorted_clips=[rc], max_lessons=1, existing_lessons=None
+                )[0]
+                rl_copy = enricher.enrich_regular_lesson(skel_r, mock=args.mock)
+            rl_copy.type = "regular"
+            rl_copy.review_summary = None
+            rl_copy.review_exercises = []
+            rl_copy.reviewed_lessons = []
+            reserve_lessons.append(rl_copy)
 
-        expansion_pool_path = output_json_path.parent / "expansion_pool.json"
         expansion_pool_path.write_text(
             json.dumps([rl.model_dump() for rl in reserve_lessons], indent=2, ensure_ascii=False),
             encoding="utf-8",
         )
         logger.info("Exported %d pre-enriched reserve dataset lessons to %s", len(reserve_lessons), expansion_pool_path)
+    elif args.append and existing_lessons:
+        start_lesson_num = len(existing_lessons) + 1
+        selected_band_clips = sequencer.select_clips_for_expansion_band(
+            clips=collected_clips,
+            existing_clip_ids=existing_clip_ids,
+            existing_texts=existing_texts,
+            start_lesson_num=start_lesson_num,
+            batch_size=needed_regular_clips,
+        )
+        lessons = list(existing_lessons)
+        for bc in selected_band_clips:
+            next_num = len(lessons) + 1
+            active_ref = next_num - (sequencer.active_wave_start - 1) if next_num >= sequencer.active_wave_start else None
+            phase = "active" if next_num >= sequencer.active_wave_start else "passive"
+            words = (bc.shona_text or "").split()
+            preview_words = " ".join(words[:6]) + ("..." if len(words) > 6 else "")
+            if bc.clip_id in preserved_by_id and preserved_by_id[bc.clip_id].grammar_notes:
+                nl = preserved_by_id[bc.clip_id].model_copy(deep=True)
+            else:
+                skel = sequencer.build_lesson_skeleton(
+                    sorted_clips=[bc], max_lessons=1, existing_lessons=None
+                )[0]
+                nl = enricher.enrich_regular_lesson(skel, mock=args.mock)
+            nl.lesson_number = next_num
+            nl.phase = phase
+            nl.active_wave_review_lesson = active_ref
+            if next_num % sequencer.review_interval == 0:
+                rev_block = next_num // sequencer.review_interval
+                nl.type = "review"
+                nl.title = f"Chidzidzo {next_num}: {preview_words} (Dzokororo {rev_block})"
+                nl.reviewed_lessons = list(range(max(1, next_num - (sequencer.review_interval - 1)), next_num + 1))
+                nl.review_summary = None
+                nl.key_noun_classes_covered = []
+                nl.review_exercises = []
+            else:
+                nl.type = "regular"
+                nl.title = f"Chidzidzo {next_num}: {preview_words}"
+                nl.review_summary = None
+                nl.key_noun_classes_covered = []
+                nl.review_exercises = []
+                nl.reviewed_lessons = []
+            lessons.append(nl)
+        enriched_lessons = enricher.enrich_all_lessons(lessons, mock=args.mock)
     else:
         sorted_clips = sequencer.score_and_deduplicate(
             clips=collected_clips,

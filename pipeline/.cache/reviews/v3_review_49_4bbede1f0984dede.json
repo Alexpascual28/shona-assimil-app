@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 7 Comprehensive Review (Lessons 43–49)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 43–49)",
+        "points": [
+          "Lesson 43: \"Kirasi yanhasi yakanga yakanaka uye mudzidzisi akatsanangura zvose zvakanaka.\" — Today's class was great and the teacher explained everything clearly.",
+          "Lesson 44: \"Masvingo eKare akavakwa nemadzitateguru edu achishandisa matombo asina dhaka.\" — The ancient walls of Great Zimbabwe were built by our ancestors using stones without mortar.",
+          "Lesson 45: \"Mukadzi mutsvuku ane bvudzi dema ane mazino machena arikunyemwerera.\" — A light-complexioned woman with black hair and bright white teeth is smiling warmly.",
+          "Lesson 46: \"Handisati ndanyatsonzwisisa kuti chii chirikunetsa pafoni iyi, nokuti ndayedza kuibatidza ku...\" — I still have not fully understood what is wrong with this phone, because I have tried turnin...",
+          "Lesson 47: \"Rwendo rwedu rwekuenda kumakomo rwakanakidza chaizvo, kunyangwe zvazvo takasangana nemvura y...\" — Our trip to the mountains was truly wonderful; although we encountered heavy rain along the ...",
+          "Lesson 48: \"Kana tikashanda nesimba, tichibatsirana pachirongwa ichi, tinogona kupedza basa racho nenguv...\" — If we work hard and help one another on this project, we can finish the work on time and the...",
+          "Lesson 49: \"Imbwa yedu yakatanga kuhukura pakati pehusiku, ichivhundutsa vanhu vese vanga vakarara; zvak...\" — Our dog started barking in the middle of the night, startling everyone who was asleep, which..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakanga'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akavakwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Shona Greetings & Time of Day ('mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('takasangana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('tinogona'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Bilingual Education & Studying 'ChiShona' in Zimbabwean Schools: In Zimbabwean classrooms ('mukirasi'), Shona is taught as an official examined subject right through secondary school and university, alongside English, science, and history.",
+          "The Mortarless Stone Engineering of Great Zimbabwe ('Masvingo eKare'): Built by Shona ancestors ('madzitateguru edu') between 1100 and 1450 AD, the Great Enclosure at Great Zimbabwe features granite walls rising up to 11 metres high and 250 metres around, constructed from nearly a million hand-dressed granite blocks laid without a single drop of mortar ('matombo asina dhaka').",
+          "Warmth of the Smile ('Kunyemwerera') & Complexion Terms in Shona: In Shona, a warm smile ('kunyemwerera') is part of welcoming guests ('kugamuchira vaeni').",
+          "Troubleshooting Electronics & Phone Repair ('Chii Chiri Kunetsa paFoni'): Notice how Shona uses the verb '-batidza' ('to switch on / light') and '-baka' ('to catch fire / power on') for both lamps and electronic devices like phones ('foni') and computers!."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakanga')",
+    "Talking About the Past ('akavakwa')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Shona Greetings & Time of Day ('mangwanani')",
+    "Talking About the Past ('takasangana')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Home & Living Room Vocabulary: What is 'imba yokutandarira' in English?",
+      "options": [
+        "The kitchen where food is prepared",
+        "The living room / sitting room (room for socializing)",
+        "The outdoor granary for storing maize",
+        "The classroom at a secondary school"
+      ],
+      "correct_answer": "The living room / sitting room (room for socializing)",
+      "explanation": "From '-tandara' (spend time chatting/socializing), 'imba yokutandarira' is the living room."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Spatial Prepositions: How do you say 'in the middle of the room' in Shona?",
+      "options": [
+        "pamusoro peimba",
+        "parutivi peimba",
+        "pakati peimba",
+        "seri kweimba"
+      ],
+      "correct_answer": "pakati peimba",
+      "explanation": "'Pakati pe-' means 'in the middle / centre of'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Kitchen Appliances: Which Shona sentence describes 'a white refrigerator and brown cupboards'?",
+      "options": [
+        "tebhuro diki nezvigaro zviviri",
+        "gaba remaruva nemabhuku matatu",
+        "hwindo guru nemusuwo muchena",
+        "firiji chena nemakabati ebhurauni"
+      ],
+      "correct_answer": "firiji chena nemakabati ebhurauni",
+      "explanation": "'Firiji chena' = 'white refrigerator', and 'nemakabati ebhurauni' = 'and brown cupboards'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Describing Objects: In 'gaba remaruva rine ruvara rwebhuruu', what is blue?",
+      "options": [
+        "The flower vase",
+        "The flowers inside the garden",
+        "The wooden table in the corner",
+        "The curtain on the window"
+      ],
+      "correct_answer": "The flower vase",
+      "explanation": "'Gaba remaruva' means 'flower vase / pot of flowers', and 'rine ruvara rwebhuruu' means 'it has a blue colour'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 7 — Garden Tools: What are 'badza, foshoro, nehara' used for?",
+      "options": [
+        "Cooking sadza and relish in the kitchen",
+        "Cultivating the field and tending the garden (hoe, shovel, and rake)",
+        "Writing examinations in a school classroom",
+        "Repairing minibuses and trucks in town"
+      ],
+      "correct_answer": "Cultivating the field and tending the garden (hoe, shovel, and rake)",
+      "explanation": "'Badza' is a hand hoe, 'foshoro' is a shovel/spade, and 'hara' is a garden rake."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 7 — Translate this new review sentence: 'Pamusoro petebhuro pane gaba remaruva machena.'",
+      "options": [
+        "Beside the house there is a large green water tank.",
+        "Inside the kitchen there are four chairs and a stove.",
+        "On top of the table there is a vase of white flowers.",
+        "Underneath the tree there are farm tools and buckets."
+      ],
+      "correct_answer": "On top of the table there is a vase of white flowers.",
+      "explanation": "'Pamusoro petebhuro' = 'On top of the table', 'pane' = 'there is', 'gaba remaruva machena' = 'a vase of white flowers'."
+    }
+  ]
+}

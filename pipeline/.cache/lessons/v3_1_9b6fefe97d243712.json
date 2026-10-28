@@ -1,0 +1,329 @@
+{
+  "english_translation": "People on / at mwechete and / with motokari they are famba on / at nosangana in / singular gwagwa you nzi semu in / singular joma narobhati in / singular gabe on / at ne men on / at mwechete and / with vakadzi they are mhanyidzana people chienda to / at nzvimbo.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vanhu pamwechete nemotokari zvirikufamba panosangana mugwagwa unonzi Semu Mujoma naRobhati Mugabe. Pane varume pamwechete nevakadzi varikumhanyidzana vachienda kunzvimbo dzakasiyana.",
+      "english": "People on / at mwechete and / with motokari they are famba on / at nosangana in / singular gwagwa you nzi semu in / singular joma narobhati in / singular gabe on / at ne men on / at mwechete and / with vakadzi they are mhanyidzana people chienda to / at nzvimbo.",
+      "literal_gloss": "Vanhu [people] • pamwechete [on / at mwechete] • nemotokari [and / with motokari] • zvirikufamba [they are famba] • panosangana [on / at nosangana] • mugwagwa [in / singular gwagwa] • unonzi [you nzi] • Semu [semu] • Mujoma [in / singular joma] • naRobhati [narobhati] • Mugabe [in / singular gabe] • Pane [on / at ne] • varume [men] • pamwechete [on / at mwechete] • nevakadzi [and / with vakadzi] • varikumhanyidzana [they are mhanyidzana] • vachienda [people chienda] • kunzvimbo [to / at nzvimbo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamwechete",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwechete",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mwechete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemotokari",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -motokari",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with motokari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvirikufamba",
+          "morpheme_breakdown": "zviri (they are) + ku- (doing) + -famba",
+          "noun_class_or_concord": "Present Progressive (things are ...-ing)",
+          "literal_english": "they are famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panosangana",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nosangana",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nosangana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gwagwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "unonzi",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -nzi",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you nzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Semu",
+          "morpheme_breakdown": "semu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "semu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mujoma",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -joma",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular joma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "naRobhati",
+          "morpheme_breakdown": "narobhati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "narobhati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Mugabe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gabe",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gabe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "varume",
+          "morpheme_breakdown": "va- + -rume (men)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "men",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamwechete",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwechete",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mwechete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nevakadzi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -vakadzi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with vakadzi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "varikumhanyidzana",
+          "morpheme_breakdown": "vari (they are) + ku- (doing) + -mhanyidzana",
+          "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+          "literal_english": "they are mhanyidzana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachienda",
+          "morpheme_breakdown": "va- (plural people prefix) + -chienda",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzvimbo",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzvimbo",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzvimbo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamwechete",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwechete",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mwechete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemotokari",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -motokari",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with motokari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvirikufamba",
+      "morpheme_breakdown": "zviri (they are) + ku- (doing) + -famba",
+      "noun_class_or_concord": "Present Progressive (things are ...-ing)",
+      "literal_english": "they are famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panosangana",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -nosangana",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at nosangana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "unonzi",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -nzi",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you nzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Semu",
+      "morpheme_breakdown": "semu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "semu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mujoma",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -joma",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular joma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "naRobhati",
+      "morpheme_breakdown": "narobhati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "narobhati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mugabe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gabe",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gabe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "varume",
+      "morpheme_breakdown": "va- + -rume (men)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "men",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamwechete",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwechete",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mwechete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nevakadzi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -vakadzi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with vakadzi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "varikumhanyidzana",
+      "morpheme_breakdown": "vari (they are) + ku- (doing) + -mhanyidzana",
+      "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+      "literal_english": "they are mhanyidzana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachienda",
+      "morpheme_breakdown": "va- (plural people prefix) + -chienda",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunzvimbo",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzvimbo",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nzvimbo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakasiyana')",
+      "content": "The verb 'dzakasiyana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('unonzi')",
+      "content": "The verb 'unonzi' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Vanhu pamwechete nemotokari zvirikufamba panosangana mugwagwa unonzi Semu Mujoma naRobhati Mugabe. Pane varume pamwechete nevakadzi varikumhanyidzana vachienda kunzvimbo dzakasiyana.' — \"People on / at mwechete and / with motokari they are famba on / at nosangana in / singular gwagwa you nzi semu in / singular joma narobhati in / singular gabe on / at ne men on / at mwechete and / with vakadzi they are mhanyidzana people chienda to / at nzvimbo.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Kombi chena iri kufamba pamugwagwa mukuru.'",
+      "options": [
+        "The white minibus is travelling along the main road.",
+        "The large red truck is parked at the fuel station.",
+        "Two people are standing beside the shop in town.",
+        "Our journey to the mountains was long but enjoyable."
+      ],
+      "correct_answer": "The white minibus is travelling along the main road.",
+      "explanation": "'Kombi chena' = 'The white minibus', 'iri kufamba' = 'is travelling', 'pamugwagwa mukuru' = 'along the main road'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

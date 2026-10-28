@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 15 Comprehensive Review (Lessons 99–105)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 99–105)",
+        "points": [
+          "Lesson 99: \"Pane mahara maviri nefoko ine musoro mutema imwechete. Zvose zvine mibato yemuti. Parutivi p...\" — There are two rakes and one garden fork with a black head. All of them have wooden handles. ...",
+          "Lesson 100: \"Maruva ane ruvara rwegirinhi yakachenuruka akadyarwa mugaba rine ruvara rwegirinhi yakachenu...\" — Plants with pale green leaves are planted in a light-green pot. This pot is set upon a cemen...",
+          "Lesson 101: \"Nzvimbo irimudhorobha guru reHarare umo munezvivakwa zvomudurikidzwa panewo vanhu vakawanda ...\" — In the capital city of Harare, multi-storey buildings rise above busy streets where crowds o...",
+          "Lesson 102: \"Bhusita riri pakati pemiti. Miti yacho yakasvibira ine ruvara rwegirinhi. Pane masora aripo ...\" — A signal booster stands surrounded by green trees, dry brownish grass, and a footpath passin...",
+          "Lesson 103: \"Chipukanana chinenge bete chakamhara pamusoro petafura ine ruvara rwegireyi ine mitsetse yer...\" — A beetle-like insect is perched on a grey table striped with white lines; it has brown wings...",
+          "Lesson 104: \"Manheru amai. Nhasi ndakaneta asi zvinhu zvafamba zvakanaka hazvo.\" — Good evening, Mother. Today I am tired, but things went well nonetheless.",
+          "Lesson 105: \"Twiza yakamisa musoro. Twiza iyi ine mavara mavara. Ine ruvara rwebhurauni namavara machena....\" — A giraffe holds its head high; its coat is patterned in brown and white, with two brown-and-..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Colours & Describing Objects in Shona ('mutema'): Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)",
+          "Talking About the Past ('yakachenuruka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakawanda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakasvibira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('chakamhara'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Shona Greetings & Time of Day ('Manheru'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Homestead Garden Tools ('Maturusi') & Local Blacksmith Craftsmanship: Every rural and suburban household in Zimbabwe keeps a set of sturdy hand tools—hoes ('mabadza'), rakes ('mahara'), digging forks ('mafoko'), and shovels ('mafoshoro')—fitted with carved hardwood handles ('mibato yemuti') to prepare vegetable beds and clear stony yard paths..",
+          "Veranda Container Gardening & Ornamental Plants in Zimbabwe: Container gardening—planting ornamental foliage and flowers ('maruva') in painted pots and tins ('magaba') arranged along smooth cement verandas ('pamusoro peuriri hwesimende')—is a cherished tradition in Zimbabwean homes, bringing greenery right to the doorstep even during the dry season..",
+          "Joina City & the Modern Skyline of Downtown Harare: Completed in 2010 at the intersection of Jason Moyo Avenue and Julius Nyerere Way, Joina City ('chivakwa chihombe cheJoina City') is one of Harare's tallest and busiest commercial and retail landmarks..",
+          "Telecommunications Towers ('Mabhusita') Connecting Rural & Urban Zimbabwe: Mobile network base stations—popularly called 'mabhusita' (boosters) in Shona—stand on hills and woodland clearings across Zimbabwe, enabling mobile voice calls and EcoCash digital payments even in remote rural districts.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Colours & Describing Objects in Shona ('mutema')",
+    "Talking About the Past ('yakachenuruka')",
+    "Talking About the Past ('vakawanda')",
+    "Talking About the Past ('yakasvibira')",
+    "Talking About the Past ('chakamhara')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 15 Review — Grammar Mastery: How do you say 'Although it rained heavily, we arrived home safely'?",
+      "options": [
+        "Kana mvura ikanaya mangwana, hatisi kuenda kumunda.",
+        "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+        "Mvura iri kunaya kunze saka vana vari mumba.",
+        "Zuva rakabuda masikati mbatya dzikaoma nekukurumidza."
+      ],
+      "correct_answer": "Kunyangwe mvura yakanaya zvakanyanya, takasvika kumba zvakanaka.",
+      "explanation": "'Kunyangwe' means 'although / even though', 'yakanaya' is past tense ('rained'), and 'takasvika' is 'we arrived'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 15 Review — Numbers & Colours: Which phrase means 'three white trucks and two black cars'?",
+      "options": [
+        "rori chena imwe nemotokari tsvuku nhatu",
+        "makombi maviri chena nemabhazi mana matema",
+        "marori machena matatu nemotokari nhema mbiri",
+        "shangu nhema mbiri nehembe tsvuku imwe"
+      ],
+      "correct_answer": "marori machena matatu nemotokari nhema mbiri",
+      "explanation": "'Marori machena matatu' = 'three white trucks' and 'nemotokari nhema mbiri' = 'and two black cars'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 15 Review — Locatives & Existence: Which word means 'Inside the wooden bowl there are roasted caterpillars'?",
+      "options": [
+        "Patafura pane mabhuku nezvinyoreso.",
+        "Kumusika kune michero nemiriwo mizhinji.",
+        "Parutivi pemugwagwa pane miti mirefu.",
+        "Mundiro yemuti mune madora akakangwa."
+      ],
+      "correct_answer": "Mundiro yemuti mune madora akakangwa.",
+      "explanation": "'Mu-' ('inside') + 'ndiro yemuti' ('wooden bowl') pairs with 'mune' ('there is inside')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 15 Review — Conditionals & Reciprocal Verbs: What does 'tikashanda nesimba tichibatsirana' mean?",
+      "options": [
+        "if we work hard helping one another",
+        "when they finished working at the market",
+        "because he worked alone in the field",
+        "before you start writing the examination"
+      ],
+      "correct_answer": "if we work hard helping one another",
+      "explanation": "'Tikashanda nesimba' = 'if we work with strength/hard', and 'tichibatsirana' ('-an-' reciprocal suffix) = 'helping each other'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Unit 15 Review — Cultural & Historical Vocabulary: What does the phrase 'zvivakwa zvematombo' refer to?",
+      "options": [
+        "wooden handles used on farm hoes and shovels",
+        "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+        "modern traffic lights at city intersections",
+        "plastic tanks mounted beside houses to store water"
+      ],
+      "correct_answer": "stone structures / buildings of stone (the origin of the name Zimbabwe)",
+      "explanation": "'Zvivakwa' means 'buildings / structures' and 'zvematombo' means 'of stones'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Unit 15 Review — Translate this new synthesis sentence into English: 'Vanhu vazhinji vari kutengesa michero nemiriwo pamusika.'",
+      "options": [
+        "Our ancestors built stone walls without mortar long ago.",
+        "Two women are sitting under an umbrella near the road.",
+        "Many people are selling fruits and vegetables at the market.",
+        "We are planning to visit our grandparents next month."
+      ],
+      "correct_answer": "Many people are selling fruits and vegetables at the market.",
+      "explanation": "'Vanhu vazhinji' = 'Many people', 'vari kutengesa' = 'are selling', 'michero nemiriwo' = 'fruits and vegetables', 'pamusika' = 'at the market'."
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "english_translation": "A young woman has her hair beautifully braided into neat three-strand plaits sweeping from each side toward the ears, creating a stylish interlocking pattern.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Musikana akagadzirwa mumusoro wake zvakanaka. Akarukwa mamumutatu imwe ichibva nechapadivi ichienda kunzeve.",
+      "english": "A girl has her hair neatly styled, braided in three-strand plaits sweeping from the side toward the ear.",
+      "literal_gloss": "Musikana [in / singular sikana] • akagadzirwa [he/she (past) gadzirwa] • mumusoro [in / singular musoro] • wake [wake] • zvakanaka [well / nicely / very good] • Akarukwa [he/she (past) rukwa] • mamumutatu [plural mumutatu] • imwe [imwe]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Musikana",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular sikana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akagadzirwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gadzirwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) gadzirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumusoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -musoro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wake",
+          "morpheme_breakdown": "wake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Akarukwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) rukwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mamumutatu",
+          "morpheme_breakdown": "ma- (plural prefix) + -mumutatu",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural mumutatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichibva",
+          "morpheme_breakdown": "ichibva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichibva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechapadivi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chapadivi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chapadivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichienda",
+          "morpheme_breakdown": "ichienda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzeve",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzeve",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzeve",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Imwewo yobva nekunerumwe rutivi ichienda kunzeve. Yakapindana zvakanaka uye munhu kana akatarisa parikubuda chitaira chakanaka zvikuru.",
+      "english": "Another plait sweeps from the other side toward the ear, interlocking neatly into a very attractive hairstyle.",
+      "literal_gloss": "Imwewo [imwewo] • yobva [yobva] • nekunerumwe [and / with kunerumwe] • rutivi [rutivi] • ichienda [ichienda] • kunzeve [to / at nzeve] • Yakapindana [it (past) pindana] • zvakanaka [well / nicely / very good]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imwewo",
+          "morpheme_breakdown": "imwewo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yobva",
+          "morpheme_breakdown": "yobva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yobva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekunerumwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kunerumwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kunerumwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rutivi",
+          "morpheme_breakdown": "rutivi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichienda",
+          "morpheme_breakdown": "ichienda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichienda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzeve",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzeve",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzeve",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Yakapindana",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -pindana",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) pindana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munhu",
+          "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "person",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akatarisa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -tarisa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) tarisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "parikubuda",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rikubuda",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rikubuda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chitaira",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -taira",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing taira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakanaka",
+          "morpheme_breakdown": "chakanaka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakanaka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Musikana",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -sikana",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular sikana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akagadzirwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -gadzirwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) gadzirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumusoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -musoro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wake",
+      "morpheme_breakdown": "wake (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wake",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Akarukwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -rukwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) rukwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mamumutatu",
+      "morpheme_breakdown": "ma- (plural prefix) + -mumutatu",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural mumutatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwe",
+      "morpheme_breakdown": "imwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichibva",
+      "morpheme_breakdown": "ichibva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichibva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nechapadivi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chapadivi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chapadivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichienda",
+      "morpheme_breakdown": "ichienda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunzeve",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzeve",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nzeve",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Imwewo",
+      "morpheme_breakdown": "imwewo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwewo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yobva",
+      "morpheme_breakdown": "yobva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yobva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekunerumwe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kunerumwe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kunerumwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rutivi",
+      "morpheme_breakdown": "rutivi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichienda",
+      "morpheme_breakdown": "ichienda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichienda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunzeve",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzeve",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nzeve",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akagadzirwa')",
+      "content": "The verb 'akagadzirwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('imwe')",
+      "content": "In Shona, number words like 'imwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumusoro')",
+      "content": "Look at how location is expressed with 'mumusoro'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Art of Three-Strand Hair Braiding ('Kurukwa Mamumutatu')",
+      "content": "Hair braiding ('kuruka musoro') is both a treasured social tradition and a skilled creative art in Zimbabwe. Styles like 'mamumutatu' (three-strand interlocking cornrows sweeping toward the ears) showcase precision and geometric artistry.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    }
+  ]
+}

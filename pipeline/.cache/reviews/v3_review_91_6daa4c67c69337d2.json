@@ -1,0 +1,120 @@
+{
+  "review_summary": {
+    "title": "Unit 13 Comprehensive Review (Lessons 85–91)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 85–91)",
+        "points": [
+          "Lesson 85: \"Imba yokubikira. Ine makabhodhi mahombe akapendwa neruvara ruchena uyewo mune chitofu chitem...\" — Imba yokubikira ine plural kabhodhi plural hombe he/she (past) pendwa and / with ruvara whit...",
+          "Lesson 86: \"Kombi chena iri kuratidza kuti yakatakura vanhu uye iri kufamba mumugwagwa. Padivi pekombi i...\" — A white commuter omnibus (kombi) is carrying passengers and driving along the road. Next to ...",
+          "Lesson 87: \"Vatambi vemutambi webhora. Vashanu vakamira, vaviri vakatonona mberi. Unenhumbi dzakasiyana ...\" — Football players pose together: five are standing and two are crouching in front. One player...",
+          "Lesson 88: \"Motokari imwe chete iri kufamba mumugwagwa ine ruvara rwesirivha uye ine chikwangwari chine ...\" — Car / vehicle imwe chete iri to / at famba in / singular mugwagwa ine colour rwesirivha and ...",
+          "Lesson 89: \"Munhukadzi mutsvuku akatsikitsira. Ane musoro une vhudzi jena rakagerwa nechekumativi pakais...\" — A light-complexioned woman looks downward; her blonde-dyed hair is closely trimmed on the si...",
+          "Lesson 90: \"Banga idema, rine kumuromo kwakatesvera. Rinoshandiswa kuita mabasa akasiyana mumba yokubiki...\" — A black-handled kitchen knife with a sharp pointed blade—used for cutting meat and vegetable...",
+          "Lesson 91: \"Dhirezi riri mufashoni. Rakareba kuvhara makumbo. Rino ruvara rutsvuku noruchena nerwebhurau...\" — Dhirezi riri in / singular fashoni it (past) reba to / at vhara plural kumbo rino colour red..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('makabhodhi'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakatakura'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakamira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Talking About the Past ('akatsikitsira'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akasiyana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Imba yokubikira.",
+          "Urban Commuter Minibuses ('Makombi') & Suburban Transit: In Harare, Bulawayo, Gweru, and Mutare, white commuter minibuses known as 'makombi' (singular: 'kombi') are the lifeblood of daily urban transit, shuttling commuters between tree-lined residential suburbs and the central business district from early morning until evening..",
+          "The Goalkeeper ('Mubati Wapagedhi') & Team Football Portraits: Before kickoff in Zimbabwean football matches, teams pose in a classic two-row formation—players standing at the back ('vakamira') and crouching in front ('vakatonona mberi')—with the goalkeeper ('mubati wapagedhi') distinguished by his gloves ('magirovhosi')..",
+          "Shona Cultural & Everyday Context (Lesson 1): This expression ('Motokari imwe chete iri kufamba mumugwagwa ine ruvara rwesirivha uye ine chikwangwari chine ruvara rweyero."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('makabhodhi')",
+    "Talking About the Past ('yakatakura')",
+    "Talking About the Past ('vakamira')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Talking About the Past ('akatsikitsira')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Rural Kinship: Who are 'mbuya nasekuru' when you travel 'kumusha' to visit them?",
+      "options": [
+        "Brother and Sister",
+        "Teacher and Principal",
+        "Friends and Neighbours",
+        "Grandmother and Grandfather"
+      ],
+      "correct_answer": "Grandmother and Grandfather",
+      "explanation": "'Mbuya' is Grandmother and 'sekuru' is Grandfather (or maternal uncle)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Concessive Clauses: Which Shona conjunction introduces 'Although / Even though we encountered heavy rain along the way'?",
+      "options": [
+        "kunyangwe zvazvo",
+        "nokuti",
+        "saka",
+        "pamwe"
+      ],
+      "correct_answer": "kunyangwe zvazvo",
+      "explanation": "'Kunyangwe' (or 'kunyangwe zvazvo') means 'although / even though'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Rural Transport: In 'Madhongi maviri ari kudhonza ngoro pamugwagwa usina tara', what is 'mugwagwa usina tara'?",
+      "options": [
+        "A wide city highway with streetlights",
+        "An unpaved / untarred dirt road",
+        "A narrow wooden bridge over a river",
+        "A railway line for passenger trains"
+      ],
+      "correct_answer": "An unpaved / untarred dirt road",
+      "explanation": "'Mugwagwa' = 'road', 'usina' = 'that does not have / without', 'tara' = 'tar'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Teamwork & Conditionals: In 'Kana tikashanda nesimba, tichibatsirana', what does 'tichibatsirana' express?",
+      "options": [
+        "before starting the work",
+        "without talking to anyone",
+        "while helping one another",
+        "after finishing the lesson"
+      ],
+      "correct_answer": "while helping one another",
+      "explanation": "Participial 'tichi-' ('while we...') + '-batsirana' ('help each other') = 'while helping one another'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 13 — Mining & Industry: What does 'kunocherwa zvicherwa' mean in the passage about the large tipper truck?",
+      "options": [
+        "where fresh fruits and vegetables are sold",
+        "where buses pick up passengers in town",
+        "where clothes are washed and dried",
+        "where minerals are mined / dug from the earth"
+      ],
+      "correct_answer": "where minerals are mined / dug from the earth",
+      "explanation": "'-cherwa' is the passive of '-chera' (dig/mine), and 'zvicherwa' means 'minerals'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 13 — Translate this new review sentence: 'Kunyangwe mugwagwa waiva nemakomba, takasvika kumusha kwambuya zvakanaka.'",
+      "options": [
+        "Although the road had potholes, we arrived safely at Grandmother's rural home.",
+        "Next month we will travel to the mountains with our friends.",
+        "The two donkeys are pulling a heavy cart along the dirt road.",
+        "If we work hard together, we will finish the project on time."
+      ],
+      "correct_answer": "Although the road had potholes, we arrived safely at Grandmother's rural home.",
+      "explanation": "'Kunyangwe mugwagwa waiva nemakomba' = 'Although the road had potholes', 'takasvika kumusha kwambuya zvakanaka' = 'we arrived safely at Grandmother's rural home'."
+    }
+  ]
+}

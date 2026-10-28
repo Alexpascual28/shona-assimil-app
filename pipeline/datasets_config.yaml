@@ -45,7 +45,7 @@ dataset_overrides:
 filtering:
   target_sampling_rate: 16000
   min_duration_seconds: 2.0
-  max_duration_seconds: 90.0
+  max_duration_seconds: 120.0
   min_words: 2
   target_dialect: Zezuru
   min_dialect_confidence: 0.75

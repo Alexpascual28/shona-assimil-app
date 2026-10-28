@@ -1,0 +1,329 @@
+{
+  "english_translation": "Dzimba dzakawanda dzemurokesheni dzine plural tenga anemataira plural tsvuku and / furthermore on / at ne trees dzakawanda dzine leaves egirinhi nzvimbo it tengeserwa shirt / garment shirt / garment.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Dzimba dzakawanda dzemurokesheni. Dzine matenga anemataira matsvuku uye pane miti dzakawanda dzine mashizha egirinhi. Nzvimbo inotengeserwa hembe. Hembe dzacho ndedziya dzekuti unopfeka kana uchida hako kufamba wakasununguka. Kana kuti unogona kudzipfeka uchida kuita zvemutambo.",
+      "english": "Dzimba dzakawanda dzemurokesheni dzine plural tenga anemataira plural tsvuku and / furthermore on / at ne trees dzakawanda dzine leaves egirinhi nzvimbo it tengeserwa shirt / garment shirt / garment.",
+      "literal_gloss": "Dzimba [dzimba] • dzakawanda [dzakawanda] • dzemurokesheni [dzemurokesheni] • Dzine [dzine] • matenga [plural tenga] • anemataira [anemataira] • matsvuku [plural tsvuku] • uye [and / furthermore] • pane [on / at ne] • miti [trees] • dzakawanda [dzakawanda] • dzine [dzine] • mashizha [leaves] • egirinhi [egirinhi] • Nzvimbo [nzvimbo] • inotengeserwa [it tengeserwa] • hembe [shirt / garment] • Hembe [shirt / garment]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Dzimba",
+          "morpheme_breakdown": "dzimba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzimba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakawanda",
+          "morpheme_breakdown": "dzakawanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakawanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzemurokesheni",
+          "morpheme_breakdown": "dzemurokesheni (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzemurokesheni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Dzine",
+          "morpheme_breakdown": "dzine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matenga",
+          "morpheme_breakdown": "ma- (plural prefix) + -tenga",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anemataira",
+          "morpheme_breakdown": "anemataira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "anemataira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matsvuku",
+          "morpheme_breakdown": "ma- (plural prefix) + -tsvuku",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miti",
+          "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+          "noun_class_or_concord": "Plural Noun (mi-)",
+          "literal_english": "trees",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakawanda",
+          "morpheme_breakdown": "dzakawanda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakawanda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzine",
+          "morpheme_breakdown": "dzine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "egirinhi",
+          "morpheme_breakdown": "egirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "egirinhi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Nzvimbo",
+          "morpheme_breakdown": "nzvimbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inotengeserwa",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -tengeserwa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it tengeserwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hembe",
+          "morpheme_breakdown": "hembe (shirt / clothes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shirt / garment",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Hembe",
+          "morpheme_breakdown": "hembe (shirt / clothes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shirt / garment",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Dzimba",
+      "morpheme_breakdown": "dzimba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzimba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakawanda",
+      "morpheme_breakdown": "dzakawanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakawanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzemurokesheni",
+      "morpheme_breakdown": "dzemurokesheni (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzemurokesheni",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Dzine",
+      "morpheme_breakdown": "dzine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matenga",
+      "morpheme_breakdown": "ma- (plural prefix) + -tenga",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anemataira",
+      "morpheme_breakdown": "anemataira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "anemataira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matsvuku",
+      "morpheme_breakdown": "ma- (plural prefix) + -tsvuku",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miti",
+      "morpheme_breakdown": "mi- (plural) + -ti (trees)",
+      "noun_class_or_concord": "Plural Noun (mi-)",
+      "literal_english": "trees",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakawanda",
+      "morpheme_breakdown": "dzakawanda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakawanda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzine",
+      "morpheme_breakdown": "dzine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mashizha",
+      "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "leaves",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "egirinhi",
+      "morpheme_breakdown": "egirinhi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "egirinhi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Nzvimbo",
+      "morpheme_breakdown": "nzvimbo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inotengeserwa",
+      "morpheme_breakdown": "i- (it) + -no- (present) + -tengeserwa",
+      "noun_class_or_concord": "Present Tense Verb (it ...)",
+      "literal_english": "it tengeserwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hembe",
+      "morpheme_breakdown": "hembe (shirt / clothes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shirt / garment",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Hembe",
+      "morpheme_breakdown": "hembe (shirt / clothes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shirt / garment",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakawanda')",
+      "content": "The verb 'dzakawanda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inotengeserwa')",
+      "content": "The verb 'inotengeserwa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('matsvuku')",
+      "content": "This passage uses colour vocabulary such as 'matsvuku'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Shona Cultural & Everyday Context (Lesson 1)",
+      "content": "This expression ('Dzimba dzakawanda dzemurokesheni. Dzine matenga anemataira matsvuku uye pane miti dzakawanda dzine mashizha egirinhi. Nzvimbo inotengeserwa hembe.\nHembe dzacho ndedziya dzekuti unopfeka kana uchida hako kufamba wakasununguka. Kana kuti unogona kudzipfeka uchida kuita zvemutambo.' — \"Dzimba dzakawanda dzemurokesheni dzine plural tenga anemataira plural tsvuku and / furthermore on / at ne trees dzakawanda dzine leaves egirinhi nzvimbo it tengeserwa shirt / garment shirt / garment.\") reflects how Shona speakers connect daily family life, work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    }
+  ]
+}

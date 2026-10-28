@@ -1,0 +1,287 @@
+{
+  "english_translation": "A red flag features an emblem of the sun at its centre, crossed by three lines—two of them intersecting in the middle.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mureza mutsvuku une mufananidzo wezuva uri pakati pawo.Pakati pezuva pane mitaro mitatu, miviri yakapesana pakati.",
+      "english": "A red flag has an image of the sun in the middle, with three lines inside the sun, two of them crossing at the centre.",
+      "literal_gloss": "Mureza [in / singular reza] • mutsvuku [in / singular tsvuku] • une [une] • mufananidzo [in / singular fananidzo] • wezuva [wezuva] • uri [uri] • pakati [on / at kati] • pawo.Pakati [on / at wo.pakati]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mureza",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular reza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutsvuku",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mufananidzo",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -fananidzo",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular fananidzo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wezuva",
+          "morpheme_breakdown": "wezuva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wezuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uri",
+          "morpheme_breakdown": "uri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "uri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pawo.Pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -wo.pakati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at wo.pakati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pezuva",
+          "morpheme_breakdown": "pezuva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pezuva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitaro",
+          "morpheme_breakdown": "mitaro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitaro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitatu",
+          "morpheme_breakdown": "mitatu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miviri",
+          "morpheme_breakdown": "miviri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "miviri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakapesana",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -pesana",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) pesana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mureza",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular reza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutsvuku",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tsvuku",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mufananidzo",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -fananidzo",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular fananidzo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wezuva",
+      "morpheme_breakdown": "wezuva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wezuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uri",
+      "morpheme_breakdown": "uri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "uri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pawo.Pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -wo.pakati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at wo.pakati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pezuva",
+      "morpheme_breakdown": "pezuva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pezuva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitaro",
+      "morpheme_breakdown": "mitaro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitaro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitatu",
+      "morpheme_breakdown": "mitatu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "miviri",
+      "morpheme_breakdown": "miviri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "miviri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakapesana",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -pesana",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) pesana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakati",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kati",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakapesana')",
+      "content": "The verb 'yakapesana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mutsvuku')",
+      "content": "This passage uses colour vocabulary such as 'mutsvuku'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('mitatu')",
+      "content": "In Shona, number words like 'mitatu' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Flags, Symbols & Civic Emblems ('Mureza')",
+      "content": "Learning to describe flags ('mireza') and geometric symbols in Shona—such as 'mufananidzo wezuva' (emblem of the sun) and 'mitaro yakapesana' (intersecting lines)—builds essential vocabulary for discussing African and international vexillology.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tine mabhuku mana patafura.'",
+      "options": [
+        "We have four books on the table.",
+        "There are three cups in the kitchen.",
+        "Wait here for five minutes please.",
+        "Two children are reading outside."
+      ],
+      "correct_answer": "We have four books on the table.",
+      "explanation": "'Tine' = 'We have', 'mabhuku mana' = 'four books', 'patafura' = 'on the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}
