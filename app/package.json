@@ -2,6 +2,7 @@
   "name": "shona-assimil-app",
   "version": "1.0.0",
   "description": "Offline-first Shona Assimil Desktop Learning Application",
+  "author": "Antigravity",
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
@@ -40,6 +41,7 @@
   "build": {
     "appId": "com.shona.assimil.desktop",
     "productName": "Shona Assimil ChiZezuru",
+    "electronDist": "node_modules/electron/dist",
     "directories": {
       "output": "release"
     },
