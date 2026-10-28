@@ -1,0 +1,6 @@
+node_modules/
+tools/node/
+app/release/
+app/node_modules/
+*.exe
+*.asar
