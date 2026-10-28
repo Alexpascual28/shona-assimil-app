@@ -1,0 +1,175 @@
+{
+  "english_translation": "Zezuru utterance (grandmother / respected elder woman / people / elders [ngu] / they did [zvara] / child / anemusoro / person / singular / inside [kuru] / uye / ane)",
+  "literal_gloss": [
+    {
+      "shona_word": "mbuya",
+      "morpheme_breakdown": "Ø- (Cl. 1a) + -mbuya (grandmother)",
+      "noun_class_or_concord": "Mupanda 1a/2a Honorific Kinship Noun",
+      "literal_english": "grandmother / respected elder woman",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vangu",
+      "morpheme_breakdown": "va- (Cl. 2 plural / honorific prefix) + -ngu (stem)",
+      "noun_class_or_concord": "Mupanda 2 Prefix (va-)",
+      "literal_english": "people / elders [ngu]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "vakazvara",
+      "morpheme_breakdown": "va- (Cl. 2 subj) + -ka- (remote past) + -zvara (stem)",
+      "noun_class_or_concord": "Class 2 (va-) Past Subject Concord",
+      "literal_english": "they did [zvara]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- (Cl. 1) + -ana (child)",
+      "noun_class_or_concord": "Mupanda 1 (mu-) Noun",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anemusoro",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -anemusoro (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "anemusoro",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "mukuru",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -kuru (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [kuru]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uye (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uye",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ane (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ane",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "nhova",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -nhova (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "nhova",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "yakapfava",
+      "morpheme_breakdown": "ya- (Cl. 9 past) + -ka- + -pfava (stem)",
+      "noun_class_or_concord": "Mupanda 9 (i-) Past Concord (yaka-)",
+      "literal_english": "it (Cl. 9) did [pfava]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "zvingaite",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -ngaite (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [ngaite]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "dambudziko",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -dambudziko (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "dambudziko",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "anotofanira",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -no- (pres. hab.) + -tofanira (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Subject Concord (a-)",
+      "literal_english": "he/she habitually [tofanira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kunoongoorwa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -noongoorwa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [noongoorwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuchipatara",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -chipatara (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [chipatara]",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'mbuya' establishes the noun class/subject frame (Mupanda 1a/2a Honorific Kinship Noun).",
+    "Agglutinative Morphology: 'kuchipatara' combines prefixal/suffixal morphemes (ku- (Cl. 15 infinitive / Cl. 17 locative) + -chipatara (stem)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'mbuya vangu vakazvara mwana anemusoro mukuru uye ane nhova yakapfava zvingaite dambudziko here kana kuti anotofanira kunoongoorwa ______' (Zezuru utterance (grandmother / respected elder woman / people / elders [ngu] / they did [zvara] / child / anemusoro / person / singular / inside [kuru] / uye / ane))",
+      "options": [
+        "kuchipatara",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "kuchipatara",
+      "explanation": "'kuchipatara' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'mbuya' in 'mbuya vangu vakazvara mwana anemusoro mukuru uye ane nhova yakapfava zvingaite dambudziko here kana kuti anotofanira kunoongoorwa kuchipatara'?",
+      "options": [
+        "Mupanda 1a/2a Honorific Kinship Noun",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 1a/2a Honorific Kinship Noun",
+      "explanation": "'mbuya' operates under Mupanda 1a/2a Honorific Kinship Noun in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'mbuya vangu vakazvara mwana anemusoro mukuru uye ane nhova yakapfava zvingaite dambudziko here kana kuti anotofanira kunoongoorwa kuchipatara'",
+      "options": [
+        "Zezuru utterance (grandmother / respected elder woman / people / elders [ngu] / they did [zvara] / child / anemusoro / person / singular / inside [kuru] / uye / ane)",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (grandmother / respected elder woman / people / elders [ngu] / they did [zvara] / child / anemusoro / person / singular / inside [kuru] / uye / ane)",
+      "explanation": "'mbuya vangu vakazvara mwana anemusoro mukuru uye ane nhova yakapfava zvingaite dambudziko here kana kuti anotofanira kunoongoorwa kuchipatara' translates idiomatically as 'Zezuru utterance (grandmother / respected elder woman / people / elders [ngu] / they did [zvara] / child / anemusoro / person / singular / inside [kuru] / uye / ane)'."
+    }
+  ]
+}

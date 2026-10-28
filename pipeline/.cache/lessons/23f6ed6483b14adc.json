@@ -1,0 +1,147 @@
+{
+  "english_translation": "Community health consultation in Zezuru: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe hand'",
+  "literal_gloss": [
+    {
+      "shona_word": "ndinorwadziwa",
+      "morpheme_breakdown": "ndi- (1sg subj) + -no- (pres. hab.) + -rwadziwa (stem)",
+      "noun_class_or_concord": "1st Person Sg Subject Concord (ndi-)",
+      "literal_english": "I habitually [rwadziwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "panguva",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -nguva (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [nguva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "dzepabonde",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -dzepabonde (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "dzepabonde",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndinganoona",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndinganoona (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndinganoona",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "chiremba",
+      "morpheme_breakdown": "chi- (Cl. 7) + -remba (doctor/healer)",
+      "noun_class_or_concord": "Mupanda 7/1a Title Noun",
+      "literal_english": "doctor / physician",
+      "tone_pattern": "L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndibatsirwe",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndibatsirwe (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndibatsirwe",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "handichaziva",
+      "morpheme_breakdown": "ha- (neg) + ndi- (1sg subj) + -chaziva (stem)",
+      "noun_class_or_concord": "1st Person Sg Negative Concord (handi-)",
+      "literal_english": "I do not [chaziva]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chii",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -chii (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "chii",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chiri",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -ri (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [ri]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuitika",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -itika (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [itika]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "pandiri",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -ndiri (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [ndiri]",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndinorwadziwa' establishes the noun class/subject frame (1st Person Sg Subject Concord (ndi-)).",
+    "Agglutinative Morphology: 'pandiri' combines prefixal/suffixal morphemes (pa- (Cl. 16 locative prefix) + -ndiri (stem)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe handichaziva kuti chii chiri kuitika ______' (Community health consultation in Zezuru: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe hand')",
+      "options": [
+        "pandiri",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "pandiri",
+      "explanation": "'pandiri' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndinorwadziwa' in 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe handichaziva kuti chii chiri kuitika pandiri'?",
+      "options": [
+        "1st Person Sg Subject Concord (ndi-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Subject Concord (ndi-)",
+      "explanation": "'ndinorwadziwa' operates under 1st Person Sg Subject Concord (ndi-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe handichaziva kuti chii chiri kuitika pandiri'",
+      "options": [
+        "Community health consultation in Zezuru: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe hand'",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Community health consultation in Zezuru: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe hand'",
+      "explanation": "'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe handichaziva kuti chii chiri kuitika pandiri' translates idiomatically as 'Community health consultation in Zezuru: 'ndinorwadziwa panguva dzepabonde ndinganoona chiremba here kuti ndibatsirwe hand''."
+    }
+  ]
+}

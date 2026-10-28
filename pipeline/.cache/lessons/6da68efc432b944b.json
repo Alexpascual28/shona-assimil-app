@@ -1,0 +1,168 @@
+{
+  "english_translation": "Zezuru utterance (ndukunzwa / to (infinitive) / towards [vaviwa] / around / my / private / at / on (specific point) [rts] / ndingadawo / to (infinitive) / towards [ziva])",
+  "literal_gloss": [
+    {
+      "shona_word": "ndukunzwa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndukunzwa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndukunzwa",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuvaviwa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -vaviwa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [vaviwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "around",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -around (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "around",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "my",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -my (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "my",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "private",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -private (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "private",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "parts",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -rts (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [rts]",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "ndingadawo",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingadawo (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingadawo",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chii",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -chii (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "chii",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chingave",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -ngave (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [ngave]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "chisina",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -sina (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [sina]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kumira",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -mira (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [mira]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zvi- (Cl. 8) + -aka- (stative) + -nak- (be good) + -a",
+      "noun_class_or_concord": "Mupanda 8 Subject Concord (zva-)",
+      "literal_english": "very well / it is good",
+      "tone_pattern": "L-L-H-L"
+    },
+    {
+      "shona_word": "chingange",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -ngange (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [ngange]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "chakanganisika",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -chakanganisika (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "chakanganisika",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "pandiri",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -ndiri (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [ndiri]",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndukunzwa' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'pandiri' combines prefixal/suffixal morphemes (pa- (Cl. 16 locative prefix) + -ndiri (stem)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndukunzwa kuvaviwa .around my private parts ndingadawo kuziva kuti chii chingave chisina kumira zvakanaka chingange chakanganisika ______' (Zezuru utterance (ndukunzwa / to (infinitive) / towards [vaviwa] / around / my / private / at / on (specific point) [rts] / ndingadawo / to (infinitive) / towards [ziva]))",
+      "options": [
+        "pandiri",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "pandiri",
+      "explanation": "'pandiri' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndukunzwa' in 'ndukunzwa kuvaviwa .around my private parts ndingadawo kuziva kuti chii chingave chisina kumira zvakanaka chingange chakanganisika pandiri'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'ndukunzwa' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndukunzwa kuvaviwa .around my private parts ndingadawo kuziva kuti chii chingave chisina kumira zvakanaka chingange chakanganisika pandiri'",
+      "options": [
+        "Zezuru utterance (ndukunzwa / to (infinitive) / towards [vaviwa] / around / my / private / at / on (specific point) [rts] / ndingadawo / to (infinitive) / towards [ziva])",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (ndukunzwa / to (infinitive) / towards [vaviwa] / around / my / private / at / on (specific point) [rts] / ndingadawo / to (infinitive) / towards [ziva])",
+      "explanation": "'ndukunzwa kuvaviwa .around my private parts ndingadawo kuziva kuti chii chingave chisina kumira zvakanaka chingange chakanganisika pandiri' translates idiomatically as 'Zezuru utterance (ndukunzwa / to (infinitive) / towards [vaviwa] / around / my / private / at / on (specific point) [rts] / ndingadawo / to (infinitive) / towards [ziva])'."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "english_translation": "Zezuru utterance (people / elders [kuru] / people / elders [ititi] / to (infinitive) / towards [hotsira] / kwemwana / koreva / to (infinitive) / towards [ti] / at / on (specific point) [ne] / person / singular / inside [nhu])",
+  "literal_gloss": [
+    {
+      "shona_word": "vakuru",
+      "morpheme_breakdown": "va- (Cl. 2 plural / honorific prefix) + -kuru (stem)",
+      "noun_class_or_concord": "Mupanda 2 Prefix (va-)",
+      "literal_english": "people / elders [kuru]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "vaititi",
+      "morpheme_breakdown": "va- (Cl. 2 plural / honorific prefix) + -ititi (stem)",
+      "noun_class_or_concord": "Mupanda 2 Prefix (va-)",
+      "literal_english": "people / elders [ititi]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuhotsira",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -hotsira (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [hotsira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kwemwana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kwemwana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kwemwana",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "koreva",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -koreva (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "koreva",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -ne (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [ne]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "munhu",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -nhu (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [nhu]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "anenge",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -anenge (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "anenge",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "achimufunga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -achimufunga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "achimufunga",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ichokwadi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ichokwadi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ichokwadi",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uye (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uye",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndinga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndinga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndinga",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "misa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -misa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "misa",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuhotsira",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -hotsira (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [hotsira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kwemwana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kwemwana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kwemwana",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'vakuru' establishes the noun class/subject frame (Mupanda 2 Prefix (va-)).",
+    "Agglutinative Morphology: 'kwemwana' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -kwemwana (root)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'vakuru vaititi kuhotsira ______ koreva kuti pane munhu anenge achimufunga ichokwadi here uye ndinga misa sei kuhotsira kwemwana' (Zezuru utterance (people / elders [kuru] / people / elders [ititi] / to (infinitive) / towards [hotsira] / kwemwana / koreva / to (infinitive) / towards [ti] / at / on (specific point) [ne] / person / singular / inside [nhu]))",
+      "options": [
+        "kwemwana",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "kwemwana",
+      "explanation": "'kwemwana' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'vakuru' in 'vakuru vaititi kuhotsira kwemwana koreva kuti pane munhu anenge achimufunga ichokwadi here uye ndinga misa sei kuhotsira kwemwana'?",
+      "options": [
+        "Mupanda 2 Prefix (va-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 2 Prefix (va-)",
+      "explanation": "'vakuru' operates under Mupanda 2 Prefix (va-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'vakuru vaititi kuhotsira kwemwana koreva kuti pane munhu anenge achimufunga ichokwadi here uye ndinga misa sei kuhotsira kwemwana'",
+      "options": [
+        "Zezuru utterance (people / elders [kuru] / people / elders [ititi] / to (infinitive) / towards [hotsira] / kwemwana / koreva / to (infinitive) / towards [ti] / at / on (specific point) [ne] / person / singular / inside [nhu])",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (people / elders [kuru] / people / elders [ititi] / to (infinitive) / towards [hotsira] / kwemwana / koreva / to (infinitive) / towards [ti] / at / on (specific point) [ne] / person / singular / inside [nhu])",
+      "explanation": "'vakuru vaititi kuhotsira kwemwana koreva kuti pane munhu anenge achimufunga ichokwadi here uye ndinga misa sei kuhotsira kwemwana' translates idiomatically as 'Zezuru utterance (people / elders [kuru] / people / elders [ititi] / to (infinitive) / towards [hotsira] / kwemwana / koreva / to (infinitive) / towards [ti] / at / on (specific point) [ne] / person / singular / inside [nhu])'."
+    }
+  ]
+}

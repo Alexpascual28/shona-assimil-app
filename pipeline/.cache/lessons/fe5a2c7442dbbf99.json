@@ -1,0 +1,154 @@
+{
+  "english_translation": "My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.",
+  "literal_gloss": [
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- (Cl. 1) + -ana (child)",
+      "noun_class_or_concord": "Mupanda 1 (mu-) Noun",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "mudiki",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -diki (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [diki]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "anga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -anga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "anga",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "arikupisa",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ri (copula) + -kupisa (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Copulative Concord (ari)",
+      "literal_english": "he/she is [kupisa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "muviri",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -viri (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [viri]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kubva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -bva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [bva]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "zuro",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -zuro (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "zuro",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndingada",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingada (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingada",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndingaita",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingaita (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingaita",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "abatsirike",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -abatsirike (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "abatsirike",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'mwana' establishes the noun class/subject frame (Mupanda 1 (mu-) Noun).",
+    "Agglutinative Morphology: 'abatsirike' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -abatsirike (root)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'mwana wangu mudiki anga arikupisa muviri kubva zuro ndingada kuziva kuti ndingaita sei kuti ______' (My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.)",
+      "options": [
+        "abatsirike",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "abatsirike",
+      "explanation": "'abatsirike' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'mwana' in 'mwana wangu mudiki anga arikupisa muviri kubva zuro ndingada kuziva kuti ndingaita sei kuti abatsirike'?",
+      "options": [
+        "Mupanda 1 (mu-) Noun",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 1 (mu-) Noun",
+      "explanation": "'mwana' operates under Mupanda 1 (mu-) Noun in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'mwana wangu mudiki anga arikupisa muviri kubva zuro ndingada kuziva kuti ndingaita sei kuti abatsirike'",
+      "options": [
+        "My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.",
+      "explanation": "'mwana wangu mudiki anga arikupisa muviri kubva zuro ndingada kuziva kuti ndingaita sei kuti abatsirike' translates idiomatically as 'My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.'."
+    }
+  ]
+}

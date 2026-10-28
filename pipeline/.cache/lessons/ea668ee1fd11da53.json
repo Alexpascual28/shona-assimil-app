@@ -1,0 +1,147 @@
+{
+  "english_translation": "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+  "literal_gloss": [
+    {
+      "shona_word": "veduwe",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -veduwe (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "veduwe",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (Cl. 3) + -soro (head)",
+      "noun_class_or_concord": "Mupanda 3 (mu-/mi-) Body Part Noun",
+      "literal_english": "head",
+      "tone_pattern": "L-H-L"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "uri",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uri (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uri",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kutema",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -tema (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [tema]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvisingaite",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -singaite (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [singaite]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ende",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ende (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ende",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "hausi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -hausi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "hausi",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kupora",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -pora (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [pora]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "apa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -apa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "apa",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndine",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndine (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndine",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "nhumbu",
+      "morpheme_breakdown": "N- (Cl. 9) + -humbu (pregnancy/stomach)",
+      "noun_class_or_concord": "Mupanda 9 (i-/dzi-) Noun",
+      "literal_english": "pregnancy / womb",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yatokura",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yatokura (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yatokura",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndodii",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndodii (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndodii",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'veduwe' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'ndodii' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -ndodii (root)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'veduwe musoro wangu uri kutema zvisingaite ende hausi kupora apa ndine nhumbu yatokura ______' (My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?)",
+      "options": [
+        "ndodii",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "ndodii",
+      "explanation": "'ndodii' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'veduwe' in 'veduwe musoro wangu uri kutema zvisingaite ende hausi kupora apa ndine nhumbu yatokura ndodii'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'veduwe' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'veduwe musoro wangu uri kutema zvisingaite ende hausi kupora apa ndine nhumbu yatokura ndodii'",
+      "options": [
+        "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+      "explanation": "'veduwe musoro wangu uri kutema zvisingaite ende hausi kupora apa ndine nhumbu yatokura ndodii' translates idiomatically as 'My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?'."
+    }
+  ]
+}

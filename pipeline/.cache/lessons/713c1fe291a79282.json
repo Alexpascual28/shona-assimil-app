@@ -1,0 +1,182 @@
+{
+  "english_translation": "Zezuru utterance (things / manner [notenderwa] / here / to (infinitive) / towards [ti] / person / singular / inside [dzimai] / he/she did [zvitakura] / ane / 8 / months)",
+  "literal_gloss": [
+    {
+      "shona_word": "zvinotenderwa",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -notenderwa (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [notenderwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "mudzimai",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -dzimai (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [dzimai]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "akazvitakura",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Past Concord (aka-)",
+      "literal_english": "he/she did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ane (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ane",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "8",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -8 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "8",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "months",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -months (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "months",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "akazvitakura",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Past Concord (aka-)",
+      "literal_english": "he/she did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "asangane",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asangane (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asangane",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "nemurume",
+      "morpheme_breakdown": "ne- (associative/instrumental prefix) + -murume (stem)",
+      "noun_class_or_concord": "Associative / Conjunctive Prefix (ne-)",
+      "literal_english": "with / and / by [murume]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "pabonde",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -bonde (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [bonde]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvinenge",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -nenge (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [nenge]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zviri",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -ri (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [ri]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "safe",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -safe (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "safe",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kumudzimai",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -mudzimai (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [mudzimai]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "akazvitakura",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Past Concord (aka-)",
+      "literal_english": "he/she did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "uyu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uyu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uyu",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'zvinotenderwa' establishes the noun class/subject frame (Mupanda 8 Plural Prefix & Concord (zvi-)).",
+    "Agglutinative Morphology: 'uyu' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -uyu (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'zvinotenderwa here kuti mudzimai akazvitakura, ane 8 months akazvitakura asangane nemurume pabonde zvinenge zviri safe here kumudzimai akazvitakura ______' (Zezuru utterance (things / manner [notenderwa] / here / to (infinitive) / towards [ti] / person / singular / inside [dzimai] / he/she did [zvitakura] / ane / 8 / months))",
+      "options": [
+        "uyu",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "uyu",
+      "explanation": "'uyu' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'zvinotenderwa' in 'zvinotenderwa here kuti mudzimai akazvitakura, ane 8 months akazvitakura asangane nemurume pabonde zvinenge zviri safe here kumudzimai akazvitakura uyu'?",
+      "options": [
+        "Mupanda 8 Plural Prefix & Concord (zvi-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "explanation": "'zvinotenderwa' operates under Mupanda 8 Plural Prefix & Concord (zvi-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'zvinotenderwa here kuti mudzimai akazvitakura, ane 8 months akazvitakura asangane nemurume pabonde zvinenge zviri safe here kumudzimai akazvitakura uyu'",
+      "options": [
+        "Zezuru utterance (things / manner [notenderwa] / here / to (infinitive) / towards [ti] / person / singular / inside [dzimai] / he/she did [zvitakura] / ane / 8 / months)",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (things / manner [notenderwa] / here / to (infinitive) / towards [ti] / person / singular / inside [dzimai] / he/she did [zvitakura] / ane / 8 / months)",
+      "explanation": "'zvinotenderwa here kuti mudzimai akazvitakura, ane 8 months akazvitakura asangane nemurume pabonde zvinenge zviri safe here kumudzimai akazvitakura uyu' translates idiomatically as 'Zezuru utterance (things / manner [notenderwa] / here / to (infinitive) / towards [ti] / person / singular / inside [dzimai] / he/she did [zvitakura] / ane / 8 / months)'."
+    }
+  ]
+}

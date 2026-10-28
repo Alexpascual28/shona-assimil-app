@@ -1,0 +1,147 @@
+{
+  "english_translation": "Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k'",
+  "literal_gloss": [
+    {
+      "shona_word": "svondo",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -svondo (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "svondo",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "rino",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -rino (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "rino",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "rakutopera",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -rakutopera (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "rakutopera",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- (Cl. 1) + -ana (child)",
+      "noun_class_or_concord": "Mupanda 1 (mu-) Noun",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "asingadye",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asingadye (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asingadye",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zvi- (Cl. 8) + -aka- (stative) + -nak- (be good) + -a",
+      "noun_class_or_concord": "Mupanda 8 Subject Concord (zva-)",
+      "literal_english": "very well / it is good",
+      "tone_pattern": "L-L-H-L"
+    },
+    {
+      "shona_word": "angave",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -angave (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "angave",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "achitorwara",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -achitorwara (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "achitorwara",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kungoshayiwawo",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ngoshayiwawo (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ngoshayiwawo]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "appetite",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -appetite (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "appetite",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'svondo' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'appetite' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -appetite (root)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here kana kuti kungoshayiwawo ______' (Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k')",
+      "options": [
+        "appetite",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "appetite",
+      "explanation": "'appetite' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'svondo' in 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here kana kuti kungoshayiwawo appetite'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'svondo' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here kana kuti kungoshayiwawo appetite'",
+      "options": [
+        "Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k'",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k'",
+      "explanation": "'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here kana kuti kungoshayiwawo appetite' translates idiomatically as 'Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k''."
+    }
+  ]
+}

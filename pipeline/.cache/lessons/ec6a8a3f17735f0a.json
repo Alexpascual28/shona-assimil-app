@@ -1,0 +1,140 @@
+{
+  "english_translation": "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+  "literal_gloss": [
+    {
+      "shona_word": "ndakazvitakura",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asi",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "mazi",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -zi (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [zi]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kumbo",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -mbo (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [mbo]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "angu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -angu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "angu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ari (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ari",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuzvimba",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -zvimba (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [zvimba]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mazuva",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -zuva (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [zuva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ano",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ano (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ano",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chii",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -chii (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "chii",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chingange",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -ngange (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [ngange]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "chiri",
+      "morpheme_breakdown": "chi- (Cl. 7 noun prefix / concord) + -ri (stem)",
+      "noun_class_or_concord": "Mupanda 7 Prefix & Concord (chi-)",
+      "literal_english": "thing / short action [ri]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kundinetsa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ndinetsa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ndinetsa]",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndakazvitakura' establishes the noun class/subject frame (1st Person Sg Past Concord (ndaka-)).",
+    "Agglutinative Morphology: 'kundinetsa' combines prefixal/suffixal morphemes (ku- (Cl. 15 infinitive / Cl. 17 locative) + -ndinetsa (stem)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakazvitakura asi mazi kumbo angu ari kuzvimba mazuva ano chii chingange chiri ______' (I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?)",
+      "options": [
+        "kundinetsa",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "kundinetsa",
+      "explanation": "'kundinetsa' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndakazvitakura' in 'ndakazvitakura asi mazi kumbo angu ari kuzvimba mazuva ano chii chingange chiri kundinetsa'?",
+      "options": [
+        "1st Person Sg Past Concord (ndaka-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Past Concord (ndaka-)",
+      "explanation": "'ndakazvitakura' operates under 1st Person Sg Past Concord (ndaka-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndakazvitakura asi mazi kumbo angu ari kuzvimba mazuva ano chii chingange chiri kundinetsa'",
+      "options": [
+        "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+      "explanation": "'ndakazvitakura asi mazi kumbo angu ari kuzvimba mazuva ano chii chingange chiri kundinetsa' translates idiomatically as 'I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?'."
+    }
+  ]
+}

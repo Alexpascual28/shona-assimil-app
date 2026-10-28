@@ -1,0 +1,140 @@
+{
+  "english_translation": "I am pregnant and have been feeling abdominal pain; should I visit the clinic for an examination?",
+  "literal_gloss": [
+    {
+      "shona_word": "ndakazvitakura",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asi",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndanga",
+      "morpheme_breakdown": "nda- (1sg recent past) + -nga (stem)",
+      "noun_class_or_concord": "1st Person Sg Recent Past Concord (nda-)",
+      "literal_english": "I have [nga]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndichinzwa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndichinzwa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndichinzwa",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mudumbu",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -dumbu (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [dumbu]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mangu",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -ngu (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [ngu]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "muchirwadza",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -chirwadza (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [chirwadza]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "zvakanyanya",
+      "morpheme_breakdown": "zva- (Cl. 8) + -ka- (stative) + -nyanya (stem)",
+      "noun_class_or_concord": "Mupanda 8 Adverbial/Stative Concord (zvaka-)",
+      "literal_english": "in a manner that is [nyanya]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndingaita",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingaita (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingaita",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndibatsirise",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndibatsirise (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndibatsirise",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndibatsirike",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndibatsirike (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndibatsirike",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndakazvitakura' establishes the noun class/subject frame (1st Person Sg Past Concord (ndaka-)).",
+    "Agglutinative Morphology: 'ndibatsirike' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -ndibatsirike (root)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakazvitakura asi ndanga ndichinzwa mudumbu mangu muchirwadza zvakanyanya ndingaita sei kuti ndibatsirise ______' (I am pregnant and have been feeling abdominal pain; should I visit the clinic for an examination?)",
+      "options": [
+        "ndibatsirike",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "ndibatsirike",
+      "explanation": "'ndibatsirike' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndakazvitakura' in 'ndakazvitakura asi ndanga ndichinzwa mudumbu mangu muchirwadza zvakanyanya ndingaita sei kuti ndibatsirise ndibatsirike'?",
+      "options": [
+        "1st Person Sg Past Concord (ndaka-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Past Concord (ndaka-)",
+      "explanation": "'ndakazvitakura' operates under 1st Person Sg Past Concord (ndaka-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndakazvitakura asi ndanga ndichinzwa mudumbu mangu muchirwadza zvakanyanya ndingaita sei kuti ndibatsirise ndibatsirike'",
+      "options": [
+        "I am pregnant and have been feeling abdominal pain; should I visit the clinic for an examination?",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "I am pregnant and have been feeling abdominal pain; should I visit the clinic for an examination?",
+      "explanation": "'ndakazvitakura asi ndanga ndichinzwa mudumbu mangu muchirwadza zvakanyanya ndingaita sei kuti ndibatsirise ndibatsirike' translates idiomatically as 'I am pregnant and have been feeling abdominal pain; should I visit the clinic for an examination?'."
+    }
+  ]
+}

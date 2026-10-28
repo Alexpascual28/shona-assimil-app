@@ -1,0 +1,85 @@
+{
+  "review_summary": "Comprehensive Review (Chidzidzo 7) consolidates Lessons 1, 2, 3, 4, 5, 6. Key structures mastered in this block include Zezuru alliterative subject/object concords (zvivakashure), agglutinative tense/aspect markers (-no- habitual, -ka- past, -cha- future), and high/low tone patterns across: 2nd Person Plural Imperative Suffix (-i); Mupanda 17 Proximal Locative (kuno); Associative + Mupanda 15 Infinitive (neku-); 1st Person Plural Past Concord (taka-). Example utterances reviewed: \"Huyai kuno nekukasira!\" | \"Takatenga hupfu, shuga, mafuta, nemuriwo.\" | \"Akadanidzira achiti, \"Batai mbavha iyo!\"\"",
+  "key_noun_classes_covered": [
+    "2nd Person Plural Imperative Suffix (-i)",
+    "Mupanda 17 Proximal Locative (kuno)",
+    "Associative + Mupanda 15 Infinitive (neku-)",
+    "1st Person Plural Past Concord (taka-)",
+    "Mupanda 5/9 Nominal or Verbal Stem",
+    "2nd Person Plural / Honorific Subject Concord (ma-)"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Huyai kuno ______!' (Come here quickly!)",
+      "options": [
+        "nekukasira",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "nekukasira",
+      "explanation": "'nekukasira' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Takatenga hupfu, shuga, mafuta, ______.' (We bought maize meal, sugar, cooking oil, and vegetables.)",
+      "options": [
+        "nemuriwo",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "nemuriwo",
+      "explanation": "'nemuriwo' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Akadanidzira achiti, \"Batai mbavha ______!\"' (He shouted saying, \"Catch that thief!\")",
+      "options": [
+        "iyo",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "iyo",
+      "explanation": "'iyo' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Amai vakati, \"Chiuya kuno ______.\"' (Mother said, \"Come here now and help me.\")",
+      "options": [
+        "undibatsire",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "undibatsire",
+      "explanation": "'undibatsire' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Unofunga kuti mvura ichanaya here ______?' (Do you think it will rain tomorrow?)",
+      "options": [
+        "mangwana",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "mangwana",
+      "explanation": "'mangwana' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Vakuru vanoti, \"Chara chimwe hachitswanyi ______.\"' (The elders say, \"One finger cannot crush a louse.\")",
+      "options": [
+        "inda",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "inda",
+      "explanation": "'inda' completes the clause with the proper Zezuru lexical and tonal pattern."
+    }
+  ]
+}

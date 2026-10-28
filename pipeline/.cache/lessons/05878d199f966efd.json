@@ -1,0 +1,182 @@
+{
+  "english_translation": "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+  "literal_gloss": [
+    {
+      "shona_word": "ndakazvitakura",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asi",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (Cl. 3) + -soro (head)",
+      "noun_class_or_concord": "Mupanda 3 (mu-/mi-) Body Part Noun",
+      "literal_english": "head",
+      "tone_pattern": "L-H-L"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "wanga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wanga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wanga",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "uchinyanyotema",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uchinyanyotema (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uchinyanyotema",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "zvakanyanya",
+      "morpheme_breakdown": "zva- (Cl. 8) + -ka- (stative) + -nyanya (stem)",
+      "noun_class_or_concord": "Mupanda 8 Adverbial/Stative Concord (zvaka-)",
+      "literal_english": "in a manner that is [nyanya]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "hausikuda",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -hausikuda (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "hausikuda",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kunyarara",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -nyarara (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [nyarara]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "hausi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -hausi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "hausi",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuda",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -da (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [da]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kupera",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -pera (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [pera]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (Cl. 3) + -soro (head)",
+      "noun_class_or_concord": "Mupanda 3 (mu-/mi-) Body Part Noun",
+      "literal_english": "head",
+      "tone_pattern": "L-H-L"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kutema",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -tema (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [tema]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kwacho",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kwacho (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kwacho",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "marwadzo",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -rwadzo (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [rwadzo]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "acho",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -acho (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "acho",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "akanyanyisa",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ka- (remote past) + -nyanyisa (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Past Concord (aka-)",
+      "literal_english": "he/she did [nyanyisa]",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndakazvitakura' establishes the noun class/subject frame (1st Person Sg Past Concord (ndaka-)).",
+    "Agglutinative Morphology: 'akanyanyisa' combines prefixal/suffixal morphemes (a- (Cl. 1 subj) + -ka- (remote past) + -nyanyisa (stem)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakazvitakura asi musoro wangu wanga uchinyanyotema zvakanyanya hausikuda kunyarara, hausi kuda kupera musoro wangu kutema kwacho marwadzo acho ______' (My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?)",
+      "options": [
+        "akanyanyisa",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "akanyanyisa",
+      "explanation": "'akanyanyisa' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndakazvitakura' in 'ndakazvitakura asi musoro wangu wanga uchinyanyotema zvakanyanya hausikuda kunyarara, hausi kuda kupera musoro wangu kutema kwacho marwadzo acho akanyanyisa'?",
+      "options": [
+        "1st Person Sg Past Concord (ndaka-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Past Concord (ndaka-)",
+      "explanation": "'ndakazvitakura' operates under 1st Person Sg Past Concord (ndaka-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndakazvitakura asi musoro wangu wanga uchinyanyotema zvakanyanya hausikuda kunyarara, hausi kuda kupera musoro wangu kutema kwacho marwadzo acho akanyanyisa'",
+      "options": [
+        "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?",
+      "explanation": "'ndakazvitakura asi musoro wangu wanga uchinyanyotema zvakanyanya hausikuda kunyarara, hausi kuda kupera musoro wangu kutema kwacho marwadzo acho akanyanyisa' translates idiomatically as 'My head is aching severely during my pregnancy and is not getting better; what medicine can I safely take?'."
+    }
+  ]
+}

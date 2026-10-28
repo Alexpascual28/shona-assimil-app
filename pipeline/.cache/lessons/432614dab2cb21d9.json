@@ -1,0 +1,91 @@
+{
+  "english_translation": "Close the door firmly when you leave the house.",
+  "literal_gloss": [
+    {
+      "shona_word": "Vhara",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -vhara (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "vhara",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "musuwo",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -suwo (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [suwo]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvakasimba",
+      "morpheme_breakdown": "zva- (Cl. 8) + -ka- (stative) + -simba (stem)",
+      "noun_class_or_concord": "Mupanda 8 Adverbial/Stative Concord (zvaka-)",
+      "literal_english": "in a manner that is [simba]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "uchibuda",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uchibuda (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uchibuda",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "mumba",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -mba (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [mba]",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'Vhara' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'mumba' combines prefixal/suffixal morphemes (mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -mba (stem)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Vhara musuwo zvakasimba kana uchibuda ______.' (Close the door firmly when you leave the house.)",
+      "options": [
+        "mumba",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "mumba",
+      "explanation": "'mumba' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'Vhara' in 'Vhara musuwo zvakasimba kana uchibuda mumba.'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'Vhara' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'Vhara musuwo zvakasimba kana uchibuda mumba.'",
+      "options": [
+        "Close the door firmly when you leave the house.",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Close the door firmly when you leave the house.",
+      "explanation": "'Vhara musuwo zvakasimba kana uchibuda mumba.' translates idiomatically as 'Close the door firmly when you leave the house.'."
+    }
+  ]
+}

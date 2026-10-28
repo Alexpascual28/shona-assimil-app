@@ -1,0 +1,182 @@
+{
+  "english_translation": "Zezuru utterance (at / on (specific point) [kuyamwisa] / you (resp.) have [patya] / kana / I did [nge] / I have [zvara] / you (resp.) have [patya] / ndokwanisa / to (infinitive) / towards [yamwisa])",
+  "literal_gloss": [
+    {
+      "shona_word": "pakuyamwisa",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -kuyamwisa (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [kuyamwisa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "mapatya",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -patya (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [patya]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndakange",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -nge (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [nge]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ndazvara",
+      "morpheme_breakdown": "nda- (1sg recent past) + -zvara (stem)",
+      "noun_class_or_concord": "1st Person Sg Recent Past Concord (nda-)",
+      "literal_english": "I have [zvara]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mapatya",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -patya (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [patya]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ndokwanisa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndokwanisa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndokwanisa",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuyamwisa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -yamwisa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [yamwisa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "vese",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -vese (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "vese",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ka1",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ka1 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ka1",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndinofanira",
+      "morpheme_breakdown": "ndi- (1sg subj) + -no- (pres. hab.) + -fanira (stem)",
+      "noun_class_or_concord": "1st Person Sg Subject Concord (ndi-)",
+      "literal_english": "I habitually [fanira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuyamwisa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -yamwisa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [yamwisa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "1",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -1 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "1",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "at",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -at (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "at",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "a",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -a (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "a",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "time",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -time (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "time",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'pakuyamwisa' establishes the noun class/subject frame (Mupanda 16 Locative Prefix (pa-)).",
+    "Agglutinative Morphology: 'time' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -time (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'pakuyamwisa mapatya kana ndakange ndazvara mapatya ndokwanisa kuyamwisa vese ka1 here kana kuti ndinofanira kuyamwisa 1 at a ______' (Zezuru utterance (at / on (specific point) [kuyamwisa] / you (resp.) have [patya] / kana / I did [nge] / I have [zvara] / you (resp.) have [patya] / ndokwanisa / to (infinitive) / towards [yamwisa]))",
+      "options": [
+        "time",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "time",
+      "explanation": "'time' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'pakuyamwisa' in 'pakuyamwisa mapatya kana ndakange ndazvara mapatya ndokwanisa kuyamwisa vese ka1 here kana kuti ndinofanira kuyamwisa 1 at a time'?",
+      "options": [
+        "Mupanda 16 Locative Prefix (pa-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 16 Locative Prefix (pa-)",
+      "explanation": "'pakuyamwisa' operates under Mupanda 16 Locative Prefix (pa-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'pakuyamwisa mapatya kana ndakange ndazvara mapatya ndokwanisa kuyamwisa vese ka1 here kana kuti ndinofanira kuyamwisa 1 at a time'",
+      "options": [
+        "Zezuru utterance (at / on (specific point) [kuyamwisa] / you (resp.) have [patya] / kana / I did [nge] / I have [zvara] / you (resp.) have [patya] / ndokwanisa / to (infinitive) / towards [yamwisa])",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (at / on (specific point) [kuyamwisa] / you (resp.) have [patya] / kana / I did [nge] / I have [zvara] / you (resp.) have [patya] / ndokwanisa / to (infinitive) / towards [yamwisa])",
+      "explanation": "'pakuyamwisa mapatya kana ndakange ndazvara mapatya ndokwanisa kuyamwisa vese ka1 here kana kuti ndinofanira kuyamwisa 1 at a time' translates idiomatically as 'Zezuru utterance (at / on (specific point) [kuyamwisa] / you (resp.) have [patya] / kana / I did [nge] / I have [zvara] / you (resp.) have [patya] / ndokwanisa / to (infinitive) / towards [yamwisa])'."
+    }
+  ]
+}

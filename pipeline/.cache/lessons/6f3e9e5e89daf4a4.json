@@ -1,0 +1,147 @@
+{
+  "english_translation": "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+  "literal_gloss": [
+    {
+      "shona_word": "ndangomuka",
+      "morpheme_breakdown": "nda- (1sg recent past) + -ngomuka (stem)",
+      "noun_class_or_concord": "1st Person Sg Recent Past Concord (nda-)",
+      "literal_english": "I have [ngomuka]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "makumbo",
+      "morpheme_breakdown": "ma- (Cl. 6) + -gumbo (legs)",
+      "noun_class_or_concord": "Mupanda 6 Plural of Cl. 5 (gumbo)",
+      "literal_english": "legs / feet",
+      "tone_pattern": "L-H-L"
+    },
+    {
+      "shona_word": "angu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -angu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "angu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "akazvimba",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -ka- (remote past) + -zvimba (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Past Concord (aka-)",
+      "literal_english": "he/she did [zvimba]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "zvisingaite",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -singaite (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [singaite]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "apa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -apa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "apa",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndine",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndine (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndine",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "nhumbu",
+      "morpheme_breakdown": "N- (Cl. 9) + -humbu (pregnancy/stomach)",
+      "noun_class_or_concord": "Mupanda 9 (i-/dzi-) Noun",
+      "literal_english": "pregnancy / womb",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ine (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ine",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "7",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -7 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "7",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "months]",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -months] (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "months]",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -saka (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "saka",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndoita",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndoita (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndoita",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndangomuka' establishes the noun class/subject frame (1st Person Sg Recent Past Concord (nda-)).",
+    "Agglutinative Morphology: 'sei' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -sei (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndangomuka makumbo angu akazvimba zvisingaite apa ndine nhumbu ine 7 months] saka ndoita ______?' (I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?)",
+      "options": [
+        "sei",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "sei",
+      "explanation": "'sei' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndangomuka' in 'ndangomuka makumbo angu akazvimba zvisingaite apa ndine nhumbu ine 7 months] saka ndoita sei?'?",
+      "options": [
+        "1st Person Sg Recent Past Concord (nda-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Recent Past Concord (nda-)",
+      "explanation": "'ndangomuka' operates under 1st Person Sg Recent Past Concord (nda-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndangomuka makumbo angu akazvimba zvisingaite apa ndine nhumbu ine 7 months] saka ndoita sei?'",
+      "options": [
+        "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?",
+      "explanation": "'ndangomuka makumbo angu akazvimba zvisingaite apa ndine nhumbu ine 7 months] saka ndoita sei?' translates idiomatically as 'I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?'."
+    }
+  ]
+}

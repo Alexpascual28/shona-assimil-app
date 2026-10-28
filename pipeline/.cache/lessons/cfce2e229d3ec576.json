@@ -1,0 +1,140 @@
+{
+  "english_translation": "Community health consultation in Zezuru: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara '",
+  "literal_gloss": [
+    {
+      "shona_word": "ndakanzwa",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -nzwa (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [nzwa]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "madzimai",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -dzimai (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [dzimai]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "anokurudzirwa",
+      "morpheme_breakdown": "a- (Cl. 1 subj) + -no- (pres. hab.) + -kurudzirwa (stem)",
+      "noun_class_or_concord": "Class 1 (mu-) 3sg Subject Concord (a-)",
+      "literal_english": "he/she habitually [kurudzirwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kunoongororwa",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -noongororwa (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [noongororwa]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "cervical",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -cervical (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "cervical",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "cancer",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -cancer (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "cancer",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuchipatara",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -chipatara (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [chipatara]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndingadawo",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingadawo (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingadawo",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "zvinofamba",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -nofamba (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [nofamba]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndakanzwa' establishes the noun class/subject frame (1st Person Sg Past Concord (ndaka-)).",
+    "Agglutinative Morphology: 'sei' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -sei (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ndingadawo kuziva kuti zvinofamba ______' (Community health consultation in Zezuru: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ')",
+      "options": [
+        "sei",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "sei",
+      "explanation": "'sei' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndakanzwa' in 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ndingadawo kuziva kuti zvinofamba sei'?",
+      "options": [
+        "1st Person Sg Past Concord (ndaka-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Past Concord (ndaka-)",
+      "explanation": "'ndakanzwa' operates under 1st Person Sg Past Concord (ndaka-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ndingadawo kuziva kuti zvinofamba sei'",
+      "options": [
+        "Community health consultation in Zezuru: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara '",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Community health consultation in Zezuru: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara '",
+      "explanation": "'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ndingadawo kuziva kuti zvinofamba sei' translates idiomatically as 'Community health consultation in Zezuru: 'ndakanzwa kuti madzimai anokurudzirwa kunoongororwa cervical cancer kuchipatara ''."
+    }
+  ]
+}

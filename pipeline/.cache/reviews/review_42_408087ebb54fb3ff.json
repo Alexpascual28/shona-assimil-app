@@ -1,0 +1,85 @@
+{
+  "review_summary": "Comprehensive Review (Chidzidzo 42) consolidates Lessons 36, 37, 38, 39, 40, 41. Key structures mastered in this block include Zezuru alliterative subject/object concords (zvivakashure), agglutinative tense/aspect markers (-no- habitual, -ka- past, -cha- future), and high/low tone patterns across: Mupanda 5/9 Nominal or Verbal Stem; Mupanda 9 (i-/dzi-) Noun; 1st Person Sg Recent Past Concord (nda-); Mupanda 16 Locative Prefix (pa-). Example utterances reviewed: \"ndine nhumbu asi ndaona pa pant pangu paine ropa saka ndandichida kuziva kuti ndoita sei? ndoenda kuchipatara here?\" | \"ndingadawo kuziva zvekudya zvinokurudzirwa madzimai akazvitakura nezvekudya zvisingakurudzirwi kwatiri isu vanenge vakazvitakura\" | \"handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira pamuviriri\"",
+  "key_noun_classes_covered": [
+    "Mupanda 5/9 Nominal or Verbal Stem",
+    "Mupanda 9 (i-/dzi-) Noun",
+    "1st Person Sg Recent Past Concord (nda-)",
+    "Mupanda 16 Locative Prefix (pa-)",
+    "Mupanda 15/17 Prefix (ku-)",
+    "Mupanda 8 Plural Prefix & Concord (zvi-)"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndine nhumbu asi ndaona pa pant pangu paine ropa saka ndandichida kuziva kuti ndoita sei? ndoenda kuchipatara ______?' (Expectant mother's health inquiry in Zezuru: 'ndine nhumbu asi ndaona pa pant pangu paine ropa saka ndandichida kuziva kuti nd')",
+      "options": [
+        "here",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "here",
+      "explanation": "'here' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndingadawo kuziva zvekudya zvinokurudzirwa madzimai akazvitakura nezvekudya zvisingakurudzirwi kwatiri isu vanenge ______' (Community health consultation in Zezuru: 'ndingadawo kuziva zvekudya zvinokurudzirwa madzimai akazvitakura nezvekudya zvis')",
+      "options": [
+        "vakazvitakura",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "vakazvitakura",
+      "explanation": "'vakazvitakura' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira ______' (Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti]))",
+      "options": [
+        "pamuviriri",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "pamuviriri",
+      "explanation": "'pamuviriri' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here kana kuti kungoshayiwawo ______' (Parent's pediatric inquiry in Zezuru: 'svondo rino rakutopera mwana wangu asingadye zvakanaka angave achitorwara here k')",
+      "options": [
+        "appetite",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "appetite",
+      "explanation": "'appetite' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndichangobva kusununguka mwana ______ asi ndiri kunetsekana kuti ndinogona kunge ndisiri ku buritsa mukaka wakawanda unogutsa mwana wangu' (Parent's pediatric inquiry in Zezuru: 'ndichangobva kusununguka mwana wangu asi ndiri kunetsekana kuti ndinogona kunge ')",
+      "options": [
+        "wangu",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "wangu",
+      "explanation": "'wangu' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakanzwa vanhu vachitaura nezve HPV asi ndingada kuziva kuti HPV chimbori chii ndiwanewo kuzivo rwaka rwakazara panyaya ______' (Zezuru utterance (I did [nzwa] / people / elders [nhu] / people / elders [chitaura] / with / and / by [zve] / hpv / asi / ndingada / to (infinitive) / towards [ziva]))",
+      "options": [
+        "iyi",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "iyi",
+      "explanation": "'iyi' completes the clause with the proper Zezuru lexical and tonal pattern."
+    }
+  ]
+}

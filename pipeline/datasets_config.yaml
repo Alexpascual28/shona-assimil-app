@@ -1,0 +1,75 @@
+# Shona Assimil Pipeline Configuration
+default_datasets:
+  - nigeLbasa/inzwi-shona-sample
+  - manassehzw/sna-manasseh-150-raw
+  - takuM23/shona-vibevoice-corpus
+
+# Schema inspector priority column mappings
+schema_mapping:
+  audio_columns:
+    - audio
+    - speech
+    - sound
+    - wav
+    - file
+    - path
+  transcript_columns:
+    - text
+    - transcription
+    - sentence
+    - transcript
+    - shona
+    - utt
+    - normalized_text
+  dialect_columns:
+    - dialect
+    - speaker_dialect
+    - accent
+    - variety
+    - sub_dialect
+
+# Per-dataset specific overrides
+dataset_overrides:
+  nigeLbasa/inzwi-shona-sample:
+    split: train
+    target_dialect: Zezuru
+  manassehzw/sna-manasseh-150-raw:
+    split: train
+    requires_llm_dialect: true
+  takuM23/shona-vibevoice-corpus:
+    split: train
+    requires_llm_dialect: true
+    use_rows_api: true
+
+# Two-stage filtering parameters
+filtering:
+  target_sampling_rate: 16000
+  min_duration_seconds: 2.0
+  max_duration_seconds: 90.0
+  min_words: 2
+  target_dialect: Zezuru
+  min_dialect_confidence: 0.75
+  max_code_switching_ratio: 0.25
+  noise_markers:
+    - "[noise]"
+    - "[music]"
+    - "[laughter]"
+    - "<unk>"
+    - "[inaudible]"
+    - "(inaudible)"
+    - "[ coughing ]"
+    - "[unintelligible]"
+
+# Assimil Sequencer weights
+sequencer:
+  duration_weight: 1.5
+  word_count_weight: 2.0
+  avg_word_length_weight: 3.0
+  review_interval: 7
+  active_wave_start_lesson: 50
+
+# Gemini Enrichment Configuration
+gemini:
+  model_name: "gemini-2.5-flash"
+  batch_size: 15
+  cache_dir: "pipeline/.cache"

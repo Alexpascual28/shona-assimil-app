@@ -1,0 +1,182 @@
+{
+  "english_translation": "Parent's pediatric inquiry in Zezuru: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadz'",
+  "literal_gloss": [
+    {
+      "shona_word": "ndichangobva",
+      "morpheme_breakdown": "ndi- (1sg subj) + -cha- (future) + -ngobva (stem)",
+      "noun_class_or_concord": "1st Person Sg Future Concord (ndicha-)",
+      "literal_english": "I will [ngobva]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuzvara",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -zvara (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [zvara]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- (Cl. 1) + -ana (child)",
+      "noun_class_or_concord": "Mupanda 1 (mu-) Noun",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -wangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "wangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "mucheche",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -cheche (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [cheche]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "pakurara",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -kurara (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [kurara]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndinomubata",
+      "morpheme_breakdown": "ndi- (1sg subj) + -no- (pres. hab.) + -mubata (stem)",
+      "noun_class_or_concord": "1st Person Sg Subject Concord (ndi-)",
+      "literal_english": "I habitually [mubata]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "asarwadziwe",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asarwadziwe (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asarwadziwe",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndisamu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndisamu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndisamu",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuvadze",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -vadze (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [vadze]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ndofana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndofana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndofana",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kumu",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -mu (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [mu]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "rara",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -rara (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "rara",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndakamubata",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -mubata (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [mubata]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndichangobva' establishes the noun class/subject frame (1st Person Sg Future Concord (ndicha-)).",
+    "Agglutinative Morphology: 'sei' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -sei (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata ______ kuti asarwadziwe kana kuti ndisamu kuvadze ndofana kumu rara ndakamubata sei' (Parent's pediatric inquiry in Zezuru: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadz')",
+      "options": [
+        "sei",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "sei",
+      "explanation": "'sei' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndichangobva' in 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadziwe kana kuti ndisamu kuvadze ndofana kumu rara ndakamubata sei'?",
+      "options": [
+        "1st Person Sg Future Concord (ndicha-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Future Concord (ndicha-)",
+      "explanation": "'ndichangobva' operates under 1st Person Sg Future Concord (ndicha-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadziwe kana kuti ndisamu kuvadze ndofana kumu rara ndakamubata sei'",
+      "options": [
+        "Parent's pediatric inquiry in Zezuru: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadz'",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Parent's pediatric inquiry in Zezuru: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadz'",
+      "explanation": "'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadziwe kana kuti ndisamu kuvadze ndofana kumu rara ndakamubata sei' translates idiomatically as 'Parent's pediatric inquiry in Zezuru: 'ndichangobva kuzvara mwana wangu mucheche pakurara ndinomubata sei kuti asarwadz''."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "english_translation": "Expectant mother's health inquiry in Zezuru: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei '",
+  "literal_gloss": [
+    {
+      "shona_word": "nhumbu",
+      "morpheme_breakdown": "N- (Cl. 9) + -humbu (pregnancy/stomach)",
+      "noun_class_or_concord": "Mupanda 9 (i-/dzi-) Noun",
+      "literal_english": "pregnancy / womb",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "yava",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yava (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yava",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kusvika",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -svika (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [svika]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "9",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -9 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "9",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "months",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -months (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "months",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -saka (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "saka",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndanga",
+      "morpheme_breakdown": "nda- (1sg recent past) + -nga (stem)",
+      "noun_class_or_concord": "1st Person Sg Recent Past Concord (nda-)",
+      "literal_english": "I have [nga]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndichida",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndichida (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndichida",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "unoziva",
+      "morpheme_breakdown": "u- (2sg subj) + -no- (pres. hab.) + -ziva (stem)",
+      "noun_class_or_concord": "2nd Person Sg Subject Concord (u-)",
+      "literal_english": "you habitually [ziva]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "labor",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -labor (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "labor",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "yatanga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yatanga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yatanga",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -ne (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [ne]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "zvinobuda",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -nobuda (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [nobuda]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -ne (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [ne]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "chaunonzwa",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -chaunonzwa (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "chaunonzwa",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -here (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "here",
+      "tone_pattern": "H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'nhumbu' establishes the noun class/subject frame (Mupanda 9 (i-/dzi-) Noun).",
+    "Agglutinative Morphology: 'here' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -here (root)) with tone contour H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei kuti labor yatanga pane zvinobuda ______ pane chaunonzwa here' (Expectant mother's health inquiry in Zezuru: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei ')",
+      "options": [
+        "here",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "here",
+      "explanation": "'here' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'nhumbu' in 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei kuti labor yatanga pane zvinobuda here pane chaunonzwa here'?",
+      "options": [
+        "Mupanda 9 (i-/dzi-) Noun",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 9 (i-/dzi-) Noun",
+      "explanation": "'nhumbu' operates under Mupanda 9 (i-/dzi-) Noun in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei kuti labor yatanga pane zvinobuda here pane chaunonzwa here'",
+      "options": [
+        "Expectant mother's health inquiry in Zezuru: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei '",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Expectant mother's health inquiry in Zezuru: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei '",
+      "explanation": "'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei kuti labor yatanga pane zvinobuda here pane chaunonzwa here' translates idiomatically as 'Expectant mother's health inquiry in Zezuru: 'nhumbu yangu yava kusvika 9 months saka ndanga ndichida kuziva kuti unoziva sei ''."
+    }
+  ]
+}

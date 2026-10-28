@@ -1,0 +1,85 @@
+{
+  "review_summary": "Comprehensive Review (Chidzidzo 21) consolidates Lessons 15, 16, 17, 18, 19, 20. Key structures mastered in this block include Zezuru alliterative subject/object concords (zvivakashure), agglutinative tense/aspect markers (-no- habitual, -ka- past, -cha- future), and high/low tone patterns across: Mupanda 5/9 Nominal or Verbal Stem; Mupanda 1/3/18 Prefix (mu-); Mupanda 8 Adverbial/Stative Concord (zvaka-); Mupanda 11 (ru-) Labialized Prefix (rw-). Example utterances reviewed: \"Vhara musuwo zvakasimba kana uchibuda mumba.\" | \"Rwendo rwacho rwakareba asi tichasvika hedu.\" | \"ndakazvitakura ndinofungidzira kuti shupa yangu yaputika asi manje handizivi kuti ndoita sei\"",
+  "key_noun_classes_covered": [
+    "Mupanda 5/9 Nominal or Verbal Stem",
+    "Mupanda 1/3/18 Prefix (mu-)",
+    "Mupanda 8 Adverbial/Stative Concord (zvaka-)",
+    "Mupanda 11 (ru-) Labialized Prefix (rw-)",
+    "1st Person Sg Past Concord (ndaka-)",
+    "1st Person Sg Subject Concord (ndi-)"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Vhara musuwo zvakasimba kana uchibuda ______.' (Close the door firmly when you leave the house.)",
+      "options": [
+        "mumba",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "mumba",
+      "explanation": "'mumba' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'Rwendo rwacho rwakareba asi tichasvika ______.' (The journey itself is long, but we will eventually arrive.)",
+      "options": [
+        "hedu",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "hedu",
+      "explanation": "'hedu' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakazvitakura ndinofungidzira kuti shupa yangu yaputika asi manje handizivi kuti ndoita ______' (Expectant mother's health inquiry in Zezuru: 'ndakazvitakura ndinofungidzira kuti shupa yangu yaputika asi manje handizivi kut')",
+      "options": [
+        "sei",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "sei",
+      "explanation": "'sei' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndakazvitakura asi mazi kumbo angu ari kuzvimba mazuva ano chii chingange chiri ______' (I am pregnant and my legs have been swelling lately; what could be causing this and how can I be helped?)",
+      "options": [
+        "kundinetsa",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "kundinetsa",
+      "explanation": "'kundinetsa' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic ______' (Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv')",
+      "options": [
+        "zvarinhi",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "zvarinhi",
+      "explanation": "'zvarinhi' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'mwana wangu mudiki anga arikupisa muviri kubva zuro ndingada kuziva kuti ndingaita sei kuti ______' (My young child has had a high fever since yesterday; I would like to know how I can help bring the temperature down.)",
+      "options": [
+        "abatsirike",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "abatsirike",
+      "explanation": "'abatsirike' completes the clause with the proper Zezuru lexical and tonal pattern."
+    }
+  ]
+}

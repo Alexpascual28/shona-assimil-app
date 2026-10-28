@@ -1,0 +1,168 @@
+{
+  "english_translation": "Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti])",
+  "literal_gloss": [
+    {
+      "shona_word": "handidi",
+      "morpheme_breakdown": "ha- (neg) + ndi- (1sg subj) + -di (stem)",
+      "noun_class_or_concord": "1st Person Sg Negative Concord (handi-)",
+      "literal_english": "I do not [di]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuita",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ita (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ita]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "imwe",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -imwe (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "mimba",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -mimba (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "mimba",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "parizvino",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -rizvino (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [rizvino]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndingada",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingada (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingada",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndeapi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndeapi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndeapi",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "matanho",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -tanho (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [tanho]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "e",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -e (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "e",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "familiy",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -familiy (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "familiy",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "planning",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -planning (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "planning",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "andingatora",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -andingatora (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "andingatora",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kudzivirira",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -dzivirira (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [dzivirira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kudzivirira",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -dzivirira (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [dzivirira]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "pamuviriri",
+      "morpheme_breakdown": "pa- (Cl. 16 locative prefix) + -muviriri (stem)",
+      "noun_class_or_concord": "Mupanda 16 Locative Prefix (pa-)",
+      "literal_english": "at / on (specific point) [muviriri]",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'handidi' establishes the noun class/subject frame (1st Person Sg Negative Concord (handi-)).",
+    "Agglutinative Morphology: 'pamuviriri' combines prefixal/suffixal morphemes (pa- (Cl. 16 locative prefix) + -muviriri (stem)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira ______' (Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti]))",
+      "options": [
+        "pamuviriri",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "pamuviriri",
+      "explanation": "'pamuviriri' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'handidi' in 'handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira pamuviriri'?",
+      "options": [
+        "1st Person Sg Negative Concord (handi-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Negative Concord (handi-)",
+      "explanation": "'handidi' operates under 1st Person Sg Negative Concord (handi-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira pamuviriri'",
+      "options": [
+        "Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti])",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti])",
+      "explanation": "'handidi kuita imwe mimba parizvino ndingada kuziva kuti ndeapi matanho e familiy planning andingatora kudzivirira kudzivirira pamuviriri' translates idiomatically as 'Zezuru utterance (I do not [di] / to (infinitive) / towards [ita] / imwe / mimba / at / on (specific point) [rizvino] / ndingada / to (infinitive) / towards [ziva] / to (infinitive) / towards [ti])'."
+    }
+  ]
+}

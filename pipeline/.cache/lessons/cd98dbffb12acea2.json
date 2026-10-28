@@ -1,0 +1,133 @@
+{
+  "english_translation": "Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv'",
+  "literal_gloss": [
+    {
+      "shona_word": "inhumbu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -inhumbu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "inhumbu",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "yangu",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yangu (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yangu",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "yekutanga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -yekutanga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "yekutanga",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "ndingadewo",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingadewo (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingadewo",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuziva",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ziva (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ziva]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndinotanga",
+      "morpheme_breakdown": "ndi- (1sg subj) + -no- (pres. hab.) + -tanga (stem)",
+      "noun_class_or_concord": "1st Person Sg Subject Concord (ndi-)",
+      "literal_english": "I habitually [tanga]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -enda (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [enda]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ku",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ku (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ku",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "ku",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ku (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ku",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "clinic",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -clinic (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "clinic",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "zvarinhi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -zvarinhi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "zvarinhi",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'inhumbu' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'zvarinhi' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -zvarinhi (root)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic ______' (Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv')",
+      "options": [
+        "zvarinhi",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "zvarinhi",
+      "explanation": "'zvarinhi' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'inhumbu' in 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zvarinhi'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'inhumbu' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zvarinhi'",
+      "options": [
+        "Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv'",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv'",
+      "explanation": "'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zvarinhi' translates idiomatically as 'Expectant mother's health inquiry in Zezuru: 'inhumbu yangu yekutanga ndingadewo kuziva kuti ndinotanga kuenda ku ku clinic zv''."
+    }
+  ]
+}

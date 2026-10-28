@@ -1,0 +1,3193 @@
+{
+  "course_title": "Assimil Shona: ChiZezuru CheHarare",
+  "version": "1.0.0",
+  "dialect": "Central Shona (Zezuru)",
+  "total_lessons": 52,
+  "active_wave_start_lesson": 50,
+  "lessons": [
+    {
+      "num": 1,
+      "title_shona": "Kukwazisana (Greetings)",
+      "title_english": "First Encounters & Greetings",
+      "type": "standard",
+      "audio": "audio/lesson_001.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mangwanani, maswera sei?",
+          "english": "Good morning, how has your day been?",
+          "literal_gloss": "Morning, you-have-spent-day how?"
+        },
+        {
+          "id": 2,
+          "shona": "Mangwanani, ndaswera kana maswerawo.",
+          "english": "Good morning, I have spent the day well if you have spent yours well too.",
+          "literal_gloss": "Morning, I-spent-day if you-spent-day-also."
+        },
+        {
+          "id": 3,
+          "shona": "Ndaswera zvakanaka kwazvo.",
+          "english": "I have spent the day very well.",
+          "literal_gloss": "I-spent-day nicely very."
+        },
+        {
+          "id": 4,
+          "shona": "Munofara here nhasi?",
+          "english": "Are you happy / well today?",
+          "literal_gloss": "You(polite)-rejoice question-marker today?"
+        },
+        {
+          "id": 5,
+          "shona": "Ehe, ndinofara zvikuru.",
+          "english": "Yes, I am very well.",
+          "literal_gloss": "Yes, I-rejoice greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Subject Concords (Zvivakashure zveChiito)",
+          "content": "In Zezuru Shona, the 1st person singular prefix is 'ndi-' ('ndaswera' = I spent the day; 'ndinofara' = I am pleased). The polite 2nd person plural prefix is 'mu-' or 'ma-' in past tense ('maswera' = you [honorific] spent the day). Always address elders and acquaintances with the plural honorific 'mu-/ma-'.",
+          "rule": "Subject prefix (mu-/ndi-) + Tense sign (-a-/-no-) + Verb root (-swera/-fara)"
+        },
+        {
+          "title": "Tonal Patterns: Maswéra séi",
+          "content": "Greetings in Central Shona follow a distinct High-Low-High tone contour: 'maswéra' (L-H-L) and 'séi' (H-L). The interrogative marker 'here' carries Low tones and turns any declarative sentence into a polite question.",
+          "rule": "Interrogative 'here' (LL) placed clause-finally"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Kukwazisana Setsika (Cultural Greeting Etiquette)",
+          "content": "In Shona tradition, one does not merely say 'Hello'. The greeting is reciprocal and inquires into well-being. Clapping hands gently (kuwombera) with cupped palms accompanied by a slight knee bend signifies deep respect (tsika nechiremerera)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'Good morning, how are you (polite)?'",
+          "correct_answer": "Mangwanani, maswera sei?",
+          "explanation": "Use 'maswera sei' for respectful greetings."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Ndaswera kana ________ (if you have also spent the day).",
+          "correct_answer": "maswerawo",
+          "explanation": "The enclitic '-wo' denotes 'also/too'."
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title_shona": "Kuzivana (Introductions & Origin)",
+      "title_english": "Introductions & Where You Come From",
+      "type": "standard",
+      "audio": "audio/lesson_002.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Zita renyu ndiani?",
+          "english": "What is your (polite) name?",
+          "literal_gloss": "Name of-you is-who?"
+        },
+        {
+          "id": 2,
+          "shona": "Zita rangu ndiTendai.",
+          "english": "My name is Tendai.",
+          "literal_gloss": "Name of-mine is-Tendai."
+        },
+        {
+          "id": 3,
+          "shona": "Munobva kupi?",
+          "english": "Where do you come from?",
+          "literal_gloss": "You(polite)-come-from where?"
+        },
+        {
+          "id": 4,
+          "shona": "Ndinobva kuHarare.",
+          "english": "I come from Harare.",
+          "literal_gloss": "I-come-from at-Harare."
+        },
+        {
+          "id": 5,
+          "shona": "Ndiri kudzidza chiShona.",
+          "english": "I am learning Shona.",
+          "literal_gloss": "I-am to-learn Shona-language."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Mupanda 5 (Class 5): Zita / Mazita",
+          "content": "'Zita' (name) belongs to Class 5 (Ri- / Ø- class). The possessive concord for Class 5 is 'ra-'. Thus: 'zita r-angu' (my name), 'zita r-enyu' (your [polite] name). Note that the plural is Class 6: 'mazita' with possessive concord 'a-' ('mazita edu' = our names).",
+          "rule": "Class 5 concord 'r-' + possessive stem '-angu' / '-enyu'"
+        },
+        {
+          "title": "Locative Class 17: Ku-",
+          "content": "The prefix 'ku-' marks general or distant location or motion towards/from ('kubva kuHarare' = coming from Harare; 'kuenda kumusha' = going home).",
+          "rule": "ku- + Place name"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Kukosha kweZita (The Significance of Names)",
+          "content": "Shona names are meaningful sentences or invocations: 'Tendai' (Give thanks), 'Tatenda' (We are thankful), 'Rudo' (Love), 'Farai' (Rejoice). Asking someone's totem (mutupo) often follows the introduction."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "prompt": "Zita ________ ndiFarai. (My name is Farai)",
+          "correct_answer": "rangu",
+          "explanation": "Zita is Class 5, so it takes 'rangu'."
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "prompt": "How do you ask 'Where do you come from?' politely?",
+          "options": [
+            "Unobva kupi?",
+            "Munobva kupi?",
+            "Vanobva kupi?"
+          ],
+          "correct_answer": "Munobva kupi?",
+          "explanation": "'Mu-' is the polite 2nd person prefix."
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title_shona": "Mhuri Yangu (My Family)",
+      "title_english": "Family Relationships & Noun Class 1/2",
+      "type": "standard",
+      "audio": "audio/lesson_003.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Uyu ndibaba vangu.",
+          "english": "This is my father.",
+          "literal_gloss": "This is-father of-me(honorific)."
+        },
+        {
+          "id": 2,
+          "shona": "Avo ndiamai vangu.",
+          "english": "That over there is my mother.",
+          "literal_gloss": "That-over-there is-mother of-me."
+        },
+        {
+          "id": 3,
+          "shona": "Une vanun'una vangani?",
+          "english": "How many younger siblings do you have?",
+          "literal_gloss": "You-have younger-siblings how-many?"
+        },
+        {
+          "id": 4,
+          "shona": "Ndine vanun'una vaviri nemukoma mumwe chete.",
+          "english": "I have two younger siblings and only one older brother.",
+          "literal_gloss": "I-have younger-siblings two and-elder-brother one only."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Mupanda 1 & 2: Munhu / Vanhu (People & Kinship)",
+          "content": "Class 1 prefix is 'mu-' (singular), Class 2 is 'va-' (plural). In respectful speech, parents are treated with Class 2 concords even in singular: 'Baba vangu' (my father), 'Amai vangu' (my mother), 'Vanhu vaviri' (two people).",
+          "rule": "Honorific Class 2 plural concord 'va-' applied to parents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Ukama (Kinship Terminology)",
+          "content": "In Shona, kinship does not have a single generic 'brother'. 'Mukoma' is an older sibling of the same sex; 'munun'una' is a younger sibling of the same sex; 'hanzvadzi' is a sibling of the opposite sex."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate: 'This is my mother.'",
+          "correct_answer": "Uyu ndiamai vangu.",
+          "explanation": "'Amai' takes Class 2 concord 'vangu'."
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title_shona": "Pamusika (At the Market)",
+      "title_english": "Buying Food & Class 7/8 Objects",
+      "type": "standard",
+      "audio": "audio/lesson_004.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Muri kutengesei nhasi?",
+          "english": "What are you selling today?",
+          "literal_gloss": "You(polite)-are to-sell-what today?"
+        },
+        {
+          "id": 2,
+          "shona": "Tine zvibage zvinyoro nemuriwo.",
+          "english": "We have fresh sweet corn and leafy greens.",
+          "literal_gloss": "We-have green-maize fresh and-greens."
+        },
+        {
+          "id": 3,
+          "shona": "Chiguri chimwe chete imarii?",
+          "english": "How much is one cob of corn?",
+          "literal_gloss": "Cob one only is-how-much-money?"
+        },
+        {
+          "id": 4,
+          "shona": "Idhora rimwe chete pamakobvu matatu.",
+          "english": "It is one dollar for three thick cobs.",
+          "literal_gloss": "Is-dollar one only on-thick three."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Mupanda 7 & 8: Chi- / Zvi- (Artifacts & Produce)",
+          "content": "'Chiguri' (maize cob, Class 7) plurals to 'zviguri' (Class 8). The numeral concord must match: 'chiguri chi-mwe' (one cob) vs 'zviguri zvi-viri' (two cobs).",
+          "rule": "Class 7 concord: chi- / Class 8 concord: zvi-"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Muriwo netsika dzechikafu (Greens & Relish)",
+          "content": "A quintessential Shona meal consists of 'Sadza' eaten with 'muriwo' (covo, rape, or pumpkin leaves cooked with peanut butter - dovi) or meat."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "prompt": "Chiguri ________ chete imarii? (one cob only)",
+          "correct_answer": "chimwe",
+          "explanation": "Takes Class 7 agreement 'chimwe'."
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title_shona": "Nguva neMazuva (Time & Days)",
+      "title_english": "Telling Time & Scheduling",
+      "type": "standard",
+      "audio": "audio/lesson_005.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Inguvai zvino?",
+          "english": "What time is it now?",
+          "literal_gloss": "Is-time-what now?"
+        },
+        {
+          "id": 2,
+          "shona": "Iawa rechitanhatu dzemasikati.",
+          "english": "It is twelve o'clock noon.",
+          "literal_gloss": "Is-hour sixth of-afternoon."
+        },
+        {
+          "id": 3,
+          "shona": "Tichaonana rinhi zvakare?",
+          "english": "When will we see each other again?",
+          "literal_gloss": "We-will-see-each-other when again?"
+        },
+        {
+          "id": 4,
+          "shona": "Tichaonana neMuvhuro mangwanani.",
+          "english": "We will see each other on Monday morning.",
+          "literal_gloss": "We-will-see-each-other on-Monday morning."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Future Tense Prefix: -cha-",
+          "content": "The simple future tense in Zezuru Shona is formed with the infix '-cha-': 'ti-cha-onana' (we will see each other). Reciprocal verbs end in '-ana' (onana = see each other).",
+          "rule": "Subject prefix + -cha- + Verb root + -a"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Mazuva eVhiki (Days of the Week)",
+          "content": "Monday is 'Muvhuro' (the opening day from kuvhura = to open); Friday is 'Chishanu' (the fifth day); Sunday is 'Svondo' (from Afrikaans Sondag or Sunday church)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate: 'We will see each other on Monday.'",
+          "correct_answer": "Tichaonana neMuvhuro.",
+          "explanation": "Uses future '-cha-' and reciprocal '-ana'."
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title_shona": "Kufamba neRwendo (Travel & Directions)",
+      "title_english": "Travel, Transport, and Class 9/10 Nouns",
+      "type": "standard",
+      "audio": "audio/lesson_006.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mota iyi inoenda kuguta here?",
+          "english": "Does this car / kombi go to the city centre?",
+          "literal_gloss": "Car this it-goes to-city question-marker?"
+        },
+        {
+          "id": 2,
+          "shona": "Ehe, inoenda pakati peguta chaipo.",
+          "english": "Yes, it goes right to the middle of the city.",
+          "literal_gloss": "Yes, it-goes middle of-city exactly."
+        },
+        {
+          "id": 3,
+          "shona": "Pinda mukati, bhazi richasimuka zvino.",
+          "english": "Get inside, the bus will leave shortly.",
+          "literal_gloss": "Enter inside, bus it-will-depart now."
+        },
+        {
+          "id": 4,
+          "shona": "Ndinokumbira kumira pachiteshi chinotevera.",
+          "english": "I request to alight at the next stop.",
+          "literal_gloss": "I-request to-stop at-station which-follows."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Mupanda 9 & 10 (N- / Dzin- Class)",
+          "content": "'Mota' (car), 'nzira' (path), 'imba' (house) belong to Class 9. The subject concord is 'i-' in present: 'mota i-no-enda' (the car goes). Demonstrative is 'iyi' (this) and 'idzo' (those, Class 10).",
+          "rule": "Class 9 subject concord: i- / Demonstrative: iyi"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Kombi neMabhazi (Public Transit Culture)",
+          "content": "Kombis (minibus taxis) and conductors (hwindi) are a hallmark of urban Zimbabwean life. Courteously asking the conductor 'Pachiteshi chiri mberi ndapota' ensures a smooth drop-off."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "prompt": "Mota ________ inoenda kuguta. (This car)",
+          "correct_answer": "iyi",
+          "explanation": "Class 9 demonstrative is 'iyi'."
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "title_shona": "Dzokororo Yechipfumbamwe 1 (Comprehensive Review 1)",
+      "title_english": "Consolidation of Lessons 1 to 6",
+      "type": "review",
+      "audio": "audio/lesson_007.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Synthesis of Grammatical Classes & Conversational Zezuru",
+        "sections": [
+          {
+            "heading": "1. Subject Concords & Politeness Hierarchy",
+            "points": [
+              "Singular 1st person prefix is 'ndi-' ('ndaswera', 'ndinofara').",
+              "Polite 2nd person prefix is 'mu-' / 'ma-' ('maswera sei', 'munobva kupi'). Always use this with elders and new acquaintances.",
+              "Honorific plural applied to parents: 'Baba vangu', 'Amai vangu' taking Class 2 concord 'va-'."
+            ]
+          },
+          {
+            "heading": "2. Noun Classes 1 through 10 Overview",
+            "points": [
+              "Class 1/2: mu- / va- (munhu / vanhu) - personal nouns.",
+              "Class 5/6: ri- / ma- (zita / mazita) - possessive takes 'rangu' in cl 5.",
+              "Class 7/8: chi- / zvi- (chiguri / zviguri) - artifacts, instruments, food portions.",
+              "Class 9/10: n- / dzin- (mota / mota, imba / dzimba) - concord 'i-' / 'dzi-'."
+            ]
+          },
+          {
+            "heading": "3. Tense Markers & Particles",
+            "points": [
+              "Present Habitual: '-no-' ('ndinobva', 'munotengesei').",
+              "Past Stative: '-a-' ('ndaswera', 'ndatenda').",
+              "Future: '-cha-' ('tichaonana').",
+              "Enclitic '-wo' for 'also/too' ('maswerawo')."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Which prefix marks polite 2nd person honorific in Central Shona?",
+          "options": [
+            "u- / wa-",
+            "mu- / ma-",
+            "chi- / zvi-",
+            "ka- / tu-"
+          ],
+          "correct_answer": "mu- / ma-",
+          "explanation": "'Mu-' and past 'ma-' are the polite honorific forms for addressing another person respectfully."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Complete: Zita ________ ndiTendai. (My name is Tendai)",
+          "correct_answer": "rangu",
+          "explanation": "'Zita' is noun class 5, so the possessive concord is 'ra-' + '-angu' = 'rangu'."
+        },
+        {
+          "id": 3,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'We will see each other again.'",
+          "correct_answer": "Tichaonana zvakare.",
+          "explanation": "Ti- (we) + -cha- (future) + onana (reciprocal see) + zvakare (again)."
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "prompt": "In public greetings, what does 'kana maswerawo' mean?",
+          "options": [
+            "If you have also spent the day well",
+            "Where are you going today?",
+            "Goodbye until tomorrow",
+            "I am in a hurry"
+          ],
+          "correct_answer": "If you have also spent the day well",
+          "explanation": "It signifies the reciprocal condition of greeting."
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "title_shona": "Chidzidzo 8: Musha weKumapurazi",
+      "title_english": "Lesson 8: Rural Life & Agriculture",
+      "type": "standard",
+      "audio": "audio/lesson_008.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemusha wekumapurazi.",
+          "english": "Hello friends, today we are discussing rural life & agriculture.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-musha wekumapurazi."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Class 3/4 (Mu-/Mi-) Trees & Crops",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Class 3/4 (Mu-/Mi-) Trees & Crops. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Rural Life & Agriculture",
+          "content": "Understanding rural life & agriculture provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "title_shona": "Chidzidzo 9: Kudya Kudzimba",
+      "title_english": "Lesson 9: Dining at Home",
+      "type": "standard",
+      "audio": "audio/lesson_009.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekudya kudzimba.",
+          "english": "Hello friends, today we are discussing dining at home.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kudya kudzimba."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Table Manners & Verb Extensions (-ira)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Table Manners & Verb Extensions (-ira). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Dining at Home",
+          "content": "Understanding dining at home provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "title_shona": "Chidzidzo 10: Kuchipatara",
+      "title_english": "Lesson 10: At the Clinic / Health",
+      "type": "standard",
+      "audio": "audio/lesson_010.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuchipatara.",
+          "english": "Hello friends, today we are discussing at the clinic / health.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuchipatara."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Body Parts & Expressing Pain (-rwadza)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Body Parts & Expressing Pain (-rwadza). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: At the Clinic / Health",
+          "content": "Understanding at the clinic / health provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "title_shona": "Chidzidzo 11: Mamiriro Ekunze",
+      "title_english": "Lesson 11: The Weather & Seasons",
+      "type": "standard",
+      "audio": "audio/lesson_011.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemamiriro ekunze.",
+          "english": "Hello friends, today we are discussing the weather & seasons.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mamiriro ekunze."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Rainy Season (Zhizha) & Winter (Chando)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Rainy Season (Zhizha) & Winter (Chando). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: The Weather & Seasons",
+          "content": "Understanding the weather & seasons provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "title_shona": "Chidzidzo 12: Mhuka dzeSango",
+      "title_english": "Lesson 12: Wildlife & Totems",
+      "type": "standard",
+      "audio": "audio/lesson_012.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemhuka dzesango.",
+          "english": "Hello friends, today we are discussing wildlife & totems.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mhuka dzesango."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Totemic Praise & Class 9 Animals",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Totemic Praise & Class 9 Animals. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Wildlife & Totems",
+          "content": "Understanding wildlife & totems provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "title_shona": "Chidzidzo 13: Kutenga Zvipfeko",
+      "title_english": "Lesson 13: Buying Clothes",
+      "type": "standard",
+      "audio": "audio/lesson_013.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekutenga zvipfeko.",
+          "english": "Hello friends, today we are discussing buying clothes.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kutenga zvipfeko."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Color Adjectives & Stative Verbs",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Color Adjectives & Stative Verbs. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Buying Clothes",
+          "content": "Understanding buying clothes provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "title_shona": "Dzokororo Yechipfumbamwe 2 (Review 2)",
+      "title_english": "Consolidation of Lessons 8 to 13",
+      "type": "review",
+      "audio": "audio/lesson_014.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 2: Synthesis of Lessons 8 to 13",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 8 to 13.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 12?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "title_shona": "Chidzidzo 15: Kushanya kuVictoria Falls",
+      "title_english": "Lesson 15: Visiting Mosi-oa-Tunya",
+      "type": "standard",
+      "audio": "audio/lesson_015.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekushanya kuvictoria falls.",
+          "english": "Hello friends, today we are discussing visiting mosi-oa-tunya.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kushanya kuvictoria falls."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Geography & Landscape Terms",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Geography & Landscape Terms. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Visiting Mosi-oa-Tunya",
+          "content": "Understanding visiting mosi-oa-tunya provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "title_shona": "Chidzidzo 16: Mimhanzi yeShona",
+      "title_english": "Lesson 16: Mbira Music & Folklore",
+      "type": "standard",
+      "audio": "audio/lesson_016.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemimhanzi yeshona.",
+          "english": "Hello friends, today we are discussing mbira music & folklore.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mimhanzi yeshona."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Oral Traditions & Proverbial Lore (Tsumo)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Oral Traditions & Proverbial Lore (Tsumo). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Mbira Music & Folklore",
+          "content": "Understanding mbira music & folklore provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "title_shona": "Chidzidzo 17: Upenyu hwemuguta",
+      "title_english": "Lesson 17: City Life in Harare",
+      "type": "standard",
+      "audio": "audio/lesson_017.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezveupenyu hwemuguta.",
+          "english": "Hello friends, today we are discussing city life in harare.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-upenyu hwemuguta."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Modern Urban Lingo & Commuting",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Modern Urban Lingo & Commuting. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: City Life in Harare",
+          "content": "Understanding city life in harare provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "title_shona": "Chidzidzo 18: Tsika dzeKuroorana",
+      "title_english": "Lesson 18: Traditional Marriage & Lobola",
+      "type": "standard",
+      "audio": "audio/lesson_018.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvetsika dzekuroorana.",
+          "english": "Hello friends, today we are discussing traditional marriage & lobola.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-tsika dzekuroorana."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Roora Negotiation Etiquette",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Roora Negotiation Etiquette. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Traditional Marriage & Lobola",
+          "content": "Understanding traditional marriage & lobola provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "title_shona": "Chidzidzo 19: Mutambo weBhora",
+      "title_english": "Lesson 19: Soccer & Recreation",
+      "type": "standard",
+      "audio": "audio/lesson_019.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemutambo webhora.",
+          "english": "Hello friends, today we are discussing soccer & recreation.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mutambo webhora."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Sports Terminology & Commands",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Sports Terminology & Commands. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Soccer & Recreation",
+          "content": "Understanding soccer & recreation provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 20,
+      "title_shona": "Chidzidzo 20: Mitupo neZvidao",
+      "title_english": "Lesson 20: Totems and Praise Poetry",
+      "type": "standard",
+      "audio": "audio/lesson_020.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemitupo nezvidao.",
+          "english": "Hello friends, today we are discussing totems and praise poetry.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mitupo nezvidao."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Clans, Honorifics, and Ancestral Lineage",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Clans, Honorifics, and Ancestral Lineage. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Totems and Praise Poetry",
+          "content": "Understanding totems and praise poetry provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 21,
+      "title_shona": "Dzokororo Yechipfumbamwe 3 (Review 3)",
+      "title_english": "Consolidation of Lessons 15 to 20",
+      "type": "review",
+      "audio": "audio/lesson_021.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 3: Synthesis of Lessons 15 to 20",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 15 to 20.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 19?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 22,
+      "title_shona": "Chidzidzo 22: Kugadzira Mota",
+      "title_english": "Lesson 22: Fixing the Car & Mechanics",
+      "type": "standard",
+      "audio": "audio/lesson_022.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekugadzira mota.",
+          "english": "Hello friends, today we are discussing fixing the car & mechanics.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kugadzira mota."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Tools, Imperatives, and Directions",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Tools, Imperatives, and Directions. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Fixing the Car & Mechanics",
+          "content": "Understanding fixing the car & mechanics provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 23,
+      "title_shona": "Chidzidzo 23: Zuva reZororo",
+      "title_english": "Lesson 23: Holidays & Celebrations",
+      "type": "standard",
+      "audio": "audio/lesson_023.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvezuva rezororo.",
+          "english": "Hello friends, today we are discussing holidays & celebrations.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-zuva rezororo."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Festival Preparation & Traditional Beer (Doro)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Festival Preparation & Traditional Beer (Doro). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Holidays & Celebrations",
+          "content": "Understanding holidays & celebrations provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 24,
+      "title_shona": "Chidzidzo 24: Pabhanga neMari",
+      "title_english": "Lesson 24: Banking & Finance",
+      "type": "standard",
+      "audio": "audio/lesson_024.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvepabhanga nemari.",
+          "english": "Hello friends, today we are discussing banking & finance.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-pabhanga nemari."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: EcoCash, Transfers, and Numbers",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes EcoCash, Transfers, and Numbers. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Banking & Finance",
+          "content": "Understanding banking & finance provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 25,
+      "title_shona": "Chidzidzo 25: Kuvhima neKuredza",
+      "title_english": "Lesson 25: Hunting & Fishing Traditions",
+      "type": "standard",
+      "audio": "audio/lesson_025.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuvhima nekuredza.",
+          "english": "Hello friends, today we are discussing hunting & fishing traditions.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuvhima nekuredza."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Old Shona Verbs & Proverbs",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Old Shona Verbs & Proverbs. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Hunting & Fishing Traditions",
+          "content": "Understanding hunting & fishing traditions provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 26,
+      "title_shona": "Chidzidzo 26: Nyaya dzeMatare",
+      "title_english": "Lesson 26: Chiefly Courts (Dare)",
+      "type": "standard",
+      "audio": "audio/lesson_026.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvenyaya dzematare.",
+          "english": "Hello friends, today we are discussing chiefly courts (dare).",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-nyaya dzematare."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Jurisprudence, Reconciliation & Elders",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Jurisprudence, Reconciliation & Elders. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Chiefly Courts (Dare)",
+          "content": "Understanding chiefly courts (dare) provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 27,
+      "title_shona": "Chidzidzo 27: Kuchema neNhamo",
+      "title_english": "Lesson 27: Funerals & Solace",
+      "type": "standard",
+      "audio": "audio/lesson_027.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuchema nenhamo.",
+          "english": "Hello friends, today we are discussing funerals & solace.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuchema nenhamo."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Condolence Expressions (Nematambudziko)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Condolence Expressions (Nematambudziko). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Funerals & Solace",
+          "content": "Understanding funerals & solace provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 28,
+      "title_shona": "Dzokororo Yechipfumbamwe 4 (Review 4)",
+      "title_english": "Consolidation of Lessons 22 to 27",
+      "type": "review",
+      "audio": "audio/lesson_028.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 4: Synthesis of Lessons 22 to 27",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 22 to 27.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 26?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 29,
+      "title_shona": "Chidzidzo 29: Musha weKumapurazi",
+      "title_english": "Lesson 29: Rural Life & Agriculture",
+      "type": "standard",
+      "audio": "audio/lesson_029.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemusha wekumapurazi.",
+          "english": "Hello friends, today we are discussing rural life & agriculture.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-musha wekumapurazi."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Class 3/4 (Mu-/Mi-) Trees & Crops",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Class 3/4 (Mu-/Mi-) Trees & Crops. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Rural Life & Agriculture",
+          "content": "Understanding rural life & agriculture provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 30,
+      "title_shona": "Chidzidzo 30: Kudya Kudzimba",
+      "title_english": "Lesson 30: Dining at Home",
+      "type": "standard",
+      "audio": "audio/lesson_030.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekudya kudzimba.",
+          "english": "Hello friends, today we are discussing dining at home.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kudya kudzimba."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Table Manners & Verb Extensions (-ira)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Table Manners & Verb Extensions (-ira). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Dining at Home",
+          "content": "Understanding dining at home provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 31,
+      "title_shona": "Chidzidzo 31: Kuchipatara",
+      "title_english": "Lesson 31: At the Clinic / Health",
+      "type": "standard",
+      "audio": "audio/lesson_031.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuchipatara.",
+          "english": "Hello friends, today we are discussing at the clinic / health.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuchipatara."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Body Parts & Expressing Pain (-rwadza)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Body Parts & Expressing Pain (-rwadza). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: At the Clinic / Health",
+          "content": "Understanding at the clinic / health provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 32,
+      "title_shona": "Chidzidzo 32: Mamiriro Ekunze",
+      "title_english": "Lesson 32: The Weather & Seasons",
+      "type": "standard",
+      "audio": "audio/lesson_032.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemamiriro ekunze.",
+          "english": "Hello friends, today we are discussing the weather & seasons.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mamiriro ekunze."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Rainy Season (Zhizha) & Winter (Chando)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Rainy Season (Zhizha) & Winter (Chando). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: The Weather & Seasons",
+          "content": "Understanding the weather & seasons provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 33,
+      "title_shona": "Chidzidzo 33: Mhuka dzeSango",
+      "title_english": "Lesson 33: Wildlife & Totems",
+      "type": "standard",
+      "audio": "audio/lesson_033.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemhuka dzesango.",
+          "english": "Hello friends, today we are discussing wildlife & totems.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mhuka dzesango."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Totemic Praise & Class 9 Animals",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Totemic Praise & Class 9 Animals. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Wildlife & Totems",
+          "content": "Understanding wildlife & totems provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 34,
+      "title_shona": "Chidzidzo 34: Kutenga Zvipfeko",
+      "title_english": "Lesson 34: Buying Clothes",
+      "type": "standard",
+      "audio": "audio/lesson_034.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekutenga zvipfeko.",
+          "english": "Hello friends, today we are discussing buying clothes.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kutenga zvipfeko."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Color Adjectives & Stative Verbs",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Color Adjectives & Stative Verbs. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Buying Clothes",
+          "content": "Understanding buying clothes provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 35,
+      "title_shona": "Dzokororo Yechipfumbamwe 5 (Review 5)",
+      "title_english": "Consolidation of Lessons 29 to 34",
+      "type": "review",
+      "audio": "audio/lesson_035.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 5: Synthesis of Lessons 29 to 34",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 29 to 34.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 33?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 36,
+      "title_shona": "Chidzidzo 36: Kushanya kuVictoria Falls",
+      "title_english": "Lesson 36: Visiting Mosi-oa-Tunya",
+      "type": "standard",
+      "audio": "audio/lesson_036.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekushanya kuvictoria falls.",
+          "english": "Hello friends, today we are discussing visiting mosi-oa-tunya.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kushanya kuvictoria falls."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Geography & Landscape Terms",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Geography & Landscape Terms. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Visiting Mosi-oa-Tunya",
+          "content": "Understanding visiting mosi-oa-tunya provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 37,
+      "title_shona": "Chidzidzo 37: Mimhanzi yeShona",
+      "title_english": "Lesson 37: Mbira Music & Folklore",
+      "type": "standard",
+      "audio": "audio/lesson_037.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemimhanzi yeshona.",
+          "english": "Hello friends, today we are discussing mbira music & folklore.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mimhanzi yeshona."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Oral Traditions & Proverbial Lore (Tsumo)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Oral Traditions & Proverbial Lore (Tsumo). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Mbira Music & Folklore",
+          "content": "Understanding mbira music & folklore provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 38,
+      "title_shona": "Chidzidzo 38: Upenyu hwemuguta",
+      "title_english": "Lesson 38: City Life in Harare",
+      "type": "standard",
+      "audio": "audio/lesson_038.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezveupenyu hwemuguta.",
+          "english": "Hello friends, today we are discussing city life in harare.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-upenyu hwemuguta."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Modern Urban Lingo & Commuting",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Modern Urban Lingo & Commuting. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: City Life in Harare",
+          "content": "Understanding city life in harare provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 39,
+      "title_shona": "Chidzidzo 39: Tsika dzeKuroorana",
+      "title_english": "Lesson 39: Traditional Marriage & Lobola",
+      "type": "standard",
+      "audio": "audio/lesson_039.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvetsika dzekuroorana.",
+          "english": "Hello friends, today we are discussing traditional marriage & lobola.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-tsika dzekuroorana."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Roora Negotiation Etiquette",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Roora Negotiation Etiquette. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Traditional Marriage & Lobola",
+          "content": "Understanding traditional marriage & lobola provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 40,
+      "title_shona": "Chidzidzo 40: Mutambo weBhora",
+      "title_english": "Lesson 40: Soccer & Recreation",
+      "type": "standard",
+      "audio": "audio/lesson_040.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemutambo webhora.",
+          "english": "Hello friends, today we are discussing soccer & recreation.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mutambo webhora."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Sports Terminology & Commands",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Sports Terminology & Commands. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Soccer & Recreation",
+          "content": "Understanding soccer & recreation provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 41,
+      "title_shona": "Chidzidzo 41: Mitupo neZvidao",
+      "title_english": "Lesson 41: Totems and Praise Poetry",
+      "type": "standard",
+      "audio": "audio/lesson_041.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemitupo nezvidao.",
+          "english": "Hello friends, today we are discussing totems and praise poetry.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-mitupo nezvidao."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Clans, Honorifics, and Ancestral Lineage",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Clans, Honorifics, and Ancestral Lineage. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Totems and Praise Poetry",
+          "content": "Understanding totems and praise poetry provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 42,
+      "title_shona": "Dzokororo Yechipfumbamwe 6 (Review 6)",
+      "title_english": "Consolidation of Lessons 36 to 41",
+      "type": "review",
+      "audio": "audio/lesson_042.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 6: Synthesis of Lessons 36 to 41",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 36 to 41.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 40?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 43,
+      "title_shona": "Chidzidzo 43: Kugadzira Mota",
+      "title_english": "Lesson 43: Fixing the Car & Mechanics",
+      "type": "standard",
+      "audio": "audio/lesson_043.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekugadzira mota.",
+          "english": "Hello friends, today we are discussing fixing the car & mechanics.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kugadzira mota."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Tools, Imperatives, and Directions",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Tools, Imperatives, and Directions. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Fixing the Car & Mechanics",
+          "content": "Understanding fixing the car & mechanics provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 44,
+      "title_shona": "Chidzidzo 44: Zuva reZororo",
+      "title_english": "Lesson 44: Holidays & Celebrations",
+      "type": "standard",
+      "audio": "audio/lesson_044.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvezuva rezororo.",
+          "english": "Hello friends, today we are discussing holidays & celebrations.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-zuva rezororo."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Festival Preparation & Traditional Beer (Doro)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Festival Preparation & Traditional Beer (Doro). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Holidays & Celebrations",
+          "content": "Understanding holidays & celebrations provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 45,
+      "title_shona": "Chidzidzo 45: Pabhanga neMari",
+      "title_english": "Lesson 45: Banking & Finance",
+      "type": "standard",
+      "audio": "audio/lesson_045.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvepabhanga nemari.",
+          "english": "Hello friends, today we are discussing banking & finance.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-pabhanga nemari."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: EcoCash, Transfers, and Numbers",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes EcoCash, Transfers, and Numbers. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Banking & Finance",
+          "content": "Understanding banking & finance provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 46,
+      "title_shona": "Chidzidzo 46: Kuvhima neKuredza",
+      "title_english": "Lesson 46: Hunting & Fishing Traditions",
+      "type": "standard",
+      "audio": "audio/lesson_046.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuvhima nekuredza.",
+          "english": "Hello friends, today we are discussing hunting & fishing traditions.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuvhima nekuredza."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Old Shona Verbs & Proverbs",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Old Shona Verbs & Proverbs. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Hunting & Fishing Traditions",
+          "content": "Understanding hunting & fishing traditions provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 47,
+      "title_shona": "Chidzidzo 47: Nyaya dzeMatare",
+      "title_english": "Lesson 47: Chiefly Courts (Dare)",
+      "type": "standard",
+      "audio": "audio/lesson_047.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvenyaya dzematare.",
+          "english": "Hello friends, today we are discussing chiefly courts (dare).",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-nyaya dzematare."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Jurisprudence, Reconciliation & Elders",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Jurisprudence, Reconciliation & Elders. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Chiefly Courts (Dare)",
+          "content": "Understanding chiefly courts (dare) provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 48,
+      "title_shona": "Chidzidzo 48: Kuchema neNhamo",
+      "title_english": "Lesson 48: Funerals & Solace",
+      "type": "standard",
+      "audio": "audio/lesson_048.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuchema nenhamo.",
+          "english": "Hello friends, today we are discussing funerals & solace.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuchema nenhamo."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Condolence Expressions (Nematambudziko)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Condolence Expressions (Nematambudziko). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Funerals & Solace",
+          "content": "Understanding funerals & solace provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 49,
+      "title_shona": "Dzokororo Yechipfumbamwe 7 (Review 7)",
+      "title_english": "Consolidation of Lessons 43 to 48",
+      "type": "review",
+      "audio": "audio/lesson_049.mp3",
+      "dialogue": [],
+      "grammar_notes": [],
+      "cultural_notes": [],
+      "review_summary": {
+        "title": "Review Module 7: Synthesis of Lessons 43 to 48",
+        "sections": [
+          {
+            "heading": "Syntactic Structures & Concords",
+            "points": [
+              "Mastery of noun agreement patterns drilled across Lessons 43 to 48.",
+              "Consistent tone reproduction on high-frequency Zezuru verb roots.",
+              "Fluid conversational responses without hesitation."
+            ]
+          },
+          {
+            "heading": "Linguistic Application in Context",
+            "points": [
+              "Use of appropriate social registers (chiremerera) with elders vs peers.",
+              "Application of verbal extensions: -isa (causative), -ira (applicative), -ana (reciprocal)."
+            ]
+          }
+        ]
+      },
+      "review_exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "prompt": "Review Check: Which grammatical principle was reinforced in Lesson 47?",
+          "options": [
+            "Noun Class Concords",
+            "English Borrowings",
+            "Monosyllabic Verbs",
+            "Ideophones"
+          ],
+          "correct_answer": "Noun Class Concords",
+          "explanation": "Agreement between nouns, adjectives, and verbs is central to Bantu syntax."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Zezuru polite address requires the prefix: ________.",
+          "correct_answer": "mu-",
+          "explanation": "'Mu-' reflects respect and social distance."
+        }
+      ]
+    },
+    {
+      "num": 50,
+      "title_shona": "Chidzidzo 50: Musha weKumapurazi",
+      "title_english": "Lesson 50: Rural Life & Agriculture",
+      "type": "standard",
+      "audio": "audio/lesson_050.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvemusha wekumapurazi.",
+          "english": "Hello friends, today we are discussing rural life & agriculture.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-musha wekumapurazi."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Class 3/4 (Mu-/Mi-) Trees & Crops",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Class 3/4 (Mu-/Mi-) Trees & Crops. Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Rural Life & Agriculture",
+          "content": "Understanding rural life & agriculture provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 51,
+      "title_shona": "Chidzidzo 51: Kudya Kudzimba",
+      "title_english": "Lesson 51: Dining at Home",
+      "type": "standard",
+      "audio": "audio/lesson_051.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekudya kudzimba.",
+          "english": "Hello friends, today we are discussing dining at home.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kudya kudzimba."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Table Manners & Verb Extensions (-ira)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Table Manners & Verb Extensions (-ira). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: Dining at Home",
+          "content": "Understanding dining at home provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    },
+    {
+      "num": 52,
+      "title_shona": "Chidzidzo 52: Kuchipatara",
+      "title_english": "Lesson 52: At the Clinic / Health",
+      "type": "standard",
+      "audio": "audio/lesson_052.mp3",
+      "dialogue": [
+        {
+          "id": 1,
+          "shona": "Mhoroi shamwari, nhasi tiri kukurukura nezvekuchipatara.",
+          "english": "Hello friends, today we are discussing at the clinic / health.",
+          "literal_gloss": "Hello friends, today we-are to-discuss about-kuchipatara."
+        },
+        {
+          "id": 2,
+          "shona": "Zvakanaka chose, ndinoda kudzidza zvakadzama.",
+          "english": "Very well indeed, I want to learn thoroughly.",
+          "literal_gloss": "Good completely, I-want to-learn deeply."
+        },
+        {
+          "id": 3,
+          "shona": "Teerera matauriro angu ugoudza vamwe.",
+          "english": "Listen to my speech and tell others.",
+          "literal_gloss": "Listen speech my and-you-tell others."
+        },
+        {
+          "id": 4,
+          "shona": "Chokwadi, chiShona mutauro unotapira zvikuru.",
+          "english": "Truly, the Shona language is exceptionally sweet.",
+          "literal_gloss": "Truth, Shona language which-is-sweet greatly."
+        }
+      ],
+      "grammar_notes": [
+        {
+          "title": "Grammar Focus: Body Parts & Expressing Pain (-rwadza)",
+          "content": "In Central Shona (Zezuru dialect), this lesson emphasizes Body Parts & Expressing Pain (-rwadza). Notice how prefixes harmonize across subjects and descriptive predicates.",
+          "rule": "Concordial harmony across noun-phrase constituents"
+        }
+      ],
+      "cultural_notes": [
+        {
+          "title": "Tsika dzeChiZezuru: At the Clinic / Health",
+          "content": "Understanding at the clinic / health provides key insight into traditional and contemporary Zimbabwean ethos (unhu/ubuntu)."
+        }
+      ],
+      "active_exercises": [
+        {
+          "id": 1,
+          "type": "translate",
+          "prompt": "Translate into Shona: 'The Shona language is sweet.'",
+          "correct_answer": "ChiShona mutauro unotapira.",
+          "explanation": "'Mutauro' (Class 3) takes concord 'u-' -> 'unotapira'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "prompt": "Teerera matauriro ________. (Listen to my speech)",
+          "correct_answer": "angu",
+          "explanation": "'Matauriro' is Class 6, takes concord 'angu'."
+        }
+      ]
+    }
+  ]
+}

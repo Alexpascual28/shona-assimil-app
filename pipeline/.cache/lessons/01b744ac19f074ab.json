@@ -1,0 +1,175 @@
+{
+  "english_translation": "Zezuru utterance (kana / uchiri / child / person / singular / inside [diki] / zvekuti / you (resp.) have [kore] / 17 / and)",
+  "literal_gloss": [
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "uchiri",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -uchiri (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "uchiri",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mwana",
+      "morpheme_breakdown": "mu- (Cl. 1) + -ana (child)",
+      "noun_class_or_concord": "Mupanda 1 (mu-) Noun",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mudiki",
+      "morpheme_breakdown": "mu- (Cl. 1 / Cl. 3 / Cl. 18 prefix) + -diki (stem)",
+      "noun_class_or_concord": "Mupanda 1/3/18 Prefix (mu-)",
+      "literal_english": "person / singular / inside [diki]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvekuti",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -zvekuti (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "zvekuti",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "makore",
+      "morpheme_breakdown": "ma- (2pl/hon subj past) + -kore (stem)",
+      "noun_class_or_concord": "2nd Person Plural / Honorific Subject Concord (ma-)",
+      "literal_english": "you (resp.) have [kore]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "17",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -17 (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "17",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "and",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -and (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "and",
+      "tone_pattern": "H"
+    },
+    {
+      "shona_word": "below",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -below (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "below",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndino",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndino (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndino",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "zviona",
+      "morpheme_breakdown": "zvi- (Cl. 8 plural prefix / concord) + -ona (stem)",
+      "noun_class_or_concord": "Mupanda 8 Plural Prefix & Concord (zvi-)",
+      "literal_english": "things / manner [ona]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndabata",
+      "morpheme_breakdown": "nda- (1sg recent past) + -bata (stem)",
+      "noun_class_or_concord": "1st Person Sg Recent Past Concord (nda-)",
+      "literal_english": "I have [bata]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "mimba",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -mimba (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "mimba",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -kana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "kana",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "handina",
+      "morpheme_breakdown": "ha- (neg) + ndi- (1sg subj) + -na (stem)",
+      "noun_class_or_concord": "1st Person Sg Negative Concord (handi-)",
+      "literal_english": "I do not [na]",
+      "tone_pattern": "H-L-H"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'kana' establishes the noun class/subject frame (Mupanda 5/9 Nominal or Verbal Stem).",
+    "Agglutinative Morphology: 'handina' combines prefixal/suffixal morphemes (ha- (neg) + ndi- (1sg subj) + -na (stem)) with tone contour H-L-H.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'kana uchiri mwana mudiki zvekuti makore 17 and below ndino zviona sei kuti ndabata mimba kana kuti ______' (Zezuru utterance (kana / uchiri / child / person / singular / inside [diki] / zvekuti / you (resp.) have [kore] / 17 / and))",
+      "options": [
+        "handina",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "handina",
+      "explanation": "'handina' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'kana' in 'kana uchiri mwana mudiki zvekuti makore 17 and below ndino zviona sei kuti ndabata mimba kana kuti handina'?",
+      "options": [
+        "Mupanda 5/9 Nominal or Verbal Stem",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "Mupanda 5/9 Nominal or Verbal Stem",
+      "explanation": "'kana' operates under Mupanda 5/9 Nominal or Verbal Stem in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'kana uchiri mwana mudiki zvekuti makore 17 and below ndino zviona sei kuti ndabata mimba kana kuti handina'",
+      "options": [
+        "Zezuru utterance (kana / uchiri / child / person / singular / inside [diki] / zvekuti / you (resp.) have [kore] / 17 / and)",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Zezuru utterance (kana / uchiri / child / person / singular / inside [diki] / zvekuti / you (resp.) have [kore] / 17 / and)",
+      "explanation": "'kana uchiri mwana mudiki zvekuti makore 17 and below ndino zviona sei kuti ndabata mimba kana kuti handina' translates idiomatically as 'Zezuru utterance (kana / uchiri / child / person / singular / inside [diki] / zvekuti / you (resp.) have [kore] / 17 / and)'."
+    }
+  ]
+}

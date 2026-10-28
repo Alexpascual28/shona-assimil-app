@@ -1,0 +1,140 @@
+{
+  "english_translation": "Expectant mother's health inquiry in Zezuru: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsir'",
+  "literal_gloss": [
+    {
+      "shona_word": "ndichangoziva",
+      "morpheme_breakdown": "ndi- (1sg subj) + -cha- (future) + -ngoziva (stem)",
+      "noun_class_or_concord": "1st Person Sg Future Concord (ndicha-)",
+      "literal_english": "I will [ngoziva]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndakazvitakura",
+      "morpheme_breakdown": "ndi- (1sg subj) + -ka- (remote past) + -zvitakura (stem)",
+      "noun_class_or_concord": "1st Person Sg Past Concord (ndaka-)",
+      "literal_english": "I did [zvitakura]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -asi (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "asi",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "handizive",
+      "morpheme_breakdown": "ha- (neg) + ndi- (1sg subj) + -zive (stem)",
+      "noun_class_or_concord": "1st Person Sg Negative Concord (handi-)",
+      "literal_english": "I do not [zive]",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -ti (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [ti]",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "ndotanga",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndotanga (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndotanga",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "kudii",
+      "morpheme_breakdown": "ku- (Cl. 15 infinitive / Cl. 17 locative) + -dii (stem)",
+      "noun_class_or_concord": "Mupanda 15/17 Prefix (ku-)",
+      "literal_english": "to (infinitive) / towards [dii]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "ndingabatsirikawo",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -ndingabatsirikawo (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "ndingabatsirikawo",
+      "tone_pattern": "H-L-H-L"
+    },
+    {
+      "shona_word": "sei",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -sei (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "sei",
+      "tone_pattern": "H-L"
+    },
+    {
+      "shona_word": "nekuti",
+      "morpheme_breakdown": "ne- (associative/instrumental prefix) + -kuti (stem)",
+      "noun_class_or_concord": "Associative / Conjunctive Prefix (ne-)",
+      "literal_english": "with / and / by [kuti]",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "hapana",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -hapana (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "hapana",
+      "tone_pattern": "H-L-H"
+    },
+    {
+      "shona_word": "zvandinoziva",
+      "morpheme_breakdown": "Ø- (Cl. 5/9) + -zvandinoziva (root)",
+      "noun_class_or_concord": "Mupanda 5/9 Nominal or Verbal Stem",
+      "literal_english": "zvandinoziva",
+      "tone_pattern": "H-L-H-L"
+    }
+  ],
+  "grammar_notes": [
+    "Concordial Agreement (Zvivakashure): Notice how 'ndichangoziva' establishes the noun class/subject frame (1st Person Sg Future Concord (ndicha-)).",
+    "Agglutinative Morphology: 'zvandinoziva' combines prefixal/suffixal morphemes (Ø- (Cl. 5/9) + -zvandinoziva (root)) with tone contour H-L-H-L.",
+    "Penultimate Lengthening: In Zezuru declarative sentences, the second-to-last syllable of the phrase carries natural vowel lengthening."
+  ],
+  "cultural_notes": "In Harare Zezuru standard speech, speakers maintain strict alliterative concord (zvivakashure) across noun classes while using respectful plural forms (hunhu).",
+  "active_exercises": [
+    {
+      "exercise_type": "fill_in_the_blank",
+      "prompt": "Complete the Zezuru sentence: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsirikawo sei nekuti hapana ______' (Expectant mother's health inquiry in Zezuru: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsir')",
+      "options": [
+        "zvandinoziva",
+        "zvakanaka",
+        "kwazvo",
+        "kumusha"
+      ],
+      "correct_answer": "zvandinoziva",
+      "explanation": "'zvandinoziva' completes the clause with the proper Zezuru lexical and tonal pattern."
+    },
+    {
+      "exercise_type": "concord_agreement",
+      "prompt": "Which Zezuru noun class or concord (chivakashure) governs 'ndichangoziva' in 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsirikawo sei nekuti hapana zvandinoziva'?",
+      "options": [
+        "1st Person Sg Future Concord (ndicha-)",
+        "Mupanda 14 Abstract Concord (hu-)",
+        "Mupanda 11 Nominal Prefix (ru-)",
+        "Mupanda 19 Diminutive Prefix (svi-)"
+      ],
+      "correct_answer": "1st Person Sg Future Concord (ndicha-)",
+      "explanation": "'ndichangoziva' operates under 1st Person Sg Future Concord (ndicha-) in Central Shona (Harare standard)."
+    },
+    {
+      "exercise_type": "translation",
+      "prompt": "Select the most natural English translation for: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsirikawo sei nekuti hapana zvandinoziva'",
+      "options": [
+        "Expectant mother's health inquiry in Zezuru: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsir'",
+        "We are going to the market tomorrow morning.",
+        "The children are learning to speak good Shona at school.",
+        "Good morning, how did you sleep at home?"
+      ],
+      "correct_answer": "Expectant mother's health inquiry in Zezuru: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsir'",
+      "explanation": "'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsirikawo sei nekuti hapana zvandinoziva' translates idiomatically as 'Expectant mother's health inquiry in Zezuru: 'ndichangoziva kuti ndakazvitakura asi handizive kuti ndotanga kudii ndingabatsir''."
+    }
+  ]
+}
