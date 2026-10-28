@@ -547,3 +547,146 @@ def generate_mock_clips(
         )
 
     return clips
+
+
+def enrich_clip_dict(item: dict[str, Any], lesson_number: int | None = None) -> dict[str, Any]:
+    """Enriches a raw clip dictionary with textbook-quality translations, grammar notes,
+    cultural notes, glosses, and active exercises. Eliminates all boilerplate phrases.
+    """
+    shona_text = str(item.get("shona_text") or item.get("text") or "").strip()
+    if not shona_text:
+        return item
+
+    num = lesson_number or int(item.get("lesson_number") or 1)
+    enrichment = build_deterministic_enrichment(shona_text, lesson_number=num)
+
+    words = re.findall(r"[A-Za-z']+", shona_text)
+    word_count = len(words)
+    avg_len = round(sum(len(w) for w in words) / max(1, word_count), 2)
+    dur = float(
+        item.get("duration_seconds")
+        or item.get("audio_duration")
+        or max(2.5, min(120.0, word_count * 0.65))
+    )
+
+    out = dict(item)
+    out["shona_text"] = shona_text
+    out["english_translation"] = enrichment.english_translation
+    out["duration_seconds"] = dur
+    out["word_count"] = int(item.get("word_count") or word_count)
+    out["avg_word_length"] = float(item.get("avg_word_length") or avg_len)
+    out["difficulty_score"] = float(
+        item.get("difficulty_score")
+        or round((dur * 1.5) + (word_count * 2.0) + (avg_len * 3.0), 2)
+    )
+    out["pedagogical_stage"] = int(
+        item.get("pedagogical_stage")
+        or (1 if dur < 10 else 2 if dur < 20 else 3 if dur < 30 else 4 if dur < 50 else 5)
+    )
+    out["dialect"] = item.get("dialect") or "Standard Shona (Zezuru)"
+
+    out["dialogue"] = [d.model_dump() for d in enrichment.dialogue]
+    out["literal_gloss"] = [g.model_dump() for g in enrichment.literal_gloss]
+    out["grammar_notes"] = [g.model_dump() for g in enrichment.grammar_notes]
+    out["cultural_notes"] = [c.model_dump() for c in enrichment.cultural_notes]
+    out["active_exercises"] = [e.model_dump() for e in enrichment.active_exercises]
+
+    return out
+
+
+def enrich_batch_clips(
+    items: list[dict[str, Any]], start_lesson_number: int = 1
+) -> list[dict[str, Any]]:
+    """Enriches a batch of raw downloaded clips or pool items in order."""
+    enriched_list: list[dict[str, Any]] = []
+    for idx, item in enumerate(items):
+        num = int(item.get("lesson_number") or (start_lesson_number + idx))
+        enriched_list.append(enrich_clip_dict(item, lesson_number=num))
+    return enriched_list
+
+
+def main() -> None:
+    import argparse
+    import json
+    import sys
+
+    parser = argparse.ArgumentParser(
+        description="Shona Assimil Linguistic Enrichment Tool (CLI & Batch Processor)"
+    )
+    parser.add_argument(
+        "--enrich-batch",
+        type=str,
+        help="Path to JSON file containing array of clips or lessons to enrich",
+    )
+    parser.add_argument(
+        "--enrich-file",
+        type=str,
+        help="Path to a course_data.json or expansion_pool.json file to enrich in-place or check",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        help="Optional path to output JSON file (defaults to stdout or in-place for --enrich-file)",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force re-enrichment of all items even if already translated",
+    )
+    parser.add_argument(
+        "--start-lesson",
+        type=int,
+        default=1,
+        help="Starting lesson number for assigning exercises and progression",
+    )
+    args = parser.parse_args()
+
+    if args.enrich_batch:
+        with open(args.enrich_batch, "r", encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        is_list = isinstance(raw_data, list)
+        items = raw_data if is_list else raw_data.get("lessons", [])
+        enriched_items = enrich_batch_clips(items, start_lesson_number=args.start_lesson)
+
+        output_payload = enriched_items if is_list else {**raw_data, "lessons": enriched_items}
+
+        if args.output:
+            with open(args.output, "w", encoding="utf-8") as f:
+                json.dump(output_payload, f, indent=2, ensure_ascii=False)
+            print(f"Successfully enriched {len(enriched_items)} clips and wrote to {args.output}")
+        else:
+            print(json.dumps(output_payload, indent=2, ensure_ascii=False))
+
+    elif args.enrich_file:
+        with open(args.enrich_file, "r", encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        is_list = isinstance(raw_data, list)
+        items = raw_data if is_list else raw_data.get("lessons", [])
+
+        boilerplate_marker = "In everyday life in Zimbabwe, descriptive narratives like"
+        enriched_count = 0
+        for idx, item in enumerate(items):
+            shona_text = (item.get("shona_text") or "").strip().lower()
+            en_trans = (item.get("english_translation") or "").strip().lower()
+            has_boilerplate = any(
+                boilerplate_marker in str(c.get("content", ""))
+                for c in item.get("cultural_notes", [])
+            )
+            is_untranslated = (not en_trans) or (en_trans == shona_text)
+
+            if args.force or is_untranslated or has_boilerplate:
+                num = int(item.get("lesson_number") or (args.start_lesson + idx))
+                items[idx] = enrich_clip_dict(item, lesson_number=num)
+                enriched_count += 1
+
+        out_path = args.output or args.enrich_file
+        output_payload = items if is_list else {**raw_data, "lessons": items}
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(output_payload, f, indent=2, ensure_ascii=False)
+        print(f"Enriched {enriched_count} items in {out_path} (total items: {len(items)})")
+
+
+if __name__ == "__main__":
+    main()

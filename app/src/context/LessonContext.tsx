@@ -812,7 +812,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           currentRawList.map((l) => String(l.shona_text || '').trim().toLowerCase()).filter(Boolean)
         );
 
-        const available = poolLessons.filter(
+        let available = poolLessons.filter(
           (item: any) =>
             !existingIds.has(item.clip_id) &&
             !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
@@ -820,11 +820,90 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         );
 
         if (available.length < 50) {
+          setExpansionProgress({
+            percent: 25,
+            statusText: `Connecting to Hugging Face to fetch new clips (${available.length}/50 available)...`
+          });
+          try {
+            const hfRes = await fetch(
+              `https://datasets-server.huggingface.co/rows?dataset=takuM23/shona-vibevoice-corpus&config=default&split=train&offset=${Math.max(300, currentRawList.length * 2)}&length=100`
+            );
+            if (hfRes.ok) {
+              const hfData = await hfRes.json();
+              const rows = Array.isArray(hfData.rows) ? hfData.rows : [];
+              for (let i = 0; i < rows.length; i++) {
+                const r = rows[i].row;
+                const rawText = String(r.text || '').trim();
+                if (!rawText || rawText.length < 15) continue;
+                const normText = rawText.toLowerCase();
+                if (existingTexts.has(normText)) continue;
+                const clipId = `hf_vv_browser_${i}`;
+                if (existingIds.has(clipId)) continue;
+                const duration = typeof r.audio_duration === 'number' ? r.audio_duration : Math.max(3.5, Math.min(120.0, Math.round((rawText.length / 13.0) * 10) / 10));
+                if (duration > 120.0) continue;
+                const audioSrc = r.audio && r.audio[0] ? r.audio[0].src : `/audio/clip_${clipId}.wav`;
+                const words = rawText.split(/\s+/).map((w: string) => w.replace(/[.,?!:;"'()]/g, '')).filter(Boolean);
+
+                const newItem: any = {
+                  clip_id: clipId,
+                  shona_text: rawText,
+                  english_translation: rawText,
+                  audio_url: audioSrc,
+                  duration_seconds: duration,
+                  difficulty_score: Math.min(100, Math.round(words.length * 1.5 + rawText.length * 0.1)),
+                  pedagogical_stage: duration < 10 ? 1 : duration < 20 ? 2 : duration < 30 ? 3 : 4,
+                  dialect: 'Standard Shona (Zezuru)',
+                  dialogue: [
+                    {
+                      id: 1,
+                      shona: rawText,
+                      english: rawText,
+                      literal_gloss: words.slice(0, 8).join(' • '),
+                    }
+                  ],
+                  grammar_notes: [
+                    {
+                      title: 'Shona Concords & Syntax',
+                      content: `Notice the clause agreement: "${rawText.slice(0, 60)}...".`,
+                    }
+                  ],
+                  cultural_notes: [
+                    {
+                      title: 'Tsika neMagariro Context',
+                      content: `Everyday Shona expression: "${rawText.slice(0, 50)}...".`,
+                    }
+                  ],
+                  active_exercises: [
+                    {
+                      type: 'translate',
+                      prompt: `Translate: "${rawText.slice(0, 60)}..."`,
+                      correct_answer: rawText.slice(0, 60),
+                    }
+                  ]
+                };
+
+                poolLessons.push(newItem);
+                existingIds.add(clipId);
+                existingTexts.add(normText);
+              }
+              available = poolLessons.filter(
+                (item: any) =>
+                  !existingIds.has(item.clip_id) &&
+                  !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
+                  Number(item.duration_seconds || 0) <= 120.0
+              );
+            }
+          } catch (netErr) {
+            console.warn('Browser Hugging Face fetch failed:', netErr);
+          }
+        }
+
+        if (available.length < 50) {
           setOfflineNoticeDialog({
             isOpen: true,
             remaining: available.length,
             required: 50,
-            message: `There are currently only ${available.length} reserve lessons remaining in the offline pool (50 required for a complete new batch). Please connect to the internet to download additional audio clips or update your course pack.`,
+            message: `You appear to be offline or Hugging Face is unreachable. There are currently only ${available.length} reserve lessons remaining in the offline pool (50 required for a complete new batch). Please connect to the internet to download additional audio clips or update your course pack.`,
           });
           setIsGeneratingLessons(false);
           setExpansionProgress(null);
