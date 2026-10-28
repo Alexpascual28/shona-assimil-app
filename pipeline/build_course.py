@@ -32,7 +32,7 @@ PROJECT_ROOT = PIPELINE_DIR.parent
 if str(PIPELINE_DIR) not in sys.path:
     sys.path.insert(0, str(PIPELINE_DIR))
 
-from enrich import GeminiEnricher, generate_mock_clips
+from enrich import GeminiEnricher
 from ingest import DatasetIngestor
 from models import CourseData, Lesson, NormalizedClip
 from sequencer import AssimilSequencer
@@ -187,17 +187,7 @@ def main(argv: list[str] | None = None) -> int:
             logger.warning("Failed to read cached clips (%s); falling back to live ingest.", exc)
             collected_clips = []
 
-    if args.mock:
-        logger.info("Running in --mock mode: generating %d lessons (%d regular clips)...", args.max_lessons, needed_regular_clips)
-        collected_clips = generate_mock_clips(
-            audio_output_dir=audio_dir,
-            count=needed_regular_clips + 4,
-            target_sr=int(config.get("filtering", {}).get("target_sampling_rate", 16000)),
-        )
-        for ds_name in config.get("default_datasets", []):
-            if ds_name not in source_datasets:
-                source_datasets.append(ds_name)
-    elif not collected_clips:
+    if not collected_clips:
         ingestor = DatasetIngestor(
             config_path=config_path,
             audio_output_dir=audio_dir,
@@ -230,23 +220,6 @@ def main(argv: list[str] | None = None) -> int:
                 collected_clips.extend(local_clips)
             except Exception as exc:
                 logger.error("Failed to ingest local directory '%s': %s", local_path, exc)
-
-        # If strict Zezuru + duration filtering across small sample datasets yields fewer clips than
-        # needed to reach --max-lessons (e.g., Lesson 51+ Active Wave), supplement with curated Zezuru clips.
-        if args.fill_to_max and len(collected_clips) < needed_regular_clips:
-            shortfall = needed_regular_clips - len(collected_clips)
-            logger.info(
-                "Ingested %d live filtered Zezuru clips; supplementing with %d curated Zezuru clips to reach %d total lessons.",
-                len(collected_clips),
-                shortfall,
-                needed_regular_clips,
-            )
-            supplement = generate_mock_clips(
-                audio_output_dir=audio_dir,
-                count=needed_regular_clips + 4,
-                target_sr=int(config.get("filtering", {}).get("target_sampling_rate", 16000)),
-            )
-            collected_clips.extend(supplement)
 
     # 3. Sequence & Score
     sequencer = AssimilSequencer(config)

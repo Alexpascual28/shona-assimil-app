@@ -7,6 +7,17 @@ declare global {
       saveProgress: (data: UserProgress) => Promise<boolean>;
       loadExpandedCourse?: () => Promise<Record<string, unknown> | null>;
       generateMoreLessons?: (count: number) => Promise<Record<string, unknown> | null>;
+      onGenerationProgress?: (
+        callback: (data: { percent: number; message: string }) => void
+      ) => () => void;
+      verifyDevPassword?: (password: string) => Promise<boolean>;
+      removeLast50Lessons?: () => Promise<Record<string, unknown> | null>;
+      devFixLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
+      devRegenerateLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
+      devRegenerateField?: (
+        lessonNumber: number,
+        field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
+      ) => Promise<Record<string, unknown> | null>;
       isElectron?: boolean;
     };
   }

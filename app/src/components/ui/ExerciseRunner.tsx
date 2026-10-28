@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ExerciseItem } from '../../types/course';
-import { CheckCircle2, XCircle, ArrowRight, HelpCircle, Sparkles } from 'lucide-react';
+import { useLesson } from '../../context/LessonContext';
+import { CheckCircle2, XCircle, ArrowRight, HelpCircle, Sparkles, RefreshCw } from 'lucide-react';
 
 interface ExerciseRunnerProps {
   exercises: ExerciseItem[];
@@ -15,6 +16,7 @@ export const ExerciseRunner: React.FC<ExerciseRunnerProps> = ({
   onRecordScore,
   onCompleteAll
 }) => {
+  const { isDevMode, isDevActionRunning, regenerateLessonField } = useLesson();
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [checked, setChecked] = useState<Record<number, boolean>>({});
   const [activeIdx, setActiveIdx] = useState<number>(0);
@@ -63,31 +65,50 @@ export const ExerciseRunner: React.FC<ExerciseRunnerProps> = ({
           </span>
         </div>
 
-        {/* Step dots */}
-        <div className="flex items-center gap-1.5">
-          {exercises.map((ex, idx) => {
-            const isCompleted = checked[ex.id];
-            const answerState = isCompleted
-              ? normalize(answers[ex.id] || '') === normalize(ex.correct_answer)
-              : null;
+        <div className="flex items-center gap-3">
+          {isDevMode && (
+            <button
+              onClick={() => {
+                setAnswers({});
+                setChecked({});
+                setActiveIdx(0);
+                regenerateLessonField(lessonNumber, 'exercises');
+              }}
+              disabled={isDevActionRunning}
+              title="Dev Mode: Regenerate Exercises for this lesson"
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-[11px] font-semibold transition disabled:opacity-50"
+            >
+              <RefreshCw className={`w-3 h-3 ${isDevActionRunning ? 'animate-spin' : ''}`} />
+              <span>Regenerate Exercises</span>
+            </button>
+          )}
 
-            return (
-              <button
-                key={ex.id}
-                onClick={() => setActiveIdx(idx)}
-                className={`w-3 h-3 rounded-full transition-all ${
-                  idx === activeIdx
-                    ? 'ring-2 ring-amber-400 ring-offset-2 ring-offset-slate-900 bg-amber-500'
-                    : isCompleted
-                    ? answerState
-                      ? 'bg-emerald-500'
-                      : 'bg-rose-500'
-                    : 'bg-slate-700 hover:bg-slate-600'
-                }`}
-                title={`Question ${idx + 1}`}
-              />
-            );
-          })}
+          {/* Step dots */}
+          <div className="flex items-center gap-1.5">
+            {exercises.map((ex, idx) => {
+              const isCompleted = checked[ex.id];
+              const answerState = isCompleted
+                ? normalize(answers[ex.id] || '') === normalize(ex.correct_answer)
+                : null;
+
+              return (
+                <button
+                  key={ex.id}
+                  onClick={() => setActiveIdx(idx)}
+                  className={`w-3 h-3 rounded-full transition-all ${
+                    idx === activeIdx
+                      ? 'ring-2 ring-amber-400 ring-offset-2 ring-offset-slate-900 bg-amber-500'
+                      : isCompleted
+                      ? answerState
+                        ? 'bg-emerald-500'
+                        : 'bg-rose-500'
+                      : 'bg-slate-700 hover:bg-slate-600'
+                  }`}
+                  title={`Question ${idx + 1}`}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
 
@@ -99,7 +120,7 @@ export const ExerciseRunner: React.FC<ExerciseRunnerProps> = ({
         </div>
 
         {/* Answer input types */}
-        {currentExercise.type === 'multiple_choice' && currentExercise.options ? (
+        {currentExercise.options && currentExercise.options.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             {currentExercise.options.map((option, optIdx) => {
               const isSelected = userAnswer === option;

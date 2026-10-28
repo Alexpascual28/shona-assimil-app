@@ -40,7 +40,7 @@
   },
   "build": {
     "appId": "com.shona.assimil.desktop",
-    "productName": "Shona Assimil ChiZezuru",
+    "productName": "Shona Assimil",
     "electronDist": "node_modules/electron/dist",
     "directories": {
       "output": "release"
@@ -48,6 +48,7 @@
     "files": [
       "dist/**/*",
       "dist-electron/**/*",
+      ".env",
       "package.json"
     ],
     "win": {
@@ -65,6 +66,9 @@
           ]
         }
       ]
+    },
+    "portable": {
+      "artifactName": "Shona Assimil.exe"
     },
     "nsis": {
       "oneClick": true,

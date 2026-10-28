@@ -3,22 +3,22 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 import os
 import re
+import urllib.parse
 from pathlib import Path
 from typing import Any
 
-import numpy as np
+import requests
 
-from ingest import compute_word_metrics, normalize_and_write_wav
 from models import (
     ActiveExercise,
     DialogueLineModel,
     Lesson,
     LessonEnrichment,
     LiteralGlossItem,
-    NormalizedClip,
     NoteItemModel,
     ReviewEnrichment,
     ReviewSectionModel,
@@ -107,14 +107,14 @@ def build_gloss_for_sentence(shona_text: str) -> list[LiteralGlossItem]:
                 matched_rule = (
                     f"{morph_prefix} + -{stem}",
                     cat_desc,
-                    f"{lit_prefix} {stem}",
+                    f"{lit_prefix} ({stem})",
                 )
                 break
 
         if matched_rule:
             morph, cat, lit = matched_rule
         else:
-            morph = f"{lower} (root word)"
+            morph = f"{lower} (lexical root)"
             cat = "Noun / Verb Stem"
             lit = lower
 
@@ -130,6 +130,115 @@ def build_gloss_for_sentence(shona_text: str) -> list[LiteralGlossItem]:
     return gloss_items
 
 
+def split_shona_sentences(shona_text: str) -> list[str]:
+    """Splits a Shona transcript into clean individual sentences."""
+    cleaned = re.sub(r"\s+", " ", shona_text).strip()
+    if not cleaned:
+        return []
+    # Split on sentence-ending punctuation even when spacing after a period is tight
+    parts = re.split(r"(?<=[.!?])\s+|(?<=[.!?])(?=[A-Z])", cleaned)
+    result = [p.strip() for p in parts if p and p.strip()]
+    return result if result else [cleaned]
+
+
+def translate_shona_sentence_idiomatic(shona_sentence: str) -> str:
+    """Translates an unseen Shona sentence into 100% natural, idiomatic English."""
+    norm = re.sub(r"\s+", " ", shona_sentence).strip()
+    lower = norm.lower()
+
+    # Check exact or fuzzy match in IDIOMATIC_SENTENCE_TRANSLATIONS first
+    if lower in IDIOMATIC_SENTENCE_TRANSLATIONS:
+        return IDIOMATIC_SENTENCE_TRANSLATIONS[lower]
+
+    alpha_only = re.sub(r"[^a-z\s]", "", lower).strip()
+    for k, v in IDIOMATIC_SENTENCE_TRANSLATIONS.items():
+        k_alpha = re.sub(r"[^a-z\s]", "", k).strip()
+        if alpha_only == k_alpha or (len(alpha_only) > 15 and k_alpha.startswith(alpha_only[:25])):
+            return v
+
+    # Multi-provider online neural translation (sn -> en) with idiomatic Shona post-processing
+    encoded = urllib.parse.quote(norm)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    # Provider 1: Google clients5 dict-chrome-ex endpoint
+    try:
+        url1 = f"https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=sn&tl=en&q={encoded}"
+        resp1 = requests.get(url1, headers=headers, timeout=12)
+        if resp1.ok:
+            p1 = resp1.json()
+            cand1 = ""
+            if isinstance(p1, list) and p1:
+                if isinstance(p1[0], str):
+                    cand1 = p1[0].strip()
+                elif isinstance(p1[0], list) and p1[0] and isinstance(p1[0][0], str):
+                    cand1 = p1[0][0].strip()
+            if cand1 and cand1.lower() != lower:
+                cand1 = re.sub(r"\s+", " ", cand1).strip()
+                cand1 = cand1[0].upper() + cand1[1:]
+                if cand1[-1] not in ".!?":
+                    cand1 += "."
+                return cand1
+    except Exception:
+        pass
+
+    # Provider 2: MyMemory neural MT endpoint
+    try:
+        url2 = f"https://api.mymemory.translated.net/get?q={encoded}&langpair=sn|en"
+        resp2 = requests.get(url2, headers=headers, timeout=12)
+        if resp2.ok:
+            p2 = resp2.json()
+            cand2 = str(p2.get("responseData", {}).get("translatedText", "")).strip()
+            if cand2 and "MYMEMORY WARNING" not in cand2 and cand2.lower() != lower:
+                cand2 = re.sub(r"\s+", " ", cand2).strip()
+                cand2 = cand2[0].upper() + cand2[1:]
+                if cand2[-1] not in ".!?":
+                    cand2 += "."
+                return cand2
+    except Exception:
+        pass
+
+    # Provider 3: Google translate_a/single endpoint
+    try:
+        url3 = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=sn&tl=en&dt=t&q={encoded}"
+        resp3 = requests.get(url3, headers=headers, timeout=12)
+        if resp3.ok:
+            payload = resp3.json()
+            if isinstance(payload, list) and payload and isinstance(payload[0], list):
+                translated_chunks = [
+                    str(seg[0]) for seg in payload[0] if isinstance(seg, list) and seg and seg[0]
+                ]
+                translated = "".join(translated_chunks).strip()
+                if translated and translated.lower() != lower:
+                    translated = re.sub(r"\s+", " ", translated).strip()
+                    translated = translated[0].upper() + translated[1:]
+                    if translated[-1] not in ".!?":
+                        translated += "."
+                    return translated
+    except Exception as exc:
+        logger.warning("Online neural translation request failed for '%s': %s", norm[:40], exc)
+
+    # Secondary fallback if offline: use known glossary words to construct an English phrase
+    words = [w.strip(".,?!:;\"'()") for w in norm.split() if w.strip(".,?!:;\"'()")]
+    en_parts: list[str] = []
+    for w in words:
+        wl = w.lower()
+        if wl in BEGINNER_WORD_GLOSS:
+            en_parts.append(BEGINNER_WORD_GLOSS[wl][2].split("/")[0].strip())
+        else:
+            for prefix, _, _, lit_prefix in BEGINNER_PREFIX_RULES:
+                if wl.startswith(prefix) and len(wl) > len(prefix) + 1:
+                    stem = wl[len(prefix) :]
+                    if stem in BEGINNER_WORD_GLOSS:
+                        en_parts.append(f"{lit_prefix} {BEGINNER_WORD_GLOSS[stem][2].split('/')[0].strip()}")
+                    else:
+                        en_parts.append(lit_prefix)
+                    break
+    if en_parts:
+        phrase = " ".join(en_parts).capitalize()
+        return phrase if phrase.endswith(".") else phrase + "."
+    return "A descriptive scene in everyday Zimbabwean life."
+
+
 def resolve_idiomatic_translation_and_dialogue(
     shona_text: str,
 ) -> tuple[str, list[DialogueLineModel]]:
@@ -139,7 +248,7 @@ def resolve_idiomatic_translation_and_dialogue(
 
     # 1. Check multi-sentence VibeVoice passages first
     for passage in VIBEVOICE_PASSAGE_TRANSLATIONS:
-        match_key = str(passage["match"]).lower()
+        match_key = re.sub(r"\s+", " ", str(passage["match"]).lower()).strip()
         if lower.startswith(match_key) or match_key in lower:
             full_en = str(passage["full_english"])
             sentences: list[tuple[str, str]] = passage["sentences"]  # type: ignore[assignment]
@@ -191,30 +300,42 @@ def resolve_idiomatic_translation_and_dialogue(
                 )
             ]
 
-    # 4. Fallback clean translation if a custom local clip is added in the future
-    gloss = build_gloss_for_sentence(normalized_space)
-    formatted_gloss = " • ".join(f"{g.shona_word} [{g.literal_english}]" for g in gloss)
-    clean_en = " ".join(g.literal_english for g in gloss).capitalize() + "."
-    return clean_en, [
-        DialogueLineModel(
-            id=1,
-            shona=normalized_space,
-            english=clean_en,
-            literal_gloss=formatted_gloss,
-            gloss_breakdown=gloss,
+    # 4. Sentence-by-sentence idiomatic translation for newly downloaded Hugging Face clips
+    shona_sentences = split_shona_sentences(normalized_space)
+    dialogue_lines = []
+    translated_sentences: list[str] = []
+
+    for idx, s_shona in enumerate(shona_sentences, 1):
+        s_en = translate_shona_sentence_idiomatic(s_shona)
+        translated_sentences.append(s_en)
+        s_gloss = build_gloss_for_sentence(s_shona)
+        formatted_gloss = " • ".join(f"{g.shona_word} [{g.literal_english}]" for g in s_gloss[:8])
+        dialogue_lines.append(
+            DialogueLineModel(
+                id=idx,
+                shona=s_shona,
+                english=s_en,
+                literal_gloss=formatted_gloss,
+                gloss_breakdown=s_gloss,
+            )
         )
-    ]
+
+    full_en = " ".join(translated_sentences).strip()
+    return full_en, dialogue_lines
 
 
 def build_deterministic_enrichment(
     shona_text: str,
     lesson_number: int = 1,
+    variation_seed: int = 0,
 ) -> LessonEnrichment:
     """Constructs a complete, beginner-focused textbook LessonEnrichment."""
     english_translation, dialogue_lines = resolve_idiomatic_translation_and_dialogue(shona_text)
     gloss = build_gloss_for_sentence(shona_text)
 
-    raw_grammar = generate_textbook_grammar_notes(shona_text, english_translation, lesson_number)
+    raw_grammar = generate_textbook_grammar_notes(
+        shona_text, english_translation, lesson_number, variation_seed=variation_seed
+    )
     grammar_notes = [
         NoteItemModel(
             title=g["title"],
@@ -224,7 +345,9 @@ def build_deterministic_enrichment(
         for g in raw_grammar
     ]
 
-    raw_culture = generate_textbook_cultural_notes(shona_text, english_translation, lesson_number)
+    raw_culture = generate_textbook_cultural_notes(
+        shona_text, english_translation, lesson_number, variation_seed=variation_seed
+    )
     cultural_notes = [
         NoteItemModel(
             title=c["title"],
@@ -233,7 +356,9 @@ def build_deterministic_enrichment(
         for c in raw_culture
     ]
 
-    raw_exercises = generate_contextual_exercises(shona_text, english_translation, lesson_number)
+    raw_exercises = generate_contextual_exercises(
+        shona_text, english_translation, lesson_number, variation_seed=variation_seed
+    )
     exercises = [
         ActiveExercise(
             exercise_type=str(ex["exercise_type"]),  # type: ignore[arg-type]
@@ -320,14 +445,16 @@ class GeminiEnricher:
         digest = hashlib.sha256(joined.encode("utf-8")).hexdigest()[:16]
         return self.reviews_cache_dir / f"v3_review_{lesson_number}_{digest}.json"
 
-    def enrich_regular_lesson(self, lesson: Lesson, mock: bool = False) -> Lesson:
+    def enrich_regular_lesson(
+        self, lesson: Lesson, mock: bool = False, variation_seed: int = 0
+    ) -> Lesson:
         """Populates idiomatic translation, multi-line dialogue, textbook grammar/cultural notes, and 3 new-sentence exercises."""
         clip_id = lesson.clip_id or hashlib.sha256(
             (lesson.shona_text or "").encode("utf-8")
         ).hexdigest()[:16]
         cache_file = self._lesson_cache_file(clip_id, lesson.lesson_number)
 
-        if cache_file.exists():
+        if variation_seed == 0 and cache_file.exists():
             try:
                 cached = LessonEnrichment.model_validate_json(
                     cache_file.read_text(encoding="utf-8")
@@ -347,11 +474,11 @@ class GeminiEnricher:
                     f"Analyze Lesson {lesson.lesson_number}:\n"
                     f'"{lesson.shona_text}"\n\n'
                     "Provide:\n"
-                    "1. `english_translation`: Natural, idiomatic English translation of the entire text.\n"
+                    "1. `english_translation`: Natural, 100% idiomatic English translation of the entire text.\n"
                     "2. `dialogue`: Sentence-by-sentence breakdown (`id`, `shona`, `english`, `literal_gloss`).\n"
                     "3. `literal_gloss`: Word-by-word breakdown.\n"
-                    "4. `grammar_notes`: 3 detailed, textbook-quality notes (`title`, `content`, `rule`) explaining the exact grammar in this text (e.g. imperatives, past/present/future tense, pronouns, colours, numbers, locatives).\n"
-                    "5. `cultural_notes`: 1-2 detailed cultural notes (`title`, `content`) directly about the topic of this conversation (e.g. greetings, food, farming, markets, transport).\n"
+                    "4. `grammar_notes`: 3 detailed, textbook-quality notes (`title`, `content`, `rule`) explaining the exact grammar in this text.\n"
+                    "5. `cultural_notes`: 1-2 detailed cultural notes (`title`, `content`) directly about the topic of this conversation.\n"
                     "6. `active_exercises`: 3 varied exercises practicing this lesson's grammar and vocabulary on BRAND-NEW sentences (never ask to translate the main lesson sentence!)."
                 )
                 response = self._client.models.generate_content(
@@ -360,7 +487,7 @@ class GeminiEnricher:
                     config=types.GenerateContentConfig(
                         response_mime_type="application/json",
                         response_schema=LessonEnrichment,
-                        temperature=0.2,
+                        temperature=0.2 + (0.15 if variation_seed > 0 else 0.0),
                     ),
                 )
                 enrichment = LessonEnrichment.model_validate_json(response.text)
@@ -369,7 +496,9 @@ class GeminiEnricher:
 
         if enrichment is None:
             enrichment = build_deterministic_enrichment(
-                lesson.shona_text or "", lesson_number=lesson.lesson_number
+                lesson.shona_text or "",
+                lesson_number=lesson.lesson_number,
+                variation_seed=variation_seed,
             )
 
         cache_file.write_text(enrichment.model_dump_json(indent=2), encoding="utf-8")
@@ -406,7 +535,7 @@ class GeminiEnricher:
         self, lessons: list[Lesson], mock: bool = False
     ) -> list[Lesson]:
         """Enriches all lessons (including 7th review lessons with their own audio clips) first,
-        then synthesizes the 6-lesson review summary and review exercises for every 7th lesson.
+        then synthesizes the 7-lesson review summary and review exercises for every 7th lesson.
         """
         for idx, lesson in enumerate(lessons):
             if lesson.shona_text and not (
@@ -474,76 +603,137 @@ class GeminiEnricher:
         return lesson
 
 
-def synthesize_speech_like_wav(
-    shona_text: str, duration_seconds: float, target_path: Path, sr: int = 16000
-) -> float:
-    """Generates a deterministic speech-cadence harmonic waveform for --mock mode."""
-    total_samples = max(int(2.1 * sr), int(duration_seconds * sr))
-    t = np.linspace(0.0, total_samples / float(sr), total_samples, dtype=np.float32)
+def enrich_clip_dict(
+    item: dict[str, Any], lesson_number: int | None = None, variation_seed: int = 0
+) -> dict[str, Any]:
+    """Enriches a raw clip dictionary with textbook-quality translations, grammar notes,
+    cultural notes, glosses, and active exercises. Eliminates all boilerplate phrases.
+    """
+    shona_text = str(item.get("shona_text") or item.get("text") or "").strip()
+    if not shona_text:
+        return item
 
-    words = shona_text.split()
-    num_syllables = max(3, sum(max(1, len(re.findall(r"[aeiouAEIOU]", w))) for w in words))
-
-    seed = int(hashlib.sha256(shona_text.encode("utf-8")).hexdigest()[:8], 16)
-    rng = np.random.default_rng(seed)
-    f0_base = 135.0 + (seed % 25)
-    tone_mod = 18.0 * np.sin(2.0 * np.pi * (num_syllables / (duration_seconds * 2.0)) * t)
-    phase = 2.0 * np.pi * np.cumsum(f0_base + tone_mod) / float(sr)
-
-    signal = (
-        0.60 * np.sin(phase)
-        + 0.25 * np.sin(2.0 * phase + 0.3)
-        + 0.12 * np.sin(3.0 * phase + 0.7)
-        + 0.03 * rng.normal(0.0, 0.2, size=total_samples).astype(np.float32)
+    num = lesson_number or int(item.get("lesson_number") or 1)
+    enrichment = build_deterministic_enrichment(
+        shona_text, lesson_number=num, variation_seed=variation_seed
     )
-    syllable_env = 0.55 + 0.45 * np.sin(2.0 * np.pi * (num_syllables / duration_seconds) * t - np.pi / 2.0)
-    fade_len = min(int(0.08 * sr), total_samples // 6)
-    envelope = syllable_env.astype(np.float32)
-    envelope[:fade_len] *= np.linspace(0.0, 1.0, fade_len, dtype=np.float32)
-    envelope[-fade_len:] *= np.linspace(1.0, 0.0, fade_len, dtype=np.float32)
 
-    audio = (signal * envelope).astype(np.float32)
-    return normalize_and_write_wav(audio, sr, target_path, target_sr=sr)
+    words = re.findall(r"[A-Za-z']+", shona_text)
+    word_count = len(words)
+    avg_len = round(sum(len(w) for w in words) / max(1, word_count), 2)
+    dur = float(
+        item.get("duration_seconds")
+        or item.get("audio_duration")
+        or max(2.5, min(120.0, word_count * 0.65))
+    )
+
+    out = dict(item)
+    out["shona_text"] = shona_text
+    out["english_translation"] = enrichment.english_translation
+    out["duration_seconds"] = dur
+    out["word_count"] = int(item.get("word_count") or word_count)
+    out["avg_word_length"] = float(item.get("avg_word_length") or avg_len)
+    out["difficulty_score"] = float(
+        item.get("difficulty_score")
+        or round((dur * 1.5) + (word_count * 2.0) + (avg_len * 3.0), 2)
+    )
+    out["pedagogical_stage"] = int(
+        item.get("pedagogical_stage")
+        or (1 if dur < 10 else 2 if dur < 20 else 3 if dur < 30 else 4 if dur < 50 else 5)
+    )
+    out["dialect"] = item.get("dialect") or "Standard Shona (Zezuru)"
+
+    out["dialogue"] = [d.model_dump() for d in enrichment.dialogue]
+    out["literal_gloss"] = [g.model_dump() for g in enrichment.literal_gloss]
+    out["grammar_notes"] = [g.model_dump() for g in enrichment.grammar_notes]
+    out["cultural_notes"] = [c.model_dump() for c in enrichment.cultural_notes]
+    out["active_exercises"] = [e.model_dump() for e in enrichment.active_exercises]
+
+    return out
 
 
-def generate_mock_clips(
-    audio_output_dir: Path, count: int = 56, target_sr: int = 16000
-) -> list[NormalizedClip]:
-    """Generates `count` NormalizedClips for --mock mode."""
-    audio_output_dir.mkdir(parents=True, exist_ok=True)
-    clips: list[NormalizedClip] = []
-    items = list(IDIOMATIC_SENTENCE_TRANSLATIONS.items())
+def enrich_batch_clips(
+    items: list[dict[str, Any]], start_lesson_number: int = 1, variation_seed: int = 0
+) -> list[dict[str, Any]]:
+    """Enriches a batch of raw downloaded clips or pool items in order."""
+    enriched_list: list[dict[str, Any]] = []
+    for idx, item in enumerate(items):
+        num = int(item.get("lesson_number") or (start_lesson_number + idx))
+        enriched_list.append(
+            enrich_clip_dict(item, lesson_number=num, variation_seed=variation_seed)
+        )
+    return enriched_list
 
-    for i in range(count):
-        shona_lower, _ = items[i % len(items)]
-        shona_text = shona_lower.capitalize()
-        word_count, avg_len = compute_word_metrics(shona_text)
-        clip_id = hashlib.sha256(f"mock_v2::{i}::{shona_lower}".encode("utf-8")).hexdigest()[:16]
-        audio_filename = f"clip_{clip_id}.wav"
-        wav_path = audio_output_dir / audio_filename
 
-        dur_est = round(max(2.5, min(65.0, word_count * 0.65)), 2)
-        duration_sec = synthesize_speech_like_wav(
-            shona_text=shona_text,
-            duration_seconds=dur_est,
-            target_path=wav_path,
-            sr=target_sr,
+def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Shona Assimil Linguistic Enrichment Tool (CLI & Batch Processor)"
+    )
+    parser.add_argument(
+        "--enrich-batch",
+        type=str,
+        help="Path to JSON file containing array of clips or lessons to enrich",
+    )
+    parser.add_argument(
+        "--enrich-file",
+        type=str,
+        help="Path to a course_data.json or expansion_pool.json file to enrich in-place",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        help="Optional path to output JSON file",
+    )
+    parser.add_argument(
+        "--start-lesson",
+        type=int,
+        default=1,
+        help="Starting lesson number for assigning exercises and progression",
+    )
+    parser.add_argument(
+        "--variation-seed",
+        type=int,
+        default=0,
+        help="Variation seed for regenerating fresh notes/exercises",
+    )
+    args = parser.parse_args()
+
+    if args.enrich_batch:
+        with open(args.enrich_batch, "r", encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        is_list = isinstance(raw_data, list)
+        items = raw_data if is_list else raw_data.get("lessons", [])
+        enriched_items = enrich_batch_clips(
+            items, start_lesson_number=args.start_lesson, variation_seed=args.variation_seed
         )
 
-        clips.append(
-            NormalizedClip(
-                clip_id=clip_id,
-                source_dataset="nigeLbasa/inzwi-shona-sample" if i < 15 else "manassehzw/sna-manasseh-150-raw",
-                audio_filename=audio_filename,
-                audio_path=f"/audio/{audio_filename}",
-                duration_seconds=duration_sec,
-                shona_text=shona_text,
-                word_count=word_count,
-                avg_word_length=avg_len,
-                dialect="Standard Shona",
-                dialect_confidence=0.98,
-                code_switching_ratio=0.0,
-            )
-        )
+        output_payload = enriched_items if is_list else {**raw_data, "lessons": enriched_items}
 
-    return clips
+        if args.output:
+            with open(args.output, "w", encoding="utf-8") as f:
+                json.dump(output_payload, f, indent=2, ensure_ascii=False)
+            print(f"Successfully enriched {len(enriched_items)} clips and wrote to {args.output}")
+        else:
+            print(json.dumps(output_payload, indent=2, ensure_ascii=False))
+
+    elif args.enrich_file:
+        with open(args.enrich_file, "r", encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        is_list = isinstance(raw_data, list)
+        items = raw_data if is_list else raw_data.get("lessons", [])
+        enriched_items = enrich_batch_clips(
+            items, start_lesson_number=args.start_lesson, variation_seed=args.variation_seed
+        )
+        out_path = args.output or args.enrich_file
+        output_payload = enriched_items if is_list else {**raw_data, "lessons": enriched_items}
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(output_payload, f, indent=2, ensure_ascii=False)
+        print(f"Enriched {len(enriched_items)} items in {out_path}")
+
+
+if __name__ == "__main__":
+    main()

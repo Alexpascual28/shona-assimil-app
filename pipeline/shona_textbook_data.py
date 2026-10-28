@@ -1490,7 +1490,7 @@ BEGINNER_WORD_GLOSS: dict[str, tuple[str, str, str]] = {
 
 
 def generate_textbook_grammar_notes(
-    shona_text: str, english_translation: str, lesson_number: int
+    shona_text: str, english_translation: str, lesson_number: int, variation_seed: int = 0
 ) -> list[dict[str, str]]:
     """Inspects the exact Shona structures in the lesson text and produces 3 detailed,
     unique, beginner-friendly textbook grammar notes.
@@ -1829,29 +1829,37 @@ def generate_textbook_grammar_notes(
             "rule": "Clause 1 + [uye (and) | asi (but) | saka (so/therefore) | nokuti (because)] + Clause 2",
         })
 
-    # Fill any remaining slot up to 3 notes with relevant sentence-building insights
-    if len(notes) < 3:
+    # 23. Participial '-chi-' ('while doing / as it ...')
+    chi_matches = [w for w in words if re.match(r"^(nd|u|a|t|m|v|i|r|ch|zv|dz|rw|k|p)?ichi[a-z]{2,}a$|^(a|va|i|ri|chi|zvi|dzi)chi[a-z]{3,}a$", w.lower())]
+    if chi_matches and (len(notes) < 3 or variation_seed > 0):
+        chw = chi_matches[variation_seed % len(chi_matches)]
         notes.append({
-            "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+            "title": f"Simultaneous Actions: The Participial '-chi-' Marker ('{chw}')",
             "content": (
-                f"In '{shona_text[:70]}{'...' if len(shona_text) > 70 else ''}', notice how a single Shona verb word packs together "
-                "who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). "
-                "Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately "
-                "spot the subject even when no separate pronoun word is used!"
+                f"In '{chw}', the infix '-chi-' expresses an accompanying or simultaneous action ('while doing / as it does'). "
+                "For example: 'achifara' ('while rejoicing'), 'vachitaurirana' ('while conversing with one another'), and 'zvichiratidza' ('thereby showing')."
             ),
-            "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika",
+            "rule": "Subject Prefix + -chi- + Verb Stem = 'while [verb]-ing / thereby [verb]-ing'",
         })
 
-    if len(notes) < 3:
-        notes.append({
-            "title": "Describing Nouns: Word Order in Shona",
-            "content": (
-                "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun "
-                "('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! "
-                "For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains')."
-            ),
-            "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)",
-        })
+    # Dynamic text-specific morphological analysis for any remaining slot or variation seed
+    longest_words = sorted({w for w in words if len(w) >= 5}, key=len, reverse=True)
+    for lw in longest_words[:2]:
+        if len(notes) < 3 or variation_seed > 0:
+            lw_low = lw.lower()
+            notes.append({
+                "title": f"Morphological & Lexical Structure of '{lw}'",
+                "content": (
+                    f"In this lesson's sentence (\"{shona_text[:80]}{'...' if len(shona_text) > 80 else ''}\"), the word '{lw}' "
+                    f"anchors the idiomatic meaning \"{english_translation[:80]}{'...' if len(english_translation) > 80 else ''}\". "
+                    f"Notice how Shona agglutinates class prefixes and verbal/nominal extensions onto '{lw_low}' so a single word encodes both grammatical concord and core meaning."
+                ),
+                "rule": f"Key lexical item in Lesson {lesson_number}: '{lw}' within \"{shona_text[:55]}{'...' if len(shona_text) > 55 else ''}\"",
+            })
+
+    if variation_seed > 0 and len(notes) > 3:
+        shift = variation_seed % len(notes)
+        notes = notes[shift:] + notes[:shift]
 
     return notes[:3]
 
@@ -3370,89 +3378,119 @@ SENTENCE_CULTURAL_NOTES: list[tuple[str, str, str]] = [
 
 
 def generate_textbook_cultural_notes(
-    shona_text: str, english_translation: str, lesson_number: int
+    shona_text: str, english_translation: str, lesson_number: int, variation_seed: int = 0
 ) -> list[dict[str, str]]:
     """Generates rich, unique cultural, historical, geographical, or environmental notes
     directly tied to the lesson's exact sentence or passage (with zero boilerplate fallbacks).
     """
     normalized = re.sub(r"\s+", " ", shona_text).strip().lower()
     words = set(re.findall(r"[a-z']+", normalized))
+    candidates: list[dict[str, str]] = []
 
     # 1. Exact/prefix match against the comprehensive per-sentence Cultural & Historical Encyclopedia
     for prefix_key, title, content in SENTENCE_CULTURAL_NOTES:
         if normalized.startswith(prefix_key) or prefix_key in normalized:
-            return [{"title": title, "content": content}]
+            candidates.append({"title": title, "content": content})
+            break
 
-    # 2. Historical & Heritage Topics (for any additional historical sentences from datasets)
-    if words & {"rozvi", "munhumutapa", "mutapa", "lobengula", "madzimambo", "mambo", "chimurenga", "nehanda", "chaminuka"}:
-        return [{
-            "title": "Pre-Colonial Kingdoms & Historical Leaders of Zimbabwe",
+    # 2. Thematic & Environmental/Historical Synthesis grounded in the exact sentence
+    if words & {"rozvi", "munhumutapa", "mutapa", "lobengula", "madzimambo", "mambo", "chimurenga", "nehanda", "chaminuka", "masvingo", "nhoroondo"}:
+        candidates.append({
+            "title": "Pre-Colonial Kingdoms & Historical Heritage of Zimbabwe",
             "content": (
-                f"In connection with '{english_translation}', Zimbabwe's history spans great pre-colonial states—including Great Zimbabwe (1100–1450), "
+                f"In connection with \"{english_translation[:110]}\", Zimbabwe's heritage spans great pre-colonial states—including Great Zimbabwe ('Masvingo', 1100–1450), "
                 "the Mutapa Kingdom ('Humambo hwaMunhumutapa') in the north, the Torwa and Rozvi Empires ('Humambo hweRozvi') in the south-west, "
                 "and the Ndebele Kingdom under King Lobengula—as well as revered spiritual and liberation figures such as Chaminuka and Mbuya Nehanda."
             ),
-        }]
+        })
 
-    if words & {"nguzozo", "zviyo", "mapfunde", "mhizha", "hari", "masimbi", "mapfumo", "uta", "miseve"}:
-        return [{
-            "title": "Traditional Grain Storage ('Nguzozo'), Pottery ('Hari') & Ironworking ('Mhizha')",
+    if words & {"nguzozo", "zviyo", "mapfunde", "mhizha", "hari", "masimbi", "mapfumo", "uta", "miseve", "chivezwa", "zvivezwa"}:
+        candidates.append({
+            "title": "Indigenous Craftsmanship: Granaries ('Nguzozo'), Pottery ('Hari') & Sculpture ('Zvivezwa')",
             "content": (
-                f"Relating to '{english_translation}', traditional Shona communities cultivated drought-resistant indigenous grains like finger millet ('zviyo') "
-                "and sorghum ('mapfunde'), storing the harvest in raised, sealed granaries ('nguzozo' or 'dura'). Skilled artisans ('mhizha') smelted iron to forge "
-                "hoes and spears ('mapfumo'), while women molded decorated clay pots ('hari') for cooking and water storage."
+                f"Relating to \"{english_translation[:110]}\", traditional Shona communities cultivated drought-resistant indigenous grains like finger millet ('zviyo') "
+                "and sorghum ('mapfunde'), storing the harvest in raised granaries ('nguzozo'). Skilled artisans ('mhizha') forged iron implements, "
+                "molded decorated clay vessels ('hari'), and carved expressive wood and stone sculptures ('zvivezwa')."
             ),
-        }]
+        })
 
-    if words & {"matobo", "zambezi", "makomo", "rwizi", "mapako"}:
-        return [{
-            "title": "Geography of Zimbabwe: The Zambezi, Matobo Hills & Highveld Rivers",
+    if words & {"matobo", "zambezi", "makomo", "rwizi", "mapako", "sango", "zvipembere", "zhou", "nzou", "twiza", "shiri", "mhuka"}:
+        candidates.append({
+            "title": "Zimbabwean Geography, Savanna Ecosystems & Wildlife Conservation",
             "content": (
-                f"In the context of '{english_translation}', Zimbabwe's geography is defined by the mighty Zambezi River ('Rwizi rweZambezi') in the north, "
-                "the Limpopo River in the south, the granite caves and ancient rock paintings of the Matobo Hills ('Makomo eMatobo') in the southwest, "
-                "and the lush Eastern Highlands along the border with Mozambique."
+                f"Grounded in \"{english_translation[:110]}\", Zimbabwe's landscape ranges from the Zambezi River ('Rwizi rweZambezi') and the granite kopjes of Matobo ('Makomo eMatobo') "
+                "to vast savanna woodlands ('masango') in Hwange, Mana Pools, and Gonarezhou that shelter elephants ('nzou'), rhinoceroses ('zvipembere'), giraffes ('twiza'), and rich birdlife ('shiri')."
             ),
-        }]
+        })
 
-    if words & {"mangwanani", "masikati", "manheru", "manhero", "mhoro", "makadini", "waswera"}:
-        return [{
-            "title": "The Art of Greeting & 'Hunhu' in Shona Culture",
+    if words & {"mangwanani", "masikati", "manheru", "manhero", "mhoro", "makadini", "waswera", "makorokoto", "ndapota", "ndinokumbirawo"}:
+        candidates.append({
+            "title": "The Art of Greeting, Courtesy & 'Hunhu' in Shona Society",
             "content": (
-                "In Zimbabwe, greetings are never rushed—they are the foundation of every social interaction. Before asking a question, "
-                "entering a room, or starting business, people always exchange time-of-day greetings ('Mangwanani', 'Masikati', or 'Manheru') "
-                "and ask after the wellbeing of the other person's household. Even when speaking to a single adult, "
-                "using the plural form ('ma-') is a sign of warmth and mutual respect known as 'hunhu' (ubuntu)."
+                f"As illustrated in \"{shona_text[:90]}\", greetings and courteous requests are the foundation of every social interaction in Zimbabwe. "
+                "Exchanging time-of-day greetings ('Mangwanani', 'Masikati', 'Manheru') and using respectful plural forms ('ma-', '-i', '-wo') embody 'hunhu'—mutual respect and warmth."
             ),
-        }]
+        })
 
-    if words & {"sadza", "hupfu", "muriwo", "nemuriwo", "neusavi", "nyama", "madora", "mbatatisi", "nyemba", "nzungu", "doro", "mazhanje", "makumbi"}:
-        return [{
-            "title": "Zimbabwean Cuisine, Indigenous Fruits & Traditional Hospitality",
+    if words & {"sadza", "hupfu", "muriwo", "nemuriwo", "neusavi", "nyama", "madora", "mbatatisi", "nyemba", "nzungu", "doro", "mazhanje", "makumbi", "michero", "chingwa", "mupunga", "maguru"}:
+        candidates.append({
+            "title": "Zimbabwean Cuisine, Fresh Produce & Shared Meals",
             "content": (
-                "Zimbabwean food culture blends staple farm produce—white maize meal ('hupfu') cooked into 'sadza', leafy greens ('muriwo'), "
-                "groundnuts ('nzungu'), and cowpeas ('nyemba')—with seasonal wild harvests from indigenous woodlands, including wild loquats ('mazhanje'), "
-                "marula fruit ('mapfura' / 'makumbi'), and mopane caterpillars ('madora')."
+                f"Reflecting the food and produce described in \"{english_translation[:110]}\", Zimbabwean cuisine pairs staple white maize 'sadza' or rice ('mupunga') "
+                "with leafy greens ('muriwo'), braised beef or tripe ('maguru'), groundnuts ('nzungu'), cowpeas ('nyemba'), mopane caterpillars ('madora'), and fresh market fruits ('michero')."
             ),
-        }]
+        })
 
-    if words & {"mvura", "munda", "kumunda", "goho", "gohwo", "rima", "vanorima", "badza", "turusi", "maturusi", "mafoshoro", "mahara", "mhepo", "zuva", "makore", "mhute"}:
-        return [{
-            "title": "Highveld Weather, the Rainy Season ('Zhizha') & Farming Life",
+    if words & {"mvura", "munda", "kumunda", "goho", "gohwo", "rima", "vanorima", "badza", "turusi", "maturusi", "mafoshoro", "mahara", "mhepo", "zuva", "makore", "mhute", "miti", "muti", "mashizha", "maruva", "huswa", "sora", "ivhu"}:
+        candidates.append({
+            "title": "Highveld Seasons, Indigenous Flora & Agricultural Life in Zimbabwe",
             "content": (
-                "Daily conversation in Zimbabwe closely follows the rhythm of the seasons: the cool dry winter ('chando') from May to August, "
-                "the hot dry spring ('chirimo') in September and October, and the main rainy and planting season ('zhizha') from November to March, "
-                "when rainfall ('mvura') and sunshine ('zuva') determine the year's harvest ('goho')."
+                f"Connected to \"{english_translation[:110]}\", life on the Zimbabwean plateau follows three distinct seasons: the cool dry winter ('chando', May–August), "
+                "the hot dry spring ('chirimo', September–October) when 'musasa' and jacaranda trees bloom, and the summer rainy season ('zhizha', November–March) that nourishes crops, trees ('miti'), and pastures."
             ),
-        }]
+        })
 
-    # Specific contextual synthesis for any new custom sentence added in the future (never a generic politeness cliché)
-    return [{
-        "title": f"Shona Cultural & Everyday Context (Lesson {lesson_number})",
-        "content": (
-            f"This expression ('{shona_text.strip()}' — \"{english_translation.strip()}\") reflects how Shona speakers connect daily family life, "
-            "work, and community relationships across urban towns and rural homesteads ('kumusha') in Zimbabwe."
-        ),
-    }]
+    if words & {"mota", "motokari", "motikari", "bhazi", "kombi", "makombi", "rori", "gonyeti", "mugwagwa", "tara", "marobhotsi", "robhoti", "dhorobha", "guta", "musika", "chitoro", "tengesa", "kutengesa"}:
+        candidates.append({
+            "title": "Urban Commerce, Open-Air Markets ('Misika') & Highway Transit in Zimbabwe",
+            "content": (
+                f"Capturing the scene in \"{english_translation[:110]}\", Zimbabwean towns ('madhorobha') and trunk highways bustle with commuter minibuses ('makombi'), "
+                "intercity coaches ('mabhazi'), and heavy haulage trucks ('magonyeti') navigating intersections controlled by traffic lights ('marobhotsi'), alongside vibrant markets ('misika') and retail shops ('zvitoro')."
+            ),
+        })
+
+    if words & {"hembe", "mbatya", "nhumbi", "shangu", "butsu", "ngowani", "heti", "bvudzi", "vhudzi", "musoro", "akarukwa", "mhete", "zvindarira"}:
+        candidates.append({
+            "title": "Personal Grooming, Hair Braiding Artistry ('Kuruka Musoro') & Attire in Zimbabwe",
+            "content": (
+                f"In connection with \"{english_translation[:110]}\", neat presentation ('kushambidzika') and skilled hair braiding ('kuruka musoro') are deeply valued across Zimbabwe, "
+                "ranging from geometric cornrows and twists to smart everyday attire ('hembe neshangu') worn in towns and community gatherings."
+            ),
+        })
+
+    if words & {"imba", "dzimba", "chivakwa", "zvivakwa", "mafuratsi", "tafura", "tebhuro", "masofa", "chigaro", "ruzhowa", "mudhuri", "zvidhinha", "marata"}:
+        candidates.append({
+            "title": "Zimbabwean Residential Architecture, Masonry & Home Interiors",
+            "content": (
+                f"As seen in \"{english_translation[:110]}\", architecture across Zimbabwe ranges from rural homesteads ('misha') and suburban brick homes enclosed by perimeter walls ('ruzhowa') "
+                "to multi-storey urban flats ('mafuratsi') and commercial high-rises ('zvivakwa zvokudurikidzwa'), with welcoming living rooms ('imba yokutandarira')."
+            ),
+        })
+
+    if not candidates:
+        sample_words = [w for w in re.findall(r"[A-Za-z']+", shona_text) if len(w) >= 4][:4]
+        focus_terms = ", ".join(f"'{w}'" for w in sample_words) if sample_words else f"Lesson {lesson_number}"
+        candidates.append({
+            "title": f"Sociolinguistic & Everyday Zimbabwean Context ({focus_terms})",
+            "content": (
+                f"In \"{shona_text.strip()}\" (\"{english_translation.strip()}\"), key vocabulary such as {focus_terms} illustrates how central Shona (ChiZezuru) "
+                "expresses concrete visual observation, family coordination, and community life across Zimbabwe's highveld towns and rural districts."
+            ),
+        })
+
+    if variation_seed > 0 and len(candidates) > 1:
+        return [candidates[variation_seed % len(candidates)]]
+    return [candidates[0]]
 
 
 
@@ -4054,13 +4092,14 @@ THEMATIC_NEW_EXERCISES: list[dict[str, object]] = [
 
 
 def generate_contextual_exercises(
-    shona_text: str, english_translation: str, lesson_number: int
+    shona_text: str, english_translation: str, lesson_number: int, variation_seed: int = 0
 ) -> list[dict[str, object]]:
     """Generates 3 varied, purposeful exercises based on the grammar and thematic vocabulary of the lesson,
     using BRAND-NEW sentences and deterministically rotating the correct option position.
     """
     lower = shona_text.lower()
     words = set(re.findall(r"[a-z']+", lower))
+    eff_num = lesson_number + (variation_seed * 5)
 
     # Score each thematic pool by tag overlap with the current lesson
     scored_pools: list[tuple[int, int, dict[str, object]]] = []
@@ -4070,28 +4109,29 @@ def generate_contextual_exercises(
         scored_pools.append((overlap, -pool_idx, pool))
 
     scored_pools.sort(reverse=True)
-    primary_pool = scored_pools[0][2]
-    secondary_pool = scored_pools[(lesson_number % (len(scored_pools) - 1)) + 1][2]
+    primary_pool = scored_pools[(variation_seed // 2) % min(3, len(scored_pools))][2]
+    secondary_pool = scored_pools[(eff_num % (len(scored_pools) - 1)) + 1][2]
 
     primary_drills: list[dict[str, object]] = list(primary_pool["drills"])  # type: ignore[arg-type]
     secondary_drills: list[dict[str, object]] = list(secondary_pool["drills"])  # type: ignore[arg-type]
 
     # Pick 2 drills from the best-matching thematic pool and 1 drill from a complementary grammar pool
     chosen_raw = [
-        primary_drills[lesson_number % len(primary_drills)],
-        primary_drills[(lesson_number + 1) % len(primary_drills)],
-        secondary_drills[lesson_number % len(secondary_drills)],
+        primary_drills[eff_num % len(primary_drills)],
+        primary_drills[(eff_num + 1 + variation_seed) % len(primary_drills)],
+        secondary_drills[(eff_num + variation_seed) % len(secondary_drills)],
     ]
 
     exercises: list[dict[str, object]] = []
     for ex_idx, raw in enumerate(chosen_raw):
         correct = str(raw["correct"])
         distractors = [str(d) for d in raw["distractors"]]  # type: ignore[union-attr]
-        rotated_opts = _rotate_options(correct, distractors, seed=lesson_number * 3 + ex_idx)
-        ex_type = str(raw["type"])
+        rotated_opts = _rotate_options(correct, distractors, seed=eff_num * 3 + ex_idx + variation_seed)
+        prompt_str = str(raw["prompt"])
+        ex_type = "fill_blank" if "______" in prompt_str else str(raw["type"])
         exercises.append({
             "exercise_type": ex_type,
-            "prompt": str(raw["prompt"]),
+            "prompt": prompt_str,
             "options": rotated_opts,
             "correct_answer": correct,
             "explanation": str(raw["explanation"]),

@@ -4,3 +4,4 @@ app/release/
 app/node_modules/
 *.exe
 *.asar
+.env

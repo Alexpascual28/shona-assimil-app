@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { Play, Pause, RotateCcw, Volume2, VolumeX, Gauge } from 'lucide-react';
-import { playFallbackCadence } from '../../utils/audioFallback';
+import { Play, Pause, RotateCcw, Volume2, VolumeX, Gauge, AlertCircle } from 'lucide-react';
 
 interface AudioPlayerProps {
   src: string;
@@ -12,8 +11,8 @@ interface AudioPlayerProps {
 
 export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   src,
-  lessonNumber,
-  autoPlay = true,
+  lessonNumber: _lessonNumber,
+  autoPlay: _autoPlay = false,
   label = 'Lesson Audio Recording',
   forcePlayKey = 0
 }) => {
@@ -23,53 +22,55 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   const [duration, setDuration] = useState<number>(0);
   const [playbackRate, setPlaybackRate] = useState<number>(1.0);
   const [isMuted, setIsMuted] = useState<boolean>(false);
-  const [usingFallback, setUsingFallback] = useState<boolean>(false);
-  const fallbackCleanupRef = useRef<(() => void) | null>(null);
+  const [audioError, setAudioError] = useState<string | null>(null);
 
   // Normalize path for web/electron: if relative, ensure './' or clean url
-  const normalizedSrc = src.startsWith('http') || src.startsWith('/') || src.startsWith('./')
+  const normalizedSrc = !src
+    ? ''
+    : src.startsWith('http') || src.startsWith('./')
     ? src
+    : src.startsWith('/')
+    ? `.${src}`
     : `./${src}`;
 
-  // Stop fallback when unmounting
+  // Reset player state when audio source changes (no autoplay)
   useEffect(() => {
-    return () => {
-      if (fallbackCleanupRef.current) {
-        fallbackCleanupRef.current();
-      }
-    };
-  }, []);
-
-  // Play audio safely with fallback
-  const handlePlay = useCallback(() => {
-    if (audioRef.current && !usingFallback) {
-      audioRef.current.playbackRate = playbackRate;
-      audioRef.current.play().then(() => {
-        setIsPlaying(true);
-      }).catch(err => {
-        console.warn('Audio tag play failed, falling back to Web Audio:', err);
-        setUsingFallback(true);
-        setIsPlaying(true);
-        if (fallbackCleanupRef.current) fallbackCleanupRef.current();
-        fallbackCleanupRef.current = playFallbackCadence(lessonNumber, () => {
-          setIsPlaying(false);
-        });
-      });
-    } else {
-      setIsPlaying(true);
-      if (fallbackCleanupRef.current) fallbackCleanupRef.current();
-      fallbackCleanupRef.current = playFallbackCadence(lessonNumber, () => {
-        setIsPlaying(false);
-      });
+    setIsPlaying(false);
+    setCurrentTime(0);
+    setAudioError(null);
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
     }
-  }, [playbackRate, usingFallback, lessonNumber]);
+  }, [normalizedSrc]);
+
+  const handlePlay = useCallback(() => {
+    if (!normalizedSrc) {
+      setIsPlaying(false);
+      setAudioError('No audio file is linked to this lesson.');
+      return;
+    }
+    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackRate;
+      audioRef.current
+        .play()
+        .then(() => {
+          setAudioError(null);
+          setIsPlaying(true);
+        })
+        .catch((err) => {
+          console.error('Audio playback error for:', normalizedSrc, err);
+          setIsPlaying(false);
+          setAudioError(
+            `Audio file unavailable or could not be loaded (${src || 'missing source'}).`
+          );
+        });
+    }
+  }, [normalizedSrc, playbackRate, src]);
 
   const handlePause = useCallback(() => {
     if (audioRef.current) {
       audioRef.current.pause();
-    }
-    if (fallbackCleanupRef.current) {
-      fallbackCleanupRef.current();
     }
     setIsPlaying(false);
   }, []);
@@ -83,32 +84,20 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   }, [isPlaying, handlePause, handlePlay]);
 
   const handleReplay = useCallback(() => {
-    if (audioRef.current && !usingFallback) {
+    if (audioRef.current) {
       audioRef.current.currentTime = 0;
       handlePlay();
-    } else {
-      handlePlay();
     }
-  }, [usingFallback, handlePlay]);
+  }, [handlePlay]);
 
-  // Handle external forcePlayKey triggers
+  // Handle explicit Spacebar replay trigger from user
   useEffect(() => {
     if (forcePlayKey > 0) {
       handleReplay();
     }
   }, [forcePlayKey, handleReplay]);
 
-  // AutoPlay when component mounts or src changes
-  useEffect(() => {
-    if (autoPlay) {
-      const timer = setTimeout(() => {
-        handlePlay();
-      }, 250);
-      return () => clearTimeout(timer);
-    }
-  }, [src, autoPlay, handlePlay]);
-
-  // Cycle speeds: 0.75x -> 1.0x -> 1.25x
+  // Cycle speeds: 1.0x -> 0.8x -> 1.25x
   const cyclePlaybackRate = () => {
     const nextRate = playbackRate === 1.0 ? 0.8 : playbackRate === 0.8 ? 1.25 : 1.0;
     setPlaybackRate(nextRate);
@@ -126,7 +115,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   };
 
   const formatTime = (secs: number) => {
-    if (isNaN(secs)) return '0:00';
+    if (isNaN(secs) || secs <= 0) return '0:00';
     const m = Math.floor(secs / 60);
     const s = Math.floor(secs % 60);
     return `${m}:${s < 10 ? '0' : ''}${s}`;
@@ -137,7 +126,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
       <audio
         ref={audioRef}
         src={normalizedSrc}
-        preload="auto"
+        preload="metadata"
         onTimeUpdate={() => {
           if (audioRef.current) {
             setCurrentTime(audioRef.current.currentTime);
@@ -146,6 +135,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
         onLoadedMetadata={() => {
           if (audioRef.current) {
             setDuration(audioRef.current.duration);
+            setAudioError(null);
           }
         }}
         onEnded={() => {
@@ -153,20 +143,32 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           setCurrentTime(0);
         }}
         onError={() => {
-          console.warn('Audio element error for:', normalizedSrc);
-          setUsingFallback(true);
+          setIsPlaying(false);
+          setAudioError(
+            `Audio recording could not be loaded (${src || 'missing file'}).`
+          );
         }}
       />
 
       <div className="flex items-center justify-between gap-4 mb-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
-            <Volume2 className="w-5 h-5 animate-pulse" />
+          <div
+            className={`w-10 h-10 rounded-full flex items-center justify-center border ${
+              audioError
+                ? 'bg-rose-500/10 border-rose-500/30 text-rose-400'
+                : 'bg-amber-500/10 border-amber-500/30 text-amber-400'
+            }`}
+          >
+            {audioError ? (
+              <AlertCircle className="w-5 h-5" />
+            ) : (
+              <Volume2 className={`w-5 h-5 ${isPlaying ? 'animate-pulse' : ''}`} />
+            )}
           </div>
           <div>
             <h4 className="text-sm font-semibold text-white tracking-wide">{label}</h4>
-            <p className="text-xs text-slate-400">
-              {usingFallback ? 'Synthesized Acoustic Master (Offline)' : 'Central Shona (Zezuru) Master Audio'}
+            <p className={`text-xs ${audioError ? 'text-rose-400 font-medium' : 'text-slate-400'}`}>
+              {audioError ? 'Audio Unavailable' : 'Central Shona (Zezuru) Master Audio'}
             </p>
           </div>
         </div>
@@ -182,6 +184,13 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
         </button>
       </div>
 
+      {audioError && (
+        <div className="mb-4 p-3 rounded-xl bg-rose-950/50 border border-rose-500/40 text-rose-200 text-xs flex items-center gap-2.5">
+          <AlertCircle className="w-4 h-4 text-rose-400 shrink-0" />
+          <span>{audioError}</span>
+        </div>
+      )}
+
       {/* Progress slider */}
       <div className="space-y-1.5 mb-4">
         <input
@@ -190,12 +199,13 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           max={duration || 10}
           step={0.1}
           value={currentTime}
+          disabled={Boolean(audioError)}
           onChange={handleSeek}
-          className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500"
+          className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500 disabled:opacity-40 disabled:cursor-not-allowed"
         />
         <div className="flex justify-between text-xs text-slate-400 font-mono">
           <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(duration || 4.5)}</span>
+          <span>{formatTime(duration)}</span>
         </div>
       </div>
 
@@ -203,7 +213,8 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
       <div className="flex items-center justify-center gap-4">
         <button
           onClick={handleReplay}
-          className="p-2.5 rounded-full bg-slate-700/80 hover:bg-slate-700 text-slate-300 hover:text-white transition shadow"
+          disabled={Boolean(audioError)}
+          className="p-2.5 rounded-full bg-slate-700/80 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed text-slate-300 hover:text-white transition shadow"
           title="Replay from start (Space)"
         >
           <RotateCcw className="w-5 h-5" />
@@ -211,7 +222,8 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
 
         <button
           onClick={handleToggle}
-          className="p-4 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold shadow-lg shadow-amber-500/20 transform hover:scale-105 active:scale-95 transition"
+          disabled={Boolean(audioError)}
+          className="p-4 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 disabled:opacity-40 disabled:cursor-not-allowed text-slate-950 font-bold shadow-lg shadow-amber-500/20 transform hover:scale-105 active:scale-95 transition"
           title={isPlaying ? 'Pause' : 'Play'}
         >
           {isPlaying ? <Pause className="w-7 h-7 fill-current" /> : <Play className="w-7 h-7 fill-current ml-0.5" />}
@@ -223,7 +235,8 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             setIsMuted(nextMute);
             if (audioRef.current) audioRef.current.muted = nextMute;
           }}
-          className="p-2.5 rounded-full bg-slate-700/80 hover:bg-slate-700 text-slate-300 hover:text-white transition shadow"
+          disabled={Boolean(audioError)}
+          className="p-2.5 rounded-full bg-slate-700/80 hover:bg-slate-700 disabled:opacity-40 disabled:cursor-not-allowed text-slate-300 hover:text-white transition shadow"
           title={isMuted ? 'Unmute' : 'Mute'}
         >
           {isMuted ? <VolumeX className="w-5 h-5 text-red-400" /> : <Volume2 className="w-5 h-5" />}

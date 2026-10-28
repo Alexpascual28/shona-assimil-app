@@ -2,16 +2,44 @@ import React from 'react';
 import { useLesson } from '../../context/LessonContext';
 import { AudioPlayer } from '../audio/AudioPlayer';
 import { InstructionBanner } from '../ui/InstructionBanner';
-import { BookOpen, Globe2, Sparkles, Volume2, ArrowLeftRight } from 'lucide-react';
+import { BookOpen, Globe2, Sparkles, Volume2, ArrowLeftRight, RefreshCw } from 'lucide-react';
 
 export const PassiveSteps: React.FC = () => {
-  const { currentLesson, currentStep, stepMetadata, courseData, audioKey } = useLesson();
+  const {
+    currentLesson,
+    currentStep,
+    stepMetadata,
+    courseData,
+    audioKey,
+    isDevMode,
+    isDevActionRunning,
+    regenerateLessonField
+  } = useLesson();
 
   if (!currentLesson) return null;
 
   // Previous lesson for Step 7
   const prevLessonNumber = Math.max(1, currentLesson.num - 1);
   const prevLesson = courseData?.lessons.find(l => l.num === prevLessonNumber) || null;
+
+  const renderRegenButton = (
+    field: 'translation' | 'grammar_notes' | 'cultural_notes',
+    label: string,
+    lessonNum = currentLesson.num
+  ) => {
+    if (!isDevMode) return null;
+    return (
+      <button
+        onClick={() => regenerateLessonField(lessonNum, field)}
+        disabled={isDevActionRunning}
+        title={`Dev Mode: Regenerate ${label}`}
+        className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-[11px] font-semibold transition disabled:opacity-50"
+      >
+        <RefreshCw className={`w-3 h-3 ${isDevActionRunning ? 'animate-spin' : ''}`} />
+        <span>Regenerate {label}</span>
+      </button>
+    );
+  };
 
   return (
     <div className="space-y-6 max-w-5xl mx-auto pb-12 animate-fadeIn">
@@ -41,7 +69,7 @@ export const PassiveSteps: React.FC = () => {
           <AudioPlayer
             src={currentLesson.audio}
             lessonNumber={currentLesson.num}
-            autoPlay={true}
+            autoPlay={false}
             forcePlayKey={audioKey}
             label={`Lesson ${currentLesson.num}: Acoustic Shadowing Pass`}
           />
@@ -54,7 +82,7 @@ export const PassiveSteps: React.FC = () => {
           <AudioPlayer
             src={currentLesson.audio}
             lessonNumber={currentLesson.num}
-            autoPlay={true}
+            autoPlay={false}
             forcePlayKey={audioKey}
             label={`Lesson ${currentLesson.num}: Global Meaning Pass`}
           />
@@ -67,9 +95,12 @@ export const PassiveSteps: React.FC = () => {
                   English Translation
                 </h3>
               </div>
-              <span className="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">
-                Shona transcript hidden
-              </span>
+              <div className="flex items-center gap-2">
+                {renderRegenButton('translation', 'Translation')}
+                <span className="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-400 border border-slate-700">
+                  Shona transcript hidden
+                </span>
+              </div>
             </div>
 
             <div className="divide-y divide-slate-800/80">
@@ -96,7 +127,7 @@ export const PassiveSteps: React.FC = () => {
           <AudioPlayer
             src={currentLesson.audio}
             lessonNumber={currentLesson.num}
-            autoPlay={true}
+            autoPlay={false}
             forcePlayKey={audioKey}
             label={`Lesson ${currentLesson.num}: Detailed Bilingual Shadowing`}
           />
@@ -126,11 +157,14 @@ export const PassiveSteps: React.FC = () => {
 
             {/* English column */}
             <div className="bg-slate-900/90 border border-slate-700/80 rounded-2xl p-5 shadow-xl">
-              <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-800">
-                <Globe2 className="w-4 h-4 text-indigo-400" />
-                <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
-                  English Translation
-                </h4>
+              <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-800">
+                <div className="flex items-center gap-2">
+                  <Globe2 className="w-4 h-4 text-indigo-400" />
+                  <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+                    English Translation
+                  </h4>
+                </div>
+                {renderRegenButton('translation', 'Translation')}
               </div>
               <div className="divide-y divide-slate-800/60">
                 {currentLesson.dialogue.map((line) => (
@@ -156,9 +190,12 @@ export const PassiveSteps: React.FC = () => {
         <div className="space-y-6">
           {/* Bilingual transcript summary with Literal Word-by-Word Breakdown */}
           <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5">
-            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
-              Reference Dialogue & Word-by-Word Literal Breakdown
-            </h4>
+            <div className="flex items-center justify-between mb-3">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">
+                Reference Dialogue &amp; Word-by-Word Literal Breakdown
+              </h4>
+              {renderRegenButton('translation', 'Translation')}
+            </div>
             <div className="grid grid-cols-1 gap-3 text-sm">
               {currentLesson.dialogue.map((line) => (
                 <div key={line.id} className="p-4 bg-slate-950/60 rounded-xl border border-slate-800 space-y-2">
@@ -193,9 +230,12 @@ export const PassiveSteps: React.FC = () => {
 
           {/* Grammar Notes */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-amber-400" />
-              <h3 className="text-lg font-bold text-white">Grammar & Concord Analysis</h3>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-amber-400" />
+                <h3 className="text-lg font-bold text-white">Grammar &amp; Concord Analysis</h3>
+              </div>
+              {renderRegenButton('grammar_notes', 'Grammar Notes')}
             </div>
 
             <div className="grid grid-cols-1 gap-4">
@@ -219,9 +259,12 @@ export const PassiveSteps: React.FC = () => {
           {/* Cultural Notes */}
           {currentLesson.cultural_notes && currentLesson.cultural_notes.length > 0 && (
             <div className="space-y-4 pt-2">
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-5 h-5 text-teal-400" />
-                <h3 className="text-lg font-bold text-white">Tsika neMagariro (Cultural Context)</h3>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-teal-400" />
+                  <h3 className="text-lg font-bold text-white">Tsika neMagariro (Cultural Context)</h3>
+                </div>
+                {renderRegenButton('cultural_notes', 'Cultural Notes')}
               </div>
 
               <div className="grid grid-cols-1 gap-4">
@@ -267,9 +310,12 @@ export const PassiveSteps: React.FC = () => {
 
             {/* English translation check */}
             <div className="bg-slate-900/90 border border-slate-700/80 rounded-2xl p-5 shadow-xl">
-              <h4 className="text-sm font-bold text-slate-400 uppercase tracking-wider pb-3 mb-3 border-b border-slate-800">
-                Verify Translation (English)
-              </h4>
+              <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-800">
+                <h4 className="text-sm font-bold text-slate-400 uppercase tracking-wider">
+                  Verify Translation (English)
+                </h4>
+                {renderRegenButton('translation', 'Translation')}
+              </div>
               <div className="divide-y divide-slate-800/60">
                 {currentLesson.dialogue.map((line) => (
                   <div key={line.id} className="py-4 flex items-start gap-3">
@@ -303,7 +349,7 @@ export const PassiveSteps: React.FC = () => {
           <AudioPlayer
             src={currentLesson.audio}
             lessonNumber={currentLesson.num}
-            autoPlay={true}
+            autoPlay={false}
             forcePlayKey={audioKey}
             label={`Lesson ${currentLesson.num}: Final Master Audio Pass`}
           />
@@ -345,7 +391,7 @@ export const PassiveSteps: React.FC = () => {
               <AudioPlayer
                 src={prevLesson.audio}
                 lessonNumber={prevLesson.num}
-                autoPlay={true}
+                autoPlay={false}
                 forcePlayKey={audioKey}
                 label={`Lesson ${prevLesson.num}: Review Audio`}
               />
@@ -368,9 +414,12 @@ export const PassiveSteps: React.FC = () => {
                 </div>
 
                 <div className="bg-slate-900/90 border border-slate-700/80 rounded-2xl p-5 shadow-xl">
-                  <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider pb-3 mb-3 border-b border-slate-800">
-                    English Translation
-                  </h4>
+                  <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-800">
+                    <h4 className="text-sm font-bold text-indigo-400 uppercase tracking-wider">
+                      English Translation
+                    </h4>
+                    {renderRegenButton('translation', 'Translation', prevLesson.num)}
+                  </div>
                   <div className="divide-y divide-slate-800/60">
                     {prevLesson.dialogue.map((line) => (
                       <div key={line.id} className="py-3 flex items-start gap-3">

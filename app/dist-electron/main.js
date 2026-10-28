@@ -6,8 +6,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const electron_1 = require("electron");
 const path_1 = __importDefault(require("path"));
 const fs_1 = __importDefault(require("fs"));
-const child_process_1 = require("child_process");
+const https_1 = __importDefault(require("https"));
+const enricher_1 = require("./enricher");
 let mainWindow = null;
+function emitGenerationProgress(percent, message) {
+    if (mainWindow && !mainWindow.isDestroyed()) {
+        mainWindow.webContents.send('generation-progress', {
+            percent: Math.max(0, Math.min(100, Math.round(percent))),
+            message,
+        });
+    }
+}
 function getStoragePath() {
     const userDataDir = electron_1.app.getPath('userData');
     return path_1.default.join(userDataDir, 'user_progress.json');
@@ -17,7 +26,6 @@ function getExpandedCoursePath() {
     return path_1.default.join(userDataDir, 'course_data_expanded.json');
 }
 function getWorkspaceBackupPath() {
-    // Save to workspace root for transparent inspection
     return path_1.default.join(process.cwd(), 'user_progress.json');
 }
 function resolvePublicAssetPath(filename) {
@@ -34,85 +42,470 @@ function resolvePublicAssetPath(filename) {
     }
     return null;
 }
-function buildReviewForSevenLessons(sevenLessons, reviewLessonNum) {
-    const blockIdx = Math.floor(reviewLessonNum / 7);
-    const startNum = Math.max(1, reviewLessonNum - 6);
-    const rangeStr = `Lessons ${startNum}–${reviewLessonNum}`;
-    const vocabPoints = [];
-    const grammarPoints = [];
-    const culturePoints = [];
-    const topicsCovered = [];
-    const collectedExercises = [];
-    for (const l of sevenLessons) {
-        const lNum = l.lesson_number || l.num;
-        const shona = String(l.shona_text || '').trim();
-        const eng = String(l.english_translation || '').trim();
-        if (shona && eng) {
-            const shortShona = shona.length <= 95 ? shona : shona.slice(0, 92) + '...';
-            const shortEng = eng.length <= 95 ? eng : eng.slice(0, 92) + '...';
-            vocabPoints.push(`Lesson ${lNum}: "${shortShona}" — ${shortEng}`);
+function getAllPublicAssetPaths(filename) {
+    const candidates = [
+        path_1.default.join(process.cwd(), 'public', filename),
+        path_1.default.join(process.cwd(), 'app', 'public', filename),
+        path_1.default.join(__dirname, '../dist', filename),
+        path_1.default.join(__dirname, '../public', filename),
+    ];
+    const unique = Array.from(new Set(candidates.map((p) => path_1.default.resolve(p))));
+    return unique.filter((p) => fs_1.default.existsSync(path_1.default.dirname(p)));
+}
+function readDevModePassword() {
+    const envCandidates = [
+        path_1.default.resolve(process.cwd(), '.env'),
+        path_1.default.resolve(process.cwd(), '../.env'),
+        path_1.default.resolve(__dirname, '../../.env'),
+        path_1.default.resolve(__dirname, '../.env'),
+    ];
+    for (const envPath of envCandidates) {
+        if (fs_1.default.existsSync(envPath)) {
+            try {
+                const content = fs_1.default.readFileSync(envPath, 'utf-8');
+                const match = content.match(/^\s*(?:VITE_)?DEV_MODE_PASSWORD\s*=\s*(.+)\s*$/m);
+                if (match && match[1]) {
+                    return match[1].trim().replace(/^["']|["']$/g, '');
+                }
+            }
+            catch { }
         }
-        const gNotes = Array.isArray(l.grammar_notes) ? l.grammar_notes : [];
-        if (gNotes.length > 0 && typeof gNotes[0] === 'object' && gNotes[0] !== null) {
-            const t = String(gNotes[0].title || '');
-            const r = String(gNotes[0].rule || '');
-            if (t && !topicsCovered.includes(t)) {
-                topicsCovered.push(t);
-                grammarPoints.push(r ? `${t}: ${r}` : t);
+    }
+    return process.env.DEV_MODE_PASSWORD || process.env.VITE_DEV_MODE_PASSWORD || 'shona_dev_pass';
+}
+function fetchHttpsBuffer(url, timeoutMs = 15000) {
+    return new Promise((resolve, reject) => {
+        const req = https_1.default.get(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) ShonaAssimilApp/1.0',
+            },
+        }, (res) => {
+            if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+                fetchHttpsBuffer(res.headers.location, timeoutMs).then(resolve).catch(reject);
+                return;
+            }
+            if (res.statusCode !== 200) {
+                reject(new Error(`HTTP ${res.statusCode}`));
+                return;
+            }
+            const chunks = [];
+            res.on('data', (c) => chunks.push(Buffer.isBuffer(c) ? c : Buffer.from(c)));
+            res.on('end', () => resolve(Buffer.concat(chunks)));
+        });
+        req.on('error', reject);
+        req.setTimeout(timeoutMs, () => {
+            req.destroy(new Error('Request timed out'));
+        });
+    });
+}
+async function checkHuggingFaceConnection() {
+    try {
+        const buf = await fetchHttpsBuffer('https://datasets-server.huggingface.co/is-valid?dataset=takuM23/shona-vibevoice-corpus', 6000);
+        return buf.length > 0;
+    }
+    catch {
+        return false;
+    }
+}
+function parseWavDurationSeconds(buf) {
+    try {
+        if (buf.length >= 44 && buf.toString('ascii', 0, 4) === 'RIFF') {
+            const byteRate = buf.readUInt32LE(28);
+            if (byteRate > 0) {
+                // Find 'data' chunk
+                let offset = 12;
+                while (offset + 8 <= buf.length) {
+                    const chunkId = buf.toString('ascii', offset, offset + 4);
+                    const chunkSize = buf.readUInt32LE(offset + 4);
+                    if (chunkId === 'data') {
+                        return Number((chunkSize / byteRate).toFixed(2));
+                    }
+                    offset += 8 + chunkSize;
+                }
+                return Number(((buf.length - 44) / byteRate).toFixed(2));
             }
         }
-        const cNotes = Array.isArray(l.cultural_notes) ? l.cultural_notes : [];
-        if (cNotes.length > 0 && typeof cNotes[0] === 'object' && cNotes[0] !== null && culturePoints.length < 4) {
-            const ct = String(cNotes[0].title || '');
-            const cc = String(cNotes[0].content || '');
-            const firstSent = cc ? cc.split('. ')[0] + '.' : '';
-            if (ct)
-                culturePoints.push(`${ct}: ${firstSent}`);
-        }
-        const exList = Array.isArray(l.active_exercises) ? l.active_exercises : [];
-        if (exList.length > 0) {
-            collectedExercises.push({
-                ...exList[0],
-                prompt: `Unit ${blockIdx} Review (Lesson ${lNum}) — ${exList[0].prompt}`,
-            });
-        }
     }
-    while (collectedExercises.length < 6 && sevenLessons.length > 0) {
-        const fallbackLesson = sevenLessons[collectedExercises.length % sevenLessons.length];
-        const exList = Array.isArray(fallbackLesson.active_exercises) ? fallbackLesson.active_exercises : [];
-        const ex = exList[collectedExercises.length % Math.max(1, exList.length)];
-        if (ex) {
-            collectedExercises.push({
-                ...ex,
-                prompt: `Unit ${blockIdx} Synthesis — ${ex.prompt}`,
-            });
-        }
-        else {
-            break;
-        }
+    catch { }
+    return 0;
+}
+const NON_ZEZURU_MARKERS = new Set([
+    'unjani', 'ngiyabonga', 'siyabonga', 'yebo', 'sawubona', 'kunjani', 'umntwana', 'inkosi',
+]);
+function isValidZezuruTranscript(text) {
+    const cleaned = text.trim();
+    if (cleaned.length < 6)
+        return false;
+    const words = (cleaned.toLowerCase().match(/[a-z']+/g) || []);
+    if (words.length < 2)
+        return false;
+    if (words.some((w) => NON_ZEZURU_MARKERS.has(w)))
+        return false;
+    return true;
+}
+function getBandConstraints(lessonNumber, batchSize) {
+    const bandIdx = Math.floor((lessonNumber - 1) / 100);
+    if (bandIdx <= 0) {
+        return {
+            bandIdx: 0,
+            primaryMin: 0,
+            primaryMax: 30,
+            sprinkleMax: 0,
+            primaryTarget: batchSize,
+            sprinkleTarget: 0,
+        };
     }
+    if (bandIdx >= 6) {
+        return {
+            bandIdx,
+            primaryMin: 0,
+            primaryMax: 120,
+            sprinkleMax: 0,
+            primaryTarget: batchSize,
+            sprinkleTarget: 0,
+        };
+    }
+    const primaryMin = bandIdx * 10;
+    const primaryMax = bandIdx * 10 + 30;
+    const sprinkleMax = bandIdx * 10;
+    const sprinkleTarget = Math.round(batchSize * 0.25);
+    const primaryTarget = batchSize - sprinkleTarget;
     return {
-        review_summary: {
-            title: `Unit ${blockIdx} Comprehensive Review (${rangeStr})`,
-            sections: [
-                {
-                    heading: `1. Key Expressions & Sentences Reviewed (${rangeStr})`,
-                    points: vocabPoints.slice(0, 7),
-                },
-                {
-                    heading: '2. Core Shona Grammar Rules Consolidated',
-                    points: grammarPoints.slice(0, 6),
-                },
-                {
-                    heading: '3. Cultural Context & Practical Usage',
-                    points: culturePoints.slice(0, 4),
-                },
-            ],
-        },
-        key_noun_classes_covered: topicsCovered.slice(0, 5),
-        review_exercises: collectedExercises.slice(0, 6),
-        reviewed_lessons: sevenLessons.map((l) => Number(l.lesson_number || l.num)),
+        bandIdx,
+        primaryMin,
+        primaryMax,
+        sprinkleMax,
+        primaryTarget,
+        sprinkleTarget,
     };
+}
+function evaluateReservePoolForBatch(availableNew, startLessonNum, numToAdd) {
+    const constraints = getBandConstraints(startLessonNum, numToAdd);
+    if (constraints.bandIdx === 0 || constraints.bandIdx >= 6) {
+        const matching = availableNew.filter((c) => {
+            const d = Number(c.duration_seconds || 0);
+            return d >= constraints.primaryMin && d <= constraints.primaryMax;
+        });
+        return {
+            satisfied: availableNew.length >= numToAdd && matching.length >= numToAdd,
+            primaryMissing: Math.max(0, numToAdd - matching.length),
+            sprinkleMissing: 0,
+            totalMissing: Math.max(0, numToAdd - availableNew.length),
+            constraints,
+        };
+    }
+    const primaryClips = availableNew.filter((c) => {
+        const d = Number(c.duration_seconds || 0);
+        return d >= constraints.primaryMin && d <= constraints.primaryMax;
+    });
+    const sprinkleClips = availableNew.filter((c) => {
+        const d = Number(c.duration_seconds || 0);
+        return d > 0 && d < constraints.sprinkleMax;
+    });
+    const primaryMissing = Math.max(0, constraints.primaryTarget - primaryClips.length);
+    const sprinkleMissing = Math.max(0, constraints.sprinkleTarget - sprinkleClips.length);
+    const totalMissing = Math.max(0, numToAdd - availableNew.length);
+    return {
+        satisfied: totalMissing === 0 && primaryMissing === 0 && sprinkleMissing === 0,
+        primaryMissing,
+        sprinkleMissing,
+        totalMissing,
+        constraints,
+    };
+}
+function saveAudioBufferLocally(clipId, wavBuffer) {
+    const relPath = `audio/clip_${clipId}.wav`;
+    const audioDirs = [
+        path_1.default.join(process.cwd(), 'public', 'audio'),
+        path_1.default.join(process.cwd(), 'app', 'public', 'audio'),
+        path_1.default.join(__dirname, '../dist/audio'),
+        path_1.default.join(__dirname, '../public/audio'),
+    ];
+    const uniqueDirs = Array.from(new Set(audioDirs.map((d) => path_1.default.resolve(d))));
+    for (const dir of uniqueDirs) {
+        if (fs_1.default.existsSync(path_1.default.dirname(dir))) {
+            try {
+                fs_1.default.mkdirSync(dir, { recursive: true });
+                fs_1.default.writeFileSync(path_1.default.join(dir, `clip_${clipId}.wav`), wavBuffer);
+            }
+            catch { }
+        }
+    }
+    return relPath;
+}
+async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existingIds, existingTexts, startLessonNum) {
+    // Download enough clips to satisfy the current requirement + 15 extra buffer clips for future offline reserve
+    const targetDownloadCount = Math.max(neededCount + 15, 20);
+    const rawCandidates = [];
+    const datasetsToQuery = [
+        {
+            repo: 'takuM23/shona-vibevoice-corpus',
+            config: 'default',
+            split: 'train',
+            offsets: [300, 400, 500, 600, 700, 200],
+        },
+        {
+            repo: 'manassehzw/sna-manasseh-150-raw',
+            config: 'default',
+            split: 'train',
+            offsets: [0, 100],
+        },
+        {
+            repo: 'nigeLbasa/inzwi-shona-sample',
+            config: 'default',
+            split: 'train',
+            offsets: [0],
+        },
+    ];
+    emitGenerationProgress(8, 'Connecting to Hugging Face Shona audio datasets...');
+    for (const ds of datasetsToQuery) {
+        if (rawCandidates.length >= targetDownloadCount)
+            break;
+        for (const offset of ds.offsets) {
+            if (rawCandidates.length >= targetDownloadCount)
+                break;
+            try {
+                const apiUrl = `https://datasets-server.huggingface.co/rows?dataset=${encodeURIComponent(ds.repo)}&config=${ds.config}&split=${ds.split}&offset=${offset}&length=100`;
+                const buf = await fetchHttpsBuffer(apiUrl, 15000);
+                const json = JSON.parse(buf.toString('utf-8'));
+                const rows = Array.isArray(json.rows) ? json.rows : [];
+                for (const r of rows) {
+                    if (rawCandidates.length >= targetDownloadCount)
+                        break;
+                    const row = r.row || {};
+                    const rowIdx = r.row_idx ?? Math.floor(Math.random() * 100000);
+                    const transcript = String(row.text || row.sentence || row.transcription || row.transcript || '').trim();
+                    if (!isValidZezuruTranscript(transcript))
+                        continue;
+                    const normText = (0, enricher_1.normalizeTextKey)(transcript);
+                    if (existingTexts.has(normText))
+                        continue;
+                    const audioField = row.audio || row.file || row.sound;
+                    let audioSrc = '';
+                    if (Array.isArray(audioField) && audioField.length > 0 && audioField[0]?.src) {
+                        audioSrc = String(audioField[0].src);
+                    }
+                    else if (audioField && typeof audioField === 'object' && audioField.src) {
+                        audioSrc = String(audioField.src);
+                    }
+                    if (!audioSrc)
+                        continue;
+                    const shortRepo = ds.repo.split('/')[1].replace(/[^a-z0-9]/gi, '_').slice(0, 14);
+                    const clipId = `hf_${shortRepo}_${rowIdx}`;
+                    if (existingIds.has(clipId))
+                        continue;
+                    const wordCount = transcript.split(/\s+/).filter(Boolean).length;
+                    const estDur = Number((row.duration || row.duration_seconds || Math.max(2.5, wordCount * 0.48)).toFixed(2));
+                    if (estDur > 120.0)
+                        continue;
+                    rawCandidates.push({
+                        clip_id: clipId,
+                        shona_text: transcript,
+                        audio_src: audioSrc,
+                        duration_seconds: estDur,
+                        dataset_source: ds.repo,
+                    });
+                    existingIds.add(clipId);
+                    existingTexts.add(normText);
+                }
+            }
+            catch (err) {
+                console.warn(`HF fetch warning for ${ds.repo} offset ${offset}:`, err);
+            }
+        }
+    }
+    const enrichedResults = [];
+    const totalToProcess = rawCandidates.length;
+    for (let i = 0; i < totalToProcess; i++) {
+        const item = rawCandidates[i];
+        const fetchPct = 12 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
+        emitGenerationProgress(fetchPct, `Fetching audio ${i + 1}/${totalToProcess} (${item.clip_id})...`);
+        try {
+            const wavBuf = await fetchHttpsBuffer(item.audio_src, 20000);
+            if (wavBuf.length < 200)
+                continue;
+            const realDuration = parseWavDurationSeconds(wavBuf) || item.duration_seconds;
+            if (realDuration > 120.0)
+                continue;
+            const localAudioUrl = saveAudioBufferLocally(item.clip_id, wavBuf);
+            const enrichPct = 47 + Math.round(((i + 1) / Math.max(1, totalToProcess)) * 35);
+            emitGenerationProgress(enrichPct, `Enriching Lesson ${startLessonNum + enrichedResults.length} translation, grammar & cultural notes (${i + 1}/${totalToProcess})...`);
+            const enriched = await (0, enricher_1.enrichClipObject)({
+                clip_id: item.clip_id,
+                audio_url: localAudioUrl,
+                duration_seconds: realDuration,
+                shona_text: item.shona_text,
+                dataset_source: item.dataset_source,
+                speaker_id: 'zezuru_hf',
+            }, startLessonNum + enrichedResults.length, 0);
+            enrichedResults.push(enriched);
+        }
+        catch (err) {
+            console.warn(`Failed to download/enrich ${item.clip_id}:`, err);
+        }
+    }
+    return enrichedResults;
+}
+function selectBatchByBandAndPedagogy(sourcePool, startLessonNum, numToAdd) {
+    const constraints = getBandConstraints(startLessonNum, numToAdd);
+    const sortByPedagogyAndLength = (a, b) => {
+        const diffA = Number(a.difficulty_score || 0);
+        const diffB = Number(b.difficulty_score || 0);
+        const durA = Number(a.duration_seconds || 0);
+        const durB = Number(b.duration_seconds || 0);
+        return durA * 1.5 + diffA * 0.5 - (durB * 1.5 + diffB * 0.5);
+    };
+    if (constraints.bandIdx >= 6) {
+        const buckets = [
+            sourcePool.filter((c) => Number(c.duration_seconds || 0) < 15).sort(sortByPedagogyAndLength),
+            sourcePool
+                .filter((c) => Number(c.duration_seconds || 0) >= 15 && Number(c.duration_seconds || 0) < 30)
+                .sort(sortByPedagogyAndLength),
+            sourcePool
+                .filter((c) => Number(c.duration_seconds || 0) >= 30 && Number(c.duration_seconds || 0) < 50)
+                .sort(sortByPedagogyAndLength),
+            sourcePool
+                .filter((c) => Number(c.duration_seconds || 0) >= 50 && Number(c.duration_seconds || 0) < 80)
+                .sort(sortByPedagogyAndLength),
+            sourcePool
+                .filter((c) => Number(c.duration_seconds || 0) >= 80 && Number(c.duration_seconds || 0) <= 120)
+                .sort(sortByPedagogyAndLength),
+        ];
+        const perBucket = Math.max(1, Math.floor(numToAdd / buckets.length));
+        const pickedIds = new Set();
+        const chosen = [];
+        for (const b of buckets) {
+            for (const item of b.slice(0, perBucket)) {
+                if (!pickedIds.has(item.clip_id)) {
+                    chosen.push(item);
+                    pickedIds.add(item.clip_id);
+                }
+            }
+        }
+        const rem = sourcePool.filter((c) => !pickedIds.has(c.clip_id)).sort(sortByPedagogyAndLength);
+        chosen.push(...rem.slice(0, Math.max(0, numToAdd - chosen.length)));
+        return chosen.sort(sortByPedagogyAndLength);
+    }
+    const { primaryMin, primaryMax, sprinkleMax, primaryTarget, sprinkleTarget } = constraints;
+    const primaryList = sourcePool
+        .filter((c) => {
+        const d = Number(c.duration_seconds || 0);
+        return d >= primaryMin && d <= primaryMax;
+    })
+        .sort(sortByPedagogyAndLength);
+    const chosenPrimary = primaryList.slice(0, primaryTarget);
+    const pickedIds = new Set(chosenPrimary.map((c) => c.clip_id));
+    if (chosenPrimary.length < primaryTarget) {
+        const midTarget = (primaryMin + primaryMax) / 2;
+        const fallbackLonger = sourcePool
+            .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) >= sprinkleMax)
+            .sort((a, b) => Math.abs(Number(a.duration_seconds || 0) - midTarget) -
+            Math.abs(Number(b.duration_seconds || 0) - midTarget));
+        for (const fc of fallbackLonger) {
+            if (chosenPrimary.length >= primaryTarget)
+                break;
+            chosenPrimary.push(fc);
+            pickedIds.add(fc.clip_id);
+        }
+        chosenPrimary.sort(sortByPedagogyAndLength);
+    }
+    const sprinkleList = sourcePool
+        .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) < sprinkleMax)
+        .sort(sortByPedagogyAndLength);
+    const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
+    for (const sc of chosenSprinkle)
+        pickedIds.add(sc.clip_id);
+    while (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
+        const rem = sourcePool.find((c) => !pickedIds.has(c.clip_id));
+        if (!rem)
+            break;
+        chosenPrimary.push(rem);
+        pickedIds.add(rem.clip_id);
+    }
+    const totalCount = chosenPrimary.length + chosenSprinkle.length;
+    const allPositions = Array.from({ length: totalCount }, (_, idx) => idx);
+    for (let i = allPositions.length - 1; i > 0; i--) {
+        const j = (startLessonNum * 31 + i * 17) % (i + 1);
+        [allPositions[i], allPositions[j]] = [allPositions[j], allPositions[i]];
+    }
+    const sprinklePos = new Set(allPositions.slice(0, chosenSprinkle.length));
+    const orderedCandidates = [];
+    let pIdx = 0;
+    let sIdx = 0;
+    for (let pos = 0; pos < totalCount; pos++) {
+        if (sprinklePos.has(pos) && sIdx < chosenSprinkle.length) {
+            orderedCandidates.push(chosenSprinkle[sIdx++]);
+        }
+        else if (pIdx < chosenPrimary.length) {
+            orderedCandidates.push(chosenPrimary[pIdx++]);
+        }
+        else if (sIdx < chosenSprinkle.length) {
+            orderedCandidates.push(chosenSprinkle[sIdx++]);
+        }
+    }
+    return orderedCandidates;
+}
+function loadActiveCourseObject() {
+    const expandedPath = getExpandedCoursePath();
+    const baseCoursePath = resolvePublicAssetPath('course_data.json');
+    let currentCourse = null;
+    if (fs_1.default.existsSync(expandedPath)) {
+        try {
+            const expData = JSON.parse(fs_1.default.readFileSync(expandedPath, 'utf-8'));
+            if (expData && Array.isArray(expData.lessons) && expData.lessons.length >= 100) {
+                currentCourse = expData;
+            }
+        }
+        catch { }
+    }
+    if (!currentCourse && baseCoursePath) {
+        currentCourse = JSON.parse(fs_1.default.readFileSync(baseCoursePath, 'utf-8'));
+    }
+    if (!currentCourse || !Array.isArray(currentCourse.lessons)) {
+        throw new Error('Could not load course_data.json');
+    }
+    return { course: currentCourse, expandedPath, baseCoursePath };
+}
+function persistModifiedCourse(course, modifiedLessonNum) {
+    const expandedPath = getExpandedCoursePath();
+    course.generated_at = new Date().toISOString();
+    course.total_lessons = course.lessons.length;
+    course.regular_lessons_count = course.lessons.filter((l) => l.type !== 'review').length;
+    course.review_lessons_count = course.lessons.filter((l) => l.type === 'review').length;
+    // Save to expanded course path if > 100 lessons or if expanded file already exists
+    if (course.lessons.length > 100 || fs_1.default.existsSync(expandedPath)) {
+        fs_1.default.writeFileSync(expandedPath, JSON.stringify(course, null, 2), 'utf-8');
+    }
+    // If a base lesson (1..100) was modified in Dev Mode, also persist to base course_data.json files
+    if (modifiedLessonNum && modifiedLessonNum <= 100) {
+        const baseCoursePaths = getAllPublicAssetPaths('course_data.json');
+        const baseCourseSlice = {
+            ...course,
+            total_lessons: Math.min(100, course.lessons.length),
+            regular_lessons_count: course.lessons.slice(0, 100).filter((l) => l.type !== 'review').length,
+            review_lessons_count: course.lessons.slice(0, 100).filter((l) => l.type === 'review').length,
+            lessons: course.lessons.slice(0, 100),
+        };
+        for (const bp of baseCoursePaths) {
+            try {
+                fs_1.default.writeFileSync(bp, JSON.stringify(baseCourseSlice, null, 2), 'utf-8');
+            }
+            catch { }
+        }
+    }
+}
+function updateAffectedSevenLessonReview(allLessons, modifiedLessonNum) {
+    const reviewLessonNum = Math.ceil(modifiedLessonNum / 7) * 7;
+    const reviewIdx = allLessons.findIndex((l) => Number(l.lesson_number || l.num) === reviewLessonNum);
+    if (reviewIdx >= 0 && allLessons[reviewIdx].type === 'review') {
+        const startIdx = Math.max(0, reviewIdx - 6);
+        const sevenSlice = allLessons.slice(startIdx, reviewIdx + 1);
+        const revData = (0, enricher_1.buildReviewForSevenLessons)(sevenSlice, reviewLessonNum);
+        allLessons[reviewIdx].review_summary = revData.review_summary;
+        allLessons[reviewIdx].key_noun_classes_covered = revData.key_noun_classes_covered;
+        allLessons[reviewIdx].review_exercises = revData.review_exercises;
+        allLessons[reviewIdx].reviewed_lessons = revData.reviewed_lessons;
+    }
 }
 function createWindow() {
     mainWindow = new electron_1.BrowserWindow({
@@ -142,7 +535,6 @@ function createWindow() {
     else {
         mainWindow.loadFile(path_1.default.join(__dirname, '../dist/index.html'));
     }
-    // Handle self-test flag
     if (process.env.TEST_SMOKE === '1') {
         mainWindow.webContents.on('did-finish-load', () => {
             console.log('SMOKE_TEST_SUCCESS: Window loaded successfully.');
@@ -179,9 +571,7 @@ electron_1.ipcMain.handle('save-user-progress', async (_event, progressData) => 
         const storagePath = getStoragePath();
         const backupPath = getWorkspaceBackupPath();
         const serialized = JSON.stringify(progressData, null, 2);
-        // Save to userData
         fs_1.default.writeFileSync(storagePath, serialized, 'utf-8');
-        // Also mirror to workspace root
         try {
             fs_1.default.writeFileSync(backupPath, serialized, 'utf-8');
         }
@@ -211,169 +601,91 @@ electron_1.ipcMain.handle('get-expanded-course', async () => {
 electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
     try {
         const numToAdd = typeof count === 'number' && count > 0 ? count : 50;
-        const expandedPath = getExpandedCoursePath();
-        const baseCoursePath = resolvePublicAssetPath('course_data.json');
+        emitGenerationProgress(2, 'Checking local audio reserve pool & duration bands...');
+        const { course: currentCourse, expandedPath } = loadActiveCourseObject();
         const poolPath = resolvePublicAssetPath('expansion_pool.json');
-        let currentCourse = null;
-        if (fs_1.default.existsSync(expandedPath)) {
-            try {
-                const expData = JSON.parse(fs_1.default.readFileSync(expandedPath, 'utf-8'));
-                if (expData && Array.isArray(expData.lessons) && expData.lessons.length >= 100) {
-                    currentCourse = expData;
-                }
-            }
-            catch { }
-        }
-        if (!currentCourse && baseCoursePath) {
-            currentCourse = JSON.parse(fs_1.default.readFileSync(baseCoursePath, 'utf-8'));
-        }
-        if (!currentCourse || !Array.isArray(currentCourse.lessons)) {
-            throw new Error('Could not load base course_data.json');
-        }
-        // Try running pipeline/build_course.py --append --max-new-lessons 50 if available in workspace
-        const pipelineScriptCandidates = [
-            path_1.default.resolve(process.cwd(), '../pipeline/build_course.py'),
-            path_1.default.resolve(process.cwd(), 'pipeline/build_course.py'),
-        ];
-        const pipelineScript = pipelineScriptCandidates.find((p) => fs_1.default.existsSync(p));
-        if (pipelineScript) {
-            fs_1.default.writeFileSync(expandedPath, JSON.stringify(currentCourse, null, 2), 'utf-8');
-            await new Promise((resolve, reject) => {
-                (0, child_process_1.execFile)('python', [pipelineScript, '--append', '--max-new-lessons', String(numToAdd), '--output-json', expandedPath], { timeout: 60000 }, (err) => {
-                    if (err)
-                        reject(err);
-                    else
-                        resolve();
-                });
-            }).catch((err) => {
-                console.warn('Python pipeline invocation fallback to reserve pool:', err);
-            });
-            if (fs_1.default.existsSync(expandedPath)) {
-                const updatedFromPy = JSON.parse(fs_1.default.readFileSync(expandedPath, 'utf-8'));
-                if (updatedFromPy &&
-                    Array.isArray(updatedFromPy.lessons) &&
-                    updatedFromPy.lessons.length > currentCourse.lessons.length) {
-                    return updatedFromPy;
-                }
-            }
-        }
-        // Reserve pool expansion (works 100% offline in standalone .exe and dev)
         if (!poolPath || !fs_1.default.existsSync(poolPath)) {
             throw new Error('Could not locate expansion_pool.json');
         }
-        const poolLessons = JSON.parse(fs_1.default.readFileSync(poolPath, 'utf-8'));
-        const existingIds = new Set(currentCourse.lessons.map((l) => l.clip_id).filter(Boolean));
-        const existingTexts = new Set(currentCourse.lessons.map((l) => String(l.shona_text || '').trim().toLowerCase()).filter(Boolean));
-        const availableNew = poolLessons.filter((item) => !existingIds.has(item.clip_id) &&
-            !existingTexts.has(String(item.shona_text || '').trim().toLowerCase()) &&
+        let poolLessons = JSON.parse(fs_1.default.readFileSync(poolPath, 'utf-8'));
+        const existingIds = new Set(currentCourse.lessons.map((l) => String(l.clip_id || '')).filter(Boolean));
+        const existingTexts = new Set(currentCourse.lessons
+            .map((l) => (0, enricher_1.normalizeTextKey)(String(l.shona_text || '')))
+            .filter(Boolean));
+        let availableNew = poolLessons.filter((item) => !existingIds.has(String(item.clip_id || '')) &&
+            !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
             Number(item.duration_seconds || 0) <= 120.0);
         const startLessonNum = currentCourse.lessons.length + 1;
-        const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
-        const sourcePool = availableNew.length >= numToAdd ? availableNew : poolLessons.filter((item) => Number(item.duration_seconds || 0) <= 120.0);
-        let orderedCandidates = [];
-        if (bandIdx >= 6) {
-            // Lessons 601+: balanced mix of clip lengths up to 120s at random
-            const buckets = [
-                sourcePool.filter((c) => Number(c.duration_seconds || 0) < 15),
-                sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 15 && Number(c.duration_seconds || 0) < 30),
-                sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 30 && Number(c.duration_seconds || 0) < 50),
-                sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 50 && Number(c.duration_seconds || 0) < 80),
-                sourcePool.filter((c) => Number(c.duration_seconds || 0) >= 80 && Number(c.duration_seconds || 0) <= 120),
-            ];
-            const perBucket = Math.max(1, Math.floor(numToAdd / buckets.length));
-            const pickedIds = new Set();
-            for (const b of buckets) {
-                const shuffled = [...b].sort(() => Math.random() - 0.5);
-                for (const item of shuffled.slice(0, perBucket)) {
-                    if (!pickedIds.has(item.clip_id)) {
-                        orderedCandidates.push(item);
-                        pickedIds.add(item.clip_id);
+        const bandEval = evaluateReservePoolForBatch(availableNew, startLessonNum, numToAdd);
+        if (!bandEval.satisfied) {
+            const isOnline = await checkHuggingFaceConnection();
+            if (!isOnline) {
+                if (availableNew.length < numToAdd) {
+                    emitGenerationProgress(0, '');
+                    return {
+                        error: 'INSUFFICIENT_OFFLINE_RESERVE',
+                        remaining: availableNew.length,
+                        required: numToAdd,
+                    };
+                }
+            }
+            else {
+                const missingCount = Math.max(bandEval.totalMissing, bandEval.primaryMissing + bandEval.sprinkleMissing);
+                const allPoolIds = new Set([
+                    ...existingIds,
+                    ...poolLessons.map((p) => String(p.clip_id || '')),
+                ]);
+                const allPoolTexts = new Set([
+                    ...existingTexts,
+                    ...poolLessons.map((p) => (0, enricher_1.normalizeTextKey)(String(p.shona_text || ''))),
+                ]);
+                const newlyDownloaded = await downloadAndEnrichFromHuggingFace(missingCount, bandEval.constraints, allPoolIds, allPoolTexts, startLessonNum);
+                if (newlyDownloaded.length > 0) {
+                    poolLessons = [...poolLessons, ...newlyDownloaded];
+                    for (const pPath of getAllPublicAssetPaths('expansion_pool.json')) {
+                        try {
+                            fs_1.default.writeFileSync(pPath, JSON.stringify(poolLessons, null, 2), 'utf-8');
+                        }
+                        catch { }
                     }
+                    availableNew = poolLessons.filter((item) => !existingIds.has(String(item.clip_id || '')) &&
+                        !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
+                        Number(item.duration_seconds || 0) <= 120.0);
                 }
-            }
-            const rem = sourcePool.filter((c) => !pickedIds.has(c.clip_id)).sort(() => Math.random() - 0.5);
-            orderedCandidates.push(...rem.slice(0, Math.max(0, numToAdd - orderedCandidates.length)));
-            orderedCandidates.sort(() => Math.random() - 0.5);
-        }
-        else {
-            // Tiered 100-lesson band (bandIdx = 1..5):
-            // Primary range: [bandIdx * 10, bandIdx * 10 + 30] (75%)
-            // Sprinkle range: [0, bandIdx * 10) (25% sprinkled arbitrarily)
-            const primaryMin = bandIdx * 10;
-            const primaryMax = bandIdx * 10 + 30;
-            const sprinkleMax = bandIdx * 10;
-            const sprinkleTarget = Math.round(numToAdd * 0.25); // 12 or 13
-            const primaryTarget = numToAdd - sprinkleTarget; // 38 or 37
-            const primaryList = sourcePool
-                .filter((c) => {
-                const d = Number(c.duration_seconds || 0);
-                return d >= primaryMin && d <= primaryMax;
-            })
-                .sort((a, b) => Number(a.duration_seconds || 0) - Number(b.duration_seconds || 0));
-            const chosenPrimary = primaryList.slice(0, primaryTarget);
-            const pickedIds = new Set(chosenPrimary.map((c) => c.clip_id));
-            if (chosenPrimary.length < primaryTarget) {
-                const midTarget = (primaryMin + primaryMax) / 2;
-                const fallbackLonger = sourcePool
-                    .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) >= sprinkleMax)
-                    .sort((a, b) => Math.abs(Number(a.duration_seconds || 0) - midTarget) -
-                    Math.abs(Number(b.duration_seconds || 0) - midTarget));
-                for (const fc of fallbackLonger) {
-                    if (chosenPrimary.length >= primaryTarget)
-                        break;
-                    chosenPrimary.push(fc);
-                    pickedIds.add(fc.clip_id);
-                }
-            }
-            const sprinkleList = sourcePool
-                .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) < sprinkleMax)
-                .sort((a, b) => Number(a.difficulty_score || 0) - Number(b.difficulty_score || 0));
-            const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
-            for (const sc of chosenSprinkle)
-                pickedIds.add(sc.clip_id);
-            while (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
-                const rem = sourcePool.find((c) => !pickedIds.has(c.clip_id));
-                if (!rem)
-                    break;
-                chosenPrimary.push(rem);
-                pickedIds.add(rem.clip_id);
-            }
-            // Interleave 25% shorter clips at arbitrary positions among the 75% progressive primary clips
-            const totalCount = chosenPrimary.length + chosenSprinkle.length;
-            const allPositions = Array.from({ length: totalCount }, (_, idx) => idx);
-            for (let i = allPositions.length - 1; i > 0; i--) {
-                const j = (startLessonNum * 31 + i * 17) % (i + 1);
-                [allPositions[i], allPositions[j]] = [allPositions[j], allPositions[i]];
-            }
-            const sprinklePos = new Set(allPositions.slice(0, chosenSprinkle.length));
-            let pIdx = 0;
-            let sIdx = 0;
-            for (let pos = 0; pos < totalCount; pos++) {
-                if (sprinklePos.has(pos) && sIdx < chosenSprinkle.length) {
-                    orderedCandidates.push(chosenSprinkle[sIdx++]);
-                }
-                else if (pIdx < chosenPrimary.length) {
-                    orderedCandidates.push(chosenPrimary[pIdx++]);
-                }
-                else if (sIdx < chosenSprinkle.length) {
-                    orderedCandidates.push(chosenSprinkle[sIdx++]);
+                if (availableNew.length < numToAdd) {
+                    emitGenerationProgress(0, '');
+                    return {
+                        error: 'INSUFFICIENT_OFFLINE_RESERVE',
+                        remaining: availableNew.length,
+                        required: numToAdd,
+                    };
                 }
             }
         }
+        emitGenerationProgress(55, `Selecting & ordering ${numToAdd} lessons by duration band & pedagogical complexity...`);
+        const orderedCandidates = selectBatchByBandAndPedagogy(availableNew, startLessonNum, numToAdd);
         const selectedBatch = [];
         for (let i = 0; i < numToAdd; i++) {
-            if (i < orderedCandidates.length) {
-                const copy = JSON.parse(JSON.stringify(orderedCandidates[i]));
-                if (existingIds.has(copy.clip_id)) {
-                    copy.clip_id = `${copy.clip_id}_exp_${currentCourse.lessons.length + i + 1}`;
-                }
-                selectedBatch.push(copy);
-            }
-            else if (poolLessons.length > 0) {
-                const base = JSON.parse(JSON.stringify(poolLessons[i % poolLessons.length]));
-                base.clip_id = `${base.clip_id}_exp_${currentCourse.lessons.length + i + 1}`;
-                selectedBatch.push(base);
-            }
+            const candidate = orderedCandidates[i];
+            if (!candidate)
+                break;
+            const copy = JSON.parse(JSON.stringify(candidate));
+            // Verify enrichment completeness on every selected lesson
+            const needsEnrich = !copy.english_translation ||
+                (0, enricher_1.normalizeTextKey)(copy.english_translation) === (0, enricher_1.normalizeTextKey)(copy.shona_text) ||
+                !Array.isArray(copy.grammar_notes) ||
+                copy.grammar_notes.length === 0 ||
+                !Array.isArray(copy.cultural_notes) ||
+                copy.cultural_notes.length === 0 ||
+                !Array.isArray(copy.active_exercises) ||
+                copy.active_exercises.length === 0;
+            const lessonNum = startLessonNum + i;
+            const stepPct = 60 + Math.round(((i + 1) / numToAdd) * 32);
+            emitGenerationProgress(stepPct, `Preparing Lesson ${lessonNum} (${i + 1}/${numToAdd}): verifying grammar, cultural notes & exercises...`);
+            const verifiedClip = needsEnrich
+                ? await (0, enricher_1.enrichClipObject)(copy, lessonNum, 0)
+                : copy;
+            selectedBatch.push(verifiedClip);
         }
         const allLessons = [...currentCourse.lessons];
         const activeWaveStart = Number(currentCourse.active_wave_start_lesson || 51);
@@ -387,16 +699,17 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 ...rawNew,
                 lesson_number: nextNum,
                 type: isReviewSlot ? 'review' : 'regular',
-                phase: 'active',
-                active_wave_review_lesson: nextNum - (activeWaveStart - 1),
+                phase: nextNum >= activeWaveStart ? 'active' : 'passive',
+                active_wave_review_lesson: nextNum >= activeWaveStart ? nextNum - (activeWaveStart - 1) : null,
                 title: isReviewSlot
                     ? `Chidzidzo ${nextNum}: ${previewWords} (Dzokororo ${reviewBlockNum})`
                     : `Chidzidzo ${nextNum}: ${previewWords}`,
             };
             allLessons.push(newLesson);
             if (isReviewSlot) {
+                emitGenerationProgress(94, `Synthesizing Unit ${reviewBlockNum} Review (Lessons ${nextNum - 6}–${nextNum})...`);
                 const sevenSlice = allLessons.slice(Math.max(0, allLessons.length - 7), allLessons.length);
-                const revData = buildReviewForSevenLessons(sevenSlice, nextNum);
+                const revData = (0, enricher_1.buildReviewForSevenLessons)(sevenSlice, nextNum);
                 newLesson.review_summary = revData.review_summary;
                 newLesson.key_noun_classes_covered = revData.key_noun_classes_covered;
                 newLesson.review_exercises = revData.review_exercises;
@@ -409,6 +722,7 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 newLesson.reviewed_lessons = [];
             }
         }
+        emitGenerationProgress(98, 'Saving expanded course data...');
         const updatedCourse = {
             ...currentCourse,
             generated_at: new Date().toISOString(),
@@ -419,10 +733,212 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
             lessons: allLessons,
         };
         fs_1.default.writeFileSync(expandedPath, JSON.stringify(updatedCourse, null, 2), 'utf-8');
+        emitGenerationProgress(100, `Added ${selectedBatch.length} new lessons!`);
         return updatedCourse;
     }
     catch (err) {
         console.error('Failed to generate +50 lessons:', err);
+        emitGenerationProgress(0, '');
+        return null;
+    }
+});
+// Dev Mode IPC Handlers
+electron_1.ipcMain.handle('verify-dev-password', async (_event, passwordInput) => {
+    const expected = readDevModePassword();
+    return String(passwordInput || '').trim() === expected;
+});
+electron_1.ipcMain.handle('remove-last-50-lessons', async () => {
+    try {
+        const { course: currentCourse, expandedPath, baseCoursePath } = loadActiveCourseObject();
+        if (currentCourse.lessons.length <= 100) {
+            if (fs_1.default.existsSync(expandedPath)) {
+                try {
+                    fs_1.default.unlinkSync(expandedPath);
+                }
+                catch { }
+            }
+            return currentCourse;
+        }
+        const newTargetLen = Math.max(100, currentCourse.lessons.length - 50);
+        const trimmedLessons = currentCourse.lessons.slice(0, newTargetLen);
+        if (newTargetLen <= 100) {
+            if (fs_1.default.existsSync(expandedPath)) {
+                try {
+                    fs_1.default.unlinkSync(expandedPath);
+                }
+                catch { }
+            }
+            if (baseCoursePath && fs_1.default.existsSync(baseCoursePath)) {
+                return JSON.parse(fs_1.default.readFileSync(baseCoursePath, 'utf-8'));
+            }
+        }
+        const updatedCourse = {
+            ...currentCourse,
+            generated_at: new Date().toISOString(),
+            total_lessons: trimmedLessons.length,
+            regular_lessons_count: trimmedLessons.filter((l) => l.type !== 'review').length,
+            review_lessons_count: trimmedLessons.filter((l) => l.type === 'review').length,
+            lessons: trimmedLessons,
+        };
+        fs_1.default.writeFileSync(expandedPath, JSON.stringify(updatedCourse, null, 2), 'utf-8');
+        return updatedCourse;
+    }
+    catch (err) {
+        console.error('Failed to remove last 50 lessons:', err);
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-fix-lesson', async (_event, lessonNumber) => {
+    try {
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+        if (idx < 0)
+            return null;
+        const oldLesson = course.lessons[idx];
+        const nextSeed = Number(oldLesson.variation_seed || 0) + 1;
+        const reEnriched = await (0, enricher_1.enrichClipObject)(oldLesson, Number(lessonNumber), nextSeed);
+        const updatedLesson = {
+            ...oldLesson,
+            ...reEnriched,
+            lesson_number: oldLesson.lesson_number,
+            title: oldLesson.title,
+            type: oldLesson.type,
+            phase: oldLesson.phase,
+            active_wave_review_lesson: oldLesson.active_wave_review_lesson,
+            variation_seed: nextSeed,
+        };
+        course.lessons[idx] = updatedLesson;
+        updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+        persistModifiedCourse(course, Number(lessonNumber));
+        return course;
+    }
+    catch (err) {
+        console.error('Failed in dev-fix-lesson:', err);
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-regenerate-lesson', async (_event, lessonNumber) => {
+    try {
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+        if (idx < 0)
+            return null;
+        const oldLesson = course.lessons[idx];
+        const oldClipId = String(oldLesson.clip_id || '');
+        const oldAudioUrl = String(oldLesson.audio_url || '');
+        // 1. Delete old sub-standard audio file from disk
+        if (oldAudioUrl) {
+            for (const p of getAllPublicAssetPaths(oldAudioUrl)) {
+                if (fs_1.default.existsSync(p)) {
+                    try {
+                        fs_1.default.unlinkSync(p);
+                    }
+                    catch { }
+                }
+            }
+        }
+        // 2. Remove old clip from expansion_pool.json
+        const poolPath = resolvePublicAssetPath('expansion_pool.json');
+        let poolLessons = poolPath && fs_1.default.existsSync(poolPath)
+            ? JSON.parse(fs_1.default.readFileSync(poolPath, 'utf-8'))
+            : [];
+        poolLessons = poolLessons.filter((p) => String(p.clip_id || '') !== oldClipId);
+        const existingIds = new Set(course.lessons.map((l) => String(l.clip_id || '')).filter(Boolean));
+        const existingTexts = new Set(course.lessons
+            .map((l) => (0, enricher_1.normalizeTextKey)(String(l.shona_text || '')))
+            .filter(Boolean));
+        const constraints = getBandConstraints(Number(lessonNumber), 50);
+        let candidateReplacement = poolLessons.find((item) => {
+            const d = Number(item.duration_seconds || 0);
+            return (!existingIds.has(String(item.clip_id || '')) &&
+                !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))) &&
+                d >= constraints.primaryMin &&
+                d <= constraints.primaryMax);
+        });
+        if (!candidateReplacement) {
+            candidateReplacement = poolLessons.find((item) => !existingIds.has(String(item.clip_id || '')) &&
+                !existingTexts.has((0, enricher_1.normalizeTextKey)(String(item.shona_text || ''))));
+        }
+        if (!candidateReplacement) {
+            const isOnline = await checkHuggingFaceConnection();
+            if (isOnline) {
+                const downloaded = await downloadAndEnrichFromHuggingFace(1, constraints, existingIds, existingTexts, Number(lessonNumber));
+                if (downloaded.length > 0) {
+                    candidateReplacement = downloaded[0];
+                }
+            }
+        }
+        if (!candidateReplacement) {
+            throw new Error('No replacement clip available in reserve pool or online.');
+        }
+        // Remove the picked replacement from expansion_pool.json if it came from there, and persist expansion_pool.json
+        for (const pPath of getAllPublicAssetPaths('expansion_pool.json')) {
+            try {
+                fs_1.default.writeFileSync(pPath, JSON.stringify(poolLessons, null, 2), 'utf-8');
+            }
+            catch { }
+        }
+        const enrichedReplacement = await (0, enricher_1.enrichClipObject)(candidateReplacement, Number(lessonNumber), 0);
+        const words = String(enrichedReplacement.shona_text || '').split(/\s+/).filter(Boolean);
+        const previewWords = words.slice(0, 6).join(' ') + (words.length > 6 ? '...' : '');
+        const isReviewSlot = Number(lessonNumber) % 7 === 0;
+        const reviewBlockNum = Math.floor(Number(lessonNumber) / 7);
+        course.lessons[idx] = {
+            ...enrichedReplacement,
+            lesson_number: Number(lessonNumber),
+            type: oldLesson.type,
+            phase: oldLesson.phase,
+            active_wave_review_lesson: oldLesson.active_wave_review_lesson,
+            title: isReviewSlot
+                ? `Chidzidzo ${lessonNumber}: ${previewWords} (Dzokororo ${reviewBlockNum})`
+                : `Chidzidzo ${lessonNumber}: ${previewWords}`,
+        };
+        updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+        persistModifiedCourse(course, Number(lessonNumber));
+        return course;
+    }
+    catch (err) {
+        console.error('Failed in dev-regenerate-lesson:', err);
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-regenerate-field', async (_event, payload) => {
+    try {
+        const { lessonNumber, field } = payload;
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+        if (idx < 0)
+            return null;
+        const lesson = course.lessons[idx];
+        const nextSeed = Number(lesson.variation_seed || 0) + 1;
+        lesson.variation_seed = nextSeed;
+        const shonaText = String(lesson.shona_text || '');
+        const engText = String(lesson.english_translation || '');
+        if (field === 'translation') {
+            const { englishTranslation, dialogue } = await (0, enricher_1.resolveIdiomaticTranslationAndDialogue)(shonaText, nextSeed);
+            lesson.english_translation = englishTranslation;
+            lesson.dialogue = dialogue;
+        }
+        else if (field === 'grammar_notes') {
+            lesson.grammar_notes = (0, enricher_1.generateTextbookGrammarNotes)(shonaText, engText, Number(lessonNumber), nextSeed);
+        }
+        else if (field === 'cultural_notes') {
+            lesson.cultural_notes = (0, enricher_1.generateTextbookCulturalNotes)(shonaText, engText, Number(lessonNumber), nextSeed);
+        }
+        else if (field === 'exercises') {
+            const words = shonaText.split(/\s+/).filter(Boolean);
+            const gloss = Array.isArray(lesson.literal_gloss)
+                ? lesson.literal_gloss
+                : words.map((w) => (0, enricher_1.analyzeMorphemesAndClass)(w));
+            lesson.active_exercises = (0, enricher_1.generateContextualExercises)(shonaText, engText, Number(lessonNumber), lesson.grammar_notes || [], gloss, nextSeed);
+        }
+        course.lessons[idx] = lesson;
+        updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+        persistModifiedCourse(course, Number(lessonNumber));
+        return course;
+    }
+    catch (err) {
+        console.error('Failed in dev-regenerate-field:', err);
         return null;
     }
 });

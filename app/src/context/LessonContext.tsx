@@ -35,7 +35,24 @@ interface LessonContextType {
   resetProgress: () => void;
   allLessonsCompleted: boolean;
   isGeneratingLessons: boolean;
+  generationProgress: { percent: number; message: string };
+  insufficientReserveNotice: { remaining: number; required: number } | null;
+  dismissInsufficientReserveNotice: () => void;
   generateNextFiftyLessons: () => Promise<void>;
+  isDevMode: boolean;
+  unlockDevMode: (password: string) => Promise<boolean>;
+  lockDevMode: () => void;
+  completeAllLessons: () => void;
+  removeLastFiftyLessons: () => Promise<void>;
+  deleteSingleLessonProgress: (lessonNum: number) => void;
+  fixSingleLesson: (lessonNum: number) => Promise<void>;
+  regenerateSingleLesson: (lessonNum: number) => Promise<void>;
+  regenerateLessonField: (
+    lessonNum: number,
+    field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
+  ) => Promise<void>;
+  isDevActionRunning: boolean;
+  devActionStatus: string;
 }
 
 const LessonContext = createContext<LessonContextType | undefined>(undefined);
@@ -66,9 +83,10 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     const morphemes: string[] = [];
     raw.literal_gloss.forEach((g) => {
       if (typeof g === 'object' && g !== null && 'literal_english' in g) {
-        const mg = g as MorphemeGloss;
-        glossBreakdown.push(mg);
-        morphemes.push(`${mg.shona_word} [${mg.literal_english}]`);
+        const mg = g as MorphemeGloss & { shona?: string };
+        const shonaWord = mg.shona_word || mg.shona || '';
+        glossBreakdown.push({ ...mg, shona_word: shonaWord });
+        morphemes.push(`${shonaWord} [${mg.literal_english}]`);
       } else if (typeof g === 'string') {
         morphemes.push(g);
       }
@@ -95,9 +113,10 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
       dialogue = [];
     }
   } else {
-    // Ensure literal_gloss is populated if missing on dialogue lines
-    dialogue = dialogue.map((line) => ({
+    // Ensure literal_gloss and id are populated if missing on dialogue lines
+    dialogue = dialogue.map((line, lineIdx) => ({
       ...line,
+      id: line.id || lineIdx + 1,
       literal_gloss: line.literal_gloss || formattedGlossStr || undefined,
       gloss_breakdown: line.gloss_breakdown || (glossBreakdown.length > 0 ? glossBreakdown : undefined)
     }));
@@ -136,14 +155,19 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
     if (!exList || !Array.isArray(exList)) return [];
     return exList.map((ex, exIdx) => {
       const hasOptions = Array.isArray(ex.options) && ex.options.length > 0;
+      const promptStr = String(ex.prompt || '');
+      let exType: 'multiple_choice' | 'fill_blank' | 'translate' = 'multiple_choice';
+      if (ex.exercise_type === 'translation' || ex.type === 'translate') {
+        exType = 'translate';
+      } else if (ex.type === 'fill_blank' || promptStr.includes('______')) {
+        exType = 'fill_blank';
+      } else if (!hasOptions) {
+        exType = 'fill_blank';
+      }
       return {
         id: exIdx + 1,
-        type: hasOptions
-          ? 'multiple_choice'
-          : (ex.exercise_type === 'translation' || ex.type === 'translate')
-          ? 'translate'
-          : 'fill_blank',
-        prompt: String(ex.prompt || ''),
+        type: exType,
+        prompt: promptStr,
         options: hasOptions ? (ex.options as string[]) : undefined,
         correct_answer: String(ex.correct_answer || ''),
         explanation: ex.explanation ? String(ex.explanation) : undefined
@@ -196,12 +220,32 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const [rawCourseSnapshot, setRawCourseSnapshot] = useState<Record<string, any> | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [isGeneratingLessons, setIsGeneratingLessons] = useState<boolean>(false);
+  const [generationProgress, setGenerationProgress] = useState<{ percent: number; message: string }>({
+    percent: 0,
+    message: ''
+  });
+  const [insufficientReserveNotice, setInsufficientReserveNotice] = useState<{
+    remaining: number;
+    required: number;
+  } | null>(null);
+  const [isDevMode, setIsDevMode] = useState<boolean>(false);
+  const [isDevActionRunning, setIsDevActionRunning] = useState<boolean>(false);
+  const [devActionStatus, setDevActionStatus] = useState<string>('');
   const [progress, setProgress] = useState<UserProgress>(DEFAULT_USER_PROGRESS);
   const [currentLessonNum, setCurrentLessonNum] = useState<number>(1);
   const [currentStep, setCurrentStep] = useState<LessonStep>('PASSIVE_BLIND_1');
   const [activeLessonNum, setActiveLessonNum] = useState<number | null>(null);
   const [isAudioPlaying, setIsAudioPlaying] = useState<boolean>(false);
   const [audioKey, setAudioKey] = useState<number>(0);
+
+  // Subscribe to Electron live progress bar events during +50 lesson generation
+  useEffect(() => {
+    if (window.electronAPI?.onGenerationProgress) {
+      return window.electronAPI.onGenerationProgress((data) => {
+        setGenerationProgress(data);
+      });
+    }
+  }, []);
 
   // Load course data from public/course_data.json (or expanded course if user already added +50 lessons)
   useEffect(() => {
@@ -690,10 +734,231 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     return true;
   }, [courseData, progress.completed_passive, progress.completed_active]);
 
+  const applyUpdatedRawCourse = useCallback(
+    (updatedRaw: Record<string, any>) => {
+      if (!updatedRaw || !Array.isArray(updatedRaw.lessons)) return;
+      setRawCourseSnapshot(updatedRaw);
+      try {
+        if (updatedRaw.lessons.length > 100) {
+          localStorage.setItem(EXPANDED_COURSE_STORAGE_KEY, JSON.stringify(updatedRaw));
+        } else {
+          localStorage.removeItem(EXPANDED_COURSE_STORAGE_KEY);
+        }
+      } catch {}
+
+      const rawList: RawLesson[] = updatedRaw.lessons;
+      const normalizedLessons: Lesson[] = rawList.map((r, i) => normalizeLesson(r, i));
+      const normalizedData: CourseData = {
+        course_title: updatedRaw.course_title || courseData?.course_title || 'Assimil Shona (ChiZezuru)',
+        version: updatedRaw.version || courseData?.version || '2.0.0',
+        dialect: updatedRaw.target_dialect || updatedRaw.dialect || courseData?.dialect || 'Standard Shona (Zezuru)',
+        total_lessons: normalizedLessons.length,
+        active_wave_start_lesson: updatedRaw.active_wave_start_lesson || 51,
+        lessons: normalizedLessons
+      };
+      setCourseData(normalizedData);
+    },
+    [courseData]
+  );
+
+  const dismissInsufficientReserveNotice = useCallback(() => {
+    setInsufficientReserveNotice(null);
+  }, []);
+
+  // Dev Mode authentication (always requires password re-entry after locking)
+  const unlockDevMode = useCallback(async (password: string): Promise<boolean> => {
+    if (window.electronAPI?.verifyDevPassword) {
+      try {
+        const ok = await window.electronAPI.verifyDevPassword(password);
+        if (ok) {
+          setIsDevMode(true);
+          return true;
+        }
+        return false;
+      } catch {}
+    }
+    const expected = (import.meta as any).env?.VITE_DEV_MODE_PASSWORD || 'shona_dev_pass';
+    if (password.trim() === expected) {
+      setIsDevMode(true);
+      return true;
+    }
+    return false;
+  }, []);
+
+  const lockDevMode = useCallback(() => {
+    setIsDevMode(false);
+  }, []);
+
+  // Dev Mode: Complete All Lessons simultaneously
+  const completeAllLessons = useCallback(() => {
+    if (!courseData) return;
+    const total = courseData.total_lessons;
+    const activeStart = courseData.active_wave_start_lesson || 51;
+    const requiredActiveMax = Math.max(0, total - (activeStart - 1));
+
+    const allPassive = Array.from({ length: total }, (_, i) => i + 1);
+    const allActive = Array.from({ length: requiredActiveMax }, (_, i) => i + 1);
+
+    persist({
+      ...progress,
+      completed_passive: allPassive,
+      completed_active: allActive,
+      current_lesson: total,
+      current_step: 'PASSIVE_BLIND_1',
+      active_lesson_number: undefined
+    });
+    setCurrentLessonNum(total);
+    setCurrentStep('PASSIVE_BLIND_1');
+    setActiveLessonNum(null);
+  }, [courseData, progress, persist]);
+
+  // Dev Mode: Remove lessons in blocks of 50 (starting from the newest added block, down to base 100)
+  const removeLastFiftyLessons = useCallback(async () => {
+    if (!courseData || courseData.total_lessons <= 100) return;
+    setIsDevActionRunning(true);
+    setDevActionStatus('Removing newest block of 50 lessons...');
+    try {
+      let updatedRaw: Record<string, any> | null = null;
+      if (window.electronAPI?.removeLast50Lessons) {
+        updatedRaw = await window.electronAPI.removeLast50Lessons();
+      }
+      if (!updatedRaw && rawCourseSnapshot && Array.isArray(rawCourseSnapshot.lessons)) {
+        const targetCount = Math.max(100, rawCourseSnapshot.lessons.length - 50);
+        const trimmed = rawCourseSnapshot.lessons.slice(0, targetCount);
+        updatedRaw = {
+          ...rawCourseSnapshot,
+          total_lessons: trimmed.length,
+          lessons: trimmed
+        };
+      }
+      if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+        const newTotal = updatedRaw.lessons.length;
+        const activeStart = updatedRaw.active_wave_start_lesson || 51;
+        const maxActive = Math.max(0, newTotal - (activeStart - 1));
+        applyUpdatedRawCourse(updatedRaw);
+
+        const clampedLesson = Math.min(currentLessonNum, newTotal);
+        setCurrentLessonNum(clampedLesson);
+        setCurrentStep('PASSIVE_BLIND_1');
+        setActiveLessonNum(null);
+
+        persist({
+          ...progress,
+          completed_passive: progress.completed_passive.filter((n) => n <= newTotal),
+          completed_active: progress.completed_active.filter((n) => n <= maxActive),
+          current_lesson: clampedLesson,
+          current_step: 'PASSIVE_BLIND_1',
+          active_lesson_number: undefined
+        });
+      }
+    } finally {
+      setIsDevActionRunning(false);
+      setDevActionStatus('');
+    }
+  }, [courseData, rawCourseSnapshot, currentLessonNum, progress, persist, applyUpdatedRawCourse]);
+
+  // Dev Mode: Delete progress for a single lesson only
+  const deleteSingleLessonProgress = useCallback(
+    (lessonNum: number) => {
+      const updatedTranslations = { ...progress.active_translations };
+      delete updatedTranslations[lessonNum];
+      const updatedCorrections = { ...progress.active_corrections };
+      delete updatedCorrections[lessonNum];
+      const updatedExHistory: Record<string, boolean> = {};
+      for (const [k, v] of Object.entries(progress.exercise_history || {})) {
+        if (!k.startsWith(`lesson_${lessonNum}_ex_`)) {
+          updatedExHistory[k] = v;
+        }
+      }
+      persist({
+        ...progress,
+        completed_passive: progress.completed_passive.filter((n) => n !== lessonNum),
+        completed_active: progress.completed_active.filter((n) => n !== lessonNum),
+        active_translations: updatedTranslations,
+        active_corrections: updatedCorrections,
+        exercise_history: updatedExHistory
+      });
+    },
+    [progress, persist]
+  );
+
+  // Dev Mode: Fix Lesson (keep audio & transcription, regenerate translation, grammar, cultural notes, exercises)
+  const fixSingleLesson = useCallback(
+    async (lessonNum: number) => {
+      setIsDevActionRunning(true);
+      setDevActionStatus(`Fixing Lesson ${lessonNum} (regenerating translation, notes & exercises)...`);
+      try {
+        if (window.electronAPI?.devFixLesson) {
+          const updatedRaw = await window.electronAPI.devFixLesson(lessonNum);
+          if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+            applyUpdatedRawCourse(updatedRaw);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse]
+  );
+
+  // Dev Mode: Fully Regenerate Lesson (remove old audio & data, replace with brand-new audio & enriched data)
+  const regenerateSingleLesson = useCallback(
+    async (lessonNum: number) => {
+      setIsDevActionRunning(true);
+      setDevActionStatus(`Fully regenerating Lesson ${lessonNum} with new audio & enriched data...`);
+      try {
+        if (window.electronAPI?.devRegenerateLesson) {
+          const updatedRaw = await window.electronAPI.devRegenerateLesson(lessonNum);
+          if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+            applyUpdatedRawCourse(updatedRaw);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse]
+  );
+
+  // Dev Mode: Regenerate individual field ('translation' | 'grammar_notes' | 'cultural_notes' | 'exercises')
+  const regenerateLessonField = useCallback(
+    async (
+      lessonNum: number,
+      field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
+    ) => {
+      const labelMap = {
+        translation: 'English Translation',
+        grammar_notes: 'Grammar Notes',
+        cultural_notes: 'Cultural Notes',
+        exercises: 'Exercises'
+      };
+      setIsDevActionRunning(true);
+      setDevActionStatus(`Regenerating Lesson ${lessonNum} ${labelMap[field]}...`);
+      try {
+        if (window.electronAPI?.devRegenerateField) {
+          const updatedRaw = await window.electronAPI.devRegenerateField(lessonNum, field);
+          if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+            applyUpdatedRawCourse(updatedRaw);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse]
+  );
+
   // Generate +50 brand-new lessons in the Active Phase (e.g. 101..150 reviewing 51..100)
   const generateNextFiftyLessons = useCallback(async () => {
     if (!courseData || !allLessonsCompleted || isGeneratingLessons) return;
     setIsGeneratingLessons(true);
+    setGenerationProgress({ percent: 2, message: 'Checking audio reserve pool & duration bands...' });
     try {
       const prevTotal = courseData.total_lessons;
       let updatedRaw: Record<string, any> | null = null;
@@ -701,6 +966,13 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       if (window.electronAPI?.generateMoreLessons) {
         try {
           updatedRaw = await window.electronAPI.generateMoreLessons(50);
+          if (updatedRaw && (updatedRaw as any).error === 'INSUFFICIENT_OFFLINE_RESERVE') {
+            setInsufficientReserveNotice({
+              remaining: Number((updatedRaw as any).remaining ?? 0),
+              required: Number((updatedRaw as any).required ?? 50)
+            });
+            return;
+          }
         } catch (err) {
           console.warn('Electron generateMoreLessons fallback to browser pool:', err);
         }
@@ -725,12 +997,17 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
             Number(item.duration_seconds || 0) <= 120.0
         );
 
+        if (available.length < 50) {
+          setInsufficientReserveNotice({
+            remaining: available.length,
+            required: 50
+          });
+          return;
+        }
+
         const startLessonNum = currentRawList.length + 1;
         const bandIdx = Math.max(1, Math.floor((startLessonNum - 1) / 100));
-        const sourcePool =
-          available.length >= 50
-            ? available
-            : poolLessons.filter((item: any) => Number(item.duration_seconds || 0) <= 120.0);
+        const sourcePool = available;
 
         const orderedCandidates: RawLesson[] = [];
         if (bandIdx >= 6) {
@@ -827,22 +1104,20 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         for (let i = 0; i < 50; i++) {
           if (i < orderedCandidates.length) {
             const copy = JSON.parse(JSON.stringify(orderedCandidates[i]));
-            if (existingIds.has(copy.clip_id)) {
-              copy.clip_id = `${copy.clip_id}_exp_${currentRawList.length + i + 1}`;
-            }
             selectedBatch.push(copy);
-          } else if (poolLessons.length > 0) {
-            const base = JSON.parse(JSON.stringify(poolLessons[i % poolLessons.length]));
-            base.clip_id = `${base.clip_id}_exp_${currentRawList.length + i + 1}`;
-            selectedBatch.push(base);
           }
         }
 
         const activeStart = courseData.active_wave_start_lesson || 51;
         const allRaw: RawLesson[] = [...currentRawList];
 
-        for (const rawNew of selectedBatch) {
+        for (let i = 0; i < selectedBatch.length; i++) {
+          const rawNew = selectedBatch[i];
           const nextNum = allRaw.length + 1;
+          setGenerationProgress({
+            percent: Math.round(((i + 1) / selectedBatch.length) * 95),
+            message: `Preparing Lesson ${nextNum} (${i + 1}/50)...`
+          });
           const isRev = nextNum % 7 === 0;
           const blockIdx = Math.floor(nextNum / 7);
           const startNum = Math.max(1, nextNum - 6);
@@ -905,22 +1180,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       }
 
       if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
-        setRawCourseSnapshot(updatedRaw);
-        try {
-          localStorage.setItem(EXPANDED_COURSE_STORAGE_KEY, JSON.stringify(updatedRaw));
-        } catch {}
-
-        const rawList: RawLesson[] = updatedRaw.lessons;
-        const normalizedLessons: Lesson[] = rawList.map((r, i) => normalizeLesson(r, i));
-        const normalizedData: CourseData = {
-          course_title: updatedRaw.course_title || courseData.course_title,
-          version: updatedRaw.version || courseData.version,
-          dialect: updatedRaw.target_dialect || updatedRaw.dialect || courseData.dialect,
-          total_lessons: normalizedLessons.length,
-          active_wave_start_lesson: updatedRaw.active_wave_start_lesson || 51,
-          lessons: normalizedLessons
-        };
-        setCourseData(normalizedData);
+        applyUpdatedRawCourse(updatedRaw);
 
         // Automatically advance to the first newly generated lesson (e.g. Lesson 101)
         const firstNewNum = prevTotal + 1;
@@ -938,8 +1198,11 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       console.error('Failed to generate +50 lessons:', err);
     } finally {
       setIsGeneratingLessons(false);
+      setTimeout(() => {
+        setGenerationProgress({ percent: 0, message: '' });
+      }, 600);
     }
-  }, [courseData, allLessonsCompleted, isGeneratingLessons, rawCourseSnapshot, progress, persist]);
+  }, [courseData, allLessonsCompleted, isGeneratingLessons, rawCourseSnapshot, progress, persist, applyUpdatedRawCourse]);
 
   return (
     <LessonContext.Provider
@@ -965,7 +1228,21 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         resetProgress,
         allLessonsCompleted,
         isGeneratingLessons,
-        generateNextFiftyLessons
+        generationProgress,
+        insufficientReserveNotice,
+        dismissInsufficientReserveNotice,
+        generateNextFiftyLessons,
+        isDevMode,
+        unlockDevMode,
+        lockDevMode,
+        completeAllLessons,
+        removeLastFiftyLessons,
+        deleteSingleLessonProgress,
+        fixSingleLesson,
+        regenerateSingleLesson,
+        regenerateLessonField,
+        isDevActionRunning,
+        devActionStatus
       }}
     >
       {children}
