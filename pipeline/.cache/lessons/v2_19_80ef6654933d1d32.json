@@ -1,0 +1,189 @@
+{
+  "english_translation": "Today I will cook sadza and vegetables so that we can eat together at home.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nhasi ndichabika sadza nemuriwo kuti tidye tese kumba.",
+      "english": "Today I will cook sadza and vegetables so that we can eat together at home.",
+      "literal_gloss": "Nhasi [today] • ndichabika [I will bika] • sadza [sadza (staple maize dish)] • nemuriwo [and leafy vegetables] • kuti [that / so that] • tidye [tidye] • tese [tese] • kumba [home / to the house]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndichabika",
+          "morpheme_breakdown": "ndi- (I) + -cha- (will) + -bika",
+          "noun_class_or_concord": "Future Tense Verb (I will ...)",
+          "literal_english": "I will bika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sadza",
+          "morpheme_breakdown": "sadza (thick maize porridge)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sadza (staple maize dish)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemuriwo",
+          "morpheme_breakdown": "ne- (and/with) + muriwo (vegetables)",
+          "noun_class_or_concord": "Conjunctive Noun",
+          "literal_english": "and leafy vegetables",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tidye",
+          "morpheme_breakdown": "tidye (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tidye",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tese",
+          "morpheme_breakdown": "tese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumba",
+          "morpheme_breakdown": "ku- (to/at) + imba (home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "home / to the house",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndichabika",
+      "morpheme_breakdown": "ndi- (I) + -cha- (will) + -bika",
+      "noun_class_or_concord": "Future Tense Verb (I will ...)",
+      "literal_english": "I will bika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sadza",
+      "morpheme_breakdown": "sadza (thick maize porridge)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sadza (staple maize dish)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemuriwo",
+      "morpheme_breakdown": "ne- (and/with) + muriwo (vegetables)",
+      "noun_class_or_concord": "Conjunctive Noun",
+      "literal_english": "and leafy vegetables",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tidye",
+      "morpheme_breakdown": "tidye (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tidye",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tese",
+      "morpheme_breakdown": "tese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumba",
+      "morpheme_breakdown": "ku- (to/at) + imba (home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "home / to the house",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Future with '-cha-' ('ndichabika')",
+      "content": "Look at 'ndichabika' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumba')",
+      "content": "Look at how location is expressed with 'kumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
+      "content": "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Choose the natural English meaning of this new sentence: 'Vana vanoda kudya chingwa nemukaka mangwanani.'",
+      "options": [
+        "We bought sugar, salt, and vegetables yesterday.",
+        "Father is cooking meat and sadza for dinner tonight.",
+        "The children want to eat bread and milk in the morning.",
+        "The bread has run out so I am going to the shop."
+      ],
+      "correct_answer": "The children want to eat bread and milk in the morning.",
+      "explanation": "'Vana' = 'The children', 'vanoda kudya' = 'want to eat', 'chingwa nemukaka' = 'bread and milk', 'mangwanani' = 'in the morning'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    }
+  ]
+}

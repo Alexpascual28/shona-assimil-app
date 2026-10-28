@@ -1,0 +1,189 @@
+{
+  "english_translation": "Grandmother is feeling unwell today, so we are going to visit her.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mbuya vari kurwara nhasi saka tiri kuenda kuvawona.",
+      "english": "Grandmother is feeling unwell today, so we are going to visit her.",
+      "literal_gloss": "Mbuya [grandmother] • vari [people ri] • kurwara [to / at rwara] • nhasi [today] • saka [so / therefore] • tiri [tiri] • kuenda [to / at enda] • kuvawona [to / at vawona]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mbuya",
+          "morpheme_breakdown": "mbuya (grandmother)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "grandmother",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vari",
+          "morpheme_breakdown": "va- (plural people prefix) + -ri",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kurwara",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwara",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at rwara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tiri",
+          "morpheme_breakdown": "tiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuenda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuvawona",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -vawona",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at vawona",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mbuya",
+      "morpheme_breakdown": "mbuya (grandmother)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "grandmother",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vari",
+      "morpheme_breakdown": "va- (plural people prefix) + -ri",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kurwara",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwara",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at rwara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tiri",
+      "morpheme_breakdown": "tiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuenda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -enda",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuvawona",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -vawona",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at vawona",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Mbuya vari kurwara nhasi saka tiri kuenda kuvawona.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Ancestral Roots ('Kumusha') & Great Zimbabwe Heritage",
+      "content": "Even for families who live and work in cities like Harare, the rural family homestead ('kumusha')—where grandparents ('mbuya' and 'sekuru') often live—remains the spiritual and cultural heart of the family. Travelling 'kumusha' during holidays strengthens family bonds. On a national scale, the dry-stone walls of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), built centuries ago without mortar, gave modern Zimbabwe its name ('Dzimba dzemabwe' — Houses of Stone).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "The children are practicing to write examinations at school.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Choose the natural English meaning of this new sentence: 'Vana vanoda kudya chingwa nemukaka mangwanani.'",
+      "options": [
+        "The children want to eat bread and milk in the morning.",
+        "We bought sugar, salt, and vegetables yesterday.",
+        "Father is cooking meat and sadza for dinner tonight.",
+        "The bread has run out so I am going to the shop."
+      ],
+      "correct_answer": "The children want to eat bread and milk in the morning.",
+      "explanation": "'Vana' = 'The children', 'vanoda kudya' = 'want to eat', 'chingwa nemukaka' = 'bread and milk', 'mangwanani' = 'in the morning'."
+    }
+  ]
+}

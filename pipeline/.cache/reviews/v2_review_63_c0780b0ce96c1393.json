@@ -1,0 +1,117 @@
+{
+  "review_summary": {
+    "title": "Unit 9 Comprehensive Review (Lessons 57–62)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 57–62)",
+        "points": [
+          "Lesson 57: \"Shangu yakagadzikwa parutivi rwematayera ndeye bhurauni mukati mayowo muri bhurauni ine kasi...\" — A brown shoe is placed beside the tiles; its interior is also brown and it has a small metal...",
+          "Lesson 58: \"Musha wakapakwa mota yerudzi rutema, pane muti wemupichisi une mashizha akasvibira uyewo pam...\" — At a homestead, a black car is parked near a peach tree with green leaves, and on top of the...",
+          "Lesson 59: \"Munhukadzi ari kugadzirwa musoro wake. Uso hwake hausi kuonekwa asi pane ruoko rwuri mumusor...\" — A woman is having her hair styled. Her face is not visible, but a stylist's hand can be seen...",
+          "Lesson 60: \"Pakati pevanhu vari kufamba muguta parutivi rwemugwagwae pane murume akapfeka hembe yeruvara...\" — Among the people walking along the city pavement is a man wearing a red shirt, white trouser...",
+          "Lesson 61: \"Vanhu vakaungana mubani vese vane migomo zvinove zvigubu zvekuratidza kuti varikucherera mvu...\" — People have gathered in an open field carrying buckets and containers to fetch water, beside...",
+          "Lesson 62: \"Munhurume wechiAfrica akamira akabata machira ane ruvara rutatu achiratidza kudhekoreta panz...\" — An African man stands holding three-coloured cloths to decorate the place where he stands. T..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('yakagadzikwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('wakapakwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('rakatsvukuruka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('akapfeka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('vakaungana'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Bustling Open-Air Markets ('Musika') & Neighbourhood Shops: Open-air markets ('pamusika') are vibrant community hubs across Zimbabwean towns and suburbs.",
+          "Getting Around: Kombis, Buses, Rural Carts & 'Robots': Daily transport in Zimbabwe features unique local vocabulary! In towns and cities, most commuters travel by white commuter minibuses universally called 'makombi' (singular: 'kombi'), while long-distance intercity trips use large buses ('bhazi') and heavy haulage trucks are affectionately nicknamed 'magonyeti'.",
+          "Dress, Grooming & Personal Presentation in Zimbabwe: Neat personal presentation ('kuchena') is highly valued in everyday Zimbabwean life—whether dressing for work, church, school, or visiting family."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('yakagadzikwa')",
+    "Talking About the Past ('wakapakwa')",
+    "Talking About the Past ('rakatsvukuruka')",
+    "Talking About the Past ('akapfeka')",
+    "Talking About the Past ('vakaungana')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — History & Heritage: Why is Great Zimbabwe called 'Masvingo eGreat Zimbabwe'?",
+      "options": [
+        "Because 'masvingo' means tall green trees",
+        "Because it is located beside the Indian Ocean",
+        "Because 'masvingo' means modern glass buildings",
+        "Because 'masvingo' means fortified dry-stone walls or enclosures"
+      ],
+      "correct_answer": "Because 'masvingo' means fortified dry-stone walls or enclosures",
+      "explanation": "'Masvingo' refers to the monumental stone enclosures built by ancestors of the Shona people."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Wildlife & Nature: In 'zvipembere zviviri zviri kufura uswa', what are the two rhinoceroses doing?",
+      "options": [
+        "Grazing on grass",
+        "Drinking water from the river",
+        "Sleeping under a shady tree",
+        "Running across the mountain"
+      ],
+      "correct_answer": "Grazing on grass",
+      "explanation": "'Zviri kufura' means 'are grazing', and 'uswa' (or 'huswa') means 'grass'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — National Flag Colours: Which five colours appear on the national flag of Zimbabwe ('mureza weZimbabwe')?",
+      "options": [
+        "Blue, purple, orange, pink, and grey",
+        "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+        "Only green and white",
+        "Red, blue, and gold only"
+      ],
+      "correct_answer": "Green (girinhi), yellow (yero), red (tsvuku), black (tema), and white (chena)",
+      "explanation": "The Zimbabwean flag features horizontal stripes of green, yellow, red, and black with a white triangle bearing the Zimbabwe Bird."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Water Storage & Households: Why are Jojo tanks ('matangi emvura eJojo') placed on elevated brick or steel stands?",
+      "options": [
+        "To serve as watchtowers for wildlife",
+        "To dry maize and groundnuts in the sun",
+        "To store household water and provide gravity pressure for taps",
+        "To shelter livestock during the rainy season"
+      ],
+      "correct_answer": "To store household water and provide gravity pressure for taps",
+      "explanation": "Elevated water tanks store borehole or municipal water so households have a reliable supply."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 9 — Ordinal Numbers: How do you say 'the first person, the second person, and the third person'?",
+      "options": [
+        "vanhu vatatu vari mumba",
+        "munhu mumwe nevanhu vaviri",
+        "wekupedzisira chete",
+        "munhu wekutanga, wechipiri, newechitatu"
+      ],
+      "correct_answer": "munhu wekutanga, wechipiri, newechitatu",
+      "explanation": "'Wekutanga' = 'first' (of beginning), 'wechipiri' = 'second', and 'wechitatu' = 'third'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 9 — Translate this new cumulative sentence: 'Nzvimbo iyi inoratidza nhoroondo yakakosha yevanhu vekare nemagariro avo.'",
+      "options": [
+        "This place shows the important history of the ancient people and their way of life.",
+        "These mountains have many green trees and clean rivers.",
+        "The visitors took photographs of the two rhinoceroses.",
+        "We learned many Shona words, proverbs, and grammar rules."
+      ],
+      "correct_answer": "This place shows the important history of the ancient people and their way of life.",
+      "explanation": "'Nzvimbo iyi inoratidza' = 'This place shows', 'nhoroondo yakakosha' = 'important history', 'yevanhu vekare nemagariro avo' = 'of the ancient people and their way of life'."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "review_summary": {
+    "title": "Unit 2 Comprehensive Review (Lessons 8–13)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 8–13)",
+        "points": [
+          "Lesson 8: \"Makorokoto, wabudirira!\" — Congratulations, you have succeeded!",
+          "Lesson 9: \"Tora kapu iyi uiise pedyo nefafitera usati wabuda.\" — Take this cup and put it near the window before you go out.",
+          "Lesson 10: \"Ndinonzwa nzara mangwanani kana ndisina kudya.\" — I feel hungry in the morning if I have not eaten.",
+          "Lesson 11: \"Takatenga hupfu, shuga, mafuta, nemuriwo.\" — We bought maize meal, sugar, cooking oil, and vegetables.",
+          "Lesson 12: \"Nyama iyi yakaoma chaizvo pakubikwa kwayo.\" — This meat became very tough when it was cooked.",
+          "Lesson 13: \"Ndeipi mota yaunoda kutenga, tsvuku kana nhema?\" — Which car do you want to buy, the red one or the black one?"
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Celebrating Milestones with 'Makorokoto!': Makorokoto + ne- + ku-[verb] = Congratulations on [doing something]! (e.g., Makorokoto nekubudirira!)",
+          "Giving Commands & Polite Requests ('Tora'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Shona Greetings & Time of Day ('mangwanani'): Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?",
+          "Talking About the Past ('Takatenga'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakaoma'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Celebrating Shared Success ('Makorokoto!'): Whenever someone passes an exam, starts a new job, welcomes a child, or achieves a goal, friends, neighbours, and family gather to say 'Makorokoto!' ('Congratulations!').",
+          "Morning Tea, Bread & Hospitality at Home: Breakfast in many Zimbabwean households centres around hot tea with milk ('mukaka') and sugar ('shuga') served alongside fresh bread ('chingwa') or home-grown sweet potatoes and groundnut butter.",
+          "The Art of Greeting in Shona Culture: In Zimbabwe, greetings are never rushed—they are the foundation of every social interaction."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Celebrating Milestones with 'Makorokoto!'",
+    "Giving Commands & Polite Requests ('Tora')",
+    "Shona Greetings & Time of Day ('mangwanani')",
+    "Talking About the Past ('Takatenga')",
+    "Talking About the Past ('yakaoma')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Food & Shopping: How do you say 'I bought bread and milk at the shop' in Shona?",
+      "options": [
+        "Ndichabika sadza nemuriwo kumba.",
+        "Tiri kutsvaga shuga nemunyu patafura.",
+        "Ndakatenga chingwa nemukaka kuchitoro.",
+        "Vana vanoda kunwa mvura inodziya."
+      ],
+      "correct_answer": "Ndakatenga chingwa nemukaka kuchitoro.",
+      "explanation": "'Ndakatenga' = 'I bought', 'chingwa nemukaka' = 'bread and milk', 'kuchitoro' = 'at the shop'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Colours & Questions: Complete the question: '______ hembe yaunoda kupfeka, chena kana tsvuku?' (Which shirt do you want to wear, the white one or the red one?)",
+      "options": [
+        "Sei",
+        "Here",
+        "Kupi",
+        "Ndeipi"
+      ],
+      "correct_answer": "Ndeipi",
+      "explanation": "'Ndeipi' asks 'Which one?' for nouns like 'mota' (car) or 'hembe' (shirt)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Talking About Time: If someone says 'Chimirira kwemaminitsi mashanu chete', how long are they asking you to wait?",
+      "options": [
+        "For only five minutes",
+        "Until tomorrow morning",
+        "For three whole days",
+        "Until the end of the month"
+      ],
+      "correct_answer": "For only five minutes",
+      "explanation": "'Maminitsi mashanu' = 'five minutes', and 'chete' = 'only'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Future Plans ('-cha-'): Which verb correctly completes 'Mangwana ______ sadza nenyama' ('Tomorrow we will cook sadza and meat')?",
+      "options": [
+        "takabika",
+        "tichabika",
+        "tiri kubika",
+        "vanobika"
+      ],
+      "correct_answer": "tichabika",
+      "explanation": "'Ti-' (we) + '-cha-' (will) + '-bika' (cook) = 'tichabika'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 2 — Negative Present: In 'Ndiri kutsvaga makiyi angu asi handisi kuawona', what does 'handisi kuawona' mean?",
+      "options": [
+        "I left them in the car",
+        "I found them on the table",
+        "I do not see them",
+        "I will buy new ones tomorrow"
+      ],
+      "correct_answer": "I do not see them",
+      "explanation": "'Handisi' ('I am not') + 'ku-a-wona' ('seeing them [the keys]') means 'I do not see them'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 2 — Translate this new review sentence: 'Wedzera shuga shoma mukapu yetii.'",
+      "options": [
+        "Put the warm water on the table please.",
+        "We bought maize meal and cooking oil yesterday.",
+        "I feel hungry when I wake up early.",
+        "Add a little sugar into the cup of tea."
+      ],
+      "correct_answer": "Add a little sugar into the cup of tea.",
+      "explanation": "'Wedzera' = 'Add', 'shuga shoma' = 'a little sugar', 'mukapu yetii' = 'into the cup of tea'."
+    }
+  ]
+}

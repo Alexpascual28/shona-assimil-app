@@ -1,0 +1,175 @@
+{
+  "english_translation": "I have put water on the table; I am just waiting for the others to come.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndaisa mvura patafura; ndangomirira vamwe kuti vauye.",
+      "english": "I have put water on the table; I am just waiting for the others to come.",
+      "literal_gloss": "Ndaisa [ndaisa] • mvura [water / rain] • patafura [on the table] • ndangomirira [ndangomirira] • vamwe [people mwe] • kuti [that / so that] • vauye [people uye]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndaisa",
+          "morpheme_breakdown": "ndaisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndaisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "patafura",
+          "morpheme_breakdown": "pa- (on) + tafura (table)",
+          "noun_class_or_concord": "Locative Noun (pa-)",
+          "literal_english": "on the table",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndangomirira",
+          "morpheme_breakdown": "ndangomirira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndangomirira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vamwe",
+          "morpheme_breakdown": "va- (plural people prefix) + -mwe",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vauye",
+          "morpheme_breakdown": "va- (plural people prefix) + -uye",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people uye",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndaisa",
+      "morpheme_breakdown": "ndaisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndaisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "patafura",
+      "morpheme_breakdown": "pa- (on) + tafura (table)",
+      "noun_class_or_concord": "Locative Noun (pa-)",
+      "literal_english": "on the table",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndangomirira",
+      "morpheme_breakdown": "ndangomirira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndangomirira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vamwe",
+      "morpheme_breakdown": "va- (plural people prefix) + -mwe",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vauye",
+      "morpheme_breakdown": "va- (plural people prefix) + -uye",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people uye",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Ndaisa')",
+      "content": "The verb 'Ndaisa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('patafura')",
+      "content": "Look at how location is expressed with 'patafura'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndasiya nharembozha yangu pachigaro mumba yokutandarira.'",
+      "options": [
+        "Please close the door and all the windows before sleeping.",
+        "My keys are inside the small bag on the table.",
+        "We are sitting under the shade tree outside the house.",
+        "I left my mobile phone on the chair in the living room."
+      ],
+      "correct_answer": "I left my mobile phone on the chair in the living room.",
+      "explanation": "'Ndasiya' = 'I left', 'nharembozha yangu' = 'my mobile phone', 'pachigaro' = 'on the chair', 'mumba yokutandarira' = 'in the living room'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "patafura",
+        "kutafura",
+        "mutafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "english_translation": "A pineapple has been planted and looks well-watered and ripe. It has a light-coloured body with dark markings. At the top, it has a crown with green leaves. The leaves of this pineapple are a deep, vibrant green.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Chinanasi chakadyarwa uye chinoratidza kuti chakanatsoguta mvura chakasvika.",
+      "english": "A pineapple has been planted and looks well-watered and ripe.",
+      "literal_gloss": "Chinanasi [thing nanasi] • chakadyarwa [chakadyarwa] • uye [and / furthermore] • chinoratidza [thing noratidza] • kuti [that / so that] • chakanatsoguta [chakanatsoguta] • mvura [water / rain] • chakasvika [chakasvika]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chinanasi",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -nanasi",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing nanasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakadyarwa",
+          "morpheme_breakdown": "chakadyarwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakadyarwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chinoratidza",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -noratidza",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing noratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakanatsoguta",
+          "morpheme_breakdown": "chakanatsoguta (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakanatsoguta",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chakasvika",
+          "morpheme_breakdown": "chakasvika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chakasvika",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Chinerurava ruchena chobva chaita mavara matema.",
+      "english": "It has a light-coloured surface with dark markings.",
+      "literal_gloss": "Chinerurava [thing nerurava] • ruchena [white] • chobva [chobva] • chaita [chaita] • mavara [colours] • matema [plural tema]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chinerurava",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -nerurava",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing nerurava",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chobva",
+          "morpheme_breakdown": "chobva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chobva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chaita",
+          "morpheme_breakdown": "chaita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chaita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matema",
+          "morpheme_breakdown": "ma- (plural prefix) + -tema",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tema",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Nechekumusoro kwacho chineruva riripamusoro rineruvara rwegirini.",
+      "english": "Towards the top, it has a crown with a green colour.",
+      "literal_gloss": "Nechekumusoro [and / with chekumusoro] • kwacho [kwacho] • chineruva [thing neruva] • riripamusoro [it is pamusoro] • rineruvara [rineruvara] • rwegirini [rwegirini]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nechekumusoro",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chekumusoro",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chekumusoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwacho",
+          "morpheme_breakdown": "kwacho (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwacho",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chineruva",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -neruva",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing neruva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riripamusoro",
+          "morpheme_breakdown": "ri- (it) + -ri (is) + -pamusoro",
+          "noun_class_or_concord": "Present Helper Verb (it is)",
+          "literal_english": "it is pamusoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rineruvara",
+          "morpheme_breakdown": "rineruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rineruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirini",
+          "morpheme_breakdown": "rwegirini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirini",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "shona": "Chinanasi ichi mashizha achona aneruvara rwegirini yakasvibira.",
+      "english": "The leaves of this pineapple are a deep dark green.",
+      "literal_gloss": "Chinanasi [thing nanasi] • ichi [ichi] • mashizha [leaves] • achona [achona] • aneruvara [aneruvara] • rwegirini [rwegirini] • yakasvibira [it (past) svibira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chinanasi",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -nanasi",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing nanasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichi",
+          "morpheme_breakdown": "ichi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achona",
+          "morpheme_breakdown": "achona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aneruvara",
+          "morpheme_breakdown": "aneruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aneruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirini",
+          "morpheme_breakdown": "rwegirini (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirini",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakasvibira",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -svibira",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) svibira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Chinanasi",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -nanasi",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing nanasi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakadyarwa",
+      "morpheme_breakdown": "chakadyarwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakadyarwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chinoratidza",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -noratidza",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing noratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakanatsoguta",
+      "morpheme_breakdown": "chakanatsoguta (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakanatsoguta",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chakasvika",
+      "morpheme_breakdown": "chakasvika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chakasvika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Chinerurava",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -nerurava",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing nerurava",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruchena",
+      "morpheme_breakdown": "ru- + -chena (white)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "white",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chobva",
+      "morpheme_breakdown": "chobva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chobva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chaita",
+      "morpheme_breakdown": "chaita (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chaita",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mavara",
+      "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "colours",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matema",
+      "morpheme_breakdown": "ma- (plural prefix) + -tema",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Nechekumusoro",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -chekumusoro",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with chekumusoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwacho",
+      "morpheme_breakdown": "kwacho (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwacho",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chineruva",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -neruva",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing neruva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "riripamusoro",
+      "morpheme_breakdown": "ri- (it) + -ri (is) + -pamusoro",
+      "noun_class_or_concord": "Present Helper Verb (it is)",
+      "literal_english": "it is pamusoro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('chakadyarwa')",
+      "content": "The verb 'chakadyarwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('chinoratidza')",
+      "content": "The verb 'chinoratidza' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruchena')",
+      "content": "This passage uses colour vocabulary such as 'ruchena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Ndeipi shangu yaunoda, nhema kana tsvuku?'",
+      "options": [
+        "Where did you put my white shirt and blue trousers?",
+        "These new shoes are very comfortable for walking.",
+        "She washed all the white clothes this morning.",
+        "Which shoe do you want, the black one or the red one?"
+      ],
+      "correct_answer": "Which shoe do you want, the black one or the red one?",
+      "explanation": "'Ndeipi shangu yaunoda' = 'Which shoe do you want', 'nhema kana tsvuku' = 'the black one or the red one'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya vedu",
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "english_translation": "Clothes for sale are gathered on the ground. One person wearing black clothes is standing nearby, while two others are seated on the ground. One of them is wearing a red top and a hat, and a car can be seen in the background.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mbatya dziri kutengeswa dzakaunganidzwa pasi.",
+      "english": "Clothes for sale are piled on the ground.",
+      "literal_gloss": "Mbatya [clothes] • dziri [dziri] • kutengeswa [to / at tengeswa] • dzakaunganidzwa [dzakaunganidzwa] • pasi [on / at si]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mbatya",
+          "morpheme_breakdown": "mbatya (clothes)",
+          "noun_class_or_concord": "Plural Noun",
+          "literal_english": "clothes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutengeswa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tengeswa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tengeswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzakaunganidzwa",
+          "morpheme_breakdown": "dzakaunganidzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzakaunganidzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Munhu mumwe chete akapfeka hembe dzitema akamira.",
+      "english": "One person wearing dark clothes is standing.",
+      "literal_gloss": "Munhu [person] • mumwe [in / singular mwe] • chete [chete] • akapfeka [he/she (past) pfeka] • hembe [shirt / garment] • dzitema [dzitema] • akamira [he/she (past) mira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Munhu",
+          "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "person",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumwe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chete",
+          "morpheme_breakdown": "chete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hembe",
+          "morpheme_breakdown": "hembe (shirt / clothes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shirt / garment",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzitema",
+          "morpheme_breakdown": "dzitema (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzitema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akamira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -mira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) mira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Vaviri vakagara pasi.",
+      "english": "Two people are sitting on the ground.",
+      "literal_gloss": "Vaviri [people viri] • vakagara [they (past) gara] • pasi [on / at si]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vaviri",
+          "morpheme_breakdown": "va- (plural people prefix) + -viri",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakagara",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -gara",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "shona": "Mumwe ane hembe itsvuku kumusoro akapfeka ngowani. Motikari iri kubudikira.",
+      "english": "One has a red shirt on top and is wearing a hat, while a car appears in the background.",
+      "literal_gloss": "Mumwe [in / singular mwe] • ane [ane] • hembe [shirt / garment] • itsvuku [itsvuku] • kumusoro [to / at musoro] • akapfeka [he/she (past) pfeka] • ngowani [ngowani] • Motikari [motikari]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mumwe",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hembe",
+          "morpheme_breakdown": "hembe (shirt / clothes)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "shirt / garment",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "itsvuku",
+          "morpheme_breakdown": "itsvuku (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "itsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumusoro",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -musoro",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngowani",
+          "morpheme_breakdown": "ngowani (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngowani",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Motikari",
+          "morpheme_breakdown": "motikari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "motikari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kubudikira",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -budikira",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at budikira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mbatya",
+      "morpheme_breakdown": "mbatya (clothes)",
+      "noun_class_or_concord": "Plural Noun",
+      "literal_english": "clothes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutengeswa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tengeswa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tengeswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzakaunganidzwa",
+      "morpheme_breakdown": "dzakaunganidzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzakaunganidzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at si",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Munhu",
+      "morpheme_breakdown": "mu- (singular) + -nhu (person)",
+      "noun_class_or_concord": "Singular Noun (mu-)",
+      "literal_english": "person",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumwe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chete",
+      "morpheme_breakdown": "chete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akapfeka",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) pfeka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hembe",
+      "morpheme_breakdown": "hembe (shirt / clothes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shirt / garment",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzitema",
+      "morpheme_breakdown": "dzitema (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzitema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akamira",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -mira",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) mira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Vaviri",
+      "morpheme_breakdown": "va- (plural people prefix) + -viri",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakagara",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -gara",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pasi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at si",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Mumwe",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mwe",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hembe",
+      "morpheme_breakdown": "hembe (shirt / clothes)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "shirt / garment",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('dzakaunganidzwa')",
+      "content": "The verb 'dzakaunganidzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('dzitema')",
+      "content": "This passage uses colour vocabulary such as 'dzitema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Dress, Grooming & Personal Presentation in Zimbabwe",
+      "content": "Neat personal presentation ('kuchena') is highly valued in everyday Zimbabwean life—whether dressing for work, church, school, or visiting family. Notice how 'hembe' refers broadly to a shirt or top, 'mbatya' (or 'nhumbi') means clothes in general, and 'shangu' means shoes. Braided hairstyles ('bvudzi rakarukwa'), earrings ('mhete'), and sun hats ('ngowani') are also everyday topics of compliment and description.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "My older brother bought a white car yesterday.",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why is 'white' written as 'chena' in 'hembe chena' (white shirt), but 'machena' in 'mabhuku machena' (white books)?",
+      "options": [
+        "'Machena' means light grey while 'chena' means bright white",
+        "Only clothing can use the word 'chena'",
+        "'Machena' is only used in the past tense",
+        "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')"
+      ],
+      "correct_answer": "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+      "explanation": "In Shona, traditional colour stems (-chena, -tema, -tsvuku) take the prefix of the noun they describe."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    }
+  ]
+}

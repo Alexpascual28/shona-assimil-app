@@ -1,0 +1,175 @@
+{
+  "english_translation": "I am writing my final examinations this week.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kunyora bvunzo dzangu dzekupedzisira svondo rino.",
+      "english": "I am writing my final examinations this week.",
+      "literal_gloss": "Ndiri [ndiri] • kunyora [to / at nyora] • bvunzo [bvunzo] • dzangu [dzangu] • dzekupedzisira [dzekupedzisira] • svondo [svondo] • rino [rino]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunyora",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bvunzo",
+          "morpheme_breakdown": "bvunzo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "bvunzo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzangu",
+          "morpheme_breakdown": "dzangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzekupedzisira",
+          "morpheme_breakdown": "dzekupedzisira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzekupedzisira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "svondo",
+          "morpheme_breakdown": "svondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "svondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rino",
+          "morpheme_breakdown": "rino (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rino",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunyora",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nyora",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nyora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bvunzo",
+      "morpheme_breakdown": "bvunzo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "bvunzo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzangu",
+      "morpheme_breakdown": "dzangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzekupedzisira",
+      "morpheme_breakdown": "dzekupedzisira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzekupedzisira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "svondo",
+      "morpheme_breakdown": "svondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "svondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rino",
+      "morpheme_breakdown": "rino (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rino",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzangu')",
+      "content": "In Shona, possessive words like 'dzangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ndiri kunyora bvunzo dzangu dzekupedzisira svondo rino.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Education, School Life & Respect for Teachers",
+      "content": "Education ('dzidzo') is deeply valued by Zimbabwean families, who invest great pride in seeing children study hard ('kudzidza nesimba') and pass their school examinations ('kupasa bvunzo'). Teachers ('vadzidzisi', singular: 'mudzidzisi') are addressed with high respect in the community, and schoolmates ('shamwari dzepachikoro') often form lifelong friendships.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "The children are practicing to write examinations at school.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about travelling: 'Mangwana ______ bhazi rinoenda kuMasvingo.' (Tomorrow we will board the bus going to Masvingo.)",
+      "options": [
+        "takakwira",
+        "tiri kukwira",
+        "kwirai",
+        "tichakwira"
+      ],
+      "correct_answer": "tichakwira",
+      "explanation": "'Ti-' (we) + '-cha-' (future 'will') + '-kwira' (board/climb) = 'tichakwira' ('we will board')."
+    }
+  ]
+}

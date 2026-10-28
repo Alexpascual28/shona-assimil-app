@@ -1,0 +1,359 @@
+{
+  "english_translation": "A spacious living room is beautifully decorated. It has a long, comfortable sofa in a bright orange colour with three cushions. There is also a carved wooden coffee table in front.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Imba hombe yokutandarira yakashongedzwa.",
+      "english": "A large living room is nicely decorated.",
+      "literal_gloss": "Imba [imba] • hombe [hombe] • yokutandarira [yokutandarira] • yakashongedzwa [it (past) shongedzwa]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Imba",
+          "morpheme_breakdown": "imba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hombe",
+          "morpheme_breakdown": "hombe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yokutandarira",
+          "morpheme_breakdown": "yokutandarira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yokutandarira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakashongedzwa",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -shongedzwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) shongedzwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Ine chigaro chomutefetefe chirefu chine ruvara rwakajeka rweorenji.",
+      "english": "It has a long, soft sofa with a bright orange colour.",
+      "literal_gloss": "Ine [ine] • chigaro [thing garo] • chomutefetefe [chomutefetefe] • chirefu [thing refu] • chine [thing ne] • ruvara [colour] • rwakajeka [rwakajeka] • rweorenji [rweorenji]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chigaro",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -garo",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing garo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chomutefetefe",
+          "morpheme_breakdown": "chomutefetefe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chomutefetefe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chirefu",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -refu",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing refu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chine",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakajeka",
+          "morpheme_breakdown": "rwakajeka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakajeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rweorenji",
+          "morpheme_breakdown": "rweorenji (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rweorenji",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Chinewo mitsago mitatu. Panewo tafura ine chivezwa pamusoro.",
+      "english": "It also has three cushions, and there is a table with a carving on top.",
+      "literal_gloss": "Chinewo [thing newo] • mitsago [mitsago] • mitatu [mitatu] • Panewo [on / at newo] • tafura [table] • ine [ine] • chivezwa [thing vezwa] • pamusoro [on / at musoro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Chinewo",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -newo",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing newo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitsago",
+          "morpheme_breakdown": "mitsago (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitsago",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mitatu",
+          "morpheme_breakdown": "mitatu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mitatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Panewo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -newo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at newo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tafura",
+          "morpheme_breakdown": "tafura (table)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "table",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chivezwa",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -vezwa",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing vezwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Imba",
+      "morpheme_breakdown": "imba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hombe",
+      "morpheme_breakdown": "hombe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yokutandarira",
+      "morpheme_breakdown": "yokutandarira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yokutandarira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakashongedzwa",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -shongedzwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) shongedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chigaro",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -garo",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing garo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chomutefetefe",
+      "morpheme_breakdown": "chomutefetefe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chomutefetefe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chirefu",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -refu",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing refu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chine",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -ne",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakajeka",
+      "morpheme_breakdown": "rwakajeka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakajeka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rweorenji",
+      "morpheme_breakdown": "rweorenji (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rweorenji",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Chinewo",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -newo",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing newo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitsago",
+      "morpheme_breakdown": "mitsago (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitsago",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mitatu",
+      "morpheme_breakdown": "mitatu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mitatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Panewo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -newo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at newo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tafura",
+      "morpheme_breakdown": "tafura (table)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "table",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakashongedzwa')",
+      "content": "The verb 'yakashongedzwa' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('mitatu')",
+      "content": "In Shona, number words like 'mitatu' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Zimbabwean Home: Living Room ('Imba Yokutandarira') & Kitchen",
+      "content": "In Zimbabwean homes, the living room is called 'imba yokutandarira'—literally 'the room for spending social time and chatting together' (from 'kutandara', to socialize). Welcoming guests into a neat, well-arranged sitting room with comfortable chairs ('zvigaro') and a central table ('tafura' or 'tebhuro'), or into a bright kitchen with modern cupboards ('makabati') and a refrigerator ('firiji'), is a point of household pride.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why is 'white' written as 'chena' in 'hembe chena' (white shirt), but 'machena' in 'mabhuku machena' (white books)?",
+      "options": [
+        "'Machena' means light grey while 'chena' means bright white",
+        "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+        "Only clothing can use the word 'chena'",
+        "'Machena' is only used in the past tense"
+      ],
+      "correct_answer": "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+      "explanation": "In Shona, traditional colour stems (-chena, -tema, -tsvuku) take the prefix of the noun they describe."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro.",
+        "Ndaswera kana waswerawo."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    }
+  ]
+}

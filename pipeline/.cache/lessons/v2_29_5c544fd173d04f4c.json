@@ -1,0 +1,175 @@
+{
+  "english_translation": "I have finished all the work, so let me rest for a little while.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndapedza basa rese saka rega ndimbozorora zvishoma.",
+      "english": "I have finished all the work, so let me rest for a little while.",
+      "literal_gloss": "Ndapedza [ndapedza] • basa [work / job] • rese [rese] • saka [so / therefore] • rega [rega] • ndimbozorora [ndimbozorora] • zvishoma [things shoma]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndapedza",
+          "morpheme_breakdown": "ndapedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndapedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rese",
+          "morpheme_breakdown": "rese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rega",
+          "morpheme_breakdown": "rega (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rega",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndimbozorora",
+          "morpheme_breakdown": "ndimbozorora (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndimbozorora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvishoma",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things shoma",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndapedza",
+      "morpheme_breakdown": "ndapedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndapedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rese",
+      "morpheme_breakdown": "rese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rega",
+      "morpheme_breakdown": "rega (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rega",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndimbozorora",
+      "morpheme_breakdown": "ndimbozorora (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndimbozorora",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvishoma",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things shoma",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Ndapedza')",
+      "content": "The verb 'Ndapedza' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ndapedza basa rese saka rega ndimbozorora zvishoma.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Household Cooperation, Politeness & Consideration at Home",
+      "content": "Daily home life in Shona culture revolves around mutual assistance ('kubatsirana') and consideration for others in the household. When asking a family member to help lift something heavy ('undibatsire kusimudza'), open or close a door ('musuwo') or window ('hwindo'), or speak softly ('kuzevezera') while a child is sleeping ('mwana akarara'), polite phrasing keeps household life warm and harmonious.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

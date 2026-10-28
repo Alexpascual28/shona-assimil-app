@@ -1,0 +1,175 @@
+{
+  "english_translation": "My grandmother, who lives at the rural home, grows groundnuts.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mbuya vangu, avo vanogara kumusha, vanorima nzungu.",
+      "english": "My grandmother, who lives at the rural home, grows groundnuts.",
+      "literal_gloss": "Mbuya [grandmother] • vangu [people ngu] • avo [avo] • vanogara [they gara] • kumusha [at/to the rural home] • vanorima [they rima] • nzungu [nzungu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mbuya",
+          "morpheme_breakdown": "mbuya (grandmother)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "grandmother",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vangu",
+          "morpheme_breakdown": "va- (plural people prefix) + -ngu",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ngu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "avo",
+          "morpheme_breakdown": "avo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "avo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanogara",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -gara",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they gara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumusha",
+          "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "at/to the rural home",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanorima",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -rima",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they rima",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzungu",
+          "morpheme_breakdown": "nzungu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzungu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mbuya",
+      "morpheme_breakdown": "mbuya (grandmother)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "grandmother",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vangu",
+      "morpheme_breakdown": "va- (plural people prefix) + -ngu",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ngu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "avo",
+      "morpheme_breakdown": "avo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "avo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanogara",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -gara",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they gara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumusha",
+      "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "at/to the rural home",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanorima",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -rima",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they rima",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzungu",
+      "morpheme_breakdown": "nzungu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzungu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('vanogara')",
+      "content": "The verb 'vanogara' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumusha')",
+      "content": "Look at how location is expressed with 'kumusha'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('vangu')",
+      "content": "In Shona, possessive words like 'vangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
+      "content": "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which locative word means 'in the kitchen'?",
+      "options": [
+        "nekicheni",
+        "mukicheni",
+        "kicheni",
+        "vakicheni"
+      ],
+      "correct_answer": "mukicheni",
+      "explanation": "Adding 'mu-' ('inside') to 'kicheni' ('kitchen') gives 'mukicheni' ('in/inside the kitchen')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'There is a cup of water on the table' in Shona?",
+      "options": [
+        "Mukapu mune shuga nemukaka.",
+        "Kumusika kune michero mizhinji.",
+        "Patafura pane kapu yemvura.",
+        "Ndakaisa makiyi mumba."
+      ],
+      "correct_answer": "Patafura pane kapu yemvura.",
+      "explanation": "'Patafura' ('on the table') pairs with 'pane' ('there is at/on that spot') + 'kapu yemvura' ('a cup of water')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Add a little salt to the vegetables' in Shona?",
+      "options": [
+        "Tenga shuga zhinji kuchitoro.",
+        "Bika hupfu nemvura inopisa.",
+        " Cheka chingwa nebangwa.",
+        "Isa munyu mushoma mumuriwo."
+      ],
+      "correct_answer": "Isa munyu mushoma mumuriwo.",
+      "explanation": "'Isa' = 'Put/add', 'munyu mushoma' = 'a little salt', 'mumuriwo' = 'in the vegetables'."
+    }
+  ]
+}

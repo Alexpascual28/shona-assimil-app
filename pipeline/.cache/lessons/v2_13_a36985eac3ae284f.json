@@ -1,0 +1,175 @@
+{
+  "english_translation": "Which car do you want to buy, the red one or the black one?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndeipi mota yaunoda kutenga, tsvuku kana nhema?",
+      "english": "Which car do you want to buy, the red one or the black one?",
+      "literal_gloss": "Ndeipi [ndeipi] • mota [car] • yaunoda [yaunoda] • kutenga [to / at tenga] • tsvuku [red] • kana [if / when / or] • nhema [black]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndeipi",
+          "morpheme_breakdown": "ndeipi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndeipi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mota",
+          "morpheme_breakdown": "mota (car)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "car",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yaunoda",
+          "morpheme_breakdown": "yaunoda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yaunoda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kutenga",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -tenga",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at tenga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsvuku",
+          "morpheme_breakdown": "tsvuku (red)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "red",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhema",
+          "morpheme_breakdown": "nhema (black / dark)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "black",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndeipi",
+      "morpheme_breakdown": "ndeipi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndeipi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mota",
+      "morpheme_breakdown": "mota (car)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "car",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yaunoda",
+      "morpheme_breakdown": "yaunoda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yaunoda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kutenga",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -tenga",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at tenga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tsvuku",
+      "morpheme_breakdown": "tsvuku (red)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "red",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhema",
+      "morpheme_breakdown": "nhema (black / dark)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "black",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Colours & Describing Objects in Shona ('tsvuku')",
+      "content": "This passage uses colour vocabulary such as 'tsvuku'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Getting Around: Kombis, Buses, Rural Carts & 'Robots'",
+      "content": "Daily transport in Zimbabwe features unique local vocabulary! In towns and cities, most commuters travel by white commuter minibuses universally called 'makombi' (singular: 'kombi'), while long-distance intercity trips use large buses ('bhazi') and heavy haulage trucks are affectionately nicknamed 'magonyeti'. In rural areas, donkey-drawn carts ('ngoro yemadhongi') are widely used to carry goods. And if someone tells you to turn at the 'robhoti' (plural: 'marobhotsi'), they don't mean a machine person—in Zimbabwe and Southern Africa, traffic lights are called 'robots'!",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

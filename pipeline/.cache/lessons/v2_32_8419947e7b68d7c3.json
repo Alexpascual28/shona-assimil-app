@@ -1,0 +1,189 @@
+{
+  "english_translation": "My clothes are outside, so I want to gather them in.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mbatya dzangu dziri panze saka ndiri kuda kudziunganidza.",
+      "english": "My clothes are outside, so I want to gather them in.",
+      "literal_gloss": "Mbatya [clothes] • dzangu [dzangu] • dziri [dziri] • panze [outside] • saka [so / therefore] • ndiri [ndiri] • kuda [to / at da] • kudziunganidza [to / at dziunganidza]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mbatya",
+          "morpheme_breakdown": "mbatya (clothes)",
+          "noun_class_or_concord": "Plural Noun",
+          "literal_english": "clothes",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzangu",
+          "morpheme_breakdown": "dzangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panze",
+          "morpheme_breakdown": "pa- (at) + nze (outside)",
+          "noun_class_or_concord": "Locative Noun (pa-)",
+          "literal_english": "outside",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "saka",
+          "morpheme_breakdown": "saka (so / therefore)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "so / therefore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuda",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudziunganidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dziunganidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dziunganidza",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mbatya",
+      "morpheme_breakdown": "mbatya (clothes)",
+      "noun_class_or_concord": "Plural Noun",
+      "literal_english": "clothes",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzangu",
+      "morpheme_breakdown": "dzangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dziri",
+      "morpheme_breakdown": "dziri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dziri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "panze",
+      "morpheme_breakdown": "pa- (at) + nze (outside)",
+      "noun_class_or_concord": "Locative Noun (pa-)",
+      "literal_english": "outside",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "saka",
+      "morpheme_breakdown": "saka (so / therefore)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "so / therefore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuda",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -da",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudziunganidza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dziunganidza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dziunganidza",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('panze')",
+      "content": "Look at how location is expressed with 'panze'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzangu')",
+      "content": "In Shona, possessive words like 'dzangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Dress, Grooming & Personal Presentation in Zimbabwe",
+      "content": "Neat personal presentation ('kuchena') is highly valued in everyday Zimbabwean life—whether dressing for work, church, school, or visiting family. Notice how 'hembe' refers broadly to a shirt or top, 'mbatya' (or 'nhumbi') means clothes in general, and 'shangu' means shoes. Braided hairstyles ('bvudzi rakarukwa'), earrings ('mhete'), and sun hats ('ngowani') are also everyday topics of compliment and description.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why is 'white' written as 'chena' in 'hembe chena' (white shirt), but 'machena' in 'mabhuku machena' (white books)?",
+      "options": [
+        "'Machena' means light grey while 'chena' means bright white",
+        "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+        "Only clothing can use the word 'chena'",
+        "'Machena' is only used in the past tense"
+      ],
+      "correct_answer": "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+      "explanation": "In Shona, traditional colour stems (-chena, -tema, -tsvuku) take the prefix of the noun they describe."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

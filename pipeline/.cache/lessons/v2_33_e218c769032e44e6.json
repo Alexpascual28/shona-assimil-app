@@ -1,0 +1,147 @@
+{
+  "english_translation": "He shouted, \"Catch that thief!\"",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Akadanidzira achiti, \"Batai mbavha iyo!\"",
+      "english": "He shouted, \"Catch that thief!\"",
+      "literal_gloss": "Akadanidzira [he/she (past) danidzira] • achiti [achiti] • Batai [batai] • mbavha [mbavha] • iyo [iyo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Akadanidzira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -danidzira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) danidzira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "achiti",
+          "morpheme_breakdown": "achiti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "achiti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Batai",
+          "morpheme_breakdown": "batai (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "batai",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mbavha",
+          "morpheme_breakdown": "mbavha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mbavha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyo",
+          "morpheme_breakdown": "iyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Akadanidzira",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -danidzira",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) danidzira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "achiti",
+      "morpheme_breakdown": "achiti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "achiti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Batai",
+      "morpheme_breakdown": "batai (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "batai",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mbavha",
+      "morpheme_breakdown": "mbavha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mbavha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyo",
+      "morpheme_breakdown": "iyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Batai')",
+      "content": "Notice the command verb 'Batai' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About the Past ('Akadanidzira')",
+      "content": "The verb 'Akadanidzira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Akadanidzira achiti, \"Batai mbavha iyo!\"', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'He shouted, \"Catch that thief!\"'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako.",
+        "Ndapota taurai zvinyoronyoro."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Add a little salt to the vegetables' in Shona?",
+      "options": [
+        "Tenga shuga zhinji kuchitoro.",
+        "Isa munyu mushoma mumuriwo.",
+        "Bika hupfu nemvura inopisa.",
+        " Cheka chingwa nebangwa."
+      ],
+      "correct_answer": "Isa munyu mushoma mumuriwo.",
+      "explanation": "'Isa' = 'Put/add', 'munyu mushoma' = 'a little salt', 'mumuriwo' = 'in the vegetables'."
+    }
+  ]
+}

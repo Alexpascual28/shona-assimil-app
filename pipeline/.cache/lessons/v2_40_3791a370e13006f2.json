@@ -1,0 +1,189 @@
+{
+  "english_translation": "People traded ivory and gold with foreign merchants who came from afar.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure.",
+      "english": "People traded ivory and gold with foreign merchants who came from afar.",
+      "literal_gloss": "Vanhu [people] • vaitengeserana [people itengeserana] • nyanga [nyanga] • dzenzou [dzenzou] • nendarama [and / with ndarama] • nevatorwa [and / with vatorwa] • vaibva [people ibva] • kure [to / at re]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaitengeserana",
+          "morpheme_breakdown": "va- (plural people prefix) + -itengeserana",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people itengeserana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nyanga",
+          "morpheme_breakdown": "nyanga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nyanga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzenzou",
+          "morpheme_breakdown": "dzenzou (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzenzou",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nendarama",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ndarama",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ndarama",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nevatorwa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -vatorwa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with vatorwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vaibva",
+          "morpheme_breakdown": "va- (plural people prefix) + -ibva",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ibva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kure",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -re",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at re",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaitengeserana",
+      "morpheme_breakdown": "va- (plural people prefix) + -itengeserana",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people itengeserana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nyanga",
+      "morpheme_breakdown": "nyanga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nyanga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzenzou",
+      "morpheme_breakdown": "dzenzou (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzenzou",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nendarama",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -ndarama",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with ndarama",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nevatorwa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -vatorwa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with vatorwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vaibva",
+      "morpheme_breakdown": "va- (plural people prefix) + -ibva",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ibva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kure",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -re",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at re",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nendarama'",
+      "content": "Look closely at 'nendarama'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'ndarama' forms 'nendarama'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Vanhu vaitengeserana nyanga dzenzou nendarama nevatorwa vaibva kure.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'People traded ivory and gold with foreign merchants who came from afar.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Please wait a little while at the door.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    }
+  ]
+}

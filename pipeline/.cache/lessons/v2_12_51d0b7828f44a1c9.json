@@ -1,0 +1,161 @@
+{
+  "english_translation": "This meat became very tough when it was cooked.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nyama iyi yakaoma chaizvo pakubikwa kwayo.",
+      "english": "This meat became very tough when it was cooked.",
+      "literal_gloss": "Nyama [meat] • iyi [iyi] • yakaoma [it (past) oma] • chaizvo [very much / truly] • pakubikwa [on / at kubikwa] • kwayo [kwayo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nyama",
+          "morpheme_breakdown": "nyama (meat)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "meat",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakaoma",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -oma",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) oma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chaizvo",
+          "morpheme_breakdown": "chaizvo (very much)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / truly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakubikwa",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kubikwa",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kubikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwayo",
+          "morpheme_breakdown": "kwayo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwayo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nyama",
+      "morpheme_breakdown": "nyama (meat)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "meat",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakaoma",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -oma",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) oma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chaizvo",
+      "morpheme_breakdown": "chaizvo (very much)",
+      "noun_class_or_concord": "Intensifier",
+      "literal_english": "very much / truly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakubikwa",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kubikwa",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kubikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwayo",
+      "morpheme_breakdown": "kwayo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwayo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakaoma')",
+      "content": "The verb 'yakaoma' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Nyama iyi yakaoma chaizvo pakubikwa kwayo.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
+      "content": "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this new sentence in the past tense: 'Nezuro amai ______ sadza nenyama.' (Yesterday Mother cooked sadza and meat.)",
+      "options": [
+        "vakabika",
+        "vanozobika",
+        "vari kubika",
+        "ndichabika"
+      ],
+      "correct_answer": "vakabika",
+      "explanation": "'Amai' takes the respectful plural past prefix 'vaka-' + '-bika' (cook) -> 'vakabika' ('cooked')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If someone says 'Ndinonzwa nyota, ndinoda kunwa mukaka kana mvura', what are they asking for?",
+      "options": [
+        "Bread and sugar because it is morning",
+        "Milk or water because they feel thirsty",
+        "Maize meal and cooking oil from the market",
+        "Salt and vegetables for the evening meal"
+      ],
+      "correct_answer": "Milk or water because they feel thirsty",
+      "explanation": "'Mukaka' means 'milk', 'kana' means 'or', and 'mvura' means 'water'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    }
+  ]
+}

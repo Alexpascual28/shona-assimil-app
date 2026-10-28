@@ -1,0 +1,161 @@
+{
+  "english_translation": "The teacher told us to bring our books tomorrow.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mudzidzisi akati tiunze mabhuku edu mangwana.",
+      "english": "The teacher told us to bring our books tomorrow.",
+      "literal_gloss": "Mudzidzisi [teacher] • akati [he/she (past) ti] • tiunze [tiunze] • mabhuku [books] • edu [edu] • mangwana [tomorrow]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mudzidzisi",
+          "morpheme_breakdown": "mu- (person) + -dzidzisi (teacher)",
+          "noun_class_or_concord": "Noun (mu-/va-)",
+          "literal_english": "teacher",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akati",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -ti",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) ti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tiunze",
+          "morpheme_breakdown": "tiunze (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tiunze",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mabhuku",
+          "morpheme_breakdown": "ma- (plural) + -bhuku (books)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "books",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "edu",
+          "morpheme_breakdown": "edu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "edu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwana",
+          "morpheme_breakdown": "mangwana (tomorrow)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "tomorrow",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mudzidzisi",
+      "morpheme_breakdown": "mu- (person) + -dzidzisi (teacher)",
+      "noun_class_or_concord": "Noun (mu-/va-)",
+      "literal_english": "teacher",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akati",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -ti",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) ti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tiunze",
+      "morpheme_breakdown": "tiunze (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tiunze",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mabhuku",
+      "morpheme_breakdown": "ma- (plural) + -bhuku (books)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "books",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "edu",
+      "morpheme_breakdown": "edu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "edu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwana",
+      "morpheme_breakdown": "mangwana (tomorrow)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "tomorrow",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('akati')",
+      "content": "The verb 'akati' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Mudzidzisi akati tiunze mabhuku edu mangwana.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Education, School Life & Respect for Teachers",
+      "content": "Education ('dzidzo') is deeply valued by Zimbabwean families, who invest great pride in seeing children study hard ('kudzidza nesimba') and pass their school examinations ('kupasa bvunzo'). Teachers ('vadzidzisi', singular: 'mudzidzisi') are addressed with high respect in the community, and schoolmates ('shamwari dzepachikoro') often form lifelong friendships.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which possessive word means 'our grandmother'?",
+      "options": [
+        "mbuya vedu",
+        "mbuya wangu",
+        "mbuya chenyu",
+        "mbuya dzavo"
+      ],
+      "correct_answer": "mbuya vedu",
+      "explanation": "Because 'mbuya' takes the respectful 'va-' agreement, 'our grandmother' is 'mbuya vedu' ('va-' + '-edu')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    }
+  ]
+}

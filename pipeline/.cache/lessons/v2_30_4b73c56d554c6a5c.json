@@ -1,0 +1,161 @@
+{
+  "english_translation": "I am happy to see my friends from school.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndiri kufara nekuona shamwari dzangu dzepachikoro.",
+      "english": "I am happy to see my friends from school.",
+      "literal_gloss": "Ndiri [ndiri] • kufara [to / at fara] • nekuona [and / with kuona] • shamwari [friend / friends] • dzangu [dzangu] • dzepachikoro [dzepachikoro]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndiri",
+          "morpheme_breakdown": "ndiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufara",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -fara",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at fara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekuona",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kuona",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kuona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "shamwari",
+          "morpheme_breakdown": "shamwari (friend)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "friend / friends",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzangu",
+          "morpheme_breakdown": "dzangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzepachikoro",
+          "morpheme_breakdown": "dzepachikoro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzepachikoro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndiri",
+      "morpheme_breakdown": "ndiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kufara",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -fara",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at fara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekuona",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kuona",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kuona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "shamwari",
+      "morpheme_breakdown": "shamwari (friend)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "friend / friends",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzangu",
+      "morpheme_breakdown": "dzangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzepachikoro",
+      "morpheme_breakdown": "dzepachikoro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzepachikoro",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzangu')",
+      "content": "In Shona, possessive words like 'dzangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nekuona'",
+      "content": "Look closely at 'nekuona'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'kuona' forms 'nekuona'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'I am happy to see my friends from school.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "yakaverenga",
+        "ichaverenga",
+        "iri kuverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    }
+  ]
+}

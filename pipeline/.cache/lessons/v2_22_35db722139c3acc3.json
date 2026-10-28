@@ -1,0 +1,161 @@
+{
+  "english_translation": "Find the money to pay the workers at the end of the month.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.",
+      "english": "Find the money to pay the workers at the end of the month.",
+      "literal_gloss": "Tsvaga [tsvaga] • mari [plural ri] • yekubhadhara [yekubhadhara] • vashandi [people shandi] • pakupera [on / at kupera] • kwemwedzi [kwemwedzi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tsvaga",
+          "morpheme_breakdown": "tsvaga (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsvaga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mari",
+          "morpheme_breakdown": "ma- (plural prefix) + -ri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekubhadhara",
+          "morpheme_breakdown": "yekubhadhara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekubhadhara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vashandi",
+          "morpheme_breakdown": "va- (plural people prefix) + -shandi",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people shandi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakupera",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kupera",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kupera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwemwedzi",
+          "morpheme_breakdown": "kwemwedzi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwemwedzi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tsvaga",
+      "morpheme_breakdown": "tsvaga (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tsvaga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mari",
+      "morpheme_breakdown": "ma- (plural prefix) + -ri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural ri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekubhadhara",
+      "morpheme_breakdown": "yekubhadhara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekubhadhara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vashandi",
+      "morpheme_breakdown": "va- (plural people prefix) + -shandi",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people shandi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pakupera",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -kupera",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at kupera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwemwedzi",
+      "morpheme_breakdown": "kwemwedzi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwemwedzi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Tsvaga')",
+      "content": "Notice the command verb 'Tsvaga' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'Find the money to pay the workers at the end of the month.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    }
+  ]
+}

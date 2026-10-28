@@ -1,0 +1,175 @@
+{
+  "english_translation": "The child is crying in the house because he was stung by a bee.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mwana ari kuchema mumba nokuti arumwa nenyuchi.",
+      "english": "The child is crying in the house because he was stung by a bee.",
+      "literal_gloss": "Mwana [child] • ari [ari] • kuchema [to / at chema] • mumba [in the house / indoors] • nokuti [because] • arumwa [arumwa] • nenyuchi [and / with nyuchi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mwana",
+          "morpheme_breakdown": "mu- + -ana (child)",
+          "noun_class_or_concord": "Noun (mu-/va-)",
+          "literal_english": "child",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ari",
+          "morpheme_breakdown": "ari (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ari",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuchema",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -chema",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at chema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumba",
+          "morpheme_breakdown": "mu- (inside) + imba (house)",
+          "noun_class_or_concord": "Locative Noun (mu-)",
+          "literal_english": "in the house / indoors",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokuti",
+          "morpheme_breakdown": "nokuti (because)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "because",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arumwa",
+          "morpheme_breakdown": "arumwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "arumwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenyuchi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nyuchi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nyuchi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mwana",
+      "morpheme_breakdown": "mu- + -ana (child)",
+      "noun_class_or_concord": "Noun (mu-/va-)",
+      "literal_english": "child",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ari",
+      "morpheme_breakdown": "ari (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ari",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuchema",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -chema",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at chema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumba",
+      "morpheme_breakdown": "mu- (inside) + imba (house)",
+      "noun_class_or_concord": "Locative Noun (mu-)",
+      "literal_english": "in the house / indoors",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nokuti",
+      "morpheme_breakdown": "nokuti (because)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "because",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "arumwa",
+      "morpheme_breakdown": "arumwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "arumwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenyuchi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nyuchi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nyuchi",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('mumba')",
+      "content": "Look at how location is expressed with 'mumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nenyuchi'",
+      "content": "Look closely at 'nenyuchi'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'nyuchi' forms 'nenyuchi'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'The child is crying in the house because he was stung by a bee.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "patafura",
+        "kutafura",
+        "mutafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence using the Present Progressive ('is reading right now'): 'Shamwari yangu ______ bhuku idzva.'",
+      "options": [
+        "yakaverenga",
+        "ichaverenga",
+        "iri kuverenga",
+        "verenga"
+      ],
+      "correct_answer": "iri kuverenga",
+      "explanation": "'Shamwari' uses the progressive form 'iri ku-' + '-verenga' (read) to mean 'is reading right now'."
+    }
+  ]
+}

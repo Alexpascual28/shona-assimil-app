@@ -1,0 +1,175 @@
+{
+  "english_translation": "Ancient history teaches us where we came from and our traditions as Shona people.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semaShona.",
+      "english": "Ancient history teaches us where we came from and our traditions as Shona people.",
+      "literal_gloss": "Nhoroondo [nhoroondo] • dzekare [dzekare] • dzinotidzidzisa [dzinotidzidzisa] • kwatakabva [kwatakabva] • netsika [and / with tsika] • dzedu [dzedu] • semaShona [semashona]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nhoroondo",
+          "morpheme_breakdown": "nhoroondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhoroondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzekare",
+          "morpheme_breakdown": "dzekare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzekare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzinotidzidzisa",
+          "morpheme_breakdown": "dzinotidzidzisa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzinotidzidzisa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwatakabva",
+          "morpheme_breakdown": "kwatakabva (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwatakabva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "netsika",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -tsika",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with tsika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzedu",
+          "morpheme_breakdown": "dzedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "semaShona",
+          "morpheme_breakdown": "semashona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "semashona",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Nhoroondo",
+      "morpheme_breakdown": "nhoroondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nhoroondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzekare",
+      "morpheme_breakdown": "dzekare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzekare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzinotidzidzisa",
+      "morpheme_breakdown": "dzinotidzidzisa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzinotidzidzisa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwatakabva",
+      "morpheme_breakdown": "kwatakabva (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwatakabva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "netsika",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -tsika",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with tsika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzedu",
+      "morpheme_breakdown": "dzedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "semaShona",
+      "morpheme_breakdown": "semashona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "semashona",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('dzedu')",
+      "content": "In Shona, possessive words like 'dzedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'netsika'",
+      "content": "Look closely at 'netsika'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'tsika' forms 'netsika'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Nhoroondo dzekare dzinotidzidzisa kwatakabva netsika dzedu semaShona.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Ancestral Roots ('Kumusha') & Great Zimbabwe Heritage",
+      "content": "Even for families who live and work in cities like Harare, the rural family homestead ('kumusha')—where grandparents ('mbuya' and 'sekuru') often live—remains the spiritual and cultural heart of the family. Travelling 'kumusha' during holidays strengthens family bonds. On a national scale, the dry-stone walls of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), built centuries ago without mortar, gave modern Zimbabwe its name ('Dzimba dzemabwe' — Houses of Stone).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    }
+  ]
+}

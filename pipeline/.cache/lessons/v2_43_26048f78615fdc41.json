@@ -1,0 +1,189 @@
+{
+  "english_translation": "Traditional homesteads were built with wooden poles and thatched with grass rather than metal sheets.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marata.",
+      "english": "Traditional homesteads were built with wooden poles and thatched with grass rather than metal sheets.",
+      "literal_gloss": "Misha [misha] • yechinyakare [yechinyakare] • yaivakwa [yaivakwa] • nembariro [and / with mbariro] • ichipwigirwa [ichipwigirwa] • nehuswa [and / with huswa] • kwete [kwete] • marata [plural rata]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Misha",
+          "morpheme_breakdown": "misha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "misha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yechinyakare",
+          "morpheme_breakdown": "yechinyakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yechinyakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yaivakwa",
+          "morpheme_breakdown": "yaivakwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yaivakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nembariro",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -mbariro",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with mbariro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichipwigirwa",
+          "morpheme_breakdown": "ichipwigirwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichipwigirwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nehuswa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -huswa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with huswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwete",
+          "morpheme_breakdown": "kwete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "marata",
+          "morpheme_breakdown": "ma- (plural prefix) + -rata",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural rata",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Misha",
+      "morpheme_breakdown": "misha (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "misha",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yechinyakare",
+      "morpheme_breakdown": "yechinyakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yechinyakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yaivakwa",
+      "morpheme_breakdown": "yaivakwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yaivakwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nembariro",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -mbariro",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with mbariro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichipwigirwa",
+      "morpheme_breakdown": "ichipwigirwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichipwigirwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nehuswa",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -huswa",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with huswa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwete",
+      "morpheme_breakdown": "kwete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "marata",
+      "morpheme_breakdown": "ma- (plural prefix) + -rata",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural rata",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nembariro'",
+      "content": "Look closely at 'nembariro'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'mbariro' forms 'nembariro'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Misha yechinyakare yaivakwa nembariro ichipwigirwa nehuswa kwete marat...', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    },
+    {
+      "title": "Describing Nouns: Word Order in Shona",
+      "content": "In English, descriptive words like adjectives, possessives ('my', 'our'), demonstratives ('this', 'that'), and numbers come BEFORE the noun ('this big house', 'my two books'). In Shona, the noun always comes FIRST, and all descriptive words follow right after it! For example: 'nyama iyi' ('this meat'), 'mwana uyu' ('this child'), 'goho guru' ('a big harvest'), and 'makomo marefu' ('tall mountains').",
+      "rule": "Noun FIRST + Descriptor SECOND -> mota iyi (this car), mabhuku edu (our books), makomo marefu (tall mountains)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'Traditional homesteads were built with wooden poles and thatched with grass rath...'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Vhura musuwo nekukasira!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro."
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'two women and four men' in Shona?",
+      "options": [
+        "mukadzi mumwe nevarume vatatu",
+        "vakadzi vana nevarume vaviri",
+        "vana vashanu vari mumba",
+        "vakadzi vaviri nevarume vana"
+      ],
+      "correct_answer": "vakadzi vaviri nevarume vana",
+      "explanation": "'Vakadzi vaviri' = 'two women' (-viri = 2) and 'nevarume vana' = 'and four men' (-na = 4)."
+    }
+  ]
+}

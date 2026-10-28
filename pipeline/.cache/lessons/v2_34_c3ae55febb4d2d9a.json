@@ -1,0 +1,161 @@
+{
+  "english_translation": "Do you think it will rain tomorrow?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Unofunga kuti mvura ichanaya here mangwana?",
+      "english": "Do you think it will rain tomorrow?",
+      "literal_gloss": "Unofunga [you funga] • kuti [that / so that] • mvura [water / rain] • ichanaya [ichanaya] • here [(yes/no question marker)] • mangwana [tomorrow]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Unofunga",
+          "morpheme_breakdown": "u- (you) + -no- (present) + -funga",
+          "noun_class_or_concord": "Present Tense Verb (you ...)",
+          "literal_english": "you funga",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ichanaya",
+          "morpheme_breakdown": "ichanaya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ichanaya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwana",
+          "morpheme_breakdown": "mangwana (tomorrow)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "tomorrow",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Unofunga",
+      "morpheme_breakdown": "u- (you) + -no- (present) + -funga",
+      "noun_class_or_concord": "Present Tense Verb (you ...)",
+      "literal_english": "you funga",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ichanaya",
+      "morpheme_breakdown": "ichanaya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ichanaya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwana",
+      "morpheme_breakdown": "mangwana (tomorrow)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "tomorrow",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('Unofunga')",
+      "content": "The verb 'Unofunga' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('ichanaya')",
+      "content": "Look at 'ichanaya' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Singing at the top of the tree",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon.",
+        "Large mountains can be seen far away beyond the river."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Hupfu hwapera mumba', why does 'hwapera' ('has run out') start with 'hwa-'?",
+      "options": [
+        "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+        "Because 'hwa-' always means tomorrow",
+        "Because it refers to a person cooking in the kitchen",
+        "Because 'mumba' starts with 'm-'"
+      ],
+      "correct_answer": "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+      "explanation": "Nouns starting with 'hu-' (like 'hupfu') use 'hu-' / 'hwa-' subject prefixes on the verb."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "english_translation": "Plants with pale green leaves are planted in a light-green pot. This pot is set upon a cement floor, and two chains pass right beside it.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Maruva ane ruvara rwegirinhi yakachenuruka akadyarwa mugaba rine ruvara rwegirinhi yakachenuruka zvakare.",
+      "english": "Plants with light green foliage are planted in a pale green container.",
+      "literal_gloss": "Maruva [flowers] • ane [ane] • ruvara [colour] • rwegirinhi [rwegirinhi] • yakachenuruka [it (past) chenuruka] • akadyarwa [he/she (past) dyarwa] • mugaba [in / singular gaba] • rine [rine]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Maruva",
+          "morpheme_breakdown": "ma- (plural) + -ruva (flowers)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "flowers",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ane",
+          "morpheme_breakdown": "ane (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ane",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirinhi",
+          "morpheme_breakdown": "rwegirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirinhi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakachenuruka",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -chenuruka",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) chenuruka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akadyarwa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -dyarwa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) dyarwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mugaba",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gaba",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular gaba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirinhi",
+          "morpheme_breakdown": "rwegirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirinhi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakachenuruka",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -chenuruka",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) chenuruka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Gaba iri rakagadzikwa pamusoro peuriri hwesimende uye pane cheni mbiri dziri kudarika neparitivi paro.",
+      "english": "This container is placed on a cement floor, and two chains run alongside it.",
+      "literal_gloss": "Gaba [gaba] • iri [iri] • rakagadzikwa [it (past) gadzikwa] • pamusoro [on / at musoro] • peuriri [peuriri] • hwesimende [hwesimende] • uye [and / furthermore] • pane [on / at ne]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Gaba",
+          "morpheme_breakdown": "gaba (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "gaba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakagadzikwa",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -gadzikwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) gadzikwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "peuriri",
+          "morpheme_breakdown": "peuriri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "peuriri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwesimende",
+          "morpheme_breakdown": "hwesimende (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwesimende",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "cheni",
+          "morpheme_breakdown": "cheni (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "cheni",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mbiri",
+          "morpheme_breakdown": "mbiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mbiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dziri",
+          "morpheme_breakdown": "dziri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dziri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudarika",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -darika",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at darika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neparitivi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -paritivi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with paritivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "paro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ro",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Maruva",
+      "morpheme_breakdown": "ma- (plural) + -ruva (flowers)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "flowers",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ane",
+      "morpheme_breakdown": "ane (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ane",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirinhi",
+      "morpheme_breakdown": "rwegirinhi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirinhi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakachenuruka",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -chenuruka",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) chenuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "akadyarwa",
+      "morpheme_breakdown": "a- (he/she) + -ka- (past) + -dyarwa",
+      "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+      "literal_english": "he/she (past) dyarwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mugaba",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -gaba",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular gaba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwegirinhi",
+      "morpheme_breakdown": "rwegirinhi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwegirinhi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakachenuruka",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -chenuruka",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) chenuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakare",
+      "morpheme_breakdown": "zvakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Gaba",
+      "morpheme_breakdown": "gaba (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "gaba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakagadzikwa",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -gadzikwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) gadzikwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "peuriri",
+      "morpheme_breakdown": "peuriri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "peuriri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwesimende",
+      "morpheme_breakdown": "hwesimende (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwesimende",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakachenuruka')",
+      "content": "The verb 'yakachenuruka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('ruvara')",
+      "content": "This passage uses colour vocabulary such as 'ruvara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('mbiri')",
+      "content": "In Shona, number words like 'mbiri' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Gardens, Trees & Appreciation of Nature Around the Home",
+      "content": "Both urban and rural households in Zimbabwe take great care of the yard ('chivanze') surrounding the home—planting shade and fruit trees ('miti'), tending flower beds, and placing cut flowers ('maruva') in vases ('magaba emaruva') indoors. Shade trees around the yard also serve as cool gathering spots where family members sit and converse during warm afternoons.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you describe 'a white shirt and black shoes' in Shona?",
+      "options": [
+        "hembe tsvuku neshangu chena",
+        "shangu dzeruvara rwegirinhi",
+        "hembe chena neshangu nhema",
+        "mota nhema nemabhuku machena"
+      ],
+      "correct_answer": "hembe chena neshangu nhema",
+      "explanation": "'Hembe chena' = 'white shirt', 'ne-' = 'and', and 'shangu nhema' = 'black shoes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    }
+  ]
+}

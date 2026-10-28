@@ -1,0 +1,189 @@
+{
+  "english_translation": "The Rozvi Empire was renowned for its army that was skilled in warfare.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Humambo hweRozvi hwaizivikanwa neuto ravo raigona kurwa hondo.",
+      "english": "The Rozvi Empire was renowned for its army that was skilled in warfare.",
+      "literal_gloss": "Humambo [humambo] • hweRozvi [hwerozvi] • hwaizivikanwa [hwaizivikanwa] • neuto [and / with uto] • ravo [ravo] • raigona [raigona] • kurwa [to / at rwa] • hondo [hondo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Humambo",
+          "morpheme_breakdown": "humambo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "humambo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hweRozvi",
+          "morpheme_breakdown": "hwerozvi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwerozvi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwaizivikanwa",
+          "morpheme_breakdown": "hwaizivikanwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwaizivikanwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neuto",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -uto",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with uto",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ravo",
+          "morpheme_breakdown": "ravo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ravo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "raigona",
+          "morpheme_breakdown": "raigona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "raigona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kurwa",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwa",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at rwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hondo",
+          "morpheme_breakdown": "hondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hondo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Humambo",
+      "morpheme_breakdown": "humambo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "humambo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hweRozvi",
+      "morpheme_breakdown": "hwerozvi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwerozvi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwaizivikanwa",
+      "morpheme_breakdown": "hwaizivikanwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwaizivikanwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neuto",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -uto",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with uto",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ravo",
+      "morpheme_breakdown": "ravo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ravo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "raigona",
+      "morpheme_breakdown": "raigona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "raigona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kurwa",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -rwa",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at rwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hondo",
+      "morpheme_breakdown": "hondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hondo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('ravo')",
+      "content": "In Shona, possessive words like 'ravo' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'neuto'",
+      "content": "Look closely at 'neuto'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'uto' forms 'neuto'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Humambo hweRozvi hwaizivikanwa neuto ravo raigona kurwa hondo.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'The Rozvi Empire was renowned for its army that was skilled in warfare.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Uya kuno undibatsire', what does the prefix '-ndi-' inside 'undibatsire' mean?",
+      "options": [
+        "'them' (and help them)",
+        "'us' (and help us)",
+        "'me' (so 'undibatsire' means 'and help me')",
+        "'him' (and help him)"
+      ],
+      "correct_answer": "'me' (so 'undibatsire' means 'and help me')",
+      "explanation": "The object prefix '-ndi-' always means 'me', placed directly before the verb stem '-batsira' (help)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

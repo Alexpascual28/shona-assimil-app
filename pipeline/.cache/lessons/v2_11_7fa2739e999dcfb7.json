@@ -1,0 +1,147 @@
+{
+  "english_translation": "We bought maize meal, sugar, cooking oil, and vegetables.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Takatenga hupfu, shuga, mafuta, nemuriwo.",
+      "english": "We bought maize meal, sugar, cooking oil, and vegetables.",
+      "literal_gloss": "Takatenga [we bought] • hupfu [maize meal (for sadza)] • shuga [sugar] • mafuta [cooking oil / fuel] • nemuriwo [and leafy vegetables]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Takatenga",
+          "morpheme_breakdown": "ta- (we) + -ka- (past) + -tenga (buy)",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "we bought",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hupfu",
+          "morpheme_breakdown": "hupfu (maize meal)",
+          "noun_class_or_concord": "Mass Noun (hu-)",
+          "literal_english": "maize meal (for sadza)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "shuga",
+          "morpheme_breakdown": "shuga (sugar)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "sugar",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mafuta",
+          "morpheme_breakdown": "ma- + -futa (oil/fat)",
+          "noun_class_or_concord": "Noun (ma-)",
+          "literal_english": "cooking oil / fuel",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nemuriwo",
+          "morpheme_breakdown": "ne- (and/with) + muriwo (vegetables)",
+          "noun_class_or_concord": "Conjunctive Noun",
+          "literal_english": "and leafy vegetables",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Takatenga",
+      "morpheme_breakdown": "ta- (we) + -ka- (past) + -tenga (buy)",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "we bought",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hupfu",
+      "morpheme_breakdown": "hupfu (maize meal)",
+      "noun_class_or_concord": "Mass Noun (hu-)",
+      "literal_english": "maize meal (for sadza)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "shuga",
+      "morpheme_breakdown": "shuga (sugar)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "sugar",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mafuta",
+      "morpheme_breakdown": "ma- + -futa (oil/fat)",
+      "noun_class_or_concord": "Noun (ma-)",
+      "literal_english": "cooking oil / fuel",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nemuriwo",
+      "morpheme_breakdown": "ne- (and/with) + muriwo (vegetables)",
+      "noun_class_or_concord": "Conjunctive Noun",
+      "literal_english": "and leafy vegetables",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Takatenga')",
+      "content": "The verb 'Takatenga' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nemuriwo'",
+      "content": "Look closely at 'nemuriwo'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'muriwo' forms 'nemuriwo'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Takatenga hupfu, shuga, mafuta, nemuriwo.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
+      "content": "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new kitchen sentence into English: 'Tichatenga mafuta ekubikisa nemadomasi pamusika.'",
+      "options": [
+        "They cooked sadza and green vegetables for the guests.",
+        "We will buy cooking oil and tomatoes at the market.",
+        "Please pour warm milk into the child's cup.",
+        "I ate roasted groundnuts and sweet potatoes at home."
+      ],
+      "correct_answer": "We will buy cooking oil and tomatoes at the market.",
+      "explanation": "'Tichatenga' = 'We will buy', 'mafuta ekubikisa' = 'cooking oil', 'nemadomasi' = 'and tomatoes', 'pamusika' = 'at the market'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this new sentence in the past tense: 'Nezuro amai ______ sadza nenyama.' (Yesterday Mother cooked sadza and meat.)",
+      "options": [
+        "vanozobika",
+        "vari kubika",
+        "vakabika",
+        "ndichabika"
+      ],
+      "correct_answer": "vakabika",
+      "explanation": "'Amai' takes the respectful plural past prefix 'vaka-' + '-bika' (cook) -> 'vakabika' ('cooked')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo.",
+        "The train will arrive after five minutes."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "english_translation": "I feel hungry in the morning if I have not eaten.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinonzwa nzara mangwanani kana ndisina kudya.",
+      "english": "I feel hungry in the morning if I have not eaten.",
+      "literal_gloss": "Ndinonzwa [I nzwa] • nzara [nzara] • mangwanani [good morning / morning] • kana [if / when / or] • ndisina [ndisina] • kudya [to / at dya]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinonzwa",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -nzwa",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I nzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nzara",
+          "morpheme_breakdown": "nzara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwanani",
+          "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good morning / morning",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndisina",
+          "morpheme_breakdown": "ndisina (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndisina",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudya",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dya",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dya",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinonzwa",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -nzwa",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I nzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nzara",
+      "morpheme_breakdown": "nzara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nzara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwanani",
+      "morpheme_breakdown": "ma- (plural) + -ngwanani (morning)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good morning / morning",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndisina",
+      "morpheme_breakdown": "ndisina (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndisina",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudya",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dya",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dya",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('mangwanani')",
+      "content": "In this lesson you encounter 'mangwanani'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinonzwa')",
+      "content": "The verb 'Ndinonzwa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Art of Greeting in Shona Culture",
+      "content": "In Zimbabwe, greetings are never rushed—they are the foundation of every social interaction. Before asking a question, entering a room, or starting business, people always exchange time-of-day greetings ('Mangwanani', 'Masikati', or 'Manheru') and ask after the wellbeing of the other person's household ('Makadini mose muri mumba?'). Even when speaking to a single adult, using the plural form ('ma-') is a sign of warmth and mutual respect known as 'hunhu' (ubuntu).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new greeting into English: 'Masikati amai, maswera zvakanaka here?'",
+      "options": [
+        "Good morning Grandmother, did you sleep well?",
+        "Good evening everyone inside the house.",
+        "Thank you very much for helping us today.",
+        "Good afternoon Mother, did you spend the day well?"
+      ],
+      "correct_answer": "Good afternoon Mother, did you spend the day well?",
+      "explanation": "'Masikati amai' = 'Good afternoon Mother', 'maswera zvakanaka here?' = 'have you spent the day well?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "english_translation": "Arrive home on time today before we eat dinner.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Svika kumba nenguva nhasi tisati tadya manheru.",
+      "english": "Arrive home on time today before we eat dinner.",
+      "literal_gloss": "Svika [svika] • kumba [home / to the house] • nenguva [and / with nguva] • nhasi [today] • tisati [tisati] • tadya [tadya] • manheru [good evening / evening]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Svika",
+          "morpheme_breakdown": "svika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "svika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumba",
+          "morpheme_breakdown": "ku- (to/at) + imba (home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "home / to the house",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nenguva",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with nguva",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tisati",
+          "morpheme_breakdown": "tisati (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tisati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tadya",
+          "morpheme_breakdown": "tadya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tadya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "manheru",
+          "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+          "noun_class_or_concord": "Greeting / Time Noun",
+          "literal_english": "good evening / evening",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Svika",
+      "morpheme_breakdown": "svika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "svika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumba",
+      "morpheme_breakdown": "ku- (to/at) + imba (home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "home / to the house",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nenguva",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -nguva",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with nguva",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tisati",
+      "morpheme_breakdown": "tisati (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tisati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tadya",
+      "morpheme_breakdown": "tadya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tadya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "manheru",
+      "morpheme_breakdown": "ma- (plural) + -nheru (evening)",
+      "noun_class_or_concord": "Greeting / Time Noun",
+      "literal_english": "good evening / evening",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('manheru')",
+      "content": "In this lesson you encounter 'manheru'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Giving Commands & Polite Requests ('Svika')",
+      "content": "Notice the command verb 'Svika' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumba')",
+      "content": "Look at how location is expressed with 'kumba'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "The Art of Greeting in Shona Culture",
+      "content": "In Zimbabwe, greetings are never rushed—they are the foundation of every social interaction. Before asking a question, entering a room, or starting business, people always exchange time-of-day greetings ('Mangwanani', 'Masikati', or 'Manheru') and ask after the wellbeing of the other person's household ('Makadini mose muri mumba?'). Even when speaking to a single adult, using the plural form ('ma-') is a sign of warmth and mutual respect known as 'hunhu' (ubuntu).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new polite request into English: 'Chimbomirira zvishoma pamusuwo.'",
+      "options": [
+        "Come inside the house and sit on the chair.",
+        "Return home early before the sun sets.",
+        "Take your books and put them in the bag.",
+        "Please wait a little while at the door."
+      ],
+      "correct_answer": "Please wait a little while at the door.",
+      "explanation": "'Chimbomirira' = 'Wait a little / for a moment right now', 'zvishoma' = 'a little', 'pamusuwo' = 'at the door'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Garai pasi, ndapota.",
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

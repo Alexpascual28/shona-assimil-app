@@ -1,0 +1,161 @@
+{
+  "english_translation": "Return home quickly when you finish work.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Dzoka kumusha nekukurumidza kana wapedza basa.",
+      "english": "Return home quickly when you finish work.",
+      "literal_gloss": "Dzoka [dzoka] • kumusha [at/to the rural home] • nekukurumidza [quickly / rapidly] • kana [if / when / or] • wapedza [wapedza] • basa [work / job]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Dzoka",
+          "morpheme_breakdown": "dzoka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzoka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumusha",
+          "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+          "noun_class_or_concord": "Locative Noun (ku-)",
+          "literal_english": "at/to the rural home",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekukurumidza",
+          "morpheme_breakdown": "ne- (with) + ku- (to) + -kurumidza (hurry)",
+          "noun_class_or_concord": "Adverbial Infinitive",
+          "literal_english": "quickly / rapidly",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kana",
+          "morpheme_breakdown": "kana (if / when / or)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "if / when / or",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wapedza",
+          "morpheme_breakdown": "wapedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wapedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "basa",
+          "morpheme_breakdown": "basa (work / job)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "work / job",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Dzoka",
+      "morpheme_breakdown": "dzoka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzoka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kumusha",
+      "morpheme_breakdown": "ku- (to/at) + musha (rural home)",
+      "noun_class_or_concord": "Locative Noun (ku-)",
+      "literal_english": "at/to the rural home",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekukurumidza",
+      "morpheme_breakdown": "ne- (with) + ku- (to) + -kurumidza (hurry)",
+      "noun_class_or_concord": "Adverbial Infinitive",
+      "literal_english": "quickly / rapidly",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kana",
+      "morpheme_breakdown": "kana (if / when / or)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "if / when / or",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wapedza",
+      "morpheme_breakdown": "wapedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wapedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "basa",
+      "morpheme_breakdown": "basa (work / job)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "work / job",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Giving Commands & Polite Requests ('Dzoka')",
+      "content": "Notice the command verb 'Dzoka' in this sentence. In Shona, a direct command to one person (singular) is simply the verb stem ending in '-a'—for example, 'Vhara!' ('Close!'), 'Tora!' ('Take!'), or 'Huya!' ('Come!'). When speaking to more than one person, or when showing polite respect to an adult, you add '-i' to the end, changing '-a' to '-ai' (as in 'Huyai!' = 'Come!' or 'Batai!' = 'Catch/Hold!'). Adding the prefix 'chi-' (as in 'Chiuya' or 'Chigara') means 'Do it right now'.",
+      "rule": "Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kumusha')",
+      "content": "Look at how location is expressed with 'kumusha'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Saying 'If', 'When', and 'Before' ('kana' & '-sati')",
+      "content": "To link two events in time or condition, Shona uses 'kana' ('if / when'). When talking about a future condition ('If we work hard...'), the verb after 'kana' takes '-ka-' (e.g., 'kana tikashanda' = 'if we work'). When 'kana' sits between two nouns (like 'tsvuku kana nhema'), it simply means 'or'! To say 'before' something happens, Shona uses '-sati' ('not yet') followed by a past-form verb: 'usati wabuda' ('before you go out') or 'tisati tadya' ('before we eat').",
+      "rule": "kana = if / when / or | [ndisati / usati / tisati] + past verb = before [I / you / we] do something"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Ancestral Roots ('Kumusha') & Great Zimbabwe Heritage",
+      "content": "Even for families who live and work in cities like Harare, the rural family homestead ('kumusha')—where grandparents ('mbuya' and 'sekuru') often live—remains the spiritual and cultural heart of the family. Travelling 'kumusha' during holidays strengthens family bonds. On a national scale, the dry-stone walls of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), built centuries ago without mortar, gave modern Zimbabwe its name ('Dzimba dzemabwe' — Houses of Stone).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "You want to politely ask an elder or a group of guests to sit down ('gara'). Which imperative form should you use?",
+      "options": [
+        "Gara pasi, ndapota.",
+        "Vanogara pasi.",
+        "Garai pasi, ndapota.",
+        "Takagara pasi."
+      ],
+      "correct_answer": "Garai pasi, ndapota.",
+      "explanation": "Adding '-i' to the verb stem ('gara' -> 'garai') forms the plural and polite command in Shona."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this future weather forecast: 'Mangwana zuva ______ zvakanaka.' (Tomorrow the sun will shine brightly.)",
+      "options": [
+        "richabuda",
+        "rakabuda",
+        "riri kubuda",
+        "buda"
+      ],
+      "correct_answer": "richabuda",
+      "explanation": "'Zuva' (sun) takes the prefix 'ri-' + future marker '-cha-' + '-buda' (come out/shine) -> 'richabuda'."
+    }
+  ]
+}

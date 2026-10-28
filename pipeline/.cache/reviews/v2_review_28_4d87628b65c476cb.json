@@ -1,0 +1,117 @@
+{
+  "review_summary": {
+    "title": "Unit 4 Comprehensive Review (Lessons 22–27)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 22–27)",
+        "points": [
+          "Lesson 22: \"Tsvaga mari yekubhadhara vashandi pakupera kwemwedzi.\" — Find the money to pay the workers at the end of the month.",
+          "Lesson 23: \"Vakuru vanoti, \"Chara chimwe hachitswanyi inda.\"\" — The elders say, \"One finger cannot crush a louse.\"",
+          "Lesson 24: \"Mwana ari kuchema mumba nokuti arumwa nenyuchi.\" — The child is crying in the house because he was stung by a bee.",
+          "Lesson 25: \"Baba vakaenda kuHarare, asi vachadzoka mangwana.\" — Father went to Harare, but he will return tomorrow.",
+          "Lesson 26: \"Mbuya vari kurwara nhasi saka tiri kuenda kuvawona.\" — Grandmother is feeling unwell today, so we are going to visit her.",
+          "Lesson 27: \"Mbuya vangu, avo vanogara kumusha, vanorima nzungu.\" — My grandmother, who lives at the rural home, grows groundnuts."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Giving Commands & Polite Requests ('Tsvaga'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Present Tense & Everyday Actions ('vanoti'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Talking About the Past ('vakaenda'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Present Tense & Everyday Actions ('vanogara'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Everyday Communication, Politeness & Community Life: In everyday Shona conversation (as in 'Find the money to pay the workers at the end of the month.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day..",
+          "Wisdom of the Elders: Shona Proverbs ('Tsumo'): Proverbs ('tsumo') are prized in Shona conversation as a way to pass down practical wisdom from elders ('vakuru').",
+          "Everyday Communication, Politeness & Community Life: In everyday Shona conversation (as in 'The child is crying in the house because he was stung by a bee.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Giving Commands & Polite Requests ('Tsvaga')",
+    "Present Tense & Everyday Actions ('vanoti')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Talking About the Past ('vakaenda')",
+    "Present Tense & Everyday Actions ('vanogara')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Proverbs & Wisdom: In the proverb 'Chara chimwe hachitswanyi inda', why does 'chimwe' ('one') start with 'chi-'?",
+      "options": [
+        "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+        "Because all numbers in Shona start with 'chi-'",
+        "Because it is in the past tense",
+        "Because 'inda' starts with 'i-'"
+      ],
+      "correct_answer": "Because it agrees with 'chara' (thumb/finger), which is a 'chi-' noun",
+      "explanation": "'Chara' belongs to the 'chi-' noun group, so 'one finger' is 'chara chimwe' and the negative verb is 'hachi-tswanyi'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Weather & Directions: How do you say 'A strong wind is blowing from the east'?",
+      "options": [
+        "Mvura zhinji ichanaya manheru ano.",
+        "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+        "Zuva riri kubuda pamusoro pemakomo.",
+        "Rwizi rwuzere nemvura inotonhora."
+      ],
+      "correct_answer": "Mhepo ine simba iri kuvhuvhuta ichibva kumabvazuva.",
+      "explanation": "'Mhepo ine simba' = 'A strong wind', 'iri kuvhuvhuta' = 'is blowing', 'ichibva kumabvazuva' = 'coming from the east'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Consecutive Past ('-ka-'): In 'Zuva rakabuda mbatya dzikaoma', why does the second verb use '-ka-' ('dzikaoma')?",
+      "options": [
+        "It expresses a negative command",
+        "It means the clothes will dry next week",
+        "It expresses a consecutive result ('and consequently dried')",
+        "It asks a question about the clothes"
+      ],
+      "correct_answer": "It expresses a consecutive result ('and consequently dried')",
+      "explanation": "After a past verb ('rakabuda'), '-ka-' on the following verb ('dzikaoma') means 'and then / and as a result'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 —Polite Requests: What does 'ndinokumbirawo undibatsire kusimudza tafura' mean?",
+      "options": [
+        "Please put the books on top of the table",
+        "I already cleaned the table in the kitchen",
+        "Do not sit on the small table outside",
+        "I kindly ask that you help me lift the table"
+      ],
+      "correct_answer": "I kindly ask that you help me lift the table",
+      "explanation": "'Ndinokumbirawo' = 'I kindly request', 'undibatsire' = 'that you help me', 'kusimudza tafura' = 'to lift the table'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 4 — Feelings & Conditions: How do you say 'We felt very happy when we saw our grandmother'?",
+      "options": [
+        "Takafara chose patakaona mbuya vedu.",
+        "Ticharara panze kana zuva radoka.",
+        "Vana vanonzwa nzara mangwanani.",
+        "Imbwa iri kuhukura pamusuwo."
+      ],
+      "correct_answer": "Takafara chose patakaona mbuya vedu.",
+      "explanation": "'Takafara chose' = 'We were very happy', and 'patakaona' ('pa-' = when) = 'when we saw'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 4 — Translate this new review sentence: 'Kana tikashanda pamwe chete, tichapedza basa racho nekukurumidza.'",
+      "options": [
+        "Although the work was hard, we finished it yesterday.",
+        "If we work together, we will finish the work quickly.",
+        "Please help me carry these tools to the field.",
+        "The elders taught us many wise proverbs at home."
+      ],
+      "correct_answer": "If we work together, we will finish the work quickly.",
+      "explanation": "'Kana tikashanda pamwe chete' = 'If we work together', 'tichapedza basa racho' = 'we will finish the work', 'nekukurumidza' = 'quickly'."
+    }
+  ]
+}

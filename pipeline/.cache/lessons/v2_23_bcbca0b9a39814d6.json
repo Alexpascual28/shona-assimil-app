@@ -1,0 +1,161 @@
+{
+  "english_translation": "The elders say, \"One finger cannot crush a louse.\"",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vakuru vanoti, \"Chara chimwe hachitswanyi inda.\"",
+      "english": "The elders say, \"One finger cannot crush a louse.\"",
+      "literal_gloss": "Vakuru [people kuru] • vanoti [they ti] • Chara [chara] • chimwe [thing mwe] • hachitswanyi [hachitswanyi] • inda [inda]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vakuru",
+          "morpheme_breakdown": "va- (plural people prefix) + -kuru",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people kuru",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanoti",
+          "morpheme_breakdown": "va- (they) + -no- (present) + -ti",
+          "noun_class_or_concord": "Present Tense Verb (they ...)",
+          "literal_english": "they ti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Chara",
+          "morpheme_breakdown": "chara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chimwe",
+          "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+          "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+          "literal_english": "thing mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hachitswanyi",
+          "morpheme_breakdown": "hachitswanyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hachitswanyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inda",
+          "morpheme_breakdown": "inda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inda",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vakuru",
+      "morpheme_breakdown": "va- (plural people prefix) + -kuru",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people kuru",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanoti",
+      "morpheme_breakdown": "va- (they) + -no- (present) + -ti",
+      "noun_class_or_concord": "Present Tense Verb (they ...)",
+      "literal_english": "they ti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Chara",
+      "morpheme_breakdown": "chara (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chimwe",
+      "morpheme_breakdown": "chi- (singular thing prefix) + -mwe",
+      "noun_class_or_concord": "Singular Noun / Verb Prefix (chi-)",
+      "literal_english": "thing mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hachitswanyi",
+      "morpheme_breakdown": "hachitswanyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hachitswanyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "inda",
+      "morpheme_breakdown": "inda (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "inda",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('vanoti')",
+      "content": "The verb 'vanoti' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('chimwe')",
+      "content": "In Shona, number words like 'chimwe' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Vakuru vanoti, \"Chara chimwe hachitswanyi inda.\"', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Wisdom of the Elders: Shona Proverbs ('Tsumo')",
+      "content": "Proverbs ('tsumo') are prized in Shona conversation as a way to pass down practical wisdom from elders ('vakuru'). The famous proverb 'Chara chimwe hachitswanyi inda' ('One finger cannot crush a louse') teaches that no single person can solve life's challenges alone—just as you need two thumbnails working together, people must cooperate and support one another in family and community life.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "The train will arrive after five minutes.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which phrase correctly translates 'three books' in Shona? (Hint: 'mabhuku' is a 'ma-' plural noun.)",
+      "options": [
+        "mabhuku maviri",
+        "mabhuku mana",
+        "mabhuku matatu",
+        "bhuku rimwe chete"
+      ],
+      "correct_answer": "mabhuku matatu",
+      "explanation": "The number stem '-tatu' (three) takes the 'ma-' prefix to match 'mabhuku' -> 'mabhuku matatu'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vanhu vakamira pamusika vachimirira kukwira bhazi.'",
+      "options": [
+        "The driver stopped the car near the traffic lights.",
+        "We saw two large trucks carrying maize to the city.",
+        "The road to the eastern highlands has many curves.",
+        "People are standing at the market waiting to board the bus."
+      ],
+      "correct_answer": "People are standing at the market waiting to board the bus.",
+      "explanation": "'Vanhu vakamira pamusika' = 'People are standing at the market', 'vachimirira kukwira bhazi' = 'waiting to board the bus'."
+    }
+  ]
+}

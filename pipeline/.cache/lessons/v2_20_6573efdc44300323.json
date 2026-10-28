@@ -1,0 +1,175 @@
+{
+  "english_translation": "What if you add a little bit of salt—won't it turn out well?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ko ukawedzera munyu zvishoma hazvibudi zvakanaka here.",
+      "english": "What if you add a little bit of salt—won't it turn out well?",
+      "literal_gloss": "Ko [ko] • ukawedzera [ukawedzera] • munyu [salt] • zvishoma [things shoma] • hazvibudi [hazvibudi] • zvakanaka [well / nicely / very good] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ko",
+          "morpheme_breakdown": "ko (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ukawedzera",
+          "morpheme_breakdown": "ukawedzera (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ukawedzera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munyu",
+          "morpheme_breakdown": "mu- + -nyu (salt)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "salt",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvishoma",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things shoma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hazvibudi",
+          "morpheme_breakdown": "hazvibudi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hazvibudi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ko",
+      "morpheme_breakdown": "ko (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ukawedzera",
+      "morpheme_breakdown": "ukawedzera (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ukawedzera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "munyu",
+      "morpheme_breakdown": "mu- + -nyu (salt)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "salt",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvishoma",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -shoma",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things shoma",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hazvibudi",
+      "morpheme_breakdown": "hazvibudi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hazvibudi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvakanaka",
+      "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+      "noun_class_or_concord": "Adverb",
+      "literal_english": "well / nicely / very good",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('zvakanaka')",
+      "content": "The verb 'zvakanaka' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ko ukawedzera munyu zvishoma hazvibudi zvakanaka here.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Morning Tea, Bread & Hospitality at Home",
+      "content": "Breakfast in many Zimbabwean households centres around hot tea with milk ('mukaka') and sugar ('shuga') served alongside fresh bread ('chingwa') or home-grown sweet potatoes and groundnut butter. When a visitor arrives at any time of day, offering a cup ('kapu') of tea or cool drinking water ('mvura') at the table ('patafura') is an essential expression of household hospitality.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Choose the natural English meaning of this new sentence: 'Vana vanoda kudya chingwa nemukaka mangwanani.'",
+      "options": [
+        "The children want to eat bread and milk in the morning.",
+        "We bought sugar, salt, and vegetables yesterday.",
+        "Father is cooking meat and sadza for dinner tonight.",
+        "The bread has run out so I am going to the shop."
+      ],
+      "correct_answer": "The children want to eat bread and milk in the morning.",
+      "explanation": "'Vana' = 'The children', 'vanoda kudya' = 'want to eat', 'chingwa nemukaka' = 'bread and milk', 'mangwanani' = 'in the morning'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Add a little salt to the vegetables' in Shona?",
+      "options": [
+        "Tenga shuga zhinji kuchitoro.",
+        "Isa munyu mushoma mumuriwo.",
+        "Bika hupfu nemvura inopisa.",
+        " Cheka chingwa nebangwa."
+      ],
+      "correct_answer": "Isa munyu mushoma mumuriwo.",
+      "explanation": "'Isa' = 'Put/add', 'munyu mushoma' = 'a little salt', 'mumuriwo' = 'in the vegetables'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

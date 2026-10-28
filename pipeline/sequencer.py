@@ -174,6 +174,21 @@ class AssimilSequencer:
                 chosen_ids = {c.clip_id for c in chosen_s4}
                 selected.extend(chosen_s4)
                 leftovers.extend([c for c in stg_clips if c.clip_id not in chosen_ids])
+            elif stg == 5 and len(stg_clips) > quota:
+                # Sample evenly across the full 20s -> 85s (1.4m) duration curve so Lessons 46-65
+                # progress smoothly from ~20s to 30s-45s and culminate in 60s-85s (1m+) passages!
+                step = (len(stg_clips) - 1) / float(max(1, quota - 1))
+                chosen_indices = sorted({round(i * step) for i in range(quota)})
+                while len(chosen_indices) < quota:
+                    for cand_i in range(len(stg_clips)):
+                        if cand_i not in chosen_indices:
+                            chosen_indices.append(cand_i)
+                            break
+                chosen_indices.sort()
+                chosen_s5 = [stg_clips[i] for i in chosen_indices[:quota]]
+                chosen_ids = {c.clip_id for c in chosen_s5}
+                selected.extend(chosen_s5)
+                leftovers.extend([c for c in stg_clips if c.clip_id not in chosen_ids])
             else:
                 selected.extend(stg_clips[:quota])
                 leftovers.extend(stg_clips[quota:])

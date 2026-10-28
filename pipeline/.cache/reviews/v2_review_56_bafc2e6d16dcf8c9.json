@@ -1,0 +1,117 @@
+{
+  "review_summary": {
+    "title": "Unit 8 Comprehensive Review (Lessons 50–55)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 50–55)",
+        "points": [
+          "Lesson 50: \"Mbatya dziri kutengeswa dzakaunganidzwa pasi. Munhu mumwe chete akapfeka hembe dzitema akami...\" — Clothes for sale are gathered on the ground. One person wearing black clothes is standing ne...",
+          "Lesson 51: \"Imba hombe yokutandarira yakashongedzwa. Ine chigaro chomutefetefe chirefu chine ruvara rwak...\" — A spacious living room is beautifully decorated. It has a long, comfortable sofa in a bright...",
+          "Lesson 52: \"Tebhuro yekagadzikwawo girazi pamusoro payo iro rakaiswawo dhiringi mukati pamwe chete nerim...\" — A table has a glass placed upon it containing a drink, alongside another drink still in a bo...",
+          "Lesson 53: \"Pane mahara maviri nefoko ine musoro mutema imwechete. Zvose zvine mibato yemuti. Parutivi p...\" — There are two rakes and one garden fork with a black head. All of them have wooden handles. ...",
+          "Lesson 54: \"Maruva ane ruvara rwegirinhi yakachenuruka akadyarwa mugaba rine ruvara rwegirinhi yakachenu...\" — Plants with pale green leaves are planted in a light-green pot. This pot is set upon a cemen...",
+          "Lesson 55: \"Mugwagwa wetara urikupfuura motokari. Dzimwe dzinopesana dzichienda kune rumwe rutivi dzimwe...\" — Cars are travelling along a tarred road, some heading in one direction and others in the opp..."
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('dzakaunganidzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('yakashongedzwa'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Talking About the Past ('rakaiswawo'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Colours & Describing Objects in Shona ('mutema'): Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)",
+          "Talking About the Past ('yakachenuruka'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Dress, Grooming & Personal Presentation in Zimbabwe: Neat personal presentation ('kuchena') is highly valued in everyday Zimbabwean life—whether dressing for work, church, school, or visiting family.",
+          "The Zimbabwean Home: Living Room ('Imba Yokutandarira') & Kitchen: In Zimbabwean homes, the living room is called 'imba yokutandarira'—literally 'the room for spending social time and chatting together' (from 'kutandara', to socialize).",
+          "Farming ('Kurima'), Rain & the Harvest Season: Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha')."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('dzakaunganidzwa')",
+    "Talking About the Past ('yakashongedzwa')",
+    "Talking About the Past ('rakaiswawo')",
+    "Colours & Describing Objects in Shona ('mutema')",
+    "Talking About the Past ('yakachenuruka')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Transport & City Vocabulary: What does the word 'marobhotsi' mean when driving in Harare or Bulawayo?",
+      "options": [
+        "Traffic lights",
+        "Roundabouts",
+        "Pedestrian bridges",
+        "Bus terminals"
+      ],
+      "correct_answer": "Traffic lights",
+      "explanation": "In Zimbabwean usage, 'robhoti' (singular) / 'marobhotsi' (plural) refers to traffic lights."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Vehicles & Numbers: How do you say 'two white commuter minibuses and one large haulage truck'?",
+      "options": [
+        "mabhazi matatu matsvuku nemotokari nhema mbiri",
+        "makombi machena maviri negonyeti guru rimwe chete",
+        "ngoro yemadhongi nemabhasikoro mana",
+        "chitima chirefu nemarori mashanu"
+      ],
+      "correct_answer": "makombi machena maviri negonyeti guru rimwe chete",
+      "explanation": "'Makombi machena maviri' = 'two white minibuses', and 'negonyeti guru rimwe chete' = 'and one large haulage truck'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Rural Transport: What is 'ngoro yemadhongi'?",
+      "options": [
+        "A passenger train",
+        "A wooden canoe on the river",
+        "A donkey-drawn cart",
+        "A mountain bicycle"
+      ],
+      "correct_answer": "A donkey-drawn cart",
+      "explanation": "'Ngoro' is a cart/wagon and 'yemadhongi' means 'of donkeys' (donkey-drawn)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Participles ('-chi-'): In 'Vanhu vakamira parutivi pemugwagwa vachimirira bhazi', what does 'vachimirira' mean?",
+      "options": [
+        "after they boarded",
+        "because they missed",
+        "they will never wait for",
+        "while waiting for (they waiting for)"
+      ],
+      "correct_answer": "while waiting for (they waiting for)",
+      "explanation": "The participial marker '-chi-' in 'vachimirira' means 'while waiting for'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 8 — Location Phrases: What does 'parutivi pemugwagwa' mean?",
+      "options": [
+        "beside the road / on the side of the road",
+        "in the middle of the bridge",
+        "at the end of the journey",
+        "inside the bus station"
+      ],
+      "correct_answer": "beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'at the side of / beside', and 'mugwagwa' is 'road'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 8 — Translate this new review sentence: ' Motokari dzakamira parobhoti nokuti mwenje mutsvuku wakabaka.'",
+      "options": [
+        "The white minibus is turning left near the big shop.",
+        "The cars are stopped at the traffic light because the red light is on.",
+        "People are crossing the street in the city centre.",
+        "The haulage truck is carrying goods to the market."
+      ],
+      "correct_answer": "The cars are stopped at the traffic light because the red light is on.",
+      "explanation": "'Motokari dzakamira parobhoti' = 'The cars are stopped at the traffic light', 'nokuti mwenje mutsvuku wakabaka' = 'because the red light is lit/on'."
+    }
+  ]
+}

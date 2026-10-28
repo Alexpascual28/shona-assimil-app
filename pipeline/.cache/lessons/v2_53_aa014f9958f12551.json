@@ -1,0 +1,421 @@
+{
+  "english_translation": "There are two rakes and one garden fork with a black head. All of them have wooden handles. Off to the side, there are two shovels—one with a rusted blade and the other with a bright metal blade—all resting on stony ground.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Pane mahara maviri nefoko ine musoro mutema imwechete. Zvose zvine mibato yemuti.",
+      "english": "There are two rakes and one garden fork with a black head, and all of them have wooden handles.",
+      "literal_gloss": "Pane [on / at ne] • mahara [plural hara] • maviri [plural viri] • nefoko [and / with foko] • ine [ine] • musoro [in / singular soro] • mutema [in / singular tema] • imwechete [imwechete]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mahara",
+          "morpheme_breakdown": "ma- (plural prefix) + -hara",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural hara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maviri",
+          "morpheme_breakdown": "ma- (plural prefix) + -viri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nefoko",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -foko",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with foko",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutema",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tema",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "imwechete",
+          "morpheme_breakdown": "imwechete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwechete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Zvose",
+          "morpheme_breakdown": "zvose (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvose",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvine",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ne",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mibato",
+          "morpheme_breakdown": "mibato (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mibato",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yemuti",
+          "morpheme_breakdown": "yemuti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yemuti",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Parutivi pane mafoshoro maviri. Imwe ine musoro une ngura. Imwe ine musoro muchena. Zvose zviri pasi pane matombo.",
+      "english": "On the side are two shovels—one with a rusty head and one with a bright head—all lying on rocky ground.",
+      "literal_gloss": "Parutivi [on / at rutivi] • pane [on / at ne] • mafoshoro [plural foshoro] • maviri [plural viri] • Imwe [imwe] • ine [ine] • musoro [in / singular soro] • une [une]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Parutivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mafoshoro",
+          "morpheme_breakdown": "ma- (plural prefix) + -foshoro",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural foshoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maviri",
+          "morpheme_breakdown": "ma- (plural prefix) + -viri",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural viri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ngura",
+          "morpheme_breakdown": "ngura (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ngura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Imwe",
+          "morpheme_breakdown": "imwe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "imwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ine",
+          "morpheme_breakdown": "ine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "musoro",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular soro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muchena",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -chena",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular chena",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Zvose",
+          "morpheme_breakdown": "zvose (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvose",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zviri",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ri",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pasi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -si",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at si",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matombo",
+          "morpheme_breakdown": "ma- (plural prefix) + -tombo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tombo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mahara",
+      "morpheme_breakdown": "ma- (plural prefix) + -hara",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural hara",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maviri",
+      "morpheme_breakdown": "ma- (plural prefix) + -viri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nefoko",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -foko",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with foko",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "musoro",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -soro",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular soro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mutema",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tema",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular tema",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "imwechete",
+      "morpheme_breakdown": "imwechete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwechete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Zvose",
+      "morpheme_breakdown": "zvose (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvose",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvine",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -ne",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mibato",
+      "morpheme_breakdown": "mibato (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "mibato",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yemuti",
+      "morpheme_breakdown": "yemuti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yemuti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Parutivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mafoshoro",
+      "morpheme_breakdown": "ma- (plural prefix) + -foshoro",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural foshoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "maviri",
+      "morpheme_breakdown": "ma- (plural prefix) + -viri",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural viri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Imwe",
+      "morpheme_breakdown": "imwe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "imwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ine",
+      "morpheme_breakdown": "ine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ine",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Colours & Describing Objects in Shona ('mutema')",
+      "content": "This passage uses colour vocabulary such as 'mutema'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('maviri')",
+      "content": "In Shona, number words like 'maviri' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('Parutivi')",
+      "content": "Look at how location is expressed with 'Parutivi'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Chitima chichasvika mushure memaminitsi mashanu.'",
+      "options": [
+        "We waited at the bus stop for two hours.",
+        "Three buses left the station this morning.",
+        "This is my third time visiting Masvingo.",
+        "The train will arrive after five minutes."
+      ],
+      "correct_answer": "The train will arrive after five minutes.",
+      "explanation": "'Chitima chichasvika' = 'The train will arrive', 'mushure memaminitsi mashanu' = 'after five minutes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which phrase correctly translates 'three books' in Shona? (Hint: 'mabhuku' is a 'ma-' plural noun.)",
+      "options": [
+        "mabhuku matatu",
+        "mabhuku maviri",
+        "mabhuku mana",
+        "bhuku rimwe chete"
+      ],
+      "correct_answer": "mabhuku matatu",
+      "explanation": "The number stem '-tatu' (three) takes the 'ma-' prefix to match 'mabhuku' -> 'mabhuku matatu'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new family sentence into English: 'Hanzvadzi yangu inoshanda muguta reHarare.'",
+      "options": [
+        "My parents live at the rural homestead in Masvingo.",
+        "My sibling works in the city of Harare.",
+        "My friend passed all her school examinations this year.",
+        "The baby is sleeping quietly inside the bedroom."
+      ],
+      "correct_answer": "My sibling works in the city of Harare.",
+      "explanation": "'Hanzvadzi yangu' = 'My sibling (brother/sister)', 'inoshanda' = 'works', 'muguta reHarare' = 'in the city of Harare'."
+    }
+  ]
+}

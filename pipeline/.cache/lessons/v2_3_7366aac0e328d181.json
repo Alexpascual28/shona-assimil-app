@@ -1,0 +1,119 @@
+{
+  "english_translation": "Congratulations on your success!",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Makorokoto nekubudirira kwenyu!",
+      "english": "Congratulations on your success!",
+      "literal_gloss": "Makorokoto [congratulations!] • nekubudirira [and / with kubudirira] • kwenyu [kwenyu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Makorokoto",
+          "morpheme_breakdown": "ma- (plural) + -korokoto",
+          "noun_class_or_concord": "Exclamation",
+          "literal_english": "congratulations!",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nekubudirira",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -kubudirira",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with kubudirira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwenyu",
+          "morpheme_breakdown": "kwenyu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwenyu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Makorokoto",
+      "morpheme_breakdown": "ma- (plural) + -korokoto",
+      "noun_class_or_concord": "Exclamation",
+      "literal_english": "congratulations!",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nekubudirira",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -kubudirira",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with kubudirira",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kwenyu",
+      "morpheme_breakdown": "kwenyu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "kwenyu",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Celebrating Milestones with 'Makorokoto!'",
+      "content": "The exclamation 'Makorokoto!' means 'Congratulations!'. To specify what you are congratulating someone for, attach the prefix 'ne-' ('for / with') directly to an infinitive verb starting with 'ku-'. In this sentence, 'nekubudirira' combines 'ne-' (for) + 'kubudirira' (to succeed), literally meaning 'for succeeding'.",
+      "rule": "Makorokoto + ne- + ku-[verb] = Congratulations on [doing something]! (e.g., Makorokoto nekubudirira!)"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('kwenyu')",
+      "content": "In Shona, possessive words like 'kwenyu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'nekubudirira'",
+      "content": "Look closely at 'nekubudirira'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'kubudirira' forms 'nekubudirira'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Celebrating Shared Success ('Makorokoto!')",
+      "content": "Whenever someone passes an exam, starts a new job, welcomes a child, or achieves a goal, friends, neighbours, and family gather to say 'Makorokoto!' ('Congratulations!'). Success in Shona culture is celebrated as a shared achievement for the whole family and community, often accompanied by handshakes, ululation ('kupururudza'), and words of encouragement.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'Mhoro' and 'Mhoroi'?",
+      "options": [
+        "'Mhoro' is used only at night, while 'Mhoroi' is used in the morning",
+        "'Mhoro' means goodbye, while 'Mhoroi' means welcome",
+        "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+        "'Mhoro' is used in shops, while 'Mhoroi' is used only at school"
+      ],
+      "correct_answer": "'Mhoro' is for one peer/child, while 'Mhoroi' is for an elder or a group of people",
+      "explanation": "Adding '-i' ('Mhoro' -> 'Mhoroi') shows plural or respectful address."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you form ordinal numbers like 'first', 'second', and 'third' in Shona?",
+      "options": [
+        "Place the word 'nhamba' after the verb",
+        "Repeat the cardinal number twice",
+        "Add '-ka-' before the noun",
+        "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix"
+      ],
+      "correct_answer": "Attach '-ekutanga' (first), '-echipiri' (second), and '-echitatu' (third) with the noun's possessive prefix",
+      "explanation": "Ordinal numbers use '-ekutanga' (1st), '-echipiri' (2nd), '-echitatu' (3rd), e.g., 'zuva rechitatu' ('the third day')."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "english_translation": "Congratulations, you have succeeded!",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Makorokoto, wabudirira!",
+      "english": "Congratulations, you have succeeded!",
+      "literal_gloss": "Makorokoto [congratulations!] • wabudirira [wabudirira]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Makorokoto",
+          "morpheme_breakdown": "ma- (plural) + -korokoto",
+          "noun_class_or_concord": "Exclamation",
+          "literal_english": "congratulations!",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wabudirira",
+          "morpheme_breakdown": "wabudirira (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wabudirira",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Makorokoto",
+      "morpheme_breakdown": "ma- (plural) + -korokoto",
+      "noun_class_or_concord": "Exclamation",
+      "literal_english": "congratulations!",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wabudirira",
+      "morpheme_breakdown": "wabudirira (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wabudirira",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Celebrating Milestones with 'Makorokoto!'",
+      "content": "The exclamation 'Makorokoto!' means 'Congratulations!'. To specify what you are congratulating someone for, attach the prefix 'ne-' ('for / with') directly to an infinitive verb starting with 'ku-'. In this sentence, 'nekubudirira' combines 'ne-' (for) + 'kubudirira' (to succeed), literally meaning 'for succeeding'.",
+      "rule": "Makorokoto + ne- + ku-[verb] = Congratulations on [doing something]! (e.g., Makorokoto nekubudirira!)"
+    },
+    {
+      "title": "Talking About the Past ('wabudirira')",
+      "content": "The verb 'wabudirira' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Makorokoto, wabudirira!', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Celebrating Shared Success ('Makorokoto!')",
+      "content": "Whenever someone passes an exam, starts a new job, welcomes a child, or achieves a goal, friends, neighbours, and family gather to say 'Makorokoto!' ('Congratulations!'). Success in Shona culture is celebrated as a shared achievement for the whole family and community, often accompanied by handshakes, ululation ('kupururudza'), and words of encouragement.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new morning exchange into English: 'Mangwanani baba, mamuka sei?'",
+      "options": [
+        "Good morning Father, how did you wake up?",
+        "Good evening Mother, how was your day?",
+        "Hello my friend, where are you going today?",
+        "Congratulations on finishing your studies!"
+      ],
+      "correct_answer": "Good morning Father, how did you wake up?",
+      "explanation": "'Mangwanani' = 'Good morning', 'baba' = 'Father', and 'mamuka sei?' = 'how did you wake up?'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "If a friend asks you in the afternoon 'Waswera sei?', what is the natural reply?",
+      "options": [
+        "Ndamuka kana wamukawo.",
+        "Ndaswera kana waswerawo.",
+        "Mangwanani akanaka.",
+        "Ndakabika sadza nezuro."
+      ],
+      "correct_answer": "Ndaswera kana waswerawo.",
+      "explanation": "In Shona, you reply to 'Waswera sei?' ('How did you spend the day?') with 'Ndaswera kana waswerawo' ('I spent the day well if you spent it well too')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Take the water and drink it.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    }
+  ]
+}

@@ -34,7 +34,7 @@ export const PassiveSteps: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Passive Phase: Blind Listening</h3>
             <p className="text-sm text-slate-400 leading-relaxed max-w-md mx-auto">
-              Focus entirely on the acoustics, rhythms, and high/low tonal melodies of the spoken Central Shona. Do not worry about spelling or grammar yet.
+              Focus entirely on the acoustics, rhythms, and high/low tonal melodies of the spoken Shona. Do not worry about spelling or grammar yet.
             </p>
           </div>
 
@@ -112,7 +112,7 @@ export const PassiveSteps: React.FC = () => {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-800">
                 <span className="w-3 h-3 rounded-full bg-amber-400 animate-ping"></span>
                 <h4 className="text-sm font-bold text-amber-400 uppercase tracking-wider">
-                  Shona Transcript (ChiZezuru)
+                  Shona Transcript
                 </h4>
               </div>
               <div className="divide-y divide-slate-800/60">
@@ -237,7 +237,7 @@ export const PassiveSteps: React.FC = () => {
             {/* Shona column */}
             <div className="bg-slate-900/90 border border-amber-500/30 rounded-2xl p-5 shadow-xl">
               <h4 className="text-sm font-bold text-amber-400 uppercase tracking-wider pb-3 mb-3 border-b border-slate-800">
-                Read Aloud (ChiZezuru)
+                Read Aloud (Shona)
               </h4>
               <div className="divide-y divide-slate-800/60">
                 {currentLesson.dialogue.map((line) => (

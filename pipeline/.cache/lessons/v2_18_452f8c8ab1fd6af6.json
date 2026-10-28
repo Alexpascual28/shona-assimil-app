@@ -1,0 +1,175 @@
+{
+  "english_translation": "Have you seen my book? I left it near the window.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Wamboona bhuku rangu here? ndarisiya pedyo nepahwindo.",
+      "english": "Have you seen my book? I left it near the window.",
+      "literal_gloss": "Wamboona [wamboona] • bhuku [book] • rangu [rangu] • here [(yes/no question marker)] • ndarisiya [ndarisiya] • pedyo [pedyo] • nepahwindo [and / with pahwindo]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Wamboona",
+          "morpheme_breakdown": "wamboona (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wamboona",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "bhuku",
+          "morpheme_breakdown": "bhuku (book)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "book",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rangu",
+          "morpheme_breakdown": "rangu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rangu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ndarisiya",
+          "morpheme_breakdown": "ndarisiya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ndarisiya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pedyo",
+          "morpheme_breakdown": "pedyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pedyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nepahwindo",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -pahwindo",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with pahwindo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Wamboona",
+      "morpheme_breakdown": "wamboona (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wamboona",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "bhuku",
+      "morpheme_breakdown": "bhuku (book)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "book",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rangu",
+      "morpheme_breakdown": "rangu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rangu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ndarisiya",
+      "morpheme_breakdown": "ndarisiya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ndarisiya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pedyo",
+      "morpheme_breakdown": "pedyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pedyo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nepahwindo",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -pahwindo",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with pahwindo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('pedyo')",
+      "content": "Look at how location is expressed with 'pedyo'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('rangu')",
+      "content": "In Shona, possessive words like 'rangu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'Have you seen my book? I left it near the window.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Choose the right locative prefix: You want to say 'The keys are ON the table' ('______tafura').",
+      "options": [
+        "kutafura",
+        "mutafura",
+        "patafura",
+        "netafura"
+      ],
+      "correct_answer": "patafura",
+      "explanation": "The prefix 'pa-' means 'on / at a specific surface', so 'pa-' + 'tafura' = 'patafura' ('on the table')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre",
+        "'mumba' means inside the house, while 'panze' means outside"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this new sentence in the past tense: 'Nezuro amai ______ sadza nenyama.' (Yesterday Mother cooked sadza and meat.)",
+      "options": [
+        "vakabika",
+        "vanozobika",
+        "vari kubika",
+        "ndichabika"
+      ],
+      "correct_answer": "vakabika",
+      "explanation": "'Amai' takes the respectful plural past prefix 'vaka-' + '-bika' (cook) -> 'vakabika' ('cooked')."
+    }
+  ]
+}

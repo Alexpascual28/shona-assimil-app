@@ -1,0 +1,189 @@
+{
+  "english_translation": "Have you ever visited the heritage sites that preserve the ancient history of our country?",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Wakamboenda kunzvimbo dzinochengetedza nhoroondo dzenyika yedu yekare here?",
+      "english": "Have you ever visited the heritage sites that preserve the ancient history of our country?",
+      "literal_gloss": "Wakamboenda [you/he (past) mboenda] • kunzvimbo [to / at nzvimbo] • dzinochengetedza [dzinochengetedza] • nhoroondo [nhoroondo] • dzenyika [dzenyika] • yedu [yedu] • yekare [yekare] • here [(yes/no question marker)]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Wakamboenda",
+          "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -mboenda",
+          "noun_class_or_concord": "Past Tense Verb",
+          "literal_english": "you/he (past) mboenda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kunzvimbo",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzvimbo",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzinochengetedza",
+          "morpheme_breakdown": "dzinochengetedza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzinochengetedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhoroondo",
+          "morpheme_breakdown": "nhoroondo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nhoroondo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzenyika",
+          "morpheme_breakdown": "dzenyika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzenyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yedu",
+          "morpheme_breakdown": "yedu (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yedu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekare",
+          "morpheme_breakdown": "yekare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "here",
+          "morpheme_breakdown": "here (question marker)",
+          "noun_class_or_concord": "Question Particle",
+          "literal_english": "(yes/no question marker)",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Wakamboenda",
+      "morpheme_breakdown": "wa- (you/he) + -ka- (past) + -mboenda",
+      "noun_class_or_concord": "Past Tense Verb",
+      "literal_english": "you/he (past) mboenda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kunzvimbo",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -nzvimbo",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at nzvimbo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzinochengetedza",
+      "morpheme_breakdown": "dzinochengetedza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzinochengetedza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhoroondo",
+      "morpheme_breakdown": "nhoroondo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "nhoroondo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dzenyika",
+      "morpheme_breakdown": "dzenyika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dzenyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yedu",
+      "morpheme_breakdown": "yedu (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yedu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekare",
+      "morpheme_breakdown": "yekare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "here",
+      "morpheme_breakdown": "here (question marker)",
+      "noun_class_or_concord": "Question Particle",
+      "literal_english": "(yes/no question marker)",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('Wakamboenda')",
+      "content": "The verb 'Wakamboenda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Asking Questions in Shona ('here', 'sei', 'ndeipi')",
+      "content": "Forming a yes/no question in Shona is remarkably easy: keep the normal statement word order and simply add the question word 'here' at the very end of the sentence! For example, 'Mvura ichanaya mangwana' ('It will rain tomorrow') becomes 'Mvura ichanaya here mangwana?' ('Will it rain tomorrow?'). For open questions, use 'sei?' ('how / why?', as in 'Wakafamba sei?' = 'How did you travel?') or 'ndeipi?' ('which one?', as in 'Ndeipi mota?' = 'Which car?').",
+      "rule": "Statement + here? = Yes/No Question | Verb + sei? = How? | Ndeipi + Noun? = Which [noun]?"
+    },
+    {
+      "title": "Possessive Pronouns: Saying 'My', 'Your', and 'Our' ('yedu')",
+      "content": "In Shona, possessive words like 'yedu' ('my/your/our/their') always follow the noun they belong to! The six core possessive stems are '-ngu' (my), '-ko' (your), '-ke' (his/her/its), '-du' (our), '-nyu' (your plural/polite), and '-vo' (their). A short linking sound ('wa-', 'ya-', 'ra-', 'cha-', 'dza-', 'ma-') attaches to the front of the stem to match the noun: for example, 'shamwari yangu' (my friend), 'munda wako' (your field), 'mabhuku edu' (our books), and 'kubudirira kwenyu' (your success).",
+      "rule": "Noun + [Linking Prefix + -ngu (my) / -ko (your) / -ke (his/her) / -du (our) / -nyu (your polite) / -vo (their)]"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Ancestral Roots ('Kumusha') & Great Zimbabwe Heritage",
+      "content": "Even for families who live and work in cities like Harare, the rural family homestead ('kumusha')—where grandparents ('mbuya' and 'sekuru') often live—remains the spiritual and cultural heart of the family. Travelling 'kumusha' during holidays strengthens family bonds. On a national scale, the dry-stone walls of Great Zimbabwe ('Masvingo eGreat Zimbabwe'), built centuries ago without mortar, gave modern Zimbabwe its name ('Dzimba dzemabwe' — Houses of Stone).",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you politely ask someone to speak softly ('taura zvinyoronyoro')?",
+      "options": [
+        "Taurai zvinonzwika kwazvo!",
+        "Ndapota taurai zvinyoronyoro.",
+        " Vhara musuwo nekukasira.",
+        "Rega kutaura neshamwari yako."
+      ],
+      "correct_answer": "Ndapota taurai zvinyoronyoro.",
+      "explanation": "'Ndapota' = 'Please', 'taurai' = polite plural imperative of 'taura' (speak), 'zvinyoronyoro' = 'softly / gently'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Baba vari mumba asi vana vari kutamba panze.'",
+      "options": [
+        "Mother went to the market to buy fruit and vegetables.",
+        "The books and keys are lying on the table.",
+        "Father is in the house, but the children are playing outside.",
+        "We are going to the rural home tomorrow morning."
+      ],
+      "correct_answer": "Father is in the house, but the children are playing outside.",
+      "explanation": "'Baba vari mumba' = 'Father is in the house', 'asi' = 'but', 'vana vari kutamba panze' = 'the children are playing outside'."
+    }
+  ]
+}

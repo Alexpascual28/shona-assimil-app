@@ -1,0 +1,161 @@
+{
+  "english_translation": "Be sure to arrive here in the evening so that we can eat together.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ugosvika pano manhero kuti tigozodya tese.",
+      "english": "Be sure to arrive here in the evening so that we can eat together.",
+      "literal_gloss": "Ugosvika [ugosvika] • pano [right here (at this spot)] • manhero [in the evening] • kuti [that / so that] • tigozodya [tigozodya] • tese [tese]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ugosvika",
+          "morpheme_breakdown": "ugosvika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ugosvika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pano",
+          "morpheme_breakdown": "pa- (at) + -no (right here)",
+          "noun_class_or_concord": "Location Word",
+          "literal_english": "right here (at this spot)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "manhero",
+          "morpheme_breakdown": "ma- (plural) + -nhero (evening)",
+          "noun_class_or_concord": "Time Noun",
+          "literal_english": "in the evening",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tigozodya",
+          "morpheme_breakdown": "tigozodya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tigozodya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tese",
+          "morpheme_breakdown": "tese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tese",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ugosvika",
+      "morpheme_breakdown": "ugosvika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "ugosvika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pano",
+      "morpheme_breakdown": "pa- (at) + -no (right here)",
+      "noun_class_or_concord": "Location Word",
+      "literal_english": "right here (at this spot)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "manhero",
+      "morpheme_breakdown": "ma- (plural) + -nhero (evening)",
+      "noun_class_or_concord": "Time Noun",
+      "literal_english": "in the evening",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tigozodya",
+      "morpheme_breakdown": "tigozodya (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tigozodya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tese",
+      "morpheme_breakdown": "tese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tese",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Shona Greetings & Time of Day ('manhero')",
+      "content": "In this lesson you encounter 'manhero'. Shona greetings change depending on the time of day and how many people you are addressing. 'Mangwanani' is used in the morning, 'Masikati' in the afternoon, and 'Manheru' in the evening. For a casual 'Hello' to a friend or peer, use 'Mhoro' (or 'Mhoroi' when speaking politely to an elder or group). To ask 'How are you?', speakers use 'Makadini?' (polite/plural) or ask how your day went with 'Waswera sei?' ('How did you spend the day?').",
+      "rule": "Morning: Mangwanani | Afternoon: Masikati | Evening: Manheru | How are you?: Makadini? / Wakadii?"
+    },
+    {
+      "title": "Connecting Clauses & Expressing Purpose with 'kuti'",
+      "content": "The connector 'kuti' is one of the most useful words in Shona. After verbs of speaking, thinking, or knowing (like 'akati' = said, 'unofunga' = you think, 'ndinoziva' = I know), 'kuti' means 'that'. However, when placed after an action verb, 'kuti' means 'so that / in order to', and the following verb changes its final vowel from '-a' to '-e'! For instance, '-dya' (eat) becomes 'kuti tidye' ('so that we may eat'), and '-wana' (get) becomes 'kuti uwane' ('so that you may get').",
+      "rule": "kuti + [Subject Prefix + Verb ending in -e] = 'so that [someone] may...' (e.g., kuti tidye = so that we eat)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ugosvika pano manhero kuti tigozodya tese.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'Be sure to arrive here in the evening so that we can eat together.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How would you say 'Open the door quickly!' in Shona using the vocabulary pattern from this unit?",
+      "options": [
+        "Vhara hwindo zvishoma!",
+        "Musuwo uri kuvhurwa mangwana.",
+        "Ndakavhara musuwo nezuro.",
+        "Vhura musuwo nekukasira!"
+      ],
+      "correct_answer": "Vhura musuwo nekukasira!",
+      "explanation": "'Vhura' means 'open!', 'musuwo' is 'door', and 'nekukasira' (or 'nekukurumidza') means 'quickly'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Tora mvura uinwe.'",
+      "options": [
+        "Take the water and drink it.",
+        "Put the cup on the table before you leave.",
+        "Close the window because it is cold outside.",
+        "Come here and help me carry the books."
+      ],
+      "correct_answer": "Take the water and drink it.",
+      "explanation": "'Tora' = 'Take', 'mvura' = 'water', and 'uinwe' = 'and drink it'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    }
+  ]
+}

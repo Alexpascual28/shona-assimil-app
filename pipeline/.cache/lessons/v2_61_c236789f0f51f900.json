@@ -1,0 +1,654 @@
+{
+  "english_translation": "People have gathered in an open field carrying buckets and containers to fetch water, beside a raised Jojo water tank mounted on a brick stand from which they draw water. Nearby grows a variety of trees including a mango tree with green leaves, alongside flowers with green leaves and pink blossoms near a fence. A light-complexioned woman has neatly styled her eyebrows, applied makeup, put on white earrings and a sleeveless black-and-white top, and tied her hair back.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Vanhu vakaungana mubani vese vane migomo zvinove zvigubu zvekuratidza kuti varikucherera mvura parutivi pavo pane Jojo tengi rakavakirwa pamusoro rikatsveta pamusoro pechi mudhuri zvichiratidza kuti ndimo murikubva mvura yavari kuchereredza.",
+      "english": "People gathered in the open plain all have buckets and containers to fetch water from a raised Jojo water tank mounted on a small wall beside them.",
+      "literal_gloss": "Vanhu [people] • vakaungana [they (past) ungana] • mubani [in / singular bani] • vese [vese] • vane [people ne] • migomo [migomo] • zvinove [things nove] • zvigubu [things gubu]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakaungana",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -ungana",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) ungana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mubani",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -bani",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular bani",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vese",
+          "morpheme_breakdown": "vese (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "vese",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vane",
+          "morpheme_breakdown": "va- (plural people prefix) + -ne",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "migomo",
+          "morpheme_breakdown": "migomo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "migomo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvinove",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -nove",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things nove",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvigubu",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -gubu",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things gubu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvekuratidza",
+          "morpheme_breakdown": "zvekuratidza (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvekuratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "varikucherera",
+          "morpheme_breakdown": "vari (they are) + ku- (doing) + -cherera",
+          "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+          "literal_english": "they are cherera",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "parutivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at rutivi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pavo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -vo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at vo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Jojo",
+          "morpheme_breakdown": "jojo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "jojo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tengi",
+          "morpheme_breakdown": "tengi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tengi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakavakirwa",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -vakirwa",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) vakirwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Nzvimbo inemiti yakasiyana siyana inosanganisira muti wemumango. Muti wemumango una mashizha aneruvara rwegirinhi.",
+      "english": "The area has various trees including a mango tree, which has green leaves.",
+      "literal_gloss": "Nzvimbo [nzvimbo] • inemiti [inemiti] • yakasiyana [it (past) siyana] • siyana [siyana] • inosanganisira [it sanganisira] • muti [tree] • wemumango [wemumango] • Muti [tree]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Nzvimbo",
+          "morpheme_breakdown": "nzvimbo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nzvimbo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inemiti",
+          "morpheme_breakdown": "inemiti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "inemiti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakasiyana",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -siyana",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) siyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "siyana",
+          "morpheme_breakdown": "siyana (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "siyana",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inosanganisira",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -sanganisira",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it sanganisira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemumango",
+          "morpheme_breakdown": "wemumango (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemumango",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Muti",
+          "morpheme_breakdown": "mu- (singular) + -ti (tree)",
+          "noun_class_or_concord": "Singular Noun (mu-)",
+          "literal_english": "tree",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wemumango",
+          "morpheme_breakdown": "wemumango (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wemumango",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "una",
+          "morpheme_breakdown": "una (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "una",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aneruvara",
+          "morpheme_breakdown": "aneruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aneruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirinhi",
+          "morpheme_breakdown": "rwegirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirinhi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Koita zvakare maruva aripedyo neruzhowa. Maruva aya anamashizha aneruvara rwegirinhi neruvara rwepingi.",
+      "english": "There are also flowers near the fence with green leaves and pink petals.",
+      "literal_gloss": "Koita [koita] • zvakare [zvakare] • maruva [flowers] • aripedyo [he/she is pedyo] • neruzhowa [and / with ruzhowa] • Maruva [flowers] • aya [aya] • anamashizha [anamashizha]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Koita",
+          "morpheme_breakdown": "koita (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "koita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "maruva",
+          "morpheme_breakdown": "ma- (plural) + -ruva (flowers)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "flowers",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aripedyo",
+          "morpheme_breakdown": "a- (he/she) + -ri (is) + -pedyo",
+          "noun_class_or_concord": "Present Helper Verb (he/she is)",
+          "literal_english": "he/she is pedyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruzhowa",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruzhowa",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruzhowa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "Maruva",
+          "morpheme_breakdown": "ma- (plural) + -ruva (flowers)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "flowers",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aya",
+          "morpheme_breakdown": "aya (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anamashizha",
+          "morpheme_breakdown": "anamashizha (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "anamashizha",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "aneruvara",
+          "morpheme_breakdown": "aneruvara (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "aneruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwegirinhi",
+          "morpheme_breakdown": "rwegirinhi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwegirinhi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neruvara",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -ruvara",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwepingi",
+          "morpheme_breakdown": "rwepingi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwepingi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "shona": "Mudzimai mutsvuku akashongedza kumeso kwake akanyora tsiye dzake zvakanaka akapenda kumeso kwake nokupenda miromo yake akapfeka mhete munzeve make dzeruvara ruchena akapfeka hembe isina maoko neruvara ruchena neruvara rutema akagadzira musoro wake zvakanaka.",
+      "english": "A woman has neatly groomed her face and eyebrows, wearing white earrings and a sleeveless black-and-white top with her hair styled neatly.",
+      "literal_gloss": "Mudzimai [in / singular dzimai] • mutsvuku [in / singular tsvuku] • akashongedza [he/she (past) shongedza] • kumeso [to / at meso] • kwake [kwake] • akanyora [he/she (past) nyora] • tsiye [tsiye] • dzake [dzake]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mudzimai",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -dzimai",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular dzimai",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mutsvuku",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -tsvuku",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular tsvuku",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akashongedza",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -shongedza",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) shongedza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumeso",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -meso",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at meso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwake",
+          "morpheme_breakdown": "kwake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akanyora",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -nyora",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) nyora",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tsiye",
+          "morpheme_breakdown": "tsiye (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tsiye",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dzake",
+          "morpheme_breakdown": "dzake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dzake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvakanaka",
+          "morpheme_breakdown": "zva- + -ka- + -naka (be good)",
+          "noun_class_or_concord": "Adverb",
+          "literal_english": "well / nicely / very good",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapenda",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -penda",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) penda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kumeso",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -meso",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at meso",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kwake",
+          "morpheme_breakdown": "kwake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "kwake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nokupenda",
+          "morpheme_breakdown": "nokupenda (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "nokupenda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "miromo",
+          "morpheme_breakdown": "miromo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "miromo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yake",
+          "morpheme_breakdown": "yake (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yake",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akapfeka",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -pfeka",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) pfeka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mhete",
+          "morpheme_breakdown": "mhete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "mhete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "munzeve",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -nzeve",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular nzeve",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakaungana",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -ungana",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) ungana",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mubani",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -bani",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular bani",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vese",
+      "morpheme_breakdown": "vese (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "vese",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vane",
+      "morpheme_breakdown": "va- (plural people prefix) + -ne",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "migomo",
+      "morpheme_breakdown": "migomo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "migomo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvinove",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -nove",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things nove",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvigubu",
+      "morpheme_breakdown": "zvi- (plural things prefix) + -gubu",
+      "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+      "literal_english": "things gubu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zvekuratidza",
+      "morpheme_breakdown": "zvekuratidza (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvekuratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "varikucherera",
+      "morpheme_breakdown": "vari (they are) + ku- (doing) + -cherera",
+      "noun_class_or_concord": "Present Progressive (they are ...-ing)",
+      "literal_english": "they are cherera",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mvura",
+      "morpheme_breakdown": "mvura (water / rain)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "water / rain",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "parutivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -rutivi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at rutivi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pavo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -vo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at vo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Jojo",
+      "morpheme_breakdown": "jojo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "jojo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tengi",
+      "morpheme_breakdown": "tengi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tengi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakavakirwa",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -vakirwa",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) vakirwa",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakaungana')",
+      "content": "The verb 'vakaungana' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('zvinove')",
+      "content": "The verb 'zvinove' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwuchena",
+        "rwutsvuku",
+        "rwegirinhi"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Mukoma wangu akatenga mota chena nezuro.'",
+      "options": [
+        "My older brother bought a white car yesterday.",
+        "My sister is wearing a red dress today.",
+        "Which bus goes to the city centre?",
+        "The black truck is parked beside the road."
+      ],
+      "correct_answer": "My older brother bought a white car yesterday.",
+      "explanation": "'Mukoma wangu' = 'My older brother', 'akatenga' = 'bought', 'mota chena' = 'a white car', 'nezuro' = 'yesterday'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What is the difference between 'mumba' and 'panze'?",
+      "options": [
+        "'mumba' means at school, while 'panze' means at work",
+        "'mumba' means inside the house, while 'panze' means outside",
+        "'mumba' means on the roof, while 'panze' means in the kitchen",
+        "'mumba' means rural village, while 'panze' means city centre"
+      ],
+      "correct_answer": "'mumba' means inside the house, while 'panze' means outside",
+      "explanation": "'Mu-' denotes 'inside' ('mumba' = inside the house), whereas 'panze' means 'outside in the yard'."
+    }
+  ]
+}

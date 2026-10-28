@@ -1,0 +1,161 @@
+{
+  "english_translation": "I want to eat sadza with delicious relish today.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Ndinoda kudya sadza neusavi hwakanaka nhasi.",
+      "english": "I want to eat sadza with delicious relish today.",
+      "literal_gloss": "Ndinoda [I da] • kudya [to / at dya] • sadza [sadza (staple maize dish)] • neusavi [and / with usavi] • hwakanaka [hwakanaka] • nhasi [today]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Ndinoda",
+          "morpheme_breakdown": "ndi- (I) + -no- (present) + -da",
+          "noun_class_or_concord": "Present Tense Verb (I ...)",
+          "literal_english": "I da",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kudya",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -dya",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at dya",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "sadza",
+          "morpheme_breakdown": "sadza (thick maize porridge)",
+          "noun_class_or_concord": "Noun (ri-/ma-)",
+          "literal_english": "sadza (staple maize dish)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "neusavi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -usavi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with usavi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "hwakanaka",
+          "morpheme_breakdown": "hwakanaka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "hwakanaka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nhasi",
+          "morpheme_breakdown": "nhasi (today)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "today",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Ndinoda",
+      "morpheme_breakdown": "ndi- (I) + -no- (present) + -da",
+      "noun_class_or_concord": "Present Tense Verb (I ...)",
+      "literal_english": "I da",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kudya",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -dya",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at dya",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "sadza",
+      "morpheme_breakdown": "sadza (thick maize porridge)",
+      "noun_class_or_concord": "Noun (ri-/ma-)",
+      "literal_english": "sadza (staple maize dish)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "neusavi",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -usavi",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with usavi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "hwakanaka",
+      "morpheme_breakdown": "hwakanaka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "hwakanaka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nhasi",
+      "morpheme_breakdown": "nhasi (today)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "today",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('Ndinoda')",
+      "content": "The verb 'Ndinoda' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Joining Words with 'ne-' ('and / with') in 'neusavi'",
+      "content": "Look closely at 'neusavi'. In Shona, the word for 'and' or 'with' between nouns is not a separate word—instead, the prefix 'ne-' (or 'na-' before people's names) is written attached directly to the second noun! For example, 'ne-' + 'usavi' forms 'neusavi'. You will see this everywhere in daily speech: 'sadza nemuriwo' ('sadza and vegetables'), 'nesimba' ('with strength'), and 'nekukasira' ('with haste / quickly').",
+      "rule": "ne- + Noun = and / with [Noun] (written as a single word, e.g., sadza nemuriwo = sadza and vegetables)"
+    },
+    {
+      "title": "How Shona Sentences Fit Together (Subject + Tense + Verb)",
+      "content": "In 'Ndinoda kudya sadza neusavi hwakanaka nhasi.', notice how a single Shona verb word packs together who is doing the action (the subject prefix), when it happens (the tense marker), and the action itself (the verb stem). Once you recognize the building blocks at the start of the verb—like 'ndi-' (I), 'u-' (you), 'ti-' (we), or 'va-' (they)—you can immediately spot the subject even when no separate pronoun word is used!",
+      "rule": "[Who (Subject Prefix)] + [When (Tense Marker)] + [Action (Verb Root)] -> e.g., ti- (we) + -cha- (will) + -svika (arrive) = tichasvika"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Zimbabwean Cuisine: Sadza, Relish & Traditional Foods",
+      "content": "At the heart of Zimbabwean home cooking is 'sadza'—a thick, smooth porridge made from white maize meal ('hupfu') cooked with water. Sadza is always served with a savoury accompaniment called 'usavi' (relish), most commonly leafy green vegetables ('muriwo') sautéed with tomatoes, onions, and cooking oil ('mafuta'), or meat ('nyama'). Beloved traditional delicacies also include roasted groundnuts ('nzungu'), cowpeas ('nyemba'), and protein-rich mopane caterpillars ('madora') pan-roasted with tomatoes and onions.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Add a little salt to the vegetables' in Shona?",
+      "options": [
+        "Tenga shuga zhinji kuchitoro.",
+        "Isa munyu mushoma mumuriwo.",
+        "Bika hupfu nemvura inopisa.",
+        " Cheka chingwa nebangwa."
+      ],
+      "correct_answer": "Isa munyu mushoma mumuriwo.",
+      "explanation": "'Isa' = 'Put/add', 'munyu mushoma' = 'a little salt', 'mumuriwo' = 'in the vegetables'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Hupfu hwapera mumba', why does 'hwapera' ('has run out') start with 'hwa-'?",
+      "options": [
+        "Because 'hwa-' always means tomorrow",
+        "Because it refers to a person cooking in the kitchen",
+        "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+        "Because 'mumba' starts with 'm-'"
+      ],
+      "correct_answer": "Because 'hupfu' (maize meal) belongs to the 'hu-' noun group, which uses 'hwa-' in the recent past",
+      "explanation": "Nouns starting with 'hu-' (like 'hupfu') use 'hu-' / 'hwa-' subject prefixes on the verb."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "What does 'parutivi pemugwagwa' mean in 'Rori yakamira parutivi pemugwagwa'?",
+      "options": [
+        "In the middle of the intersection",
+        "Inside the city parking building",
+        "Across the railway tracks",
+        "Beside the road / on the side of the road"
+      ],
+      "correct_answer": "Beside the road / on the side of the road",
+      "explanation": "'Parutivi pe-' means 'beside / at the side of', and 'mugwagwa' is 'road'."
+    }
+  ]
+}

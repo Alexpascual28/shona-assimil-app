@@ -1,0 +1,161 @@
+{
+  "english_translation": "Father went to Harare, but he will return tomorrow.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Baba vakaenda kuHarare, asi vachadzoka mangwana.",
+      "english": "Father went to Harare, but he will return tomorrow.",
+      "literal_gloss": "Baba [father] • vakaenda [they (past) enda] • kuHarare [to / at harare] • asi [but / however] • vachadzoka [people chadzoka] • mangwana [tomorrow]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Baba",
+          "morpheme_breakdown": "baba (father)",
+          "noun_class_or_concord": "Kinship Noun",
+          "literal_english": "father",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vakaenda",
+          "morpheme_breakdown": "va- (they) + -ka- (past) + -enda",
+          "noun_class_or_concord": "Past Tense Verb (they did ...)",
+          "literal_english": "they (past) enda",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuHarare",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -harare",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at harare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "asi",
+          "morpheme_breakdown": "asi (but)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "but / however",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vachadzoka",
+          "morpheme_breakdown": "va- (plural people prefix) + -chadzoka",
+          "noun_class_or_concord": "Plural Person Prefix (va-)",
+          "literal_english": "people chadzoka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mangwana",
+          "morpheme_breakdown": "mangwana (tomorrow)",
+          "noun_class_or_concord": "Time Word",
+          "literal_english": "tomorrow",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Baba",
+      "morpheme_breakdown": "baba (father)",
+      "noun_class_or_concord": "Kinship Noun",
+      "literal_english": "father",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vakaenda",
+      "morpheme_breakdown": "va- (they) + -ka- (past) + -enda",
+      "noun_class_or_concord": "Past Tense Verb (they did ...)",
+      "literal_english": "they (past) enda",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuHarare",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -harare",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at harare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "asi",
+      "morpheme_breakdown": "asi (but)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "but / however",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vachadzoka",
+      "morpheme_breakdown": "va- (plural people prefix) + -chadzoka",
+      "noun_class_or_concord": "Plural Person Prefix (va-)",
+      "literal_english": "people chadzoka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mangwana",
+      "morpheme_breakdown": "mangwana (tomorrow)",
+      "noun_class_or_concord": "Time Word",
+      "literal_english": "tomorrow",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('vakaenda')",
+      "content": "The verb 'vakaenda' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Talking About the Future with '-cha-' ('vachadzoka')",
+      "content": "Look at 'vachadzoka' in this sentence. Whenever you want to say what 'will' happen in the future, simply place the future marker '-cha-' between the subject prefix and the verb stem. For example, 'ndichabika' means 'I will cook', 'tichasvika' means 'we will arrive', and 'mvura ichanaya' means 'the rain will fall'. Pair it with 'mangwana' ('tomorrow') to talk about tomorrow's plans!",
+      "rule": "Subject Prefix + -cha- + Verb Stem = Future ('will') -> Ndichaenda (I will go), Vachadzoka (They will return)"
+    },
+    {
+      "title": "Talking About Location: 'pa-', 'ku-', and 'mu-' ('kuHarare')",
+      "content": "Look at how location is expressed with 'kuHarare'. Instead of separate prepositions like 'on', 'to', or 'in', Shona attaches one of three location prefixes directly to the front of a noun:\n• 'pa-' means 'at' or 'on' a specific point or surface (e.g., 'patafura' = on the table, 'pamusika' = at the market, 'pasi' = on the ground).\n• 'ku-' means 'to', 'from', or 'at' a general destination (e.g., 'kuchikoro' = to school, 'kumusha' = to the rural home, 'kubasa' = at/to work).\n• 'mu-' means 'inside' an enclosed space (e.g., 'mumba' = inside the house, 'muguta' = in the city, 'mumugwagwa' = in the road).",
+      "rule": "pa- = on / at a point (patafura) | ku- = to / at a place (kuchikoro) | mu- = inside (mumba)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Everyday Communication, Politeness & Community Life",
+      "content": "In everyday Shona conversation (as in 'Father went to Harare, but he will return tomorrow.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'Mbuya vari kurima' instead of 'Mbuya ari kurima' when talking about one grandmother?",
+      "options": [
+        "Because 'mbuya' always refers to three or more people",
+        "Because 'vari' is only used for the future tense",
+        "Because 'ari' can only be used with inanimate objects",
+        "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents"
+      ],
+      "correct_answer": "Shona uses the plural prefix 'va-' ('vari') to show polite respect to elders and parents",
+      "explanation": "In Shona, respected family elders ('amai', 'baba', 'mbuya', 'sekuru') always take the polite plural 'va-' agreement."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new sentence into English: 'Vana vari kudzidzira kunyora bvunzo kuchikoro.'",
+      "options": [
+        "The children are practicing to write examinations at school.",
+        "The teacher gave us new books yesterday morning.",
+        "My grandmother grows groundnuts and maize at the rural home.",
+        "My friend called me after finishing work today."
+      ],
+      "correct_answer": "The children are practicing to write examinations at school.",
+      "explanation": "'Vana vari kudzidzira' = 'The children are practicing', 'kunyora bvunzo' = 'to write exams', 'kuchikoro' = 'at school'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Your friend just passed her driving test! What do you say to congratulate her in Shona?",
+      "options": [
+        "Ndine urombo nebasa rako!",
+        "Makorokoto nekubudirira kwako!",
+        "Famba zvakanaka munzira!",
+        "Ndapota vhura musuwo!"
+      ],
+      "correct_answer": "Makorokoto nekubudirira kwako!",
+      "explanation": "'Makorokoto!' means 'Congratulations!' and 'nekubudirira kwako' means 'on your success'."
+    }
+  ]
+}

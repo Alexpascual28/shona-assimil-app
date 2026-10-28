@@ -1,0 +1,115 @@
+{
+  "review_summary": {
+    "title": "Unit 5 Comprehensive Review (Lessons 29–34)",
+    "sections": [
+      {
+        "heading": "1. Key Expressions & Sentences Reviewed (Lessons 29–34)",
+        "points": [
+          "Lesson 29: \"Ndapedza basa rese saka rega ndimbozorora zvishoma.\" — I have finished all the work, so let me rest for a little while.",
+          "Lesson 30: \"Ndiri kufara nekuona shamwari dzangu dzepachikoro.\" — I am happy to see my friends from school.",
+          "Lesson 31: \"Ndiri kunyora bvunzo dzangu dzekupedzisira svondo rino.\" — I am writing my final examinations this week.",
+          "Lesson 32: \"Mbatya dzangu dziri panze saka ndiri kuda kudziunganidza.\" — My clothes are outside, so I want to gather them in.",
+          "Lesson 33: \"Akadanidzira achiti, \"Batai mbavha iyo!\"\" — He shouted, \"Catch that thief!\"",
+          "Lesson 34: \"Unofunga kuti mvura ichanaya here mangwana?\" — Do you think it will rain tomorrow?"
+        ]
+      },
+      {
+        "heading": "2. Core Shona Grammar Rules Consolidated",
+        "points": [
+          "Talking About the Past ('Ndapedza'): Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb",
+          "Actions Happening Right Now: The '-ri ku-' Progressive: [Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)",
+          "Giving Commands & Polite Requests ('Batai'): Singular Command: Verb stem (-a) [Huya! / Tora!] | Polite or Plural Command: Verb stem + -i (-ai) [Huyai! / Torai!]",
+          "Present Tense & Everyday Actions ('Unofunga'): [ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+        ]
+      },
+      {
+        "heading": "3. Cultural Context & Practical Usage",
+        "points": [
+          "Household Cooperation, Politeness & Consideration at Home: Daily home life in Shona culture revolves around mutual assistance ('kubatsirana') and consideration for others in the household.",
+          "Everyday Communication, Politeness & Community Life: In everyday Shona conversation (as in 'I am happy to see my friends from school.'), speakers place a strong emphasis on politeness, patience, and consideration for others around them—whether asking for help ('ndinokumbirawo undibatsire'), speaking quietly when someone is resting or studying, or sharing news with family at the end of the day..",
+          "Education, School Life & Respect for Teachers: Education ('dzidzo') is deeply valued by Zimbabwean families, who invest great pride in seeing children study hard ('kudzidza nesimba') and pass their school examinations ('kupasa bvunzo')."
+        ]
+      }
+    ]
+  },
+  "key_noun_classes_covered": [
+    "Talking About the Past ('Ndapedza')",
+    "Actions Happening Right Now: The '-ri ku-' Progressive",
+    "Giving Commands & Polite Requests ('Batai')",
+    "Present Tense & Everyday Actions ('Unofunga')"
+  ],
+  "review_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Concessive Clauses ('Kunyangwe'): Which sentence means 'Even though the river is wide, they crossed safely'?",
+      "options": [
+        "Kana rwizi rwuzere, hatigoni kuyambuka nhasi.",
+        "Rwizi urwu runoyerera ruchienda kumabvazuva.",
+        "Vana vari kutamba pedyo nerwizi.",
+        "Kunyangwe rwizi rwakafara, vakayambuka zvakanaka."
+      ],
+      "correct_answer": "Kunyangwe rwizi rwakafara, vakayambuka zvakanaka.",
+      "explanation": "'Kunyangwe' introduces an 'although / even though' clause, followed by 'vakayambuka zvakanaka' ('they crossed safely')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Relative Clauses: What does ' nzira inoenda kumunda' mean?",
+      "options": [
+        "the path that goes to the field",
+        "we are walking along the path",
+        "the field is far from the road",
+        "go to the field tomorrow morning"
+      ],
+      "correct_answer": "the path that goes to the field",
+      "explanation": "'Inoenda' acts as a relative verb modifying 'nzira' ('path') -> 'the path which goes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Passive Voice ('-wa'): How do you say 'The maize was planted in November'?",
+      "options": [
+        "Varimi vanodyara chibage muna Mbudzi.",
+        "Chibage chakadyarwa muna Mbudzi.",
+        "Tichadyara chibage kana mvura yanaya.",
+        "Chibage chiri kukura zvakanaka mumunda."
+      ],
+      "correct_answer": "Chibage chakadyarwa muna Mbudzi.",
+      "explanation": "Adding '-wa' to '-dyara' (plant) forms the passive '-dyarwa' ('was planted')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Reflexive Prefix ('-zvi-'): In 'Anofanira kuzvibata zvakanaka', what does '-zvi-' do?",
+      "options": [
+        "It makes the verb negative",
+        "It refers to plural objects on the table",
+        "It means 'himself / herself / oneself' (to conduct oneself well)",
+        "It indicates the distant past tense"
+      ],
+      "correct_answer": "It means 'himself / herself / oneself' (to conduct oneself well)",
+      "explanation": "The reflexive prefix '-zvi-' placed right before the verb stem means 'oneself' ('kuzvibata' = to behave/control oneself)."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Review 5 — Farming & Harvest: What is the meaning of 'Tarisiro yedu ndeyekuwana goho guru gore rino'?",
+      "options": [
+        "We already sold all our harvest at the market",
+        "Last year the rain was very scarce in our village",
+        "The farmers are repairing their tools in the yard",
+        "Our hope is to obtain a bountiful harvest this year"
+      ],
+      "correct_answer": "Our hope is to obtain a bountiful harvest this year",
+      "explanation": "'Tarisiro yedu' = 'Our hope/expectation', 'ndeyekuwana goho guru' = 'is to obtain a big harvest', 'gore rino' = 'this year'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Review 5 — Translate this new review sentence: 'Mvura yakanaya usiku hwese saka ivhu rakanyorova.'",
+      "options": [
+        "It rained all night long, so the soil is moist.",
+        "The sun shone brightly all day and dried the grass.",
+        "We will plant groundnuts and maize next week.",
+        "The river water is clean and cool in the morning."
+      ],
+      "correct_answer": "It rained all night long, so the soil is moist.",
+      "explanation": "'Mvura yakanaya usiku hwese' = 'It rained the whole night', 'saka' = 'so', 'ivhu rakanyorova' = 'the soil is wet/moist'."
+    }
+  ]
+}

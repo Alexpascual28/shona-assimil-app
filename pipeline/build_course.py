@@ -7,7 +7,7 @@ Examples:
 
     # 2. Pull live Hugging Face datasets and build up to 65 lessons
     python pipeline/build_course.py \
-      --hf-datasets nigeLbasa/inzwi-shona-sample manassehzw/sna-manasseh-150-raw tarirozw/Zambezi_ECHO_v1 \
+      --hf-datasets nigeLbasa/inzwi-shona-sample manassehzw/sna-manasseh-150-raw takuM23/shona-vibevoice-corpus \
       --max-samples 200 --max-Lessons 65
 
     # 3. Append from a local directory without overwriting completed lessons
@@ -255,6 +255,14 @@ def main(argv: list[str] | None = None) -> int:
         course_data.model_dump_json(indent=2),
         encoding="utf-8",
     )
+
+    # Also sync to app/dist/course_data.json if app/dist exists so production builds stay in sync
+    dist_json = PROJECT_ROOT / "app" / "dist" / "course_data.json"
+    if dist_json.parent.exists():
+        dist_json.write_text(
+            course_data.model_dump_json(indent=2),
+            encoding="utf-8",
+        )
 
     logger.info(
         "Successfully wrote %d lessons (%d regular, %d review) to %s",

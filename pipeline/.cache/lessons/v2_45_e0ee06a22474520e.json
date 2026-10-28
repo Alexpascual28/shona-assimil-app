@@ -1,0 +1,358 @@
+{
+  "english_translation": "The national flag has three colours: white, light red, and green. It features a reddish circle set upon the white band in the centre.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Mureza wenyika une mavara matatu anoti, ruvara ruchena, rwakatsvukuruka uye ruvara rwebundo.",
+      "english": "The national flag has three colours: white, light red, and green.",
+      "literal_gloss": "Mureza [in / singular reza] • wenyika [wenyika] • une [une] • mavara [colours] • matatu [plural tatu] • anoti [he/she ti] • ruvara [colour] • ruchena [white]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Mureza",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular reza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "wenyika",
+          "morpheme_breakdown": "wenyika (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "wenyika",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "une",
+          "morpheme_breakdown": "une (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "une",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mavara",
+          "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "colours",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "matatu",
+          "morpheme_breakdown": "ma- (plural prefix) + -tatu",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural tatu",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "anoti",
+          "morpheme_breakdown": "a- (he/she) + -no- (present) + -ti",
+          "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+          "literal_english": "he/she ti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakatsvukuruka",
+          "morpheme_breakdown": "rwakatsvukuruka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakatsvukuruka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwebundo",
+          "morpheme_breakdown": "rwebundo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwebundo",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Rine dendenedzwa rine ruvara rwakatsvukuruka paruvara ruchena rwuri pakati.",
+      "english": "It has a reddish circle on the white stripe in the middle.",
+      "literal_gloss": "Rine [rine] • dendenedzwa [dendenedzwa] • rine [rine] • ruvara [colour] • rwakatsvukuruka [rwakatsvukuruka] • paruvara [on / at ruvara] • ruchena [white] • rwuri [rwuri]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dendenedzwa",
+          "morpheme_breakdown": "dendenedzwa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dendenedzwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruvara",
+          "morpheme_breakdown": "ru- + -vara (colour)",
+          "noun_class_or_concord": "Noun (ru-/ma-)",
+          "literal_english": "colour",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwakatsvukuruka",
+          "morpheme_breakdown": "rwakatsvukuruka (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwakatsvukuruka",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "paruvara",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ruvara",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ruvara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ruchena",
+          "morpheme_breakdown": "ru- + -chena (white)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rwuri",
+          "morpheme_breakdown": "rwuri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rwuri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pakati",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -kati",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at kati",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Mureza",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -reza",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular reza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "wenyika",
+      "morpheme_breakdown": "wenyika (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "wenyika",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "une",
+      "morpheme_breakdown": "une (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "une",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mavara",
+      "morpheme_breakdown": "ma- (plural) + -vara (colours)",
+      "noun_class_or_concord": "Plural Noun (ma-)",
+      "literal_english": "colours",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "matatu",
+      "morpheme_breakdown": "ma- (plural prefix) + -tatu",
+      "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+      "literal_english": "plural tatu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "anoti",
+      "morpheme_breakdown": "a- (he/she) + -no- (present) + -ti",
+      "noun_class_or_concord": "Present Tense Verb (he/she ...)",
+      "literal_english": "he/she ti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruchena",
+      "morpheme_breakdown": "ru- + -chena (white)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "white",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakatsvukuruka",
+      "morpheme_breakdown": "rwakatsvukuruka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakatsvukuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwebundo",
+      "morpheme_breakdown": "rwebundo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwebundo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dendenedzwa",
+      "morpheme_breakdown": "dendenedzwa (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dendenedzwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rine",
+      "morpheme_breakdown": "rine (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rine",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "ruvara",
+      "morpheme_breakdown": "ru- + -vara (colour)",
+      "noun_class_or_concord": "Noun (ru-/ma-)",
+      "literal_english": "colour",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rwakatsvukuruka",
+      "morpheme_breakdown": "rwakatsvukuruka (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "rwakatsvukuruka",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "paruvara",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ruvara",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ruvara",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Present Tense & Everyday Actions ('anoti')",
+      "content": "The verb 'anoti' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('mavara')",
+      "content": "This passage uses colour vocabulary such as 'mavara'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    },
+    {
+      "title": "Counting & Numbers in Shona ('matatu')",
+      "content": "In Shona, number words like 'matatu' always come AFTER the noun they count, and their starting prefix matches the noun's group! The basic number stems are: '-mwe' (1), '-viri' (2), '-tatu' (3), '-na' (4), and '-shanu' (5). For example, when counting people ('vanhu'), you use 'va-': 'munhu mumwe' (1 person), 'vanhu vaviri' (2 people), 'varume vana' (4 men). When counting 'ma-' plurals like 'maminitsi' (minutes) or 'mavara' (colours), you use 'ma-': 'madhongi maviri' (2 donkeys), 'mavara matatu' (3 colours), 'maminitsi mashanu' (5 minutes).",
+      "rule": "Noun + Number Stem (-mwe = 1, -viri = 2, -tatu = 3, -na = 4, -shanu = 5) -> vanhu vaviri (2 people), maminitsi mashanu (5 minutes)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "National Symbols & Colours of Zimbabwe ('Mureza weZimbabwe')",
+      "content": "Every colour on the national flag of Zimbabwe ('mureza weZimbabwe') carries historical and natural meaning taught in schools across the country: green ('girinhi') represents the land's agriculture and vegetation, yellow ('yero') stands for mineral wealth, red ('tsvuku') honours the blood shed during the liberation struggle, black ('tema') represents the heritage of the majority people, and the white ('chena') triangle symbolizes peace.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why is 'white' written as 'chena' in 'hembe chena' (white shirt), but 'machena' in 'mabhuku machena' (white books)?",
+      "options": [
+        "'Machena' means light grey while 'chena' means bright white",
+        "Only clothing can use the word 'chena'",
+        "'Machena' is only used in the past tense",
+        "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')"
+      ],
+      "correct_answer": "Colour adjectives change their prefix to match the noun they describe ('ma-' for 'mabhuku')",
+      "explanation": "In Shona, traditional colour stems (-chena, -tema, -tsvuku) take the prefix of the noun they describe."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Which sentence means 'The girl is wearing a yellow hat and a blue dress'?",
+      "options": [
+        "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+        "Mukomana akapfeka bhachi dema neshangu tsvuku.",
+        "Vakadzi vaviri vakabata maamburera matsvuku.",
+        "Mbatya dzose dziri kuoma pamutambo panze."
+      ],
+      "correct_answer": "Musikana akapfeka ngowani yeyero nerokwe rebhuruu.",
+      "explanation": "'Ngowani yeyero' = 'a yellow hat', and 'nerokwe rebhuruu' = 'and a blue dress'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you say 'Our teacher teaches us Shona every day'?",
+      "options": [
+        "Vadzidzisi vakabvunza mibvunzo nezuro.",
+        "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+        "Ndiri kuenda kuchikoro neshamwari yangu.",
+        "Mwana ari kurara pamubhedha wake."
+      ],
+      "correct_answer": "Mudzidzisi wedu anotirayiridza ChiShona mazuva ose.",
+      "explanation": "'Mudzidzisi wedu' = 'Our teacher', 'anotirayiridza' = 'teaches/instructs us', 'mazuva ose' = 'every day'."
+    }
+  ]
+}

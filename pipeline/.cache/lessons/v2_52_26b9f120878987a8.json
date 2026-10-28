@@ -1,0 +1,435 @@
+{
+  "english_translation": "A table has a glass placed upon it containing a drink, alongside another drink still in a bottle. There is also an ice tray used for freezing water in the refrigerator into ice cubes, some of which can be seen resting beside the glass.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Tebhuro yekagadzikwawo girazi pamusoro payo iro rakaiswawo dhiringi mukati pamwe chete nerimwe richiri muchigubhu.",
+      "english": "A table has a glass set on top of it with a drink inside, together with another still in a bottle.",
+      "literal_gloss": "Tebhuro [tebhuro] • yekagadzikwawo [yekagadzikwawo] • girazi [girazi] • pamusoro [on / at musoro] • payo [on / at yo] • iro [iro] • rakaiswawo [it (past) iswawo] • dhiringi [dhiringi]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Tebhuro",
+          "morpheme_breakdown": "tebhuro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tebhuro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yekagadzikwawo",
+          "morpheme_breakdown": "yekagadzikwawo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yekagadzikwawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "girazi",
+          "morpheme_breakdown": "girazi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "girazi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamusoro",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at musoro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "payo",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at yo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iro",
+          "morpheme_breakdown": "iro (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iro",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rakaiswawo",
+          "morpheme_breakdown": "ra- (it) + -ka- (past) + -iswawo",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) iswawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "dhiringi",
+          "morpheme_breakdown": "dhiringi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "dhiringi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mukati",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular kati",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pamwe",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwe",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chete",
+          "morpheme_breakdown": "chete (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "chete",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nerimwe",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -rimwe",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with rimwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "richiri",
+          "morpheme_breakdown": "richiri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "richiri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "muchigubhu",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -chigubhu",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular chigubhu",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Zvakare pane tureyiwo iyo inoiswa mvura yoiswa mufiriji kuti izooma yakaita magodo ayo arikuonekwawo mamwe akaiswa nechepasi padivi pegirazi.",
+      "english": "There is also a tray in which water is placed and put in the fridge to freeze into ice cubes, some of which are visible beside the glass.",
+      "literal_gloss": "Zvakare [zvakare] • pane [on / at ne] • tureyiwo [tureyiwo] • iyo [iyo] • inoiswa [it iswa] • mvura [water / rain] • yoiswa [yoiswa] • mufiriji [in / singular firiji]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Zvakare",
+          "morpheme_breakdown": "zvakare (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zvakare",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "tureyiwo",
+          "morpheme_breakdown": "tureyiwo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "tureyiwo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyo",
+          "morpheme_breakdown": "iyo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "inoiswa",
+          "morpheme_breakdown": "i- (it) + -no- (present) + -iswa",
+          "noun_class_or_concord": "Present Tense Verb (it ...)",
+          "literal_english": "it iswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mvura",
+          "morpheme_breakdown": "mvura (water / rain)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "water / rain",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yoiswa",
+          "morpheme_breakdown": "yoiswa (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "yoiswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mufiriji",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -firiji",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular firiji",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "izooma",
+          "morpheme_breakdown": "izooma (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "izooma",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakaita",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -ita",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) ita",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "magodo",
+          "morpheme_breakdown": "ma- (plural prefix) + -godo",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural godo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "ayo",
+          "morpheme_breakdown": "ayo (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "ayo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "arikuonekwawo",
+          "morpheme_breakdown": "ari (he/she is) + ku- (doing) + -onekwawo",
+          "noun_class_or_concord": "Present Progressive (he/she is ...-ing)",
+          "literal_english": "he/she is onekwawo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mamwe",
+          "morpheme_breakdown": "ma- (plural prefix) + -mwe",
+          "noun_class_or_concord": "Plural Noun Prefix (ma-)",
+          "literal_english": "plural mwe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akaiswa",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -iswa",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) iswa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "nechepasi",
+          "morpheme_breakdown": "ne- ('and / with' prefix) + -chepasi",
+          "noun_class_or_concord": "Connecting Prefix (ne-)",
+          "literal_english": "and / with chepasi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "padivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -divi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at divi",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Tebhuro",
+      "morpheme_breakdown": "tebhuro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tebhuro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yekagadzikwawo",
+      "morpheme_breakdown": "yekagadzikwawo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "yekagadzikwawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "girazi",
+      "morpheme_breakdown": "girazi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "girazi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamusoro",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -musoro",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at musoro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "payo",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -yo",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at yo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iro",
+      "morpheme_breakdown": "iro (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iro",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "rakaiswawo",
+      "morpheme_breakdown": "ra- (it) + -ka- (past) + -iswawo",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) iswawo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "dhiringi",
+      "morpheme_breakdown": "dhiringi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "dhiringi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mukati",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -kati",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular kati",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pamwe",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -mwe",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at mwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chete",
+      "morpheme_breakdown": "chete (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "chete",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "nerimwe",
+      "morpheme_breakdown": "ne- ('and / with' prefix) + -rimwe",
+      "noun_class_or_concord": "Connecting Prefix (ne-)",
+      "literal_english": "and / with rimwe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "richiri",
+      "morpheme_breakdown": "richiri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "richiri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "muchigubhu",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -chigubhu",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular chigubhu",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Zvakare",
+      "morpheme_breakdown": "zvakare (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zvakare",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "tureyiwo",
+      "morpheme_breakdown": "tureyiwo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "tureyiwo",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyo",
+      "morpheme_breakdown": "iyo (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyo",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('rakaiswawo')",
+      "content": "The verb 'rakaiswawo' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Present Tense & Everyday Actions ('inoiswa')",
+      "content": "The verb 'inoiswa' uses the present marker '-no-'. In Shona, inserting '-no-' between the subject prefix and the verb stem expresses general truths, everyday habits, or states of mind like 'wanting', 'thinking', and 'knowing'. For example: 'ndinoda' ('I want/like'), 'unofunga' ('you think'), 'vanoti' ('they say'), and 'vanorima' ('they farm').",
+      "rule": "[ndi- (I) / u- (you) / a- (he/she) / ti- (we) / va- (they)] + -no- + verb -> Ndinoda (I want), Vanogara (They live)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Farming ('Kurima'), Rain & the Harvest Season",
+      "content": "Agriculture plays a central role in Zimbabwean life, and the arrival of the rains ('mvura') around November marks the beginning of the planting season ('zhizha'). Families cultivate their fields ('munda') using hand hoes ('badza'), rakes ('mahara'), and shovels ('mafoshoro') to grow maize, groundnuts, and vegetables. A plentiful rainfall brings hope for a bountiful harvest ('goho guru'), which is a frequent topic of friendly daily conversation.",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In 'Shiri diki dziri kuimba pamusoro pemuti', what are the small birds doing?",
+      "options": [
+        "Singing at the top of the tree",
+        "Drinking water beside the river",
+        "Flying across the high mountains",
+        "Looking for seeds in the field"
+      ],
+      "correct_answer": "Singing at the top of the tree",
+      "explanation": "'Shiri diki' = 'small birds', 'dziri kuimba' = 'are singing', 'pamusoro pemuti' = 'at the top of the tree'."
+    },
+    {
+      "exercise_type": "translate",
+      "prompt": "Translate this new nature sentence into English: 'Makomo makuru anoonekwa kure seri kwerwizi.'",
+      "options": [
+        "Two rhinoceroses are grazing peacefully in the valley.",
+        "Large mountains can be seen far away beyond the river.",
+        "The farmers planted maize and groundnuts after the rain.",
+        "Dark clouds have covered the sky this afternoon."
+      ],
+      "correct_answer": "Large mountains can be seen far away beyond the river.",
+      "explanation": "'Makomo makuru' = 'Large mountains', 'anoonekwa' = 'are seen / can be seen', 'kure seri kwerwizi' = 'far away beyond the river'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Why do we say 'miti mitatu' for 'three trees' but 'zvigaro zvitatu' for 'three chairs'?",
+      "options": [
+        "Because trees are taller than chairs",
+        "Because 'mitatu' means thirty and 'zvitatu' means three",
+        "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+        "Because 'miti' is singular and 'zvigaro' is plural"
+      ],
+      "correct_answer": "The number stem '-tatu' takes 'mi-' for 'miti' (trees) and 'zvi-' for 'zvigaro' (chairs)",
+      "explanation": "Numbers 1–5 mirror the prefix of the noun they count: 'miti mitatu', 'zvigaro zvitatu', 'vanhu vatatu'."
+    }
+  ]
+}

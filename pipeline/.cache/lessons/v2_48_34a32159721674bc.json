@@ -1,0 +1,443 @@
+{
+  "english_translation": "A white commuter omnibus (kombi) is carrying passengers and driving along the road. Next to the kombi stands a huge tree with lush dark-green leaves. Nearby, residential buildings can also be seen where people live.",
+  "dialogue": [
+    {
+      "id": 1,
+      "shona": "Kombi chena iri kuratidza kuti yakatakura vanhu uye iri kufamba mumugwagwa.",
+      "english": "A white commuter minibus is carrying passengers and travelling along the road.",
+      "literal_gloss": "Kombi [minibus taxi (kombi)] • chena [white] • iri [iri] • kuratidza [to / at ratidza] • kuti [that / so that] • yakatakura [it (past) takura] • vanhu [people] • uye [and / furthermore]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Kombi",
+          "morpheme_breakdown": "kombi (commuter minibus)",
+          "noun_class_or_concord": "Noun",
+          "literal_english": "minibus taxi (kombi)",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "chena",
+          "morpheme_breakdown": "chena (white / clean)",
+          "noun_class_or_concord": "Colour Adjective",
+          "literal_english": "white",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "yakatakura",
+          "morpheme_breakdown": "ya- (it) + -ka- (past) + -takura",
+          "noun_class_or_concord": "Past Tense Verb (it ...)",
+          "literal_english": "it (past) takura",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "uye",
+          "morpheme_breakdown": "uye (and / also)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "and / furthermore",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iri",
+          "morpheme_breakdown": "iri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kufamba",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -famba",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at famba",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mumugwagwa",
+          "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mugwagwa",
+          "noun_class_or_concord": "Prefix (mu-)",
+          "literal_english": "in / singular mugwagwa",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shona": "Padivi pekombi iyi pane zimuti zihombe riri kuratidza kuti rine mashizha akasvibira zvikuru.",
+      "english": "Beside this minibus stands a huge tree with very lush green leaves.",
+      "literal_gloss": "Padivi [on / at divi] • pekombi [pekombi] • iyi [iyi] • pane [on / at ne] • zimuti [zimuti] • zihombe [zihombe] • riri [riri] • kuratidza [to / at ratidza]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Padivi",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -divi",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at divi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pekombi",
+          "morpheme_breakdown": "pekombi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "pekombi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "iyi",
+          "morpheme_breakdown": "iyi (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "iyi",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "pane",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ne",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zimuti",
+          "morpheme_breakdown": "zimuti (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zimuti",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zihombe",
+          "morpheme_breakdown": "zihombe (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "zihombe",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "riri",
+          "morpheme_breakdown": "riri (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "riri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "rine",
+          "morpheme_breakdown": "rine (root word)",
+          "noun_class_or_concord": "Noun / Verb Stem",
+          "literal_english": "rine",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "mashizha",
+          "morpheme_breakdown": "ma- (plural) + -shizha (leaves)",
+          "noun_class_or_concord": "Plural Noun (ma-)",
+          "literal_english": "leaves",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "akasvibira",
+          "morpheme_breakdown": "a- (he/she) + -ka- (past) + -svibira",
+          "noun_class_or_concord": "Past Tense Verb (he/she ...)",
+          "literal_english": "he/she (past) svibira",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvikuru",
+          "morpheme_breakdown": "zvi- + -kuru (greatly)",
+          "noun_class_or_concord": "Intensifier",
+          "literal_english": "very much / greatly",
+          "tone_pattern": "L-H"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shona": "Pari kuonewo zvivakwa zviri kuratidza kuti panogara vanhu.",
+      "english": "Residential buildings can also be seen showing that people live there.",
+      "literal_gloss": "Pari [on / at ri] • kuonewo [to / at onewo] • zvivakwa [things vakwa] • zviri [things ri] • kuratidza [to / at ratidza] • kuti [that / so that] • panogara [on / at nogara] • vanhu [people]",
+      "gloss_breakdown": [
+        {
+          "shona_word": "Pari",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -ri",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuonewo",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -onewo",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at onewo",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zvivakwa",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -vakwa",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things vakwa",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "zviri",
+          "morpheme_breakdown": "zvi- (plural things prefix) + -ri",
+          "noun_class_or_concord": "Plural Noun / Verb Prefix (zvi-)",
+          "literal_english": "things ri",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuratidza",
+          "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+          "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+          "literal_english": "to / at ratidza",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "kuti",
+          "morpheme_breakdown": "kuti (that / in order to)",
+          "noun_class_or_concord": "Conjunction",
+          "literal_english": "that / so that",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "panogara",
+          "morpheme_breakdown": "pa- ('on / at' location prefix) + -nogara",
+          "noun_class_or_concord": "Location Prefix (pa-)",
+          "literal_english": "on / at nogara",
+          "tone_pattern": "L-H"
+        },
+        {
+          "shona_word": "vanhu",
+          "morpheme_breakdown": "va- (plural) + -nhu (people)",
+          "noun_class_or_concord": "Plural Noun (va-)",
+          "literal_english": "people",
+          "tone_pattern": "L-H"
+        }
+      ]
+    }
+  ],
+  "literal_gloss": [
+    {
+      "shona_word": "Kombi",
+      "morpheme_breakdown": "kombi (commuter minibus)",
+      "noun_class_or_concord": "Noun",
+      "literal_english": "minibus taxi (kombi)",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "chena",
+      "morpheme_breakdown": "chena (white / clean)",
+      "noun_class_or_concord": "Colour Adjective",
+      "literal_english": "white",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuratidza",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -ratidza",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at ratidza",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kuti",
+      "morpheme_breakdown": "kuti (that / in order to)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "that / so that",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "yakatakura",
+      "morpheme_breakdown": "ya- (it) + -ka- (past) + -takura",
+      "noun_class_or_concord": "Past Tense Verb (it ...)",
+      "literal_english": "it (past) takura",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "vanhu",
+      "morpheme_breakdown": "va- (plural) + -nhu (people)",
+      "noun_class_or_concord": "Plural Noun (va-)",
+      "literal_english": "people",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "uye",
+      "morpheme_breakdown": "uye (and / also)",
+      "noun_class_or_concord": "Conjunction",
+      "literal_english": "and / furthermore",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iri",
+      "morpheme_breakdown": "iri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iri",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "kufamba",
+      "morpheme_breakdown": "ku- ('to' infinitive or location) + -famba",
+      "noun_class_or_concord": "Infinitive / Location Prefix (ku-)",
+      "literal_english": "to / at famba",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "mumugwagwa",
+      "morpheme_breakdown": "mu- (singular person/tree or 'in') + -mugwagwa",
+      "noun_class_or_concord": "Prefix (mu-)",
+      "literal_english": "in / singular mugwagwa",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "Padivi",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -divi",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at divi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pekombi",
+      "morpheme_breakdown": "pekombi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "pekombi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "iyi",
+      "morpheme_breakdown": "iyi (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "iyi",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "pane",
+      "morpheme_breakdown": "pa- ('on / at' location prefix) + -ne",
+      "noun_class_or_concord": "Location Prefix (pa-)",
+      "literal_english": "on / at ne",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zimuti",
+      "morpheme_breakdown": "zimuti (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zimuti",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "zihombe",
+      "morpheme_breakdown": "zihombe (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "zihombe",
+      "tone_pattern": "L-H"
+    },
+    {
+      "shona_word": "riri",
+      "morpheme_breakdown": "riri (root word)",
+      "noun_class_or_concord": "Noun / Verb Stem",
+      "literal_english": "riri",
+      "tone_pattern": "L-H"
+    }
+  ],
+  "grammar_notes": [
+    {
+      "title": "Talking About the Past ('yakatakura')",
+      "content": "The verb 'yakatakura' expresses a completed past action. Shona has two main ways to talk about the past: 1) For actions that happened earlier today or very recently, combine the short subject prefix ('nda-' = I, 'wa-' = you, 'a-' = he/she, 'ta-' = we, 'va-' = they) directly with the verb stem (e.g., 'ndamuka' = 'I woke up today', 'wabudirira' = 'you have succeeded'). 2) For events that happened yesterday or further in the past, insert '-ka-' after the subject prefix (e.g., 'takatenga' = 'we bought', 'vakaenda' = 'they went', 'akadanidzira' = 'he shouted').",
+      "rule": "Recent Today Past: [nda- / wa- / ta- / va-] + verb | Earlier Past: [ndaka- / waka- / taka- / vaka-] + verb"
+    },
+    {
+      "title": "Actions Happening Right Now: The '-ri ku-' Progressive",
+      "content": "To describe an action that is happening right now ('I am doing', 'it is raining', 'they are walking'), Shona uses the helper verb '-ri' ('am/is/are') followed by 'ku-' ('to') and the action verb. For people, the forms are 'ndiri ku-' (I am), 'uri ku-' (you are), 'ari ku-' (he/she is), 'tiri ku-' (we are), and 'vari ku-' (they are). In fast speech or writing, the two words are sometimes joined together (e.g., 'ndiri kuenda' or 'ndirikuenda').",
+      "rule": "[Subject + -ri] + ku-[verb] -> Ndiri kuverenga (I am reading) | Vari kufamba (They are walking) | Mvura iri kunaya (It is raining)"
+    },
+    {
+      "title": "Colours & Describing Objects in Shona ('chena')",
+      "content": "This passage uses colour vocabulary such as 'chena'. Shona has three traditional core colour adjectives that change their prefix slightly to match the noun they describe: '-chena' (white/clean, e.g., 'ruvara ruchena' or 'shangu chena'), '-tema / nhema' (black/dark, e.g., 'mota nhema' or 'ruvara rutema'), and '-tsvuku' (red/bright brown, e.g., 'mota tsvuku' or 'ruvara rutsvuku'). For other colours like green ('girinhi'), blue ('bhuruu'), or orange ('orenji'), speakers typically say 'ruvara rwe-' ('the colour of...') followed by the colour name, as in 'ruvara rwegirinhi' (green).",
+      "rule": "Core Colours: -chena (white), -tema / nhema (black), -tsvuku (red) | Phrase pattern: ruvara rwe-[colour] (e.g., ruvara rwegirinhi)"
+    }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Getting Around: Kombis, Buses, Rural Carts & 'Robots'",
+      "content": "Daily transport in Zimbabwe features unique local vocabulary! In towns and cities, most commuters travel by white commuter minibuses universally called 'makombi' (singular: 'kombi'), while long-distance intercity trips use large buses ('bhazi') and heavy haulage trucks are affectionately nicknamed 'magonyeti'. In rural areas, donkey-drawn carts ('ngoro yemadhongi') are widely used to carry goods. And if someone tells you to turn at the 'robhoti' (plural: 'marobhotsi'), they don't mean a machine person—in Zimbabwe and Southern Africa, traffic lights are called 'robots'!",
+      "rule": null
+    }
+  ],
+  "active_exercises": [
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "How do you describe 'a white shirt and black shoes' in Shona?",
+      "options": [
+        "hembe chena neshangu nhema",
+        "hembe tsvuku neshangu chena",
+        "shangu dzeruvara rwegirinhi",
+        "mota nhema nemabhuku machena"
+      ],
+      "correct_answer": "hembe chena neshangu nhema",
+      "explanation": "'Hembe chena' = 'white shirt', 'ne-' = 'and', and 'shangu nhema' = 'black shoes'."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "Complete this sentence about tree leaves: 'Mashizha emuti uyu ane ruvara ______.' (The leaves of this tree have a green colour.)",
+      "options": [
+        "rwutema",
+        "rwegirinhi",
+        "rwuchena",
+        "rwutsvuku"
+      ],
+      "correct_answer": "rwegirinhi",
+      "explanation": "'Ruvara rwegirinhi' expresses 'green colour' when describing fresh leaves ('mashizha')."
+    },
+    {
+      "exercise_type": "multiple_choice",
+      "prompt": "In a Zimbabwean city, if a driver says 'Mota dzakamira parobhoti dzichimirira mwenje wegirinhi', where are the cars stopped?",
+      "options": [
+        "At a rural bus stop waiting for passengers",
+        "Inside a garage having their tyres repaired",
+        "At the traffic light waiting for the green light",
+        "Beside a river bridge that is under construction"
+      ],
+      "correct_answer": "At the traffic light waiting for the green light",
+      "explanation": "'Robhoti' (plural 'marobhotsi') is the standard Shona word for a traffic light, and 'mwenje wegirinhi' is the green light."
+    }
+  ]
+}
