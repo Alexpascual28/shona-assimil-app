@@ -12,6 +12,11 @@ import {
   analyzeMorphemesAndClass,
   normalizeTextKey,
   isValidZezuruTranscript,
+  verifyGeminiApiKey,
+  getGeminiApiKey,
+  buildSentenceWordGlossAsync,
+  translateShonaSentenceIdiomatic,
+  attachPerSentenceGlossesToDialogue,
 } from './enricher';
 
 let mainWindow: BrowserWindow | null = null;
@@ -623,6 +628,11 @@ async function downloadAndEnrichFromHuggingFace(
             if (Math.abs(estDur - options.targetDuration) > tol) {
               continue;
             }
+          } else if (constraints.bandIdx < 6) {
+            // Strictly respect the band's upper duration limit
+            if (estDur > constraints.primaryMax) {
+              continue;
+            }
           }
 
           rawCandidates.push({
@@ -775,29 +785,25 @@ function selectBatchByBandAndPedagogy(
   const chosenPrimary = primaryList.slice(0, primaryTarget);
   const pickedIds = new Set<string>(chosenPrimary.map((c) => c.clip_id));
 
-  if (chosenPrimary.length < primaryTarget) {
-    const midTarget = (primaryMin + primaryMax) / 2;
-    const fallbackLonger = sourcePool
-      .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) >= sprinkleMax)
-      .sort(
-        (a, b) =>
-          Math.abs(Number(a.duration_seconds || 0) - midTarget) -
-          Math.abs(Number(b.duration_seconds || 0) - midTarget)
-      );
-    for (const fc of fallbackLonger) {
-      if (chosenPrimary.length >= primaryTarget) break;
-      chosenPrimary.push(fc);
-      pickedIds.add(fc.clip_id);
-    }
-    chosenPrimary.sort(sortByPedagogyAndLength);
-  }
-
   const sprinkleList = sourcePool
-    .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) < sprinkleMax)
+    .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) > 0 && Number(c.duration_seconds || 0) < sprinkleMax)
     .sort(sortByPedagogyAndLength);
 
   const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
   for (const sc of chosenSprinkle) pickedIds.add(sc.clip_id);
+
+  // If primary or sprinkle is slightly short, fill strictly from clips <= primaryMax first
+  if (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
+    const compliantRem = sourcePool
+      .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) <= primaryMax)
+      .sort(sortByPedagogyAndLength);
+    for (const rem of compliantRem) {
+      if (chosenPrimary.length + chosenSprinkle.length >= numToAdd) break;
+      chosenPrimary.push(rem);
+      pickedIds.add(rem.clip_id);
+    }
+    chosenPrimary.sort(sortByPedagogyAndLength);
+  }
 
   while (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
     const rem = sourcePool.find((c) => !pickedIds.has(c.clip_id));
@@ -884,6 +890,36 @@ function persistModifiedCourse(course: Record<string, any>, modifiedLessonNum?: 
           fs.writeFileSync(bp, JSON.stringify(baseCourseSlice, null, 2), 'utf-8');
         } catch {}
       }
+    }
+  }
+
+  // Always sync any modified lesson into the reserve pool (expansion_pool.json) so edits persist across -50 / +50 cycles
+  if (modifiedLessonNum) {
+    const modLesson = course.lessons.find(
+      (l: any) => Number(l.lesson_number || l.num) === Number(modifiedLessonNum)
+    );
+    if (modLesson && modLesson.clip_id) {
+      const poolLessons = loadMergedExpansionPool();
+      const cid = String(modLesson.clip_id);
+      const normText = normalizeTextKey(String(modLesson.shona_text || ''));
+      let foundInPool = false;
+      const updatedPool = poolLessons.map((p) => {
+        if (
+          String(p.clip_id || '') === cid ||
+          (normText && normalizeTextKey(String(p.shona_text || '')) === normText)
+        ) {
+          foundInPool = true;
+          return {
+            ...p,
+            ...modLesson,
+          };
+        }
+        return p;
+      });
+      if (!foundInPool && isValidZezuruTranscript(String(modLesson.shona_text || ''))) {
+        updatedPool.push({ ...modLesson });
+      }
+      saveMergedExpansionPool(updatedPool);
     }
   }
 }
@@ -1300,8 +1336,6 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
         normalizeTextKey(copy.english_translation) === normalizeTextKey(copy.shona_text) ||
         !Array.isArray(copy.grammar_notes) ||
         copy.grammar_notes.length === 0 ||
-        !Array.isArray(copy.cultural_notes) ||
-        copy.cultural_notes.length === 0 ||
         !Array.isArray(copy.active_exercises) ||
         copy.active_exercises.length === 0;
 
@@ -1312,9 +1346,21 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
         `Preparing Lesson ${lessonNum} (${i + 1}/${numToAdd}): verifying grammar, cultural notes & exercises...`
       );
 
-      const verifiedClip = needsEnrich
-        ? await enrichClipObject(copy, lessonNum, 0)
-        : copy;
+      let verifiedClip: Record<string, any>;
+      if (needsEnrich) {
+        verifiedClip = await enrichClipObject(copy, lessonNum, 0);
+      } else {
+        if (
+          Array.isArray(copy.dialogue) &&
+          copy.dialogue.some((d: any) => !d.literal_gloss || /\b([a-zA-Z']+)\s*\[\1\]/i.test(String(d.literal_gloss)))
+        ) {
+          copy.dialogue = await attachPerSentenceGlossesToDialogue(copy.dialogue);
+        }
+        if (!Array.isArray(copy.cultural_notes)) {
+          copy.cultural_notes = [];
+        }
+        verifiedClip = copy;
+      }
 
       selectedBatch.push(verifiedClip);
     }
@@ -1389,10 +1435,27 @@ ipcMain.handle('generate-more-lessons', async (_event, count = 50) => {
   }
 });
 
-// Dev Mode IPC Handlers
+// Dev Mode & AI Mode IPC Handlers
 ipcMain.handle('verify-dev-password', async (_event, passwordInput: string) => {
   const expected = readDevModePassword();
   return String(passwordInput || '').trim() === expected;
+});
+
+ipcMain.handle('get-ai-mode-status', async () => {
+  return {
+    hasKey: Boolean(getGeminiApiKey()),
+  };
+});
+
+ipcMain.handle('verify-and-set-gemini-key', async (_event, apiKey?: string) => {
+  try {
+    return await verifyGeminiApiKey(apiKey, app.getPath('userData'));
+  } catch (err: any) {
+    return {
+      valid: false,
+      error: String(err?.message || 'Failed to verify Gemini API key.'),
+    };
+  }
 });
 
 ipcMain.handle('remove-last-50-lessons', async () => {
@@ -1457,48 +1520,60 @@ ipcMain.handle('remove-last-50-lessons', async () => {
   }
 });
 
-ipcMain.handle('dev-fix-lesson', async (_event, lessonNumber: number) => {
-  try {
-    const { course } = loadActiveCourseObject();
-    const idx = course.lessons.findIndex(
-      (l: any) => Number(l.lesson_number || l.num) === Number(lessonNumber)
-    );
-    if (idx < 0) return null;
+ipcMain.handle(
+  'dev-fix-lesson',
+  async (_event, payload: number | { lessonNumber: number; useAiMode?: boolean }) => {
+    const lessonNumber = typeof payload === 'number' ? payload : Number(payload?.lessonNumber);
+    const useAiMode = typeof payload === 'object' ? Boolean(payload?.useAiMode) : false;
+    try {
+      const { course } = loadActiveCourseObject();
+      const idx = course.lessons.findIndex(
+        (l: any) => Number(l.lesson_number || l.num) === Number(lessonNumber)
+      );
+      if (idx < 0) return null;
 
-    emitLessonCardProgress(
-      lessonNumber,
-      25,
-      `Re-enriching Lesson ${lessonNumber} translation, grammar & cultural notes...`
-    );
+      emitLessonCardProgress(
+        lessonNumber,
+        25,
+        useAiMode
+          ? `AI Mode: Regenerating Lesson ${lessonNumber} with Gemini...`
+          : `Re-enriching Lesson ${lessonNumber} translation, grammar & cultural notes...`
+      );
 
-    const oldLesson = course.lessons[idx];
-    const nextSeed = Number(oldLesson.variation_seed || 0) + 1;
-    const reEnriched = await enrichClipObject(oldLesson, Number(lessonNumber), nextSeed);
+      const oldLesson = course.lessons[idx];
+      const nextSeed = Number(oldLesson.variation_seed || 0) + 1;
+      const reEnriched = await enrichClipObject(
+        oldLesson,
+        Number(lessonNumber),
+        nextSeed,
+        useAiMode
+      );
 
-    const updatedLesson: Record<string, any> = {
-      ...oldLesson,
-      ...reEnriched,
-      lesson_number: oldLesson.lesson_number,
-      title: oldLesson.title,
-      type: oldLesson.type,
-      phase: oldLesson.phase,
-      active_wave_review_lesson: oldLesson.active_wave_review_lesson,
-      variation_seed: nextSeed,
-    };
+      const updatedLesson: Record<string, any> = {
+        ...oldLesson,
+        ...reEnriched,
+        lesson_number: oldLesson.lesson_number,
+        title: oldLesson.title,
+        type: oldLesson.type,
+        phase: oldLesson.phase,
+        active_wave_review_lesson: oldLesson.active_wave_review_lesson,
+        variation_seed: nextSeed,
+      };
 
-    course.lessons[idx] = updatedLesson;
-    updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
-    persistModifiedCourse(course, Number(lessonNumber));
+      course.lessons[idx] = updatedLesson;
+      updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+      persistModifiedCourse(course, Number(lessonNumber));
 
-    emitLessonCardProgress(lessonNumber, 100, `Lesson ${lessonNumber} fixed!`);
-    setTimeout(() => emitLessonCardProgress(lessonNumber, 0, ''), 900);
-    return course;
-  } catch (err) {
-    console.error('Failed in dev-fix-lesson:', err);
-    emitLessonCardProgress(lessonNumber, 0, '');
-    return null;
+      emitLessonCardProgress(lessonNumber, 100, `Lesson ${lessonNumber} fixed!`);
+      setTimeout(() => emitLessonCardProgress(lessonNumber, 0, ''), 900);
+      return course;
+    } catch (err) {
+      console.error('Failed in dev-fix-lesson:', err);
+      emitLessonCardProgress(lessonNumber, 0, '');
+      return null;
+    }
   }
-});
+);
 
 ipcMain.handle('dev-regenerate-lesson', async (_event, lessonNumber: number) => {
   try {
@@ -1576,10 +1651,12 @@ ipcMain.handle(
     payload: {
       lessonNumber: number;
       field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises';
+      useAiMode?: boolean;
     }
   ) => {
     try {
-      const { lessonNumber, field } = payload;
+      const { lessonNumber, field, useAiMode } = payload;
+      const aiFlag = Boolean(useAiMode);
       const { course } = loadActiveCourseObject();
       const idx = course.lessons.findIndex(
         (l: any) => Number(l.lesson_number || l.num) === Number(lessonNumber)
@@ -1596,7 +1673,8 @@ ipcMain.handle(
       if (field === 'translation') {
         const { englishTranslation, dialogue } = await resolveIdiomaticTranslationAndDialogue(
           shonaText,
-          nextSeed
+          nextSeed,
+          aiFlag
         );
         lesson.english_translation = englishTranslation;
         lesson.dialogue = dialogue;
@@ -1605,14 +1683,16 @@ ipcMain.handle(
           shonaText,
           engText,
           Number(lessonNumber),
-          nextSeed
+          nextSeed,
+          aiFlag
         );
       } else if (field === 'cultural_notes') {
         lesson.cultural_notes = await generateTextbookCulturalNotesAsync(
           shonaText,
           engText,
           Number(lessonNumber),
-          nextSeed
+          nextSeed,
+          aiFlag
         );
       } else if (field === 'exercises') {
         const words = shonaText.split(/\s+/).filter(Boolean);
@@ -1625,7 +1705,8 @@ ipcMain.handle(
           Number(lessonNumber),
           lesson.grammar_notes || [],
           gloss,
-          nextSeed
+          nextSeed,
+          aiFlag
         );
       }
 
@@ -1635,6 +1716,133 @@ ipcMain.handle(
       return course;
     } catch (err) {
       console.error('Failed in dev-regenerate-field:', err);
+      return null;
+    }
+  }
+);
+
+ipcMain.handle(
+  'dev-regenerate-sentence',
+  async (
+    _event,
+    payload: {
+      lessonNumber: number;
+      sentenceId: number;
+      useAiMode?: boolean;
+    }
+  ) => {
+    try {
+      const { lessonNumber, sentenceId, useAiMode } = payload;
+      const aiFlag = Boolean(useAiMode);
+      const { course } = loadActiveCourseObject();
+      const idx = course.lessons.findIndex(
+        (l: any) => Number(l.lesson_number || l.num) === Number(lessonNumber)
+      );
+      if (idx < 0) return null;
+
+      const lesson = course.lessons[idx];
+      const nextSeed = Number(lesson.variation_seed || 0) + 1;
+      lesson.variation_seed = nextSeed;
+
+      if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length === 0) {
+        return null;
+      }
+
+      let lineIdx = lesson.dialogue.findIndex((d: any) => Number(d.id) === Number(sentenceId));
+      if (lineIdx < 0) {
+        lineIdx = Math.max(0, Math.min(lesson.dialogue.length - 1, Number(sentenceId) - 1));
+      }
+
+      const targetLine = lesson.dialogue[lineIdx];
+      const shonaSent = String(targetLine?.shona || '').trim();
+      if (!shonaSent) return null;
+
+      const newEnglish = await translateShonaSentenceIdiomatic(
+        shonaSent,
+        nextSeed,
+        aiFlag,
+        String(lesson.shona_text || '')
+      );
+
+      lesson.dialogue[lineIdx] = {
+        ...targetLine,
+        english: newEnglish,
+      };
+      lesson.english_translation = lesson.dialogue
+        .map((d: any) => String(d.english || '').trim())
+        .filter(Boolean)
+        .join(' ');
+
+      course.lessons[idx] = lesson;
+      updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+      persistModifiedCourse(course, Number(lessonNumber));
+      return course;
+    } catch (err) {
+      console.error('Failed in dev-regenerate-sentence:', err);
+      return null;
+    }
+  }
+);
+
+ipcMain.handle(
+  'dev-regenerate-sentence-gloss',
+  async (
+    _event,
+    payload: {
+      lessonNumber: number;
+      sentenceId: number;
+      useAiMode?: boolean;
+    }
+  ) => {
+    try {
+      const { lessonNumber, sentenceId, useAiMode } = payload;
+      const aiFlag = Boolean(useAiMode);
+      const { course } = loadActiveCourseObject();
+      const idx = course.lessons.findIndex(
+        (l: any) => Number(l.lesson_number || l.num) === Number(lessonNumber)
+      );
+      if (idx < 0) return null;
+
+      const lesson = course.lessons[idx];
+      const nextSeed = Number(lesson.variation_seed || 0) + 1;
+      lesson.variation_seed = nextSeed;
+
+      if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length === 0) {
+        return null;
+      }
+
+      let lineIdx = lesson.dialogue.findIndex((d: any) => Number(d.id) === Number(sentenceId));
+      if (lineIdx < 0) {
+        lineIdx = Math.max(0, Math.min(lesson.dialogue.length - 1, Number(sentenceId) - 1));
+      }
+
+      const targetLine = lesson.dialogue[lineIdx];
+      const shonaSent = String(targetLine?.shona || '').trim();
+      const engSent = String(targetLine?.english || '').trim();
+      if (!shonaSent) return null;
+
+      const { literal_gloss, gloss_breakdown } = await buildSentenceWordGlossAsync(
+        shonaSent,
+        engSent,
+        aiFlag,
+        nextSeed
+      );
+
+      lesson.dialogue[lineIdx] = {
+        ...targetLine,
+        literal_gloss,
+        gloss_breakdown,
+      };
+
+      lesson.literal_gloss = lesson.dialogue.flatMap((d: any) =>
+        Array.isArray(d.gloss_breakdown) ? d.gloss_breakdown : []
+      );
+
+      course.lessons[idx] = lesson;
+      persistModifiedCourse(course, Number(lessonNumber));
+      return course;
+    } catch (err) {
+      console.error('Failed in dev-regenerate-sentence-gloss:', err);
       return null;
     }
   }

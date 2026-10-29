@@ -12,8 +12,11 @@ export const PassiveSteps: React.FC = () => {
     courseData,
     audioKey,
     isDevMode,
+    isAiMode,
     isDevActionRunning,
-    regenerateLessonField
+    regenerateLessonField,
+    regenerateSingleSentence,
+    regenerateSingleSentenceGloss
   } = useLesson();
 
   if (!currentLesson) return null;
@@ -168,15 +171,29 @@ export const PassiveSteps: React.FC = () => {
               </div>
               <div className="divide-y divide-slate-800/60">
                 {currentLesson.dialogue.map((line) => (
-                  <div key={line.id} className="py-3.5 flex items-start gap-3">
-                    <span className="w-6 h-6 rounded bg-slate-800 text-slate-400 text-xs font-bold flex items-center justify-center shrink-0">
-                      {line.id}
-                    </span>
-                    <div className="space-y-1">
-                      <p className="text-base text-slate-200 leading-relaxed">
-                        {line.english}
-                      </p>
+                  <div key={line.id} className="py-3.5 flex items-start justify-between gap-3">
+                    <div className="flex items-start gap-3 flex-1">
+                      <span className="w-6 h-6 rounded bg-slate-800 text-slate-400 text-xs font-bold flex items-center justify-center shrink-0">
+                        {line.id}
+                      </span>
+                      <div className="space-y-1 flex-1">
+                        <p className="text-base text-slate-200 leading-relaxed">
+                          {line.english}
+                        </p>
+                      </div>
                     </div>
+                    {isDevMode && (
+                      <button
+                        type="button"
+                        onClick={() => regenerateSingleSentence(currentLesson.num, line.id)}
+                        disabled={isDevActionRunning}
+                        title={`Dev Mode: Regenerate English translation for Sentence #${line.id}${isAiMode ? ' (Gemini AI)' : ''}`}
+                        className="flex items-center gap-1 px-2 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-[10px] font-semibold transition disabled:opacity-50 shrink-0"
+                      >
+                        <RefreshCw className={`w-2.5 h-2.5 ${isDevActionRunning ? 'animate-spin' : ''}`} />
+                        <span>Regenerate Sentence</span>
+                      </button>
+                    )}
                   </div>
                 ))}
               </div>
@@ -194,7 +211,6 @@ export const PassiveSteps: React.FC = () => {
               <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">
                 Reference Dialogue &amp; Word-by-Word Literal Breakdown
               </h4>
-              {renderRegenButton('translation', 'Translation')}
             </div>
             <div className="grid grid-cols-1 gap-3 text-sm">
               {currentLesson.dialogue.map((line) => (
@@ -213,14 +229,30 @@ export const PassiveSteps: React.FC = () => {
                       <p className="text-slate-200 text-base">{line.english}</p>
                     </div>
                   </div>
-                  {line.literal_gloss && (
+                  {(line.literal_gloss || isDevMode) && (
                     <div className="pt-2 border-t border-slate-800/80">
-                      <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-0.5">
-                        Literal Word-by-Word Translation
-                      </span>
-                      <p className="text-xs text-amber-400/90 font-mono leading-relaxed">
-                        {line.literal_gloss}
-                      </p>
+                      <div className="flex items-center justify-between gap-2 mb-1">
+                        <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                          Literal Word-by-Word Translation
+                        </span>
+                        {isDevMode && (
+                          <button
+                            type="button"
+                            onClick={() => regenerateSingleSentenceGloss(currentLesson.num, line.id)}
+                            disabled={isDevActionRunning}
+                            title={`Dev Mode: Regenerate Word-by-Word translation for Sentence #${line.id}${isAiMode ? ' (Gemini AI)' : ''}`}
+                            className="flex items-center gap-1 px-2 py-0.5 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border border-amber-500/40 text-[10px] font-semibold transition disabled:opacity-50 shrink-0"
+                          >
+                            <RefreshCw className={`w-2.5 h-2.5 ${isDevActionRunning ? 'animate-spin' : ''}`} />
+                            <span>Regenerate Word-by-Word</span>
+                          </button>
+                        )}
+                      </div>
+                      {line.literal_gloss && (
+                        <p className="text-xs text-amber-400/90 font-mono leading-relaxed">
+                          {line.literal_gloss}
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>
@@ -257,7 +289,7 @@ export const PassiveSteps: React.FC = () => {
           </div>
 
           {/* Cultural Notes */}
-          {currentLesson.cultural_notes && currentLesson.cultural_notes.length > 0 && (
+          {((currentLesson.cultural_notes && currentLesson.cultural_notes.length > 0) || isDevMode) && (
             <div className="space-y-4 pt-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
@@ -267,14 +299,16 @@ export const PassiveSteps: React.FC = () => {
                 {renderRegenButton('cultural_notes', 'Cultural Notes')}
               </div>
 
-              <div className="grid grid-cols-1 gap-4">
-                {currentLesson.cultural_notes.map((note, idx) => (
-                  <div key={idx} className="bg-slate-900/90 border border-teal-500/30 rounded-2xl p-5 shadow-lg">
-                    <h4 className="text-base font-bold text-teal-300 mb-2">{note.title}</h4>
-                    <p className="text-sm text-slate-300 leading-relaxed">{note.content}</p>
-                  </div>
-                ))}
-              </div>
+              {currentLesson.cultural_notes && currentLesson.cultural_notes.length > 0 && (
+                <div className="grid grid-cols-1 gap-4">
+                  {currentLesson.cultural_notes.map((note, idx) => (
+                    <div key={idx} className="bg-slate-900/90 border border-teal-500/30 rounded-2xl p-5 shadow-lg">
+                      <h4 className="text-base font-bold text-teal-300 mb-2">{note.title}</h4>
+                      <p className="text-sm text-slate-300 leading-relaxed">{note.content}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

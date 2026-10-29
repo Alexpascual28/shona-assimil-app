@@ -44,6 +44,11 @@ interface LessonContextType {
   isDevMode: boolean;
   unlockDevMode: (password: string) => Promise<boolean>;
   lockDevMode: () => void;
+  isAiMode: boolean;
+  showApiKeyModal: boolean;
+  setShowApiKeyModal: (show: boolean) => void;
+  toggleAiMode: () => Promise<void>;
+  submitAndVerifyGeminiKey: (apiKey: string) => Promise<{ valid: boolean; error?: string }>;
   completeAllLessons: () => void;
   removeLastFiftyLessons: () => Promise<void>;
   deleteSingleLessonProgress: (lessonNum: number) => void;
@@ -54,6 +59,8 @@ interface LessonContextType {
     lessonNum: number,
     field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
   ) => Promise<void>;
+  regenerateSingleSentence: (lessonNum: number, sentenceId: number) => Promise<void>;
+  regenerateSingleSentenceGloss: (lessonNum: number, sentenceId: number) => Promise<void>;
   isDevActionRunning: boolean;
   devActionStatus: string;
 }
@@ -116,13 +123,47 @@ function normalizeLesson(raw: RawLesson, idx: number): Lesson {
       dialogue = [];
     }
   } else {
-    // Ensure literal_gloss and id are populated if missing on dialogue lines
-    dialogue = dialogue.map((line, lineIdx) => ({
-      ...line,
-      id: line.id || lineIdx + 1,
-      literal_gloss: line.literal_gloss || formattedGlossStr || undefined,
-      gloss_breakdown: line.gloss_breakdown || (glossBreakdown.length > 0 ? glossBreakdown : undefined)
-    }));
+    const isMultiSentence = dialogue.length > 1;
+    let wordCursor = 0;
+    dialogue = dialogue.map((line, lineIdx) => {
+      const sentWords = String(line.shona || '')
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean);
+
+      let lineBreakdown = Array.isArray(line.gloss_breakdown) ? line.gloss_breakdown : undefined;
+      if (
+        (!lineBreakdown || (isMultiSentence && lineBreakdown.length > sentWords.length + 2)) &&
+        glossBreakdown.length > 0 &&
+        sentWords.length > 0
+      ) {
+        lineBreakdown = glossBreakdown.slice(wordCursor, wordCursor + sentWords.length);
+      }
+      wordCursor += sentWords.length;
+
+      let lineGloss = line.literal_gloss;
+      const lineGlossItemCount = lineGloss ? lineGloss.split(' • ').length : 0;
+      if (
+        !lineGloss ||
+        (isMultiSentence &&
+          (lineGloss === formattedGlossStr || lineGlossItemCount > sentWords.length + 2))
+      ) {
+        if (lineBreakdown && lineBreakdown.length > 0) {
+          lineGloss = lineBreakdown
+            .map((g) => `${g.shona_word || ''} [${g.literal_english || ''}]`)
+            .join(' • ');
+        } else if (!isMultiSentence && formattedGlossStr) {
+          lineGloss = formattedGlossStr;
+        }
+      }
+
+      return {
+        ...line,
+        id: line.id || lineIdx + 1,
+        literal_gloss: lineGloss || undefined,
+        gloss_breakdown: lineBreakdown && lineBreakdown.length > 0 ? lineBreakdown : undefined
+      };
+    });
   }
 
   // Grammar notes normalization
@@ -235,6 +276,8 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     required: number;
   } | null>(null);
   const [isDevMode, setIsDevMode] = useState<boolean>(false);
+  const [isAiMode, setIsAiMode] = useState<boolean>(false);
+  const [showApiKeyModal, setShowApiKeyModal] = useState<boolean>(false);
   const [isDevActionRunning, setIsDevActionRunning] = useState<boolean>(false);
   const [devActionStatus, setDevActionStatus] = useState<string>('');
   const [progress, setProgress] = useState<UserProgress>(DEFAULT_USER_PROGRESS);
@@ -813,7 +856,54 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   const lockDevMode = useCallback(() => {
     setIsDevMode(false);
+    setIsAiMode(false);
+    setShowApiKeyModal(false);
   }, []);
+
+  const toggleAiMode = useCallback(async () => {
+    if (isAiMode) {
+      setIsAiMode(false);
+      return;
+    }
+    setIsDevActionRunning(true);
+    setDevActionStatus('Verifying Gemini API key for AI Mode...');
+    try {
+      if (window.electronAPI?.verifyAndSetGeminiKey) {
+        const res = await window.electronAPI.verifyAndSetGeminiKey();
+        if (res && res.valid) {
+          setIsAiMode(true);
+          return;
+        }
+      }
+      setShowApiKeyModal(true);
+    } finally {
+      setIsDevActionRunning(false);
+      setDevActionStatus('');
+    }
+  }, [isAiMode]);
+
+  const submitAndVerifyGeminiKey = useCallback(
+    async (apiKey: string): Promise<{ valid: boolean; error?: string }> => {
+      const clean = String(apiKey || '').trim();
+      if (!clean) {
+        return { valid: false, error: 'Please enter a Gemini API key.' };
+      }
+      if (window.electronAPI?.verifyAndSetGeminiKey) {
+        const res = await window.electronAPI.verifyAndSetGeminiKey(clean);
+        if (res && res.valid) {
+          setIsAiMode(true);
+          setShowApiKeyModal(false);
+          return { valid: true };
+        }
+        return {
+          valid: false,
+          error: res?.error || 'API key verification failed. Please check your key and internet connection.'
+        };
+      }
+      return { valid: false, error: 'Electron API is required to verify Gemini API keys.' };
+    },
+    []
+  );
 
   // Dev Mode: Complete All Lessons simultaneously
   const completeAllLessons = useCallback(() => {
@@ -912,10 +1002,14 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   const fixSingleLesson = useCallback(
     async (lessonNum: number) => {
       setIsDevActionRunning(true);
-      setDevActionStatus(`Fixing Lesson ${lessonNum} (regenerating translation, notes & exercises)...`);
+      setDevActionStatus(
+        isAiMode
+          ? `AI Mode: Regenerating Lesson ${lessonNum} with Gemini...`
+          : `Fixing Lesson ${lessonNum} (regenerating translation, notes & exercises)...`
+      );
       try {
         if (window.electronAPI?.devFixLesson) {
-          const updatedRaw = await window.electronAPI.devFixLesson(lessonNum);
+          const updatedRaw = await window.electronAPI.devFixLesson(lessonNum, isAiMode);
           if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
             applyUpdatedRawCourse(updatedRaw);
             return;
@@ -926,7 +1020,7 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         setDevActionStatus('');
       }
     },
-    [applyUpdatedRawCourse]
+    [applyUpdatedRawCourse, isAiMode]
   );
 
   // Dev Mode: Fully Regenerate Lesson (remove old audio & data, replace with brand-new audio & enriched data)
@@ -998,10 +1092,14 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         exercises: 'Exercises'
       };
       setIsDevActionRunning(true);
-      setDevActionStatus(`Regenerating Lesson ${lessonNum} ${labelMap[field]}...`);
+      setDevActionStatus(
+        isAiMode
+          ? `AI Mode: Generating Lesson ${lessonNum} ${labelMap[field]} with Gemini...`
+          : `Regenerating Lesson ${lessonNum} ${labelMap[field]}...`
+      );
       try {
         if (window.electronAPI?.devRegenerateField) {
-          const updatedRaw = await window.electronAPI.devRegenerateField(lessonNum, field);
+          const updatedRaw = await window.electronAPI.devRegenerateField(lessonNum, field, isAiMode);
           if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
             applyUpdatedRawCourse(updatedRaw);
             return;
@@ -1012,7 +1110,65 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         setDevActionStatus('');
       }
     },
-    [applyUpdatedRawCourse]
+    [applyUpdatedRawCourse, isAiMode]
+  );
+
+  // Dev Mode: Regenerate a single sentence's English translation in Step 3
+  const regenerateSingleSentence = useCallback(
+    async (lessonNum: number, sentenceId: number) => {
+      setIsDevActionRunning(true);
+      setDevActionStatus(
+        isAiMode
+          ? `AI Mode: Translating Lesson ${lessonNum} Sentence #${sentenceId} with Gemini...`
+          : `Regenerating Lesson ${lessonNum} Sentence #${sentenceId} translation...`
+      );
+      try {
+        if (window.electronAPI?.devRegenerateSentence) {
+          const updatedRaw = await window.electronAPI.devRegenerateSentence(
+            lessonNum,
+            sentenceId,
+            isAiMode
+          );
+          if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+            applyUpdatedRawCourse(updatedRaw);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse, isAiMode]
+  );
+
+  // Dev Mode: Regenerate a single sentence's Word-by-Word literal gloss in Step 4
+  const regenerateSingleSentenceGloss = useCallback(
+    async (lessonNum: number, sentenceId: number) => {
+      setIsDevActionRunning(true);
+      setDevActionStatus(
+        isAiMode
+          ? `AI Mode: Generating Sentence #${sentenceId} Word-by-Word gloss with Gemini...`
+          : `Regenerating Lesson ${lessonNum} Sentence #${sentenceId} Word-by-Word gloss...`
+      );
+      try {
+        if (window.electronAPI?.devRegenerateSentenceGloss) {
+          const updatedRaw = await window.electronAPI.devRegenerateSentenceGloss(
+            lessonNum,
+            sentenceId,
+            isAiMode
+          );
+          if (updatedRaw && Array.isArray(updatedRaw.lessons)) {
+            applyUpdatedRawCourse(updatedRaw);
+            return;
+          }
+        }
+      } finally {
+        setIsDevActionRunning(false);
+        setDevActionStatus('');
+      }
+    },
+    [applyUpdatedRawCourse, isAiMode]
   );
 
   // Generate +50 brand-new lessons in the Active Phase (e.g. 101..150 reviewing 51..100)
@@ -1114,28 +1270,25 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           const chosenPrimary = primaryList.slice(0, primaryTarget);
           const pickedIds = new Set<string>(chosenPrimary.map((c: any) => String(c.clip_id || '')));
 
-          if (chosenPrimary.length < primaryTarget) {
-            const midTarget = (primaryMin + primaryMax) / 2;
-            const fallbackLonger = sourcePool
-              .filter((c: any) => !pickedIds.has(String(c.clip_id || '')) && Number(c.duration_seconds || 0) >= sprinkleMax)
-              .sort(
-                (a: any, b: any) =>
-                  Math.abs(Number(a.duration_seconds || 0) - midTarget) -
-                  Math.abs(Number(b.duration_seconds || 0) - midTarget)
-              );
-            for (const fc of fallbackLonger) {
-              if (chosenPrimary.length >= primaryTarget) break;
-              chosenPrimary.push(fc);
-              pickedIds.add(String((fc as any).clip_id || ''));
-            }
-          }
-
           const sprinkleList = sourcePool
             .filter((c: any) => !pickedIds.has(String(c.clip_id || '')) && Number(c.duration_seconds || 0) < sprinkleMax)
             .sort((a: any, b: any) => Number(a.difficulty_score || 0) - Number(b.difficulty_score || 0));
 
           const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
           for (const sc of chosenSprinkle) pickedIds.add(String((sc as any).clip_id || ''));
+
+          if (chosenPrimary.length + chosenSprinkle.length < 50) {
+            const compliantRem = sourcePool.filter(
+              (c: any) =>
+                !pickedIds.has(String(c.clip_id || '')) &&
+                Number(c.duration_seconds || 0) <= primaryMax
+            );
+            for (const rem of compliantRem) {
+              if (chosenPrimary.length + chosenSprinkle.length >= 50) break;
+              chosenPrimary.push(rem);
+              pickedIds.add(String((rem as any).clip_id || ''));
+            }
+          }
 
           while (chosenPrimary.length + chosenSprinkle.length < 50) {
             const rem = sourcePool.find((c: any) => !pickedIds.has(String(c.clip_id || '')));
@@ -1301,6 +1454,11 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         isDevMode,
         unlockDevMode,
         lockDevMode,
+        isAiMode,
+        showApiKeyModal,
+        setShowApiKeyModal,
+        toggleAiMode,
+        submitAndVerifyGeminiKey,
         completeAllLessons,
         removeLastFiftyLessons,
         deleteSingleLessonProgress,
@@ -1308,6 +1466,8 @@ export const LessonProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         regenerateSingleLesson,
         findOrRecoverAudio,
         regenerateLessonField,
+        regenerateSingleSentence,
+        regenerateSingleSentenceGloss,
         isDevActionRunning,
         devActionStatus
       }}

@@ -50,6 +50,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
     isDevMode,
     unlockDevMode,
     lockDevMode,
+    isAiMode,
+    showApiKeyModal,
+    setShowApiKeyModal,
+    toggleAiMode,
+    submitAndVerifyGeminiKey,
     completeAllLessons,
     removeLastFiftyLessons,
     deleteSingleLessonProgress,
@@ -67,6 +72,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   const [showPasswordModal, setShowPasswordModal] = useState<boolean>(false);
   const [passwordInput, setPasswordInput] = useState<string>('');
   const [passwordError, setPasswordError] = useState<string>('');
+
+  // Gemini API Key Verification Modal state
+  const [apiKeyInput, setApiKeyInput] = useState<string>('');
+  const [apiKeyError, setApiKeyError] = useState<string>('');
+  const [isVerifyingKey, setIsVerifyingKey] = useState<boolean>(false);
 
   // Per-Lesson Dev Action Confirmation Modal state
   const [pendingLessonAction, setPendingLessonAction] = useState<PendingLessonAction>(null);
@@ -126,6 +136,23 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
       setPasswordError('');
     } else {
       setPasswordError('Incorrect Dev Mode password.');
+    }
+  };
+
+  const handleApiKeySubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsVerifyingKey(true);
+    setApiKeyError('');
+    try {
+      const res = await submitAndVerifyGeminiKey(apiKeyInput);
+      if (res.valid) {
+        setApiKeyInput('');
+        setApiKeyError('');
+      } else {
+        setApiKeyError(res.error || 'Invalid Gemini API key or connection failed.');
+      }
+    } finally {
+      setIsVerifyingKey(false);
     }
   };
 
@@ -590,8 +617,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                 </div>
               )}
 
-              {/* Bottom-Left Unassuming Dev Mode Key Button */}
-              <div className="pt-1 flex items-center justify-between">
+              {/* Bottom-Left Unassuming Dev Mode Key Button & Bottom-Right AI Mode Toggle */}
+              <div className="pt-1 flex items-center justify-between gap-2">
                 <button
                   type="button"
                   onClick={handleKeyButtonClick}
@@ -605,6 +632,44 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                   <KeyRound className="w-3 h-3" />
                   {isDevMode && <span className="font-bold">Lock Dev Mode</span>}
                 </button>
+
+                {isDevMode && (
+                  <div className="flex items-center gap-1">
+                    <button
+                      type="button"
+                      onClick={toggleAiMode}
+                      disabled={isDevActionRunning || isVerifyingKey}
+                      title={
+                        isAiMode
+                          ? 'AI Mode Active: All Regenerate buttons use Gemini AI. Click to turn off AI Mode.'
+                          : 'Enable AI Mode: Use Gemini AI for all Regenerate actions'
+                      }
+                      className={`px-2.5 py-1.5 rounded-lg border transition flex items-center gap-1.5 text-[10px] font-bold ${
+                        isAiMode
+                          ? 'bg-emerald-500/20 border-emerald-500/50 text-emerald-300 shadow-sm shadow-emerald-500/20 hover:bg-emerald-500/30'
+                          : 'bg-slate-900 border-slate-700 text-slate-400 hover:text-slate-200 hover:border-slate-600'
+                      }`}
+                    >
+                      <Sparkles
+                        className={`w-3 h-3 ${
+                          isAiMode ? 'text-emerald-400 animate-pulse' : 'text-slate-400'
+                        }`}
+                      />
+                      <span>AI Mode: {isAiMode ? 'ON' : 'OFF'}</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setApiKeyError('');
+                        setShowApiKeyModal(true);
+                      }}
+                      title="Enter or Test Gemini API Key"
+                      className="p-1.5 rounded-lg border border-slate-800 bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-emerald-300 transition text-[10px]"
+                    >
+                      <KeyRound className="w-3 h-3" />
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           </>
@@ -753,6 +818,80 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
                 className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold"
               >
                 Unlock
+              </button>
+            </div>
+          </form>
+        </div>
+      )}
+
+      {/* Gemini API Key Verification Modal (AI Mode) */}
+      {showApiKeyModal && (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <form
+            onSubmit={handleApiKeySubmit}
+            className="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4"
+          >
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                <Sparkles className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-white">Activate Gemini AI Mode</h3>
+                <p className="text-[11px] text-emerald-400">
+                  Live LLM Translation, Word-by-Word Gloss, Grammar &amp; Cultural Notes
+                </p>
+              </div>
+            </div>
+
+            <p className="text-xs text-slate-300 leading-relaxed">
+              Enter your Gemini API key below. It will be tested live against the Gemini API and saved to your <code className="text-amber-300">.env</code> file if valid.
+            </p>
+
+            <div className="space-y-1.5">
+              <input
+                type="password"
+                autoFocus
+                disabled={isVerifyingKey}
+                value={apiKeyInput}
+                onChange={(e) => {
+                  setApiKeyInput(e.target.value);
+                  setApiKeyError('');
+                }}
+                placeholder="Paste your GEMINI_API_KEY..."
+                className="w-full bg-slate-950 border border-slate-700 focus:border-emerald-400 rounded-xl px-3.5 py-2 text-sm text-white placeholder-slate-500 focus:outline-none disabled:opacity-50"
+              />
+              {apiKeyError && (
+                <div className="p-2.5 rounded-xl bg-rose-950/60 border border-rose-500/40 text-xs text-rose-300 font-medium">
+                  {apiKeyError}
+                </div>
+              )}
+            </div>
+
+            <div className="flex items-center justify-end gap-2 pt-2">
+              <button
+                type="button"
+                disabled={isVerifyingKey}
+                onClick={() => {
+                  setShowApiKeyModal(false);
+                  setApiKeyError('');
+                }}
+                className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold disabled:opacity-50"
+              >
+                Cancel
+              </button>
+              <button
+                type="submit"
+                disabled={isVerifyingKey || !apiKeyInput.trim()}
+                className="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-xs font-bold flex items-center gap-1.5 disabled:opacity-50"
+              >
+                {isVerifyingKey ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    <span>Testing API Key...</span>
+                  </>
+                ) : (
+                  <span>Verify &amp; Activate AI Mode</span>
+                )}
               </button>
             </div>
           </form>

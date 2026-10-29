@@ -163,7 +163,7 @@ export const ActiveSteps: React.FC = () => {
               ))}
             </div>
 
-            {activeTargetLesson.cultural_notes && activeTargetLesson.cultural_notes.length > 0 && (
+            {((activeTargetLesson.cultural_notes && activeTargetLesson.cultural_notes.length > 0) || isDevMode) && (
               <div className="mt-6 pt-4 border-t border-slate-800 space-y-4">
                 <div className="flex items-center justify-between">
                   <h4 className="text-sm font-bold text-teal-400 uppercase tracking-wider">
@@ -171,12 +171,13 @@ export const ActiveSteps: React.FC = () => {
                   </h4>
                   {renderRegenButton('cultural_notes', 'Cultural Notes')}
                 </div>
-                {activeTargetLesson.cultural_notes.map((note, idx) => (
-                  <div key={idx} className="bg-slate-950/60 border border-teal-500/20 rounded-xl p-5">
-                    <h5 className="text-sm font-bold text-teal-300 mb-1">{note.title}</h5>
-                    <p className="text-sm text-slate-300 leading-relaxed">{note.content}</p>
-                  </div>
-                ))}
+                {activeTargetLesson.cultural_notes &&
+                  activeTargetLesson.cultural_notes.map((note, idx) => (
+                    <div key={idx} className="bg-slate-950/60 border border-teal-500/20 rounded-xl p-5">
+                      <h5 className="text-sm font-bold text-teal-300 mb-1">{note.title}</h5>
+                      <p className="text-sm text-slate-300 leading-relaxed">{note.content}</p>
+                    </div>
+                  ))}
               </div>
             )}
           </div>

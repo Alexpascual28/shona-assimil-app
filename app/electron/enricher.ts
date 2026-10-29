@@ -1,20 +1,24 @@
 import fs from 'fs';
 import path from 'path';
 import https from 'https';
-import { execFile } from 'child_process';
+
+export interface WordGloss {
+  shona: string;
+  shona_word?: string;
+  literal_english: string;
+  morphemes: string;
+  morpheme_breakdown?: string;
+  noun_class: string;
+  noun_class_or_concord?: string;
+}
 
 export interface DialogueLine {
   id?: number;
   speaker: string;
   shona: string;
   english: string;
-}
-
-export interface WordGloss {
-  shona: string;
-  literal_english: string;
-  morphemes: string;
-  noun_class: string;
+  literal_gloss?: string;
+  gloss_breakdown?: WordGloss[];
 }
 
 export interface GrammarNote {
@@ -68,6 +72,11 @@ interface TextbookKnowledge {
 }
 
 let cachedKnowledge: TextbookKnowledge | null = null;
+let runtimeGeminiApiKey = '';
+
+export function clearKnowledgeCache() {
+  cachedKnowledge = null;
+}
 
 function loadTextbookKnowledge(): TextbookKnowledge {
   if (cachedKnowledge) return cachedKnowledge;
@@ -128,6 +137,7 @@ export function readEnvValue(key: string): string {
 }
 
 export function getGeminiApiKey(): string {
+  if (runtimeGeminiApiKey) return runtimeGeminiApiKey;
   return (
     readEnvValue('GEMINI_API_KEY') ||
     readEnvValue('VITE_GEMINI_API_KEY') ||
@@ -136,7 +146,47 @@ export function getGeminiApiKey(): string {
   );
 }
 
-function postHttpsJson(url: string, bodyObj: unknown, timeoutMs = 20000): Promise<any> {
+export function saveGeminiApiKeyToEnv(apiKey: string, userDataDir?: string): void {
+  const cleanKey = String(apiKey || '').trim();
+  runtimeGeminiApiKey = cleanKey;
+  process.env.GEMINI_API_KEY = cleanKey;
+
+  const portableDir = process.env.PORTABLE_EXECUTABLE_DIR || path.dirname(process.execPath);
+  const envPaths = [
+    path.resolve(process.cwd(), '.env'),
+    path.resolve(process.cwd(), '../.env'),
+    path.resolve(portableDir, '.env'),
+    path.resolve(portableDir, '../../.env'),
+    'c:/Projects/Antigravity/shona-assimil-app/.env',
+    'c:/Projects/Antigravity/shona-assimil-app/app/.env',
+  ];
+  if (userDataDir) {
+    envPaths.unshift(path.join(userDataDir, '.env'));
+  }
+
+  const uniquePaths = Array.from(new Set(envPaths));
+  for (const p of uniquePaths) {
+    try {
+      if (fs.existsSync(p)) {
+        let content = fs.readFileSync(p, 'utf-8');
+        if (/^\s*GEMINI_API_KEY\s*=/m.test(content)) {
+          content = content.replace(/^\s*GEMINI_API_KEY\s*=.*$/m, `GEMINI_API_KEY=${cleanKey}`);
+        } else {
+          content = `${content.trim()}\nGEMINI_API_KEY=${cleanKey}\n`;
+        }
+        fs.writeFileSync(p, content, 'utf-8');
+      } else if (userDataDir && p.startsWith(userDataDir)) {
+        fs.writeFileSync(
+          p,
+          `DEV_MODE_PASSWORD=shona_dev_pass\nGEMINI_API_KEY=${cleanKey}\n`,
+          'utf-8'
+        );
+      }
+    } catch {}
+  }
+}
+
+function postHttpsJson(url: string, bodyObj: unknown, timeoutMs = 15000): Promise<any> {
   return new Promise((resolve, reject) => {
     const payload = Buffer.from(JSON.stringify(bodyObj), 'utf-8');
     const parsedUrl = new URL(url);
@@ -162,7 +212,7 @@ function postHttpsJson(url: string, bodyObj: unknown, timeoutMs = 20000): Promis
               reject(err);
             }
           } else {
-            reject(new Error(`HTTP ${res.statusCode}: ${text.slice(0, 200)}`));
+            reject(new Error(`HTTP ${res.statusCode}: ${text.slice(0, 220)}`));
           }
         });
       }
@@ -176,12 +226,61 @@ function postHttpsJson(url: string, bodyObj: unknown, timeoutMs = 20000): Promis
   });
 }
 
-async function callGeminiJson(prompt: string): Promise<any | null> {
+const GEMINI_MODELS = [
+  'gemini-3.6-flash',
+  'gemini-3.5-flash',
+  'gemini-3-flash-preview',
+  'gemini-flash-lite-latest',
+  'gemini-3.8-flash',
+];
+
+export async function verifyGeminiApiKey(
+  candidateKey?: string,
+  userDataDir?: string
+): Promise<{ valid: boolean; error?: string }> {
+  const keyToTest = (candidateKey !== undefined ? candidateKey : getGeminiApiKey()).trim();
+  if (!keyToTest) {
+    return { valid: false, error: 'No Gemini API key found. Please enter a valid Gemini API key.' };
+  }
+
+  let lastError = 'Could not connect to Gemini API.';
+  for (const model of GEMINI_MODELS) {
+    try {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(
+        keyToTest
+      )}`;
+      const resp = await postHttpsJson(
+        url,
+        {
+          contents: [{ parts: [{ text: 'Reply with {"ok": true}' }] }],
+          generationConfig: {
+            temperature: 0.1,
+            maxOutputTokens: 30,
+          },
+        },
+        10000
+      );
+      const rawText = resp?.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (typeof rawText === 'string' && rawText.trim().length > 0) {
+        saveGeminiApiKeyToEnv(keyToTest, userDataDir);
+        return { valid: true };
+      }
+    } catch (err: any) {
+      lastError = err?.message || String(err);
+      if (lastError.includes('API_KEY_INVALID') || lastError.includes('HTTP 400') || lastError.includes('HTTP 403')) {
+        return { valid: false, error: 'Invalid Gemini API key. Please check your key and try again.' };
+      }
+    }
+  }
+
+  return { valid: false, error: lastError };
+}
+
+export async function callGeminiJson(prompt: string): Promise<any | null> {
   const apiKey = getGeminiApiKey();
   if (!apiKey) return null;
 
-  const models = ['gemini-2.5-flash', 'gemini-2.0-flash'];
-  for (const model of models) {
+  for (const model of GEMINI_MODELS) {
     try {
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(
         apiKey
@@ -191,11 +290,11 @@ async function callGeminiJson(prompt: string): Promise<any | null> {
         {
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: {
-            temperature: 0.7,
+            temperature: 0.65,
             responseMimeType: 'application/json',
           },
         },
-        22000
+        18000
       );
       const rawText = resp?.candidates?.[0]?.content?.parts?.[0]?.text;
       if (typeof rawText === 'string' && rawText.trim()) {
@@ -213,7 +312,7 @@ async function callGeminiJson(prompt: string): Promise<any | null> {
 }
 
 export function normalizeTextKey(text: string): string {
-  return text.trim().replace(/\s+/g, ' ').toLowerCase();
+  return String(text || '').trim().replace(/\s+/g, ' ').toLowerCase();
 }
 
 const NON_ZEZURU_MARKERS = new Set([
@@ -233,10 +332,8 @@ export function isValidZezuruTranscript(text: string): boolean {
   const words = cleaned.toLowerCase().match(/[a-z']+/g) || [];
   if (words.length < 3) return false;
   if (words.some((w) => NON_ZEZURU_MARKERS.has(w))) return false;
-  // Every word of length >= 2 must contain at least one vowel (reject consonant gibberish)
   const vowelWords = words.filter((w) => /[aeiou]/.test(w));
   if (vowelWords.length < Math.ceil(words.length * 0.8)) return false;
-  // Reject if any split sentence is just a single letter or gibberish
   const sentences = splitShonaSentences(cleaned);
   if (sentences.length === 0) return false;
   for (const s of sentences) {
@@ -255,7 +352,6 @@ export function splitShonaSentences(shonaText: string): string[] {
   for (const part of rawParts) {
     const p = part.trim();
     if (!p) continue;
-    // Merge single-letter fragments (like initials) with adjacent sentence
     if (p.replace(/[^A-Za-z]/g, '').length <= 2 && sentences.length > 0) {
       sentences[sentences.length - 1] = `${sentences[sentences.length - 1]} ${p}`;
     } else if (
@@ -300,9 +396,393 @@ function fetchHttpsText(url: string, timeoutMs = 12000): Promise<string> {
   });
 }
 
+// ============================================================================
+// MORPHOLOGICAL & WORD-BY-WORD LITERAL TRANSLATION ENGINE
+// ============================================================================
+
+const NOUN_CLASS_PREFIX_RULES: Array<{
+  rx: RegExp;
+  engPrefix: string;
+  morphDesc: string;
+  nclass: string;
+}> = [
+  { rx: /^necheku/i, engPrefix: 'towards ', morphDesc: 'necheku- (directional locative)', nclass: 'Locative (ku-)' },
+  { rx: /^nechepa/i, engPrefix: 'around ', morphDesc: 'nechepa- (directional locative)', nclass: 'Locative (pa-)' },
+  { rx: /^nechemu/i, engPrefix: 'inside around ', morphDesc: 'nechemu- (directional locative)', nclass: 'Locative (mu-)' },
+  { rx: /^ndaka/i, engPrefix: 'I (past) ', morphDesc: 'nda- (I) + -ka- (past)', nclass: 'Verb (1st Sg Past)' },
+  { rx: /^taka/i, engPrefix: 'we (past) ', morphDesc: 'ta- (we) + -ka- (past)', nclass: 'Verb (1st Pl Past)' },
+  { rx: /^vaka/i, engPrefix: 'they (past/stative) ', morphDesc: 'va- (they, Class 2) + -ka- (past/stative)', nclass: 'Verb (Class 2 Past)' },
+  { rx: /^waka/i, engPrefix: 'it/he/she (past/stative) ', morphDesc: 'wa- (Class 1/3) + -ka- (past/stative)', nclass: 'Verb (Past/Stative)' },
+  { rx: /^aka/i, engPrefix: 'he/she (past/stative) ', morphDesc: 'a- (Class 1) + -ka- (past/stative)', nclass: 'Verb (Class 1 Past)' },
+  { rx: /^yaka/i, engPrefix: 'it (past/stative) ', morphDesc: 'ya- (Class 4/9) + -ka- (past/stative)', nclass: 'Verb (Class 9 Stative)' },
+  { rx: /^raka/i, engPrefix: 'it (past/stative) ', morphDesc: 'ra- (Class 5) + -ka- (past/stative)', nclass: 'Verb (Class 5 Stative)' },
+  { rx: /^chaka/i, engPrefix: 'it (past/stative) ', morphDesc: 'cha- (Class 7) + -ka- (past/stative)', nclass: 'Verb (Class 7 Stative)' },
+  { rx: /^dzaka/i, engPrefix: 'they (past/stative) ', morphDesc: 'dza- (Class 10) + -ka- (past/stative)', nclass: 'Verb (Class 10 Stative)' },
+  { rx: /^zvaka/i, engPrefix: 'they (past/stative) ', morphDesc: 'zva- (Class 8) + -ka- (past/stative)', nclass: 'Verb (Class 8 Stative)' },
+  { rx: /^vachi/i, engPrefix: 'while they ', morphDesc: 'va- (they) + -chi- (participial: while)', nclass: 'Participial Verb' },
+  { rx: /^achi/i, engPrefix: 'while he/she ', morphDesc: 'a- (he/she) + -chi- (participial: while)', nclass: 'Participial Verb' },
+  { rx: /^uchi/i, engPrefix: 'while you/it ', morphDesc: 'u- + -chi- (participial: while)', nclass: 'Participial Verb' },
+  { rx: /^ichiri/i, engPrefix: 'still ', morphDesc: 'i- + -chi- (still) + -ri (be)', nclass: 'Persistive Copula' },
+  { rx: /^vachiri/i, engPrefix: 'they are still ', morphDesc: 'va- + -chi- (still) + -ri (be)', nclass: 'Persistive Copula' },
+  { rx: /^variku/i, engPrefix: 'they are ', morphDesc: 'va- (they) + -ri (are) + ku- (infinitive)', nclass: 'Verb (Class 2 Progressive)' },
+  { rx: /^ariku/i, engPrefix: 'he/she is ', morphDesc: 'a- (he/she) + -ri (is) + ku- (infinitive)', nclass: 'Verb (Class 1 Progressive)' },
+  { rx: /^uriku/i, engPrefix: 'is ', morphDesc: 'u- (Class 3 / 2nd sg) + -ri + ku-', nclass: 'Verb (Progressive)' },
+  { rx: /^iriku/i, engPrefix: 'it is ', morphDesc: 'i- (Class 9) + -ri (is) + ku-', nclass: 'Verb (Class 9 Progressive)' },
+  { rx: /^ririku/i, engPrefix: 'it is ', morphDesc: 'ri- (Class 5) + -ri (is) + ku-', nclass: 'Verb (Class 5 Progressive)' },
+  { rx: /^chiriku/i, engPrefix: 'it is ', morphDesc: 'chi- (Class 7) + -ri (is) + ku-', nclass: 'Verb (Class 7 Progressive)' },
+  { rx: /^zviriku/i, engPrefix: 'they are ', morphDesc: 'zvi- (Class 8) + -ri (are) + ku-', nclass: 'Verb (Class 8 Progressive)' },
+  { rx: /^tiriku/i, engPrefix: 'we are ', morphDesc: 'ti- (we) + -ri (are) + ku-', nclass: 'Verb (1st Pl Progressive)' },
+  { rx: /^ndiriku/i, engPrefix: 'I am ', morphDesc: 'ndi- (I) + -ri (am) + ku-', nclass: 'Verb (1st Sg Progressive)' },
+  { rx: /^vano/i, engPrefix: 'they ', morphDesc: 'va- (they) + -no- (present)', nclass: 'Verb (Class 2 Present)' },
+  { rx: /^ano/i, engPrefix: 'he/she ', morphDesc: 'a- (he/she) + -no- (present)', nclass: 'Verb (Class 1 Present)' },
+  { rx: /^ndino/i, engPrefix: 'I ', morphDesc: 'ndi- (I) + -no- (present)', nclass: 'Verb (1st Sg Present)' },
+  { rx: /^tino/i, engPrefix: 'we ', morphDesc: 'ti- (we) + -no- (present)', nclass: 'Verb (1st Pl Present)' },
+  { rx: /^uno/i, engPrefix: 'you/it ', morphDesc: 'u- (2nd sg / Class 3) + -no- (present)', nclass: 'Verb (Present)' },
+  { rx: /^ino/i, engPrefix: 'it ', morphDesc: 'i- (Class 9) + -no- (present)', nclass: 'Verb (Class 9 Present)' },
+  { rx: /^rino/i, engPrefix: 'it ', morphDesc: 'ri- (Class 5) + -no- (present)', nclass: 'Verb (Class 5 Present)' },
+  { rx: /^chino/i, engPrefix: 'it ', morphDesc: 'chi- (Class 7) + -no- (present)', nclass: 'Verb (Class 7 Present)' },
+  { rx: /^zvino/i, engPrefix: 'they ', morphDesc: 'zvi- (Class 8) + -no- (present)', nclass: 'Verb (Class 8 Present)' },
+  { rx: /^dzino/i, engPrefix: 'they ', morphDesc: 'dzi- (Class 10) + -no- (present)', nclass: 'Verb (Class 10 Present)' },
+  { rx: /^ndicha/i, engPrefix: 'I will ', morphDesc: 'ndi- (I) + -cha- (future)', nclass: 'Verb (1st Sg Future)' },
+  { rx: /^ticha/i, engPrefix: 'we will ', morphDesc: 'ti- (we) + -cha- (future)', nclass: 'Verb (1st Pl Future)' },
+  { rx: /^vacha/i, engPrefix: 'they will ', morphDesc: 'va- (they) + -cha- (future)', nclass: 'Verb (Class 2 Future)' },
+  { rx: /^acha/i, engPrefix: 'he/she will ', morphDesc: 'a- (he/she) + -cha- (future)', nclass: 'Verb (Class 1 Future)' },
+  { rx: /^icha/i, engPrefix: 'it will ', morphDesc: 'i- (Class 9) + -cha- (future)', nclass: 'Verb (Class 9 Future)' },
+  { rx: /^ne/i, engPrefix: 'and/with ', morphDesc: 'ne- (associative: and/with)', nclass: 'Conjunctive (ne-)' },
+  { rx: /^na/i, engPrefix: 'with/and ', morphDesc: 'na- (associative: with/and)', nclass: 'Conjunctive (na-)' },
+  { rx: /^se/i, engPrefix: 'like/as ', morphDesc: 'se- (similative: like/as)', nclass: 'Similative (se-)' },
+  { rx: /^sa/i, engPrefix: 'like/as ', morphDesc: 'sa- (similative: like/as)', nclass: 'Similative (sa-)' },
+  { rx: /^pa/i, engPrefix: 'at/on ', morphDesc: 'pa- (Class 16 locative: at/on)', nclass: 'Class 16 Locative (pa-)' },
+  { rx: /^ku/i, engPrefix: 'to/at ', morphDesc: 'ku- (Class 15 infinitive / Class 17 locative)', nclass: 'Class 15/17 (ku-)' },
+  { rx: /^mu/i, engPrefix: 'in / ', morphDesc: 'mu- (Class 1/3 singular or Class 18 inside)', nclass: 'Class 1/3/18 (mu-)' },
+  { rx: /^pe/i, engPrefix: 'of (on) ', morphDesc: 'pe- (Class 16 possessive concord: of)', nclass: 'Possessive Concord (pe-)' },
+  { rx: /^kwe/i, engPrefix: 'of ', morphDesc: 'kwe- (Class 15/17 possessive concord: of)', nclass: 'Possessive Concord (kwe-)' },
+  { rx: /^rwe/i, engPrefix: 'of ', morphDesc: 'rwe- (Class 11 possessive concord: of)', nclass: 'Possessive Concord (rwe-)' },
+  { rx: /^zve/i, engPrefix: 'of ', morphDesc: 'zve- (Class 8 possessive concord: of)', nclass: 'Possessive Concord (zve-)' },
+  { rx: /^che/i, engPrefix: 'of ', morphDesc: 'che- (Class 7 possessive concord: of)', nclass: 'Possessive Concord (che-)' },
+  { rx: /^dze/i, engPrefix: 'of ', morphDesc: 'dze- (Class 10 possessive concord: of)', nclass: 'Possessive Concord (dze-)' },
+  { rx: /^we/i, engPrefix: 'of ', morphDesc: 'we- (Class 1/3 possessive concord: of)', nclass: 'Possessive Concord (we-)' },
+  { rx: /^ye/i, engPrefix: 'of ', morphDesc: 'ye- (Class 4/9 possessive concord: of)', nclass: 'Possessive Concord (ye-)' },
+  { rx: /^re/i, engPrefix: 'of ', morphDesc: 're- (Class 5 possessive concord: of)', nclass: 'Possessive Concord (re-)' },
+  { rx: /^va/i, engPrefix: 'people / ', morphDesc: 'va- (Class 2 plural)', nclass: 'Class 2 (va-)' },
+  { rx: /^ma/i, engPrefix: '', morphDesc: 'ma- (Class 6 plural)', nclass: 'Class 6 (ma-)' },
+  { rx: /^chi/i, engPrefix: '', morphDesc: 'chi- (Class 7 singular)', nclass: 'Class 7 (chi-)' },
+  { rx: /^zvi/i, engPrefix: '', morphDesc: 'zvi- (Class 8 plural)', nclass: 'Class 8 (zvi-)' },
+];
+
+export function analyzeMorphemesAndClass(word: string): WordGloss {
+  const kb = loadTextbookKnowledge();
+  const clean = word.replace(/^[^A-Za-z']+|[^A-Za-z']+$/g, '').toLowerCase();
+  if (!clean) {
+    return {
+      shona: word,
+      shona_word: word,
+      literal_english: word,
+      morphemes: word,
+      morpheme_breakdown: word,
+      noun_class: 'Particle',
+      noun_class_or_concord: 'Particle',
+    };
+  }
+
+  // 1. Direct lookup in BEGINNER_WORD_GLOSS
+  const direct = kb.BEGINNER_WORD_GLOSS[clean];
+  if (direct && direct[2] && direct[2].toLowerCase() !== clean) {
+    return {
+      shona: word,
+      shona_word: word,
+      literal_english: direct[2],
+      morphemes: direct[0],
+      morpheme_breakdown: direct[0],
+      noun_class: direct[1],
+      noun_class_or_concord: direct[1],
+    };
+  }
+
+  // 1b. Handle internal punctuation or hyphenated reduplication (e.g., "pazasi.une", "yakasiyana-siyana")
+  if (/[^a-zA-Z']/.test(clean)) {
+    const subParts = clean.split(/[^a-zA-Z']+/).filter(Boolean);
+    if (subParts.length > 1) {
+      const subAnalyses = subParts.map((sp) => analyzeMorphemesAndClass(sp));
+      const engParts: string[] = [];
+      for (const sa of subAnalyses) {
+        if (sa.literal_english && !engParts.includes(sa.literal_english)) {
+          engParts.push(sa.literal_english);
+        }
+      }
+      const joinedEng = engParts.join(' / ');
+      if (joinedEng && joinedEng.toLowerCase() !== clean) {
+        return {
+          shona: word,
+          shona_word: word,
+          literal_english: joinedEng,
+          morphemes: subAnalyses.map((s) => s.morphemes).join(' + '),
+          morpheme_breakdown: subAnalyses.map((s) => s.morphemes).join(' + '),
+          noun_class: subAnalyses[0].noun_class,
+          noun_class_or_concord: subAnalyses[0].noun_class,
+        };
+      }
+    }
+  }
+
+  // 1c. Handle enclitic -wo ("also / too")
+  if (clean.endsWith('wo') && clean.length >= 5) {
+    const baseWithoutWo = clean.slice(0, -2);
+    const baseAnalysis = analyzeMorphemesAndClass(baseWithoutWo);
+    if (
+      baseAnalysis.literal_english &&
+      baseAnalysis.literal_english.toLowerCase() !== baseWithoutWo
+    ) {
+      const glossWithAlso = `${baseAnalysis.literal_english} also`;
+      return {
+        shona: word,
+        shona_word: word,
+        literal_english: glossWithAlso,
+        morphemes: `${baseAnalysis.morphemes} + -wo (also)`,
+        morpheme_breakdown: `${baseAnalysis.morphemes} + -wo (also)`,
+        noun_class: baseAnalysis.noun_class,
+        noun_class_or_concord: baseAnalysis.noun_class,
+      };
+    }
+  }
+
+  // 2. Prefix decomposition + stem lookup in BEGINNER_WORD_GLOSS
+  for (const rule of NOUN_CLASS_PREFIX_RULES) {
+    if (rule.rx.test(clean)) {
+      const stem = clean.replace(rule.rx, '');
+      if (stem.length >= 3) {
+        const stemEntry =
+          kb.BEGINNER_WORD_GLOSS[stem] ||
+          kb.BEGINNER_WORD_GLOSS[`ku${stem}`] ||
+          kb.BEGINNER_WORD_GLOSS[`mu${stem}`];
+        if (stemEntry && stemEntry[2] && stemEntry[2].toLowerCase() !== stem) {
+          const cleanStemGloss = stemEntry[2].replace(/^to\s+/i, '');
+          const combinedGloss = `${rule.engPrefix}${cleanStemGloss}`.trim();
+          const morphStr = `${rule.morphDesc} + -${stem} (${cleanStemGloss})`;
+          return {
+            shona: word,
+            shona_word: word,
+            literal_english: combinedGloss,
+            morphemes: morphStr,
+            morpheme_breakdown: morphStr,
+            noun_class: rule.nclass,
+            noun_class_or_concord: rule.nclass,
+          };
+        }
+      }
+    }
+  }
+
+  // 3. Suffix decomposition (-wa passive, -ira/-era applicative, -isa/-esa causative)
+  if (clean.endsWith('wa') && clean.length >= 5) {
+    const activeBase = `${clean.slice(0, -2)}a`;
+    const baseEntry = kb.BEGINNER_WORD_GLOSS[activeBase];
+    if (baseEntry && baseEntry[2] && baseEntry[2].toLowerCase() !== activeBase) {
+      const gloss = `be ${baseEntry[2]} (passive)`;
+      const morphStr = `${activeBase} (${baseEntry[2]}) + -wa (passive)`;
+      return {
+        shona: word,
+        shona_word: word,
+        literal_english: gloss,
+        morphemes: morphStr,
+        morpheme_breakdown: morphStr,
+        noun_class: 'Passive Verb (-wa)',
+        noun_class_or_concord: 'Passive Verb (-wa)',
+      };
+    }
+  }
+
+  return {
+    shona: word,
+    shona_word: word,
+    literal_english: direct?.[2] || clean,
+    morphemes: `${clean} (lexical root)`,
+    morpheme_breakdown: `${clean} (lexical root)`,
+    noun_class: 'Lexical Root',
+    noun_class_or_concord: 'Lexical Root',
+  };
+}
+
+export function formatWordGlossList(glossList: WordGloss[]): string {
+  return glossList
+    .map((g) => {
+      const w = g.shona || g.shona_word || '';
+      return `${w} [${g.literal_english}]`;
+    })
+    .join(' • ');
+}
+
+export function buildSentenceWordGlossSync(shonaSentence: string): {
+  literal_gloss: string;
+  gloss_breakdown: WordGloss[];
+} {
+  const words = String(shonaSentence || '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  const breakdown = words.map((w) => analyzeMorphemesAndClass(w));
+  return {
+    literal_gloss: formatWordGlossList(breakdown),
+    gloss_breakdown: breakdown,
+  };
+}
+
+async function translateSingleShonaWordWithProviders(
+  shonaWord: string,
+  variationSeed = 0
+): Promise<string | null> {
+  const clean = shonaWord.replace(/^[^A-Za-z']+|[^A-Za-z']+$/g, '').toLowerCase();
+  if (!clean) return null;
+  const encoded = encodeURIComponent(clean);
+
+  const tryClients5 = async (): Promise<string | null> => {
+    try {
+      const url = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=sn&tl=en&q=${encoded}`;
+      const body = await fetchHttpsText(url, 8000);
+      const parsed = JSON.parse(body);
+      const res =
+        Array.isArray(parsed) && typeof parsed[0] === 'string'
+          ? parsed[0]
+          : Array.isArray(parsed?.[0])
+          ? parsed[0][0]
+          : null;
+      if (typeof res === 'string' && res.trim() && res.trim().toLowerCase() !== clean) {
+        return res.trim().toLowerCase();
+      }
+    } catch {}
+    return null;
+  };
+
+  const tryMyMemory = async (): Promise<string | null> => {
+    try {
+      const url = `https://api.mymemory.translated.net/get?q=${encoded}&langpair=sn|en`;
+      const body = await fetchHttpsText(url, 8000);
+      const parsed = JSON.parse(body);
+      const cand = parsed?.responseData?.translatedText;
+      if (
+        typeof cand === 'string' &&
+        cand.trim() &&
+        !cand.includes('MYMEMORY WARNING') &&
+        cand.trim().toLowerCase() !== clean
+      ) {
+        return cand.trim().toLowerCase();
+      }
+    } catch {}
+    return null;
+  };
+
+  const order = variationSeed % 2 === 1 ? [tryMyMemory, tryClients5] : [tryClients5, tryMyMemory];
+  for (const fn of order) {
+    const out = await fn();
+    if (out) return out;
+  }
+  return null;
+}
+
+export async function buildSentenceWordGlossAsync(
+  shonaSentence: string,
+  englishSentence: string,
+  useAiMode = false,
+  variationSeed = 0
+): Promise<{
+  literal_gloss: string;
+  gloss_breakdown: WordGloss[];
+}> {
+  const words = String(shonaSentence || '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  if (words.length === 0) {
+    return { literal_gloss: '', gloss_breakdown: [] };
+  }
+
+  // 1. If AI Mode is active, use Gemini to generate a rich, contextual word-by-word & morpheme breakdown for this exact sentence
+  if (useAiMode && getGeminiApiKey()) {
+    const gemOut = await callGeminiJson(
+      `You are an expert Shona (ChiZezuru) linguist creating a Word-by-Word Literal Breakdown for an Assimil lesson.
+Shona sentence: "${shonaSentence}"
+Idiomatic English translation: "${englishSentence}"
+Words in exact order: ${JSON.stringify(words)}
+
+For EVERY word in the Shona sentence (in the exact order above), provide:
+1. "shona": the exact word from the sentence
+2. "literal_english": the clear, accurate English meaning of this word in context. If the word has prefixes, tense markers, or suffixes (e.g. "vakagara" = "va- (they) + -ka- (past) + -gara (sit)" -> "they sat / are seated (va-ka-gara)"; "pejira" = "pe- (of) + jira (cloth)" -> "of the cloth (pe-jira)"), include both the English meaning and the brief component breakdown if helpful. NEVER output the Shona word itself as its English translation!
+3. "morphemes": morphological breakdown of prefixes, stems, and suffixes
+4. "noun_class": grammatical class or verb tense label
+
+Return JSON: {"words": [{"shona": "...", "literal_english": "...", "morphemes": "...", "noun_class": "..."}]}`
+    );
+
+    if (gemOut && Array.isArray(gemOut.words) && gemOut.words.length > 0) {
+      const breakdown: WordGloss[] = words.map((origWord, idx) => {
+        const gItem = gemOut.words[idx] || {};
+        const fallback = analyzeMorphemesAndClass(origWord);
+        const litEng =
+          typeof gItem.literal_english === 'string' &&
+          gItem.literal_english.trim().length > 0 &&
+          gItem.literal_english.trim().toLowerCase() !==
+            origWord.replace(/[^A-Za-z']/g, '').toLowerCase()
+            ? gItem.literal_english.trim()
+            : fallback.literal_english;
+        const morph =
+          typeof gItem.morphemes === 'string' && gItem.morphemes.trim()
+            ? gItem.morphemes.trim()
+            : fallback.morphemes;
+        const nclass =
+          typeof gItem.noun_class === 'string' && gItem.noun_class.trim()
+            ? gItem.noun_class.trim()
+            : fallback.noun_class;
+        return {
+          shona: origWord,
+          shona_word: origWord,
+          literal_english: litEng,
+          morphemes: morph,
+          morpheme_breakdown: morph,
+          noun_class: nclass,
+          noun_class_or_concord: nclass,
+        };
+      });
+
+      return {
+        literal_gloss: formatWordGlossList(breakdown),
+        gloss_breakdown: breakdown,
+      };
+    }
+  }
+
+  // 2. Non-AI Mode (or fallback): analyze each word and resolve any untranslated words via neural provider
+  const breakdown: WordGloss[] = [];
+  for (const w of words) {
+    const clean = w.replace(/^[^A-Za-z']+|[^A-Za-z']+$/g, '').toLowerCase();
+    const baseAnalysis = analyzeMorphemesAndClass(w);
+    const isUntranslated =
+      !baseAnalysis.literal_english ||
+      baseAnalysis.literal_english.toLowerCase() === clean;
+
+    if (isUntranslated || variationSeed > 0) {
+      const onlineWordGloss = await translateSingleShonaWordWithProviders(w, variationSeed);
+      if (onlineWordGloss && onlineWordGloss.toLowerCase() !== clean) {
+        baseAnalysis.literal_english = onlineWordGloss;
+      }
+    }
+    breakdown.push(baseAnalysis);
+  }
+
+  return {
+    literal_gloss: formatWordGlossList(breakdown),
+    gloss_breakdown: breakdown,
+  };
+}
+
+// ============================================================================
+// SENTENCE & PASSAGE TRANSLATION ENGINE
+// ============================================================================
+
 export async function translateShonaSentenceIdiomatic(
   shonaSent: string,
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false,
+  fullPassageContext = ''
 ): Promise<string> {
   const sClean = shonaSent.trim();
   if (!sClean) return '';
@@ -311,17 +791,23 @@ export async function translateShonaSentenceIdiomatic(
   const norm = normalizeTextKey(sClean);
   const normNoPunct = norm.replace(/[.!?;:,]+$/, '');
 
-  // If Gemini API key is configured and variationSeed > 0, use Gemini for fresh idiomatic translation
-  if (getGeminiApiKey() && variationSeed > 0) {
+  // 1. If AI Mode is active (or Gemini API key is set with variationSeed > 0), use Gemini
+  if ((useAiMode || variationSeed > 0) && getGeminiApiKey()) {
+    const contextLine = fullPassageContext
+      ? `\nFull Shona passage for context: "${fullPassageContext}"`
+      : '';
     const gemOut = await callGeminiJson(
-      `Translate the following Shona (ChiZezuru) sentence into natural, 100% idiomatic everyday English as a native English speaker would say it (not literal word-for-word). Return JSON: {"english": "..."}.\nShona: "${sClean}"`
+      `Translate the following Shona (ChiZezuru) sentence into natural, 100% idiomatic everyday English as a native English speaker would say it (never literal word-for-word, and never leave Shona words untranslated).${contextLine}
+Target Shona sentence to translate: "${sClean}"
+Variation seed: ${variationSeed}
+Return JSON: {"english": "..."}`
     );
     if (gemOut && typeof gemOut.english === 'string' && gemOut.english.trim().length > 2) {
       return gemOut.english.trim();
     }
   }
 
-  if (variationSeed === 0) {
+  if (variationSeed === 0 && !useAiMode) {
     for (const [k, v] of Object.entries(kb.IDIOMATIC_SENTENCE_TRANSLATIONS)) {
       const kNorm = normalizeTextKey(k);
       if (kNorm === norm || kNorm.replace(/[.!?;:,]+$/, '') === normNoPunct) {
@@ -403,7 +889,7 @@ export async function translateShonaSentenceIdiomatic(
     }
   }
 
-  throw new Error(`Could not translate Shona sentence idiomatically: "${sClean}"`);
+  return sClean;
 }
 
 function applyIdiomaticVariation(englishSent: string, seed: number): string {
@@ -437,21 +923,46 @@ function applyIdiomaticVariation(englishSent: string, seed: number): string {
   return out;
 }
 
+export async function attachPerSentenceGlossesToDialogue(
+  lines: Array<{ id?: number; speaker?: string; shona: string; english: string }>,
+  useAiMode = false
+): Promise<DialogueLine[]> {
+  const result: DialogueLine[] = [];
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    const sText = String(l.shona || '').trim();
+    const eText = String(l.english || '').trim();
+    const glossData = useAiMode
+      ? await buildSentenceWordGlossAsync(sText, eText, true, 0)
+      : buildSentenceWordGlossSync(sText);
+    result.push({
+      id: i + 1,
+      speaker: l.speaker || 'Mutauri',
+      shona: sText,
+      english: eText,
+      literal_gloss: glossData.literal_gloss,
+      gloss_breakdown: glossData.gloss_breakdown,
+    });
+  }
+  return result;
+}
+
 export async function resolveIdiomaticTranslationAndDialogue(
   shonaText: string,
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false
 ): Promise<{ englishTranslation: string; dialogue: DialogueLine[] }> {
   const kb = loadTextbookKnowledge();
   const norm = normalizeTextKey(shonaText);
   const normNoPunct = norm.replace(/[.!?;:,]+$/, '');
   const shonaSentences = splitShonaSentences(shonaText);
 
-  // If Gemini API key is configured, try Gemini sentence-by-sentence idiomatic translation
-  if (getGeminiApiKey() && variationSeed > 0) {
+  // 1. If AI Mode is enabled (or variationSeed > 0 with a valid Gemini key), use Gemini
+  if ((useAiMode || variationSeed > 0) && getGeminiApiKey()) {
     const gemData = await callGeminiJson(
       `You are an expert Shona (ChiZezuru) to English translator for Assimil.
-Split and translate each of these Shona sentences into 100% natural, idiomatic English sentences (never literal word-for-word).
-Shona sentences: ${JSON.stringify(shonaSentences)}
+Translate each of these Shona sentences into 100% natural, idiomatic English sentences as a native English speaker would say them (not literal word-for-word, and never leave Shona words untranslated).
+Shona sentences in order: ${JSON.stringify(shonaSentences)}
 Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_translation": "..."}`
     );
     if (
@@ -466,12 +977,7 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
           d.english.trim().length >= 3
       )
     ) {
-      const dialogue: DialogueLine[] = gemData.dialogue.map((d: any, idx: number) => ({
-        id: idx + 1,
-        speaker: 'Mutauri',
-        shona: d.shona.trim(),
-        english: d.english.trim(),
-      }));
+      const dialogue = await attachPerSentenceGlossesToDialogue(gemData.dialogue, useAiMode);
       return {
         englishTranslation: dialogue.map((d) => d.english).join(' '),
         dialogue,
@@ -479,8 +985,8 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
     }
   }
 
-  // 1. Check IDIOMATIC_SENTENCE_TRANSLATIONS
-  if (variationSeed === 0) {
+  // 2. Check IDIOMATIC_SENTENCE_TRANSLATIONS when not in AI regeneration mode
+  if (variationSeed === 0 && !useAiMode) {
     for (const [key, eng] of Object.entries(kb.IDIOMATIC_SENTENCE_TRANSLATIONS)) {
       const kNorm = normalizeTextKey(key);
       if (kNorm === norm || kNorm.replace(/[.!?;:,]+$/, '') === normNoPunct) {
@@ -493,36 +999,39 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
             .map((p) => p.trim())
             .filter(Boolean);
           if (sParts.length === eParts.length && sParts.length > 1) {
+            const rawLines = sParts.map((sp, idx) => ({
+              id: idx + 1,
+              speaker: 'Mutauri',
+              shona: sp,
+              english:
+                eParts[idx].endsWith('.') || eParts[idx].endsWith('?')
+                  ? eParts[idx]
+                  : `${eParts[idx]}.`,
+            }));
             return {
               englishTranslation: eng,
-              dialogue: sParts.map((sp, idx) => ({
-                id: idx + 1,
-                speaker: 'Mutauri',
-                shona: sp,
-                english:
-                  eParts[idx].endsWith('.') || eParts[idx].endsWith('?')
-                    ? eParts[idx]
-                    : `${eParts[idx]}.`,
-              })),
+              dialogue: await attachPerSentenceGlossesToDialogue(rawLines, false),
             };
           }
         }
         return {
           englishTranslation: eng,
-          dialogue: [{ id: 1, speaker: 'Mutauri', shona: shonaText.trim(), english: eng }],
+          dialogue: await attachPerSentenceGlossesToDialogue(
+            [{ id: 1, speaker: 'Mutauri', shona: shonaText.trim(), english: eng }],
+            false
+          ),
         };
       }
     }
 
-    // 2. Check VIBEVOICE_PASSAGE_TRANSLATIONS (pairing shonaSentences[i] with English sentences[i])
+    // 3. Check VIBEVOICE_PASSAGE_TRANSLATIONS
     for (const entry of kb.VIBEVOICE_PASSAGE_TRANSLATIONS) {
       const mKey = normalizeTextKey(entry.match || '');
       if (mKey && norm.includes(mKey)) {
         const rawSentences = entry.sentences || [];
         if (rawSentences.length > 0) {
-          // Case A: entry.sentences is an array of [shona, english] tuples
           if (Array.isArray(rawSentences[0]) && rawSentences[0].length === 2) {
-            const dialogue = (rawSentences as Array<[string, string]>).map(
+            const rawLines = (rawSentences as Array<[string, string]>).map(
               ([sSent, eSent], idx) => ({
                 id: idx + 1,
                 speaker: 'Mutauri',
@@ -530,6 +1039,7 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
                 english: eSent,
               })
             );
+            const dialogue = await attachPerSentenceGlossesToDialogue(rawLines, false);
             return {
               englishTranslation: String(
                 entry.english || dialogue.map((d) => d.english).join(' ')
@@ -537,15 +1047,15 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
               dialogue,
             };
           }
-          // Case B: entry.sentences is an array of English strings corresponding to shonaSentences
           const engList = (rawSentences as string[]).map((s) => String(s).trim()).filter(Boolean);
           if (engList.length === shonaSentences.length && shonaSentences.length > 0) {
-            const dialogue = shonaSentences.map((sSent, idx) => ({
+            const rawLines = shonaSentences.map((sSent, idx) => ({
               id: idx + 1,
               speaker: 'Mutauri',
               shona: sSent,
               english: engList[idx],
             }));
+            const dialogue = await attachPerSentenceGlossesToDialogue(rawLines, false);
             return {
               englishTranslation: String(entry.english || engList.join(' ')),
               dialogue,
@@ -557,14 +1067,19 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
     }
   }
 
-  // 3. Sentence-by-sentence idiomatic translation for every Shona sentence
-  const dialogue: DialogueLine[] = [];
+  // 4. Sentence-by-sentence idiomatic translation for every Shona sentence
+  const rawLines: Array<{ id: number; speaker: string; shona: string; english: string }> = [];
   const engSentences: string[] = [];
 
   for (let i = 0; i < shonaSentences.length; i++) {
     const sSent = shonaSentences[i];
-    const eSent = await translateShonaSentenceIdiomatic(sSent, variationSeed);
-    dialogue.push({
+    const eSent = await translateShonaSentenceIdiomatic(
+      sSent,
+      variationSeed,
+      useAiMode,
+      shonaText
+    );
+    rawLines.push({
       id: i + 1,
       speaker: 'Mutauri',
       shona: sSent,
@@ -573,69 +1088,10 @@ Return JSON: {"dialogue": [{"shona": "...", "english": "..."}], "english_transla
     engSentences.push(eSent);
   }
 
+  const dialogue = await attachPerSentenceGlossesToDialogue(rawLines, useAiMode);
   return {
     englishTranslation: engSentences.join(' ').trim(),
     dialogue,
-  };
-}
-
-const NOUN_CLASS_PREFIXES: Array<[string, string, string]> = [
-  ['vaka', 'va- (Class 2) + -ka- (remote past)', 'Verb (Class 2 Past)'],
-  ['ndiri', 'ndi- (1st sg) + -ri (copula)', 'Verb (1st Sg Progressive)'],
-  ['tiri', 'ti- (1st pl) + -ri (copula)', 'Verb (1st Pl Progressive)'],
-  ['vari', 'va- (Class 2) + -ri (copula)', 'Verb (Class 2 Progressive)'],
-  ['ndino', 'ndi- (1st sg) + -no- (present habitual)', 'Verb (1st Sg Present)'],
-  ['vano', 'va- (Class 2) + -no- (present habitual)', 'Verb (Class 2 Present)'],
-  ['tino', 'ti- (1st pl) + -no- (present habitual)', 'Verb (1st Pl Present)'],
-  ['uno', 'u- (2nd sg) + -no- (present habitual)', 'Verb (2nd Sg Present)'],
-  ['ano', 'a- (Class 1) + -no- (present habitual)', 'Verb (Class 1 Present)'],
-  ['ndaka', 'nda- (1st sg) + -ka- (past)', 'Verb (1st Sg Past)'],
-  ['taka', 'ta- (1st pl) + -ka- (past)', 'Verb (1st Pl Past)'],
-  ['waka', 'wa- (2nd sg) + -ka- (past)', 'Verb (2nd Sg Past)'],
-  ['aka', 'a- (Class 1) + -ka- (past)', 'Verb (Class 1 Past)'],
-  ['yaka', 'ya- (Class 9) + -ka- (past)', 'Verb (Class 9 Past)'],
-  ['zvi', 'zvi- (Class 8 plural)', 'Class 8 (zvi-)'],
-  ['chi', 'chi- (Class 7 singular)', 'Class 7 (chi-)'],
-  ['vanhu', 'va- (Class 2) + -nhu (person)', 'Class 2 (va-)'],
-  ['munhu', 'mu- (Class 1) + -nhu (person)', 'Class 1 (mu-)'],
-  ['vana', 'va- (Class 2) + -na (child)', 'Class 2 (va-)'],
-  ['mwana', 'mu- (Class 1) + -ana (child)', 'Class 1 (mu-)'],
-  ['mu', 'mu- (Class 1/3/18 prefix)', 'Class 1/3/18 (mu-)'],
-  ['va', 'va- (Class 2 plural / honorific)', 'Class 2 (va-)'],
-  ['ma', 'ma- (Class 6 plural)', 'Class 6 (ma-)'],
-  ['ku', 'ku- (Class 15 infinitive / Class 17 locative)', 'Class 15/17 (ku-)'],
-  ['pa', 'pa- (Class 16 locative: at/on)', 'Class 16 (pa-)'],
-  ['ne', 'ne- (associative/conjunctive: with/and)', 'Conjunctive (ne-)'],
-  ['na', 'na- (associative: with/and)', 'Conjunctive (na-)'],
-];
-
-export function analyzeMorphemesAndClass(word: string): WordGloss {
-  const kb = loadTextbookKnowledge();
-  const clean = word.replace(/^[^A-Za-z']+|[^A-Za-z']+$/g, '').toLowerCase();
-  if (!clean) {
-    return { shona: word, literal_english: word, morphemes: word, noun_class: 'Particle' };
-  }
-  if (kb.BEGINNER_WORD_GLOSS[clean]) {
-    const [morph, nclass, gloss] = kb.BEGINNER_WORD_GLOSS[clean];
-    return { shona: word, literal_english: gloss, morphemes: morph, noun_class: nclass };
-  }
-  for (const [prefix, morphDesc, nclass] of NOUN_CLASS_PREFIXES) {
-    if (clean.startsWith(prefix) && clean.length > prefix.length + 1) {
-      const stem = clean.slice(prefix.length);
-      const stemGloss = kb.BEGINNER_WORD_GLOSS[stem]?.[2] || stem;
-      return {
-        shona: word,
-        literal_english: stemGloss,
-        morphemes: `${morphDesc} + -${stem}`,
-        noun_class: nclass,
-      };
-    }
-  }
-  return {
-    shona: word,
-    literal_english: clean,
-    morphemes: `${clean} (root)`,
-    noun_class: 'Lexical Root',
   };
 }
 
@@ -1023,9 +1479,9 @@ export function generateTextbookGrammarNotes(
     if (notes.length < 3 || variationSeed > 0) {
       const morph = analyzeMorphemesAndClass(lw);
       notes.push({
-        title: `Morphological & Concord Breakdown of '${lw}' (${morph.noun_class})`,
-        content: `In this lesson, '${lw}' analyzes morphologically as ${morph.morphemes}. In ChiZezuru grammar, the class prefix governs subject, adjective, and possessive agreement across the clause so the listener can track which noun is performing or receiving the action.`,
-        rule: `Lexical & Concord Structure: '${lw}' -> ${morph.morphemes}`,
+        title: `Morphological & Concord Breakdown of '${lw}' ('${morph.literal_english}')`,
+        content: `In this lesson, '${lw}' ('${morph.literal_english}') analyzes morphologically as ${morph.morphemes}. In ChiZezuru grammar, the class prefix governs subject, adjective, and possessive agreement across the clause so the listener can track which noun is performing or receiving the action.`,
+        rule: `Lexical & Concord Structure: '${lw}' (${morph.literal_english}) -> ${morph.morphemes}`,
       });
     }
   }
@@ -1040,547 +1496,254 @@ export function generateTextbookGrammarNotes(
 }
 
 interface CulturalDomainEntry {
-  keywords: string[];
-  wikiTopics: string[];
+  primaryKeywords: string[];
   perspectives: Array<{ title: string; content: string }>;
 }
 
 const ZIMBABWE_CULTURAL_ENCYCLOPEDIA: CulturalDomainEntry[] = [
   {
-    keywords: [
-      'musoro',
+    primaryKeywords: [
       'wakarukwa',
       'akarukwa',
       'kuruka',
       'kurukwa',
+      'zvirukwa',
       'vhudzi',
       'bvudzi',
-      'braid',
-      'braided',
-      'woven',
-      'hair',
-      'rastasta',
-      'dreadlocks',
+      'madhiredzi',
+      'nyarutatu',
+      'hata',
     ],
-    wikiTopics: ['Hair_braiding', 'Shona_people', 'Culture_of_Zimbabwe'],
     perspectives: [
       {
         title: "The Art of Hair Braiding ('Kuruka Musoro') in Zimbabwean Culture",
         content:
-          "In Shona society, hair braiding ('kuruka musoro' or 'kuruka vhudzi') is both a treasured aesthetic art and an important social tradition. Across Harare, Bulawayo, and rural townships, women and girls gather at salons or on shaded verandas where skilled braiders weave intricate geometric patterns such as 'mabhanzi', three-strand plaits ('kuruka rutatu'), and neat cornrows ('lines'), often incorporating synthetic extensions ('rastasta').",
+          "In Shona society, hair braiding ('kuruka musoro' or 'kuruka vhudzi') is both a treasured aesthetic art and an important social tradition. Across Harare, Bulawayo, and rural townships, women and girls gather at salons or on shaded verandas where skilled braiders weave intricate geometric patterns such as 'mabhanzi', three-strand plaits ('kuruka nyarutatu'), dreadlocks ('madhiredzi'), and neat cornrows ('lines').",
       },
       {
         title: 'Pre-Colonial & Contemporary Hairstyles as Social Identity in Mashonaland',
         content:
           "Historically among the Zezuru and neighbouring Shona peoples, hairstyles ('magerero nemarukiro emusoro') communicated age grade, marital status, and community celebration. Today, neatly braided hair ('musoro wakarukwa zvakanaka') remains a hallmark of 'kushambidzika' (personal neatness and dignity) for school, church gatherings, weddings ('michato'), and professional life.",
       },
-      {
-        title: 'Salon Micro-Enterprises & Women’s Entrepreneurship in Urban Zimbabwe',
-        content:
-          "Hairdressing and braiding studios form one of the most vibrant female-led micro-enterprise sectors in Zimbabwe's urban centres and growth points ('magrowth point'). Master braiders pass down finger-weaving techniques that protect natural hair texture during Zimbabwe's dry winter ('chando') and hot spring ('chirimo') seasons.",
-      },
-      {
-        title: "ChiZezuru Vocabulary of Grooming: '-ruka' (Weave/Braid) & Craftsmanship",
-        content:
-          "In ChiZezuru, the verb root '-ruka' ('to braid, plait, or weave') links personal grooming ('kuruka musoro' = braiding the head/hair) with traditional basketry ('kuruka tswanda' = weaving reed baskets) and mat-making ('kuruka rupasa'). Using the passive 'wakarukwa zvakanaka' praises the precision and symmetry of the artisan's handiwork.",
-      },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'chigaro',
       'pachigaro',
       'zvigaro',
       'chituru',
       'masofa',
-      'sofa',
-      'chair',
-      'throne',
-      'seat',
-      'stool',
-      'sitting',
-      'akagara',
     ],
-    wikiTopics: ['Shona_people', 'Culture_of_Zimbabwe', 'Great_Zimbabwe'],
     perspectives: [
       {
         title: "Seating Etiquette & Respect ('Chigaro') in the Shona Household",
         content:
-          "In traditional and modern Shona homes alike, seating arrangements ('kugara pachigaro') reflect age, kinship, and hospitality ('hunhu'). In a rural roundavel kitchen ('imba yekubikira'), men and elders traditionally sit on raised carved wooden stools or benches ('chigaro' / 'chituru'), while women often sit on woven reed mats ('rupasa' or 'bonde'), though in urban living rooms ('imba yokutandarira') guests of honour are always offered the best armchair ('chigaro chakanaka').",
+          "In traditional and modern Shona homes alike, seating arrangements ('kugara pachigaro') reflect age, kinship, and hospitality ('hunhu'). In a rural roundavel kitchen ('imba yekubikira'), elders traditionally sit on raised benches or carved wooden stools ('chigaro' / 'chituru'), while in urban living rooms ('imba yokutandarira') guests of honour are always offered the best seat first.",
       },
       {
         title: "Carved Wooden Stools ('Zvigaro') & Symbolism of Authority in Zimbabwe",
         content:
-          "Hand-carved wooden headrests ('mutsago') and stools ('zvigaro') made from indigenous hardwoods like 'mukwa' and 'muvava' have been symbols of status and leadership in Zimbabwe for centuries. In Shona idioms, the word 'chigaro' means both an everyday chair and a seat of leadership or throne ('chigaro cheushe' = royal throne), which is why 'kugara pachigaro' carries connotations of poise and dignity.",
-      },
-      {
-        title: 'Hospitality When Welcoming Visitors: "Garai Pasi Pachigaro"',
-        content:
-          "When a visitor arrives at a Zimbabwean home, the host immediately offers a seat before any business is discussed—saying 'Pindai mugare pachigaro' ('Come in and sit on a chair'). Offering a clean seat followed by a clap of respect ('kuombera') establishes warmth before exchanging formal greetings ('kubvunzana mufaro').",
-      },
-      {
-        title: "Noun Class 7 ('chi-/zvi-') Instrument Derivation: '-gara' -> 'chigaro'",
-        content:
-          "Culturally and linguistically, Shona derives the names of household furnishings directly from action verbs by adding the Class 7 prefix 'chi-' and changing the final vowel '-a' to '-o': from '-gara' ('to sit') comes 'chigaro' ('chair / seat / throne', plural 'zvigaro'), and from '-rara' ('to sleep') comes 'chiraro'.",
+          "Hand-carved wooden headrests ('mutsago') and stools ('zvigaro') made from indigenous hardwoods like 'mukwa' have been symbols of status and leadership in Zimbabwe for centuries. In Shona idioms, 'chigaro' means both an everyday chair and a seat of leadership ('chigaro cheushe').",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'shangu',
       'butsu',
       'bhutsu',
       'chitsiko',
-      'hembe',
-      'dhirezi',
-      'mbatya',
-      'nhumbi',
-      ' bhurugwa',
-      'mukabudura',
-      'heti',
-      'ngowani',
-      'shoe',
-      'shoes',
-      'boots',
-      'shirt',
-      'dress',
-      'clothes',
+      'tenisi',
+      'yetenisi',
+      'mhete',
     ],
-    wikiTopics: ['Culture_of_Zimbabwe', 'Fashion_in_Africa', 'Bata_Shoes'],
     perspectives: [
       {
         title: "Dignified Dress ('Kushambidzika') & Footwear in Zimbabwean Daily Life",
         content:
-          "Across Zimbabwe, personal presentation ('kushambidzika') is treated as a visible expression of self-respect and respect for others. Whether wearing polished leather shoes ('shangu' or 'bhutsu') to office work in Harare or neat church attire ('mbatya dzechechi') on weekends, Zimbabweans take great pride in well-coordinated clothing and clean footwear.",
+          "Across Zimbabwe, personal presentation ('kushambidzika') is treated as a visible expression of self-respect and respect for others. Whether wearing canvas sneakers ('shangu yetenisi'), flat walking shoes ('butsu'), or heeled dress shoes ('shangu dzine chitsiko chakakwirira'), Zimbabweans take pride in clean, well-kept footwear.",
       },
       {
-        title: "Gweru's Footwear Heritage & the Bata Shoe Tradition in Zimbabwe",
+        title: "Gweru's Footwear Heritage & Everyday Shoe Terminology in ChiZezuru",
         content:
-          "Zimbabwe has a long industrial history in footwear manufacturing centered in the Midlands city of Gweru, where the historic Bata shoe factory (established in 1939) produced iconic canvas 'Toughees' school shoes and 'Sandak' sandals worn by generations of Zimbabwean students and workers.",
-      },
-      {
-        title: "Boutiques ('Zvitoro zveNhumbi') & Tailoring Markets in Harare and Bulawayo",
-        content:
-          "Local clothing boutiques ('zvitoro zvinotengesa nhumbi') and open-air textile markets such as Mupedzanhamo in Mbare supply colourful dresses ('madhirezi'), shirts ('mahembe'), and high-heeled or flat shoes ('shangu dzine chitsiko chakakwirira'). Independent tailors ('vasonsi') also craft bespoke garments for family celebrations.",
-      },
-      {
-        title: 'Shona Footwear & Garment Terminology in Everyday Conversation',
-        content:
-          "In ChiZezuru, 'shangu' refers generally to shoes or sandals, while 'bhutsu' (or 'butsu') refers to closed boots or sturdy walking shoes. Speakers describe footwear details precisely—such as 'chitsiko chakakwirira' (a high heel) or 'ruvara ruchena nerutsvuku' (white and red colour)—when shopping or describing someone's outfit.",
+          "In ChiZezuru, 'shangu' refers generally to shoes, 'shangu yetenisi' refers to athletic sneakers/trainers, and 'bhutsu' (or 'butsu') refers to sturdy closed shoes or boots. Zimbabwe has a long footwear manufacturing heritage centred in the Midlands city of Gweru.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'chivakwa',
       'zvivakwa',
       'mafafutera',
-      'hwindo',
-      'mudhuri',
-      'uriri',
-      'imba',
-      'dzimba',
-      'murokesheni',
-      'building',
-      'windows',
-      'skyline',
-      'floor',
-      'wall',
+      'muturikidzanwa',
+      'yemuturikidzanwa',
+      'kachitoro',
+      'chitoro',
     ],
-    wikiTopics: ['Architecture_of_Zimbabwe', 'Eastgate_Centre,_Harare', 'Harare'],
     perspectives: [
       {
         title: "Modernist High-Rise Architecture ('Zvivakwa Zvokudurikidzwa') in Harare",
         content:
-          "Harare's central business district ('mudhorobha') is renowned for its striking post-independence and modernist high-rise buildings ('zvivakwa zvakareba zvinoenda mudenga'). Iconic structures like the Eastgate Centre—designed by Zimbabwean architect Mick Pearce using natural biomimetic cooling inspired by indigenous termite mounds ('churu')—blend modern glass-and-concrete facades ('mafafutera akawanda') with environmental sustainability.",
+          "Harare's central business district ('mudhorobha') is renowned for its modernist high-rise buildings ('zvivakwa zvakareba zvinoenda mudenga'). Iconic structures like the Eastgate Centre—designed by Zimbabwean architect Mick Pearce using natural biomimetic cooling inspired by indigenous termite mounds ('churu')—blend modern glass-and-concrete facades ('mafafutera akawanda') with environmental sustainability.",
       },
       {
-        title: "Suburban Neighbourhoods ('Marukisheni') & Tiled Roof Architecture",
+        title: "Neighbourhood Tuckshops ('Kachitoro') & Community Commerce in Zimbabwe",
         content:
-          "Residential suburbs across Zimbabwe—colloquially called 'marukisheni' (from 'locations')—feature detached brick houses ('dzimba dzezvidhinha') topped with red clay or concrete roof tiles ('matenga anemataira matsvuku') and shaded by fruit and ornamental trees ('miti yakawanda') in the front yard ('chivanze').",
-      },
-      {
-        title: "From Stone Enclosures ('Dzimbahwe') to Contemporary Urban Design",
-        content:
-          "The very name 'Zimbabwe' derives from the Shona phrase 'dzimba dzemabwe' ('houses of stone'), honouring the dry-stone masonry of Great Zimbabwe and Khami. Modern Zimbabwean builders continue this appreciation for solid masonry ('kuvaka zvivakwa zvakasimba'), polished floors ('uriri'), and shaded pedestrian arcades.",
-      },
-      {
-        title: 'Street-Level Life Around Urban Office Buildings in Zimbabwe',
-        content:
-          "Along the tree-lined avenues in front of tall commercial buildings ('pamberi pechivakwa') in Harare and Bulawayo, parked cars ('motokari dzakamirapo') share the shade of jacaranda and flamboyant trees with licensed refreshment vendors ('vatengesi varikutengesa zvinwiwa') serving cold drinks to commuters.",
+          "In Zimbabwean residential neighbourhoods ('munharaunda'), small neighbourhood shops ('zvitoro' or 'kachitoro') built near homes provide essential daily groceries—such as bread ('chingwa'), cooking oil ('mafuta'), and salt ('sauti')—within easy walking distance for local families.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'nhabvu',
+      'wenhabvu',
       'chikwata',
       'zvikwata',
-      'mutambo',
       'nhandare',
       'yinifomu',
-      'football',
-      'soccer',
-      'team',
-      'match',
-      'stadium',
     ],
-    wikiTopics: ['Football_in_Zimbabwe', 'Zimbabwe_national_football_team', 'Rufaro_Stadium'],
     perspectives: [
       {
-        title: "Football ('Mutambo weNhabvu') — Zimbabwe's National Sporting Passion",
+        title: "Football ('Mutambo weNhabvu') & Team Sports in Zimbabwe",
         content:
-          "Football ('nhabvu') is the most popular sport in Zimbabwe, uniting communities from rural school pitches to packed urban stadiums like Rufaro Stadium and the National Sports Stadium in Harare, or Barbourfields Stadium in Bulawayo. Historic clubs such as Dynamos ('DeMbare'), Highlanders ('Bosso'), and CAPS United draw thousands of passionate supporters wearing their team colours ('yinifomu yechikwata').",
-      },
-      {
-        title: 'Community Youth Leagues & Township Football Tournaments',
-        content:
-          "Every weekend across Zimbabwean neighbourhoods and growth points, local teams ('zvikwata zviviri') compete in spirited matches on grass or dust pitches. Wearing distinct team kits ('yinifomu'), young players develop close teamwork and discipline cheered on by neighbours along the touchline.",
-      },
-      {
-        title: 'The "Warriors" & Mighty Warriors in Southern African Football',
-        content:
-          "Zimbabwe's men's national football team (the 'Warriors') and women's national team (the 'Mighty Warriors', who qualified for the 2016 Rio Olympics) hold a proud place in COSAFA and AFCON competitions, making 'mutambo wenhabvu' a frequent topic of lively daily conversation.",
-      },
-      {
-        title: "ChiZezuru Sports Terminology: 'Nhabvu', 'Chikwata', and 'Nhandare'",
-        content:
-          "In Shona sports commentary—famous on Radio Zimbabwe for its rapid, poetic imagery—'nhabvu' means football, 'chikwata' (plural 'zvikwata') means team or squad, 'nhandare' is the stadium or pitch, and 'mutambi' is a player.",
+          "Team sports—led by football ('nhabvu'), netball, and school athletics—play a central role in Zimbabwean community life, from rural school pitches to urban stadiums like Rufaro Stadium in Harare and Barbourfields Stadium in Bulawayo. Competing teams ('zvikwata zviviri') wear distinctive kits ('yinifomu') cheered on by local supporters.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'maguru',
       'chikafu',
       'mundiro',
-      'ndiro',
       'sadza',
       'muriwo',
-      'nyama',
-      'hupfu',
-      'kubika',
-      'akabikwa',
-      'tii',
-      'chingwa',
-      'mukaka',
-      'food',
-      'tripe',
-      'plate',
-      'cooked',
-      'meal',
+      'mhiripiri',
+      'jikichiri',
     ],
-    wikiTopics: ['Cuisine_of_Zimbabwe', 'Sadza', 'Culture_of_Zimbabwe'],
     perspectives: [
       {
         title: "Slow-Cooked Beef Tripe ('Maguru eMombe') & Traditional Shona Delicacies",
         content:
-          "In Zimbabwean cuisine, beef tripe and offal ('maguru nematumbu emombe') slow-simmered until tender ('akabikwa zvine unyanzvi akaibva zvakanaka') is a beloved traditional dish. Served steaming hot on a plate ('mundiro') alongside white maize 'sadza' and leafy greens ('muriwo'), 'maguru' is prized both at family dinners and at local 'gochi-gochi' eateries.",
-      },
-      {
-        title: "Handwashing Etiquette ('kugeza maoko') & Shared Dining in Shona Homes",
-        content:
-          "Before a traditional Shona meal is served on plates ('mundiro'), a younger family member brings a basin and pitcher ('chirongo' or jug) of warm water so each person can wash their hands ('kugeza maoko'), starting with the elders. Sharing well-prepared food ('chikafu chakabikwa zvakanaka') strengthens family bonds ('ukama').",
-      },
-      {
-        title: "From Staple Grains ('Chibage neZviyo') to Relishes ('Usavi')",
-        content:
-          "A complete Zimbabwean main meal consists of a stiff grain porridge ('sadza' made from white maize meal 'hupfu', or nutritious reddish finger millet 'sadza rezviyo') paired with a savoury relish ('usavi') such as braised beef, 'maguru', free-range chicken ('huku yechibhoyi'), or peanut-butter greens ('muriwo unedovi').",
-      },
-      {
-        title: "Culinary Vocabulary in ChiZezuru: '-bika' (Cook) vs. '-ibva' (Be Thoroughly Cooked/Ripe)",
-        content:
-          "Notice the distinction in Shona culinary language between '-bika' ('to cook', passive '-bikwa') and '-ibva' ('to become fully cooked, tender, or ripe'). Saying 'akabikwa zvine unyanzvi akaibva zvakanaka' compliments the cook by noting that the dish was prepared with skill ('unyanzvi') and cooked to perfection.",
+          "In Zimbabwean cuisine, beef tripe ('maguru emombe') slow-simmered until tender ('akabikwa zvine unyanzvi akaibva zvakanaka') in a rich tomato and onion gravy ('muto wakatsvukira') is a beloved traditional dish, often served in enamel plates ('ndiro yesimbi') alongside white maize 'sadza' and hot chilli relish ('mhiripiri').",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'shizha',
       'mashizha',
       'maruva',
-      'ruva',
-      'muti',
-      'miti',
       'tsinga',
-      'huswa',
-      'uswa',
-      'sango',
+      'mukotopeya',
       'kanzira',
-      'leaf',
-      'flower',
-      'flowers',
-      'tree',
-      'trees',
-      'veins',
-      'grass',
-      'forest',
-      'path',
     ],
-    wikiTopics: ['Flora_of_Zimbabwe', 'Miombo_woodland', 'Geography_of_Zimbabwe'],
     perspectives: [
       {
-        title: "Miombo Woodlands ('Masango eMusasa') & Indigenous Flora of the Highveld",
+        title: "Miombo Woodlands ('Masango eMusasa') & Botanical Observation in Zimbabwe",
         content:
-          "Much of central Zimbabwe lies within the southern African Miombo woodland belt, dominated by indigenous 'musasa' (Brachystegia spiciformis) and 'mnondo' trees. In spring ('chirimo', September–October), new leaves ('mashizha') emerge in brilliant shades of copper, crimson, and lime green before turning deep green during the summer rains.",
-      },
-      {
-        title: "Botanical Observation & Plant Anatomy ('Shizha neTsinga') in Shona Education",
-        content:
-          "In Zimbabwean nature study and agricultural science, students examine leaf structure ('shizha') closely—distinguishing the prominent central midrib ('tsinga hobvu iri pakati') from the delicate branching veins ('tsinga dzitete dzinofambisa mvura') that transport water and nutrients through the plant.",
-      },
-      {
-        title: "Flowering Gardens, Drought Resilience & Seasonal Rains ('Mvura') in Zimbabwe",
-        content:
-          "Zimbabwean homesteads and municipal parks cultivate vibrant flowering plants ('maruva emhando yakasiyana'), from bougainvillea and hibiscus to aloes and cosmos. During dry spells before the onset of the 'zhizha' rains, gardeners closely monitor soil moisture so flowers do not wilt from lack of water ('kuoma nenhau yekushaya mvura').",
-      },
-      {
-        title: "Rural Footpaths ('Twunzira') Through Savanna Grasslands ('Uswa')",
-        content:
-          "Across rural Mashonaland, narrow winding footpaths ('kanzira kadiki') beaten through tall savanna grass ('uswa') and woodland ('sango') link neighbouring villages, rivers, and fields—forming a living network of pedestrian routes maintained by daily community travel.",
+          "Central Zimbabwe lies within the southern African Miombo woodland belt, alongside homestead fruit trees such as avocado ('muti wemukotopeya'), mango, and banana ('mibhanana'). Shona ethnobotany pays close attention to leaf venation ('mashizha netsinga dzawo') and seasonal moisture cycles during the dry ('chirimo') and rainy ('zhizha') seasons.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'motokari',
-      'mota',
+      'mudhudhudhu',
+      'pamudhudhudhu',
       'mugwagwa',
       'tara',
-      'mudhudhudhu',
-      'bhasikoro',
-      'bhazi',
-      'chitima',
-      'rwendo',
-      'driver',
-      'motorcycle',
-      'motorbike',
-      'highway',
-      'tarred',
-      'traffic',
     ],
-    wikiTopics: ['Transport_in_Zimbabwe', 'Harare', 'Geography_of_Zimbabwe'],
     perspectives: [
       {
-        title: "Tarred Trunk Highways ('Migwagwa ine Tara') & Urban Mobility in Zimbabwe",
+        title: "Tarred Highways ('Migwagwa ine Tara') & Motorcycles ('Midhudhudhu') in Zimbabwe",
         content:
-          "Zimbabwe's road network centres on paved trunk highways ('migwagwa ine tara') connecting Harare with Bulawayo, Mutare, Masvingo, and Chirundu. Within cities and towns, private cars ('motokari'), commuter minibuses, and delivery motorcycles ('midhudhudhu') share busy thoroughfares lined with commercial shops and street trees.",
-      },
-      {
-        title: "Motorcycles ('Midhudhudhu') in Zimbabwean Delivery & Rural Outreach",
-        content:
-          "The Shona onomatopoeic noun 'mudhudhudhu' (motorcycle—named after the rhythmic 'dhu-dhu-dhu' sound of its two-stroke engine) plays a growing role in Zimbabwe, used by urban courier riders in Harare as well as agricultural extension officers and clinic staff reaching remote rural wards.",
-      },
-      {
-        title: "Long-Distance Journeys ('Rwendo') & Travel Courtesies in Mashonaland",
-        content:
-          "Planning a trip ('kuronga rwendo') between rural districts and major cities like Harare involves early morning departures and warm wishes of 'Fambai zvakanaka' ('Travel safely'). Upon arrival, relatives greet travellers with 'Makafamba sei?' ('How did you travel?').",
-      },
-      {
-        title: 'Ideophones & Sound-Symbolic Nouns in Modern Shona Transport Vocabulary',
-        content:
-          "ChiZezuru creatively coins modern technical nouns from sound symbolism and loan adaptations: 'mudhudhudhu' captures the exhaust cadence of a motorbike, while 'motokari' (or 'mota') adapts 'motorcar' into Noun Class 9/10 ('motokari irikufamba' / 'motokari dzakamira').",
+          "Zimbabwe's road network links cities and rural districts via paved highways ('migwagwa ine tara'). Alongside cars ('motokari'), the onomatopoeic Shona noun 'mudhudhudhu' (motorcycle—named after the rhythmic 'dhu-dhu-dhu' sound of its engine) is widely used by urban couriers and rural outreach workers.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'rwizi',
       'kuyerera',
+      'gwatara',
       'mugero',
-      'mvura',
-      'kunaya',
-      'makore',
-      'mhepo',
-      'river',
-      'flowing',
-      'gutter',
-      'drain',
-      'rain',
-      'clouds',
-      'wind',
     ],
-    wikiTopics: ['Geography_of_Zimbabwe', 'Climate_of_Zimbabwe', 'Zambezi'],
     perspectives: [
       {
-        title: "Seasonal Flash Floods & River Crossing Safety ('Musayambuke Rwizi') in Zimbabwe",
+        title: "Seasonal Rains, Drainage Channels ('Gwatara') & River Safety in Zimbabwe",
         content:
-          "During Zimbabwe's summer rainy season ('zhizha', November to March), intense afternoon thunderstorms cause rivers ('nzizi') like the Save, Manyame, and Mazowe to swell rapidly and flow with powerful currents ('rwizi rwuri kuyerera zvine simba'). Elders, schools, and the Civil Protection Unit constantly advise communities never to cross a flooded river ('musayambuke rwizi rwuzere').",
-      },
-      {
-        title: "Cloud Formations ('Makore'), Highveld Winds & Rain Forecasting in Shona Culture",
-        content:
-          "On the Zimbabwean highveld, residents read the afternoon sky closely: heavy cumulus clouds ('makore akawanda') gathering on the horizon and brisk winds ('mhepo inofefetera nesimba') swaying the trees ('miti ikazununguka') signal approaching evening showers ('kunaya manheru').",
-      },
-      {
-        title: "Stormwater Channels ('Migero yeMvura') & Environmental Care",
-        content:
-          "In towns and rural homesteads alike, grass-lined drainage channels and gutters ('migero') guide rainwater runoff ('mvura inoyerera') safely away from homes and roads while nourishing border vegetation.",
-      },
-      {
-        title: "Class 11 ('ru-') Concords for Rivers & Long Flowing Features ('Rwizi Rwuri Kuyerera')",
-        content:
-          "In Shona grammar, elongated geographical features like 'rwizi' (river) and 'rwendo' (journey) belong to Noun Class 11 ('ru-'), taking the distinctive 'rwu-' / 'rwa-' subject concord—as seen in 'rwizi rwuri kuyerera' ('the river is flowing').",
+          "During Zimbabwe's summer rainy season ('zhizha', November to March), stormwater channels ('gwatara' or 'mugero') and rivers ('rwizi') carry brisk runoff that nourishes moisture-loving crops like bananas ('mibhanana') and maize ('chibahwe'). Communities also emphasize river-crossing safety ('musayambuke rwizi rwuzere') during heavy rains.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'mabhuku',
-      'bhuku',
-      'chikoro',
-      'mudzidzisi',
-      'vadzidzi',
+      'ekunyorera',
       'raibhurari',
       'bvunzo',
-      'kuverenga',
-      'kunyora',
-      'notebook',
-      'notebooks',
-      'books',
-      'school',
-      'teacher',
-      'cloth',
-      'jira',
+      'mudzidzisi',
     ],
-    wikiTopics: ['Education_in_Zimbabwe', 'Culture_of_Zimbabwe', 'University_of_Zimbabwe'],
     perspectives: [
       {
-        title: "Exercise Books ('Mabhuku eKunyora') & Zimbabwe's High Literacy Tradition",
+        title: "Exercise Books ('Mabhuku eKunyorera') & Zimbabwe's High Literacy Tradition",
         content:
-          "Zimbabwe boasts one of the highest literacy rates in Africa, a legacy of deep family investment in schooling ('chikoro'). Students carefully cover and arrange their ruled exercise books ('mabhuku ekunyora') and textbooks ('mabhuku ekuverenga'), treating study materials with great care at home and in the classroom.",
-      },
-      {
-        title: "Patterned Textiles ('Machira') & Decorative Tablecloths in Shona Homes",
-        content:
-          "In Zimbabwean households, tables and study desks are frequently draped with colourful woven cloths ('jira dzvuku neritema' or 'machira emavara')—including traditional 'retso' and 'zambia' fabrics—creating an orderly, welcoming surface for reading and family study.",
-      },
-      {
-        title: "The Role of the Teacher ('Mudzidzisi') & Examination Preparation ('Bvunzo')",
-        content:
-          "In Zimbabwean primary and secondary schools, teachers ('vadzidzisi') guide students toward national ZIMSEC examinations ('bvunzo'), encouraging daily reading ('kuverenga mabhuku zuva nezuva') and collaborative study groups.",
-      },
-      {
-        title: "Class 5/6 ('ri-/ma-') Adaptation of Educational Vocabulary ('Bhuku' / 'Mabhuku')",
-        content:
-          "Shona integrates educational nouns like 'bhuku' (singular, Class 5 'bhuku iri') and 'mabhuku' (plural, Class 6 'mabhuku aya') seamlessly into Bantu concord patterns, allowing speakers to describe study materials with rich adjectival and locative precision.",
+          "Zimbabwe boasts one of the highest literacy rates in Africa, rooted in strong family and community commitment to education ('dzidzo'). Students take pride in neatly covering and organizing their exercise notebooks ('mabhuku ekunyorera') and textbooks for school study.",
       },
     ],
   },
   {
-    keywords: [
-      'kupisa',
-      'basa',
-      'kurima',
-      'munda',
-      'nzungu',
-      'gohwo',
-      'goho',
-      'chibage',
-      'mbuya',
-      'kumusha',
-      'burning',
-      'manual',
-      'labor',
-      'harvest',
-      'groundnuts',
-      'field',
+    primaryKeywords: [
+      'kuweredha',
+      'haka',
+      'makatapira',
+      'piki',
+      'mupinyi',
     ],
-    wikiTopics: ['Agriculture_in_Zimbabwe', 'Geography_of_Zimbabwe', 'Shona_people'],
     perspectives: [
       {
-        title: "Land Preparation, Firebreaks & Seasonal Field Work ('Basa reMaoko') in Zimbabwe",
+        title: "Artisanal Metalworking ('Kuweredha') & Pangolin ('Haka') Conservation in Zimbabwe",
         content:
-          "Before the summer rains arrive on the Zimbabwean plateau, rural farmers carry out intensive manual fieldwork ('basa remaoko')—clearing dry stalks, cutting firebreaks ('moto wekupisa'), and preparing ridges for planting. Controlled burning and ash fertilization ('rota') have long been regulated by traditional leaders ('masabhuku') and environmental guidelines to protect surrounding woodlands.",
-      },
-      {
-        title: "Grandmothers ('Mbuya') & Groundnut ('Nzungu') Cultivation at the Rural Home ('Kumusha')",
-        content:
-          "In Shona rural homesteads ('kumusha'), grandmothers ('mbuya') are revered custodians of agricultural knowledge, especially the cultivation of groundnuts ('nzungu'), Bambara groundnuts ('nyimo'), and sweet potatoes ('mbambaira'). Groundnuts are roasted or ground on a stone ('guyo') into rich peanut butter ('dovi').",
-      },
-      {
-        title: "Collective Work Parties ('Nhimbe' / 'Humwe') & Hard Work ('Kushanda neSimba')",
-        content:
-          "When heavy agricultural tasks arise—such as weeding, harvesting ('kukohwa goho rakanaka'), or threshing—Shona neighbours organize a 'nhimbe' (cooperative work party), sharing labour, song, and food so the work is completed swiftly together.",
-      },
-      {
-        title: 'Agricultural Proverbs & the Ethic of Diligence in Shona Culture',
-        content:
-          "Shona oral literature celebrates manual diligence ('kushanda nesimba'), teaching that a bountiful harvest ('goho rakanaka') rewards steady preparation and community cooperation ('chara chimwe hachitswanyi inda'—one finger cannot crush a louse alone).",
+          "Skilled metalworking and welding ('basa remaoko rekuweredha') is a vital trade across Zimbabwe's urban home industries (such as Gazaland and Siyaso in Harare), fabricating gates, window frames, and farm implements. In Shona natural history and tradition, the pangolin ('haka'—distinguished by its protective overlapping scales 'makwapa' and digging claws 'nzara') is a strictly protected and culturally revered animal.",
       },
     ],
   },
   {
-    keywords: [
+    primaryKeywords: [
       'mifananidzo',
-      'mufananidzo',
-      'fudzi',
-      'musikana',
-      'mukomana',
-      'munhukadzi',
-      'mukadzi',
-      'murume',
-      'pictures',
-      'tattoo',
-      'shoulder',
-      'girl',
-      'portrait',
+      'pabendekete',
     ],
-    wikiTopics: ['Art_of_Zimbabwe', 'Shona_sculpture', 'Culture_of_Zimbabwe'],
     perspectives: [
       {
-        title: "Visual Art, Portraiture ('Mifananidzo') & Contemporary Youth Expression in Zimbabwe",
+        title: "Visual Art, Portraiture ('Mifananidzo') & Contemporary Expression in Zimbabwe",
         content:
-          "In contemporary urban Zimbabwe, visual art ('mifananidzo') spans gallery painting at the National Gallery of Zimbabwe in Harare and Bulawayo, street murals, photography, and modern body art. The Shona noun 'mufananidzo' (plural 'mifananidzo', derived from '-fanana' = to resemble) refers to drawings, photographs, portraits, and symbolic emblems.",
-      },
-      {
-        title: "Historical Body Adornment ('Nyora') & Symbolic Motifs in Shona Tradition",
-        content:
-          "Historically in Shona culture, decorative skin markings ('nyora') and beadwork patterns ('chuma') carried aesthetic and lineage significance. In modern times, graphic art and symbolic portraits ('mifananidzo yakanyorwa') among young urban Zimbabweans reflect global and pan-African artistic trends.",
-      },
-      {
-        title: 'Describing Human Figures & Posture in Spoken ChiZezuru',
-        content:
-          "Spoken ChiZezuru is rich in observational detail when describing people—distinguishing age and gender terms such as 'musikana' (young woman/girl), 'mukomana' (young man/boy), 'munhukadzi' (woman), and anatomical landmarks like 'pafudzi' (on the shoulder) or 'kumeso' (on the face).",
-      },
-      {
-        title: "Morphology of 'Mufananidzo': Reciprocal & Causative Extensions on '-fana'",
-        content:
-          "The word 'mufananidzo' ('picture / image / likeness') showcases Shona's expressive derivational morphology: combining Class 3 'mu-' (or Class 4 plural 'mi-') with '-fan-an-idz-o' ('that which causes things to resemble one another').",
+          "In contemporary Zimbabwe, visual art and photography ('mifananidzo', derived from '-fanana' = to resemble) flourish across galleries and studios in Harare and Bulawayo, capturing expressive portraiture, traditional braiding styles ('zvirukwa'), and decorative artistry.",
       },
     ],
   },
 ];
 
-async function fetchWikipediaSummary(wikiTitle: string): Promise<string | null> {
-  try {
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wikiTitle)}`;
-    const body = await fetchHttpsText(url, 8000);
-    const parsed = JSON.parse(body);
-    if (typeof parsed?.extract === 'string' && parsed.extract.trim().length > 60) {
-      // Take first 2 sentences of the encyclopedic extract
-      const sents = parsed.extract.trim().split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
-      return sents;
-    }
-  } catch {}
-  return null;
-}
-
 export async function generateTextbookCulturalNotesAsync(
   shonaText: string,
   englishTranslation: string,
   lessonNumber: number,
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false
 ): Promise<CulturalNote[]> {
-  // 1. If Gemini API key is configured in .env, use Gemini to write a bespoke, well-researched cultural note
-  if (getGeminiApiKey()) {
+  // 1. If AI Mode is active (or Gemini API key is set when regenerating), use Gemini to write a brand-new, bespoke cultural note
+  if ((useAiMode || variationSeed > 0) && getGeminiApiKey()) {
     const gemOut = await callGeminiJson(
       `You are writing a cultural, historical, geographical, or ethnographic note for Lesson ${lessonNumber} of an Assimil Shona (ChiZezuru) textbook.
 Lesson Shona text: "${shonaText}"
 Lesson English translation: "${englishTranslation}"
 Variation angle: ${variationSeed}
-Write ONE deeply researched, fascinating, concrete cultural/historical/geographical/material-culture note directly relevant to the specific subject in this text (e.g. Zimbabwean customs, history, geography, flora, architecture, cuisine, grooming, material culture, or sociolinguistics).
-STRICT RULE: NEVER use generic boilerplate or filler phrases like "the speaker uses vivid ChiZezuru phrasing". Every sentence must contain real, specific cultural or historical facts about Zimbabwe and Shona life directly tied to the subject of this passage.
+
+Write ONE deeply researched, fascinating, concrete cultural/historical/geographical/sociolinguistic note directly relevant to the exact subject in this text (e.g. if the text is about a handball or football match, write about sports in Zimbabwe; if about a small shop with a low roof in hot weather, write about neighbourhood tuckshops and climate in Zimbabwe; if about shoes, braiding, farming, rivers, or family life, write specifically about that topic in Zimbabwe).
+STRICT RULES:
+- NEVER use generic boilerplate or filler phrases like "the speaker uses vivid ChiZezuru phrasing".
+- NEVER mention unrelated topics (like Bata Shoes on a house lesson).
+- Ground the cultural explanation directly in the exact theme and vocabulary of this passage.
 Return JSON: {"title": "...", "content": "..."}`
     );
     if (
@@ -1593,101 +1756,7 @@ Return JSON: {"title": "...", "content": "..."}`
     }
   }
 
-  const kb = loadTextbookKnowledge();
-  const norm = normalizeTextKey(shonaText);
-
-  // 2. When variationSeed === 0, check curated per-sentence cultural encyclopedia first
-  if (variationSeed === 0) {
-    for (const [subKey, title, content] of kb.SENTENCE_CULTURAL_NOTES) {
-      if (norm.includes(subKey.toLowerCase())) {
-        return [{ title, content }];
-      }
-    }
-  }
-
-  // 3. Match specific cultural domains using whole-word & stem tokenization (never accidental substring!)
-  const combinedTokens = new Set(
-    `${norm} ${englishTranslation.toLowerCase()}`.match(/[a-z']+/g) || []
-  );
-
-  const matchedDomains: Array<{ score: number; domain: CulturalDomainEntry }> = [];
-  for (const domain of ZIMBABWE_CULTURAL_ENCYCLOPEDIA) {
-    let score = 0;
-    for (const kw of domain.keywords) {
-      const kwClean = kw.trim().toLowerCase();
-      if (combinedTokens.has(kwClean)) {
-        score += 3;
-      } else {
-        for (const tok of combinedTokens) {
-          if (tok.length >= 5 && kwClean.length >= 5 && (tok.endsWith(kwClean) || tok.startsWith(kwClean))) {
-            score += 2;
-          }
-        }
-      }
-    }
-    if (score > 0) {
-      matchedDomains.push({ score, domain });
-    }
-  }
-
-  matchedDomains.sort((a, b) => b.score - a.score);
-
-  if (matchedDomains.length > 0) {
-    // Collect all perspectives from top matching domain(s)
-    const primaryDomain = matchedDomains[0].domain;
-    const allPerspectives = [...primaryDomain.perspectives];
-    if (matchedDomains.length > 1 && matchedDomains[1].score >= 2) {
-      allPerspectives.push(...matchedDomains[1].domain.perspectives);
-    }
-
-    // Also include curated match if present as one of the perspectives
-    for (const [subKey, title, content] of kb.SENTENCE_CULTURAL_NOTES) {
-      if (norm.includes(subKey.toLowerCase())) {
-        allPerspectives.unshift({ title, content });
-        break;
-      }
-    }
-
-    const chosenPerspective = allPerspectives[variationSeed % allPerspectives.length];
-
-    // If regenerating (variationSeed > 0) and online, enrich with live Wikipedia encyclopedic research on the matched topic
-    if (variationSeed > 0 && primaryDomain.wikiTopics.length > 0) {
-      const wikiTopic = primaryDomain.wikiTopics[variationSeed % primaryDomain.wikiTopics.length];
-      const wikiExtract = await fetchWikipediaSummary(wikiTopic);
-      if (wikiExtract && !chosenPerspective.content.includes(wikiExtract.slice(0, 30))) {
-        return [
-          {
-            title: chosenPerspective.title,
-            content: `${chosenPerspective.content}\n\nEncyclopedic Context (${wikiTopic.replace(/_/g, ' ')}): ${wikiExtract}`,
-          },
-        ];
-      }
-    }
-
-    return [chosenPerspective];
-  }
-
-  // Check if any curated note matches even when variationSeed > 0
-  for (const [subKey, title, content] of kb.SENTENCE_CULTURAL_NOTES) {
-    if (norm.includes(subKey.toLowerCase())) {
-      const wikiExtract =
-        variationSeed > 0
-          ? await fetchWikipediaSummary(
-              ['Culture_of_Zimbabwe', 'Shona_people', 'History_of_Zimbabwe', 'Geography_of_Zimbabwe'][
-                variationSeed % 4
-              ]
-            )
-          : null;
-      return [
-        {
-          title,
-          content: wikiExtract ? `${content}\n\nHistorical & Cultural Background: ${wikiExtract}` : content,
-        },
-      ];
-    }
-  }
-
-  return [];
+  return generateTextbookCulturalNotes(shonaText, englishTranslation, lessonNumber, variationSeed);
 }
 
 export function generateTextbookCulturalNotes(
@@ -1699,38 +1768,37 @@ export function generateTextbookCulturalNotes(
   const kb = loadTextbookKnowledge();
   const norm = normalizeTextKey(shonaText);
 
-  if (variationSeed === 0) {
-    for (const [subKey, title, content] of kb.SENTENCE_CULTURAL_NOTES) {
-      if (norm.includes(subKey.toLowerCase())) {
-        return [{ title, content }];
-      }
+  // 1. Check exact curated per-sentence cultural notes first
+  for (const [subKey, title, content] of kb.SENTENCE_CULTURAL_NOTES) {
+    if (norm.includes(subKey.toLowerCase())) {
+      return [{ title, content }];
     }
   }
 
-  const combinedTokens = new Set(
-    `${norm} ${englishTranslation.toLowerCase()}`.match(/[a-z']+/g) || []
-  );
-  const matchedDomains: Array<{ score: number; domain: CulturalDomainEntry }> = [];
+  // 2. Strict primary-keyword whole-word matching (no loose cross-domain matching or unrelated Wikipedia tails)
+  const shonaWords = new Set(norm.match(/[a-z']+/g) || []);
+  let bestDomain: CulturalDomainEntry | null = null;
+  let bestScore = 0;
+
   for (const domain of ZIMBABWE_CULTURAL_ENCYCLOPEDIA) {
     let score = 0;
-    for (const kw of domain.keywords) {
-      const kwClean = kw.trim().toLowerCase();
-      if (combinedTokens.has(kwClean)) score += 3;
-      else {
-        for (const tok of combinedTokens) {
-          if (tok.length >= 5 && kwClean.length >= 5 && (tok.endsWith(kwClean) || tok.startsWith(kwClean))) {
-            score += 2;
-          }
-        }
+    for (const kw of domain.primaryKeywords) {
+      if (shonaWords.has(kw.toLowerCase())) {
+        score += 4;
       }
     }
-    if (score > 0) matchedDomains.push({ score, domain });
+    if (score > bestScore) {
+      bestScore = score;
+      bestDomain = domain;
+    }
   }
-  matchedDomains.sort((a, b) => b.score - a.score);
-  if (matchedDomains.length > 0) {
-    const persp = matchedDomains[0].domain.perspectives;
+
+  // Only return a local note if there is a genuine primary keyword match (bestScore >= 4); otherwise return [] (nothing rather than an unrelated note)
+  if (bestDomain && bestScore >= 4) {
+    const persp = bestDomain.perspectives;
     return [persp[variationSeed % persp.length]];
   }
+
   return [];
 }
 
@@ -1813,9 +1881,10 @@ export async function generateContextualExercisesAsync(
   lessonNumber: number,
   grammarNotes: GrammarNote[],
   literalGloss: WordGloss[],
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false
 ): Promise<ExerciseItem[]> {
-  if (getGeminiApiKey()) {
+  if ((useAiMode || variationSeed > 0) && getGeminiApiKey()) {
     const gemOut = await callGeminiJson(
       `Create 3 varied Shona (ChiZezuru) exercises for Lesson ${lessonNumber} testing the vocabulary and grammar of this lesson on BRAND-NEW practice sentences (never asking for the already-shown translation of the lesson text).
 Lesson Shona: "${shonaText}"
@@ -1859,14 +1928,18 @@ export async function generateTextbookGrammarNotesAsync(
   shonaText: string,
   englishTranslation: string,
   lessonNumber: number,
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false
 ): Promise<GrammarNote[]> {
-  if (getGeminiApiKey()) {
+  if ((useAiMode || variationSeed > 0) && getGeminiApiKey()) {
     const gemOut = await callGeminiJson(
-      `Write 3 detailed, beginner-friendly Shona (ChiZezuru) grammar notes for Lesson ${lessonNumber}, grounded directly in the exact words and grammatical concords of this text:
+      `Write 3 detailed, lesson-specific Shona (ChiZezuru) grammar notes for Lesson ${lessonNumber}, grounded directly in the exact words, prefixes, verb tenses, and noun class concords of this text:
 Shona: "${shonaText}"
 English: "${englishTranslation}"
 Variation seed: ${variationSeed}
+STRICT RULES:
+- Every grammar note must quote and explain specific Shona words and grammatical patterns from the text above, plus clear example uses.
+- Do NOT use any generic boilerplate or placeholder text.
 Return JSON: {"grammar_notes": [{"title": "...", "content": "...", "rule": "..."}]}`
     );
     if (gemOut && Array.isArray(gemOut.grammar_notes) && gemOut.grammar_notes.length >= 3) {
@@ -1990,28 +2063,31 @@ export function calculateDifficultyScore(shonaText: string, durationSeconds: num
 export async function enrichClipObject(
   rawClip: Record<string, any>,
   lessonNumber: number,
-  variationSeed = 0
+  variationSeed = 0,
+  useAiMode = false
 ): Promise<Record<string, any>> {
   const shonaText = String(rawClip.shona_text || rawClip.transcript || '').trim();
   const durationSeconds = Number(rawClip.duration_seconds || 5.0);
 
-  const words = shonaText.split(/\s+/).filter(Boolean);
-  const literalGloss = words.map((w) => analyzeMorphemesAndClass(w));
   const { englishTranslation, dialogue } = await resolveIdiomaticTranslationAndDialogue(
     shonaText,
-    variationSeed
+    variationSeed,
+    useAiMode
   );
+  const literalGloss = dialogue.flatMap((d) => d.gloss_breakdown || []);
   const grammarNotes = await generateTextbookGrammarNotesAsync(
     shonaText,
     englishTranslation,
     lessonNumber,
-    variationSeed
+    variationSeed,
+    useAiMode
   );
   const culturalNotes = await generateTextbookCulturalNotesAsync(
     shonaText,
     englishTranslation,
     lessonNumber,
-    variationSeed
+    variationSeed,
+    useAiMode
   );
   const activeExercises = await generateContextualExercisesAsync(
     shonaText,
@@ -2019,7 +2095,8 @@ export async function enrichClipObject(
     lessonNumber,
     grammarNotes,
     literalGloss,
-    variationSeed
+    variationSeed,
+    useAiMode
   );
   const difficultyScore =
     rawClip.difficulty_score !== undefined

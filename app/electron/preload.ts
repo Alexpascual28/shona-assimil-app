@@ -30,15 +30,30 @@ contextBridge.exposeInMainWorld('electronAPI', {
     };
   },
   verifyDevPassword: (password: string) => ipcRenderer.invoke('verify-dev-password', password),
+  getAiModeStatus: () => ipcRenderer.invoke('get-ai-mode-status'),
+  verifyAndSetGeminiKey: (apiKey?: string) =>
+    ipcRenderer.invoke('verify-and-set-gemini-key', apiKey),
   removeLast50Lessons: () => ipcRenderer.invoke('remove-last-50-lessons'),
-  devFixLesson: (lessonNumber: number) => ipcRenderer.invoke('dev-fix-lesson', lessonNumber),
+  devFixLesson: (lessonNumber: number, useAiMode?: boolean) =>
+    ipcRenderer.invoke('dev-fix-lesson', { lessonNumber, useAiMode }),
   devRegenerateLesson: (lessonNumber: number) =>
     ipcRenderer.invoke('dev-regenerate-lesson', lessonNumber),
   devFindOrRecoverAudio: (lessonNumber: number) =>
     ipcRenderer.invoke('dev-find-or-recover-audio', lessonNumber),
   devRegenerateField: (
     lessonNumber: number,
-    field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
-  ) => ipcRenderer.invoke('dev-regenerate-field', { lessonNumber, field }),
+    field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises',
+    useAiMode?: boolean
+  ) => ipcRenderer.invoke('dev-regenerate-field', { lessonNumber, field, useAiMode }),
+  devRegenerateSentence: (
+    lessonNumber: number,
+    sentenceId: number,
+    useAiMode?: boolean
+  ) => ipcRenderer.invoke('dev-regenerate-sentence', { lessonNumber, sentenceId, useAiMode }),
+  devRegenerateSentenceGloss: (
+    lessonNumber: number,
+    sentenceId: number,
+    useAiMode?: boolean
+  ) => ipcRenderer.invoke('dev-regenerate-sentence-gloss', { lessonNumber, sentenceId, useAiMode }),
   isElectron: true,
 });

@@ -16,15 +16,33 @@ declare global {
         callback: (data: { lessonNumber: number; percent: number; message: string }) => void
       ) => () => void;
       verifyDevPassword?: (password: string) => Promise<boolean>;
+      getAiModeStatus?: () => Promise<{ hasKey: boolean }>;
+      verifyAndSetGeminiKey?: (
+        apiKey?: string
+      ) => Promise<{ valid: boolean; error?: string; model?: string }>;
       removeLast50Lessons?: () => Promise<Record<string, unknown> | null>;
-      devFixLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
+      devFixLesson?: (
+        lessonNumber: number,
+        useAiMode?: boolean
+      ) => Promise<Record<string, unknown> | null>;
       devRegenerateLesson?: (lessonNumber: number) => Promise<Record<string, unknown> | null>;
       devFindOrRecoverAudio?: (
         lessonNumber: number
       ) => Promise<{ status: string; course: Record<string, unknown> } | null>;
       devRegenerateField?: (
         lessonNumber: number,
-        field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises'
+        field: 'translation' | 'grammar_notes' | 'cultural_notes' | 'exercises',
+        useAiMode?: boolean
+      ) => Promise<Record<string, unknown> | null>;
+      devRegenerateSentence?: (
+        lessonNumber: number,
+        sentenceId: number,
+        useAiMode?: boolean
+      ) => Promise<Record<string, unknown> | null>;
+      devRegenerateSentenceGloss?: (
+        lessonNumber: number,
+        sentenceId: number,
+        useAiMode?: boolean
       ) => Promise<Record<string, unknown> | null>;
       isElectron?: boolean;
     };

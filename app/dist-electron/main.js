@@ -543,6 +543,12 @@ async function downloadAndEnrichFromHuggingFace(neededCount, constraints, existi
                             continue;
                         }
                     }
+                    else if (constraints.bandIdx < 6) {
+                        // Strictly respect the band's upper duration limit
+                        if (estDur > constraints.primaryMax) {
+                            continue;
+                        }
+                    }
                     rawCandidates.push({
                         clip_id: clipId,
                         shona_text: transcript,
@@ -660,26 +666,25 @@ function selectBatchByBandAndPedagogy(sourcePool, startLessonNum, numToAdd) {
         .sort(sortByPedagogyAndLength);
     const chosenPrimary = primaryList.slice(0, primaryTarget);
     const pickedIds = new Set(chosenPrimary.map((c) => c.clip_id));
-    if (chosenPrimary.length < primaryTarget) {
-        const midTarget = (primaryMin + primaryMax) / 2;
-        const fallbackLonger = sourcePool
-            .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) >= sprinkleMax)
-            .sort((a, b) => Math.abs(Number(a.duration_seconds || 0) - midTarget) -
-            Math.abs(Number(b.duration_seconds || 0) - midTarget));
-        for (const fc of fallbackLonger) {
-            if (chosenPrimary.length >= primaryTarget)
-                break;
-            chosenPrimary.push(fc);
-            pickedIds.add(fc.clip_id);
-        }
-        chosenPrimary.sort(sortByPedagogyAndLength);
-    }
     const sprinkleList = sourcePool
-        .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) < sprinkleMax)
+        .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) > 0 && Number(c.duration_seconds || 0) < sprinkleMax)
         .sort(sortByPedagogyAndLength);
     const chosenSprinkle = sprinkleList.slice(0, sprinkleTarget);
     for (const sc of chosenSprinkle)
         pickedIds.add(sc.clip_id);
+    // If primary or sprinkle is slightly short, fill strictly from clips <= primaryMax first
+    if (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
+        const compliantRem = sourcePool
+            .filter((c) => !pickedIds.has(c.clip_id) && Number(c.duration_seconds || 0) <= primaryMax)
+            .sort(sortByPedagogyAndLength);
+        for (const rem of compliantRem) {
+            if (chosenPrimary.length + chosenSprinkle.length >= numToAdd)
+                break;
+            chosenPrimary.push(rem);
+            pickedIds.add(rem.clip_id);
+        }
+        chosenPrimary.sort(sortByPedagogyAndLength);
+    }
     while (chosenPrimary.length + chosenSprinkle.length < numToAdd) {
         const rem = sourcePool.find((c) => !pickedIds.has(c.clip_id));
         if (!rem)
@@ -760,6 +765,31 @@ function persistModifiedCourse(course, modifiedLessonNum) {
                 }
                 catch { }
             }
+        }
+    }
+    // Always sync any modified lesson into the reserve pool (expansion_pool.json) so edits persist across -50 / +50 cycles
+    if (modifiedLessonNum) {
+        const modLesson = course.lessons.find((l) => Number(l.lesson_number || l.num) === Number(modifiedLessonNum));
+        if (modLesson && modLesson.clip_id) {
+            const poolLessons = loadMergedExpansionPool();
+            const cid = String(modLesson.clip_id);
+            const normText = (0, enricher_1.normalizeTextKey)(String(modLesson.shona_text || ''));
+            let foundInPool = false;
+            const updatedPool = poolLessons.map((p) => {
+                if (String(p.clip_id || '') === cid ||
+                    (normText && (0, enricher_1.normalizeTextKey)(String(p.shona_text || '')) === normText)) {
+                    foundInPool = true;
+                    return {
+                        ...p,
+                        ...modLesson,
+                    };
+                }
+                return p;
+            });
+            if (!foundInPool && (0, enricher_1.isValidZezuruTranscript)(String(modLesson.shona_text || ''))) {
+                updatedPool.push({ ...modLesson });
+            }
+            saveMergedExpansionPool(updatedPool);
         }
     }
 }
@@ -1075,16 +1105,25 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
                 (0, enricher_1.normalizeTextKey)(copy.english_translation) === (0, enricher_1.normalizeTextKey)(copy.shona_text) ||
                 !Array.isArray(copy.grammar_notes) ||
                 copy.grammar_notes.length === 0 ||
-                !Array.isArray(copy.cultural_notes) ||
-                copy.cultural_notes.length === 0 ||
                 !Array.isArray(copy.active_exercises) ||
                 copy.active_exercises.length === 0;
             const lessonNum = startLessonNum + i;
             const stepPct = 60 + Math.round(((i + 1) / numToAdd) * 32);
             emitGenerationProgress(stepPct, `Preparing Lesson ${lessonNum} (${i + 1}/${numToAdd}): verifying grammar, cultural notes & exercises...`);
-            const verifiedClip = needsEnrich
-                ? await (0, enricher_1.enrichClipObject)(copy, lessonNum, 0)
-                : copy;
+            let verifiedClip;
+            if (needsEnrich) {
+                verifiedClip = await (0, enricher_1.enrichClipObject)(copy, lessonNum, 0);
+            }
+            else {
+                if (Array.isArray(copy.dialogue) &&
+                    copy.dialogue.some((d) => !d.literal_gloss || /\b([a-zA-Z']+)\s*\[\1\]/i.test(String(d.literal_gloss)))) {
+                    copy.dialogue = await (0, enricher_1.attachPerSentenceGlossesToDialogue)(copy.dialogue);
+                }
+                if (!Array.isArray(copy.cultural_notes)) {
+                    copy.cultural_notes = [];
+                }
+                verifiedClip = copy;
+            }
             selectedBatch.push(verifiedClip);
         }
         if (cancelGenerationRequested) {
@@ -1146,10 +1185,26 @@ electron_1.ipcMain.handle('generate-more-lessons', async (_event, count = 50) =>
         return null;
     }
 });
-// Dev Mode IPC Handlers
+// Dev Mode & AI Mode IPC Handlers
 electron_1.ipcMain.handle('verify-dev-password', async (_event, passwordInput) => {
     const expected = readDevModePassword();
     return String(passwordInput || '').trim() === expected;
+});
+electron_1.ipcMain.handle('get-ai-mode-status', async () => {
+    return {
+        hasKey: Boolean((0, enricher_1.getGeminiApiKey)()),
+    };
+});
+electron_1.ipcMain.handle('verify-and-set-gemini-key', async (_event, apiKey) => {
+    try {
+        return await (0, enricher_1.verifyGeminiApiKey)(apiKey, electron_1.app.getPath('userData'));
+    }
+    catch (err) {
+        return {
+            valid: false,
+            error: String(err?.message || 'Failed to verify Gemini API key.'),
+        };
+    }
 });
 electron_1.ipcMain.handle('remove-last-50-lessons', async () => {
     try {
@@ -1205,16 +1260,20 @@ electron_1.ipcMain.handle('remove-last-50-lessons', async () => {
         return null;
     }
 });
-electron_1.ipcMain.handle('dev-fix-lesson', async (_event, lessonNumber) => {
+electron_1.ipcMain.handle('dev-fix-lesson', async (_event, payload) => {
+    const lessonNumber = typeof payload === 'number' ? payload : Number(payload?.lessonNumber);
+    const useAiMode = typeof payload === 'object' ? Boolean(payload?.useAiMode) : false;
     try {
         const { course } = loadActiveCourseObject();
         const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
         if (idx < 0)
             return null;
-        emitLessonCardProgress(lessonNumber, 25, `Re-enriching Lesson ${lessonNumber} translation, grammar & cultural notes...`);
+        emitLessonCardProgress(lessonNumber, 25, useAiMode
+            ? `AI Mode: Regenerating Lesson ${lessonNumber} with Gemini...`
+            : `Re-enriching Lesson ${lessonNumber} translation, grammar & cultural notes...`);
         const oldLesson = course.lessons[idx];
         const nextSeed = Number(oldLesson.variation_seed || 0) + 1;
-        const reEnriched = await (0, enricher_1.enrichClipObject)(oldLesson, Number(lessonNumber), nextSeed);
+        const reEnriched = await (0, enricher_1.enrichClipObject)(oldLesson, Number(lessonNumber), nextSeed, useAiMode);
         const updatedLesson = {
             ...oldLesson,
             ...reEnriched,
@@ -1295,7 +1354,8 @@ electron_1.ipcMain.handle('dev-find-or-recover-audio', async (_event, lessonNumb
 });
 electron_1.ipcMain.handle('dev-regenerate-field', async (_event, payload) => {
     try {
-        const { lessonNumber, field } = payload;
+        const { lessonNumber, field, useAiMode } = payload;
+        const aiFlag = Boolean(useAiMode);
         const { course } = loadActiveCourseObject();
         const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
         if (idx < 0)
@@ -1306,22 +1366,22 @@ electron_1.ipcMain.handle('dev-regenerate-field', async (_event, payload) => {
         const shonaText = String(lesson.shona_text || '');
         const engText = String(lesson.english_translation || '');
         if (field === 'translation') {
-            const { englishTranslation, dialogue } = await (0, enricher_1.resolveIdiomaticTranslationAndDialogue)(shonaText, nextSeed);
+            const { englishTranslation, dialogue } = await (0, enricher_1.resolveIdiomaticTranslationAndDialogue)(shonaText, nextSeed, aiFlag);
             lesson.english_translation = englishTranslation;
             lesson.dialogue = dialogue;
         }
         else if (field === 'grammar_notes') {
-            lesson.grammar_notes = await (0, enricher_1.generateTextbookGrammarNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed);
+            lesson.grammar_notes = await (0, enricher_1.generateTextbookGrammarNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed, aiFlag);
         }
         else if (field === 'cultural_notes') {
-            lesson.cultural_notes = await (0, enricher_1.generateTextbookCulturalNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed);
+            lesson.cultural_notes = await (0, enricher_1.generateTextbookCulturalNotesAsync)(shonaText, engText, Number(lessonNumber), nextSeed, aiFlag);
         }
         else if (field === 'exercises') {
             const words = shonaText.split(/\s+/).filter(Boolean);
             const gloss = Array.isArray(lesson.literal_gloss)
                 ? lesson.literal_gloss
                 : words.map((w) => (0, enricher_1.analyzeMorphemesAndClass)(w));
-            lesson.active_exercises = await (0, enricher_1.generateContextualExercisesAsync)(shonaText, engText, Number(lessonNumber), lesson.grammar_notes || [], gloss, nextSeed);
+            lesson.active_exercises = await (0, enricher_1.generateContextualExercisesAsync)(shonaText, engText, Number(lessonNumber), lesson.grammar_notes || [], gloss, nextSeed, aiFlag);
         }
         course.lessons[idx] = lesson;
         updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
@@ -1330,6 +1390,86 @@ electron_1.ipcMain.handle('dev-regenerate-field', async (_event, payload) => {
     }
     catch (err) {
         console.error('Failed in dev-regenerate-field:', err);
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-regenerate-sentence', async (_event, payload) => {
+    try {
+        const { lessonNumber, sentenceId, useAiMode } = payload;
+        const aiFlag = Boolean(useAiMode);
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+        if (idx < 0)
+            return null;
+        const lesson = course.lessons[idx];
+        const nextSeed = Number(lesson.variation_seed || 0) + 1;
+        lesson.variation_seed = nextSeed;
+        if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length === 0) {
+            return null;
+        }
+        let lineIdx = lesson.dialogue.findIndex((d) => Number(d.id) === Number(sentenceId));
+        if (lineIdx < 0) {
+            lineIdx = Math.max(0, Math.min(lesson.dialogue.length - 1, Number(sentenceId) - 1));
+        }
+        const targetLine = lesson.dialogue[lineIdx];
+        const shonaSent = String(targetLine?.shona || '').trim();
+        if (!shonaSent)
+            return null;
+        const newEnglish = await (0, enricher_1.translateShonaSentenceIdiomatic)(shonaSent, nextSeed, aiFlag, String(lesson.shona_text || ''));
+        lesson.dialogue[lineIdx] = {
+            ...targetLine,
+            english: newEnglish,
+        };
+        lesson.english_translation = lesson.dialogue
+            .map((d) => String(d.english || '').trim())
+            .filter(Boolean)
+            .join(' ');
+        course.lessons[idx] = lesson;
+        updateAffectedSevenLessonReview(course.lessons, Number(lessonNumber));
+        persistModifiedCourse(course, Number(lessonNumber));
+        return course;
+    }
+    catch (err) {
+        console.error('Failed in dev-regenerate-sentence:', err);
+        return null;
+    }
+});
+electron_1.ipcMain.handle('dev-regenerate-sentence-gloss', async (_event, payload) => {
+    try {
+        const { lessonNumber, sentenceId, useAiMode } = payload;
+        const aiFlag = Boolean(useAiMode);
+        const { course } = loadActiveCourseObject();
+        const idx = course.lessons.findIndex((l) => Number(l.lesson_number || l.num) === Number(lessonNumber));
+        if (idx < 0)
+            return null;
+        const lesson = course.lessons[idx];
+        const nextSeed = Number(lesson.variation_seed || 0) + 1;
+        lesson.variation_seed = nextSeed;
+        if (!Array.isArray(lesson.dialogue) || lesson.dialogue.length === 0) {
+            return null;
+        }
+        let lineIdx = lesson.dialogue.findIndex((d) => Number(d.id) === Number(sentenceId));
+        if (lineIdx < 0) {
+            lineIdx = Math.max(0, Math.min(lesson.dialogue.length - 1, Number(sentenceId) - 1));
+        }
+        const targetLine = lesson.dialogue[lineIdx];
+        const shonaSent = String(targetLine?.shona || '').trim();
+        const engSent = String(targetLine?.english || '').trim();
+        if (!shonaSent)
+            return null;
+        const { literal_gloss, gloss_breakdown } = await (0, enricher_1.buildSentenceWordGlossAsync)(shonaSent, engSent, aiFlag, nextSeed);
+        lesson.dialogue[lineIdx] = {
+            ...targetLine,
+            literal_gloss,
+            gloss_breakdown,
+        };
+        lesson.literal_gloss = lesson.dialogue.flatMap((d) => Array.isArray(d.gloss_breakdown) ? d.gloss_breakdown : []);
+        course.lessons[idx] = lesson;
+        persistModifiedCourse(course, Number(lessonNumber));
+        return course;
+    }
+    catch (err) {
+        console.error('Failed in dev-regenerate-sentence-gloss:', err);
         return null;
     }
 });

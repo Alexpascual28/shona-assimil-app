@@ -23,10 +23,14 @@ electron_1.contextBridge.exposeInMainWorld('electronAPI', {
         };
     },
     verifyDevPassword: (password) => electron_1.ipcRenderer.invoke('verify-dev-password', password),
+    getAiModeStatus: () => electron_1.ipcRenderer.invoke('get-ai-mode-status'),
+    verifyAndSetGeminiKey: (apiKey) => electron_1.ipcRenderer.invoke('verify-and-set-gemini-key', apiKey),
     removeLast50Lessons: () => electron_1.ipcRenderer.invoke('remove-last-50-lessons'),
-    devFixLesson: (lessonNumber) => electron_1.ipcRenderer.invoke('dev-fix-lesson', lessonNumber),
+    devFixLesson: (lessonNumber, useAiMode) => electron_1.ipcRenderer.invoke('dev-fix-lesson', { lessonNumber, useAiMode }),
     devRegenerateLesson: (lessonNumber) => electron_1.ipcRenderer.invoke('dev-regenerate-lesson', lessonNumber),
     devFindOrRecoverAudio: (lessonNumber) => electron_1.ipcRenderer.invoke('dev-find-or-recover-audio', lessonNumber),
-    devRegenerateField: (lessonNumber, field) => electron_1.ipcRenderer.invoke('dev-regenerate-field', { lessonNumber, field }),
+    devRegenerateField: (lessonNumber, field, useAiMode) => electron_1.ipcRenderer.invoke('dev-regenerate-field', { lessonNumber, field, useAiMode }),
+    devRegenerateSentence: (lessonNumber, sentenceId, useAiMode) => electron_1.ipcRenderer.invoke('dev-regenerate-sentence', { lessonNumber, sentenceId, useAiMode }),
+    devRegenerateSentenceGloss: (lessonNumber, sentenceId, useAiMode) => electron_1.ipcRenderer.invoke('dev-regenerate-sentence-gloss', { lessonNumber, sentenceId, useAiMode }),
     isElectron: true,
 });
